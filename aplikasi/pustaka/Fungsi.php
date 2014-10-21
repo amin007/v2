@@ -580,6 +580,7 @@ function kira3($kira,$n)
 {
 	return str_pad($kira,$n,'0',STR_PAD_LEFT);
 }
+
 function huruf($jenis, $papar) 
 {
     /*
