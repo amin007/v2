@@ -129,20 +129,20 @@ function cariMedanInput($ubah,$f,$row,$nama)
 	$f = nombor medan
 	$row = data medan
 	$nama = nama medan 
-  */// papar medan yang terlibat
+  */# papar medan yang terlibat
  
 	$cariMedan = array(0,1,2,3,4,5,6,8);
-	$cariText = array(0); // papar jika nota ada
-	$cariMsic = array(8); // papar input text msic sahaja 
+	$cariText = array(0); # papar jika nota ada
+	$cariMsic = array(8); # papar input text msic sahaja 
 	$namaM = $ubah .'[' . $nama . ']';
 		
-	// tentukan medan yang ada input
+	# tentukan medan yang ada input
 	$input=in_array($f,$cariMedan)? 
-	(@in_array($f,$cariMsic)? // tentukan medan yang ada msic
+	(@in_array($f,$cariMsic)? # tentukan medan yang ada msic
 		'<input type="text" name="' . $namaM . '" value="' . $row[$f] . '" size=6>'
-		:(@in_array($f,$cariText)? // tentukan medan yang ada input textarea
+		:(@in_array($f,$cariText)? # tentukan medan yang ada input textarea
 			'<textarea name="' . $namaM . '" rows=2 cols=23>' . $row[$f] . '</textarea>'
-			: // tentukan medan yang bukan input textarea
+			: # tentukan medan yang bukan input textarea
 			'<input type="text" name="' . $namaM . '" value="' . $row[$f] . '" size=30>'
 		)
 	):'<label class="papan">' . $row[$f] . '</label>';
