@@ -49,13 +49,18 @@
 			<br><br>
 			Sekian Terima Kasih. Wasalam</p>
 		</div>
-		<div class="span1"><?php
-/*
+		<div class="span1"><?php 
+$namaServer = $_SERVER['SERVER_NAME'];
+if (($namaServer=='localhost') || ($namaServer=='sidapmuar') ):
+	echo null;
+else:?>
 		<!-- nuffnang -->
 		<script type="text/javascript">nuffnang_bid = "2bb5639c70db0006532074b0c35f4b93";</script>
 		<script type="text/javascript" src="http://synad2.nuffnang.com.my/lmn.js"></script>
 		<!-- nuffnang-->
-*/?>
+<?php
+endif;
+?>
 		</div>
 	</div>
     </div>
