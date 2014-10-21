@@ -308,21 +308,7 @@ function ubahMedanSesi($myTable, $nama, $jenis, $data)
 		
 	if ($nama == 'level')
 	{
-		/*
-		$papar = '<select ' . $namaMedan . '>';
-		$senaraiPengguna= array('baru');
-		
-		foreach ($senaraiPengguna as $key => $value)
-		{
-			$papar .= '<option value="' . $value . '"';
-			$papar .= ($value == $data) ? ' selected >' : '>';
-			$papar .= ucfirst(strtolower($value));
-			$papar .= '</option>';
-		}
-		$papar .= '</select>';
-		*/
 		$papar = null;
-
 	}
 	elseif ($nama == 'jantina')
 	{
