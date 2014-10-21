@@ -114,6 +114,13 @@ function bulanan($jenis, $t)
 	return $bulan;
 }
 
+function dptNamaHari($tarikh)
+{
+	$hb = date('w', strtotime($tarikh)); // w = cari key dalam tarikh
+	$namaHari = array_search($hb,bulanan('key_nama_harian', null)); // papar nama hari
+	return $namaHari;
+}
+
 function pecah_post()
 {
 	$papar['pilih'] = isset($_POST['pilih']) ? $_POST['pilih'] : null;
