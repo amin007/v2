@@ -128,13 +128,8 @@ function cariMedanInput($ubah,$f,$row,$nama)
 	$ubah = nama jadual
 	$f = nombor medan
 	$row = data medan
-	$nama = nama medan
-	
-	senarai nama medan
-	0-nota,1-respon,2-fe,3-tel,4-fax,		
-	5-responden,6-email,7-msic,8-msic08,
-	9-`id U M`,10-nama,11-sidap,12-status 
- */// papar medan yang terlibat
+	$nama = nama medan 
+  */// papar medan yang terlibat
  
 	$cariMedan = array(0,1,2,3,4,5,6,8);
 	$cariText = array(0); // papar jika nota ada
