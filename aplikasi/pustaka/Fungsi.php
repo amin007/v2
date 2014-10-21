@@ -582,24 +582,28 @@ function kira3($kira,$n)
 }
 function huruf($jenis , $papar) 
 {
-	/*
-	$_POST[$jadual]['respon']=strtoupper($_POST[$jadual]['respon']);
-	$_POST[$jadual]['fe']=strtolower($_POST[$jadual]['fe']);
-	$_POST[$jadual]['responden']=mb_convert_case($_POST[$jadual]['responden'], MB_CASE_TITLE);
-	*/
-	
-	switch ($jenis) 
-	{// mula - pilih $jenis
-	case "BESAR":
-		$papar = strtoupper($papar);
-		break;
-	case "kecil":
-		$papar = strtolower($papar);
-		break;
-	case "Besar_Depan":
-		$papar = mb_convert_case($papar, MB_CASE_TITLE);
-		break;
-	}// tamat - pilih $jenis
+    /*
+		huruf('BESAR', )
+		huruf('kecil', )
+		huruf('Depan', )
+		huruf('Besar_Depan', )
+    */
+    
+    switch ($jenis) 
+    {// mula - pilih $jenis
+    case 'BESAR':
+        $papar = strtoupper($papar);
+        break;
+    case 'kecil':
+        $papar = strtolower($papar);
+        break;
+    case 'Depan':
+        $papar = ucfrist($papar);
+        break;
+    case 'Besar_Depan':
+        $papar = mb_convert_case($papar, MB_CASE_TITLE);
+        break;
+    }// tamat - pilih $jenis
 	
 	return $papar;
 
