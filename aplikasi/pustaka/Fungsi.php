@@ -554,9 +554,9 @@ function kira3($kira,$n)
 function huruf($jenis , $papar) 
 {
 	/*
-	$_POST['mdt_rangka']['respon']=strtoupper($_POST['mdt_rangka']['respon']);
-	$_POST['mdt_rangka']['fe']=strtolower($_POST['mdt_rangka']['fe']);
-	$_POST['mdt_rangka']['responden']=mb_convert_case($_POST['mdt_rangka']['responden'], MB_CASE_TITLE);
+	$_POST[$jadual]['respon']=strtoupper($_POST[$jadual]['respon']);
+	$_POST[$jadual]['fe']=strtolower($_POST[$jadual]['fe']);
+	$_POST[$jadual]['responden']=mb_convert_case($_POST[$jadual]['responden'], MB_CASE_TITLE);
 	*/
 	
 	switch ($jenis) 
