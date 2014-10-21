@@ -68,43 +68,7 @@ function dpt_senarai($namajadual)
 		'msic2000','msic2000_notakaki');
 	elseif ($namajadual=='produk')
 		$jadual = array('kodproduk_aup',
-		'kodproduk_mei2011'
-		/*'kodproduk_unitkuantiti'*/);
-	elseif ($namajadual=='syarikat')
-	{
-		$t = 12;
-		$jadual = array('kawal_icdt'.$t,
-		'5p_icdt'.$t,'rangka_icdt'.$t,
-		'alamat_icdt'.$t);
-	}
-	elseif ($namajadual=='kawalan_tahunan')
-	{
-		$jadual[] = 'kawal_ppmas09';
-		$jadual[] = 'kawal_rpe09';
-		$jadual[] = 'kawal_tani09';
-		$jadual[] = 'sse08_rangka';
-		$jadual[] = 'sse09_buat';
-		$jadual[] = 'sse09_ppt';
-		$jadual[] = 'sse10_kawal';
-	}
-	elseif ($namajadual=='prosesan')
-	{
-        $jadual = array('tblprofpert',
-        'tblprofpert_2009',
-        'tblprofpert_2010');
-	}
-	elseif ($namajadual=='data_prosesan')
-        $jadual = array('tblemp',
-		'tblframe',
-		'tblmisc',
-		'tblorder',
-		'tblprodsale',
-		'tblprofpert',
-		'tblstock',
-		);
-
-	elseif ($namajadual=='johor')
-		$jadual = array('johor');
+		'kodproduk_mei2011');
 	
 	
 	return $jadual;
