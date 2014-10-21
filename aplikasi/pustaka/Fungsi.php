@@ -70,8 +70,48 @@ function dpt_senarai($namajadual)
 		$jadual = array('kodproduk_aup',
 		'kodproduk_mei2011');
 	
-	
 	return $jadual;
+}
+
+function bulanan($jenis, $t)
+{    
+    if ($jenis=='kawalan') // $t = '12' , tahun
+        $bulan = array('rangka'.$t,
+        'jan'.$t, 'feb'.$t, 'mac'.$t, 'apr'.$t, 
+        'mei'.$t, 'jun'.$t, 'jul'.$t, 'ogo'.$t, 
+        'sep'.$t, 'okt'.$t, 'nov'.$t, 'dis'.$t);
+    elseif ($jenis=='data_bulanan') 
+        $bulan = array(
+        'jan'.$t, 'feb'.$t, 'mac'.$t, 'apr'.$t, 
+        'mei'.$t, 'jun'.$t, 'jul'.$t, 'ogo'.$t, 
+        'sep'.$t, 'okt'.$t, 'nov'.$t, 'dis'.$t);
+    elseif ($jenis=='nama_bulan') 
+        $bulan = array(
+        'jan', 'feb', 'mac', 'apr', 
+        'mei', 'jun', 'jul', 'ogo', 
+        'sep', 'okt', 'nov', 'dis');
+    elseif ($jenis=='key_nama_bulan') 
+        $bulan = array(
+        'jan' => 0, 'feb' => 1, 'mac' => 2, 'apr' => 3, 
+        'mei' => 4, 'jun' => 5, 'jul' => 6, 'ogo' => 7, 
+        'sep' => 8, 'okt' => 9, 'nov' =>10, 'dis' =>11);
+    elseif ($jenis=='bulan_penuh')
+        $bulan = array('Januari', 'Februari', 'Mac', 'April', 
+        'Mei', 'Jun', 'Julai', 'Ogos', 
+        'September', 'Oktober', 'November', 'Disember');
+   elseif ($jenis=='key_bulan_penuh')
+        $bulan = array('Januari' => 0, 'Februari' => 1, 'Mac' => 2, 'April' => 3, 
+        'Mei' => 4, 'Jun' => 5, 'Julai' => 6, 'Ogos' => 7, 
+        'September' => 8, 'Oktober' => 9, 'November' => 10, 'Disember' => 11);
+	elseif ($jenis=='nama_harian')
+		$bulan = array('Ahad','Isnin','Selasa','Rabu',
+		'Khamis','Jumaat','Sabtu');
+	elseif ($jenis=='key_nama_harian')
+		$bulan = array('Ahad' => 0,'Isnin' => 1,'Selasa' => 2,'Rabu' => 3,
+		'Khamis' => 4,'Jumaat' => 5,'Sabtu' => 6);
+    //elseif ($jenis=='') $bulan = array();
+	# pulangkan nilai $bulan
+	return $bulan;
 }
 
 function pecah_post()
