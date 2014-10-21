@@ -123,6 +123,7 @@ function keterangan_medan($key)
 	
 	return 'Ini tentang ' . $papar;
 }
+
 function cariMedanInput($ubah,$f,$row,$nama) 
 {/* mula -
 	$ubah = nama jadual
