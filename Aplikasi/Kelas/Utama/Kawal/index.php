@@ -13,14 +13,15 @@ class Index extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}
 ##------------------------------------------------------------------------------------------
-	public function index()
+	public function index($tajuk = 'Tentang Amin007')
 	{
 		# Set pemboleubah utama
-		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 
 		# Pergi papar kandungan
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
-		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+		$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
 ##------------------------------------------------------------------------------------------
 	public function paparKandungan($folder, $fail, $noInclude)
