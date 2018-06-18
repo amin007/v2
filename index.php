@@ -5,7 +5,7 @@
  * 1. laporan tahap kesilapan kod PHP 
  * 2. zon masa kita pada Asia/Kuala Lumpur
  * 3. setkan tatarajah sistem
- * 4. masukkan semua fail class dari folder PUSTAKA
+ * 4. masukkan semua fail class dari folder Aplikasi/Kelas
  * 5. istihar class Mulakan
  */
 # 1. laporan tahap kesilapan kod PHP 
@@ -17,12 +17,33 @@ date_default_timezone_set('Asia/Kuala_Lumpur');
 # 3. setkan tatarajah sistem
 require 'tatarajah.php';
 
-# 4. masukkan semua fail class dari folder PUSTAKA
-#    also spl_autoload_register (Take a look at it if you like)
-function __autoload($class) 
+/* 4. masukkan semua fail class dari folder Aplikasi/Class
+** URL : http://www.php-fig.org/psr/psr-4/examples/
+** Contoh pelaksanaan projek khusus.
+**
+** @param string $class nama class yang sebenar tanpa namespace.
+** @return void
+**/
+spl_autoload_register(function ($namaClass)
 {
-	require PUSTAKA . $class . '.php';
-}
+	# buat pecahan tatasusunan $namaClass
+	$class = explode('\\', $namaClass); //print_r($class) . '<br>';
+	# semak kewujudan class
+	//echo '<hr>nama class:' . $class[count($class)-1] . ' | ';
+	$cariFail = GetMatchingFiles(GetContents('Aplikasi/Kelas'),$class[count($class)-1] . '.php');
+	# jika fail wujud, masukkan
+	foreach($cariFail as $kitabApa)
+	{	//echo '$kitabApa->' . $kitabApa . '<br>';
+		if (file_exists($kitabApa)) require $kitabApa;
+		//else echo 'tidak jumpa daa<br>';
+	}//*/
+});
 
-# 5. istihar class Mulakan
-$aplikasi = new Mulakan();
+/* 5. istihar class
+** Selepas mendaftar fungsi autoload ini dengan SPL, baris berikut
+** akan menyebabkan fungsi untuk cuba untuk memuatkan kelas \Foo\Bar\Baz\Qux
+** dari /path/to/project/src/Baz/Qux.php:
+**
+**      new \Foo\Bar\Baz\Qux;
+**/
+$aplikasi = new \Aplikasi\Kitab\Mulakan();
