@@ -2,14 +2,14 @@
     <div class="row">
     <div class="span12">
     <h1 style="text-align:center;background-color:white;">Tentang Amin007<img 
-	src="<?php echo GAMBAR ?>bg/logo/amin007_hijau.jpg" alt="logo" 
+	src="http://via.placeholder.com/93x101" alt="logo"
 	width="93" height="101"></h1>
 	<br>
 	<div class="row">
-		<div class="span3"><img 
-		src="<?php echo GAMBAR ?>bg/jpg/amin.jpg" width="290" height="422" alt="gambar saya">
+		<div class="col-sm-3"><img src="sumber/gambar/placeimg_290_422_any.jpg"
+		width="290" height="422" alt="gambar saya">
 		</div>
-		<div class="span7" style="background-color:white;text-align:justify;">
+		<div class="col-sm-7" style="background-color:white;text-align:justify;">
 			<h2>&nbsp;Assalamualaikum &amp; Selamat Datang Ke <br> Dunia Imaginasi Saya</h2>
 			<p>Nama saya Amin, berasal dari muar, johor. 
 			Laman web ini menceritakan tentang <b>Dunia Imaginasi Saya </b>dimana
@@ -31,11 +31,6 @@
 			Tapi minat saya cenderung kepada komputer sebab ia memudahkan apa-apa ilham dari 
 			kepala dipaparkan terus ke monitor &amp; boleh dicetak.
 			<br><br>
-			<a target="_blank" style="font-size: 20pt; text-decoration: overline underline; background-color: #000000" 
-			href="http://www.jangkaan.name.my/blog/">Jangkaan Amin007</a> adalah blog saya yang lain pula.
-			Saya harap anda berilah komen yang membina agar saya akan paparkan pada umum.
-			setakat ini topik blog meliputi diri sendiri, tutorial php, ekonomi, cinta, agama, politik dan sebagainya. 
-			<br><br>
 			Ialah, kalau dah baca buku banyak-banyak, saya rasa nak menulis pulak :D
 			Jadi saya jadikan blog sebagai pemulaan penulisan saya. mungkin satu hari nanti saya
 			akan pecahkan topik-topik berkaitan menjadi satu blog yang fokus pada topik tertentu.
@@ -49,7 +44,7 @@
 			<br><br>
 			Sekian Terima Kasih. Wasalam</p>
 		</div>
-		<div class="span1"><?php 
+		<div class="col-sm-1"><?php
 $namaServer = $_SERVER['SERVER_NAME'];
 if (($namaServer=='localhost') || ($namaServer=='sidapmuar') ):
 	echo null;
