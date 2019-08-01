@@ -1,7 +1,7 @@
 <div class="container">
 <div class="row">
-	<div class="span12">
-		<h1 style="text-align:center;background-color:white;">Tentang Amin007<img
+<div class="col">
+	<h1 style="text-align:center;background-color:white;">Tentang Amin007<img
 		src="http://via.placeholder.com/93x101" alt="logo"
 		width="93" height="101"></h1>
 	<br>
@@ -43,7 +43,7 @@
 			akan cuba kemaskini kandungan ni dari semasa ke semasa.
 			<br><br>
 			Sekian Terima Kasih. Wasalam</p>
-		</div>
+		</div><!-- / class="col-sm-7" -->
 		<div class="col-sm-1"><?php
 $namaServer = $_SERVER['SERVER_NAME'];
 if (($namaServer=='localhost') || ($namaServer=='sidapmuar') ):
@@ -56,8 +56,8 @@ else:?>
 <?php
 endif;
 ?>
-		</div>
-	</div>
-    </div>
-    </div>
-</div>
+		</div><!-- / class="col-sm-1" -->
+	</div><!-- / class="row" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+</div><!-- / class="container" -->
