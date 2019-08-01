@@ -10,7 +10,7 @@
 		width="290" height="422" alt="gambar saya">
 		</div>
 		<div class="col-sm-7" style="background-color:white;text-align:justify;">
-			<h2>&nbsp;Assalamualaikum &amp; Selamat Datang Ke <br> Dunia Imaginasi Saya</h2>
+			<h2>Assalamualaikum &amp; Selamat Datang Ke <br> Dunia Imaginasi Saya</h2>
 			<p>Nama saya Amin, berasal dari muar, johor. 
 			Laman web ini menceritakan tentang <b>Dunia Imaginasi Saya </b>dimana
 			saya akan paparkan kepada anda semua biodata saya, gambar-gambar saya, 
