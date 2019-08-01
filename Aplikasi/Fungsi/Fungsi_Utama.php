@@ -29,26 +29,26 @@ function namaClass($ini)
 }
 #------------------------------------------------------------------------------------------
 # lisfile2 - mula
-function GetMatchingFiles($files, $search) 
+function GetMatchingFiles($files, $search)
 {
 	if($files==false):
 		return false;
 	else:
 		# Split to name and filetype
-		if(strpos($search,".")) 
+		if(strpos($search,"."))
 		{
 			$baseexp = substr($search,0,strpos($search,"."));
 			$typeexp = substr($search,strpos($search,".")+1,strlen($search));
-		} 
-		else 
-		{ 
+		}
+		else
+		{
 			$baseexp = $search;
 			$typeexp = "";
-		} 
+		}
 
-		# Escape all regexp Characters 
-		$baseexp = preg_quote($baseexp); 
-		$typeexp = preg_quote($typeexp); 
+		# Escape all regexp Characters
+		$baseexp = preg_quote($baseexp);
+		$typeexp = preg_quote($typeexp);
 
 		# Allow ? and *
 		$baseexp = str_replace(array("\*","\?"), array(".*","."), $baseexp);
@@ -57,22 +57,22 @@ function GetMatchingFiles($files, $search)
 		# Search for Matches
 		$i = 0;
 		$matches = null; # $matches adalah array()
-		foreach($files as $file) 
+		foreach($files as $file)
 		{
 			$filename = basename($file);
-				  
-			if(strpos($filename,".")) 
+
+			if(strpos($filename,"."))
 			{
 				$base = substr($filename,0,strpos($filename,"."));
 				$type = substr($filename,strpos($filename,".")+1,strlen($filename));
-			} 
-			else 
-			{ 
+			}
+			else
+			{
 				$base = $filename;
 				$type = "";
 			}
 
-			if(preg_match("/^".$baseexp."$/i",$base) && preg_match("/^".$typeexp."$/i",$type))  
+			if(preg_match("/^".$baseexp."$/i",$base) && preg_match("/^".$typeexp."$/i",$type))
 			{
 				$matches[$i]=$file;
 				$i++;
@@ -84,14 +84,14 @@ function GetMatchingFiles($files, $search)
 }
 #------------------------------------------------------------------------------------------
 # Returns all Files contained in given dir, including subdirs
-function GetContents($dir,$files=array()) 
+function GetContents($dir,$files=array())
 {
 	//if(!($res=opendir($dir))): exit("folder $dir tidak wujud!!!");
 	if(!($res=@opendir($dir))): exit(\Aplikasi\Kitab\Mulakan::folderPaparTidakWujud());
 	else:
-		while(($file=readdir($res))==TRUE) 
+		while(($file=readdir($res))==TRUE)
 		if($file!="." && $file!="..")
-			if(is_dir("$dir/$file")) 
+			if(is_dir("$dir/$file"))
 				$files=GetContents("$dir/$file",$files);
 			else array_push($files,"$dir/$file");
 
