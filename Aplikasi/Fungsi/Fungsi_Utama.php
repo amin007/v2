@@ -1,5 +1,6 @@
 <?php
 //namespace Aplikasi\Kitab; //echo __NAMESPACE__; 
+#------------------------------------------------------------------------------------------
 function dpt_url()
 {
 	$url = isset($_GET['url']) ? $_GET['url'] : null;
@@ -9,7 +10,7 @@ function dpt_url()
 
 	return $url;
 }
-
+#------------------------------------------------------------------------------------------
 function dpt_url_xfilter()
 {
 	$url = isset($_GET['url']) ? $_GET['url'] : null;
@@ -19,14 +20,14 @@ function dpt_url_xfilter()
 
 	return $url;
 }
-
+#------------------------------------------------------------------------------------------
 function namaClass($ini)
 {	# $ini merujuk kepada $this->
 	$class = explode('\\',get_class($ini));
 
 	return $class[2];
 }
-
+#------------------------------------------------------------------------------------------
 # lisfile2 - mula
 function GetMatchingFiles($files, $search) 
 {
@@ -81,7 +82,7 @@ function GetMatchingFiles($files, $search)
 		return $matches;
 	endif;
 }
-
+#------------------------------------------------------------------------------------------
 # Returns all Files contained in given dir, including subdirs
 function GetContents($dir,$files=array()) 
 {
@@ -99,3 +100,4 @@ function GetContents($dir,$files=array())
 	endif;
 }
 # listfile2 - tamat
+#------------------------------------------------------------------------------------------
