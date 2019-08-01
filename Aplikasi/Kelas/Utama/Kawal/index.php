@@ -26,7 +26,7 @@ class Index extends \Aplikasi\Kitab\Kawal
 ##------------------------------------------------------------------------------------------
 	public function paparKandungan($folder, $fail, $noInclude)
 	{
-		$jenis = $this->papar->pilihTemplate($template=0);
+		$jenis = $this->papar->pilihTemplate($template=431);
 		$this->papar->bacaTemplate(
 		//$this->papar->paparTemplate(
 			$this->_folder . '/' . $fail, $jenis, $noInclude); # $noInclude=0
