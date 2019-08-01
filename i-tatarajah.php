@@ -21,6 +21,11 @@ define('Tajuk_Muka_Surat', '***');
 $bootstrapCSS_cdn = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css';
  $ceruleanCSS_cdn = 'https://maxcdn.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css';
  $fontawesome_cdn = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+## 431
+ $bootstrapJS_431 = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js';
+$bootstrapCSS_431 = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+ $ceruleanCSS_431 = 'https://maxcdn.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css';
+ $fontawesome_510 = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
 ## local
             $sumber = 'sumber/utama/';
       $jquery_local = $sumber . 'jquery/jquery-2.2.3.min.js';
@@ -66,6 +71,9 @@ else
 	define('FONTAWESOME', $fontawesome_local);
 	define('BOOTSTRAPJS', $bootstrapJS_local);
 	define('BOOTSTRAPCSS', $bootstrapCSS_local);
+	define('BOOTSTRAPJS431', $bootstrapJS_431);
+	define('BOOTSTRAPCSS431', $bootstrapCSS_431);
+	define('FONTAWESOME510', $fontawesome_510);
 }
 //echo DB_HOST . "," . DB_USER . "," . DB_PASS . ",," . DB_NAME . "<br>";
 ############################################################################################
