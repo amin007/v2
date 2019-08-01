@@ -7,6 +7,7 @@ define('KITAB', 'Aplikasi/Kelas/Kitab');
 define('FUNGSI', 'Aplikasi/Fungsi');
 
 # Fungsi Global
+require FUNGSI . '/Fungsi_Utama.php';
 require FUNGSI . '/Fungsi.php';
 
 # Sentiasa menyediakan garis condong di belakang (/) pada hujung jalan
