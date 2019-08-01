@@ -1,9 +1,9 @@
 <div class="container">
-    <div class="row">
-    <div class="span12">
-    <h1 style="text-align:center;background-color:white;">Tentang Amin007<img 
-	src="http://via.placeholder.com/93x101" alt="logo"
-	width="93" height="101"></h1>
+<div class="row">
+	<div class="span12">
+		<h1 style="text-align:center;background-color:white;">Tentang Amin007<img
+		src="http://via.placeholder.com/93x101" alt="logo"
+		width="93" height="101"></h1>
 	<br>
 	<div class="row">
 		<div class="col-sm-3"><img src="sumber/gambar/placeimg_290_422_any.jpg"
@@ -59,5 +59,5 @@ endif;
 		</div>
 	</div>
     </div>
-    </div>	
+    </div>
 </div>
