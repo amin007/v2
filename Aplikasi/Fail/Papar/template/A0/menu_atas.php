@@ -1,4 +1,4 @@
-<!-- menu_atas.php A0 --><?php 
+<!-- menu_atas.php A0 --><?php
 /*$sesi = \Aplikasi\Kitab\Sesi::init();
 //echo '<pre>MENU_ATAS - $_SESSION:', print_r($_SESSION, 1) . '</pre><br>';
 # set pembolehubah
