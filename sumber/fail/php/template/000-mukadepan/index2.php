@@ -136,6 +136,7 @@ table.excel tbody td
 	<div class="form-group">
 		<div class="btn btn-dark btn-block text-white"> Dengar Lagu <i class='fas fa-headphones'></i></div>
 		<div class="btn btn-primary btn-block text-white">Login dari Facebook <i class='fab fa-facebook'></i></div>
+		<div class="btn btn-secondary btn-block text-white">Login dari Twitter <i class='fab fa-twitter-square'></i></div>
 	</div><!-- / class="form-group" -->
 </form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
