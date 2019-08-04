@@ -134,7 +134,7 @@ table.excel tbody td
 		<input type="submit" class="btn btn-primary btn-block" value="Hantar">
 	</div><!-- / class="form-group" -->
 	<div class="form-group">
-		<div class="btn btn-primary btn-block text-white">Login dari Facebook</div>
+		<div class="btn btn-primary btn-block text-white">Login dari Facebook<i class="fa fa-facebook-square"></i></div>
 	</div><!-- / class="form-group" -->
 </form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
