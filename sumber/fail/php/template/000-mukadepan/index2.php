@@ -145,6 +145,10 @@ table.excel tbody td
 	<div class="form-group">
 		<input type="submit" class="btn btn-primary btn-block" value="Hantar">
 	</div><!-- / class="form-group" -->
+	<div class="form-group">
+		<div class="btn btn-dark btn-block text-white"> Dengar Lagu <i class="fas fa-headphones"></i></div>
+		<a class="btn btn-dark btn-block text-white" href="https://www.w3schools.com/icons/">Rujukan Icon</a>
+	</div><!-- / class="form-group" -->
 </form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div>
