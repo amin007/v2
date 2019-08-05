@@ -74,7 +74,7 @@ table.excel tbody td
 		<a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Login</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" id="daftar-tab" data-toggle="tab" href="#daftar" role="tab" aria-controls="daftar" aria-selected="false">Daftar</a>
+		<a class="nav-link" id="sebutharga-tab" data-toggle="tab" href="#sebutharga" role="tab" aria-controls="sebutharga" aria-selected="false">Sebut Harga</a>
 	</li>
 	</ul>
 	<div class="tab-content" id="myTabContent">
@@ -152,7 +152,7 @@ table.excel tbody td
 </form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div>
-		<div class="tab-pane fade" id="daftar" role="tabpanel" aria-labelledby="daftar-tab">
+		<div class="tab-pane fade" id="sebutharga" role="tabpanel" aria-labelledby="sebutharga-tab">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <br><form>
 	<div class="form-group">
