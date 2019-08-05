@@ -116,6 +116,18 @@ table.excel tbody td
 		<div class="tab-pane fade" id="login" role="tabpanel" aria-labelledby="login-tab">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <br><form>
+	<div class="p-3 mb-2 bg-transparent text-dark">
+		<i class="fa fa-bicycle" style="font-size:50px"></i>
+	</div><!-- / class="p-3 mb-2 bg-transparent text-dark" -->
+	<div class="form-group">
+		<div class="btn btn-secondary btn-block text-white">Login dari Facebook <i class="fab fa-facebook"></i></div>
+		<div class="btn btn-secondary btn-block text-white">Login dari Github <i class="fab fa-github"></i></div>
+		<div class="btn btn-secondary btn-block text-white">Login dari Google <i class='fab fa-google'></i></div>
+		<div class="btn btn-secondary btn-block text-white">Login dari Twitter <i class="fab fa-twitter-square"></i></div>
+	</div><!-- / class="form-group" -->
+	<div class="form-group">
+		<label class="border border-dark btn-block">Atau/Or</label>
+	</div><!-- / class="form-group" -->
 	<div class="form-group">
 		<label for="exampleInputEmail1">Email</label>
 		<input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Email">
@@ -132,12 +144,6 @@ table.excel tbody td
 	</div>
 	<div class="form-group">
 		<input type="submit" class="btn btn-primary btn-block" value="Hantar">
-	</div><!-- / class="form-group" -->
-	<div class="form-group">
-		<div class="btn btn-dark btn-block text-white"> Dengar Lagu <i class="fas fa-headphones"></i></div>
-		<div class="btn btn-secondary btn-block text-white">Login dari Facebook <i class="fab fa-facebook"></i></div>
-		<div class="btn btn-secondary btn-block text-white">Login dari Twitter <i class="fab fa-twitter-square"></i></div>
-		<div class="btn btn-secondary btn-block text-white">Login dari Github <i class="fab fa-github"></i></div>
 	</div><!-- / class="form-group" -->
 </form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
