@@ -15,7 +15,7 @@ html, body {
 	height: 100%;
 	background: url("https://cdn.nohat.cc/thumb/f/720/4530650874904576.jpg")
 	/*background: url("https://cdn.pixabay.com/photo/2015/09/04/19/32/landscape-922581_960_720.png")*/
-	no-repeat center center fixed;background-size: cover;;
+	no-repeat center center fixed;background-size: cover;
 }
 body {
 	margin: 0;
