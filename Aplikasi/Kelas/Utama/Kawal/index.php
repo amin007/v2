@@ -42,6 +42,7 @@ class Index extends \Aplikasi\Kitab\Kawal
 		//exit;
 	}
 #==========================================================================================
+#------------------------------------------------------------------------------------------
 	public function index2($tajuk = 'Tentang Amin007') 
 	{	
 		# Set pemboleubah utama
@@ -54,5 +55,6 @@ class Index extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
+#------------------------------------------------------------------------------------------
 #==========================================================================================
 }
