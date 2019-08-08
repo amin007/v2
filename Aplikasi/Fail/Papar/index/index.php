@@ -6,7 +6,11 @@
 		width="93" height="101"></h1>
 	<br>
 	<div class="row">
-		<div class="col-sm-3"><img src="sumber/gambar/placeimg_290_422_any.jpg"
+		<div class="col-sm-3">
+		<a  class="bg-secondary text-white" href="<?php echo URL ?>index/privasi/">
+			Dasar Privasi / Privacy Policy
+		</a>
+		<img src="sumber/gambar/placeimg_290_422_any.jpg"
 		width="290" height="422" alt="gambar saya">
 		</div>
 		<div class="col-sm-7" style="background-color:white;text-align:justify;">
