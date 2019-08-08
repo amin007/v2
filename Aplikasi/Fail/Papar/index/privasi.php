@@ -32,8 +32,8 @@ Kuki di <a class="bg-secondary text-white">amin007.org</a> digunakan oleh pihak 
 	</li>
 	</ul>
 <p>Selain itu, kami menggunakan kuki untuk mengumpul statistik pelawat dan ini membantu kami memperbaiki laman web kami.</p>
-<p>Google Analytics - Kami menggunakan Google Analytics untuk melayari pengunjung dan statistik trafik laman web.
-Ia mungkin mengumpul lokasi pelawat, IP atau sebarang maklumat lain. Dasar Privasi Google Analytics dimiliki oleh Google.
+<p><span class="bg-warning">Google Analytics</span> - Kami menggunakan <span class="bg-warning">Google Analytics</span> untuk melayari pengunjung dan statistik trafik laman web.
+Ia mungkin mengumpul lokasi pelawat, IP atau sebarang maklumat lain. Dasar Privasi <span class="bg-warning">Google Analytics</span> dimiliki oleh Google.
 </p>
 
 <b>Penerimaan Dasar Privasi anda:</b>
