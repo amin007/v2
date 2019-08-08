@@ -170,12 +170,11 @@ table.excel tbody td
 </div><!-- / class="kotakTengah" -->
 </div><!-- / class="kotakAtas" -->
 
+<!-- Footer
+================================================== -->
 <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
 	<a class="navbar-brand" href="#">PHP version: <?php print phpversion(); ?></a>
 </nav>
-
-<!-- Footer
-================================================== -->
 <!-- footer class="footer">
 	<div class="container">
 		<span class="label label-info">
