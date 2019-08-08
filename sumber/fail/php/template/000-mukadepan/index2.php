@@ -175,7 +175,8 @@ table.excel tbody td
 <!-- footer class="footer">
 	<div class="container">
 		<span class="label label-info">
-		&copy; Hak Cipta Terperihara 2019. Theme Asal Bootstrap Twitter
+		&copy; Hak Cipta Terperihara 2019. Theme Asal Bootstrap Twitter<br>
+		PHP version: <?php print phpversion(); ?><br>
 		</span>
 	</div>
 </footer -->
