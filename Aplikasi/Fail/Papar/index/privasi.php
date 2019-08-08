@@ -21,7 +21,7 @@
 <p><a class="bg-secondary text-white">amin007.org</a> mengandungi banyak pautan ke laman web lain yang tidak dimiliki atau dikendalikan oleh Kami. Kami tidak bertanggungjawab untuk privasi laman web pihak ketiga sedemikian dan privasi kami tidak mengawal anda untuk menggunakan laman web yang lain. Dasar kami hanya terpakai kepada maklumat yang dikumpul oleh <a class="bg-secondary text-white">amin007.org</a>. Kami meminta anda supaya sedar sebelum meninggalkan tapak kami dan membaca dasar privasi laman web pihak ketiga tersebut.</p>
 
 <b>Kuki:</b>
-<p>Laman kami menggunakan "kuki" untuk meningkatkan pengalaman pelawat dan meningkatkan kelajuan laman web kami. Kami tidak menggunakan cookies untuk mengumpul sebarang maklumat peribadi atau maklumat sensitif.
+<p>Laman kami menggunakan "kuki" untuk meningkatkan pengalaman pelawat dan meningkatkan kelajuan laman web kami. Kami tidak menggunakan kuki untuk mengumpul sebarang maklumat peribadi atau maklumat sensitif.
 Kuki di <a class="bg-secondary text-white">amin007.org</a> digunakan oleh pihak kami dan vendor pihak ketiga kita. Kuki digunakan untuk sebab berikut.</p>
 	<ul>
 	<li>Penjual pihak ketiga, termasuk Nuffnang, menggunakan kuki untuk menayangkan iklan berdasarkan kunjungan sebelumnya ke laman web ini.</li>
