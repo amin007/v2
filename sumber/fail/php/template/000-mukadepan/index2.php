@@ -170,6 +170,10 @@ table.excel tbody td
 </div><!-- / class="kotakTengah" -->
 </div><!-- / class="kotakAtas" -->
 
+<div class="bg-secondary text-white">
+	PHP version: <?php print phpversion(); ?><br>
+</div>
+
 <!-- Footer
 ================================================== -->
 <!-- footer class="footer">
