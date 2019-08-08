@@ -172,8 +172,8 @@ table.excel tbody td
 
 <!-- Footer
 ================================================== -->
-<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-	<a class="navbar-brand" href="#">PHP version: <?php print phpversion(); ?></a>
+<nav class="navbar fixed-bottom navbar-light">
+	<span class="label label-info">PHP version: <?php print phpversion(); ?></span>
 </nav>
 <!-- footer class="footer">
 	<div class="container">
