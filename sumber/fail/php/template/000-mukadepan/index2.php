@@ -173,8 +173,8 @@ table.excel tbody td
 <!-- Footer
 ================================================== -->
 <nav class="navbar fixed-bottom navbar-light">
-	<span class="label label-info">&copy; Hak Cipta Terperihara 2019. Theme Asal Bootstrap Twitter </span>
-	<span class="label label-info">PHP version: <?php print phpversion(); ?></span>
+	<span class="label label-info bg-secondary text-white">&copy; Hak Cipta Terperihara 2019. Theme Asal Bootstrap Twitter </span>
+	<span class="label label-info bg-secondary text-white">PHP version: <?php print phpversion(); ?></span>
 </nav>
 <!-- footer class="footer">
 	<div class="container">
