@@ -184,6 +184,8 @@ table.excel tbody td
 		</span>
 	</div>
 </footer -->
+<!-- div class="card text-center" --
+</div></ class="card text-center" -->
 
 <!-- khas untuk jquery dan js2 lain
 ================================================== -->
