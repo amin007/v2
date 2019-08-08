@@ -170,9 +170,9 @@ table.excel tbody td
 </div><!-- / class="kotakTengah" -->
 </div><!-- / class="kotakAtas" -->
 
-<div class="bg-secondary text-white">
-	PHP version: <?php print phpversion(); ?><br>
-</div>
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">PHP version: <?php print phpversion(); ?></a>
+</nav>
 
 <!-- Footer
 ================================================== -->
