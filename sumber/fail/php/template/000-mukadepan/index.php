@@ -1,3 +1,14 @@
+<?php
+include 'list_files.php';
+if (!empty($_GET['q']))
+{
+	switch ($_GET['q'])
+	{
+		case 'info': phpinfo(); exit; break;
+		case 'list': paparFail(); exit;	break;
+	}
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -90,7 +101,9 @@ table.excel tbody td
 		<label for="b" class="text-dark">Macam mana kehidupan anda pada hari ini</label>
 	</div>
 	<div class="form-group">
-		<label for="c" class="text-success">Semoga anda ceria sepanjang masa</label>
+		<label for="c">
+			<a href="index.php?q=list" class="text-success">Semoga anda ceria sepanjang masa</a>
+		</label>
 	</div>
 </form><!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div>
