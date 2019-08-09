@@ -63,6 +63,14 @@ table.excel tbody td
 </style>
 </head>
 <body>
+<nav class="navbar fixed-top navbar-light">
+	<span class="label label-info">&nbsp;</span>
+	<span class="label label-info">
+		<span class="bg-transparent text-white">Translate</span>
+		<span class="bg-secondary text-white">English</span>
+		<span class="bg-secondary text-white">Malay</span>
+	</span>
+</nav>
 
 <div class="kotakAtas">
 <div class="kotakTengah">
