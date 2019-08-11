@@ -53,11 +53,11 @@ class Hubungi extends \Aplikasi\Kitab\Kawal
 #==========================================================================================
 #------------------------------------------------------------------------------------------
 	public function kelabpeminat($a=null)
-	{	
+	{
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = $a;
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
-		
+
 		# Pergi papar kandungan
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
