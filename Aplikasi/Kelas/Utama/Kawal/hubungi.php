@@ -63,5 +63,16 @@ class Hubungi extends \Aplikasi\Kitab\Kawal
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
+	public function mediasosial($a=null)
+	{
+		# Set pemboleubah utama
+		$this->papar->Tajuk_Muka_Surat = 'Media Sosial';
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
+		$this->paparKandungan($this->_folder,'mediasosial',$noInclude=0);
+	}
+#------------------------------------------------------------------------------------------
 #==========================================================================================
 }
