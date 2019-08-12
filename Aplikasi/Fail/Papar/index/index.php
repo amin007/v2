@@ -1,4 +1,4 @@
-<h1><span class="bg-secondary text-white">&nbsp;Pengenalan&nbsp;</span></h1>
+<h1><span class="bg-secondary text-white butangBulat">&nbsp;Pengenalan&nbsp;</span></h1>
 <div class="container">
 <div class="row">
 <div class="col">
