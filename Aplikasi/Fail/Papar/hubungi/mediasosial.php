@@ -14,10 +14,10 @@
 				<i class="fab fa-github"></i>: amin007</a>
 			<a target="_blank" href="https://instagram.com/aminledang" class="btn btn-secondary text-white">
 				<i class="fab fa-instagram"></i>: aminledang</a>
+			<a class="btn btn-secondary text-white">
+				<i class="fab fa-snapchat">amin007ledang</i></a>
 			<!-- a target="_blank" href="#" class="btn btn-secondary text-white">
 				<i class="fab fa-skype"></i>: amin800507</a>
-			<a target="_blank" href="https://snapchat.com/amin007ledang" class="btn btn-secondary text-white">
-				<i class="fab fa-snapchat">amin007ledang</i></a>
 			<a target="_blank" href="#" class="btn btn-secondary text-white">
 				<i class="fab fa-youtube"></i>: user/abdmuhaimin</a -->
 		</blockquote>
