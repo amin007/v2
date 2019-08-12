@@ -8,7 +8,7 @@
 	<br>
 	<div class="row">
 		<div class="col-sm-3">
-		<a  class="bg-secondary text-white" href="<?php echo URL ?>index/privasi/">
+		<a class="bg-secondary text-white" href="<?php echo URL ?>index/privasi/">
 			Dasar Privasi / Privacy Policy
 		</a>
 		<img src="sumber/gambar/placeimg_290_422_any.jpg"
