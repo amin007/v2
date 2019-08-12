@@ -67,3 +67,6 @@ Sekiranya anda mahukan maklumat lain atau mempunyai sebarang pertanyaan mengenai
 sila hubungi kami melalui e-mel di al.amin007[at]yahoo[dot]com.
 </p>
 </div><!-- / class="container bg-light text-dark" -->
+
+<h1><a class="btn btn-outline-secondary btn-lg" href="<?php echo URL ?>">
+<small>Kembali ke pangkal jalan</small></a></h1>
