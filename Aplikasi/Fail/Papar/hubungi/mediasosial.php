@@ -2,7 +2,7 @@
 <small>Kembali ke pangkal jalan</small></a></h1>
 
 <hr>
-<h1>&nbsp;<span class="bg-secondary">&nbsp;<?php echo $this->Tajuk_Muka_Surat; ?>&nbsp;</span></h1>
+<h1>&nbsp;<span class="bg-secondary butangBulat">&nbsp;<?php echo $this->Tajuk_Muka_Surat; ?>&nbsp;</span></h1>
 <div class="row">
 	<div class="col-lg-3">&nbsp;</div>
 	<div class="col-lg-6">
