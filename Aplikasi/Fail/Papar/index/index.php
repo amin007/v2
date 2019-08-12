@@ -9,7 +9,7 @@
 	<div class="row">
 		<div class="col-sm-3">
 		<a class="btn btn-outline-secondary btn-lg" href="<?php echo URL ?>index/privasi/">
-			Dasar Privasi / Privacy Policy</a>
+			Dasar Privasi /<br>Privacy Policy</a>
 		<a class="btn btn-outline-secondary btn-lg" href="<?php echo URL ?>hubungi/mediasosial">
 			Media Sosial</a>
 		<img src="sumber/gambar/placeimg_290_422_any.jpg"
