@@ -1,5 +1,11 @@
+<h1><a class="btn btn-outline-secondary btn-lg" href="<?php echo URL ?>">
+<small>Kembali ke pangkal jalan</small></a></h1>
+
+<div class="container">
+<h1><span class="bg-white">Dasar Privasi <small>versi 1.0.0</small></span></h1>
+</div><!-- / class="container" -->
+
 <div class="container bg-light text-dark">
-<h1>Dasar Privasi <small>versi 1.0.0</small></h1>
 <p><a class="bg-secondary text-white">amin007.org</a> menghormati pelawat privasi dan ia adalah penting bagi kami.
 Kenyataan berikut menerangkan dasar privasi <a class="bg-secondary text-white">amin007.org</a> .
 Dasar privasi ini digunakan untuk laman web ini dan semua produk, kandungan & perkhidmatan yang ditawarkan oleh pihak kami.</p>
