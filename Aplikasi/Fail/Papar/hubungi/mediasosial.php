@@ -1,3 +1,6 @@
+<h1><a class="btn btn-outline-secondary btn-lg" href="<?php echo URL ?>">
+<small>Kembali ke pangkal jalan</small></a></h1>
+
 <hr>
 <h1>&nbsp;<span class="bg-secondary">&nbsp;<?php echo $this->Tajuk_Muka_Surat; ?>&nbsp;</span></h1>
 <div class="row">
