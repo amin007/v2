@@ -10,6 +10,9 @@
 		<div class="col-sm-3">
 		<a class="bg-secondary text-white" href="<?php echo URL ?>index/privasi/">
 			Dasar Privasi / Privacy Policy
+		</a><br>
+		<a class="bg-secondary text-white" href="<?php echo URL ?>hubungi/mediasosial">
+			Media Sosial
 		</a>
 		<img src="sumber/gambar/placeimg_290_422_any.jpg"
 		width="290" height="422" alt="gambar saya">
