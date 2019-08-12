@@ -39,6 +39,14 @@ echo "\n";
 
 ?>
 <style type="text/css">
+/* ********************************************************************* */
+.butangBulat {border-radius: 50px;}
+.butang1 {border-radius: 2px;}
+.butang2 {border-radius: 4px;}
+.butang3 {border-radius: 8px;}
+.butang4 {border-radius: 12px;}
+.butang5 {border-radius: 50%;}
+/* ********************************************************************* */
 table.excel {
 	border-style:ridge;
 	border-width:1;
@@ -60,7 +68,6 @@ table.excel tbody td
 	padding: 0 3px; border: 1px solid #aaaaaa;
 	background:#ffffff;
 }
-.fa-input {font-family: FontAwesome}
 </style>
 <script type='text/javascript'>
 <!-- //Mula Papar Jam
