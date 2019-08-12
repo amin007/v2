@@ -6,7 +6,7 @@
 		<blockquote>
 			<a target="_blank" href="https://www.facebook.com/amin007.ledang" class="btn btn-secondary text-white">
 				<i class="fab fa-facebook"></i>: amin007.ledang</a>
-			<a href="#" class="btn btn-secondary text-white">
+			<a target="_blank" href="https://www.twitter.com/amin007_ledang" class="btn btn-secondary text-white">
 				<i class="fab fa-twitter-square"></i>: amin007_ledang</a>
 			<a href="https://www.linkedin.com/in/amin007ledang" class="btn btn-secondary text-white">
 				<i class="fab fa-linkedin"></i>: amin007ledang</a>
