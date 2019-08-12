@@ -10,7 +10,7 @@
 				<i class="fab fa-twitter-square"></i>: amin007_ledang</a>
 			<a target="_blank" href="https://www.linkedin.com/in/amin007ledang" class="btn btn-secondary text-white">
 				<i class="fab fa-linkedin"></i>: amin007ledang</a>
-			<a target="_blank" href="#" class="btn btn-secondary text-white">
+			<a target="_blank" href="https://github.com/amin007" class="btn btn-secondary text-white">
 				<i class="fab fa-github"></i>: amin007</a>
 			<a target="_blank" href="#" class="btn btn-secondary text-white">
 				<i class="fab fa-instagram"></i>: aminledang</a>
