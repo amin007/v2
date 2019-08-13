@@ -67,7 +67,7 @@ body {
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <br><form>
 	<div class="form-group">
-		<label for="a" class="well">
+		<label for="a" class="bg-white">
 			<a href="v3/">Selamat datang ke halaman kami</a>
 		</label><br>
 		<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>
