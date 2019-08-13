@@ -172,9 +172,9 @@
 <tr>
 <td>&nbsp;</td>
 <td>
-	<br><br>
+	<br><br><br>
 	<h5><i class="fas fa-user"></i><small class="text-muted">Langkah 1</small><br>Siapa nama anda?</h5>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	<h5><i class="fas fa-users"></i><small class="text-muted">Langkah 2</small><br>
 	Penyertaan</h5>
 	<br><br><br><br>
@@ -191,7 +191,7 @@
 	<div class="dotted">
 		<br><br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
-		<br><br><br><br><br>
+		<br><br><br><br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
 		<br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
