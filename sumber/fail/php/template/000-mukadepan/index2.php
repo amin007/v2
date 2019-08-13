@@ -65,17 +65,18 @@ table.excel tbody td
 </style>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-light">
-	<span class="label label-info">&nbsp;</span>
-	<span class="label label-info">
-		<span class="bg-transparent text-white">Translate</span>
-		<span class="bg-secondary text-white">English</span>
-		<span class="bg-secondary text-white">Malay</span>
-	</span>
-</nav>
 
 <div class="kotakAtas">
 <div class="kotakTengah">
+	<nav class="navbar fixed-top navbar-light">
+		<span class="label label-info">&nbsp;</span>
+		<span class="label label-info">
+			<span class="bg-transparent text-white">Translate</span>
+			<span class="bg-secondary text-white">English</span>
+			<span class="bg-secondary text-white">Malay</span>
+		</span>
+	</nav>
+
 	<ul class="nav nav-tabs" id="myTab" role="tablist">
 	<li class="nav-item">
 		<a class="nav-link active" id="anjung-tab" data-toggle="tab" href="#anjung" role="tab" aria-controls="anjung" aria-selected="true">Anjung</a>
