@@ -40,16 +40,7 @@ body {
 
 <div class="kotakAtas">
 <div class="kotakTengah">
-	<nav class="navbar fixed-top navbar-light">
-		<span class="label label-info">&nbsp;</span>
-		<span class="label label-info">
-			<span class="bg-transparent text-white">Translate</span>
-			<span class="bg-secondary text-white">English</span>
-			<span class="bg-secondary text-white">Malay</span>
-		</span>
-	</nav>
-
-	<ul class="nav nav-tabs bg-secondary text-white" id="myTab" role="tablist">
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
 	<li class="nav-item">
 		<a class="nav-link active" id="anjung-tab" data-toggle="tab" href="#anjung" role="tab" aria-controls="anjung" aria-selected="true">Anjung</a>
 	</li>
@@ -158,6 +149,9 @@ body {
 <nav class="navbar fixed-bottom navbar-light">
 	<span class="bg-secondary text-white">&copy; Hak Cipta Terperihara 2019. Theme Asal Bootstrap Twitter </span>
 	<span class="bg-secondary text-white">PHP version: <?php print phpversion(); ?></span>
+	<span class="bg-transparent text-white">Translate</span>
+	<span class="bg-secondary text-white">English</span>
+	<span class="bg-secondary text-white">Malay</span>
 </nav>
 
 <!-- khas untuk jquery dan js2 lain
