@@ -111,7 +111,7 @@ table.excel tbody td
 		<div class="tab-pane fade" id="warna" role="tabpanel" aria-labelledby="warna-tab">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <br>
-	<div class="p-3 mb-2 bg-transparent text-dark">
+	<div class="p-3 mb-2 bg-transparent text-dark shadow-lg rounded">
 		<a href="v3/rujukan">Rujukan Utama</a>
 	</div>
 	<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
