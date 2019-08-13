@@ -7,9 +7,9 @@
 .icon {
 	text-align: center;
 	width: 50px;
-	background: lightgray;
+	/*background: lightgray;
 	border-radius: 50%;
-	border: 2px solid grey;
+	border: 2px solid grey;*/
 }
 
 .icon > i {
