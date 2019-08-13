@@ -194,14 +194,15 @@
 </td>
 <td class="text-left">
 	<div class="dotted">
+		<br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
-		<br><br><br><br><br><br>
+		<br><br><br><br><br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
-		<br><br><br><br><br><br>
+		<br><br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
-		<br><br><br><br><br><br>
+		<br><br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
-		<br><br><br><br><br><br>
+		<br><br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
 	</div>
 </td>
