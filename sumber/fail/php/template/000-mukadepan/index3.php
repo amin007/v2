@@ -151,7 +151,8 @@ body {
 <!-- Footer
 ================================================== -->
 <nav class="navbar fixed-bottom navbar-light">
-	<span class="bg-secondary text-white">&copy; Hak Cipta Terperihara 2019. Theme Asal Bootstrap Twitter </span>
+	<span class="bg-secondary text-white">&copy; Hak Cipta Terperihara 2019 </span>
+	<span class="bg-secondary text-white">Theme Asal Bootstrap Twitter </span>
 	<span class="bg-secondary text-white">PHP version: <?php print phpversion(); ?></span>
 	<span class="bg-transparent text-white">Translate</span>
 	<span class="bg-secondary text-white">English</span>
