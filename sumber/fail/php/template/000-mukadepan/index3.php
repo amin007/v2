@@ -44,7 +44,7 @@ body {
 
 <div class="kotakAtas">
 <div class="kotakTengah">
-	<ul class="nav nav-tabs bg-white" id="myTab" role="tablist">
+	<ul class="nav nav-tabs bg-white shadow-lg" id="myTab" role="tablist">
 	<li class="nav-item">
 		<a class="nav-link active" id="anjung-tab" data-toggle="tab" href="#anjung" role="tab" aria-controls="anjung" aria-selected="true">Anjung</a>
 	</li>
