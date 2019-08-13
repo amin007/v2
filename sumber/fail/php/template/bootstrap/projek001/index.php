@@ -190,9 +190,9 @@
 <td align="left">
 	<div class="dotted">
 		<br><br>
-		<div class="icon"><i class="fa fa-camera-retro"></i></div>
+		<div class="icon"><i class="far fa-check-circle"></i></div>
 		<br><br><br><br>
-		<div class="icon"><i class="fa fa-camera-retro"></i></div>
+		<div class="icon"><i class="far fa-circle"></i></div>
 		<br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
 		<br><br><br><br>
