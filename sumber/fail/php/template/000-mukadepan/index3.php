@@ -62,11 +62,15 @@ body {
 	<div class="tab-content" id="myTabContent">
 		<div class="tab-pane fade show active" id="anjung" role="tabpanel" aria-labelledby="anjung-tab">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	<div class="bg-secondary text-white"><label for="a" class="text-info">
-		<a href="v3/">Selamat datang ke halaman kami</a>
-	</label></div><!-- / class="bg-secondary text-white" -->
-	<label for="b" class="text-dark">Macam mana kehidupan anda pada hari ini</label>
-	<label for="c" class="text-success">Semoga anda ceria sepanjang masa</label>
+<br><form>
+	<div class="form-group">
+		<label for="a" class="bg-transparent text-info">
+			<a href="v3/">Selamat datang ke halaman kami</a>
+		</label>
+		<label for="b" class="text-dark">Macam mana kehidupan anda pada hari ini</label>
+		<label for="c" class="text-success">Semoga anda ceria sepanjang masa</label>
+	</div><!-- / class="form-group" -->
+</form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div>
 		<div class="tab-pane fade" id="warna" role="tabpanel" aria-labelledby="warna-tab">
