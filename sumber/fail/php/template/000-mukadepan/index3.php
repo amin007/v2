@@ -34,9 +34,6 @@ body {
 	text-align: center;
 	display: inline-block;
 }
-.kotakLabel {
-	margin: .4rem;
-}
 </style>
 </head>
 <body>
@@ -52,17 +49,17 @@ body {
 		</span>
 	</nav>
 
-	<ul class="nav nav-tabs" id="myTab" role="tablist">
-	<li class="nav-item shadow-lg">
+	<ul class="nav nav-tabs bg-secondary text-white" id="myTab" role="tablist">
+	<li class="nav-item">
 		<a class="nav-link active" id="anjung-tab" data-toggle="tab" href="#anjung" role="tab" aria-controls="anjung" aria-selected="true">Anjung</a>
 	</li>
-	<li class="nav-item bg-secondary shadow-lg">
+	<li class="nav-item">
 		<a class="nav-link" id="warna-tab" data-toggle="tab" href="#warna" role="tab" aria-controls="warna" aria-selected="false">Warna</a>
 	</li>
-	<li class="nav-item shadow-lg">
+	<li class="nav-item">
 		<a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Login</a>
 	</li>
-	<li class="nav-item shadow-lg">
+	<li class="nav-item">
 		<a class="nav-link" id="projek-tab" data-toggle="tab" href="#projek" role="tab" aria-controls="projek" aria-selected="false">Projek</a>
 	</li>
 	</ul>
