@@ -171,10 +171,9 @@
 <table class="table">
 <tr>
 <td>&nbsp;</td>
-<td>
-	<i class="fas fa-user"></i>
-	<h5><small class="text-muted">Langkah 1</small><br>
-	Siapa nama anda?</h5>
+<td align="right">
+	<br>
+	<i class="fas fa-user"></i><h5><small class="text-muted">Langkah 1</small><br>Siapa nama anda?</h5>
 	<br><br><br><br><br>
 	<i class="fas fa-users"></i>
 	<h5><small class="text-muted">Langkah 2</small><br>
@@ -192,7 +191,7 @@
 	<h5><small class="text-muted">Langkah 5</small><br>
 	Lokasi</h5>
 </td>
-<td class="text-left">
+<td align="left">
 	<div class="dotted">
 		<br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
@@ -218,6 +217,7 @@
 	</div>
 	<!-- ################################################################# -->
 </td>
+<td>&nbsp;</td>
 </tr>
 </table>
 <!-- ################################################################################################################################################################################################# -->
