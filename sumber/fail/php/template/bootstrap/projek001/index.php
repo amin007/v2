@@ -172,36 +172,32 @@
 <tr>
 <td>&nbsp;</td>
 <td>
-	<br>
-	<i class="fas fa-user"></i><h5><small class="text-muted">Langkah 1</small><br>Siapa nama anda?</h5>
+	<br><br>
+	<h5><i class="fas fa-user"></i><small class="text-muted">Langkah 1</small><br>Siapa nama anda?</h5>
 	<br><br><br><br><br>
-	<i class="fas fa-users"></i>
-	<h5><small class="text-muted">Langkah 2</small><br>
+	<h5><i class="fas fa-users"></i><small class="text-muted">Langkah 2</small><br>
 	Penyertaan</h5>
-	<br><br><br><br><br>
-	<i class="fab fa-fort-awesome"></i>
-	<h5><small class="text-muted">Langkah 3</small><br>
+	<br><br><br><br>
+	<h5><i class="fab fa-fort-awesome"></i><small class="text-muted">Langkah 3</small><br>
 	Tema Acara</h5>
-	<br><br><br><br><br>
-	<i class="far fa-calendar-alt"></i>
-	<h5><small class="text-muted">Langkah 4</small><br>
+	<br><br><br><br>
+	<h5><i class="far fa-calendar-alt"></i><small class="text-muted">Langkah 4</small><br>
 	Tarikh</h5>
-	<br><br><br><br><br>
-	<i class="fas fa-map-marker"></i>
-	<h5><small class="text-muted">Langkah 5</small><br>
+	<br><br><br><br>
+	<h5><i class="fas fa-map-marker"></i><small class="text-muted">Langkah 5</small><br>
 	Lokasi</h5>
 </td>
 <td align="left">
 	<div class="dotted">
-		<br>
+		<br><br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
 		<br><br><br><br><br>
 		<div class="icon"><i class="fa fa-camera-retro"></i></div>
-		<br><br><br><br><br>
+		<br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
-		<br><br><br><br><br>
+		<br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
-		<br><br><br><br><br>
+		<br><br><br><br>
 		<div class="icon"><i class="far fa-circle"></i></div>
 	</div>
 </td>
