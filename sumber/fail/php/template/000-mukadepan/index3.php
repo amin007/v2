@@ -39,6 +39,9 @@ body {
 	text-align: center;
 	display: inline-block;
 }
+.well {
+	background-color: rgba(245, 245, 245, 0.4);
+}
 </style>
 </head>
 <body>
@@ -66,9 +69,9 @@ body {
 	<div class="form-group">
 		<label for="a" class="bg-transparent text-info">
 			<a href="v3/">Selamat datang ke halaman kami</a>
-		</label>
-		<label for="b" class="text-dark">Macam mana kehidupan anda pada hari ini</label>
-		<label for="c" class="text-success">Semoga anda ceria sepanjang masa</label>
+		</label><br>
+		<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>
+		<label for="c" class="well">Semoga anda ceria sepanjang masa</label>
 	</div><!-- / class="form-group" -->
 </form>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
