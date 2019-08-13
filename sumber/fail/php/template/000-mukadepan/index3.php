@@ -12,7 +12,10 @@
 <style type="text/css">
 html, body {
 	height: 100%;
-	background: url("https://cdn.pixabay.com/photo/2015/09/06/00/46/yellow-926728_960_720.jpg")
+	background: url("https://cdn.pixabay.com/photo/2015/09/19/01/03/guitar-946701_960_720.jpg")
+	/*background: url("https://cdn.pixabay.com/photo/2016/08/26/07/43/the-1621517_960_720.jpg")*/
+	/*background: url("https://cdn.pixabay.com/photo/2015/09/02/12/57/woman-918776_960_720.jpg")*/
+	/*background: url("https://cdn.pixabay.com/photo/2016/05/27/21/11/girl-1420629_960_720.jpg")*/
 	/*background: url("https://cdn.pixabay.com/photo/2015/05/01/10/34/woman-748211_960_720.jpg")*/
 	/*background: url("https://cdn.pixabay.com/photo/2018/07/25/15/51/hijab-3561651_960_720.jpg")*/
 	/*background: url("https://cdn.nohat.cc/thumb/f/720/4530650874904576.jpg")*/
