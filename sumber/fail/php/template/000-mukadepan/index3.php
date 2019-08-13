@@ -48,7 +48,7 @@ body {
 
 <div class="kotakAtas">
 <div class="kotakTengah">
-	<ul class="nav nav-tabs bg-white shadow-lg" id="myTab" role="tablist">
+	<ul class="nav nav-tabs well" id="myTab" role="tablist">
 	<li class="nav-item">
 		<a class="nav-link active" id="anjung-tab" data-toggle="tab" href="#anjung" role="tab" aria-controls="anjung" aria-selected="true">Anjung</a>
 	</li>
@@ -67,7 +67,7 @@ body {
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <br><form>
 	<div class="form-group">
-		<label for="a" class="bg-transparent text-info">
+		<label for="a" class="well">
 			<a href="v3/">Selamat datang ke halaman kami</a>
 		</label><br>
 		<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>
