@@ -2,7 +2,7 @@
 <small>Kembali ke pangkal jalan</small></a></h1>
 
 <hr>
-<h1>&nbsp;<span class="bg-secondary butangBulat">&nbsp;<?php echo $this->Tajuk_Muka_Surat; ?>&nbsp;</span></h1>
+<h1 class="text-center">&nbsp;<span class="bg-secondary butangBulat">&nbsp;<?php echo $this->Tajuk_Muka_Surat; ?>&nbsp;</span></h1>
 <div class="row">
 	<div class="col-lg-3">&nbsp;</div>
 	<div class="col-lg-6">
@@ -33,8 +33,13 @@
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <div class="container">
 	<ul class="list-group list-group-flush">
-	<li class="list-group-item"><span class="bg-secondary text-white">Ruangan Iklan</span></li>
-	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item"><span class="btn btn-outline-dark">Ruangan Iklan</span></li>
+	<li class="list-group-item">
+		<!-- nuffnang -->
+		<script type="text/javascript">nuffnang_bid = "2bb5639c70db0006532074b0c35f4b93";</script>
+		<script type="text/javascript" src="http://synad2.nuffnang.com.my/lmn.js"></script>
+		<!-- nuffnang-->
+	</li>
 	</ul>
 </div><!-- / class="container" -->
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
