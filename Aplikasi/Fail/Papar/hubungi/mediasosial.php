@@ -26,7 +26,14 @@
 		</blockquote>
 	</div>
 </div>
-<div class="row">
-<div class="col-lg-6">
+<div class="row"><div class="col-lg-6">
+	<span class="bg-secondary butangBulat">Ruangan Iklan</span>
 </div><!-- / class="col-lg-6" -->
 </div><!-- / class="row" -->
+<div class="container">
+	<ul class="list-group list-group-flush">
+		<li class="list-group-item">Cras justo odio</li>
+		<li class="list-group-item">Dapibus ac facilisis in</li>
+		<li class="list-group-item">Vestibulum at eros</li>
+	</ul>
+</div><!-- / class="container" -->
