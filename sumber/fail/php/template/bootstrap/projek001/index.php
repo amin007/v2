@@ -205,7 +205,18 @@
 		<div class="icon"><i class="far fa-circle"></i></div>
 	</div>
 </td>
-<td>&nbsp;</td>
+<td>
+	<h2><small class="text-muted">Langkah 1</small><br>
+		Nama anda</h2>
+	<!-- ################################################################# -->
+	<div class="input-group mb-3">
+		<div class="input-group-prepend">
+			<span class="input-group-text" id="basic-addon1">First Name</span>
+		</div>
+		<input type="text" class="form-control" placeholder="First Name">
+	</div>
+	<!-- ################################################################# -->
+</td>
 </tr>
 </table>
 <!-- ################################################################################################################################################################################################# -->
