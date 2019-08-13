@@ -171,7 +171,7 @@
 <table class="table">
 <tr>
 <td>&nbsp;</td>
-<td align="right">
+<td>
 	<br>
 	<i class="fas fa-user"></i><h5><small class="text-muted">Langkah 1</small><br>Siapa nama anda?</h5>
 	<br><br><br><br><br>
@@ -205,6 +205,10 @@
 		<div class="icon"><i class="far fa-circle"></i></div>
 	</div>
 </td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 <td>
 	<h2><small class="text-muted">Langkah 1</small><br>
 		Nama anda</h2>
@@ -217,6 +221,17 @@
 	</div>
 	<!-- ################################################################# -->
 </td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 </tr>
 </table>
