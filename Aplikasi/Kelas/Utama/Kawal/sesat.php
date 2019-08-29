@@ -22,6 +22,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 			'<hr>' . $p . '<hr>';
 
 		# Pergi papar kandungan
+		//$this->_folder = '';
 		//$this->paparKandungan($this->_folder, 'index');
 		$this->paparKhas($this->_folder, 'index');
 	}
