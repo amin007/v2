@@ -126,8 +126,8 @@ class Peta2
 	function sesat()
 	{
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index();
-		return false;
+		$kawal->index('Fail Kawal tidak wujud'); exit();
+		//return false;
 	}
 	#--------------------------------------------------------------------------------------
 	function sesatMethod01()
