@@ -113,6 +113,7 @@ class Peta2
 				unset($url[1]);
 			}
 		}
+		else $this->sesatMethod02();
 
 		return $url;
 	}
@@ -126,6 +127,11 @@ class Peta2
 		$kawal = new \Aplikasi\Kawal\Sesat();
 		$kawal->index();
 		return false;
+	}
+	#--------------------------------------------------------------------------------------
+	function sesatMethod02()
+	{
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 	}
 	#--------------------------------------------------------------------------------------
 ###
