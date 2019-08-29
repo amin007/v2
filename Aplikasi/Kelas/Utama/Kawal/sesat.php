@@ -14,10 +14,12 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}
 ##-----------------------------------------------------------------------------------------
-	public function index()
+	public function index($p = null)
 	{
 		# Set pemboleubah utama
-		$this->papar->mesej = '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$this->papar->Tajuk_Muka_Surat = 'Anda dalam kesesatan yang nyata';
+		$this->papar->mesej = '<hr>Nama class :' . __METHOD__ . '<hr>'
+			. $p . '<hr>';
 
 		# Pergi papar kandungan
 		$this->paparKandungan($this->_folder, 'index');
