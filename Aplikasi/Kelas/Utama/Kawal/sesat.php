@@ -17,9 +17,9 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 	public function index($p = null)
 	{
 		# Set pemboleubah utama
-		$this->papar->Tajuk_Muka_Surat = 'Anda dalam kesesatan yang nyata';
-		$this->papar->mesej = '<hr>Nama class :' . __METHOD__ . '<hr>'
-			. $p . '<hr>';
+		$this->papar->Tajuk_Muka_Surat = 'Sesat Daa';
+		$this->papar->mesej =//'<hr>Nama class :' . __METHOD__ . '<hr>'
+			'<hr>' . $p . '<hr>';
 
 		# Pergi papar kandungan
 		//$this->paparKandungan($this->_folder, 'index');
