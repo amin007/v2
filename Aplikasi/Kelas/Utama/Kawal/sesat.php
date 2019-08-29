@@ -22,12 +22,23 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 			. $p . '<hr>';
 
 		# Pergi papar kandungan
-		$this->paparKandungan($this->_folder, 'index');
+		//$this->paparKandungan($this->_folder, 'index');
+		$this->paparKhas($this->_folder, 'index');
 	}
 ##-----------------------------------------------------------------------------------------
 	public function paparKandungan($folder, $fail, $noInclude=1)
 	{	# Pergi papar kandungan
 		$jenis = $this->papar->pilihTemplate($template=0);
+		$this->papar->bacaTemplate(
+		//$this->papar->paparTemplate(
+			$this->_folder . '/' . $fail, $jenis, $noInclude); # $noInclude=0
+			//'mobile/mobile',$jenis,0); # $noInclude=0
+		//*/
+	}
+##-----------------------------------------------------------------------------------------
+	public function paparKhas($folder, $fail, $noInclude=0)
+	{	# Pergi papar kandungan
+		$jenis = $this->papar->pilihTemplate($template=431);
 		$this->papar->bacaTemplate(
 		//$this->papar->paparTemplate(
 			$this->_folder . '/' . $fail, $jenis, $noInclude); # $noInclude=0
