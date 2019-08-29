@@ -93,6 +93,7 @@ class Peta2
 			require_once KAWAL . '/' . $url[0] . '.php';
 			unset($url[0]);
 		}
+		else $this->sesat();
 		$this->kawal = new $this->kawal;# nilai default adalah index
 
 		return $url;
