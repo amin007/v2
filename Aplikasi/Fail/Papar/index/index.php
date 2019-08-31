@@ -55,10 +55,15 @@ $namaServer = $_SERVER['SERVER_NAME'];
 if (($namaServer=='localhost') || ($namaServer=='amindell') ):
 	echo null;
 else:?>
-		<!-- nuffnang -->
-		<script type="text/javascript">nuffnang_bid = "2bb5639c70db0006532074b0c35f4b93";</script>
-		<script type="text/javascript" src="http://synad2.nuffnang.com.my/lmn.js"></script>
-		<!-- nuffnang-->
+			<!-- iklan google -->
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({
+				google_ad_client: "ca-pub-2307262272744070",
+				enable_page_level_ads: true
+			});
+			</script>
+			<!-- iklan google -->
 <?php
 endif;
 ?>
