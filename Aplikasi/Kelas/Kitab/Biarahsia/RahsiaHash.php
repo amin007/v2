@@ -27,7 +27,7 @@ class RahsiaHash
 #---------------------------------------------------------------------------------------------
 	public static function cincang($data, $numAlgo = 12, $arrOptions = array())
 	{
-		if (function_exists('password_hash')) 
+		if (function_exists('password_hash'))
 		{# php >= 5.5
 			$cincang = password_hash($data, $numAlgo, $arrOptions);
 		}
