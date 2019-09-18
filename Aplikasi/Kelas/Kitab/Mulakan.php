@@ -71,14 +71,14 @@ class Mulakan
 	private function cari_pengawal($kawal, $url)
 	{
 		$panjang = count($url); //echo '$panjang = ' . $panjang . '<br>';
- 
+
 		# Pastikan kaedah yang kita panggil wujud
 		if ($panjang > 1)
 		{
 			if (!method_exists($kawal, $url[1])) {$this->parameter();}
 		}
-			$this->muatkanKawal($kawal, $panjang, $url);
-
+		# Panggil fungsi
+		$this->muatkanKawal($kawal, $panjang, $url);
     }
 #------------------------------------------------------------------------------------------------------------------
 	private function muatkanKawal($kawal, $panjang, $url)
