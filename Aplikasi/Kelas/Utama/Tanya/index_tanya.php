@@ -1,5 +1,5 @@
 <?php
-namespace Aplikasi\Tanya; //echo __NAMESPACE__; 
+namespace Aplikasi\Tanya; //echo __NAMESPACE__;
 class Index_Tanya extends \Aplikasi\Kitab\Tanya
 {
 #==========================================================================================
