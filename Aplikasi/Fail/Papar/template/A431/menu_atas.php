@@ -1,4 +1,4 @@
-<!-- menu_atas.php A431 --><?php 
+<!-- menu_atas.php A431 --><?php
 /*$sesi = \Aplikasi\Kitab\Sesi::init();
 //echo '<pre>MENU_ATAS - $_SESSION:', print_r($_SESSION, 1) . '</pre><br>';
 # set pembolehubah
@@ -7,7 +7,7 @@ $level = \Aplikasi\Kitab\Sesi::get('levelPengguna');
 
 $senaraiPengguna = array('pentadbir','biasa');
 $senaraiPentadbir = array('pentadbir','biasa');
-if (in_array($level, $senaraiPentadbir)) 
+if (in_array($level, $senaraiPentadbir))
 	$paras = '' . $level;
 elseif (in_array($level, $senaraiPengguna))
 	$paras = '' . $level;

@@ -1,4 +1,4 @@
-<?php 
+<?php
 $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 //<ul class="nav navbar-nav navbar-right">
 $classUL = 'nav navbar-nav navbar-right';
@@ -50,15 +50,15 @@ if($pilihMenu == '1'): echo "\n";?>
 	<li><a href="<?php echo URL ?>laporan/bulanan">Laporan Bulanan</a></li>
 		<li><a href="<?php echo URL ?>qss/suku1">Laporan QSS</a></li>
 	<li class="divider"></li><?php
-/*	
+/*
 	echo "\n\t";
 	$bulanan = bulanan('nama_bulan', null);
 	foreach ($bulanan as $key => $bln):?>
-	<li><a target="_blank" href="<?php echo URL ?>laporan/bulan/<?php echo $bln 
+	<li><a target="_blank" href="<?php echo URL ?>laporan/bulan/<?php echo $bln
 	?>">Bulan <?php echo ($key+1) . ' - ' . (huruf('Besar_Depan',$bln)) ?></a></li><?php
 	echo "\n\t";
 	endforeach;
-//*/?>	
+//*/?>
 	</ul>
 </li>
 <li class="dropdown">
@@ -147,5 +147,5 @@ if($pilihMenu == '1'): echo "\n";?>
 	<i class="fa fa-exclamation-triangle fa-2x" aria-hidden="true"></i>
 	Displin</a></li>
 </ul>
-<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ --><?php 
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ --><?php
 endif; echo "\n";?>
