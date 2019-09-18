@@ -43,7 +43,7 @@ class Index extends \Aplikasi\Kitab\Kawal
 	}
 #==========================================================================================
 #------------------------------------------------------------------------------------------
-	public function index2($tajuk = 'Tentang Amin007') 
+	public function index2($tajuk = 'Tentang Amin007')
 	{
 		# Set pemboleubah utama
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
