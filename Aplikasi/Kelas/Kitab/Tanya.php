@@ -37,7 +37,7 @@ class Tanya
 			   . 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
 			   . 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$medan = huruf('Besar_Depan', $medan);
-		$sql = ' SELECT ' . "\r" . $medan . "\r" 
+		$sql = ' SELECT ' . "\r" . $medan . "\r"
 			 . ' FROM INFORMATION_SCHEMA.COLUMNS' . "\r"
 			 . ' WHERE table_schema = "' . $database . '"' . "\r"
 			 . ' AND table_name = "' . $myTable . '"';
@@ -71,7 +71,7 @@ class Tanya
 		$result = $this->db->selectAll($sql);
 		//echo json_encode($result);
 
-		return $result;	
+		return $result;
 	}#--- tamat - contoh cari dan simpan ---#
 #-------------------------------------------------------------------------------------------------
 ##################################################################################################
