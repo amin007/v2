@@ -86,7 +86,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder, 'index');
 	}
 #-------------------------------------------------------------------------------------------
-	function folderPaparTidakWujud() 
+	function folderPaparTidakWujud()
 	{
 		$this->papar->mesej = 'folder tidak wujud dalam PAPAR';
 		$this->papar->Tajuk_Muka_Surat = $this->_tajukAtas . $this->papar->mesej;
@@ -96,7 +96,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder, 'index');
 	}
 #-------------------------------------------------------------------------------------------
-	function failTidakWujud() 
+	function failTidakWujud()
 	{
 		$this->papar->mesej = 'Fail tidak wujud dalam PAPAR';
 		$this->papar->Tajuk_Muka_Surat = $this->_tajukAtas . $this->papar->mesej;
