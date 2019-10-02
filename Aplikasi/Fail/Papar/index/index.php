@@ -8,9 +8,9 @@
 	<br>
 	<div class="row">
 		<div class="col-sm-3">
-		<a class="btn btn-outline-secondary butangBulat" href="<?php echo URL ?>index/privasi/">
+		<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>index/privasi/">
 			Dasar Privasi / Privacy Policy</a>
-		<a class="btn btn-outline-secondary btn-lg butangBulat" href="<?php echo URL ?>hubungi/mediasosial">
+		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>hubungi/mediasosial">
 			Media Sosial</a>
 		<img src="sumber/gambar/placeimg_290_422_any.jpg"
 		width="290" height="422" alt="gambar saya">
