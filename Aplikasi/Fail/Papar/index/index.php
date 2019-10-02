@@ -12,6 +12,8 @@
 			Dasar Privasi / Privacy Policy</a>
 		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>hubungi/mediasosial">
 			Media Sosial</a>
+		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>sumber/fail/rujukan">
+			Rujukan Utama</a>
 		<img src="sumber/gambar/placeimg_290_422_any.jpg"
 		width="290" height="422" alt="gambar saya">
 		</div>
