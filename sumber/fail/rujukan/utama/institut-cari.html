@@ -6,8 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Cari MSIC</title>
-
+<title>institut</title>
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.1.0/css/all.css">
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
@@ -29,8 +28,8 @@
 <hr>
 
 <table id="myTable" class="table table-striped table-bordered" style="width:100%">
-<thead><tr><th>#</th><th>s</th><th>msic</th><th>keterangan</th><th>msic2000</th><th>notakaki</th></tr></thead>
-<tfoot><tr><th>#</th><th>s</th><th>msic</th><th>keterangan</th><th>msic2000</th><th>notakaki</th></tr></tfoot>
+<thead><tr><th>no</th><th>kod</th><th>keterangan</th><th>nota01</th></tr></thead>
+<tfoot><tr><th>no</th><th>kod</th><th>keterangan</th><th>nota01</th></tr></tfoot>
 </table>
 
 <!-- Footer
@@ -120,7 +119,8 @@ jQuery.fn.highlight = function (words, options)
 };
 /////////////////////////////////////////////////////////////
 	var t = $('#myTable').DataTable({
-	"ajax": "msic.json",
+	//"ajax": "../../../../../cari/institutjson",
+	"ajax": "institut.json",
 	searchHighlight: true,
 	"columnDefs": [{
 		"searchable": false,
