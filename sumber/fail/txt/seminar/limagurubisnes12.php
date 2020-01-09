@@ -7,3 +7,5 @@ Biasanya kita guna konsep platinum, emas, perak, gangsa.
 
 Tetapi jika kita ingin memperkenalan konsep islamik, kita kena kaji sirah nabi Muhammad saw
 dari Mekah ke Madinah serta persaudaraan Muhajirin dan Ansar.
+
+Matawang zaman kegemilangan islam adalah dinar dan dirham serta fulus.
