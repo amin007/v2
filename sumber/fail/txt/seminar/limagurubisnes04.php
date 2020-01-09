@@ -71,10 +71,44 @@ Namun rezeki dari Allah tidak pernah salah alamat.
 
 Ada pemandu grabcar telefon hendak belanja makan capati di kawasan LRT Dato' Keramat.
 
-Jauh naik LRT Masjid Jamek ke Lrt Dato' Keramat, lalu terorong mana entah.
+Jeuh naik LRT Masjid Jamek ke Lrt Dato' Keramat, lalu terorong mana entah.
 
 Dapatlah merasa capati yang paling sedap setakat ini, itu pun sebab orang belanja makan.
 
+Pukul 8 pagi, kita bergerak ke hotel mcd semula dengan LRT.
 
+Ikutkan beg sudah siap kemas dalam bilik hotel, tinggal pikul sahaja.
+
+Turun lobi hotel mcd dan minta deposit RM 50 serta resit.
+
+Kemudian fikir sama ada hendak pergi ke tempat seminar naik grabcar atau lrt+grabcar.
+
+Kita rasa mahu naik lrt dari masjid jamek ke awan besar, lepas itu naik grabcar ke kinrara resort.
+
+Sampai sahaja di lrt awan besar sudah pukul 9 pagi, tunggu grabcar lagi pula.
+
+Rasanya sampai kinrara resort dalam 9.30 pagi.
+
+Pergi lobi kinrara resort dan mereka suruh naik tingkat 1.
+
+Sampai tingkat 1, cari kaunter vvip dan petik nama Datin Rozita.
+
+Nasib baik awek itu percaya dan bagi cawan.
+
+Masuk dewan dengar suara Dato Roslan dalam video klip memperkenalan guru bisnes 1.
+
+Jumpa Datin dan tanya hendak duduk mana.
+
+Mula-mula duduk baris ke tiga, lepas itu datin suruh berpindah ke baris hadapan.
+
+Tengok kerusi ada tag nama vip, ada yang tidak.
+
+Syukurlah masa kelam kabut itu Guru Bisnes Pertama belum berucap lagi.
+
+Tengok orang sebelah kiri tulis nota guna tablet siap pen khas lagi.
+
+Entah siapakah gerangannya.
+
+Bersambung...
 
 
