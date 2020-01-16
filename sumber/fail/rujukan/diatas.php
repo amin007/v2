@@ -21,4 +21,17 @@ echo "\n"; ?>
 </head>
 <body>
 
-<a class="btn btn-primary" href="../">Kembali<i class="fa fa-binoculars"></i></a><hr>
+<a class="btn btn-primary" href="../">Kembali<i class="fa fa-binoculars"></i></a>
+<a class="btn btn-outline-secondary rounded-pill" href="msic-cari.html">
+	Cari MSIC</a>
+<a class="btn btn-outline-secondary rounded-pill" href="masco-cari.html">
+	Cari MASCO</a>
+<a class="btn btn-outline-secondary rounded-pill" href="komuniti-cari.html">
+	Cari Komuniti</a>
+<a class="btn btn-outline-secondary rounded-pill" href="produkmm-cari.html">
+	Cari Produk</a>
+<a class="btn btn-outline-secondary rounded-pill" href="negara-cari.html">
+	Cari Negara</a>
+<a class="btn btn-outline-secondary rounded-pill" href="institut-cari.html">
+	Cari Institut</a>
+<hr>
