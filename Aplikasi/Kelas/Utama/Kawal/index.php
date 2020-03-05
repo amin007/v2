@@ -67,5 +67,16 @@ class Index extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,'privasi',$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
+	public function berjaya()
+	{
+		# Set pemboleubah utama
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$this->papar->Tajuk_Muka_Surat = 'Berjaya';
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
+		$this->paparKandungan($this->_folder,'berjaya',$noInclude=0);
+	}
+#------------------------------------------------------------------------------------------
 #==========================================================================================
 }
