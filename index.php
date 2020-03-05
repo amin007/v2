@@ -8,7 +8,7 @@
  * 4. masukkan semua fail class dari folder Aplikasi/Kelas
  * 5. istihar class Mulakan
  */
-# 1. laporan tahap kesilapan kod PHP 
+# 1. laporan tahap kesilapan kod PHP
 error_reporting(E_ALL);
 
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
