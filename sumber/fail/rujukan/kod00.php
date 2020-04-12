@@ -130,85 +130,85 @@ $etnik = array(
 #--------------------------------------------------------------------------------------------------
 //<td> Kewarganegaraan </td>
 $warganegara = array(
-	array('','1','1-Warganegara Malaysia'),
-	array('','2','2-Bukan Warganegara Malaysia')
+	array('','1','1 - Warganegara Malaysia'),
+	array('','2','2 - Bukan Warganegara Malaysia')
 );
 #--------------------------------------------------------------------------------------------------
 //<td>Taraf Perkahwinan </td>
 $kahwin = array(
-	array('','1','1-Tidak pernah berkahwin'),
-	array('','2','2-Berkahwin'),
-	array('','3','3-Balu/Duda'),
-	array('','4','4-Bercerai'),
-	array('','5','5-Berpisah')
+	array('','1','1 - Tidak pernah berkahwin'),
+	array('','2','2 - Berkahwin'),
+	array('','3','3 - Balu/Duda'),
+	array('','4','4 - Bercerai'),
+	array('','5','5 - Berpisah')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Persekolahan </td>
 $sekolah = array(
-	array('','1','1-Tidak bersekolah'),
-	array('','2','2-Bersekolah'),
-	array('','3','3-Tamat persekolahan')
+	array('','1','1 - Tidak bersekolah'),
+	array('','2','2 - Bersekolah'),
+	array('','3','3 - Tamat persekolahan')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Taraf Pendidikan Rasmi Tertinggi</td>
 $pendidikan = array(
-	array('','00','00-Pendidikan Prasekolah'),
-	array('','11','11-Tahun 1'),
-	array('','12','12-Tahun 2'),
-	array('','13','13-Tahun 3'),
-	array('','14','14-Tahun 4'),
-	array('','15','15-Tahun 5'),
-	array('','16','16-Tahun 6'),
-	array('','21','21-Kelas Peralihan'),
-	array('','22','22-Tingkatan 1'),
-	array('','23','23-Tingkatan 2'),
-	array('','24','24-Tingkatan 3'),
-	array('','31','31-Tingkatan 4'),
-	array('','32','32-Tingkatan 5'),
-	array('','33','33-Program Kemahiran Asas'),
-	array('','41','41-Tingkatan 6 (rendah)'),
-	array('','42','42-Tingkatan 6 (atas)'),
-	array('','43','43-Matrikulasi (Prauniversiti)'),
-	array('','51','51-Program Sijil Kemahiran Khusus dan Teknikal'),
-	array('','61','61-Program Sijil oleh Badan-badan yang memberi Pengiktirafan'),
-	array('','62','62-Program Sijil dari kolej/politeknik/universiti atau setaraf dengannya'),
-	array('','63','63-Program Sijil perguruan/kejururawatan/kesihatan bersekutu'),
-	array('','64','64-Program Diploma Kemahiran Khusus dan Teknikal'),
-	array('','65','65-Program Diploma Lanjutan/Higher National Diploma Kemahiran Khusus dan Teknikal'),
-	array('','66','66-Program Diploma dari kolej/politeknik/universiti atau setaraf dengannya'),
-	array('','67','67-Program Diploma perguruan/kejururawatan/kesihatan bersekutu'),
-	array('','71','71-Program Ijazah Sarjana Muda/Diploma Lanjutan'),
-	array('','72','72-Program Lepasan Ijazah'),
-	array('','73','73-Program Sarjana'),
-	array('','81','81-Program Ijazah Falsafah Kedoktoran'),
-	array('','82','82-Skim Pasca Kedoktoran'),
-	array('','91','91-Pendidikan tidak formal'),
-	array('','92','92-Tiada pendidikan'),
-	array('','93','93-Masih belum bersekolah')
+	array('','00','00 - Pendidikan Prasekolah'),
+	array('','11','11 - Tahun 1'),
+	array('','12','12 - Tahun 2'),
+	array('','13','13 - Tahun 3'),
+	array('','14','14 - Tahun 4'),
+	array('','15','15 - Tahun 5'),
+	array('','16','16 - Tahun 6'),
+	array('','21','21 - Kelas Peralihan'),
+	array('','22','22 - Tingkatan 1'),
+	array('','23','23 - Tingkatan 2'),
+	array('','24','24 - Tingkatan 3'),
+	array('','31','31 - Tingkatan 4'),
+	array('','32','32 - Tingkatan 5'),
+	array('','33','33 - Program Kemahiran Asas'),
+	array('','41','41 - Tingkatan 6 (rendah)'),
+	array('','42','42 - Tingkatan 6 (atas)'),
+	array('','43','43 - Matrikulasi (Prauniversiti)'),
+	array('','51','51 - Program Sijil Kemahiran Khusus dan Teknikal'),
+	array('','61','61 - Program Sijil oleh Badan - badan yang memberi Pengiktirafan'),
+	array('','62','62 - Program Sijil dari kolej/politeknik/universiti atau setaraf dengannya'),
+	array('','63','63 - Program Sijil perguruan/kejururawatan/kesihatan bersekutu'),
+	array('','64','64 - Program Diploma Kemahiran Khusus dan Teknikal'),
+	array('','65','65 - Program Diploma Lanjutan/Higher National Diploma Kemahiran Khusus dan Teknikal'),
+	array('','66','66 - Program Diploma dari kolej/politeknik/universiti atau setaraf dengannya'),
+	array('','67','67 - Program Diploma perguruan/kejururawatan/kesihatan bersekutu'),
+	array('','71','71 - Program Ijazah Sarjana Muda/Diploma Lanjutan'),
+	array('','72','72 - Program Lepasan Ijazah'),
+	array('','73','73 - Program Sarjana'),
+	array('','81','81 - Program Ijazah Falsafah Kedoktoran'),
+	array('','82','82 - Skim Pasca Kedoktoran'),
+	array('','91','91 - Pendidikan tidak formal'),
+	array('','92','92 - Tiada pendidikan'),
+	array('','93','93 - Masih belum bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
 $sijil = array(
-	array('','1','1-Ijazah Sarjana Muda//Diploma Lanjutan'),
-	array('','2','2-Diploma/Sijil'),
-	array('','3','3-STPM/STP/atau yang setaraf'),
-	array('','4','4- SPM/SPMV atau yang setaraf'),
-	array('','5','5-PMR/SRP/LCE/PT3'),
-	array('','6','6-Tiada Sijil')
+	array('','1','1 - Ijazah Sarjana Muda//Diploma Lanjutan'),
+	array('','2','2 - Diploma/Sijil'),
+	array('','3','3 - STPM/STP/atau yang setaraf'),
+	array('','4','4 - SPM/SPMV atau yang setaraf'),
+	array('','5','5 - PMR/SRP/LCE/PT3'),
+	array('','6','6 - Tiada Sijil')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
 $aktiviti = array(
-	array('','01','01-Majikan'),
-	array('','02','02-Pekerja Kerajaan'),
-	array('','03','03-Pekerja swasta'),
-	array('','04','04-Bekerja sendiri'),
-	array('','05','05-Pekerja keluarga tanpa gaji'),
-	array('','06','06-Penganggur'),
-	array('','07','07-Suri rumah/menjaga rumah'),
-	array('','08','08-Pelajar'),
-	array('','09','09-Pesara'),
-	array('','10','10-Lain-lain(terangkan)'),
-	array('','11','11-Kanak-kanak tidak bersekolah')
+	array('','01','01 - Majikan'),
+	array('','02','02 - Pekerja Kerajaan'),
+	array('','03','03 - Pekerja swasta'),
+	array('','04','04 - Bekerja sendiri'),
+	array('','05','05 - Pekerja keluarga tanpa gaji'),
+	array('','06','06 - Penganggur'),
+	array('','07','07 - Suri rumah/menjaga rumah'),
+	array('','08','08 - Pelajar'),
+	array('','09','09 - Pesara'),
+	array('','10','10 - Lain-lain(terangkan)'),
+	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
