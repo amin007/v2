@@ -146,8 +146,9 @@ $kahwin = array(
 //<td> Persekolahan </td>
 $sekolah = array(
 	array('','1','1 - Tidak bersekolah'),
-	array('','2','2 - Bersekolah'),
-	array('','3','3 - Tamat persekolahan')
+	array('','2','2 - Bersekolah (sepenuh masa)'),
+	array('','3','3 - Bersekolah (separuh masa)'),
+	array('','4','4 - Tamat persekolahan')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Taraf Pendidikan Rasmi Tertinggi</td>
