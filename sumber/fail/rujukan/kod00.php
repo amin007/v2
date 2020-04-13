@@ -189,12 +189,43 @@ $pendidikan = array(
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
 $sijil = array(
-	array('','1','1 - Ijazah Sarjana Muda//Diploma Lanjutan'),
-	array('','2','2 - Diploma/Sijil'),
-	array('','3','3 - STPM/STP/atau yang setaraf'),
-	array('','4','4 - SPM/SPMV atau yang setaraf'),
-	array('','5','5 - PMR/SRP/LCE/PT3'),
-	array('','6','6 - Tiada Sijil')
+	array('','11','11 - UPKK'),
+	array('','12','12 - UPSR/UPSRA'),
+	array('','21','21 - SRA'),
+	array('','22','22 - PT3/PMR/SRP/LCE'),
+	array('','31','31 - SMA/SMU'),
+	array('','32','32 - 4 Thanawi'),
+	array('','33','33 - SPM/MCE/SC/FMCE/CSC'),
+	array('','34','34 - SPVM/SPM(V)/MVC'),
+	array('','35','35 - GCE `O` Level'),
+	array('','36','36 - Sijil Kemahiran Asas/Giat Mara'),
+	array('','41','41 - STA/STAM/STU'),
+	array('','42','42 - STPM/STP/HSC'),
+	array('','43','43 - GCE `A` Level'),
+	array('','44','44 - Sijil Matrikulasi'),
+	array('','51','51 - Sijil kemahiran khusus dan teknikal'),
+	array('','61','61 - Sijil daripada badan2 yg memberi pengiktirafan atau yg setaraf'),
+	array('','62','62 - Sijil drpd kolej atau yg setaraf'),
+	array('','63','63 - Sijil drpd politeknik atau yg setaraf'),
+	array('','64','64 - Sijil drpd universiti atau yg setaraf'),
+	array('','65','65 - Sijil perguruan/kejururawatan/kesihatan bersekutu'),
+
+	array('','71','71 - Diploma dlm kemahiran khusus dan teknikal'),
+	array('','72','72 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran khusus dan teknikal'),
+
+	array('','81','81 - Diploma drpd kolej atau yg setaraf(terutama kolej swasta)'),
+	array('','82','82 - Diploma drpd politeknik atau yg setaraf'),
+	array('','83','83 - Diploma drpd universiti atau yg setaraf'),
+	array('','84','84 - Diploma  perguruan/kejururawatan/kesihatan bersekutu'),
+
+	array('','91','91 - Ijazah Sarjana Muda/Diploma lanjutan'),
+	array('','92','92 - Diploma/Sijil pasca ijazah atau drpd badan profesional/(ACCA/CA)'),
+	array('','93','93 - Ijazah Sarjana'),
+	array('','94','94 - Doktor Falsafah(PhD)'),
+	array('','95','95 - Diploma/Sijil pasca kedoktoran'),
+	array('','01','01 - Masih belum bersekolah'),
+	array('','02','02 - Tiada Sijil'),
+	array('','03','03 - Tiada berkenaan')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
