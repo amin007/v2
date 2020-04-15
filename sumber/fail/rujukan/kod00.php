@@ -254,6 +254,37 @@ $data['sijil'] = array(
 	array('','03','03 - Tiada berkenaan')
 );
 #--------------------------------------------------------------------------------------------------
+// bidang pengajian
+$data['pengajian'] = array(
+	array('','010','010 - Program asas/umum','Program asas/umum'),
+	array('','080','080 - Literasi dan numerasi','Literasi dan numerasi'),
+	array('','090','090 - Kemahiran personal','Kemahiran personal'),
+	//Latihan perguruan dan sains pendidikan
+	array('','14X','Latihan perguruan dan sains pendidikan',''),
+	array('','141','141 - Pengajaran dan latihan','Latihan perguruan dan sains pendidikan'),
+	array('','142','142 - Sains pendidikan','Latihan perguruan dan sains pendidikan'),
+	array('','143','143 - Latihan perguruan untuk guru pra-sekolah','Latihan perguruan dan sains pendidikan'),
+	array('','144','144 - Latihan perguruan untuk guru peringkat asas','Latihan perguruan dan sains pendidikan'),
+	array('','145','145 - Latihan perguruan untuk guru dengan pengkhususan subjek','Latihan perguruan dan sains pendidikan'),
+	array('','146','146 - Latihan perguruan untuk guru dengan subjek vokasional/praktikal','Latihan perguruan dan sains pendidikan'),
+	//Kesenian
+	array('','21X','Kesenian',''),
+	array('','211','211 - Seni halus, lukisan, khat, calligraphy','Kesenian'),
+	array('','212','212 - Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian, teater)','Kesenian'),
+	array('','213','213 - Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan penerbitan)','Kesenian'),
+	array('','214','214 - Rekaan (fashion and costume design, interior design, stage design)','Kesenian'),
+	array('','215','215 - Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)','Kesenian'),
+	//Kemanusiaan
+	array('','21X','Kemanusiaan',''),
+	array('','221','221 - Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)','Kemanusiaan'),
+	array('','222','222 - Pengajian bahasa','Kemanusiaan'),
+	array('','223','223 - Bahasa kebangsaan (Bahasa Malaysia)','Kemanusiaan'),
+	array('','224','224 - Bahasa-bahasa lain (linguistics, literature, translation, interpretation, bahasa isyarat)','Kemanusiaan'),
+	array('','225','225 - Sejarah dan arkeologi','Kemanusiaan'),
+	array('','226','226 - Falsafah dan etika','Kemanusiaan'),
+	array('','227','227 - Sejarah, falsafah dan subjek berkaitan','Kemanusiaan'),
+);
+#--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
 $data['aktiviti'] = array(
 	array('','01','01 - Majikan'),
