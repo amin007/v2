@@ -1,7 +1,7 @@
 <?php
 #--------------------------------------------------------------------------------------------------
 //<select id="respon" name="respon" class="chzn-select" style="width:250px;">
-$respon = array(
+$data['respon'] = array(
 	array('','01','01 - Selesai'),
 	array('','02','02 - Kosong'),
 	array('','03','03 - Tiada orang di rumah'),
@@ -15,7 +15,7 @@ $respon = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td><div id='etnik1'>Kumpulan Etnik Responden </div></td>
-$etnik = array(
+$data['etnik'] = array(
 	array('','1100','1100 - Melayu'),
 	array('','2111','2111 - Bateq'),
 	array('','2112','2112 - Jahai'),
@@ -129,13 +129,13 @@ $etnik = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Kewarganegaraan </td>
-$warganegara = array(
+$data['warganegara'] = array(
 	array('','1','1 - Warganegara Malaysia'),
 	array('','2','2 - Bukan Warganegara Malaysia')
 );
 #--------------------------------------------------------------------------------------------------
 //<td>Taraf Perkahwinan </td>
-$kahwin = array(
+$data['kahwin'] = array(
 	array('','1','1 - Tidak pernah berkahwin'),
 	array('','2','2 - Berkahwin'),
 	array('','3','3 - Balu/Duda'),
@@ -144,7 +144,7 @@ $kahwin = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Persekolahan </td>
-$sekolah = array(
+$data['sekolah'] = array(
 	array('','1','1 - Tidak bersekolah'),
 	array('','2','2 - Bersekolah (sepenuh masa)'),
 	array('','3','3 - Bersekolah (separuh masa)'),
@@ -152,7 +152,7 @@ $sekolah = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Taraf Pendidikan Rasmi Tertinggi</td>
-$pendidikan = array(
+$data['pendidikan'] = array(
 	array('','00','00 - Pendidikan Prasekolah | Thn Pendidikan Luar Negara'),
 	array('','11','11 - Tahun 1 | 1'),
 	array('','12','12 - Tahun 2 | 2'),
@@ -176,7 +176,7 @@ $pendidikan = array(
 	array('','63','63 - Program Sijil perguruan/kejururawatan/kesihatan bersekutu'),
 	array('','64','64 - Program Diploma Kemahiran Khusus dan Teknikal'),
 	array('','65','65 - Program Diploma Lanjutan/Higher National Diploma Kemahiran Khusus dan Teknikal'),
-	array('','66','66 - Program Diploma dari kolej/politeknik/universiti atau setaraf dengannya'),
+	array('','66','66 - Program Diploma54 dari kolej/politeknik/universiti atau setaraf dengannya'),
 	array('','67','67 - Program Diploma perguruan/kejururawatan/kesihatan bersekutu'),
 	array('','71','71 - Program Ijazah Sarjana Muda/Diploma Lanjutan'),
 	array('','72','72 - Program Lepasan Ijazah'),
@@ -189,7 +189,7 @@ $pendidikan = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
-$sijil = array(
+$data['sijil'] = array(
 	array('','11','11 - UPKK'),
 	array('','12','12 - UPSR/UPSRA'),
 	array('','21','21 - SRA'),
@@ -230,7 +230,7 @@ $sijil = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
-$aktiviti = array(
+$data['aktiviti'] = array(
 	array('','01','01 - Majikan'),
 	array('','02','02 - Pekerja Kerajaan'),
 	array('','03','03 - Pekerja swasta'),
@@ -243,4 +243,8 @@ $aktiviti = array(
 	array('','10','10 - Lain-lain(terangkan)'),
 	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
+#--------------------------------------------------------------------------------------------------
+echo '<pre>';
+print_r($data);
+echo '</pre>';
 #--------------------------------------------------------------------------------------------------
