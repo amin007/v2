@@ -201,7 +201,7 @@ $data['pendidikan'] = array(
 	array('','63','63 - Program Sijil perguruan/kejururawatan/kesihatan bersekutu',''),
 	array('','64','64 - Program Diploma Kemahiran Khusus dan Teknikal',''),
 	array('','65','65 - Program Dip. Lanjutan/Higher National Diploma Kemahiran Khusus dan Teknikal',''),
-	array('','66','66 - Program Diploma dari kolej/politeknik/universiti @ setaraf dengannya',''),
+	array('','66','66 - Program Diploma dari kolej/politeknik/universiti @ setaraf dgnnya',''),
 	array('','67','67 - Program Diploma perguruan/kejururawatan/kesihatan bersekutu',''),
 	array('','71','71 - Program Ijazah Sarjana Muda/Diploma Lanjutan',''),
 	array('','72','72 - Program Lepasan Ijazah',''),
