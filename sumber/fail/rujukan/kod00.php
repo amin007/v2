@@ -395,8 +395,8 @@ $data['aktiviti'] = array(
 		foreach($senarai as $jadual => $row):
 			$output = ($jadual == $pilih) ? paparSatuJadual($row,$pilih)
 			: null;
-			//echo "\r\t" . '<table class="'.$class.'" id="allTable">'
-			echo "\r\t" . '<table border="1">'
+			echo "\r\t" . '<table class="'.$class.'" id="allTable">'
+			//echo "\r\t" . '<table border="1">'
 			. $output . "\r\t" . '</table>' . "\r\r";
 		endforeach;//*/
 		#
@@ -415,7 +415,7 @@ $data['aktiviti'] = array(
 				$output .= "\r\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
 				$tajuk = ($kunci==2) ? $jadual : $kunci;
-				$output .= "\r\t" . '<th>' . $tajuk . '</th>';
+				$output .= "\r\t" . '<th>' . ucfirst($tajuk) . '</th>';
 				endforeach;
 				$output .= "\r\t" . '</tr></thead>';
 				$output .= "\r\t" . '<tbody>';
