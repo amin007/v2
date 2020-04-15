@@ -389,6 +389,51 @@ $data['aktiviti'] = array(
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+	function binaSatuJadual($senarai,$pilih)
+	{
+		$class = 'table table-striped table-bordered';
+		foreach($senarai as $jadual => $row):
+			$output = ($jadual == $pilih) ? paparSatuJadual($row,$pilih)
+			: null;
+			//echo "\r\t" . '<table class="'.$class.'" id="allTable">'
+			echo "\r\t" . '<table border="1">'
+			. $output . "\r\t" . '</table>' . "\r\r";
+		endforeach;//*/
+		#
+	}
+#--------------------------------------------------------------------------------------------------
+	function paparSatuJadual($row,$jadual)
+	{
+		$output = null;
+		$bilBaris = count($row);
+		$printed_headers = false;# mula bina jadual
+		#-----------------------------------------------------------------
+		for ($kira=0; $kira < $bilBaris; $kira++)
+		{	# print the headers once:
+			if ( !$printed_headers )
+			{##===========================================================
+				$output .= "\r\t<thead><tr>";
+				foreach ( array_keys($row[$kira]) as $kunci ) :
+				$tajuk = ($kunci==2) ? $jadual : $kunci;
+				$output .= "\r\t" . '<th>' . $tajuk . '</th>';
+				endforeach;
+				$output .= "\r\t" . '</tr></thead>';
+				$output .= "\r\t" . '<tbody>';
+			##============================================================
+				$printed_headers = true;
+			}
+		#-----------------------------------------------------------------
+			# print the data row
+			$output .= "\r\t<tr>";
+			foreach ( $row[$kira] as $key=>$data ) :
+			$output .= "\r\t" . '<td>' . $data . '</td>';
+			endforeach;
+			$output .= "\r\t" . '</tr></tbody>';
+		}#----------------------------------------------------------------
+
+		return $output;//*/
+	}
+#--------------------------------------------------------------------------------------------------
 	function binaJadual($senarai)
 	{
 		$class = 'table table-striped table-bordered';
@@ -519,7 +564,7 @@ $cari = explode('/',$_SERVER['PATH_INFO']);
 //semakPembolehubah($cari,'cari');
 binaButang($data);
 //versiphp();
-binaSatuJadual($data[$cari[1]]);
+binaSatuJadual($data,$cari[1]);
 
 /*
 $tableID = 'myTable';
