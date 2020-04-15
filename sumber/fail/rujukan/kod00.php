@@ -516,11 +516,10 @@ include 'atas-set-001.php';
 include 'diatas-001.php';
 
 $cari = explode('/',$_SERVER['PATH_INFO']);
-semakPembolehubah($cari,'cari');
+//semakPembolehubah($cari,'cari');
 binaButang($data);
 //versiphp();
-//$_SERVER['PATH_INFO']
-//binaJadual($data);
+binaSatuJadual($data[$cari[1]]);
 
 /*
 $tableID = 'myTable';
