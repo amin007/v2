@@ -694,13 +694,13 @@ echo "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="wid
 . "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 . "</table>\n";
 //*/
-include 'dibawah.php';
 #--------------------------------------------------------------------------------------------------
+include 'dibawah.php';
 echo "<script>\n";
 jqueryExtendA();
 jqueryExtendB();
 jqueryExtendC();
 gradeTable002(null);
-echo "\n</script>\n";
+echo "\n</script>\n</body>\n</html>";
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
