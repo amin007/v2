@@ -293,6 +293,7 @@ $data['pengajian'] = array(
 	array('','32X','Kewartawanan dan maklumat','Kewartawanan dan maklumat'),
 	array('','321','321 - Kewartawanan dan pelaporan (broadcast journalism, mass communication)','Kewartawanan dan maklumat'),
 	array('','322','322 - Perpustakaan, maklumat dan arkib (archival science, documentation, information science, librarianship  training, museum documentation)','Kewartawanan dan maklumat'),
+	//Perniagaan dan pentadbiran
 	array('','34X','34X - Perniagaan dan pentadbiran',''),
 	array('','341','341 - Jualan borong dan runcit (buying, selling, consumer service, dairy retailing, demonstration techniques, property sales, purchasing, procurement, contracts, real- estate, sales representatives, stock keeping, telephone selling, ware-housing, wholesaling)','Perniagaan dan pentadbiran'),
 	array('','342','342 - Pemasaran dan pengiklanan (advertising, marketing, merchandising, market research, public relation)','Perniagaan dan pentadbiran'),
