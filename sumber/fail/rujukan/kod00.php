@@ -494,9 +494,11 @@ function versiphp()
 {
 	//phpinfo();
 	//echo PHPVERSION() . '<br>';
-	echo PHP_VERSION . '<br>';
-	echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
-	echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
+	//echo PHP_VERSION . '<br>';
+	//echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
+	//echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
+	echo '<h1>' . $_SERVER['SCRIPT_NAME'] . '</h1>';
+	echo '<h1>' . $_SERVER['PATH_INFO'] . '</h1>';
 }
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
