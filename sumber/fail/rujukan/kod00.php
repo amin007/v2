@@ -244,7 +244,81 @@ $data['aktiviti'] = array(
 	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
-echo '<pre>';
-print_r($data);
-echo '</pre>';
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+	function binaJadual($senarai)
+	{
+		$class = 'table table-striped table-bordered';
+		foreach($senarai as $jadual => $row):
+			$output = paparJadual($row,$jadual);
+			//echo "\r\t" . '<table class="'.$class.'" id="allTable">'
+			echo "\r\t" . '<table border="1">'
+			. $output . "\r\t" . '</table>' . "\r\r";
+		endforeach;
+		#
+	}
+#--------------------------------------------------------------------------------------------------
+	function paparJadual($row,$jadual)
+	{
+		$output = null;
+		$bil_baris = count($row);
+		$printed_headers = false;# mula bina jadual
+		#-----------------------------------------------------------------
+		for ($kira=0; $kira < $bil_baris; $kira++)
+		{	# print the headers once:
+			if ( !$printed_headers )
+			{##===========================================================
+				$output .= "\r\t<thead><tr>";
+				foreach ( array_keys($row[$kira]) as $tajuk ) :
+				$output .= "\r\t" . '<th>' . $tajuk . '</th>';
+				endforeach;
+				$output .= "\r\t" . '</tr></thead>';
+				$output .= "\r\t" . '<tbody>';
+			##============================================================
+				$printed_headers = true;
+			}
+		#-----------------------------------------------------------------
+			# print the data row
+			$output .= "\r\t<tr>";
+			foreach ( $row[$kira] as $key=>$data ) :
+			$output .= "\r\t" . '<td>' . $data . '</td>';
+			endforeach;
+			$output .= "\r\t" . '</tr></tbody>';
+		}#----------------------------------------------------------------
+
+		return $output;
+	}
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+	function binaJson($senarai)
+	{
+		$class = 'table table-striped table-bordered';
+		foreach($senarai as $jadual => $row):
+			$output = jsonDataTables($row,$jadual);
+			echo "\r\t" . '<hr>' . $output . "\r\t" . '<hr>';
+		endforeach;
+		#
+	}
+#--------------------------------------------------------------------------------------------------
+	function jsonDataTables($row,$jadual)
+	{
+		$kira = count($row);
+		# cara papar output guna json
+		$output = array(
+			"draw"	=>	intval(1),
+			"recordsTotal"	=> 	$kira,
+			"recordsFiltered" => $kira,
+			"data" => $row
+		);
+
+		//echo json_encode($output);
+		return json_encode($output);
+	}
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+//echo '<pre>';print_r($data);echo '</pre>';
+binaJadual($data);
+//binaJson($data);
 #--------------------------------------------------------------------------------------------------
