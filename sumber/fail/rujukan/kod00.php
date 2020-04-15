@@ -469,7 +469,7 @@ $data['aktiviti'] = array(
 		foreach($senarai as $jadual => $row):
 			$output .= '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '/' .$jadual. '">'
-			. ' Cari ' . ucfirst($jadual) . '</a>';
+			. ucfirst($jadual) . '</a>';
 		endforeach;
 
 		echo $output;
@@ -515,8 +515,10 @@ define ('URL', $_SERVER['SCRIPT_NAME']);
 include 'atas-set-001.php';
 include 'diatas-001.php';
 
+$cari = explode('/',$_SERVER['PATH_INFO']);
+semakPembolehubah($cari,'cari');
 binaButang($data);
-versiphp();
+//versiphp();
 //$_SERVER['PATH_INFO']
 //binaJadual($data);
 
