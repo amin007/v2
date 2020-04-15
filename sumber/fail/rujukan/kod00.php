@@ -128,6 +128,31 @@ $data['etnik'] = array(
 	array('','9998','9998 - Lain-lain')
 );
 #--------------------------------------------------------------------------------------------------
+// bahasa pertuturan
+$data['pertuturan'] = array(
+	array('','10','10 - Melayu'),
+	array('','20','20 - Inggeris'),
+	array('','30','30 - Mandarin'),
+	array('','31','31 - Hokkien'),
+	array('','31','32 - Kantonis'),
+	array('','33','33 - Hakka'),
+	array('','34','34 - Teochew'),
+	array('','35','35 - Hainan'),
+	array('','36','36 - Foochow'),
+	array('','40','40 - Tamil'),
+	array('','41','41 - India lain'),
+	array('','50','50 - Iban'),
+	array('','51','51 - Bidayuh'),
+	array('','52','52 - Melanau'),
+	array('','53','53 - Murut'),
+	array('','60','60 - Kadazan'),
+	array('','61','61 - Dusun'),
+	array('','62','62 - Bajau'),
+	array('','63','63 - Rungus'),
+	array('','64','64 - Brunei'),
+	array('','70','70 - Lain-lain')
+);
+#--------------------------------------------------------------------------------------------------
 //<td> Kewarganegaraan </td>
 $data['warganegara'] = array(
 	array('','1','1 - Warganegara Malaysia'),
