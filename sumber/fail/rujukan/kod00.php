@@ -468,8 +468,8 @@ $data['aktiviti'] = array(
 		. '<i class="fa fa-binoculars"></i></a>';
 		foreach($senarai as $jadual => $row):
 			$output .= '<a class="btn btn-outline-secondary rounded-pill"'
-			. ' href="#">'
-			. ' Cari ' . $jadual . '</a>';
+			. ' href="' . URL . '/' .$jadual. '">'
+			. ' Cari ' . ucfirst($jadual) . '</a>';
 		endforeach;
 
 		echo $output;
@@ -484,14 +484,20 @@ $data['aktiviti'] = array(
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-include 'atas=set-001.php';
-include 'diatas.php';
+define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+include 'atas-set-001.php';
+include 'diatas-001.php';
+binaButang($data);
+//binaJadual($data);
+
+/*
 $tableID = 'myTable';
 $tableClass = 'table table-striped table-bordered';
 $tajuk = '<th>#</th><th>s</th><th>msic</th><th>keterangan</th><th>msic2000</th><th>notakaki</th>';
 echo "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
 . "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 . "</table>\n";
-include '../dibawah.php';
+//*/
+include 'dibawah.php';
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
