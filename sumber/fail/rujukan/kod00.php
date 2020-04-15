@@ -283,6 +283,16 @@ $data['pengajian'] = array(
 	array('','225','225 - Sejarah dan arkeologi','Kemanusiaan'),
 	array('','226','226 - Falsafah dan etika','Kemanusiaan'),
 	array('','227','227 - Sejarah, falsafah dan subjek berkaitan','Kemanusiaan'),
+	//Sains sosial dan sains gelagat
+	array('','31X','31X - Sains sosial dan sains gelagat',''),
+	array('','311','311 - Psikologi','Sains sosial dan sains gelagat'),
+	array('','312','312 - Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional cultures)','Sains sosial dan sains gelagat'),
+	array('','313','313 - Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)','Sains sosial dan sains gelagat'),
+	array('','314','314 - Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)','Sains sosial dan sains gelagat'),
+	//Kewartawanan dan maklumat
+	array('','32X','Kewartawanan dan maklumat','Kewartawanan dan maklumat'),
+	array('','321','321 - Kewartawanan  dan  pelaporan  (broadcast journalism, mass communication)','Kewartawanan dan maklumat'),
+	array('','322','322 - Perpustakaan, maklumat dan arkib (archival  science,  documentation, information science, librarianship  training, museum documentation)','Kewartawanan dan maklumat'),
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
