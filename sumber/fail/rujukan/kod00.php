@@ -475,6 +475,30 @@ $data['aktiviti'] = array(
 		echo $output;
 		#
 	}
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+# fungsi global
+#--------------------------------------------------------------------------------------------------
+function semakPembolehubah($senarai,$jadual,$p='0')
+{
+	echo '<hr><pre>$' . $jadual . '=><br>';
+	if($p == '0') print_r($senarai);
+	if($p == '1') var_export($senarai);
+	echo '</pre>';//*/
+	//semakPembolehubah($ujian,'ujian',0);
+	#http://php.net/manual/en/function.var-export.php
+	#http://php.net/manual/en/function.print-r.php
+}
+#--------------------------------------------------------------------------------------------------
+function versiphp()
+{
+	//phpinfo();
+	//echo PHPVERSION() . '<br>';
+	echo PHP_VERSION . '<br>';
+	echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
+	echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
+}
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 //echo '<pre>';print_r($data);echo '</pre>';
