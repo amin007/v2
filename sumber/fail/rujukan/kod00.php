@@ -637,7 +637,7 @@ END;
 			. ucfirst($jadual) . '</a>';
 		endforeach;
 		$output .= "\r\t<hr>";
-
+-
 		echo $output;
 		#
 	}
