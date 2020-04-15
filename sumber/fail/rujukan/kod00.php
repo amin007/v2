@@ -452,40 +452,40 @@ $data['Aktiviti Pekerjaan'] = array(
 	array('','','77102 - Aktiviti penyewaan lori/trak/treler (tanpa pemandu)'),
 	array('','','77293 - Aktiviti penyewaan set kemudahan karaoke, hiasan pelamin untuk majlis perkahwinan/cukur jambul'),
 	array('','','77291 - Aktiviti penyewaan set pakaian perkahwinan (pakaian, kasut, aksesori pakaian)'),
-	array('','','77299 - Aktiviti   penyewaan   kanopi/khemah,   kerusi,   meja,   kipas, lampu untuk kegunaan majlis perkahwinan/keramaian'),
+	array('','','77299 - Aktiviti penyewaan kanopi/khemah, kerusi, meja, kipas, lampu untuk kegunaan majlis perkahwinan/keramaian'),
 	array('','','79110 - Aktiviti travel agency (Cth: Membawa jemaah haji)'),
-	array('','','81100 - Aktiviti  gabungan  pelbagai  kemudahan  (Cth:  Radicare  (M) Sdn. Bhd., Propel Berhad)'),
-	array('','','81210 - Aktiviti    pembersihan/mengemas    dari    rumah    ke    rumah beroperasi sendiri'),
-	array('','','81296 - Aktiviti  perkhidmatan  cuci  pinggan  mangkuk  untuk  tujuan komersil'),
+	array('','','81100 - Aktiviti gabungan pelbagai kemudahan (Cth: Radicare (M) Sdn. Bhd., Propel Berhad)'),
+	array('','','81210 - Aktiviti pembersihan/mengemas dari rumah ke rumah beroperasi sendiri'),
+	array('','','81296 - Aktiviti perkhidmatan cuci pinggan mangkuk untuk tujuan komersil'),
 	array('','','81300 - Aktiviti memotong rumput bagi pembersihan halaman rumah atau persekitaran awam'),
-	array('','','82301 - Aktiviti  pengurusan  konvensyen/pameran  perdagangan  (Cth: Putrajaya  International  Convention  Center  (PICC),  Kuala Lumpur  Convention  Center  (KLCC),  Malaysia  International Exhibition   &   Convention   Centre   (MIECC),   Shah   Alam Convention Centre  (SACC), Sime Darby Convention Centre, Persada Johor International Convention Centre.'),
-	array('','','82920 - Aktiviti   pembungkusan   sebarang   produk   pembuatan   yang beroperasi sendiri berdasarkan kontrak/yuran'),
-	array('','','52299 - Aktiviti    pembungkusan    sampingan    untuk    penghantaran muatan/pengangkutan   yang   beroperasi   sendiri   berdasarkan kontrak/yuran'),
+	array('','','82301 - Aktiviti pengurusan konvensyen/pameran perdagangan (Cth: Putrajaya International Convention Center (PICC), Kuala Lumpur Convention Center (KLCC), Malaysia International Exhibition & Convention Centre (MIECC), Shah Alam Convention Centre (SACC), Sime Darby Convention Centre, Persada Johor International Convention Centre.'),
+	array('','','82920 - Aktiviti pembungkusan sebarang produk pembuatan yang beroperasi sendiri berdasarkan kontrak/yuran'),
+	array('','','52299 - Aktiviti pembungkusan sampingan untuk penghantaran muatan/pengangkutan yang beroperasi sendiri berdasarkan kontrak/yuran'),
 	array('','','82990 - Aktiviti runner (melakukan kerja untuk sokongan perniagaan seperti penghantaran surat/bi/bayaran, dll)'),
 	array('','','84111 - Aktiviti di Jabatan Perdana Menteri (JPM), Pejabat Setiausaha Kerajaan Negeri (SUK), Kementerian Kewangan'),
 	array('','','84112 - Aktiviti di Lembaga Hasil Dalam Negeri (LHDN)'),
 	array('','','64191 - Aktiviti di Bank Simpanan Nasional (BSN)'),
 	array('','','84131 - Aktiviti di Kastam Diraja Malaysia'),
-	array('','','84121 - Aktiviti    di    Kementerian    Pendidikan    Malaysia,    Jabatan Pendidikan Negeri, Pejabat Pelajaran Daerah'),
-	array('','','84122 - Aktiviti    di    Kementerian    Kesihatan    Malaysia,    Jabatan Kesihatan Negeri, Pejabat Kesihatan Daerah'),
-	array('','','84123 - Aktiviti di Kementerian Kesejahteraan Bandar, Perumahan & Kerajaan     Tempatan     Malaysia,     Kementerian     Wilayah Persekutuan, Majlis Perbandaran/Bandaraya, Pejabat Daerah'),
-	array('','','84124 - Aktiviti  di  Kementerian  Belia  &  Sukan,  Jabatan  Belia  &'),
+	array('','','84121 - Aktiviti di Kementerian Pendidikan Malaysia, Jabatan Pendidikan Negeri, Pejabat Pelajaran Daerah'),
+	array('','','84122 - Aktiviti di Kementerian Kesihatan Malaysia, Jabatan Kesihatan Negeri, Pejabat Kesihatan Daerah'),
+	array('','','84123 - Aktiviti di Kementerian Kesejahteraan Bandar, Perumahan & Kerajaan  Tempatan  Malaysia,  Kementerian  Wilayah Persekutuan, Majlis Perbandaran/Bandaraya, Pejabat Daerah'),
+	array('','','84124 - Aktiviti di Kementerian Belia & Sukan, Jabatan Belia &'),
 	array('','','	Sukan Negara, Majlis Sukan Negara, Jabatan Warisan Negara, Istana Budaya, Jabatan Kebudayaan & Kesenian Negara'),
-	array('','','84125 - Aktiviti  di  Jabatan  Kemajuan  Islam  Malaysia,  Jabatan  Hal Ehwal Islam Negeri, Majlis Agama Islam Negeri'),
-	array('','','84126 - Aktiviti  di  Kementerian  Pembangunan  Wanita,  Keluarga  & Masyarakat    (KPWKM),    Jabatan    Kebajikan    Masyarakat (JKM),    Lembaga    Penduduk    &    Pembangunan    Keluarga Negara (LPPKN)'),
-	array('','','84129 - Aktiviti  pentadbiran  kawasan  setempat  oleh  Penghulu/Ketua Kampung/Tok Batin/Pemaju Mukim di mukim/kampung'),
-	array('','','88909 - Aktiviti           kerja           sosial/keselamatan           masyarakat setempat/kampung (Cth: JKKK)'),
-	array('','','84131 - Aktiviti di Kementerian Perdagangan Dalam Negeri, Koperasi &   Kepenggunaan   (KPDNKK),   Kementerian   Perdagangan Antarabangsa & Industri (MITI)'),
-	array('','','84132 - Aktiviti   di   Kementerian   Pertanian   &   Industri   Asas   Tani (MOA),  Kementerian  Perusahaan  Perladangan  &  Komoditi (MPIC)   dan   Kementerian   Kemajuan   Luar   Bandar   dan Wilayah (KKLW)'),
-	array('','','84133 - Aktiviti di Kementerian Sumber Asli & Alam Sekitar (NRE) iaitu Jabatan Perhutanan, Jabatan Perlindungan Hidupan Liar &  Taman  Negara  (PERHILITAN),  Jabatan  Alam  Sekitar, Jabatan  Mineral  &  Geosains,  Jabatan  Ketua  Pengarah  Tanah & Galian'),
-	array('','','84134 - Aktiviti  di  Kementerian  Kerja  Raya,  Jabatan  Pengairan  & Saliran (JPS), Jabatan Ukur & Pemetaan (JUPEM)'),
-	array('','','84135 - Aktiviti di Kementerian Pengangkutan, Jabatan Pengangkutan Jalan   (JPJ),   Jabatan   Penerbangan   Awam   (DCA),   Jabatan Keselamatan        Jalan        Raya,        Lembaga        Pelabuhan Klang/Johor/Bintulu/Kuantan'),
-	array('','','84136 - Aktiviti   di   Kementerian   Tenaga,   Teknologi   Hijau   &   Air (KETTHA),     Kementerian     Komunikasi     &     Multimedia Malaysia (KKMM)'),
+	array('','','84125 - Aktiviti di Jabatan Kemajuan Islam Malaysia, Jabatan Hal Ehwal Islam Negeri, Majlis Agama Islam Negeri'),
+	array('','','84126 - Aktiviti di Kementerian Pembangunan Wanita, Keluarga & Masyarakat (KPWKM), Jabatan Kebajikan Masyarakat (JKM), Lembaga Penduduk & Pembangunan Keluarga Negara (LPPKN)'),
+	array('','','84129 - Aktiviti pentadbiran kawasan setempat oleh Penghulu/Ketua Kampung/Tok Batin/Pemaju Mukim di mukim/kampung'),
+	array('','','88909 - Aktiviti kerja sosial/keselamatan masyarakat setempat/kampung (Cth: JKKK)'),
+	array('','','84131 - Aktiviti di Kementerian Perdagangan Dalam Negeri, Koperasi & Kepenggunaan (KPDNKK), Kementerian Perdagangan Antarabangsa & Industri (MITI)'),
+	array('','','84132 - Aktiviti di Kementerian Pertanian & Industri Asas Tani (MOA), Kementerian Perusahaan Perladangan & Komoditi (MPIC) dan Kementerian Kemajuan Luar Bandar dan Wilayah (KKLW)'),
+	array('','','84133 - Aktiviti di Kementerian Sumber Asli & Alam Sekitar (NRE) iaitu Jabatan Perhutanan, Jabatan Perlindungan Hidupan Liar & Taman Negara (PERHILITAN), Jabatan Alam Sekitar, Jabatan Mineral & Geosains, Jabatan Ketua Pengarah Tanah & Galian'),
+	array('','','84134 - Aktiviti di Kementerian Kerja Raya, Jabatan Pengairan & Saliran (JPS), Jabatan Ukur & Pemetaan (JUPEM)'),
+	array('','','84135 - Aktiviti di Kementerian Pengangkutan, Jabatan Pengangkutan Jalan (JPJ), Jabatan Penerbangan Awam (DCA), Jabatan Keselamatan Jalan Raya, Lembaga Pelabuhan Klang/Johor/Bintulu/Kuantan'),
+	array('','','84136 - Aktiviti di Kementerian Tenaga, Teknologi Hijau & Air (KETTHA), Kementerian Komunikasi & Multimedia Malaysia (KKMM)'),
 	array('','','84137 - Aktiviti di Kementerian Pelancongan Malaysia'),
 	array('','','84138 - Aktiviti di Kementerian Sumber Manusia'),
-	array('','','84220 - Aktiviti  di  Kementerian  Pertahanan  (MOD),  Jabatan  Latihan Khidmat Negara (JLKN)'),
-	array('','','84239 - Aktiviti  di  Agensi  Antidadah  Kebangsaan  (AADK),  Jabatan Pertahanan  Awam  (JPAM),  Jabatan  Pendaftaran  Pertubuhan (ROS), Jabatan Sukarelawan Malaysia (RELA)'),
-	array('','','85221 - Aktiviti    di    Kolej    Vokasional    di    bawah    Kementerian Pendidikan Malaysia'),
+	array('','','84220 - Aktiviti di Kementerian Pertahanan (MOD), Jabatan Latihan Khidmat Negara (JLKN)'),
+	array('','','84239 - Aktiviti di Agensi Antidadah Kebangsaan (AADK), Jabatan Pertahanan Awam (JPAM), Jabatan Pendaftaran Pertubuhan (ROS), Jabatan Sukarelawan Malaysia (RELA)'),
+	array('','','85221 - Aktiviti di Kolej Vokasional di bawah Kementerian Pendidikan Malaysia'),
 	array('','','85301 - Aktiviti di Kolej Komuniti dan Politeknik'),
 	array('','','85301 - Aktiviti di Institut Pendidikan Guru Malaysia'),
 	array('','','85493 - Aktiviti di Sekolah Agama Rakyat di bawah Kerajaan Negeri'),
@@ -499,7 +499,7 @@ $data['Aktiviti Pekerjaan'] = array(
 	array('','','86202 - Aktiviti di Klinik Pakar Kanak-Kanak, Klinik Pakar Wanita, Klinik Pakar Kulit yang dijalankan oleh agensi swasta'),
 	array('','','86909 - Aktiviti pengamal perubatan tradisional oleh bidan kampung atau tukang urut yang biasanya beroperasi secara sendiri'),
 	array('','','87909 - Aktiviti rumah/institusi masalah juvana'),
-	array('','','88109 - Aktiviti kerja sosial harian (tanpa penginapan) kepada orang- orang kurang upaya (Cth: Pusat Pemulihan Dalam Komuniti)'),
+	array('','','88109 - Aktiviti kerja sosial harian (tanpa penginapan) kepada orang-orang kurang upaya (Cth: Pusat Pemulihan Dalam Komuniti)'),
 	array('','','88902 - Aktiviti penjagaan harian bayi/kanak-kanak di rumah sendiri'),
 	array('','','91021 - Aktiviti muzium dan pameran sains & teknologi (Cth: Pusat Sains)'),
 	array('','','93111 - Aktiviti operasi kemudahan sukan futsal (dewan)'),
@@ -668,12 +668,12 @@ $data['aktiviti'] = array(
 		"targets": 0
 	}],
 	"order": []
-    });
+ });
 
 	t.on( 'order.dt search.dt', function (){
 		t.column(0, {search:'applied', order:'applied'}).nodes().
 		each( function (cell, i) {cell.innerHTML = i+1;});
-    }).draw();
+ }).draw();
 	/* ***************************************************************************************** */
 
 END;
@@ -764,7 +764,7 @@ jQuery.fn.highlight = function (words, options)
 	return this.each(function ()
 	{
 		jQuery.highlight(this, re, settings.element, settings.className);
-    });
+ });
 };
 	/* ***************************************************************************************** */
 
@@ -775,7 +775,7 @@ END;
 ###################################################################################################
 	function binaButang($senarai)
 	{
-		$output  = "\r\t";
+		$output = "\r\t";
 		$output .= '<a class="btn btn-primary" href="../">Kembali'
 		. '<i class="fa fa-binoculars"></i></a>';
 		foreach($senarai as $jadual => $row):
