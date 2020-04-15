@@ -325,7 +325,8 @@ $data['aktiviti'] = array(
 			if ( !$printed_headers )
 			{##===========================================================
 				$output .= "\r\t<thead><tr>";
-				foreach ( array_keys($row[$kira]) as $tajuk ) :
+				foreach ( array_keys($row[$kira]) as $kunci ) :
+				$tajuk = ($kunci==2) ? $jadual : $kunci;
 				$output .= "\r\t" . '<th>' . $tajuk . '</th>';
 				endforeach;
 				$output .= "\r\t" . '</tr></thead>';
