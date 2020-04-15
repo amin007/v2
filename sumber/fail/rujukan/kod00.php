@@ -632,10 +632,11 @@ END;
 		$output .= '<a class="btn btn-primary" href="../">Kembali'
 		. '<i class="fa fa-binoculars"></i></a>';
 		foreach($senarai as $jadual => $row):
-			$output .= '<a class="btn btn-outline-secondary rounded-pill"'
+			$output .= "\r\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '/' .$jadual. '">'
 			. ucfirst($jadual) . '</a>';
 		endforeach;
+		$output .= "\r\t<hr>";
 
 		echo $output;
 		#
