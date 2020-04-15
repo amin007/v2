@@ -513,7 +513,7 @@ $data['aktiviti'] = array(
 	{
 		print <<<END
 	var t = $('#allTable').DataTable({
-	"ajax": "$url/admin/gradeAction",
+	/*"ajax": "$url/admin/gradeAction",*/
 	searchHighlight: true,
 	"columnDefs": [{
 		"searchable": false,
