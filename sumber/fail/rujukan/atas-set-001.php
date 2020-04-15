@@ -26,7 +26,7 @@ $jquery_cdn = '//code.jquery.com/jquery-3.3.1.js';
 $datatablesJSS = '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js';
 $searchHighlightCSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/dataTables.searchHighlight.css';
 $searchHighlightJSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/dataTables.searchHighlight.min.js';
-#############################################################################################################
+###################################################################################################
 $urlcss = array($bootstrapCSS_413,$fontawesome_510,$datatablesCSS,$searchHighlightCSS);
 $urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
-#############################################################################################################
+###################################################################################################
