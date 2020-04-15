@@ -509,10 +509,13 @@ function versiphp()
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 //define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
-define ('URL', $_SERVER['PHP_SELF']);
+define ('URL', $_SERVER['SCRIPT_NAME']);
 include 'atas-set-001.php';
 include 'diatas-001.php';
+
 binaButang($data);
+versiphp();
+//$_SERVER['PATH_INFO']
 //binaJadual($data);
 
 /*
