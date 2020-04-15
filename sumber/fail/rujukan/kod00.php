@@ -291,8 +291,16 @@ $data['pengajian'] = array(
 	array('','314','314 - Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)','Sains sosial dan sains gelagat'),
 	//Kewartawanan dan maklumat
 	array('','32X','Kewartawanan dan maklumat','Kewartawanan dan maklumat'),
-	array('','321','321 - Kewartawanan  dan  pelaporan  (broadcast journalism, mass communication)','Kewartawanan dan maklumat'),
-	array('','322','322 - Perpustakaan, maklumat dan arkib (archival  science,  documentation, information science, librarianship  training, museum documentation)','Kewartawanan dan maklumat'),
+	array('','321','321 - Kewartawanan dan pelaporan (broadcast journalism, mass communication)','Kewartawanan dan maklumat'),
+	array('','322','322 - Perpustakaan, maklumat dan arkib (archival science, documentation, information science, librarianship  training, museum documentation)','Kewartawanan dan maklumat'),
+	array('','34X','34X - Perniagaan dan pentadbiran',''),
+	array('','341','341 - Jualan borong dan runcit (buying, selling, consumer service, dairy retailing, demonstration techniques, property sales, purchasing, procurement, contracts, real- estate, sales representatives, stock keeping, telephone selling, ware-housing, wholesaling)','Perniagaan dan pentadbiran'),
+	array('','342','342 - Pemasaran dan pengiklanan (advertising, marketing, merchandising, market research, public relation)','Perniagaan dan pentadbiran'),
+	array('','343','343 - Kewangan, perbankan, insurans, pelaburan','Perniagaan dan pentadbiran'),
+	array('','344','344 - Perakaunan, percukaian, pengauditan, simpan kira','Perniagaan dan pentadbiran'),
+	array('','345','345 - Pengurusan dan pentadbiran (human resource management, office management, personnel management, quality management, recruitment, enterprise training, public administration)','Perniagaan dan pentadbiran'),
+	array('','346','346 - Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand, receptionist training, legal secretary)','Perniagaan dan pentadbiran'),
+	array('','347','347 - Kehidupan  kerja  (clients` needs, company knowledge, industrial relations, quality assurance, work development)','Perniagaan dan pentadbiran'),
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
