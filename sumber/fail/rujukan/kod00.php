@@ -679,21 +679,12 @@ function versiphp()
 define ('URL', $_SERVER['SCRIPT_NAME']);
 include 'atas-set-001.php';
 include 'diatas-001.php';
-
+#--------------------------------------------------------------------------------------------------
 $cari = explode('/',$_SERVER['PATH_INFO']);
 //semakPembolehubah($cari,'cari');
 binaButang($data);
 //versiphp();
 binaSatuJadual($data,$cari[1]);
-
-/*
-$tableID = 'myTable';
-$tableClass = 'table table-striped table-bordered';
-$tajuk = '<th>#</th><th>s</th><th>msic</th><th>keterangan</th><th>msic2000</th><th>notakaki</th>';
-echo "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
-. "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
-. "</table>\n";
-//*/
 #--------------------------------------------------------------------------------------------------
 include 'dibawah.php';
 echo "<script>\n";
