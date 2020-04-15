@@ -484,7 +484,8 @@ $data['aktiviti'] = array(
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+define ('URL', $_SERVER['PHP_SELF']);
 include 'atas-set-001.php';
 include 'diatas-001.php';
 binaButang($data);
