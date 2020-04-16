@@ -519,6 +519,31 @@ $data['Aktiviti Pekerjaan'] = array(
 	array('','','97000 - Aktiviti pembantu rumah yang bekerja dengan majikan isi rumah (termasuk amah, tukang kebun, pengawal peribadi)'),
 );
 #--------------------------------------------------------------------------------------------------
+/*
+2.2.8 : Soalan G5
+* Soalan ini hanya perlu dijawab bagi responden yang menyatakan bahawa
+  bayaran yang diterima adalah mengikut piece rate.
+* Soalan G5(a) - Bilangan yang dihasilkan pada bulan lepas.
+* Soalan G5(b) - Sila nyatakan unit yang digunakan.
+* Catatkan bilangan piece rate yang dihasilkan pada bulan rujukan di ruangan G5(a).
+* Nyatakan unit yang digunakan (G5b) dan kodkan sebagai:
+*/
+$data['Bil Piece Rate'] = array(
+	array('','01','01 - batang'),
+	array('','02','02 - keping'),
+	array('','03','03 - tan'),
+	array('','04','04 - kilogram'),
+	array('','05','05 - ikat'),
+	array('','06','06 - bundle'),
+	array('','07','07 - trip'),
+	array('','08','08 - biji'),
+	array('','09','09 - kotak'),
+	array('','10','10 - helai'),
+	array('','11','11 - pasang'),
+	array('','12','12 - guni'),
+	array('','13','13 - lain-lain'),
+);
+#--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti </td>
 $data['aktiviti'] = array(
 	array('','01','01 - Majikan'),
