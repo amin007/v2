@@ -14,6 +14,43 @@ $data['respon'] = array(
 	array('','00','00 - Lain-Lain Didiami'),
 );
 #--------------------------------------------------------------------------------------------------
+//<tr class="table-primary"><td colspan="2">Kod AIR</td></tr>
+$data['AIR'] = array(
+	array('','01','01 - Ketua isi rumah aka KIR'),
+	array('','02','02 - Isteri/ suami ketua'),
+	array('','03','03 - Anak KIR yg belum berkahwin'),
+	array('','04','04 - Anak KIR yg telah berkahwin'),
+	array('','05','05 - Menantu perempuan/ lelaki KIR'),
+	array('','06','06 - Cucu KIR'),
+	array('','07','07 - Bapa, ibu KIR @ kepada isteri/ suami KIR'),
+	array('','08','08 - Datuk/ nenek KIR @ kepada isteri/ suami KIR'),
+	array('','09','09 - Abang kakak/ adik KIR @kepada isteri/suamI KIR'),
+	array('','10','10 - Orang Lain yg bersaudara dgn KIR @ isteri/suami KIR'),
+	array('','11','11 - Pembantu rumah'),
+	array('','12','12 - Orang Iain yg tidak bersaudara dgn KIR & isteri/ suami KIR'),
+);
+#--------------------------------------------------------------------------------------------------
+//<tr class="table-primary"><td colspan="2">Kod Negeri'),
+$data['negeri'] = array(
+	array('','01','01 - Johor'),
+	array('','02','02 - Kedah'),
+	array('','03','03 - Kelantan'),
+	array('','04','04 - Melaka'),
+	array('','05','05 - Negeri Sembilan'),
+	array('','06','06 - Pahang'),
+	array('','07','07 - Pulau Pinang'),
+	array('','08','08 - Perak'),
+	array('','09','09 - Perlis'),
+	array('','10','10 - Selangor'),
+	array('','11','11 - Terengganu'),
+	array('','12','12 - Sabah'),
+	array('','13','13 - Sarawak'),
+	array('','14','14 - WP Kuala Lumpur'),
+	array('','15','15 - WP Labiran'),
+	array('','16','16 - WP Putrajaya'),
+	array('','98','98 - Luar Negara'),
+);
+#--------------------------------------------------------------------------------------------------
 //<td><div id='etnik1'>Kumpulan Etnik Responden </div></td>
 $data['etnik'] = array(
 	array('','1100','1100 - Melayu'),
