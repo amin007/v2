@@ -1481,23 +1481,30 @@ function versiphp()
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
-define ('URL', $_SERVER['SCRIPT_NAME']);
-include 'atas-set-001.php';
-include 'diatas-001.php';
-#--------------------------------------------------------------------------------------------------
-$cari = explode('/',$_SERVER['PATH_INFO']);
-//semakPembolehubah($cari,'cari');
-binaButang($data);
-//versiphp();
-binaSatuJadual($data,$cari[1]);
-#--------------------------------------------------------------------------------------------------
-include 'dibawah.php';
-echo "<script>\n";
-jqueryExtendA();
-jqueryExtendB();
-jqueryExtendC();
-gradeTable002(null);
-echo "\n</script>\n</body>\n</html>";
+	function panggilDataTable($data)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		include 'atas-set-001.php';
+		include 'diatas-001.php';
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		if (isset($_SERVER['PATH_INFO'])):
+			$cari =  explode('/',$_SERVER['PATH_INFO']);
+			//semakPembolehubah($cari,'cari');
+			binaSatuJadual($data,$cari[1]);
+		endif;
+		#------------------------------------------------------------------------------------------
+		include 'dibawah.php';
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";
+	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
+#--------------------------------------------------------------------------------------------------
+panggilDataTable($data);# panggil fungsi
+#--------------------------------------------------------------------------------------------------
