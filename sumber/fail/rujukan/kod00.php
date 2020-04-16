@@ -1483,7 +1483,7 @@ function versiphp()
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-	function panggilDataTable($data)
+	function panggilDataTable($data,$pilih)
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
@@ -1491,11 +1491,7 @@ function versiphp()
 		include 'diatas-001.php';
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		if (isset($_SERVER['PATH_INFO'])):
-			$cari =  explode('/',$_SERVER['PATH_INFO']);
-			//semakPembolehubah($cari,'cari');
-			binaSatuJadual($data,$cari[1]);
-		endif;
+		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
 		include 'dibawah.php';
 		echo "<script>\n";
@@ -1510,12 +1506,14 @@ function versiphp()
 #--------------------------------------------------------------------------------------------------
 if (isset($_SERVER['PATH_INFO'])):
 	$cari =  explode('/',$_SERVER['PATH_INFO']);
-	//semakPembolehubah($cari,'cari');
-	if( isset($cari[1]) && $cari[1] = 'json'):
+	//semakPembolehubah($cari[1],'pilih');
+	if($cari[1] == 'json'):
 		$pilih = isset($cari[2]) ? $cari[2] : null;
 		binaJson($data,$pilih);
 	else:
-		panggilDataTable($data);# panggil fungsi
+		panggilDataTable($data,$cari[1]);# panggil fungsi
 	endif;
+else:
+	panggilDataTable($data,null);# panggil fungsi
 endif;
 #--------------------------------------------------------------------------------------------------
