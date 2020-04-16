@@ -1287,12 +1287,14 @@ $data['aktiviti'] = array(
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-	function binaJson($senarai)
+	function binaJson($senarai,$pilih)
 	{
-		$class = 'table table-striped table-bordered';
+		//$class = 'table table-striped table-bordered';
 		foreach($senarai as $jadual => $row):
+		if($jadual == $pilih):
 			$output = jsonDataTables($row,$jadual);
-			echo "\r\t" . '<hr>' . $output . "\r\t" . '<hr>';
+			echo $output;
+		endif;
 		endforeach;
 		#
 	}
@@ -1510,8 +1512,8 @@ if (isset($_SERVER['PATH_INFO'])):
 	$cari =  explode('/',$_SERVER['PATH_INFO']);
 	//semakPembolehubah($cari,'cari');
 	if( isset($cari[1]) && $cari[1] = 'json'):
-		$jadual = isset($cari[2]) ? $cari[2] : null;
-		binaJson($data[$jadual]);
+		$pilih = isset($cari[2]) ? $cari[2] : null;
+		binaJson($data,$pilih);
 	else:
 		panggilDataTable($data);# panggil fungsi
 	endif;
