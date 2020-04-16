@@ -1506,5 +1506,14 @@ function versiphp()
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-panggilDataTable($data);# panggil fungsi
+if (isset($_SERVER['PATH_INFO'])):
+	$cari =  explode('/',$_SERVER['PATH_INFO']);
+	//semakPembolehubah($cari,'cari');
+	if( isset($cari[1]) && $cari[1] = 'json'):
+		$jadual = isset($cari[2]) ? $cari[2] : null;
+		binaJson($data[$jadual]);
+	else:
+		panggilDataTable($data);# panggil fungsi
+	endif;
+endif;
 #--------------------------------------------------------------------------------------------------
