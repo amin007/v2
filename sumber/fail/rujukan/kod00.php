@@ -1257,7 +1257,7 @@ $data['aktiviti'] = array(
 			{##===========================================================
 				$output .= "\r\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
-				$tajuk = ($kunci==2) ? $jadual : $kunci;
+				$tajuk = tajukMedanJadual($jadual,$kunci);
 				$output .= "\r\t" . '<th>' . ucfirst($tajuk) . '</th>';
 				endforeach;
 				$output .= "\r\t" . '</tr></thead>';
