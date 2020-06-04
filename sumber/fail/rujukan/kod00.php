@@ -1290,6 +1290,16 @@ $data['aktiviti'] = array(
 		#
 	}
 #--------------------------------------------------------------------------------------------------
+	function tajukMedanJadual($jadual,$kunci)
+	{
+		if($kunci==0) $p = '#';
+		elseif($kunci==1) $p = 'Kod';
+		elseif($kunci==2) $p = $jadual;
+		else $p = $kunci;
+
+		return $p;
+	}
+#--------------------------------------------------------------------------------------------------
 	function paparJadual($row,$jadual)
 	{
 		$output = null;
@@ -1302,7 +1312,7 @@ $data['aktiviti'] = array(
 			{##===========================================================
 				$output .= "\r\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
-				$tajuk = ($kunci==2) ? $jadual : $kunci;
+				$tajuk = tajukMedanJadual($jadual,$kunci);
 				$output .= "\r\t" . '<th>' . $tajuk . '</th>';
 				endforeach;
 				$output .= "\r\t" . '</tr></thead>';
