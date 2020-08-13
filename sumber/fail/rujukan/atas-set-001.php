@@ -30,3 +30,15 @@ $searchHighlightJSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHigh
 $urlcss = array($bootstrapCSS_413,$fontawesome_510,$datatablesCSS,$searchHighlightCSS);
 $urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
 ###################################################################################################
+#--------------------------------------------------------------------------------------------------
+	function pecahArrayKeTH($data)
+	{
+		$tajuk = null;
+		$data1 = explode(',',$data);
+		foreach($data1 as $d):
+			$tajuk .= '<th>' . $d . '</th>';
+		endforeach;
+
+		return $tajuk;
+	}
+#--------------------------------------------------------------------------------------------------
