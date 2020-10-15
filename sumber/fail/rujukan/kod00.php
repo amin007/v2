@@ -1485,12 +1485,14 @@ END;
 		$output = "\r\t";
 		$output .= '<a class="btn btn-primary" href="../">Kembali'
 		. '<i class="fa fa-binoculars"></i></a>';
+		$output .= "\n\t" . '<a class="btn btn-success rounded-pill"'
+		. ' target="_blank" href="../utama/msic-cari.html">MSIC</a>';
 		foreach($senarai as $jadual => $row):
-			$output .= "\r\t" . '<a class="btn btn-outline-secondary rounded-pill"'
+			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '/' .$jadual. '">'
 			. ucfirst($jadual) . '</a>';
 		endforeach;
-		$output .= "\r\t<hr>";
+		$output .= "\n\t<hr>";
 
 		echo $output;
 		#
