@@ -220,7 +220,7 @@ $data['pendidikan'] = array(
 	array('','12','12 - Tahun 2','2'),
 	array('','13','13 - Tahun 3','3'),
 	array('','14','14 - Tahun 4','4'),
-	array('','15','15 - Tahun 5','5'),
+	array('','15','15 - Tahun 5 | 11 - UPKK','5'),
 	array('','16','16 - Tahun 6 | 12 - UPSR/UPSRA','6'),
 	array('','21','21 - Kelas Peralihan','7'),
 	array('','22','22 - Tingkatan 1','7/8'),
