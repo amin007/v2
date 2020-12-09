@@ -1580,6 +1580,20 @@ function versiphp()
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+/*
+$_SERVER['PATH_INFO'] => untuk apache
+$_SERVER['REQUEST_URI'] =
+$_SERVER['PATH_TRANSLATED']
+$_SERVER['PHP_SELF']
+
+$s = 'PHP_SELF';
+echo $_SERVER[$s] . '|<br>';
+$cari0 = explode('kod00.php',$_SERVER[$s]);
+$cari2 = explode('/',$cari0[1]);
+echo '<pre>'; print_r($cari2); echo '</pre>';
+*/
+#--------------------------------------------------------------------------------------------------
+$s = 'PHP_SELF'; //echo $_SERVER[$s] . '|<br>';
 if (isset($_SERVER['PATH_INFO'])):
 	$cari =  explode('/',$_SERVER['PATH_INFO']);
 	//semakPembolehubah($cari[1],'pilih');
