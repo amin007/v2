@@ -1600,7 +1600,7 @@ $cari2 = explode('/',$cari0[1]);
 echo '<pre>'; print_r($cari2); echo '</pre>';
 */
 #--------------------------------------------------------------------------------------------------
-$s = 'PHP_SELF'; //echo $_SERVER[$s] . '|<br>';
+$s = 'PHP_SELF'; echo paparVersiPhp() . '|<br>';
 if (isset($_SERVER['PATH_INFO'])):
 	$cari =  explode('/',$_SERVER['PATH_INFO']);
 	//semakPembolehubah($cari[1],'pilih');
