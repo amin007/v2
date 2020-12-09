@@ -1601,14 +1601,19 @@ echo '<pre>'; print_r($cari2); echo '</pre>';
 */
 #--------------------------------------------------------------------------------------------------
 $s = 'PHP_SELF'; echo paparVersiPhp() . '|<br>';
-if (isset($_SERVER['PATH_INFO'])):
-	$cari =  explode('/',$_SERVER['PATH_INFO']);
-	//semakPembolehubah($cari[1],'pilih');
-	if($cari[1] == 'json'):
+if (isset($_SERVER[$s])):
+	$fail = explode('kod00.php',$_SERVER[$s]);
+	$cari = explode('/',$fail[1]);
+	//semakPembolehubah($cari,'pilih');
+	if(isset($cari[1])):
+		if($cari[1] == 'json'):
 		$pilih = isset($cari[2]) ? $cari[2] : null;
 		binaJson($data,$pilih);
+		else:
+			panggilDataTable($data,$cari[1]);# panggil fungsi
+		endif;
 	else:
-		panggilDataTable($data,$cari[1]);# panggil fungsi
+		panggilDataTable($data,null);# panggil fungsi
 	endif;
 else:
 	panggilDataTable($data,null);# panggil fungsi
