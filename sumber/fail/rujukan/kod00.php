@@ -1607,8 +1607,8 @@ if (isset($_SERVER[$s])):
 	//semakPembolehubah($cari,'pilih');
 	if(isset($cari[1])):
 		if($cari[1] == 'json'):
-		$pilih = isset($cari[2]) ? $cari[2] : null;
-		binaJson($data,$pilih);
+			$pilih = isset($cari[2]) ? $cari[2] : null;
+			binaJson($data,$pilih);
 		else:
 			panggilDataTable($data,$cari[1]);# panggil fungsi
 		endif;
