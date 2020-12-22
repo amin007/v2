@@ -1243,6 +1243,7 @@ $data['bandar'] = array(
 #--------------------------------------------------------------------------------------------------
 // https://www.jpn.gov.my/kod-negara/
 $data['KodNegaraJPN'] = array(
+	array('','XX','<a target="_blank" href="https://www.jpn.gov.my/kod-negara">https://www.jpn.gov.my/kod-negara</a> 0123456789'),
 	array('','XX','AFGHANISTAN - 93'),
 	array('','XX','ANTARTICA - 93'),
 	array('','XX','AFRIKA SELATAN - 85'),
