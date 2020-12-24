@@ -1259,6 +1259,9 @@ $data['KodNegeriJPN'] = array(
 	array('','Wilayah Persekutuan (Labuan) - 15, 58'),
 	array('','Wilayah Persekutuan (Putrajaya) - 16'),
 	array('','Negeri Tidak Diketahui - 82'),
+	array('','LUAR NEGARA - 71,72'),
+	array('','Tanpa Negara - 98'),
+	array('','MAKLUMAT TIADA - 99'),
 );
 #--------------------------------------------------------------------------------------------------
 // https://www.jpn.gov.my/kod-negara/
