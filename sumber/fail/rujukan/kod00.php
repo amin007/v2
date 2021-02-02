@@ -1602,25 +1602,25 @@ $data['aktiviti'] = array(
 		{	# print the headers once:
 			if ( !$printed_headers )
 			{##===========================================================
-				$output .= "\r\t<thead><tr>";
+				$output .= "\n\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
 				$tajuk = tajukMedanJadual($jadual,$kunci);
-				$output .= "\r\t" . '<th>' . ucfirst($tajuk) . '</th>';
+				$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
 				endforeach;
-				$output .= "\r\t" . '</tr></thead>';
-				$output .= "\r\t" . '<tbody>';
+				$output .= "\n\t" . '</tr></thead>';
+				$output .= "\n\t" . '<tbody>';
 			##============================================================
 				$printed_headers = true;
 			}
 		#-----------------------------------------------------------------
 			# print the data row
-			$output .= "\r\t<tr>";
+			$output .= "\n\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
-			$output .= "\r\t" . '<td>' . $data . '</td>';
+			$output .= "\n\t" . '<td>' . $data . '</td>';
 			endforeach;
-			$output .= "\r\t" . '</tr>';
+			$output .= "\n\t" . '</tr>';
 		}#----------------------------------------------------------------
-		$output .= "\r\t" . '</tbody>';
+		$output .= "\n\t" . '</tbody>';
 
 		return $output;//*/
 	}
