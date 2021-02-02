@@ -1836,7 +1836,7 @@ END;
 		. ' target="_blank" href="../utama/msic-cari.html">MSIC</a>';
 		foreach($senarai as $jadual => $row):
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
-			. ' href="' . URL . '/' .$jadual. '">'
+			. ' href="' . URL . '?cari=' .$jadual. '">'
 			. ucfirst($jadual) . '</a>';
 		endforeach;
 		$output .= "\n\t<hr>";
@@ -1920,8 +1920,7 @@ $cari2 = explode('/',$cari0[1]);
 echo '<pre>'; print_r($cari2); echo '</pre>';
 */
 #--------------------------------------------------------------------------------------------------
-$s = 'PHP_SELF'; echo paparVersiPhp() . '|<br>';
-if (isset($_SERVER[$s])):
+/*if (isset($_SERVER[$s])):
 	$fail = explode('kod00.php',$_SERVER[$s]);
 	$cari = explode('/',$fail[1]);
 	//semakPembolehubah($cari,'pilih');
@@ -1935,6 +1934,12 @@ if (isset($_SERVER[$s])):
 	else:
 		panggilDataTable($data,null);# panggil fungsi
 	endif;
+//*/
+#--------------------------------------------------------------------------------------------------
+if (isset($_GET['cari'])):
+	$cari = $_GET['cari'];
+	//echo '<pre>$cari='; print_r($cari); echo '</pre>';
+	panggilDataTable($data,$cari);# panggil fungsi
 else:
 	panggilDataTable($data,null);# panggil fungsi
 endif;
