@@ -1869,11 +1869,9 @@ function versiphp()
 	$paparServer = array('PATH_INFO','REQUEST_URI','PATH_TRANSLATED','PHP_SELF','QUERY_STRING',
 	'REQUEST_SCHEME','SERVER_PORT');
 	foreach($paparServer as $pelayan):
-		if (isset($_SERVER[$pelayan])):
-			echo '<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>';
-		else:
-			echo '<br><em> pembolehubah ' . $pelayan . ' tak wujud</em>';
-		endif;
+		echo (isset($_SERVER[$pelayan])) ?
+			'<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>';
+			: '<br><em> pembolehubah ' . $pelayan . ' tak wujud</em>';
 	endforeach;
 }
 #--------------------------------------------------------------------------------------------------
