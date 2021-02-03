@@ -1936,6 +1936,7 @@ echo '<pre>'; print_r($cari2); echo '</pre>';
 	endif;
 //*/
 #--------------------------------------------------------------------------------------------------
+# kaedah 1
 if (isset($_GET['cari'])):
 	$cari = $_GET['cari'];
 	//echo '<pre>$cari='; print_r($cari); echo '</pre>';
