@@ -1833,7 +1833,7 @@ END;
 		$output .= '<a class="btn btn-primary" href="../">Kembali'
 		. '<i class="fa fa-binoculars"></i></a>';
 		$output .= "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../utama/msic-cari.html">MSIC</a>';
+		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>';
 		foreach($senarai as $jadual => $row):
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '?/' .$jadual. '">'
