@@ -1937,13 +1937,13 @@ echo '<pre>'; print_r($cari2); echo '</pre>';
 //*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 1
-if (isset($_GET['cari'])):
+/*if (isset($_GET['cari'])):
 	$cari = $_GET['cari'];
 	//echo '<pre>$cari='; print_r($cari); echo '</pre>';
 	panggilDataTable($data,$cari);# panggil fungsi
 else:
 	panggilDataTable($data,null);# panggil fungsi
-endif;
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
 //$s = 'PHP_SELF';
