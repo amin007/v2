@@ -1877,6 +1877,36 @@ function paparVersiPhp()
 	return $p;
 }
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('bersih')):
+	/** */
+	function bersih($papar)
+	{
+		# lepas lari aksara khas dalam SQL
+		//$papar = mysql_real_escape_string($papar);
+		# buang ruang kosong (atau aksara lain) dari mula & akhir
+		$papar = trim($papar);
+		# tukar kod %20 kepada space
+		$papar = myUrlEncode($papar);
+		//$papar = str_replace('%20', ' ', $papar);
+
+		return $papar;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('myUrlEncode')):
+	function myUrlEncode($string)
+	{
+		# https://www.php.net/urlencode
+		$entities = array('%20', '%21', '%2A', '%27', '%28', '%29', '%3B', '%3A', '%40', '%26',
+		'%3D', '%2B', '%24', '%2C', '%2F', '%3F', '%25', '%23', '%5B', '%5D');
+		$replacements = array(' ', '!', '*', "'", "(", ")", ";", ":", "@", "&", "=", "+", "$",
+		",", "/", "?", "%", "#", "[", "]");
+
+		//return str_replace($entities, $replacements, urlencode($string));
+		return str_replace($entities, $replacements, $string);
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 //echo '<pre>';print_r($data);echo '</pre>';
