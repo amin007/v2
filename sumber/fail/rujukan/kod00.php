@@ -1950,22 +1950,6 @@ $cari2 = explode('/',$cari0[1]);
 echo '<pre>'; print_r($cari2); echo '</pre>';
 */
 #--------------------------------------------------------------------------------------------------
-/*if (isset($_SERVER[$s])):
-	$fail = explode('kod00.php',$_SERVER[$s]);
-	$cari = explode('/',$fail[1]);
-	//semakPembolehubah($cari,'pilih');
-	if(isset($cari[1])):
-		if($cari[1] == 'json'):
-			$pilih = isset($cari[2]) ? $cari[2] : null;
-			binaJson($data,$pilih);
-		else:
-			panggilDataTable($data,$cari[1]);# panggil fungsi
-		endif;
-	else:
-		panggilDataTable($data,null);# panggil fungsi
-	endif;
-//*/
-#--------------------------------------------------------------------------------------------------
 # kaedah 1
 /*if (isset($_GET['cari'])):
 	$cari = $_GET['cari'];
