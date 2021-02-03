@@ -1936,6 +1936,9 @@ $_SERVER['PATH_INFO'] => untuk apache
 $_SERVER['REQUEST_URI'] =
 $_SERVER['PATH_TRANSLATED']
 $_SERVER['PHP_SELF']
+$_SERVER['QUERY_STRING'] => /bandar
+$_SERVER['REQUEST_SCHEME'] => https
+$_SERVER['SERVER_PORT'] => 80 atau 443
 
 $s = 'PHP_SELF';
 echo $_SERVER[$s] . '|<br>';
