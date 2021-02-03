@@ -1964,11 +1964,13 @@ if (isset($_SERVER[$s])):
 	//semakPembolehubah($cari,'pilih');
 
 	if(isset($cari[1])):
-		if($cari[1] == 'json'):
+		$cariApa = bersih($cari[1]);
+		if($cariApa == 'json'):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
+			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
 		else:
-			panggilDataTable($data,$cari[1]);# panggil fungsi
+			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
 	else:
 		panggilDataTable($data,null);# panggil fungsi
