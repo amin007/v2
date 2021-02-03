@@ -1866,8 +1866,15 @@ function versiphp()
 	//echo PHP_VERSION . '<br>';
 	//echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
 	//echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
-	echo '<h1>' . $_SERVER['SCRIPT_NAME'] . '</h1>';
-	echo '<h1>' . $_SERVER['PATH_INFO'] . '</h1>';
+	$paparServer = array('PATH_INFO','REQUEST_URI','PATH_TRANSLATED','PHP_SELF','QUERY_STRING',
+	'REQUEST_SCHEME','SERVER_PORT');
+	foreach($paparServer as $pelayan):
+		if (isset($_SERVER[$pelayan])):
+			echo '<h1>' . $_SERVER[$pelayan] . '</h1>';
+		else:
+			echo '<em> pembolehubah ' . $pelayan . ' tak wujud</em>';
+		endif;
+	endforeach;
 }
 #--------------------------------------------------------------------------------------------------
 function paparVersiPhp()
@@ -1982,7 +1989,7 @@ if (isset($_SERVER[$s])):
 else:
 	panggilDataTable($data,null);# panggil fungsi
 endif;
-	//versiphp();
+	versiphp();
 #--------------------------------------------------------------------------------------------------
 # tamat koding
 ###################################################################################################
