@@ -1836,7 +1836,7 @@ END;
 		. ' target="_blank" href="../utama/msic-cari.html">MSIC</a>';
 		foreach($senarai as $jadual => $row):
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
-			. ' href="' . URL . '?cari=' .$jadual. '">'
+			. ' href="' . URL . '?/' .$jadual. '">'
 			. ucfirst($jadual) . '</a>';
 		endforeach;
 		$output .= "\n\t<hr>";
@@ -1944,4 +1944,30 @@ if (isset($_GET['cari'])):
 else:
 	panggilDataTable($data,null);# panggil fungsi
 endif;
+#--------------------------------------------------------------------------------------------------
+# kaedah 2
+//$s = 'PHP_SELF';
+$s = 'REQUEST_URI';
+//semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
+if (isset($_SERVER[$s])):
+	$fail = explode('kod00.php',$_SERVER[$s]);
+	$cari = explode('/',$fail[1]);
+	//semakPembolehubah($fail,'fail');
+	//semakPembolehubah($cari,'pilih');
+
+	if(isset($cari[1])):
+		if($cari[1] == 'json'):
+			$pilih = isset($cari[2]) ? $cari[2] : null;
+			binaJson($data,$pilih);
+		else:
+			panggilDataTable($data,$cari[1]);# panggil fungsi
+		endif;
+	else:
+		panggilDataTable($data,null);# panggil fungsi
+	endif;
+
+else:
+	panggilDataTable($data,null);# panggil fungsi
+endif;
+	//versiphp();
 #--------------------------------------------------------------------------------------------------
