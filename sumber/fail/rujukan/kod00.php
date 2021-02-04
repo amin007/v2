@@ -1870,7 +1870,7 @@ function versiphp()
 	'REQUEST_SCHEME','SERVER_PORT');
 	foreach($paparServer as $pelayan):
 		echo (isset($_SERVER[$pelayan])) ?
-			'<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>';
+			'<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>'
 			: '<br><em> pembolehubah ' . $pelayan . ' tak wujud</em>';
 	endforeach;
 }
