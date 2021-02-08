@@ -1917,8 +1917,8 @@ if ( ! function_exists('panggilDataTable')):
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
-		include 'atas-set-001.php';
-		include 'diatas-001.php';
+		include 'atas-set-001.php';//include 'diatas-001.php';
+		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		binaSatuJadual($data,$pilih);
@@ -1932,6 +1932,31 @@ if ( ! function_exists('panggilDataTable')):
 		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
+#--------------------------------------------------------------------------------------------------
+	function diatas($title = 'List Folder', $urlcss)
+	{
+		print <<<END
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,, maximum-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>$title</title>
+END;
+		#
+		if (isset($urlcss))
+		{
+			foreach ($urlcss as $css)
+			{
+				echo "\n";
+				?><link rel="stylesheet" type="text/css" href="<?php echo $css ?>"><?php
+			}
+		}
+		echo "\n</head>\n<body>\n";
+		#
+	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
