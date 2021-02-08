@@ -1935,6 +1935,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 	function diatas($title = 'List Folder', $urlcss)
 	{
+		$linkCss = masukCss($urlcss);
 		print <<<END
 <!doctype html>
 <html lang="en">
@@ -1944,18 +1945,26 @@ endif;//*/
 <meta name="description" content="">
 <meta name="author" content="">
 <title>$title</title>
+$linkCss
+</head>
+<body>
 END;
+		#
+	}
+#--------------------------------------------------------------------------------------------------
+	function masukCss($urlcss)
+	{
+		$p = '';
 		#
 		if (isset($urlcss))
 		{
 			foreach ($urlcss as $css)
 			{
-				echo "\n";
-				?><link rel="stylesheet" type="text/css" href="<?php echo $css ?>"><?php
+				$p .= "\n" . '<link rel="stylesheet" type="text/css" href="' . $css .'">';
 			}
 		}
-		echo "\n</head>\n<body>\n";
 		#
+		return $p;
 	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
