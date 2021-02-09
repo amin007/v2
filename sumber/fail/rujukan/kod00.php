@@ -252,7 +252,7 @@ $data['pendidikan'] = array(
 	array('','21','21 - Kelas Peralihan','7'),
 	array('','22','22 - Tingkatan 1','7/8'),
 	array('','23','23 - Tingkatan 2','8/9'),
-	array('','24','24 - Tingkatan 3','9/10'),
+	array('','24','24 - Tingkatan 3 | 22 - PT3/PMR/SRP/LCE','9/10'),
 	array('','31','31 - Tingkatan 4','10/11'),
 	array('','32','32 - Tingkatan 5 | 33 - SPM/MCE/SC/FMCE/CSC','11/12'),
 	array('','33','33 - Program Kemahiran Asas','-'),
