@@ -1892,7 +1892,6 @@ if ( ! function_exists('bersih')):
 		$papar = trim($papar);
 		# tukar kod %20 kepada space
 		$papar = myUrlEncode($papar);
-		//$papar = str_replace('%20', ' ', $papar);
 
 		return $papar;
 	}
