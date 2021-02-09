@@ -1935,6 +1935,7 @@ endif;//*/
 	function diatas($title = 'List Folder', $urlcss)
 	{
 		$linkCss = masukCss($urlcss);
+		$title = ($title == null) ? 'Senarai Kod' : ucfirst($title);
 		print <<<END
 <!doctype html>
 <html lang="en">
