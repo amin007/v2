@@ -1827,25 +1827,6 @@ END;
 	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
-	function binaButang($senarai)
-	{
-		$output = "\r\t";
-		$output .= '<a class="btn btn-primary" href="../">Kembali'
-		. '<i class="fa fa-binoculars"></i></a>';
-		$output .= "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>';
-		foreach($senarai as $jadual => $row):
-			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
-			. ' href="' . URL . '?/' .$jadual. '">'
-			. ucfirst($jadual) . '</a>';
-		endforeach;
-		$output .= "\n\t<hr>";
-
-		echo $output;
-		#
-	}
-#--------------------------------------------------------------------------------------------------
-###################################################################################################
 # fungsi global
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('semakPembolehubah')):
@@ -1917,27 +1898,6 @@ if ( ! function_exists('myUrlEncode')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('panggilDataTable')):
-	function panggilDataTable($data,$pilih)
-	{
-		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
-		define ('URL', $_SERVER['SCRIPT_NAME']);
-		include 'atas-set-001.php';//include 'diatas-001.php';
-		diatas($pilih, $urlcss);
-		#------------------------------------------------------------------------------------------
-		binaButang($data);//versiphp();
-		binaSatuJadual($data,$pilih);
-		#------------------------------------------------------------------------------------------
-		include 'dibawah.php';
-		echo "<script>\n";
-		jqueryExtendA();
-		jqueryExtendB();
-		jqueryExtendC();
-		gradeTable002(null);
-		echo "\n</script>\n</body>\n</html>";
-	}
-endif;//*/
-#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('diatas')):
 	function diatas($title = 'List Folder', $urlcss)
 	{
@@ -1974,6 +1934,49 @@ if ( ! function_exists('masukCss')):
 		}
 		#
 		return $p;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaButang')):
+	function binaButang($senarai)
+	{
+		$output = "\r\t";
+		$output .= '<a class="btn btn-primary" href="../">Kembali'
+		. '<i class="fa fa-binoculars"></i></a>';
+		$output .= "\n\t" . '<a class="btn btn-success rounded-pill"'
+		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>';
+		foreach($senarai as $jadual => $row):
+			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
+			. ' href="' . URL . '?/' .$jadual. '">'
+			. ucfirst($jadual) . '</a>';
+		endforeach;
+		$output .= "\n\t<hr>";
+
+		echo $output;
+		#
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataTable')):
+	function panggilDataTable($data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		include 'atas-set-001.php';//include 'diatas-001.php';
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		binaSatuJadual($data,$pilih);
+		#------------------------------------------------------------------------------------------
+		include 'dibawah.php';
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
