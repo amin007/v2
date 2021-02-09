@@ -1848,39 +1848,45 @@ END;
 ###################################################################################################
 # fungsi global
 #--------------------------------------------------------------------------------------------------
-function semakPembolehubah($senarai,$jadual,$p='0')
-{
-	echo '<hr><pre>$' . $jadual . '=><br>';
-	if($p == '0') print_r($senarai);
-	if($p == '1') var_export($senarai);
-	echo '</pre>';//*/
-	//semakPembolehubah($ujian,'ujian',0);
-	#http://php.net/manual/en/function.var-export.php
-	#http://php.net/manual/en/function.print-r.php
-}
+if ( ! function_exists('semakPembolehubah')):
+	function semakPembolehubah($senarai,$jadual,$p='0')
+	{
+		echo '<hr><pre>$' . $jadual . '=><br>';
+		if($p == '0') print_r($senarai);
+		if($p == '1') var_export($senarai);
+		echo '</pre>';//*/
+		//semakPembolehubah($ujian,'ujian',0);
+		#http://php.net/manual/en/function.var-export.php
+		#http://php.net/manual/en/function.print-r.php
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
-function versiphp()
-{
-	//phpinfo();
-	//echo PHPVERSION() . '<br>';
-	//echo PHP_VERSION . '<br>';
-	//echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
-	//echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
-	$paparServer = array('PATH_INFO','REQUEST_URI','PATH_TRANSLATED','PHP_SELF','QUERY_STRING',
-	'REQUEST_SCHEME','SERVER_PORT');
-	foreach($paparServer as $pelayan):
-		echo (isset($_SERVER[$pelayan])) ?
-			'<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>'
-			: '<br><em> pembolehubah ' . $pelayan . ' tak wujud</em>';
-	endforeach;
-}
+if ( ! function_exists('versiphp')):
+	function versiphp()
+	{
+		//phpinfo();
+		//echo PHPVERSION() . '<br>';
+		//echo PHP_VERSION . '<br>';
+		//echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
+		//echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
+		$paparServer = array('PATH_INFO','REQUEST_URI','PATH_TRANSLATED','PHP_SELF','QUERY_STRING',
+		'REQUEST_SCHEME','SERVER_PORT');
+		foreach($paparServer as $pelayan):
+			echo (isset($_SERVER[$pelayan])) ?
+				'<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>'
+				: '<br><em> pembolehubah ' . $pelayan . ' tak wujud</em>';
+		endforeach;
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
-function paparVersiPhp()
-{
-	$p = 'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION
-	. '.' . PHP_RELEASE_VERSION . '';
-	return $p;
-}
+if ( ! function_exists('paparVersiPhp')):
+	function paparVersiPhp()
+	{
+		$p = 'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION
+		. '.' . PHP_RELEASE_VERSION . '';
+		return $p;
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('bersih')):
 	/** */
