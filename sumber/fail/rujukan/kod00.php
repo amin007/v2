@@ -273,8 +273,8 @@ $data['pendidikan'] = array(
 	array('','81','81 - Program Ijazah Falsafah Kedoktoran',''),
 	array('','82','82 - Skim Pasca Kedoktoran',''),
 	array('','91','91 - Pendidikan tidak formal',''),
-	array('','92','92 - Tiada pendidikan',''),
-	array('','93','93 - Masih belum bersekolah','')
+	array('','92','92 - Tiada pendidikan | 03 - Tiada berkenaan',''),
+	array('','93','93 - Masih belum bersekolah | 01 - Masih belum bersekolah','')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
