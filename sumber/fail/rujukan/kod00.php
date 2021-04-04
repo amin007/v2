@@ -583,6 +583,48 @@ $data['Aktiviti Pekerjaan'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 /*
+2.2.5 Soalan G2 - Apakah pekerjaan biasa anda pada bulan lepas _____?
+* Tapisan keempat: Soalan ini bagi menentukan status pekerjaan ahli isi rumah dalam bulan rujukan,
+di mana pekerjaan tersebut merupakan pekerjaan biasa dalam bulan rujukan yang dilakukan
+secara sepenuh masa.
+Maklumat gaji & upah tidak dipungut bagi responden berikut:
+a. majikan;
+b. bekerja sendiri;
+c. pekerja keluarga tanpa gaji;
+d. pekerja domestik di isi rumah sebagai majikan seperti pembantu rumah, tukang kebun, pemandu
+isi rumah persendirian dan jururawat persendirian;
+e. pekerja sambilan seperti pelajar yang bekerja di restoran makanan segera dan menerima upah
+mengikut jam bekerja;
+f. seorang perantis yang menerima elaun dalam bulan rujukan;
+g. sukarelawan SELAIN daripada JPAM, RELA dan Tentera Wataniah;
+h. pekerja (kerajaan atau swasta) yang bercuti separuh gaji atau tanpa gaji dalam bulan rujukan,
+walaupun akan kembali bekerja;
+i. pekerja yang menerima gaji terlalu rendah daripada biasa. Contohnya, disebabkan berhenti kerja
+dan tamat kontrak;
+j. Pekerja Sambilan Harian (PSH) di sektor kerajaan; dan
+k. pekerja kasual.
+TINDAKAN :
+Berikan kod seperti berikut:
+Soalan G1 = 'Tidak' (kod 2) dan
+G2 = 000001 - Majikan; 000004 - Bekerja sendiri;
+000005 - Pekerja keluarga tanpa gaji; 000006 - Penganggur;
+000007 - Suri rumah; 000008 - Pelajar; 000009 - Pesara; dan
+000010 - Lain-lain (Nyatakan).
+Kod ini termasuk jenis responden (d) hingga (k).
+TAMATKAN temuramah bagi ahli isi rumah ini.
+*/
+$data['Gaji G2'] = array(
+	array('','000001','000001 – Majikan'),
+	array('','000004','000004 – Bekerja sendiri'),
+	array('','000005','000005 – Pekerja keluarga tanpa gaji'),
+	array('','000006','000006 – Penganggur'),
+	array('','000007','000007 – Suri rumah'),
+	array('','000008','000008 – Pelajar'),
+	array('','000009','000009 – Pesara'),
+	array('','000010','000010 – Lain-lain (Nyatakan)')
+);
+#--------------------------------------------------------------------------------------------------
+/*
 2.2.8 : Soalan G5
 * Soalan ini hanya perlu dijawab bagi responden yang menyatakan bahawa
   bayaran yang diterima adalah mengikut piece rate.
