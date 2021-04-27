@@ -363,7 +363,7 @@ $data['pengajian'] = array(
 	array('','214','214 - Rekaan (fashion and costume design, interior design, stage design)','Kesenian'),
 	array('','215','215 - Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)','Kesenian'),
 	//Kemanusiaan
-	array('','21X','Kemanusiaan',''),
+	array('','22X','Kemanusiaan',''),
 	array('','221','221 - Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)','Kemanusiaan'),
 	array('','222','222 - Pengajian bahasa','Kemanusiaan'),
 	array('','223','223 - Bahasa kebangsaan (Bahasa Malaysia)','Kemanusiaan'),
