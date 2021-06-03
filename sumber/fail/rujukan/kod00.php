@@ -266,11 +266,11 @@ $data['sekolah'] = array(
 #--------------------------------------------------------------------------------------------------
 //<td> Taraf Pendidikan Rasmi Tertinggi</td>
 $data['pendidikan'] = array(
-	array('','00','00 - Pendidikan Prasekolah','Thn Pendidikan Luar Negara'),
-	array('','11','11 - Tahun 1','1'),
-	array('','12','12 - Tahun 2','2'),
-	array('','13','13 - Tahun 3','3'),
-	array('','14','14 - Tahun 4','4'),
+	array('','00','00 - Pendidikan Prasekolah | 02 - Tiada Sijil','Thn Pendidikan Luar Negara'),
+	array('','11','11 - Tahun 1 | 02 - Tiada Sijil','1'),
+	array('','12','12 - Tahun 2 | 02 - Tiada Sijil','2'),
+	array('','13','13 - Tahun 3 | 02 - Tiada Sijil','3'),
+	array('','14','14 - Tahun 4 | 02 - Tiada Sijil','4'),
 	array('','15','15 - Tahun 5 | 11 - UPKK','5'),
 	array('','16','16 - Tahun 6 | 12 - UPSR/UPSRA','6'),
 	array('','21','21 - Kelas Peralihan','7'),
@@ -282,7 +282,7 @@ $data['pendidikan'] = array(
 	array('','33','33 - Program Kemahiran Asas','-'),
 	array('','41','41 - Tingkatan 6 (rendah)','12/13'),
 	array('','42','42 - Tingkatan 6 (atas) | 42 - STPM/STP/HSC','13/14'),
-	array('','43','43 - Matrikulasi (Prauniversiti)',''),
+	array('','43','43 - Matrikulasi (Prauniversiti) | 44 - Sijil Matrikulasi',''),
 	array('','51','51 - Program Sijil Kemahiran Khusus dan Teknikal',''),
 	array('','61','61 - Program Sijil oleh Badan2 yang memberi Pengiktirafan',''),
 	array('','62','62 - Program Sijil dari kolej/politeknik/universiti @ setaraf dgnnya',''),
@@ -2096,7 +2096,6 @@ if (isset($_SERVER[$s])):
 	else:
 		panggilDataTable($data,null);# panggil fungsi
 	endif;
-
 else:
 	panggilDataTable($data,null);# panggil fungsi
 endif;
