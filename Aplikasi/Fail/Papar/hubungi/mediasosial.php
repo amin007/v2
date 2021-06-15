@@ -20,9 +20,9 @@
 			<a class="btn btn-secondary text-white butangBulat">
 				<i class="fab fa-snapchat">amin007ledang</i></a>
 			<!-- a target="_blank" href="#" class="btn btn-secondary butangBulat">
-				<i class="fab fa-skype"></i>: amin800507</a>
-			<a target="_blank" href="#" class="btn btn-secondary butangBulat">
-				<i class="fab fa-youtube"></i>: user/abdmuhaimin</a -->
+				<i class="fab fa-skype"></i>: amin800507</a> -->
+			<a target="_blank" href="https://www.youtube.com/user/abdmuhaimin" class="btn btn-secondary butangBulat">
+				<i class="fab fa-youtube"></i>: user/abdmuhaimin</a>
 		</blockquote>
 	</div><!-- / class="col-lg-6" -->
 </div><!-- / class="row" -->
