@@ -47,3 +47,4 @@ ___
   * [Unslpash](https://unsplash.com)
 * Lain-lain
   * [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+  * [how-to-match-data-in-excel](https://www.wallstreetmojo.com/how-to-match-data-in-excel)
