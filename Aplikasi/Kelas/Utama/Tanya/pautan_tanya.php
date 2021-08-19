@@ -70,6 +70,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 		$papar = array(
 			'[Proxmox]'=>'https://www.proxmox.com/en/proxmox-ve',
 			'[Pi-hole]'=>'https://pi-hole.net',
+			'[lazada001]'=>'4S professional s110 cordless screwdriver drill 3.6v + bosch 33 pcs',
 		);
 
 		return $papar;
