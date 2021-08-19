@@ -11,6 +11,7 @@ class Kawal
 #==========================================================================================
 	public function jemaahTaskil($nama)
 	{
+		//$this->semakPembolehubah($nama,'nama');
 		list($tanya) = $this->semakPencam($nama);
 		if (file_exists($tanya))
 		{
