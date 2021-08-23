@@ -72,6 +72,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Pi-hole]'=>'https://pi-hole.net',
 			'cashapp in malaysia'=>'https://whomadewhat.org/is-cashapp-available-in-malaysia/',
 			'10 ewallets-malaysia'=>'https://wise.com/my/blog/10-ewallets-malaysia',
+			'excel match'=>'https://www.wallstreetmojo.com/how-to-match-data-in-excel',
 			'[lazada001]'=>'4S professional s110 cordless screwdriver drill 3.6v + bosch 33 pcs',
 		);
 
