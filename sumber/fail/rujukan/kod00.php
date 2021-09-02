@@ -734,6 +734,8 @@ $data['mascoMsic'] = array(
 	array('','4','JUAL MAKANAN','GERAI','4','521202','56106'),
 	array('','5','PEMBANTU KEDAI','GERAI','5','522302','56106'),
 	array('','4','BEKEBUN','KELAPA SAWIT','4','611104','01262'),
+	array('','4','GURU SEKOLAH RENDAH','PENDIDIKAN RENDAH (AWAM)/'
+	. 'SEKOLAH RENDAH KEBANGSAAN, SEK. KEB.','2','234102','85103'),
 );
 #--------------------------------------------------------------------------------------------------
 /*
