@@ -76,6 +76,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'check laptops bateri'=>'https://sea.pcmag.com/batteries-power/42459/how-to-check-your-'
 			. 'laptops-battery-health-in-windows-10',
 			'[lazada001]'=>'4S professional s110 cordless screwdriver drill 3.6v + bosch 33 pcs',
+			'[ssm4u]'=>'https://ssm4u.com.my',
 		);
 
 		return $papar;
