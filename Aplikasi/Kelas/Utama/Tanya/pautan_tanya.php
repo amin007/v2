@@ -77,6 +77,10 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			. 'laptops-battery-health-in-windows-10',
 			'[lazada001]'=>'4S professional s110 cordless screwdriver drill 3.6v + bosch 33 pcs',
 			'[ssm4u]'=>'https://ssm4u.com.my',
+			'[RHB]'=>'For more information about Send Money via PayPal, please call Internet'
+			. ' Banking Customer Service number at 03-92068228 or visit www.rhb.com.my',
+			'[Paypal]'=>'For more information about PayPal Account and its services, please'
+			. ' call PayPal Support Centre at 03-77237155 or visit www.paypal.com',
 		);
 
 		return $papar;
