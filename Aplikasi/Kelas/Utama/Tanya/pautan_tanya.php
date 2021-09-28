@@ -59,7 +59,8 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Borang Bootstrap]'=>'./?q=borang',
 			'[Semak DNS]'=>'./?q=semakDNS',
 			'[Free MP3]'=>'https://freemp3cloud.com',
-			'[Loop Youtube]'=>'https://looptube.io/',
+			'[Loop Youtube]'=>'https://looptube.io',
+			'[Forvo]'=>'https://forvo.com',
 		);
 
 		return $papar;
