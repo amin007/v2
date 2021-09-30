@@ -738,6 +738,7 @@ $data['mascoMsic'] = array(
 	. 'SEKOLAH RENDAH KEBANGSAAN, SEK. KEB.','2','234102','85103'),
 	array('','4','MEKANIK AUTOMOTIF/KERETA/KENDERAAN','BENGKEL KERETA/KENDERAAN','4','723111','45201'),
 	array('','4','JURUJUAL INTERNET / PENIAGA ONLINE','JUAL BARANG ONLINE','4','524409','47912'),
+	array('','4','PENIAGA PASAR MALAM','JUAL TOPI/BEG/PAKAIAN','4','521101','47820'),
 );
 #--------------------------------------------------------------------------------------------------
 /*
