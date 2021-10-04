@@ -82,6 +82,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			. ' Banking Customer Service number at 03-92068228 or visit www.rhb.com.my',
 			'[Paypal]'=>'For more information about PayPal Account and its services, please'
 			. ' call PayPal Support Centre at 03-77237155 or visit www.paypal.com',
+			'[invisionapp]'=>'https://www.invisionapp.com',
 		);
 
 		return $papar;
