@@ -685,7 +685,6 @@ $data['mascoMsic'] = array(
 	array('','3','OPERATOR KILANG','KILANG PLASTIK','3','814209','22202'),
 	array('','3','OPERATOR','KILANG KAIN','3','815201','13120'),
 	array('','3','OPERATOR MESIN','KILANG BISKUT','3','816103','10711'),
-	array('','3','OPERATOR KILANG','KILANG PAPAN','3','817205','16211'),
 	array('','3','OPERATOR','ELEKTRONIK','3','818911','26109'),
 	array('','3','PENGHANTAR BARANG','JNT EXPRESS','3','832102','53200'),
 	array('','4','PEMANDU','TEKSI','4','832204','49224'),
