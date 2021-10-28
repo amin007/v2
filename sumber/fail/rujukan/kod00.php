@@ -657,7 +657,7 @@ $data['mascoMsic'] = array(
 	array('','4','KERANI AM','S. TELEMARKERTING','4','522302','73200'),
 	array('','3','PEKERJA','PASARAYA','3','522302','47112'),
 	array('','3','PEM KEDAI','MENJUAL KEK','3','522302','47216'),
-	array('','3','PEMBANTU KEDAH','KEDAI RUNCIT','3','522302','47111'),
+	array('','3','PEMBANTU KEDAI','KEDAI RUNCIT','3','522302','47111'),
 	array('','3','PEMBANTU KEDAI','KEDAI KEK','3','522302','47216'),
 	array('','3','PEMBANTU KEDAI','PASAR MINI','3','522302','47113'),
 	array('','5','PEMBANTU KEDAI','KEDAI MAKAN','5','522302','56106'),
