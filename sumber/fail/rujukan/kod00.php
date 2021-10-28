@@ -694,7 +694,6 @@ $data['mascoMsic'] = array(
 	array('','3','PEMANDU LORI','HARDWARE','3','833201','46639'),
 	array('','3','PEMANDU LORI','LADANG SAWIT','3','833201','01261'),
 	array('','3','OPERATOR, JENGKAUT','PENGGALIAN LALUAN AIR','3','834210','42904'),
-	array('','4','PENOREH GETAH','GETAH BEKU','4','921106','01292'),
 	array('','4','PENOREH','LADANG GETAH','4','921116','01291'),
 	array('','3','PENOREH GETAH','LADANG GETAH','3','921116','01291'),
 	array('','3','PEMBERSIH KEBUN','KHIDMAT PEMBERSIHAN','3','921406','81300'),
