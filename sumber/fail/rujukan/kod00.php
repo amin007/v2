@@ -294,9 +294,9 @@ $data['pendidikan'] = array(
 	array('','71','71 - Program Ijazah Sarjana Muda/Diploma Lanjutan','91 - Ijazah Sarjana Muda/Diploma lanjutan'),
 	array('','72','72 - Program Lepasan Ijazah',''),
 	array('','73','73 - Program Sarjana',''),
-	array('','81','81 - Program Ijazah Falsafah Kedoktoran',''),
-	array('','82','82 - Skim Pasca Kedoktoran',''),
-	array('','91','91 - Pendidikan tidak formal',''),
+	array('','81','81 - Program Ijazah Falsafah Kedoktoran','94 - Doktor Falsafah(PhD)'),
+	array('','82','82 - Skim Pasca Kedoktoran','95 - Diploma/Sijil pasca kedoktoran'),
+	array('','91','91 - Pendidikan tidak formal | 03 - Tiada berkenaan',''),
 	array('','92','92 - Tiada pendidikan | 03 - Tiada berkenaan',''),
 	array('','93','93 - Masih belum bersekolah | 01 - Masih belum bersekolah','')
 );
