@@ -643,7 +643,6 @@ $data['mascoMsic'] = array(
 	array('','4','PENIAGA','JUAL IKAN','4','521107','47215'),
 	array('','4','PENJAJA MAKANAN','GERAI/PENJAJA MAKANAN','4','521201','56106'),
 	array('','4','JUAL','BURGER','4','521202','56106'),
-	array('','4','JUAL MAKANAN','GERAI','4','521202','56106'),
 	array('','5','PEMBUAT KUIH','GERAI','5','521202','56106'),
 	array('','4','PENIAGA','GERAI GORENG PISANG','4','521202','56106'),
 	array('','4','PENIAGA KEDAI','KEDAI MAKAN','4','521202','56106'),
