@@ -619,6 +619,7 @@ $data['mascoMsic'] = array(
 	array('','2','GURU','SEK. MEN','2','233102','85211'),
 	array('','3','GURU','TASKA','3','234202','85101'),
 	array('','3','GURU','TADIKA SWASTA','3','234202','85101'),
+	array('','3','GURU','GURU PUSAT TUISYEN','3','239911','85491'),
 	array('','3','JURUTERA MEKANIKAL','KILANG KITAR SEMULA','3','311507','38112'),
 	array('','3','PENYELIA KILANG','KILANG PERABUT','3','312904','31001'),
 	array('','3','PENYELIA STOR','KEDAI PERABUT','3','312906','47216'),
