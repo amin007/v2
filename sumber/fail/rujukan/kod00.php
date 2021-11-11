@@ -2158,7 +2158,11 @@ if ( ! function_exists('binaButang')):
 		$output .= '<a class="btn btn-primary" href="../">Kembali'
 		. '<i class="fa fa-binoculars"></i></a>';
 		$output .= "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>';
+		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>'
+		. "\n\t" . '<a class="btn btn-success rounded-pill"'
+		. ' target="_blank" href="../rujukan/utama/masco-cari.html">MASCO</a>'
+		. "\n\t" . '<a class="btn btn-info rounded-pill"'
+		. ' target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>';
 		foreach($senarai as $jadual => $row):
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '?/' .$jadual. '">'
