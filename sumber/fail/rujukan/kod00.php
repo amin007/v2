@@ -1780,11 +1780,11 @@ $data['aktiviti'] = array(
 	{
 		$class = 'table table-striped table-bordered';
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
-		$btn = 'btn btn-secondary btn-lg btn-block';
+		$btn = 'btn btn-dark btn-lg btn-block';
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
 			$output = paparSatuJadual($row,$pilih);
-			echo "\r\t" . '<h2 class="' . $btn . '" >Kod ' . $jadual . '</h2>'
+			echo "\r\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
 			. "\r\t" . '<table class="' . $class . '" id="allTable">'
 			//echo "\r\t" . '<table border="1">'
 			. "\r\t$output\r\t" . '</table>' . "\r\r";
