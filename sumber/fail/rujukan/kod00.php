@@ -41,7 +41,7 @@ $data['responEko'] = array(
 /* Kod Bahasa (LT)(2 digit)
 Kod bahasa yang utama semasa temu ramah. Sila lihat Butiran 16 di Butir-Butir Pengenalan STB/LFS-1
 */
-$data['kod bahasa'] = array(
+$data['bahasa'] = array(
 	array('','10','10 - Melayu'),
 	array('','20','20 - Inggeris'),
 	array('','30','30 - Mandarin'),
