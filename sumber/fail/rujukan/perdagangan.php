@@ -1,4 +1,5 @@
 <?php
+/*
 #sumber
 #http://significanttechno.com/export-table-data-to-excel-using-php-and-mysql-without-plugin
 #############################################################################################################
@@ -38,5 +39,5 @@ if (!$conn)
 	header('Content-Disposition: attachment; filename="' . $filename . '";');
 
 	#output all remaining data on a file pointer
-	fpassthru($f);
+	fpassthru($f);//*/
 #------------------------------------------------------------------------------------------
