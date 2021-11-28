@@ -460,6 +460,29 @@ $data['pengajian'] = array(
 	array('','863','863 - Ketenteraan dan pertahanan (latihan ketenteraan, sains militari, national security)','Perkhidmatan keselamatan'),
 );
 #--------------------------------------------------------------------------------------------------
+// bidang pengajian ISCED-F 2013: List of possible codes
+$data['isced-f 2013'] = array(
+	array('','Broad field','Narrow field','Detailed field'),
+	array('','00-Generic programmes and qualifications','',''),
+	array('','000-Generic programmes and qualifications not further defined',
+	'0000 Generic programmes and qualifications not further defined',''),
+	array('','001-Basic programmes and qualifications',
+	'0011 Basic programmes and qualifications',''),
+	array('','002-Literacy and numeracy','0021 Literacy and numeracy',''),
+	array('','003-Personal skills and development ','0031 Personal skills and development',''),
+	array('','009 Generic programmes and qualifications not elsewhere classified',
+	'0099 Generic programmes and qualifications not elsewhere classified',''),
+	array('','01-Education','',''),
+	array('','0110 Education not further defined','',''),
+	array('','0111 Education science','',''),
+	array('','0112 Training for pre-school teachers','',''),
+	array('','0113 Teacher training without subject specialisation','',''),
+	array('','0114 Teacher training with subject specialisation','',''),
+	array('','0119 Education not elsewhere classified','',''),
+	array('','018 Inter-disciplinary programmes and qualifications involving education','',''),
+	array('','0188 Inter-disciplinary programmes and qualifications involving education','',''),
+);
+#--------------------------------------------------------------------------------------------------
 //Pengekodan Aktiviti Pekerjaan
 $data['Aktiviti Pekerjaan'] = array(
 	//array('','Industri (MSIC 2008) - Pengekodan Aktiviti Pekerjaan'),
