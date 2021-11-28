@@ -492,7 +492,6 @@ $data['isced-f 2013'] = array(
 	array('','0214 Handicrafts','',''),
 	array('','0215 Music & performing arts ','',''),
 	array('','0219 Arts not elsewhere classified ','',''),
-
 	array('','022 Humanities (except languages)','',''),
 	array('','0220 Humanities (except languages) not further defined','',''),
 	array('','0221 Religion & theology','',''),
@@ -698,7 +697,6 @@ $data['isced-f 2013'] = array(
 	array('','99 Field unknown','',''),
 	array('','999 Field unknown','',''),
 	array('','9999 Field unknown','',''),
-
 );
 #--------------------------------------------------------------------------------------------------
 //Pengekodan Aktiviti Pekerjaan
@@ -913,7 +911,8 @@ $data['mascoMsic'] = array(
 	array('','4','TUKANG RUMAH','BUAT RUMAH','4','711101','41001'),
 	array('','4','CAT KERETA','BENGKEL','4','713203','45202'),
 	array('','4','TUKANG BESI','KIMPALAN BESI','3','722102','24109'),
-	array('','4','MEKANIK MOTOSIKAL','PEMBAIKAN DAN PENYELENGGARAAN MOTOSIKAL','4','723105','45403'),
+	array('','4','MEKANIK MOTOSIKAL','PEMBAIKAN DAN PENYELENGGARAAN MOTOSIKAL',
+	'4','723105','45403'),
 	array('','1','MEKANIK','BENGKEL KERETA','1','723106','45201'),
 	array('','3','MEKANIK','BENGKEL KERETA','3','723106','45201'),
 	array('','4','MEKANIK','BENGKEL KERETA','4','723106','45201'),
@@ -927,7 +926,8 @@ $data['mascoMsic'] = array(
 	array('','3','OPERATOR','ELEKTRONIK','3','818911','26109'),
 	array('','3','PENGHANTAR BARANG','JNT EXPRESS','3','832102','53200'),
 	array('','4','PEMANDU','TEKSI','4','832204','49224'),
-	array('','3','PEMANDU LORI','JUALAN RUNCIT BARANG ELEKTRIK DAN ELEKTRONIK TERPAKAI','3','833201','47742'),
+	array('','3','PEMANDU LORI','JUALAN RUNCIT BARANG ELEKTRIK DAN ELEKTRONIK TERPAKAI',
+	'3','833201','47742'),
 	array('','3','PEMANDU LORI','KEDAI PERABOT','3','833201','47591'),
 	array('','3','PEMANDU LORI','TRANSPORT','3','833201','49230'),
 	array('','3','PEMANDU LORI','HARDWARE','3','833201','46639'),
@@ -935,7 +935,8 @@ $data['mascoMsic'] = array(
 	array('','3','OPERATOR, JENGKAUT','PENGGALIAN LALUAN AIR','3','834210','42904'),
 	array('','3','PENOREH GETAH','LADANG GETAH','3','921116','01291'),
 	array('','3','PEMBERSIH KEBUN','KHIDMAT PEMBERSIHAN','3','921406','81300'),
-	array('','2','PEMBANTU AM (PERKHIDMATAN AM) GRED 1','PENDIDIKAN SEKOLAH MENENGAH','2','962203','85211'),
+	array('','2','PEMBANTU AM (PERKHIDMATAN AM) GRED 1','PENDIDIKAN SEKOLAH MENENGAH',
+	'2','962203','85211'),
 	array('','3','PEKERJA','PASARAYA','3','522302','47112'),
 	array('','3','PEMBANTU','KEDAI MAKAN','3','522302','56106'),
 	array('','3','OPERATOR MESIN','KILANG BISKUT','3','816103','10711'),
@@ -972,7 +973,8 @@ $data['mascoMsic'] = array(
 	array('','4','BEKEBUN','KELAPA SAWIT','4','611104','01262'),
 	array('','2','GURU SEKOLAH RENDAH','PENDIDIKAN RENDAH (AWAM)/'
 	. 'SEKOLAH RENDAH KEBANGSAAN, SEK. KEB.','2','234102','85103'),
-	array('','4','MEKANIK AUTOMOTIF/KERETA/KENDERAAN','BENGKEL KERETA/KENDERAAN','4','723111','45201'),
+	array('','4','MEKANIK AUTOMOTIF/KERETA/KENDERAAN','BENGKEL KERETA/KENDERAAN',
+	'4','723111','45201'),
 	array('','4','JURUJUAL INTERNET / PENIAGA ONLINE','JUAL BARANG ONLINE','4','524409','47912'),
 	array('','4','PENIAGA PASAR MALAM','JUAL TOPI/BEG/PAKAIAN','4','521101','47820'),
 	array('','2','PEGAWAI POLIS','PERKHIDMATAN POLIS','2','371504','84231'),
