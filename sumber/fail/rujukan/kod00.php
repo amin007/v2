@@ -1210,6 +1210,7 @@ $data['mascoMsic'] = array(
 	array('','4','PENIAGA PASAR MALAM','JUAL TOPI/BEG/PAKAIAN','4','521101','47820'),
 	array('','2','PEGAWAI POLIS','PERKHIDMATAN POLIS','2','371504','84231'),
 	array('','3','PENGAWAL KESELAMATAN','JAGA BANGUNAN','3','541411','80100'),
+	array('','4','PEKEDAI RUNCIT','KEDAI RUNCIT','4','522102','47111'),
 );
 #--------------------------------------------------------------------------------------------------
 /*
