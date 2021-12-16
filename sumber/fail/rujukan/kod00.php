@@ -2755,9 +2755,9 @@ include 'fungsi_global.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 // bina tatasusunan dari fungsi
-$tahunJadual = kiraTahunJadual();
+//$tahunJadual = kiraTahunJadual();
 //semakPembolehubah(array($tahunJadual),'tahunJadual');
-$data['tahun'] = array(array($tahunJadual));
+//$data['tahun'] = array(array($tahunJadual));
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
