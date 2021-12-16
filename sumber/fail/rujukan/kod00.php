@@ -2488,15 +2488,22 @@ $data['Pendidikan&Sijil 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun','020 - Tiada Sijil'),
 	array('','002','002 - Pendidikan pra-sekolah','020 - Tiada Sijil'),
 	array('','003','003 - Pendidikan tidak formal','020 - Tiada Sijil<br>'
-	. '- Merujuk kepada seseorang yang masih bersekolah atau telah tamat persekolahan tanpa memperoleh sebarang sijil.'),
+	. '- Merujuk kepada seseorang yang masih bersekolah atau telah tamat persekolahan tanpa'
+	. ' memperoleh sebarang sijil.'),
 	array('','004','004 - Tiada pendidikan','022 - Tiada berkenaan<br>'
-	. '- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	. '- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
+	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil'
+	. ' dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
 	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
 	array('','005','005 - Masih belum bersekolah','021 - Masih belum bersekolah<br>'
-	. '- Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021) pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah'),
+	. '- Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
+	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada sembilan tahun dan'
+	. ' masih belum bersekolah'),
 	array('','006','006 - Pendidikan bukan formal','023 - Sijil Pendidikan Bukan Formal<br>'
-	. '- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
-	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal` (Kod 006) sahaja pada Ruangan 16.'),
+	. '- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam'
+	. ' perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
+	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal`'
+	. ' (Kod 006) sahaja pada Ruangan 16.'),
 	array('','101','101 - Darjah / Tahun 1',''),
 	array('','102','102 - Darjah / Tahun 2',''),
 	array('','103','103 - Darjah / Tahun 3',''),
@@ -2527,7 +2534,7 @@ $data['Pendidikan&Sijil 2022'] = array(
 	'352 - Sijil kemahiran khusus dan teknikal'),
 	array('','402','402 - Program sijil oleh badan-badan yang memberi pengiktirafan',
 	'353 - Sijil drpd badan2 yg memberi pengiktirafan @ yg setaraf'),
-	array('','403','403 - Program sijil dari kolej/ politeknik/ universiti atau setaraf dengannya',
+	array('','403','403 - Program sijil dari kolej/politeknik/universiti @ setaraf dengannya',
 	'354 - Sijil drpd kolej @ yg setaraf<br>'
 	. '355 - Sijil drpd politeknik @ yg setaraf<br>'
 	. '356 - Sijil drpd universiti @ yg setaraf<br>'
@@ -2536,9 +2543,10 @@ $data['Pendidikan&Sijil 2022'] = array(
 	'357 - Sijil perguruan/kejururawatan/kesihatan bersekutu'),
 	array('','501','501 - Program diploma kemahiran khusus & teknikal',
 	'551 - Diploma dlm kemahiran khusus & teknikal'),
-	array('','502','502 - Program diploma lanjutan/ Higher National Diploma kemahiran khusus & teknikal',
+	array('','502','502 - Program diploma lanjutan/ Higher National Diploma'
+	. ' kemahiran khusus & teknikal',
 	'552 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran khusus & teknikal'),
-	array('','503','503 - Program diploma dari kolej/ politeknik/ universiti atau setaraf dengannya',
+	array('','503','503 - Program diploma dari kolej/politeknik/universiti @ setaraf dengannya',
 	'553 - Diploma drpd kolej @ yg setaraf(terutama kolej swasta)<br>'
 	. '554 - Diploma drpd politeknik @ yg setaraf<br>'
 	. '555 - Diploma drpd universiti @ yg setaraf'),
@@ -2620,8 +2628,10 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0322 - Perpustakaan, maklumat & arkib'),
 	array('','0323 - Media & komunikasi'),
 	array('','0329 - Kewartawanan & maklumat lain'),
-	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial, kewartawanan & maklumat'),
-	array('','0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial, kewartawanan & maklumat'),
+	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	. ' kewartawanan & maklumat'),
+	array('','0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	. ' kewartawanan & maklumat'),
 	array('','039 Sains sosial, kewartawanan & maklumat lain'),
 	array('','0399 - Sains sosial, kewartawanan & maklumat lain'),
 	array('','04 Perniagaan, pentadbiran & undang-undang'),
@@ -2638,32 +2648,36 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0419 - Perniagaan & pentadbiran lain'),
 	array('','042 Undang-undang'),
 	array('','0421 - Undang-undang'),
-	array('','048 Program <em>inter-discplinary</em> yang melibatkan perniagaan, pentadbiran & undang-undang'),
-	array('','0488 - Program <em>inter-discplinary</em> yang melibatkan perniagaan, pentadbiran & undang-undang'),
+	array('','048 Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
+	. ' pentadbiran & undang-undang'),
+	array('','0488 - Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
+	. ' pentadbiran & undang-undang'),
 	array('','049 Perniagaan, pentadbiran & undang-undang lain'),
 	array('','0499 - Perniagaan, pentadbiran & undang-undang lain'),
 	array('','05 Sains tulen, matematik & statistik'),
 	array('','050 Sains tulen, matematik & statistik'),
 	array('','0500 - Sains tulen, matematik & statistik'),
 	array('','051 Biologi & sains berkaitan'),
-	array('','0511 - Biologi '),
+	array('','0511 - Biologi'),
 	array('','0512 - Biokimia'),
 	array('','0519 - Biologi & sains berkaitan lain'),
 	array('','052 Sains persekitaran'),
-	array('','0521 - Sains persekitaran '),
-	array('','0522 - Persekitaran semula jadi & hidupan liar '),
-	array('','0529 - Sains persekitaran lain '),
+	array('','0521 - Sains persekitaran'),
+	array('','0522 - Persekitaran semula jadi & hidupan liar'),
+	array('','0529 - Sains persekitaran lain'),
 	array('','053 Sains fizikal'),
-	array('','0531 - Kimia '),
-	array('','0532 - Sains hayat '),
-	array('','0533 - Fizik '),
+	array('','0531 - Kimia'),
+	array('','0532 - Sains hayat'),
+	array('','0533 - Fizik'),
 	array('','0539 - Sains fizik lain'),
 	array('','054 Matematik & statistik'),
 	array('','0540 - Matematik & statistik'),
 	array('','0541 - Matematik'),
 	array('','0542 - Statistik'),
-	array('','058 Program <em>inter-discplinary</em> yang melibatkan sains tulen, matematik & statistik'),
-	array('','0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen, matematik & statistik'),
+	array('','058 Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
+	. ' matematik & statistik'),
+	array('','0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
+	. ' matematik & statistik'),
 	array('','059 Sains tulen, matematik & statistik lain'),
 	array('','0599 - Sains tulen, matematik & statistik lain'),
 	array('','06 Teknologi maklumat & komunikasi'),
@@ -2674,13 +2688,15 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0613 - Sains pengkomputeran'),
 	array('','0614 - Penggunaan komputer'),
 	array('','0619 - Teknologi maklumat & komunikasi lain'),
-	array('','068 Program <em>inter-discplinary</em> yang melibatkan teknologi maklumat & komunikasi'),
-	array('','0688 - Program <em>inter-discplinary</em> yang melibatkan teknologi maklumat & komunikasi'),
+	array('','068 Program <em>inter-discplinary</em> yang melibatkan'
+	. ' teknologi maklumat & komunikasi'),
+	array('','0688 - Program <em>inter-discplinary</em> yang melibatkan'
+	. ' teknologi maklumat & komunikasi'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan'),
 	array('','070 Kejuruteraan, pembuatan & pembinaan'),
 	array('','0700 - Kejuruteraan, pembuatan & pembinaan'),
 	array('','071 Kejuruteraan & kejuruteraan dagangan'),
-	array('','0711 - Kejuruteraan kimia & prosess'),
+	array('','0711 - Kejuruteraan kimia & proses'),
 	array('','0712 - Tenaga & elektrik'),
 	array('','0713 - Elektronik & pengautomasian'),
 	array('','0714 - Mekanik & kerja logam'),
@@ -2701,8 +2717,10 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0734 - <em>Surveying</em>'),
 	array('','074 Teknologi kejuruteraan'),
 	array('','0741 - Teknologi kejuruteraan'),
-	array('','078 Program <em>inter-discplinary</em> yang melibatkan kejuruteraan, pembuatan & pembinaan'),
-	array('','0788 - Program <em>inter-discplinary</em> yang melibatkan kejuruteraan, pembuatan & pembinaan'),
+	array('','078 Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
+	. ' pembuatan & pembinaan'),
+	array('','0788 - Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
+	. ' pembuatan & pembinaan'),
 	array('','079 Kejuruteraan, pembuatan & pembinaan lain'),
 	array('','0799 - Kejuruteraan, pembuatan & pembinaan lain'),
 	array('','08 Pertanian, perhutanan, perikanan & veterinar'),
@@ -2718,8 +2736,10 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0831 - Perikanan'),
 	array('','084 Veterinar'),
 	array('','0841 - Veterinar'),
-	array('','088 Program <em>inter-discplinary</em> yang melibatkan pertanian, perhutanan, perikanan & veterinar'),
-	array('','0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian, perhutanan, perikanan & veterinar'),
+	array('','088 Program <em>inter-discplinary</em> yang melibatkan pertanian,'
+	. ' perhutanan, perikanan & veterinar'),
+	array('','0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian,'
+	. ' perhutanan, perikanan & veterinar'),
 	array('','089 Pertanian, perhutanan, perikanan & veterinar lain'),
 	array('','0899 - Pertanian, perhutanan, perikanan & veterinar lain'),
 	array('','09 Kesihatan & kebajikan'),
@@ -2753,24 +2773,23 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','1014 - Sukan'),
 	array('','1015 - Pengembaraan, pelancongan & rekreasi'),
 	array('','1019 - Perkhidmatan personel lain'),
-	array('','102 Perkhidmatan kebersihan & kesihatan pekerjaan'),
+	array('','102 : Perkhidmatan kebersihan & kesihatan pekerjaan'),
 	array('','1021 - Sanitasi komuniti'),
 	array('','1022 - Keselamatan & kesihatan pekerjaan'),
 	array('','1029 - Perkhidmatan kebersihan & kesihatan pekerjaan lain'),
-	array('','103 Perkhidmatan keselamatan'),
+	array('','103 : Perkhidmatan keselamatan'),
 	array('','1031 - Ketenteraan & pertahanan'),
 	array('','1032 - Perlindungan diri & harta benda'),
 	array('','1039 - Perkhidmatan keselamatan lain'),
-	array('','104 Perkhidmatan pengangkutan'),
+	array('','104 : Perkhidmatan pengangkutan'),
 	array('','1041 - Perkhidmatan pengangkutan'),
-	array('','108 Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
+	array('','108 : Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
 	array('','1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
-	array('','109 Perkhidmatan lain'),
+	array('','109 : Perkhidmatan lain'),
 	array('','1099 - Perkhidmatan lain'),
-	array('','99 Lain-lain'),
-	array('','999 Lain-lain'),
+	array('','99 : Lain-lain'),
+	array('','999 : Lain-lain'),
 	array('','9999 - Lain-lain'),
-
 );
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
