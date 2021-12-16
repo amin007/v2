@@ -2254,6 +2254,302 @@ $data['aktiviti'] = array(
 	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
+#3.18 Ruangan 16 - Taraf Pendidikan Rasmi Tertinggi (PT)
+$data['Pendidikan 2022'] = array(
+	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun',''),
+	array('','002','002 - Pendidikan pra-sekolah',
+	'- Merupakan program pendidikan awal terancang yang direka untuk memperkenalkan kanak-kanak kepada persekitaran sekolah.<br>'
+	. '- Mesti dijalankan di premis sekolah atau pusat untuk memenuhi keperluan perkembangan kanak-kanak yang berumur kurang dari 6 tahun dan staf yang mempunyai kelayakan untuk mengajar kanak-kanak peringkat umur muda.<br>'
+	. '- Tiada kelayakan masuk.<br>'
+	. '- Setelah tamat program ini, murid-murid akan menyambung pendidikan di peringkat rendah.<br>'
+	. '- Pendidikan pra-sekolah TERMASUK di bawah takrif pendidikan rasmi/formal. Ianya dikodkan bertujuan untuk mendapatkan maklumat penduduk yang telah/sedang mengikuti pendidikan pra-sekolah. Ini kerana mereka yang menduduki pra-sekolah telah mendapat pendedahan kepada persekitaran sekolah dan pengetahuan asas berbanding mereka yang tidak pernah bersekolah. Oleh itu, Ruangan 13 (Persekolahan) dikodkan sebagai ‛2’ manakala Ruangan 15 (Sijil Tertinggi Diperoleh) dikodkan ‛020’.'
+	.''),
+	array('','003','003 - Pendidikan tidak formal',
+	'Merujuk kepada seseorang yang mendapat pendidikan selain daripada pendidikan rasmi atau formal seperti yang didefinisikan pada muka surat 27. Contohnya, seseorang yang bersekolah di sekolah pondok dan mendapat pendidikan agama sahaja akan dikategorikan sebagai ‛Pendidikan tidak formal’.'),
+	array('','004','004 - Tiada pendidikan',
+	'Merujuk kepada seseorang yang berumur sembilan tahun dan lebih dan masih belum bersekolah.'),
+	array('','005','005 - Masih belum bersekolah',
+	'Merujuk kepada kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah.'),
+	array('','006','006 - Pendidikan bukan formal',
+	'Merujuk kepada pendidikan yang disusun dan dilaksanakan di luar daripada sistem pendidikan formal yang bertujuan memberi pembelajaran yang terpilih untuk sesuatu kumpulan di dalam masyarakat. Pendidikan ini boleh diperoleh melalui program seperti latihan, kursus dalam perkhidmatan, seminar, bengkel, forum dan persidangan.'),
+	/*
+	(umur pelajar: 6-12 tahun); (pengajian terkumpul: 1-6 tahun)
+	- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan kemahiran asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang seimbang.
+	- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah, sebelum menyambung pelajaran ke peringkat menengah rendah.
+	- Tempoh pengajian enam tahun tetapi boleh tamat diikuti dalam tempoh lima hingga tujuh tahun.
+	- Kelayakan masuk mengikut peraturan yang ditetapkan oleh kerajaan atau sekolah rendah berkenaan.
+	- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program pendidikan ini.
+	*/
+	array('','101','101 - Darjah / Tahun 1','Pendidikan rendah'),
+	array('','102','102 - Darjah / Tahun 2','Pendidikan rendah'),
+	array('','103','103 - Darjah / Tahun 3','Pendidikan rendah'),
+	array('','104','104 - Darjah / Tahun 4','Pendidikan rendah'),
+	array('','105','105 - Darjah / Tahun 5','Pendidikan rendah'),
+	array('','106','106 - Darjah / Tahun 6','Pendidikan rendah'),
+	/*
+	(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)
+	- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.
+	- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan diri dengan pendidikan umum yang bersepadu.
+	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang berkelayakan khusus untuk bidang/subjek yang diajar.
+	- Tempoh pengajian selama 3/4 tahun.
+	- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.
+	- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah, sebelum menyambung pelajaran ke peringkat menengah atas.
+	*/
+	array('','201','201 - Kelas Peralihan','Pendidikan menengah rendah'),
+	array('','202','202 - Tingkatan 1','Pendidikan menengah rendah'),
+	array('','203','203 - Tingkatan 2','Pendidikan menengah rendah'),
+	array('','204','204 - Tingkatan 3','Pendidikan menengah rendah'),
+	/*
+	(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)
+	- Merupakan kesinambungan program menengah rendah.
+	- Tempoh pengajian selama 2 tahun.
+	- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran sastera, sains, vokasional, teknikal atau agama.
+	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga dan perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
+	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian peringkat tertiari atau memilih memasuki pasaran buruh.
+	- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan Sijil Kemahiran Malaysia.
+	*/
+	array('','205','206 - Tingkatan 4','Pendidikan menengah atas'),
+	array('','206','206 - Tingkatan 5','Pendidikan menengah atas'),
+	array('','207','207 - Program kemahiran asas',
+	'(umur pelajar antara 15-40 tahun)<br>'
+	. '- Syarat minimum kemasukan ke program ini adalah boleh membaca, menulis dan mengira.<br>'
+	. '- Merupakan program berbentuk modular, praktikal (hands-on) dan employable skills mengikut keperluan semasa.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 6 bulan.<br>'
+	. '- Pelajar yang telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau mengikuti latihan lanjutan pendidikan vokasional/ teknik.<br>'
+	. '- Program yang dikelaskan di bawah kategori ini adalah seperti kursus GIAT MARA.<br>'
+	. ''),
+	/*
+	Bidang vokasional memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana dalam akademik dan berminat kepada pembelajaran bercorak vokasional (berkaitan pekerjaan). Isi kandungan bidang vokasional mempunyai komponen teori dan praktikal yang seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian, pelajar berpeluang ke IPTA, IPTS, dan institut latihan kemahiran awam dan swasta, atau terus ke alam pekerjaan.
+	- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat Diploma (termasuk lima 5 bulan On The Job Training)
+	- Pelajar yang berjaya di peringkat Sijil akan dianugerahkan Sijil Vokasional Malaysia (SVM)
+	- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di peringkat Diploma di Kolej Vokasional yang sama
+	- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian di Kolej Vokasional yang sama dalam bidang kemahiran dan dianugerahkan Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai
+	- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh Senat Kolej Vokasional, Kementerian Pendidikan Malaysia
+	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi memenuhi keperluan industri dan entrepreneur
+	*/
+	array('','208','208 - Kolej vokasional Tahun 1',''),
+	array('','208','209 - Kolej vokasional Tahun 2',''),
+	array('','301','301 - Tingkatan 6 rendah',
+	'(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>'
+	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
+	. '- Tempoh pengajian selama 1-2 tahun.<br>'
+	. '- Pelajar yang telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian di peringkat diploma/ ijazah atau memasuki pasaran buruh.'),
+	array('','302','302 - Tingkatan 6 atas',''),
+	array('','303','303 - Matrikulasi',''),
+	array('','304','304 - Program persediaan',''),
+	array('','305','305 - Pra universiti',''),
+	/*
+	(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)
+	- Pelajar telah tamat pendidikan menengah atas.
+	- Pengajian peringkat matrikulasi merupakan persediaan untuk pengajian peringkat ijazah dalam negara dan termasuk program persediaan bagi melanjutkan pelajaran ke luar negara.
+	- Tempoh pengajian selama 1–2 tahun.
+	- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan pengajian tahun asas (foundation year) pertama dan kedua.
+	*/
+	array('','306','306 - Diploma Tahun 1',''),
+	array('','307','307 - Diploma Tahun 2',''),
+	array('','308','308 - Kolej vokasional Tahun 3',''),
+	array('','309','309 - Kolej vokasional Tahun 4',''),
+	array('','310','310 - Institusi latihan kemahiran Tahun 1',''),
+	array('','311','311 - Institusi latihan kemahiran Tahun 2',''),
+	array('','401','401 - Program sijil kemahiran khusus dan teknikal',
+	'(umur pelajar: 18 tahun dan lebih)<br>'
+	. '- Kemasukan ke program sijil kemahiran khusus dan teknikal kebiasaannya memerlukan kepada sekurang-kurangnya menamatkan pendidikan menengah atas seperti tamat Tingkatan 5 atau lulus peperiksaan SPM/ SPM(V). Terdapat juga kursus yang mana syarat kemasukannya hanya lulus PMR atau setaraf dengannya.<br>'
+	. '- Merujuk kepada program sijil yang dijalankan oleh institusi latihan kemahiran khusus dan teknikal yang menggunakan pensijilan yang diiktiraf oleh badan-badan tertentu seperti Jabatan Perkhidmatan Awam (JPA), Majlis Latihan Vokasional Kebangsaan (MLVK)/ Jabatan Pembangunan Kemahiran (JPK) (Sijil Kemahiran Malaysia (SKM) Tahap 1 hingga 3), Majlis Latihan Pertanian Kebangsaan (NATC), Majlis Amanah Rakyat (MARA) dan London Chamber of Commerce and Industry International Qualifications (LCCI) (Tahap 1 dan 2).<br>'
+	. '- Contoh institusi : Institut Kemahiran Mara (IKM), Institut Kemahiran Belia Negara (IKBN), Institut Latihan Perindustrian (ILP), Kolej Komuniti, State Skill Development Centre (TATI, PSDC, NSSDC, KISMEC, PUSPATRI dll), Institut Pertanian dan kolej swasta yang berkenaan.<br>'
+	. '- Tempoh kursus sekurang-kurangnya 6 bulan.<br>'
+	. '- Program ini menyediakan pelajar dengan kemahiran teknikal tertentu untuk memasuki pasaran buruh atau meneruskan pengajian di peringkat yang lebih tinggi.<br>'
+	. '- Tidak termasuk dalam kategori ini adalah sijil yang diperoleh daripada politeknik, universiti atau badan-badan yang memberi pengiktirafan atau yang setaraf dengannya (kod 401–403).<br>'
+	. ''),
+	array('','402','402 - Program sijil oleh badan-badan yang memberi pengiktirafan',
+	'- Kemasukan ke program sijil dari badan-badan yang memberi pengiktirafan atau yang setaraf dengannya memerlukan seseorang pelajar lulus peperiksaan SPM/ SPM(V) atau dengan kelayakan tambahan dari kod 51.<br>'
+	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 6 bulan hingga 2 tahun.<br>'
+	. '- Kategori ini juga merangkumi program pensijilan daripada badan-badan yang memberi pengiktirafan seperti program pensijilan daripada Telekom Malaysia, Suruhanjaya Tenaga, Jabatan Kesihatan dan Keselamatan Pekerja dan agensi-agensi lain.<br>'
+	. ''),
+	array('','403','403 - Program sijil dari kolej/ politeknik/ universiti atau setaraf dengannya',
+	'- Kemasukan ke program sijil dari kolej/ politeknik/ universiti atau yang setaraf memerlukan seseorang pelajar lulus peperiksaan SPM/SPM(V) atau dengan kelayakan tambahan dari kod 51.<br>'
+	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 6 bulan hingga 2 tahun.<br>'
+	. '- Merujuk kepada program pensijilan yang ditawarkan oleh institusi pengajian tinggi awam (IPTA) dan swasta (IPTS) khususnya di peringkat universiti/kolej termasuk politeknik.<br>'
+	. '- Contoh: Kursus pensijilan ekonomi, perniagaan dan pengurusan, sains komputer & teknologi maklumat, senibina dan perancangan bandar & ukur yang ditawarkan oleh kolej/politeknik/universiti.<br>'
+	. ''),
+	array('','404','404 - Program sijil perguruan/kejururawatan/ kesihatan bersekutu',
+	'- Kemasukan ke program sijil perguruan/ kejururawatan/ kesihatan bersekutu memerlukan seseorang pelajar lulus peperiksaan SPM/ SPM(V).<br>'
+	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 6 bulan hingga 2 tahun.<br>'
+	. '- Merujuk kepada program pensijilan yang ditawarkan oleh institusi pengajian awam dan swasta termasuk institusi di bawah Kementerian Pelajaran dan Kementerian Kesihatan.<br>'
+	. '- Contoh institusi: Institusi Perguruan Malaysia, Sekolah Kejururawatan, Institut Kesihatan Umum, MASTERSKILL College of Nursing and Health, Kolej MAHSA dll.<br>'
+	. ''),
+	array('','501','501 - Program diploma kemahiran khusus dan teknikal',
+	'- Kemasukan ke program diploma kemahiran khusus dan teknikal kebiasaannya memerlukan sekurang-kurangnya menamatkan program sijil kemahiran khusus dan teknikal (kod 352).<br>'
+	. '- Merujuk kepada program diploma yang dijalankan oleh institusi latihan kemahiran khusus dan teknikal yang menggunakan pensijilan yang diiktiraf oleh badan-badan tertentu seperti Majlis Latihan Vokasional Kebangsaan (MLVK)/ Jabatan Pembangunan Kemahiran (JPK) (Diploma Kemahiran Malaysia), Majlis Latihan Pertanian Kebangsaan (NATC), Majlis Amanah Rakyat (MARA) dan London Chamber of Commerce and Industry International Qualifications (LCCI) (Tahap 3 dan 4).<br>'
+	. '- Contoh institusi: Institut Kemahiran Tinggi Belia Negara (IKTBN), Advanced Technology Training Centre (ADTEC), State Skill Development Centre (TATI, PSDC, NSSDC, KISMEC, PUSPATRI dll) dan kolej swasta yang berkenaan.<br>'
+	. '- Program ini menyediakan pelajar dengan kemahiran teknikal tertentu.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 2 tahun.'
+	. ''),
+	array('','502','502 - Program diploma lanjutan/ Higher National Diploma kemahiran khusus dan teknikal',
+	'- Kemasukan ke program diploma lanjutan/ Higher National Diploma kemahiran khusus dan teknikal kebiasaannya memerlukan sekurang-kurangnya tamat program diploma kemahiran khusus dan teknikal (kod 356).<br>'
+	. '- Merujuk kepada program diploma yang dijalankan oleh institusi latihan kemahiran khusus dan teknikal yang menggunakan pensijilan yang diiktiraf oleh badan-badan tertentu seperti Majlis Latihan Vokasional Kebangsaan/ Jabatan Pembangunan Kemahiran (Diploma Lanjutan Kemahiran Malaysia) dan Majlis Amanah Rakyat (MARA).<br>'
+	. '- Contoh institusi: Institusi Kemahiran Tinggi Belia Negara (IKTBN), Advanced Technology Training Centre (ADTEC) dan kolej swasta yang berkenaan.<br>'
+	. '- Program ini menyediakan pelajar dengan kemahiran teknikal tertentu.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 3 tahun.<br>'
+	. ''),
+	array('','503','503 - Program diploma dari kolej/ politeknik/ universiti atau setaraf dengannya',
+	'- Kemasukan ke program diploma dari kolej/ politeknik/ universiti atau yang setaraf dengannya memerlukan seseorang pelajar lulus peperiksaan SPM/SPM(V) atau tamat program sijil dari kolej/ politeknik/ universiti atau yang setaraf dengannya.<br>'
+	. '- Merujuk kepada program diploma yang ditawarkan oleh institusi pengajian tinggi awam (IPTA) dan swasta (IPTS) khususnya di peringkat universiti/ kolej termasuk politeknik.<br>'
+	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 2 tahun.'
+	. ''),
+	array('','504','504 - Program diploma perguruan/ kejururawatan/ kesihatan bersekutu',
+	'- Kemasukan ke program diploma perguruan/ kejururawatan/ kesihatan bersekutu memerlukan seseorang pelajar lulus peperiksaan SPM/ SPM(V).<br>'
+	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
+	. '- Tempoh pengajian sekurang-kurangnya 2 tahun.<br>'
+	. '- Merujuk kepada program diploma yang ditawarkan oleh institusi pengajian tinggi awam dan swasta termasuk institusi di bawah Kementerian Pelajaran dan Kementerian Kesihatan.<br>'
+	. '- Contoh institusi: Institut Perguruan Malaysia (IPG), Kolej Kejururawatan/Sains Kesihatan Bersekutu dan lain-lain di bawah Kementerian Kesihatan Malaysia, Institut Kesihatan Umum, MASTERKILL College of Nursing and Health, Kolej MAHSA dll.<br>'
+	. ''),
+	array('','601','601 - Program ijazah sarjana muda/ diploma lanjutan',
+	'- Kemasukan di peringkat ini memerlukan seseorang pelajar lulus Tingkatan 6 Atas, matrikulasi atau diploma.<br>'
+	. '- Terdapat juga kemasukan terus ke program ijazah sarjana muda selepas lulus SPM/ SPM(V). Bagaimanapun, golongan ini akan melalui kursus asas (foundation course) pada tahun pertama pengajian. Contohnya, kursus peringkat ijazah sarjana muda di Universiti Teknologi Malaysia.<br>'
+	. '- Merujuk kepada program ijazah sarjana muda/ diploma lanjutan yang ditawarkan oleh institusi pengajian tinggi awam (IPTA) dan swasta (IPTS) khususnya di peringkat universiti/ kolej dalam dan luar negara yang diiktiraf.<br>'
+	. '- Program ini lebih bersifat teori dan adalah untuk menyediakan kelayakan yang mencukupi untuk memasuki program penyelidikan lanjutan dan profesion yang berkemahiran tinggi.<br>'
+	. '- Program ini mempunyai jangka masa terkumpul untuk teori (di peringkat tertiari) selama tiga tahun sepenuh masa. Melibatkan penulisan tesis atau kertas projek di tahun akhir pengajian.<br>'
+	. '- Terdapat pelbagai pendekatan laluan yang boleh diikuti oleh seseorang pelajar untuk mendapatkan ijazah pertama mereka. Selain daripada program pengajian biasa, terdapat juga program lain seperti program berkembar (3+0 atau 2+1) dan francais.<br>'
+	. '- Kursus diploma lanjutan, diploma dalam bidang sebaran am dan diploma dalam bidang seni lukis dan seni reka dari UiTM adalah setaraf dengan ijazah.<br>'
+	. ''),
+	array('','701','701 - Program lepasan ijazah',
+	'- Kemasukan di peringkat ini memerlukan seseorang pelajar lulus ijazah sarjana muda atau diploma lanjutan.<br>'
+	. '- Merujuk kepada program lepasan ijazah yang ditawarkan oleh institusi pengajian tinggi awam (IPTA) dan badan-badan profesional dalam bidang-bidang tertentu.<br>'
+	. '- Program ini lebih bersifat aplikasi untuk memasuki profesion tertentu seperti perguruan atau mendapat pengiktirafan bagi profesion yang berkenaan seperti kejuruteraan, perakaunan, perundangan, arkitek, perubatan dan lain-lain.<br>'
+	. '- Pensijilan diperoleh melalui kursus/ peperiksaan/ latihan amali. Contohnya, latihan amali bagi bidang undang-undang ialah chambering.<br>'
+	. '- Termasuk juga dalam kategori ini ialah kursus lepasan ijazah seperti Kursus Perguruan Lepasan Ijazah (KPLI), Association of Chartered Certified Accountants (ACCA) dan Bachelor of Laws (LLB).<br>'
+	. ''),
+	array('','702','702 - Program sarjana (Master)',
+	'- Kemasukan di peringkat ini memerlukan seseorang pelajar tamat pengajian ijazah sarjana muda.<br>'
+	. '- Program ini mempunyai jangka masa terkumpul untuk teori, penulisan tesis dan/atau kertas projek sekurang-kurangnya satu tahun sepenuh masa.<br>'
+	. '- Merujuk kepada program ijazah sarjana yang ditawarkan oleh institusi pengajian tinggi awam (IPTA) dan swasta (IPTS) khususnya di peringkat universiti/kolej dalam dan luar negara yang diiktiraf.<br>'
+	. ''),
+	array('','801','801 - Program ijazah falsafah kedoktoran',
+	'- Kemasukan di peringkat ini memerlukan seseorang pelajar tamat pengajian ijazah sarjana.<br>'
+	. '- Merujuk kepada program ijazah falsafah kedoktoran yang ditawarkan di peringkat universiti dalam dan luar negara yang diiktiraf.<br>'
+	. '- Peringkat ini dikhaskan untuk program pendidikan tertiari yang membawa kepada penganugerahan kelayakan penyelidikan lanjutan. Program ditumpukan kepada penyelidikan sendiri dan pengajian lanjutan.<br>'
+	. '- Memerlukan penyerahan tesis atau disertasi yang bermutu yang boleh diterbitkan dan hasil penyelidikan sendiri yang merupakan sumbangan yang signifikan kepada ilmu pengetahuan. Tidak sepenuhnya berasaskan kepada kerja kursus.<br>'
+	. ''),
+	array('','802','802 - Skim pasca kedoktoran',
+	'- Kemasukan peringkat ini memerlukan seseorang pelajar mempunyai ijazah falsafah kedoktoran (Ph.D), menjalankan penyelidikan dalam bidang berkaitan dan telah menghasilkan beberapa penerbitan di peringkat nasional dan antarabangsa.<br>'
+	. '- Peringkat ini dikhaskan kepada program pendidikan/penyelidikan selepas seseorang itu telah memperolehi ijazah falsafah kedoktoran bertujuan untuk memperoleh kemahiran profesional yang diperlukan dalam kemajuan kerjaya.<br>'
+	. '- Pelajar yang mengikuti program ini akan memegang jawatan postdoctoral fellow bagi tempoh 6 bulan hingga 5 tahun yang dikhususkan untuk menjalankan penyelidikan. Program ini juga telah ditawarkan kepada mereka yang memfokuskan kerjaya dalam bidang pendidikan yang dikenali sebagai "teaching post-docs".'
+	. ''),
+);
+#--------------------------------------------------------------------------------------------------
+//<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
+$data['sijil 2022'] = array(
+	array('','101','101 - UPKK',''),
+	array('','102','102 - UPSR/UPSRA',''),
+	array('','241','241 - SRA',''),
+	array('','242','242 - PT3/PMR/SRP/LCE',''),
+	array('','341','341 - SMA/SMU',''),
+	array('','342','342 - 4 Thanawi',''),
+	array('','343','343 - SPM/MCE/SC/FMCE/CSC',''),
+	array('','344','344 - SPVM/SPM(V)/MVC',''),
+	array('','345','345 - GCE `O` Level',''),
+	array('','351','351 - Sijil Kemahiran Asas/Giat Mara',''),
+	array('','346','346 - STA/STAM/STU',''),
+	array('','347','347 - STPM/STP/HSC',''),
+	array('','348','348 - GCE `A` Level',''),
+	array('','349','349 - Sijil Matrikulasi',''),
+	array('','352','352 - Sijil kemahiran khusus dan teknikal',''),
+	array('','353','353 - Sijil drpd badan2 yg memberi pengiktirafan @ yg setaraf',''),
+	array('','354','354 - Sijil drpd kolej @ yg setaraf',''),
+	array('','355','355 - Sijil drpd politeknik @ yg setaraf',''),
+	array('','356','356 - Sijil drpd universiti @ yg setaraf',''),
+	array('','357','357 - Sijil perguruan/kejururawatan/kesihatan bersekutu',''),
+	array('','551','551 - Diploma dlm kemahiran khusus dan teknikal',''),
+	array('','552','552 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran khusus & teknikal',''),
+	array('','553','553 - Diploma drpd kolej @ yg setaraf(terutama kolej swasta)',''),
+	array('','554','554 - Diploma drpd politeknik @ yg setaraf',''),
+	array('','555','555 - Diploma drpd universiti @ yg setaraf',''),
+	array('','556','556 - Diploma perguruan/kejururawatan/kesihatan bersekutu',''),
+
+	array('','665','665 - Ijazah Sarjana Muda/Diploma lanjutan',''),
+	array('','667','667 - Diploma/Sijil pasca ijazah @ drpd badan profesional/(ACCA/CA)',''),
+	array('','767','767 - Ijazah Sarjana',''),
+	array('','861','861 - Doktor Falsafah(PhD)',''),
+	array('','862','862 - Diploma/Sijil pasca kedoktoran',''),
+	array('','021','021 - Masih belum bersekolah',
+	'Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021) pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah'),
+	array('','020','020 - Tiada Sijil','Merujuk kepada seseorang yang masih bersekolah atau telah tamat persekolahan tanpa memperoleh sebarang sijil.'),
+	array('','022','022 - Tiada berkenaan','- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
+	array('','023','023 - Sijil Pendidikan Bukan Formal','- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
+	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal` (Kod 006) sahaja pada Ruangan 16.'),
+);
+#--------------------------------------------------------------------------------------------------
+$data['Pendidikan&Sijil 2022'] = array(
+	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun','020 - Tiada Sijil',''),
+	array('','002','002 - Pendidikan pra-sekolah','020 - Tiada Sijil',''),
+	array('','003','003 - Pendidikan tidak formal','020 - Tiada Sijil','Merujuk kepada seseorang yang masih bersekolah atau telah tamat persekolahan tanpa memperoleh sebarang sijil.'),
+	array('','004','004 - Tiada pendidikan','022 - Tiada berkenaan','- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
+	array('','005','005 - Masih belum bersekolah','021 - Masih belum bersekolah','Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021) pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah'),
+	array('','006','006 - Pendidikan bukan formal','023 - Sijil Pendidikan Bukan Formal','- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
+	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal` (Kod 006) sahaja pada Ruangan 16.'),
+	array('','101','101 - Darjah / Tahun 1','','',''),
+	array('','102','102 - Darjah / Tahun 2','','',''),
+	array('','103','103 - Darjah / Tahun 3','','',''),
+	array('','104','104 - Darjah / Tahun 4','','',''),
+	array('','105','105 - Darjah / Tahun 5','101 - UPKK','',''),
+	array('','106','106 - Darjah / Tahun 6','102 - UPSR/UPSRA','',''),
+	array('','201','201 - Kelas Peralihan','','',''),
+	array('','202','202 - Tingkatan 1','','',''),
+	array('','203','203 - Tingkatan 2','','',''),
+	array('','204','204 - Tingkatan 3','242 - PT3/PMR/SRP/LCE','',''),
+	array('','205','206 - Tingkatan 4','Pendidikan menengah atas','',''),
+	array('','206','206 - Tingkatan 5','343 - SPM/MCE/SC/FMCE/CSC','',''),
+	array('','207','207 - Program kemahiran asas','',''),
+	array('','208','208 - Kolej vokasional Tahun 1','',''),
+	array('','208','209 - Kolej vokasional Tahun 2','',''),
+	array('','301','301 - Tingkatan 6 rendah','',''),
+	array('','302','302 - Tingkatan 6 atas','347 - STPM/STP/HSC',''),
+	array('','303','303 - Matrikulasi','349 - Sijil Matrikulasi',''),
+	array('','304','304 - Program persediaan','',''),
+	array('','305','305 - Pra universiti','',''),
+	array('','306','306 - Diploma Tahun 1','',''),
+	array('','307','307 - Diploma Tahun 2','',''),
+	array('','308','308 - Kolej vokasional Tahun 3','',''),
+	array('','309','309 - Kolej vokasional Tahun 4','',''),
+	array('','310','310 - Institusi latihan kemahiran Tahun 1','',''),
+	array('','311','311 - Institusi latihan kemahiran Tahun 2','',''),
+	array('','401','401 - Program sijil kemahiran khusus dan teknikal',
+	'352 - Sijil kemahiran khusus dan teknikal',''),
+	array('','402','402 - Program sijil oleh badan-badan yang memberi pengiktirafan',
+	'353 - Sijil drpd badan2 yg memberi pengiktirafan @ yg setaraf',''),
+	array('','403','403 - Program sijil dari kolej/ politeknik/ universiti atau setaraf dengannya',
+	'354 - Sijil drpd kolej @ yg setaraf<br>'
+	. '355 - Sijil drpd politeknik @ yg setaraf<br>'
+	. '356 - Sijil drpd universiti @ yg setaraf<br>'
+	. '',''),
+	array('','404','404 - Program sijil perguruan/kejururawatan/ kesihatan bersekutu',
+	'357 - Sijil perguruan/kejururawatan/kesihatan bersekutu',''),
+	array('','501','501 - Program diploma kemahiran khusus dan teknikal',
+	'',''),
+	array('','502','502 - Program diploma lanjutan/ Higher National Diploma kemahiran khusus dan teknikal',
+	'',''),
+	array('','503','503 - Program diploma dari kolej/ politeknik/ universiti atau setaraf dengannya',
+	'',''),
+	array('','504','504 - Program diploma perguruan/ kejururawatan/ kesihatan bersekutu',
+	'',''),
+	array('','601','601 - Program ijazah sarjana muda/ diploma lanjutan',
+	'',''),
+	array('','701','701 - Program lepasan ijazah',
+	'',''),
+	array('','702','702 - Program sarjana (Master)',
+	'',''),
+	array('','801','801 - Program ijazah falsafah kedoktoran',
+	'',''),
+	array('','802','802 - Skim pasca kedoktoran',
+	'',''),
+);
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 	function binaSatuJadual($senarai,$pilih)
