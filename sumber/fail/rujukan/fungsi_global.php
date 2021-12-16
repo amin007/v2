@@ -193,6 +193,26 @@ endif;//*/
 		endfor;
 	}
 #--------------------------------------------------------------------------------------------------
+	function kiraTahunJadual($p0 = null)
+	{
+		$thnAkhir = date("Y");
+		for($kira = 0;$kira <= 50; $kira++):
+			for($i = 1921;$i <= $thnAkhir; $i++):
+				$umur = str_pad(($thnAkhir - $i), 3, '0', STR_PAD_LEFT);
+				$kod = $i . '=' . $umur;
+				if (($i % 4) == 0)
+				{
+					$p0 = $kod . "\n";
+				}
+				else $p0 = $kod . " | ";
+			endfor;
+			$p1[$kira] = array('',$p0);
+		endfor;
+		//echo $p;
+
+		return $p1;
+	}
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 	function binaJson($senarai,$pilih)
@@ -393,7 +413,9 @@ if ( ! function_exists('binaButang')):
 		. "\n\t" . '<a class="btn btn-success rounded-pill"'
 		. ' target="_blank" href="../rujukan/utama/masco-cari.html">MASCO</a>'
 		. "\n\t" . '<a class="btn btn-info rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>';
+		. ' target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>'
+		. "\n\t" . '<a class="btn btn-info rounded-pill"'
+		. ' target="_blank" href="' . URL . '?/tahun">Tahun</a>';
 		foreach($senarai as $jadual => $row):
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '?/' .$jadual. '">'
