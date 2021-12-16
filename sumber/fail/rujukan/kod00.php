@@ -2588,8 +2588,8 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0119 - Latihan perguruan untuk subjek vokasional/praktikal'),
 	array('','018 : Program <em>inter-disciplinary</em><br>'
 	. '0188 - Program <em>inter-disciplinary</em> yang melibatkan pendidikan'),
-	array('','02 : Kemanusiaan & kesenian'),
-	array('','020 : Kemanusiaan & kesenian<br>'
+	array('','02 : Kemanusiaan & kesenian<br>'
+	. '020 : Kemanusiaan & kesenian<br>'
 	. '0200 - Kemanusiaan & kesenian'),
 	array('','021 Kesenian'),
 	array('','0211 - Produksi media & teknik audio-visual'),
@@ -2610,13 +2610,13 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0232 - Kesusasteraan & linguistics'),
 	array('','0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
 	array('','0239 - Bahasa-bahasa lain'),
-	array('','028 : Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
-	array('','0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
-	array('','029 : Kemanusiaan & kesenian lain'),
-	array('','0299 - Kemanusiaan & kesenian lain'),
+	array('','028 : Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian<br>'
+	. '0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
+	array('','029 : Kemanusiaan & kesenian lain<br>'
+	. '0299 - Kemanusiaan & kesenian lain'),
 	array('','03 : Sains sosial, kewartawanan & maklumat'),
-	array('','030 : Sains sosial, kewartawanan & maklumat'),
-	array('','0300 - Sains sosial, kewartawanan & maklumat'),
+	array('','030 : Sains sosial, kewartawanan & maklumat<br>'
+	. '0300 - Sains sosial, kewartawanan & maklumat'),
 	array('','031 : Sains sosial & tingkah laku'),
 	array('','0311 - Ekonomi'),
 	array('','0312 - Sains politik & sivik'),
@@ -2629,15 +2629,15 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0323 - Media & komunikasi'),
 	array('','0329 - Kewartawanan & maklumat lain'),
 	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	. ' kewartawanan & maklumat<br>'
+	. '0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
 	. ' kewartawanan & maklumat'),
-	array('','0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
-	. ' kewartawanan & maklumat'),
-	array('','039 Sains sosial, kewartawanan & maklumat lain'),
-	array('','0399 - Sains sosial, kewartawanan & maklumat lain'),
+	array('','039 Sains sosial, kewartawanan & maklumat lain<br>'
+	. '0399 - Sains sosial, kewartawanan & maklumat lain'),
 	array('','04 Perniagaan, pentadbiran & undang-undang'),
-	array('','040 Perniagaan, pentadbiran & undang-undang'),
-	array('','0400 - Perniagaan, pentadbiran & undang-undang'),
-	array('','041 Perniagaan & pentadbiran '),
+	array('','040 Perniagaan, pentadbiran & undang-undang<br>'
+	. '0400 - Perniagaan, pentadbiran & undang-undang'),
+	array('','041 Perniagaan & pentadbiran'),
 	array('','0411 - Perakaunan, percukaian & pengauditan'),
 	array('','0412 - Kewangan, perbankan & insurans'),
 	array('','0413 - Kewangan & perbankan islam'),
@@ -2655,8 +2655,8 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','049 Perniagaan, pentadbiran & undang-undang lain<br>'
 	. '0499 - Perniagaan, pentadbiran & undang-undang lain'),
 	array('','05 Sains tulen, matematik & statistik'),
-	array('','050 Sains tulen, matematik & statistik'),
-	array('','0500 - Sains tulen, matematik & statistik'),
+	array('','050 Sains tulen, matematik & statistik<br>'
+	. '0500 - Sains tulen, matematik & statistik'),
 	array('','051 Biologi & sains berkaitan'),
 	array('','0511 - Biologi'),
 	array('','0512 - Biokimia'),
@@ -2730,12 +2730,9 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','0811 - Pengeluaran ternakan & tanaman'),
 	array('','0812 - Horticulture'),
 	array('','0819 - Pertanian lain'),
-	array('','082 Perhutanan<br>'
-	. '0821 - Perhutanan'),
-	array('','083 Perikanan<br>'
-	. '0831 - Perikanan'),
-	array('','084 Veterinar<br>'
-	. '0841 - Veterinar'),
+	array('','082 Perhutanan<br>0821 - Perhutanan'),
+	array('','083 Perikanan<br>0831 - Perikanan'),
+	array('','084 Veterinar<br>0841 - Veterinar'),
 	array('','088 Program <em>inter-discplinary</em> yang melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar<br>'
 	. '0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian,'
