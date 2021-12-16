@@ -2563,19 +2563,19 @@ $data['Pendidikan&Sijil 2022'] = array(
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
 $data['Bidang Pengajian 2022'] = array(
-	array('','xx : Kumpulan Bidang Utama'),
-	array('','xxx : Kumpulan Bidang Sub-utama'),
-	array('','xxxx - Perincian Bidang Pengajian'),
-	array('','00 : Program asas/ umum'),
-	array('','000 : Program <em>generic</em>'),
-	array('','0000 - <em>Programmes and qualifications generic not further defined</em>'),
-	array('','001 : Program asas/umum'),
-	array('','0011 - Program asas/umum'),
-	array('','002 : Literasi & kefahaman asas'),
-	array('','0021 - Literasi & numerasi'),
-	array('','003 : Kemahiran personal'),
-	array('','0031 :- Kemahiran personal<br>'
-	'− Pengurusan masa<br>− Pengurusan kerjaya<br>− Teknik pengucapan awam'),
+	array('','xx : Kumpulan Bidang Utama<br>'
+	. 'xxx : Kumpulan Bidang Sub-utama<br>'
+	. 'xxxx - Perincian Bidang Pengajian'),
+	array('','00 : Program asas/ umum<br>'
+	. '000 : Program <em>generic</em><br>'
+	. '0000 - <em>Programmes and qualifications generic not further defined</em>'),
+	array('','001 : Program asas/umum<br>'
+	. '0011 - Program asas/umum'),
+	array('','002 : Literasi & kefahaman asas<br>'
+	. '0021 - Literasi & numerasi'),
+	array('','003 : Kemahiran personal<br>'
+	. '0031 :- Kemahiran personal<br>'
+	. '− Pengurusan masa<br>− Pengurusan kerjaya<br>− Teknik pengucapan awam'),
 	array('','009 : Program <em>generic</em> lain'),
 	array('','0099 - Program <em>generic</em> lain'),
 	array('','01 : Pendidikan'),
@@ -2787,9 +2787,9 @@ $data['Bidang Pengajian 2022'] = array(
 	array('','1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
 	array('','109 : Perkhidmatan lain'),
 	array('','1099 - Perkhidmatan lain'),
-	array('','99 : Lain-lain'),
-	array('','999 : Lain-lain'),
-	array('','9999 - Lain-lain'),
+	array('','99 : Lain-lain<br>'
+	. '999 : Lain-lain<br>'
+	. '9999 - Lain-lain'),
 );
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
