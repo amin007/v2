@@ -2306,9 +2306,8 @@ if (isset($_SERVER[$s])):
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
 		elseif($cariApa == 'tahun'):
-			kiraTahun();
-			$hoho = kiraTahunJadual();
-			semakPembolehubah($hoho,'hoho');
+			$data['tahun'] = kiraTahunJadual();
+			panggilDataTable($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
