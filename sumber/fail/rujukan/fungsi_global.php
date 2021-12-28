@@ -201,8 +201,7 @@ endif;//*/
 			$kod = $i . '=' . $umur;
 			if (($i % 4) == 0)
 			{
-				$p0 = $kod . "\n";
-				$p1[] = array('',$p0);
+				$p1[] = array('',$p0 . $kod);
 				$p0 = null;
 			}
 			else $p0 .= $kod . " | ";
