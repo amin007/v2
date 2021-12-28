@@ -2305,6 +2305,10 @@ if (isset($_SERVER[$s])):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
+		elseif($cariApa == 'tahun'):
+			kiraTahun();
+			$hoho = kiraTahunJadual();
+			semakPembolehubah($hoho,'hoho');
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
