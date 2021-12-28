@@ -747,6 +747,7 @@ $data['mascoMsic'] = array(
 	array('','3','OPERATOR PENGELUARAN','KILANG STMICROELECTRONICS','3','818907','26102'),
 	array('','4','TUKANG DAWAI ELEKTRIK','PENDAWAIAN DAN PEMASANGAN ELEKTRIK',
 	'4','741208','43211'),
+	array('','2','JURURAWAT','HOSPITAL AWAM','2','322101','86101'),
 	// masco msic
 );
 #--------------------------------------------------------------------------------------------------
