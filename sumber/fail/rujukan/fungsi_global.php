@@ -206,9 +206,6 @@ endif;//*/
 			}
 			else $p0 .= $kod . " | ";
 		endfor;
-			//$p1[$kira] = array('',$p0);
-
-		//echo $p;
 
 		return $p1;
 	}
