@@ -196,18 +196,19 @@ endif;//*/
 	function kiraTahunJadual($p0 = null)
 	{
 		$thnAkhir = date("Y");
-		for($kira = 0;$kira <= 50; $kira++):
-			for($i = 1921;$i <= $thnAkhir; $i++):
-				$umur = str_pad(($thnAkhir - $i), 3, '0', STR_PAD_LEFT);
-				$kod = $i . '=' . $umur;
-				if (($i % 4) == 0)
-				{
-					$p0 = $kod . "\n";
-				}
-				else $p0 = $kod . " | ";
-			endfor;
-			$p1[$kira] = array('',$p0);
+		for($i = 1921;$i <= $thnAkhir; $i++):
+			$umur = str_pad(($thnAkhir - $i), 3, '0', STR_PAD_LEFT);
+			$kod = $i . '=' . $umur;
+			if (($i % 4) == 0)
+			{
+				$p0 = $kod . "\n";
+				$p1[] = array('',$p0);
+				$p0 = null;
+			}
+			else $p0 .= $kod . " | ";
 		endfor;
+			//$p1[$kira] = array('',$p0);
+
 		//echo $p;
 
 		return $p1;
