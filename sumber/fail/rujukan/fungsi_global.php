@@ -412,13 +412,14 @@ if ( ! function_exists('binaButang')):
 		. ' target="_blank" href="../rujukan/utama/masco-cari.html">MASCO</a>'
 		. "\n\t" . '<a class="btn btn-info rounded-pill"'
 		. ' target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>'
-		. "\n\t" . '<a class="btn btn-info rounded-pill"'
-		. ' target="_blank" href="' . URL . '?/tahun">Tahun</a>'
 		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
 		. ' target="_blank" href="./kod00.php">kod-lama</a>'
 		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
-		. ' target="_blank" href="./kod2022.php">kod2022</a>';
+		. ' target="_blank" href="./kod2022.php">kod2022</a>'
+		. "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
+		. ' href="' . URL . '?/tahun">Tahun</a>';
 		foreach($senarai as $jadual => $row):
+			if($jadual != 'tahun')
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 			. ' href="' . URL . '?/' .$jadual. '">'
 			. ucfirst($jadual) . '</a>';
