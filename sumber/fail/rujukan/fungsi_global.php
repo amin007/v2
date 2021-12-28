@@ -201,11 +201,12 @@ endif;//*/
 			$kod = $i . '=' . $umur;
 			if (($i % 4) == 0)
 			{
-				$p1[] = array('',$p0 . $kod);
+				$p1[] = array(null,$p0 . $kod);
 				$p0 = null;
 			}
 			else $p0 .= $kod . " | ";
 		endfor;
+		$p1[] = array('',$p0);
 
 		return $p1;
 	}
