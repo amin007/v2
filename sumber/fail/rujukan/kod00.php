@@ -745,6 +745,8 @@ $data['mascoMsic'] = array(
 	array('','3','EKSEKUTIF PEGAWAI BANK','BANK PERDADANGAN','3','241209','64191'),
 	array('','3','KERANI BANK','BANK PERDADANGAN','3','421107','64191'),
 	array('','3','OPERATOR PENGELUARAN','KILANG STMICROELECTRONICS','3','818907','26102'),
+	array('','4','TUKANG DAWAI ELEKTRIK','PENDAWAIAN DAN PEMASANGAN ELEKTRIK',
+	'4','741208','43211'),
 	// masco msic
 );
 #--------------------------------------------------------------------------------------------------
