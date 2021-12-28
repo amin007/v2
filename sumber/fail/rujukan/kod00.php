@@ -748,6 +748,21 @@ $data['mascoMsic'] = array(
 	// masco msic
 );
 #--------------------------------------------------------------------------------------------------
+//<td> Status Aktiviti </td>
+$data['aktiviti'] = array(
+	array('','01','01 - Majikan'),
+	array('','02','02 - Pekerja Kerajaan'),
+	array('','03','03 - Pekerja swasta'),
+	array('','04','04 - Bekerja sendiri'),
+	array('','05','05 - Pekerja keluarga tanpa gaji'),
+	array('','06','06 - Penganggur'),
+	array('','07','07 - Suri rumah/menjaga rumah'),
+	array('','08','08 - Pelajar'),
+	array('','09','09 - Pesara'),
+	array('','10','10 - Lain-lain(terangkan)'),
+	array('','11','11 - Kanak-kanak tidak bersekolah')
+);
+#--------------------------------------------------------------------------------------------------
 /*
 2.2.5 Soalan G2 - Apakah pekerjaan biasa anda pada bulan lepas _____?
 * Tapisan keempat: Soalan ini bagi menentukan status pekerjaan ahli isi rumah dalam bulan rujukan,
@@ -1767,21 +1782,6 @@ $data['KodNegaraJPN'] = array(
 	array('','ZAIRE - 85'),
 	array('','ZAMBIA - 85'),
 	array('','ZIMBABWE - 85'),
-);
-#--------------------------------------------------------------------------------------------------
-//<td> Status Aktiviti </td>
-$data['aktiviti'] = array(
-	array('','01','01 - Majikan'),
-	array('','02','02 - Pekerja Kerajaan'),
-	array('','03','03 - Pekerja swasta'),
-	array('','04','04 - Bekerja sendiri'),
-	array('','05','05 - Pekerja keluarga tanpa gaji'),
-	array('','06','06 - Penganggur'),
-	array('','07','07 - Suri rumah/menjaga rumah'),
-	array('','08','08 - Pelajar'),
-	array('','09','09 - Pesara'),
-	array('','10','10 - Lain-lain(terangkan)'),
-	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
