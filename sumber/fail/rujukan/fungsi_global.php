@@ -405,8 +405,8 @@ if ( ! function_exists('binaButang')):
 	{
 		$output = "\r\t";
 		$output .= '<a class="btn btn-primary" href="../">Kembali'
-		. '<i class="fa fa-binoculars"></i></a>';
-		$output .= "\n\t" . '<a class="btn btn-success rounded-pill"'
+		. '<i class="fa fa-binoculars"></i></a>'
+		. "\n\t" . '<a class="btn btn-success rounded-pill"'
 		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>'
 		. "\n\t" . '<a class="btn btn-success rounded-pill"'
 		. ' target="_blank" href="../rujukan/utama/masco-cari.html">MASCO</a>'
