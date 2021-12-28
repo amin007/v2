@@ -786,11 +786,10 @@ $data['Pengajian 2022'] = array(
 	array('','001 : Program asas/umum<br>','0011 - Program asas/umum'),
 	array('','002 : Literasi & kefahaman asas<br>','0021 - Literasi & numerasi'),
 	array('','003 : Kemahiran personal<br>',
-	'0031 :- Kemahiran personal<br>− Pengurusan masa<br>'
-	. '− Pengurusan kerjaya<br>− Teknik pengucapan awam'),
+	'0031 - Kemahiran personal / Pengurusan masa /'
+	. ' Pengurusan kerjaya / Teknik pengucapan awam'),
 	array('','009 : Program <em>generic</em> lain<br>','0099 - Program <em>generic</em> lain'),
-	array('','01 : Pendidikan',''),
-	array('','011 : Pendidikan',
+	array('','01 : Pendidikan<br>011 : Pendidikan',
 	'0110 - Pengajaran<br>'
 	. '0111 - Sains pendidikan<br>'
 	. '0012 - Latihan perguruan untuk guru pra-sekolah<br>'
