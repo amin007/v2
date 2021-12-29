@@ -1,18 +1,18 @@
 <?php
-#############################################################################################################
+###################################################################################################
 include '../atas-set-001.php';
 include '../diatas.php';
 $tableID = 'myTable';
 $tableClass = 'table table-striped table-bordered';
-$tajuk = '<th>#</th><th>kod1</th><th>kod2</th><th>kod3</th><th>keterangan</th><th>catatan</th>';
+$tajuk = '<th>#</th><th>kod1</th><th>kod2</th><th>kod3</th><th>keterangan</th>';
 echo "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
 . "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 . "</table>\n";
 include '../dibawah.php';
-#############################################################################################################
+###################################################################################################
 ?>
 <script type="text/javascript">
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery.extend({
 	highlight: function (node, re, nodeName, className)
 	{
@@ -43,7 +43,7 @@ jQuery.extend({
 		return 0;
 	}
 });
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery.fn.unhighlight = function (options)
 {
 	var settings = { className: 'highlight', element: 'span' };
@@ -56,7 +56,7 @@ jQuery.fn.unhighlight = function (options)
 		parent.normalize();
 	}).end();
 };
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery.fn.highlight = function (words, options)
 {
 	var settings = { className: 'highlight', element: 'span', caseSensitive: false, wordsOnly: false };
@@ -80,9 +80,9 @@ jQuery.fn.highlight = function (words, options)
 		jQuery.highlight(this, re, settings.element, settings.className);
     });
 };
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 	var t = $('#myTable').DataTable({
-	"ajax": "../../../../../cari/coicopjson",
+	"ajax": "coicop.json",
 	searchHighlight: true,
 	"columnDefs": [{
 		"searchable": false,
@@ -96,15 +96,7 @@ jQuery.fn.highlight = function (words, options)
 		t.column(0, {search:'applied', order:'applied'}).nodes().
 		each( function (cell, i) {cell.innerHTML = i+1;});
     }).draw();
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 </script>
 </body>
-</html><?php
-	/*"columns": [
-		{ "data": "bil" },
-		{ "data": "s" },
-		{ "data": "msic" },
-		{ "data": "keterangan" },
-		{ "data": "msic2000" },
-		{ "data": "notakaki" }
-	]*/
+</html>
