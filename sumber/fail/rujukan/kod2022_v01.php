@@ -68,6 +68,9 @@ if (isset($_SERVER[$s])):
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable($data,$cariApa);# panggil fungsi
+		elseif($cariApa == 'test002'):
+			$data['masco2020'] = bacaFailkeTatasusunan();
+			panggilDataTable($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
@@ -85,6 +88,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 	function bacaFailkeTatasusunan($file = null)
 	{
+		$file='./utama/masco2020_all.txt';
 		//$file="140724.txt";
 
 		$fopen = fopen($file, 'r');
