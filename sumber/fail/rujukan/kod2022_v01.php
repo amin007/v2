@@ -82,3 +82,28 @@ endif;//*/
 # tamat koding
 ###################################################################################################
 //include 'masco2020_all.txt';
+#--------------------------------------------------------------------------------------------------
+	function bacaFailkeTatasusunan($file = null)
+	{
+		//$file="140724.txt";
+
+		$fopen = fopen($file, 'r');
+		$fread = fread($fopen,filesize($file));
+		fclose($fopen);
+
+		$remove = "\n";
+		$split = explode($remove, $fread);
+
+		$array[] = null;
+		$tab = "\t";
+
+		foreach ($split as $string)
+		{
+			$row = explode($tab, $string);
+			array_push($array,$row);
+		}
+		echo "<pre>";
+		print_r($array);
+		echo "</pre>";
+	}
+#--------------------------------------------------------------------------------------------------
