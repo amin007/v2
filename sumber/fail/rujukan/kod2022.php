@@ -1055,6 +1055,9 @@ if (isset($_SERVER[$s])):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
+		elseif($cariApa == 'tahun'):
+			$data['tahun'] = kiraTahunJadual();
+			panggilDataTable($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
