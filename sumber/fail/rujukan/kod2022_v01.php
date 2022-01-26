@@ -51,7 +51,7 @@ else:
 	panggilDataTable($data,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-# kaedah 2
+/*# kaedah 2
 $s = 'REQUEST_URI';//$s = 'PHP_SELF';
 semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
@@ -68,9 +68,9 @@ if (isset($_SERVER[$s])):
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable($data,$cariApa);# panggil fungsi
-		elseif($cariApa == 'test002'):
-			$data['masco2020'] = bacaFailkeTatasusunan();
-			panggilDataTable($data,$cariApa);# panggil fungsi
+		elseif($cariApa == 'masco2020'):
+			//$data['masco2020'] = bacaFailkeTatasusunan();
+			//panggilDataTable($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
@@ -84,7 +84,9 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 # tamat koding
 ###################################################################################################
+#--------------------------------------------------------------------------------------------------
 //include 'masco2020_all.txt';
+//bacaFailkeTatasusunan();
 #--------------------------------------------------------------------------------------------------
 	function bacaFailkeTatasusunan($file = null)
 	{
