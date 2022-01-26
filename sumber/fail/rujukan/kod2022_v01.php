@@ -51,7 +51,8 @@ else:
 	panggilDataTable($data,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-/*# kaedah 2
+# kaedah 2
+/*$filename = './utama/masco2020_all.txt';
 $s = 'REQUEST_URI';//$s = 'PHP_SELF';
 semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
@@ -69,8 +70,8 @@ if (isset($_SERVER[$s])):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		elseif($cariApa == 'masco2020'):
-			//$data['masco2020'] = bacaFailkeTatasusunan();
-			//panggilDataTable($data,$cariApa);# panggil fungsi
+			$data['masco2020'] = ImportCSV2Array($filename);
+			panggilDataTable($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
@@ -85,8 +86,74 @@ endif;//*/
 # tamat koding
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-//include 'masco2020_all.txt';
-//bacaFailkeTatasusunan();
+/*include 'masco2020_all.txt';
+$filename = './utama/masco2020_all.txt';
+//ImportCSV2Array2($filename);
+echo '<hr>';
+$semakData = ImportCSV2Array($filename, $long = 4096, $delimiter = ";");
+semakPembolehubah($semakData,'semakData');
+//*/
+###################################################################################################
+# baca fail csv dan convert kepada tatasusunan
+#--------------------------------------------------------------------------------------------------
+//https://lonewolfonline.net/php-import-csv-array/
+function ImportCSV2Array($filename, $long = 4096, $delimiter = ";")
+{
+	$row = 0;
+	$col = 0;
+
+	$handle = @fopen($filename, "r");
+	if ($handle)
+	{
+		while (($row = fgetcsv($handle, $long, $delimiter)) !== false)
+		{
+			if (empty($fields))
+			{
+				$fields = $row;
+				continue;
+			}
+
+			foreach ($row as $k=>$value)
+			{
+				$results[$col][$fields[$k]] = $value;
+			}
+
+			$col++;
+			unset($row);
+		}
+
+		if (!feof($handle))
+		{
+			echo "Error: unexpected fgets() failn";
+		}
+		fclose($handle);
+	}
+
+	return $results;
+}
+#--------------------------------------------------------------------------------------------------
+// https://www.php.net/manual/en/function.fgetcsv.php
+function ImportCSV2Array2($filename)
+{
+	$row = 1;
+	if (($handle = fopen($filename, "r")) !== FALSE)
+	{
+		while (($data = fgetcsv($handle, 1000, ",")) !== FALSE)
+		{
+			$num = count($data);
+			echo "<p> $num fields in line $row: <br /></p>\n";
+			$row++;
+			for ($c=0; $c < $num; $c++)
+			{
+				echo $data[$c] . "|\n";
+			}
+		}
+		fclose($handle);
+	}
+	#
+}
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 	function bacaFailkeTatasusunan($file = null)
 	{
