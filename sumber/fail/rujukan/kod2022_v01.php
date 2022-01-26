@@ -102,6 +102,8 @@ function ImportCSV2Array($filename, $long = 4096, $delimiter = ";")
 				continue;
 			}
 
+			//$results[$col][0] = '';
+
 			foreach ($row as $k=>$value)
 			{
 				$results[$col][$fields[$k]] = $value;
