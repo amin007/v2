@@ -1,4 +1,7 @@
 <?php
+###################################################################################################
+include 'fungsi_global.php';
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 $data['test001'] = array(
 	array('','01','01 - Selesai'),
@@ -13,15 +16,11 @@ $data['test001'] = array(
 	array('','00','00 - Lain-Lain Didiami'),
 );
 #--------------------------------------------------------------------------------------------------
+$data['tahun'] = kiraTahunJadual();
+$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.txt');
 #--------------------------------------------------------------------------------------------------
-###################################################################################################
-include 'fungsi_global.php';
-###################################################################################################
 #--------------------------------------------------------------------------------------------------
-// bina tatasusunan dari fungsi
-//$tahunJadual = kiraTahunJadual();
-//semakPembolehubah(array($tahunJadual),'tahunJadual');
-//$data['tahun'] = array(array($tahunJadual));
+#--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
@@ -52,7 +51,6 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-$filename = './utama/masco2020_all.txt';
 $s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
@@ -66,12 +64,6 @@ if (isset($_SERVER[$s])):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
-		elseif($cariApa == 'tahun'):
-			$data['tahun'] = kiraTahunJadual();
-			panggilDataTable($data,$cariApa);# panggil fungsi
-		elseif($cariApa == 'masco2020'):
-			$data['masco2020'] = ImportCSV2Array($filename);
-			panggilDataTable($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
