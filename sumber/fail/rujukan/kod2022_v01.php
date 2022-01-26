@@ -92,6 +92,7 @@ semakPembolehubah($data,'data');//*/
 		$col = 0;
 
 		$handle = @fopen($filename, "r");
+		//$handle = @readfile($filename, "r");
 		if ($handle)
 		{
 			while (($row = fgetcsv($handle, $long, $delimiter)) !== false)
