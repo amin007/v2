@@ -85,64 +85,64 @@ semakPembolehubah($data,'data');//*/
 ###################################################################################################
 # baca fail csv dan convert kepada tatasusunan
 #--------------------------------------------------------------------------------------------------
-//https://lonewolfonline.net/php-import-csv-array/
-function ImportCSV2Array($filename, $long = 4096, $delimiter = ";")
-{
-	$row = 0;
-	$col = 0;
-
-	$handle = @fopen($filename, "r");
-	if ($handle)
+	//https://lonewolfonline.net/php-import-csv-array/
+	function ImportCSV2Array($filename, $long = 4096, $delimiter = ";")
 	{
-		while (($row = fgetcsv($handle, $long, $delimiter)) !== false)
+		$row = 0;
+		$col = 0;
+
+		$handle = @fopen($filename, "r");
+		if ($handle)
 		{
-			if (empty($fields))
+			while (($row = fgetcsv($handle, $long, $delimiter)) !== false)
 			{
-				$fields = $row;
-				continue;
+				if (empty($fields))
+				{
+					$fields = $row;
+					continue;
+				}
+
+				//$results[$col][0] = '';
+
+				foreach ($row as $k=>$value)
+				{
+					$results[$col][$fields[$k]] = $value;
+				}
+
+				$col++;
+				unset($row);
 			}
 
-			//$results[$col][0] = '';
-
-			foreach ($row as $k=>$value)
+			if (!feof($handle))
 			{
-				$results[$col][$fields[$k]] = $value;
+				echo "Error: unexpected fgets() failn";
 			}
-
-			$col++;
-			unset($row);
+			fclose($handle);
 		}
 
-		if (!feof($handle))
-		{
-			echo "Error: unexpected fgets() failn";
-		}
-		fclose($handle);
+		return $results;
 	}
-
-	return $results;
-}
 #--------------------------------------------------------------------------------------------------
-// https://www.php.net/manual/en/function.fgetcsv.php
-function ImportCSV2Array2($filename)
-{
-	$row = 1;
-	if (($handle = fopen($filename, "r")) !== FALSE)
+	// https://www.php.net/manual/en/function.fgetcsv.php
+	function ImportCSV2Array2($filename)
 	{
-		while (($data = fgetcsv($handle, 1000, ",")) !== FALSE)
+		$row = 1;
+		if (($handle = fopen($filename, "r")) !== FALSE)
 		{
-			$num = count($data);
-			echo "<p> $num fields in line $row: <br /></p>\n";
-			$row++;
-			for ($c=0; $c < $num; $c++)
+			while (($data = fgetcsv($handle, 1000, ",")) !== FALSE)
 			{
-				echo $data[$c] . "|\n";
+				$num = count($data);
+				echo "<p> $num fields in line $row: <br /></p>\n";
+				$row++;
+				for ($c=0; $c < $num; $c++)
+				{
+					echo $data[$c] . "|\n";
+				}
 			}
+			fclose($handle);
 		}
-		fclose($handle);
+		#
 	}
-	#
-}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
