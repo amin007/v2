@@ -17,9 +17,10 @@ $data['test001'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
-$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.txt');
-$data['mascoNewss'] = ImportCSV2Array($filename = './utama/masco2020_newss.txt');
-$data['mascoSeksyen'] = ImportCSV2Array($filename = './utama/masco2020-seksyen.txt');
+$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
+$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
+$data['mascoNewss'] = ImportCSV2Array($filename = './utama/masco2020_newss.csv');
+$data['mascoSeksyen'] = ImportCSV2Array($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
@@ -90,11 +91,10 @@ semakPembolehubah($data,'data');//*/
 	//https://lonewolfonline.net/php-import-csv-array/
 	function ImportCSV2Array($filename, $long = 4096, $delimiter = ";")
 	{
-		$row = 0;
-		$col = 0;
+		$row = $col = 0;
+		$results = array();
 
 		$handle = @fopen($filename, "r");
-		//$handle = @readfile($filename, "r");
 		if ($handle)
 		{
 			while (($row = fgetcsv($handle, $long, $delimiter)) !== false)
