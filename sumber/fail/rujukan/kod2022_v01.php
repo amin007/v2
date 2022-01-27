@@ -128,11 +128,16 @@ semakPembolehubah($data,'data');//*/
 	//https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
 	function ImportCSV2Array3($filename)
 	{
+		$data = array();
 		$file = file_get_contents($filename, true);
 		$file = str_replace('"', '', $file);
-		$a1 = explode("\n",$file);
-		//semakPembolehubah($a1,'a1');
-		return $a1;
+		$row = explode("\n",$file);
+		foreach ($row as $key => $val)
+		{
+			$data[$key] = explode(";",$val);
+		}
+		//semakPembolehubah($data,'data');
+		return $data;
 	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
