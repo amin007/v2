@@ -16,10 +16,10 @@ $data['test001'] = array(
 	array('','00','00 - Lain-Lain Didiami'),
 );
 #--------------------------------------------------------------------------------------------------
-$data['tahun'] = kiraTahunJadual();
-$data['masco2020'] = ImportCSV2Array3($filename = './utama/masco2020_all.csv');
-$data['mascoBanci'] = ImportCSV2Array3($filename = './utama/masco2020_banci.csv');
-$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
+//$data['tahun'] = kiraTahunJadual();
+//$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
+//$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
+//$data['mascoNewss'] = ImportCSV2Array($filename = './utama/masco2020_newss.csv');
 $data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 // debug
