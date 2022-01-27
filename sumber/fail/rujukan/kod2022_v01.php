@@ -18,6 +18,8 @@ $data['test001'] = array(
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
 $data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.txt');
+$data['mascoNewss'] = ImportCSV2Array($filename = './utama/masco2020_newss.txt');
+$data['mascoSeksyen'] = ImportCSV2Array($filename = './utama/masco2020-seksyen.txt');
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
@@ -103,7 +105,7 @@ semakPembolehubah($data,'data');//*/
 					continue;
 				}
 
-				//$results[$col][0] = '';
+				$results[$col][0] = null;
 
 				foreach ($row as $k=>$value)
 				{
