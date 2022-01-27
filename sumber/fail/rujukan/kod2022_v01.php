@@ -17,10 +17,10 @@ $data['test001'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
-$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
-$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
-$data['mascoNewss'] = ImportCSV2Array($filename = './utama/masco2020_newss.csv');
-$data['mascoSeksyen'] = ImportCSV2Array($filename = './utama/masco2020_seksyen.csv');
+$data['masco2020'] = ImportCSV2Array3($filename = './utama/masco2020_all.csv');
+$data['mascoBanci'] = ImportCSV2Array3($filename = './utama/masco2020_banci.csv');
+$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
+$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
@@ -82,9 +82,9 @@ endif;//*/
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 // debug
-$filename = './utama/masco2020_all.csv';
+//$filename = './utama/masco2020_all.csv';
 echo '<hr>';
-$data['masco2020'] = ImportCSV2Array3($filename);
+//$data['masco2020'] = ImportCSV2Array3($filename);
 semakPembolehubah($data,'data');//*/
 ###################################################################################################
 # baca fail csv dan convert kepada tatasusunan
