@@ -105,8 +105,6 @@ semakPembolehubah($data,'data');//*/
 					continue;
 				}
 
-				//$results[$col][0] = null;
-
 				foreach ($row as $k=>$value)
 				{
 					$results[$col][$fields[$k]] = $value;
