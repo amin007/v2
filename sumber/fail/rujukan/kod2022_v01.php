@@ -16,13 +16,13 @@ $data['test001'] = array(
 	array('','00','00 - Lain-Lain Didiami'),
 );
 #--------------------------------------------------------------------------------------------------
-//$data['tahun'] = kiraTahunJadual();
+$data['tahun'] = kiraTahunJadual();
 //$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
 //$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
 $data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
-$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
+//$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
-// debug
+# debug
 //semakPembolehubah($data,'data');//*/
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
@@ -123,13 +123,14 @@ endif;//*/
 	//https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
 	function ImportCSV2Array3($filename)
 	{
-		$data = array();
+		//$data = array();
 		$file = file_get_contents($filename, true);
-		//$file = str_getcsv($file);
+		//$file = str_getcsv($file,"\n");
 		$file = str_replace('"', '', $file);
 		$row = explode("\n",$file);
 		foreach ($row as $key => $val)
 		{
+			//$data[$key] = htmlspecialchars($val);
 			$data[$key] = explode(";",$val);
 		}
 		//semakPembolehubah($data,'data');
