@@ -161,7 +161,6 @@ semakPembolehubah($data,'data');//*/
 	function bacaFailkeTatasusunan($file = null)
 	{
 		$file='./utama/masco2020_all.txt';
-		//$file="140724.txt";
 
 		$fopen = fopen($file, 'r');
 		$fread = fread($fopen,filesize($file));
@@ -178,8 +177,8 @@ semakPembolehubah($data,'data');//*/
 			$row = explode($tab, $string);
 			array_push($array,$row);
 		}
-		echo "<pre>";
-		print_r($array);
-		echo "</pre>";
+
+		semakPembolehubah($array,'array');
+		#
 	}
 #--------------------------------------------------------------------------------------------------
