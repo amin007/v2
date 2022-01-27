@@ -54,7 +54,7 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('kod2022_v01.php',$_SERVER[$s]);
@@ -81,9 +81,10 @@ endif;//*/
 # tamat koding
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-/*$filename = './utama/masco2020_all.txt';
+// debug
+$filename = './utama/masco2020_all.csv';
 echo '<hr>';
-$data['masco2020'] = ImportCSV2Array($filename);
+$data['masco2020'] = ImportCSV2Array3($filename);
 semakPembolehubah($data,'data');//*/
 ###################################################################################################
 # baca fail csv dan convert kepada tatasusunan
@@ -130,7 +131,8 @@ semakPembolehubah($data,'data');//*/
 		$file = file_get_contents($filename, true);
 		$file = str_replace('"', '', $file);
 		$a1 = explode(';',$file);
-		semakPembolehubah($a1,'a1');
+		//semakPembolehubah($a1,'a1');
+		return $a1;
 	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
