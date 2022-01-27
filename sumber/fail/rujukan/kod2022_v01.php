@@ -124,6 +124,14 @@ semakPembolehubah($data,'data');//*/
 		return $results;
 	}
 #--------------------------------------------------------------------------------------------------
+	//https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
+	function ImportCSV2Array3($filename)
+	{
+		$file = file_get_contents('./Temp/socallink.txt', true);
+		$file = str_replace('"', '', $file);
+		$a1 = explode(',',$file);
+		semakPembolehubah($a1,'a1');
+	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
