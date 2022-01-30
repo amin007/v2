@@ -17,13 +17,13 @@ $data['test001'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
-//$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
-//$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
-$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
+$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
+$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
+$data['mascoNewss'] = ImportCSV2Array($filename = './utama/masco2020_newss.csv');
 $data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 # debug
-semakPembolehubah($data,'data');//*/
+//semakPembolehubah($data,'data');//*/
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('kod2022_v01.php',$_SERVER[$s]);
