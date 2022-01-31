@@ -243,7 +243,7 @@ endif;//*/
 		//return json_encode($output, JSON_FORCE_OBJECT);
 	}
 #--------------------------------------------------------------------------------------------------
-	function binaJsonV02($senarai,$pilih)
+	function debugJson($output)
 	{
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
