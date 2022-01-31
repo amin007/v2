@@ -19,8 +19,7 @@
 	<a class="btn btn-info rounded-pill" target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>
 <hr>
 	<table id="allTable" class="table table-striped table-bordered" style="width:100%">
-	<thead><tr><th>#</th><th>s</th><th>msic</th><th>keterangan</th><th>msic2000</th><th>notakaki</th></tr></thead>
-	<tfoot><tr><th>#</th><th>s</th><th>msic</th><th>keterangan</th><th>msic2000</th><th>notakaki</th></tr></tfoot>
+	<thead><tr><th>#</th><th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>g</th><th>h</th></tr></thead>
 	</table>
 <hr>
 <!-- Footer
@@ -109,6 +108,7 @@ jQuery.fn.highlight = function (words, options)
 };
 /* ***************************************************************************************** */
 	var t = $('#allTable').DataTable({
+	"ajax": "kod2022/masco2020_v01.json",
 	/*"ajax": "/admin/gradeAction",*/
 	searchHighlight: true,
 	"columnDefs": [{
@@ -118,18 +118,40 @@ jQuery.fn.highlight = function (words, options)
 	}],
 	"order": []
 	});
-	
-	//put column names into thead
+/* ***************************************************************************************** */
+	// untuk carian
+	t.on( 'order.dt search.dt', function (){
+		t.column(0, {search:'applied', order:'applied'}).nodes().
+		each( function (cell, i) {cell.innerHTML = i+1;});
+	}).draw();
+/* ***************************************************************************************** */
+	for ( var i=0 ; i<9 ; i++ )
+	{
+		alert( 'Column index '+i+' is '+
+			(t.column( i ).visible() === true ? 'visible' : 'not visible')
+		);
+	}
+/* ***************************************************************************************** *
+	for ( var i=0 ; i<9 ; i++ ) {
+		t.column( i ).visible( false, false );
+	}
+	t.columns.adjust().draw( false ); // adjust column sizing and redraw
+/* ***************************************************************************************** *
+// Get data from the first row
+var data = table.rows().data()[0]; // same as row(0).data()
+var data = table.rows().data()[0]; // same as row(0).col()
+/* ***************************************************************************************** */
+	/*put column names into thead
 	$('#allTable thead tr').empty();
 		var cols=res.col;
 		for (var i=0; i<cols.length; i++) {
 			$('#alltable thead tr').append('<th>'+cols[i]+'</th>');
 	}
+	// untuk tajuk
+	t.on( 'thead tr', function (){
 
-	t.on( 'order.dt search.dt', function (){
-		t.column(0, {search:'applied', order:'applied'}).nodes().
-		each( function (cell, i) {cell.innerHTML = i+1;});
-	}).draw();
+	}).draw();*/
+
 /* ***************************************************************************************** */
 </script>
 </body>
