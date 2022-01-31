@@ -235,26 +235,18 @@ endif;//*/
 			"recordsFiltered" => $kira,
 			"data" => $row
 		);
+
 		$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
-		//semakPembolehubah($output,'<hr>output V2 daa');
-		echo json_encode($output);
-		echo '<hr>' . json_last_error_msg(); // Print out the error if any
-		die(); // halt the script
+		debugJson($output);
 		//return json_encode($output, JSON_FORCE_OBJECT);
 	}
 #--------------------------------------------------------------------------------------------------
 	function debugJson($output)
 	{
-		foreach($senarai as $jadual => $row):
-		if($jadual == $pilih):
-			//echo '<hr>$jadual=' . $jadual;
-			//semakPembolehubah($row,'row');
-			$output = jsonDataTables($row,$jadual);
-		endif;
-		endforeach;
-		#
-		//header('Content-Type: application/json');
-		//echo $output;
+		//semakPembolehubah($output,'<hr>output V2 daa');
+		echo json_encode($output);
+		echo '<hr>' . json_last_error_msg(); // Print out the error if any
+		die(); // halt the script
 		#
 	}
 #--------------------------------------------------------------------------------------------------
