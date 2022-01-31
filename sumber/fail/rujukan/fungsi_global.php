@@ -435,6 +435,8 @@ if ( ! function_exists('binaButang')):
 		. ' target="_blank" href="./kod00.php">kod-lama</a>'
 		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
 		. ' target="_blank" href="./kod2022.php">kod2022</a>'
+		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
+		. ' target="_blank" href="./kod2022_v01.php">kod2022_v01</a>'
 		. "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 		. ' href="' . URL . '?/tahun">Tahun</a>';
 		foreach($senarai as $jadual => $row):
