@@ -244,8 +244,8 @@ endif;//*/
 	{
 		//semakPembolehubah($output,'<hr>output V2 daa');
 		echo json_encode($output);
-		echo '<hr>' . json_last_error_msg(); // Print out the error if any
-		die(); // halt the script
+		echo '<hr>' . json_last_error_msg();# Print out the error if any
+		die();# halt the script //*/
 		#
 	}
 #--------------------------------------------------------------------------------------------------
