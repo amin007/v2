@@ -235,9 +235,9 @@ endif;//*/
 			"data" => $row
 		);
 
-		$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
+		//$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
 		//debugJson($output);
-		return json_encode($output, JSON_FORCE_OBJECT);
+		return json_encode($output, JSON_UNESCAPED_UNICODE);
 	}
 #--------------------------------------------------------------------------------------------------
 	function debugJson($output)
