@@ -237,8 +237,8 @@ endif;//*/
 		);
 
 		$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
-		debugJson($output);
-		//return json_encode($output, JSON_FORCE_OBJECT);
+		//debugJson($output);
+		return json_encode($output, JSON_FORCE_OBJECT);
 	}
 #--------------------------------------------------------------------------------------------------
 	function debugJson($output)
