@@ -242,6 +242,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 	function debugJson($output)
 	{
+		//how to check Malformed UTF-8 characters in php
 		//semakPembolehubah($output,'<hr>output V2 daa');
 		echo json_encode($output);
 		echo '<hr>' . json_last_error_msg();# Print out the error if any
