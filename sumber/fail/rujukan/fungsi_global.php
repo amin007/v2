@@ -235,14 +235,15 @@ endif;//*/
 			"data" => $row
 		);
 
-		//$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
+		$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
 		//debugJson($output);
-		return json_encode($output, JSON_UNESCAPED_UNICODE);
+		return json_encode($output);
 	}
 #--------------------------------------------------------------------------------------------------
 	function debugJson($output)
 	{
-		//how to check Malformed UTF-8 characters in php
+		#how to check Malformed UTF-8 characters in php
+		#https://medium.com/@onwuka_gideon/how-i-fixed-php-json-encode-returning-empty-result-e4ef97638ea1
 		//semakPembolehubah($output,'<hr>output V2 daa');
 		echo json_encode($output);
 		echo '<hr>' . json_last_error_msg();# Print out the error if any
