@@ -524,7 +524,7 @@ $data['Pendidikan 2022'] = array(
 	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian peringkat tertiari atau memilih memasuki pasaran buruh.
 	- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan Sijil Kemahiran Malaysia.
 	*/
-	array('','205','206 - Tingkatan 4','Pendidikan menengah atas'),
+	array('','205','205 - Tingkatan 4','Pendidikan menengah atas'),
 	array('','206','206 - Tingkatan 5','Pendidikan menengah atas'),
 	array('','207','207 - Program kemahiran asas',
 	'(umur pelajar antara 15-40 tahun)<br>'
@@ -730,7 +730,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','202','202 - Tingkatan 1',''),
 	array('','203','203 - Tingkatan 2',''),
 	array('','204','204 - Tingkatan 3','242 - PT3/PMR/SRP/LCE'),
-	array('','205','206 - Tingkatan 4',''),
+	array('','205','205 - Tingkatan 4',''),
 	array('','206','206 - Tingkatan 5','343 - SPM/MCE/SC/FMCE/CSC'),
 	array('','207','207 - Program kemahiran asas',''),
 	array('','208','208 - Kolej vokasional Tahun 1',''),
