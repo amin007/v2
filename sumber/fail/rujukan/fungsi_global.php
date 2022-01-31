@@ -215,7 +215,6 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 	function binaJson($senarai,$pilih)
 	{
-		//$class = 'table table-striped table-bordered';
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
 			$output = jsonDataTables($row,$jadual);
