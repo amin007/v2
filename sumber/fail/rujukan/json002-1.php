@@ -125,12 +125,12 @@ jQuery.fn.highlight = function (words, options)
 		each( function (cell, i) {cell.innerHTML = i+1;});
 	}).draw();
 /* ***************************************************************************************** */
-	for ( var i=0 ; i<9 ; i++ )
+	/*for ( var i=0 ; i<9 ; i++ )
 	{
 		alert( 'Column index '+i+' is '+
 			(t.column( i ).visible() === true ? 'visible' : 'not visible')
 		);
-	}
+	}*/
 /* ***************************************************************************************** *
 	for ( var i=0 ; i<9 ; i++ ) {
 		t.column( i ).visible( false, false );
