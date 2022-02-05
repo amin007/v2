@@ -20,7 +20,7 @@ include '../fungsi_global.php';
 #==================================================================================================
 # fungsi terhad dalaman sahaja
 #--------------------------------------------------------------------------------------------------
-	function email()
+	function emailPapar()
 	{
 	}
 #--------------------------------------------------------------------------------------------------
@@ -44,10 +44,50 @@ include '../fungsi_global.php';
 #==================================================================================================
 # mula koding
 $kodEmail = nomboRandom();
+$mailTo = 'a@b.c';
 $mailSubject = 'Verifikasi email';
 $mailBody = '<p> Kod verifikasi anda adalah <b style="font-size: 30px;">'
 			. $kodEmail . '</b></p>';
+$mailMessage = str_replace("\n.", "\n..", $mailBody);
 
-echo '<h1>' . $mailSubject . '</h1>' . $mailBody;
+echo 'To:<h2>' . $mailTo . '</h2><br>Subject:<h2>' . $mailSubject . '</h2>' . $mailMessage;
+#--------------------------------------------------------------------------------------------------
+#==================================================================================================
+#--------------------------------------------------------------------------------------------------
+/*
+https://www.w3schools.com/php/func_mail_mail.asp
+Definition and Usage
+The mail() function allows you to send emails directly from a script.
+
+Syntax => mail(to,subject,message,headers,parameters);
+
+Parameter Values
+
++------------+------------------------------------------------------------------------------------+
+| Parameter	 | Description                                                                        |
++------------+------------------------------------------------------------------------------------+
+| to         | Required. Specifies the receiver / receivers of the email                          |
++------------+------------------------------------------------------------------------------------+
+| subject    | Required. Specifies the subject of the email. Note: This parameter cannot contain  |
+|            | any newline characters                                                             |
++------------+------------------------------------------------------------------------------------+
+| message    | Required. Defines the message to be sent. Each line should be separated with       |
+|            | a LF(\n).                                                                          |
+|            | Lines shoud not exceed 70 characters.                                              |
+|            | Windows note: If a full stop is found on the beginning of a line in the message,   |
+|            | it might be removed. To solve this problem, replace the full stop with             |
+|            | a double dot:                                                                      |
+|            | <?php $txt = str_replace("\n.", "\n..", $txt); ?>                                  |
++------------+------------------------------------------------------------------------------------+
+| headers    | Optional. Specifies additional headers, like From, Cc, and Bcc. The additional     |
+|            | headers should be separated with a CRLF (\r\n).                                    |
+|            | Note: When sending an email, it must contain a From header. This can be set with   |
+|            | this parameter or in the php.ini file.                                             |
++------------+------------------------------------------------------------------------------------+
+| parameters | Optional. Specifies an additional param\eter to the sendmail program (the one      |
+|            | defined in the sendmail_path configuration setting). (i.e. this can be used to set |
+|            | the envelope sender address when using sendmail with the -f sendmail option)       |
++------------+------------------------------------------------------------------------------------+
+//*/
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
