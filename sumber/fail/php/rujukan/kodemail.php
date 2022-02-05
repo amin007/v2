@@ -102,8 +102,8 @@ $mailMessage = str_replace("\n.", "\n..", $mailBody);
 //emailPapar02();
 #--------------------------------------------------------------------------------------------------
 //https://www.arclab.com/en/kb/php/how-to-test-and-fix-php-mail-function.html
-$sender = 'kamibantu@duduk.mana';//'someone@somedomain.tld';
-$recipient = 'sayaamin007-awek@yahoo.com';//'you@yourdomain.tld';
+$sender = 'kamibantu@duduk.mana';
+$recipient = 'sayaamin007-awek@biar.rahsia';
 
 $subject = $mailSubject;
 $message = $mailMessage;
