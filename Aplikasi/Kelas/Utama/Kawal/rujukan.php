@@ -17,11 +17,11 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 	{
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = $tajuk;
-		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 
 		# Pergi papar kandungan
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
-		$this->paparHeader('sumber/fail/rujukan');
+		//$this->paparHeader('sumber/fail/rujukan');
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
 ##-------------------------------------------------------------------------------------------------
