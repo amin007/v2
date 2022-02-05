@@ -15,4 +15,6 @@ Senarai Platform Yang Ditunjukkan:
 Servis VPN TunnelBear
 https://cutt.ly/TunnelBear
 
+credential-manager-core
+
 //*/
