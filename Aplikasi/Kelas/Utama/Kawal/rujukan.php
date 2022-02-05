@@ -131,7 +131,7 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		# Set pemboleubah utama
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Koding sikit nombor random
-		$kod001 = substr(number_format(time() * rand(), 0, '', '') 0, 6);
+		$kod001 = substr(number_format(time() * rand(), 0, '', ''), 0, 6);
 		$this->semakPembolehubah($kod001,' semak kod random: ');
 		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
 		$this->papar->Tajuk_Muka_Surat = $tajuk;
