@@ -20,6 +20,32 @@ include '../fungsi_global.php';
 #==================================================================================================
 # fungsi terhad dalaman sahaja
 #--------------------------------------------------------------------------------------------------
+	function kepalaMail($to = null, $from = null)
+	{
+		// To send HTML mail, the Content-type header must be set
+		//$headers[] = 'MIME-Version: 1.0';
+		//$headers[] = 'Content-type: text/html; charset=iso-8859-1';
+
+		// Additional headers
+		$headers[] = 'From: ' . $from;
+		$headers[] = 'Reply-to: ' . $from;
+		$headers[] = 'MIME-Version: 1.0';
+		//$headers[] = 'Content-Type: text/plain; charset=utf-8';
+		$headers[] = 'Content-Type: text/plain; charset=us-ascii';
+		$headers[] = 'Content-Transfer-Encoding: 8bit';
+		$headers[] = 'X-Mailer: PHP/' . PHP_VERSION;
+
+		// nota tambahan
+		//$headers[] = 'To: Mary <mary@example.com>, Kelly <kelly@example.com>';
+		//$headers[] = 'From: Birthday Reminder <birthday@example.com>';
+		//$headers[] = 'Cc: birthdayarchive@example.com';
+		//$headers[] = 'Bcc: birthdaycheck@example.com';
+		# cantumkan semua
+		$header = implode("\r\n", $headers);
+
+		return $header;
+	}
+#--------------------------------------------------------------------------------------------------
 	function emailPapar($mailTo,$mailSubject,$mailMessage)
 	{
 		echo '<table border="1">'
@@ -27,6 +53,18 @@ include '../fungsi_global.php';
 		. '<tr><td>Subject</td><td><h2>' . $mailSubject . '</h2></td></tr>'
 		. '<tr><td>Message</td><td>' . $mailMessage . '</td></tr>'
 		. '</table>';
+	}
+#--------------------------------------------------------------------------------------------------
+	function emailPapar02()
+	{
+		echo '<html>'
+		. "\n" . '<head>'
+		. "\n" . '<title>Verifikasi email</title>'
+		. "\n" . '</head>'
+		. "\n" . '<body>'
+		. "\n" . '<p> Kod verifikasi anda adalah <span style="font-size: 30px;">142637</span></p>'
+		. "\n" . '</body>'
+		. "\n" . '</html>';
 	}
 #--------------------------------------------------------------------------------------------------
 	function nomboRandom()
@@ -51,15 +89,38 @@ include '../fungsi_global.php';
 $kodEmail = nomboRandom();
 $mailTo = 'a@b.c';
 $mailSubject = 'Verifikasi email';
-$mailBody = '<p> Kod verifikasi anda adalah <b style="font-size: 30px;">'
-			. $kodEmail . '</b></p>';
+$mailBody = "<html>\n<head>\n<title>$mailSubject</title>\n</head>\n<body>\n"
+			. ''
+			. '<p> Kod verifikasi anda adalah <span style="font-size: 30px;">'
+			. $kodEmail . '</span></p>'
+			. ''
+			. "\n</body>\n</html>";
 $mailMessage = str_replace("\n.", "\n..", $mailBody);
 
-emailPapar($mailTo,$mailSubject,$mailMessage);
+//emailPapar($mailTo,$mailSubject,$mailMessage);
+//emailPapar02();
+#--------------------------------------------------------------------------------------------------
+//https://www.arclab.com/en/kb/php/how-to-test-and-fix-php-mail-function.html
+$sender = 'kamibantu@duduk.mana';//'someone@somedomain.tld';
+$recipient = 'sayaamin007-awek@yahoo.com';//'you@yourdomain.tld';
+
+$subject = $mailSubject;//"php mail test";
+$message = $mailMessage;//"php test message";
+$headers = kepalaMail($recipient, $sender);//'From:' . $sender;
+
+if (mail($recipient, $subject, $message, $headers))
+{
+    echo "Message accepted";
+}
+else
+{
+    echo "Error: Message not accepted";
+}//*/
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
 #--------------------------------------------------------------------------------------------------
 /*
+https://www.php.net/manual/en/function.mail.php
 https://www.w3schools.com/php/func_mail_mail.asp
 Definition and Usage
 The mail() function allows you to send emails directly from a script.
