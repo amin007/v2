@@ -31,7 +31,8 @@ include '../fungsi_global.php';
 		$headers[] = 'Reply-to: ' . $from;
 		$headers[] = 'MIME-Version: 1.0';
 		//$headers[] = 'Content-Type: text/plain; charset=utf-8';
-		$headers[] = 'Content-Type: text/plain; charset=us-ascii';
+		//$headers[] = 'Content-Type: text/plain; charset=us-ascii';
+		$headers[] = 'Content-type: text/html; charset=iso-8859-1';
 		$headers[] = 'Content-Transfer-Encoding: 8bit';
 		$headers[] = 'X-Mailer: PHP/' . PHP_VERSION;
 
