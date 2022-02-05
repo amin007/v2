@@ -20,8 +20,13 @@ include '../fungsi_global.php';
 #==================================================================================================
 # fungsi terhad dalaman sahaja
 #--------------------------------------------------------------------------------------------------
-	function emailPapar()
+	function emailPapar($mailTo,$mailSubject,$mailMessage)
 	{
+		echo '<table border="1">'
+		. '<tr><td>To</td><td><h2>' . $mailTo . '</h2></td></tr>'
+		. '<tr><td>Subject</td><td><h2>' . $mailSubject . '</h2></td></tr>'
+		. '<tr><td>Message</td><td>' . $mailMessage . '</td></tr>'
+		. '</table>';
 	}
 #--------------------------------------------------------------------------------------------------
 	function nomboRandom()
@@ -50,7 +55,7 @@ $mailBody = '<p> Kod verifikasi anda adalah <b style="font-size: 30px;">'
 			. $kodEmail . '</b></p>';
 $mailMessage = str_replace("\n.", "\n..", $mailBody);
 
-echo 'To:<h2>' . $mailTo . '</h2><br>Subject:<h2>' . $mailSubject . '</h2>' . $mailMessage;
+emailPapar($mailTo,$mailSubject,$mailMessage);
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
 #--------------------------------------------------------------------------------------------------
