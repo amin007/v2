@@ -104,9 +104,9 @@ $mailMessage = str_replace("\n.", "\n..", $mailBody);
 $sender = 'kamibantu@duduk.mana';//'someone@somedomain.tld';
 $recipient = 'sayaamin007-awek@yahoo.com';//'you@yourdomain.tld';
 
-$subject = $mailSubject;//"php mail test";
-$message = $mailMessage;//"php test message";
-$headers = kepalaMail($recipient, $sender);//'From:' . $sender;
+$subject = $mailSubject;
+$message = $mailMessage;
+$headers = kepalaMail($recipient, $sender);
 
 if (mail($recipient, $subject, $message, $headers))
 {
