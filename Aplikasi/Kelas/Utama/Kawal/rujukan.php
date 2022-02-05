@@ -64,14 +64,50 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
 		$this->papar->Tajuk_Muka_Surat = $tajuk;
 		//$this->papar->gambar = gambar_latarbelakang();
-		
+
 		# Pergi papar kandungan
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
 #--------------------------------------------------------------------------------------------------
+	public function daftar()
+	{
+		# Set pemboleubah utama
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//$this->papar->gambar = gambar_latarbelakang();
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+	}
 #--------------------------------------------------------------------------------------------------
+	public function masuk()
+	{
+		# Set pemboleubah utama
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//$this->papar->gambar = gambar_latarbelakang();
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+	}
 #--------------------------------------------------------------------------------------------------
+	public function sahkan()
+	{
+		# Set pemboleubah utama
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//$this->papar->gambar = gambar_latarbelakang();
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+	}
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
