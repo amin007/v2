@@ -111,4 +111,36 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
+# fungsi terhad dalaman sahaja
+#--------------------------------------------------------------------------------------------------
+	public function email()
+	{
+		# Set pemboleubah utama
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//$this->papar->gambar = gambar_latarbelakang();
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+	}
+#--------------------------------------------------------------------------------------------------
+	public function nomboRandom()
+	{
+		# Set pemboleubah utama
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		# Koding sikit nombor random
+		$kod001 = substr(number_format(time() * rand(), 0, '', '') 0, 6);
+		$this->semakPembolehubah($kod001,' semak kod random: ');
+		#$this->papar->tajuk = (empty($url[0])) ? 'index' : $url[0];
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//$this->papar->gambar = gambar_latarbelakang();
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+	}
+#--------------------------------------------------------------------------------------------------
+#==================================================================================================
 }
