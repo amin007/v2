@@ -18,9 +18,9 @@ $data['test001'] = array(
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
 $data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
-$data['mascoBanci'] = ImportCSV2Array3($filename = './utama/masco2020_banci.csv');
-//$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
-//$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
+$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
+$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
+$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 # debug
 //semakPembolehubah($data,'data');//*/
@@ -125,7 +125,7 @@ endif;//*/
 	{
 		$data = array();
 		$file = file_get_contents($filename, true);
-		//$file = str_getcsv($file,"\n");
+		//$file = str_getcsv($file);
 		$file = str_replace('"', '', $file);
 		//semakPembolehubah($file,'file',1);
 		$row = explode("\n",$file);
