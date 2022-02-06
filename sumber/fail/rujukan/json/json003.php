@@ -53,5 +53,24 @@ YANG TIDAK DIKELASKAN DI MANA-MANA
 811319";"Pembantu Operator
 8159";;"OPERATOR MESIN PRODUK TEKSTIL, BULU, DAN KULIT YANG TIDAK DIKELASKAN DI MANA-MANA
 9332";;"PEMANDU KENDERAAN DAN JENTERA TARIKAN-HAIWAN"
+***
+013149;Jurupulih Perubatan Cara Kerja
+#022113;Anggota Petugas Wisma Pegawai;Member Of Officers
+#;111402;Presiden Persekutuan Majikan-Majikan;President Of Employers
+1219xx;Pengurus Perkhidmatan Perniagaan Dan Pentadbiran
+#132136;Ketua Rawatan Panas (Logam);Head Of Heat Treatment
+#282511;Penganjur Kebajikan Wanita;Women
+#311950;Juruteknik Perkakas;Tooling Technician
+3639xx;Profesional Bersekutu Kesenian Dan Kebudayaan Yang Tidak Dikelaskan Di
+#511101;Atendan Kabin Kapal;Ship
+%
+;6-Pekerja Kemahiran Pertanian, Perhutanan, Penternakan Dan Perikanan-Skilled Agricultural, Forestry, Livestock And Fishery Workers;611108;Penanam Buah Naga;Grower, Dragon Fruit;2020;611108;2013;611108
+;1-Pengurus-Managers;611109;Pengarah Syarikat;Company Director;2020;611109;2013;112106
+["";"1-Pengurus-Managers";"112106";"Pengarah Syarikat";"Company Director";"2020";"112106";"2013";"112106"]
+%
+#634104;Pengutip Sarang Burung;Collector, Bird
+#811319;Pembantu Operator - L&Pi
+834309;Orang Yang Bertanggungjawab
+#;2-Profesional-Professionals;Jumud;;;2020;Jumud;2013;218239
 */
 #--------------------------------------------------------------------------------------------------
