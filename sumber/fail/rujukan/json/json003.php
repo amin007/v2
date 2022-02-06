@@ -36,3 +36,10 @@
 $string = file_get_contents('../kod2022/masco2020_newss.json');
 $data = json_decode($string, true);
 semakPembolehubah($data,'data json');
+#--------------------------------------------------------------------------------------------------
+/*
+2519 - PEMBANGUN DAN JURUANALISIS PERISIAN DAN APLIKASI YANG TIDAK DIKELASKAN DI MANA-MANA
+311950","Juruteknik Perkakas
+
+*/
+#--------------------------------------------------------------------------------------------------
