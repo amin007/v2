@@ -125,10 +125,10 @@ endif;//*/
 	{
 		$data = array();
 		$file = file_get_contents($filename, true);
-		//$file = str_getcsv($file);
+		//$file = array_map('str_getcsv', file($filename) );
 		$file = str_replace('"', '', $file);
 		//semakPembolehubah($file,'file',1);
-		$row = explode("\n",$file);
+		$row = explode(PHP_EOL,$file);
 		foreach ($row as $key => $val)
 		{
 			//$val02 = bersih(htmlspecialchars($val));
