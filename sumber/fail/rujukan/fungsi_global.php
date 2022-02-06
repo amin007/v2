@@ -3,13 +3,19 @@
 # fungsi global
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('semakPembolehubah')):
-	function semakPembolehubah($senarai,$jadual,$p='0')
+	function semakPembolehubah($senarai,$jadual='entahlah',$p='0')
 	{
-		echo '<hr><pre>$' . $jadual . '=><br>';
-		if($p == '0') print_r($senarai);
-		if($p == '1') var_export($senarai);
-		echo '</pre>';//*/
-		//semakPembolehubah($ujian,'ujian',0);
+		# semak $senarai adalah array atau tidak
+		$semak = is_array($senarai) ? 'array' : 'bukan';
+		if($semak == 'array'):
+			echo '<pre>$' . $jadual . '=><br>';
+			if($p == '0') print_r($senarai);
+			if($p == '1') var_export($senarai);
+			echo '</pre>' . "\n";
+		else:
+			echo tagVar($senarai,$jadual,2);
+		endif;
+		//$this->semakPembolehubah($ujian,'ujian',0);
 		#http://php.net/manual/en/function.var-export.php
 		#http://php.net/manual/en/function.print-r.php
 	}
