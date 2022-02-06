@@ -125,9 +125,9 @@ endif;//*/
 	{
 		$data = array();
 		$file = file_get_contents($filename, true);
-		semakPembolehubah($file,'file');
 		//$file = str_getcsv($file,"\n");
-		/*$file = str_replace('"', '', $file);
+		$file = str_replace('"', '', $file);
+		//semakPembolehubah($file,'file',1);
 		$row = explode("\n",$file);
 		foreach ($row as $key => $val)
 		{
