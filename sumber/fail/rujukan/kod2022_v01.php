@@ -18,9 +18,9 @@ $data['test001'] = array(
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
 $data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
-$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
-$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
-$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
+$data['mascoBanci'] = ImportCSV2Array3($filename = './utama/masco2020_banci.csv');
+//$data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
+//$data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 # debug
 //semakPembolehubah($data,'data');//*/
@@ -125,8 +125,9 @@ endif;//*/
 	{
 		$data = array();
 		$file = file_get_contents($filename, true);
+		semakPembolehubah($file,'file');
 		//$file = str_getcsv($file,"\n");
-		$file = str_replace('"', '', $file);
+		/*$file = str_replace('"', '', $file);
 		$row = explode("\n",$file);
 		foreach ($row as $key => $val)
 		{
@@ -135,7 +136,7 @@ endif;//*/
 			$data[$key] = explode(";",$val02);
 		}
 		//semakPembolehubah($data,'data');
-		return $data;
+		return $data;//*/
 	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
