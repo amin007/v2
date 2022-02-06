@@ -13,7 +13,7 @@ if ( ! function_exists('semakPembolehubah')):
 			if($p == '1') var_export($senarai);
 			echo '</pre>' . "\n";
 		else:
-			echo tagVar($senarai,$jadual,2);
+			echo tagVar($senarai,$jadual,$p);
 		endif;
 		//$this->semakPembolehubah($ujian,'ujian',0);
 		#http://php.net/manual/en/function.var-export.php
