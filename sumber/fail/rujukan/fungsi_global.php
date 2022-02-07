@@ -95,8 +95,8 @@ if ( ! function_exists('myUrlEncode')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('ImportCSV2Array03')):
-	function ImportCSV2Array03($filename)
+if ( ! function_exists('ImportCSV2Array01')):
+	function ImportCSV2Array01($filename)
 	{
 		# baca fail csv dan convert kepada tatasusunan
 		# https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
