@@ -122,7 +122,7 @@ endif;//*/
 	}
 #--------------------------------------------------------------------------------------------------
 	//https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
-	function ImportCSV2Array3($filename)
+	function ImportCSV2Array2($filename)
 	{
 		$data = array();
 		$file = file_get_contents($filename, true);
