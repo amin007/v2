@@ -17,7 +17,7 @@ $data['test001'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
-$data['masco2020'] = ImportCSV2Array($filename = './utama/masco2020_all.csv');
+$data['masco2020'] = ImportCSV2Array3($filename = './utama/masco2020_all.csv');
 $data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
 $data['mascoNewss'] = ImportCSV2Array3($filename = './utama/masco2020_newss.csv');
 $data['mascoSeksyen'] = ImportCSV2Array3($filename = './utama/masco2020_seksyen.csv');
@@ -95,15 +95,16 @@ endif;//*/
 		{
 			while (($row = fgetcsv($handle, $long, $delimiter)) !== false)
 			{
-				if (empty($fields))
+				/*if (empty($fields))
 				{
 					$fields = $row;
 					continue;
-				}
+				}*/
 
 				foreach ($row as $k=>$value)
 				{
-					$results[$col][$fields[$k]] = $value;
+					$results[$col][$k] = $value;
+					//$results[$col][$fields[$k]] = $value;
 				}
 
 				$col++;
