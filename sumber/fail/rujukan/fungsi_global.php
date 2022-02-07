@@ -95,6 +95,27 @@ if ( ! function_exists('myUrlEncode')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('ImportCSV2Array03')):
+	function ImportCSV2Array03($filename)
+	{
+		# baca fail csv dan convert kepada tatasusunan
+		# https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
+		$data = array();
+		$file = file_get_contents($filename, true);
+		$file = str_replace('"', '', $file);
+		$row = explode(PHP_EOL,$file);
+
+		foreach ($row as $key => $val)
+		{
+			$val02 = bersih($val);
+			$data[$key] = explode(";",$val02);
+		}
+		//semakPembolehubah($data,'data');
+
+		return $data;//*/
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 	function binaSatuJadual($senarai,$pilih)
