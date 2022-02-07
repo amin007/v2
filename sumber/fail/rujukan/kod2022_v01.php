@@ -126,17 +126,16 @@ endif;//*/
 	{
 		$data = array();
 		$file = file_get_contents($filename, true);
-		//$file = array_map('str_getcsv', file($filename) );
 		$file = str_replace('"', '', $file);
-		//semakPembolehubah($file,'file',1);
 		$row = explode(PHP_EOL,$file);
+
 		foreach ($row as $key => $val)
 		{
-			//$val02 = bersih(htmlspecialchars($val));
 			$val02 = bersih($val);
 			$data[$key] = explode(";",$val02);
 		}
 		//semakPembolehubah($data,'data');
+
 		return $data;//*/
 	}
 #--------------------------------------------------------------------------------------------------
