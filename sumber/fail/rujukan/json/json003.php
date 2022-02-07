@@ -66,7 +66,6 @@ YANG TIDAK DIKELASKAN DI MANA-MANA
 %
 ;6-Pekerja Kemahiran Pertanian, Perhutanan, Penternakan Dan Perikanan-Skilled Agricultural, Forestry, Livestock And Fishery Workers;611108;Penanam Buah Naga;Grower, Dragon Fruit;2020;611108;2013;611108
 ;1-Pengurus-Managers;611109;Pengarah Syarikat;Company Director;2020;611109;2013;112106
-["";"1-Pengurus-Managers";"112106";"Pengarah Syarikat";"Company Director";"2020";"112106";"2013";"112106"]
 %
 #634104;Pengutip Sarang Burung;Collector, Bird
 #811319;Pembantu Operator - L&Pi
