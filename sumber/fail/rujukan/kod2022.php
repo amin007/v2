@@ -1040,17 +1040,16 @@ $data['Bidang 2022'] = array(
 	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian',
 	'0216 - Pengajian filem, televisyen & skrin'),
 	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian','0219 - Kesenian-kesenian lain'),
-	array('','02 : Kemanusiaan & kesenian<br>022 : Kemanusiaan',
-	'0221 - Agama & theology<br>'
-	. '0222 - Sejarah & arkeologi<br>'
-	. '0223 - Falsafah & etika<br>'
-	. '0224 - Pengajian islam<br>'
-	. '0229 - Kemanusiaan'),
-	array('','02 : Kemanusiaan & kesenian<br>023 : Bahasa',
-	'0231 - Pengajian bahasa<br>'
-	. '0232 - Kesusasteraan & linguistics<br>'
-	. '0233 - Bahasa Kebangsaan (Bahasa Malaysia)<br>'
-	. '0239 - Bahasa-bahasa lain'),
+	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0221 - Agama & theology'),
+	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0222 - Sejarah & arkeologi'),
+	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0223 - Falsafah & etika'),
+	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0224 - Pengajian islam'),
+	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0229 - Kemanusiaan'),
+	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa','0231 - Pengajian bahasa'),
+	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa','0232 - Kesusasteraan & linguistics'),
+	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa',
+	'0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
+	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa','0239 - Bahasa-bahasa lain'),
 	array('','02 : Kemanusiaan & kesenian<br>'
 	. '028 : Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
 	'0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
