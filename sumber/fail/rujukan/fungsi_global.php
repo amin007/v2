@@ -240,7 +240,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 	function kiraTahunJadual($p0 = null)
 	{
-		$thnAkhir = date("Y"); $j = 1;
+		$thnAkhir = date("Y");
 		for($i = 1921;$i <= $thnAkhir; $i++):
 			$umur = str_pad(($thnAkhir - $i), 3, '0', STR_PAD_LEFT);
 			$kod = $i . '=' . $umur;
@@ -249,25 +249,28 @@ endif;//*/
 				$p2 = explode("|",$p0 . $kod);
 				$p1[] = array_merge(array(null),$p2);
 				$p0 = null;
-				$j = 1;
 			}
 			else
-			{
 				$p0 .= $kod . " | ";
-				$j++;
-			}
 		endfor;
-		$p3 = kiraJadualTahun($p0);
-		$p1[] = array('',$p0,"[$kira] | [$j]",'');
+		$p1[] = kiraJadualTahun($p0);
+		//$p1[] = array('',$p0,"[$kira]",'');
 
 		return $p1;
 	}
 #--------------------------------------------------------------------------------------------------
 	function kiraJadualTahun($p0)
 	{
-		$p3 = explode("|",$p0);
-		$kira = count($p3);
+		$k0 = explode("|",$p0);
+		$kira = count($k0);
+		$cek = null;//"[$kira]";
+		if($kira == 4) $p2 = array_merge(array(null),$k0);
+		elseif($kira == 3) $p2 = array_merge(array(null),$k0,array($cek));
+		elseif($kira == 2) $p2 = array_merge(array(null),$k0,array($cek,null));
+		elseif($kira == 0) $p2 = array_merge(array(null),$k0,array($cek,null,null));
+		else $p2 = array('',$cek,'test','','');// $kira = 1
 		//$p1[] = array_merge(array(null),$p3);
+		return $p2;
 	}
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
