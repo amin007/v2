@@ -695,13 +695,22 @@ $data['sijil 2022'] = array(
 	array('','767','767 - Ijazah Sarjana',''),
 	array('','861','861 - Doktor Falsafah(PhD)',''),
 	array('','862','862 - Diploma/Sijil pasca kedoktoran',''),
-	array('','021','021 - Masih belum bersekolah',
-	'Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021) pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah'),
-	array('','020','020 - Tiada Sijil','Merujuk kepada seseorang yang masih bersekolah atau telah tamat persekolahan tanpa memperoleh sebarang sijil.'),
-	array('','022','022 - Tiada berkenaan','- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	array('','021','021 - Masih belum bersekolah','- '
+	. ' Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
+	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada 9 tahun dan'
+	. ' masih belum bersekolah'),
+	array('','020','020 - Tiada Sijil','Merujuk kepada seseorang yang masih bersekolah atau telah'
+	. ' tamat persekolahan tanpa memperoleh sebarang sijil.'),
+	array('','022','022 - Tiada berkenaan','- Merujuk kepada responden yang dicatatkan sebagai'
+	. '	`Tiada pendidikan` (Kod 004) atau `Pendidikan tidak formal` (Kod 003) pada Ruangan 15'
+	. ' kecuali mereka yang memiliki sijil dari badan-badan yang memberi pengiktirafan tanpa'
+	. ' melalui pendidikan rasmi.<br>'
 	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
-	array('','023','023 - Sijil Pendidikan Bukan Formal','- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
-	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal` (Kod 006) sahaja pada Ruangan 16.'),
+	array('','023','023 - Sijil Pendidikan Bukan Formal','-'
+	. ' Merujuk kepada mereka yang menerima	sijil melalui program seperti latihan, kursus dalam'
+	. '	perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
+	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal`'
+	. '	(Kod 006) sahaja pada Ruangan 16.'),
 );
 #--------------------------------------------------------------------------------------------------
 $data['PendidikanSijil 2022'] = array(
@@ -719,7 +728,7 @@ $data['PendidikanSijil 2022'] = array(
 	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
 	array('','005','005 - Masih belum bersekolah','021 - Masih belum bersekolah<br>'
 	. '- Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
-	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada sembilan tahun dan'
+	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada 9 tahun dan'
 	. ' masih belum bersekolah'),
 	array('','006','006 - Pendidikan bukan formal','023 - Sijil Pendidikan Bukan Formal<br>'
 	. '- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam'
@@ -738,7 +747,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','204','204 - Tingkatan 3','242 - PT3/PMR/SRP/LCE'),
 	array('','205','205 - Tingkatan 4',''),
 	array('','206','206 - Tingkatan 5','343 - SPM/MCE/SC/FMCE/CSC'),
-	array('','207','207 - Program kemahiran asas',''),
+	array('','207','207 - Program kemahiran asas','351 - Sijil Kemahiran Asas/Giat Mara'),
 	array('','208','208 - Kolej vokasional Tahun 1',''),
 	array('','208','209 - Kolej vokasional Tahun 2',''),
 	array('','301','301 - Tingkatan 6 rendah',''),
