@@ -695,7 +695,7 @@ $data['sijil 2022'] = array(
 	array('','767','767 - Ijazah Sarjana',''),
 	array('','861','861 - Doktor Falsafah(PhD)',''),
 	array('','862','862 - Diploma/Sijil pasca kedoktoran',''),
-	array('','021','021 - Masih belum bersekolah','- '
+	array('','021','021 - Masih belum bersekolah','-'
 	. ' Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
 	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada 9 tahun dan'
 	. ' masih belum bersekolah'),
