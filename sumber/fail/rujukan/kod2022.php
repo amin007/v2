@@ -1236,6 +1236,12 @@ $data['Bidang 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
+# bina tatasusunan dari fungsi
+#--------------------------------------------------------------------------------------------------
+$data['masco2020'] = ImportCSV2Array01($filename = './utama/masco2020_all.csv');
+//$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
+$data['mascoNewss'] = ImportCSV2Array01($filename = './utama/masco2020_newss.csv');
+$data['mascoSeksyen'] = ImportCSV2Array01($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 // bina tatasusunan dari fungsi
 //$tahunJadual = kiraTahunJadual();
