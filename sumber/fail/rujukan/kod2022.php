@@ -1020,7 +1020,7 @@ $data['Pengajian 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
-$dataX['Bidang'] = array(
+$data['Bidang'] = array(
 	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama<br>',
 	'xxxx - Perincian Bidang Pengajian'),
 	array('','00 : Program asas/umum | 000 : Program <em>generic</em>',
@@ -1075,31 +1075,28 @@ $dataX['Bidang'] = array(
 	array('','031 : Sains sosial & tingkah laku','0313 - Psikologi'),
 	array('','031 : Sains sosial & tingkah laku','0314 - Pengajian sosiologi & kebudayaan'),
 	array('','031 : Sains sosial & tingkah laku','0319 - Sains sosial & tingkah laku'),
-	array('','032 : Kewartawanan & maklumat',
-	'0321 - Kewartawanan & pelaporan<br>'
-	. '0322 - Perpustakaan, maklumat & arkib<br>'
-	. '0323 - Media & komunikasi<br>'
-	. '0329 - Kewartawanan & maklumat lain<br>'),
-	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
-	. ' kewartawanan & maklumat<br>',
+	array('','032 : Kewartawanan & maklumat','0321 - Kewartawanan & pelaporan'),
+	array('','032 : Kewartawanan & maklumat','0322 - Perpustakaan, maklumat & arkib'),
+	array('','032 : Kewartawanan & maklumat','0323 - Media & komunikasi'),
+	array('','032 : Kewartawanan & maklumat','0329 - Kewartawanan & maklumat lain'),
+	array('','038 : Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	. ' kewartawanan & maklumat',
 	'0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
 	. ' kewartawanan & maklumat'),
-	array('','039 Sains sosial, kewartawanan & maklumat lain<br>',
+	array('','039 : Sains sosial, kewartawanan & maklumat lain',
 	'0399 - Sains sosial, kewartawanan & maklumat lain'),
-	array('','04 Perniagaan, pentadbiran & undang-undang<br>'
-	. ' 040 Perniagaan, pentadbiran & undang-undang',
+	array('','04 Perniagaan, pentadbiran & undang-undang | '
+	. ' 040 : Perniagaan, pentadbiran & undang-undang',
 	'0400 - Perniagaan, pentadbiran & undang-undang'),
-	array('','041 Perniagaan & pentadbiran',
-	'0411 - Perakaunan, percukaian & pengauditan<br>'
-	. '0412 - Kewangan, perbankan & insurans<br>'
-	. '0413 - Kewangan & perbankan islam<br>'
-	. '0414 - Pengurusan & pentadbiran<br>'
-	. '0415 - Pemasaran & pengiklanan<br>'
-	. '0416 - Kesetiausahaan & perkeranian<br>'
-	. '0417 - Kemahiran kerja<br>'
-	. '0419 - Perniagaan & pentadbiran lain'),
-	array('','042 Undang-undang (<em>LAW</em>)<br>',
-	'0421 - Undang-undang (<em>LAW</em>)'),
+	array('','041 : Perniagaan & pentadbiran','0411 - Perakaunan, percukaian & pengauditan'),
+	array('','041 : Perniagaan & pentadbiran','0412 - Kewangan, perbankan & insurans'),
+	array('','041 : Perniagaan & pentadbiran','0413 - Kewangan & perbankan islam'),
+	array('','041 : Perniagaan & pentadbiran','0414 - Pengurusan & pentadbiran'),
+	array('','041 : Perniagaan & pentadbiran','0415 - Pemasaran & pengiklanan'),
+	array('','041 : Perniagaan & pentadbiran','0416 - Kesetiausahaan & perkeranian'),
+	array('','041 : Perniagaan & pentadbiran','0417 - Kemahiran kerja'),
+	array('','041 : Perniagaan & pentadbiran','0419 - Perniagaan & pentadbiran lain'),
+	array('','042 Undang-undang (<em>LAW</em>)','0421 - Undang-undang (<em>LAW</em>)'),
 	array('','048 Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang<br>',
 	'0488 - Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
