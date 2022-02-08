@@ -3,7 +3,7 @@
 include 'fungsi_global.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-// bidang pengajian ISCED-F 2013: List of possible codes
+/* bidang pengajian ISCED-F 2013: List of possible codes
 $data['isced-f 2013'] = array(
 	array('','Broad field','Narrow field','Detailed field'),
 	array('','00-Generic programmes & qualifications','',''),
@@ -471,7 +471,7 @@ $data['test123'] = array(
 	array('','99 Bidang pengajian tidak diketahui','',''),
 	array('','999 Bidang pengajian tidak diketahui','',''),
 	array('','9999 Bidang pengajian tidak diketahui','',''),
-);
+);//*/
 #--------------------------------------------------------------------------------------------------
 #3.18 Ruangan 16 - Taraf Pendidikan Rasmi Tertinggi (PT)
 $data['Pendidikan 2022'] = array(
@@ -1008,7 +1008,7 @@ $data['Pengajian 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
-$data['Bidang 2022'] = array(
+$dataX['Bidang'] = array(
 	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama<br>',
 	'xxxx - Perincian Bidang Pengajian'),
 	array('','00 : Program asas/umum | 000 : Program <em>generic</em>',
