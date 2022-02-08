@@ -246,12 +246,11 @@ endif;//*/
 			$kod = $i . '=' . $umur;
 			if (($i % 4) == 0)
 			{
-				$p2 = explode("|",$p0 . $kod);
-				$p1[] = array_merge(array(null),$p2);
+				$p1[] = array_merge(array(null),explode('|',$p0 . $kod));
 				$p0 = null;
 			}
 			else
-				$p0 .= $kod . " | ";
+				$p0 .= $kod . '|';
 		endfor;
 		$p1[] = kiraJadualTahun($p0);
 		//$p1[] = array('',$p0,"[$kira]",'');
