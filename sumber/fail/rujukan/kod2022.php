@@ -1023,106 +1023,106 @@ $data['Pengajian 2022'] = array(
 $data['Bidang'] = array(
 	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama<br>',
 	'xxxx - Perincian Bidang Pengajian'),
-	array('','00 : Program asas/umum | 000 : Program <em>generic</em>',
+	array('','00 Program asas/umum | 000 Program <em>generic</em>',
 	'0000 - <em>Programmes and qualifications generic not further defined</em>'),
-	array('','00 : Program asas/umum | 001 : Program asas/umum<br>','0011 - Program asas/umum'),
-	array('','00 : Program asas/umum | 002 : Literasi & kefahaman asas<br>','0021 - Literasi & numerasi'),
-	array('','00 : Program asas/umum | 003 : Kemahiran personal<br>',
+	array('','00 Program asas/umum | 001 Program asas/umum<br>','0011 - Program asas/umum'),
+	array('','00 Program asas/umum | 002 Literasi & kefahaman asas<br>','0021 - Literasi & numerasi'),
+	array('','00 Program asas/umum | 003 Kemahiran personal<br>',
 	'0031 - Kemahiran personal / Pengurusan masa / Pengurusan kerjaya / Teknik pengucapan awam'),
-	array('','00 : Program asas/umum | 009 : Program <em>generic</em> lain<br>',
+	array('','00 Program asas/umum | 009 Program <em>generic</em> lain<br>',
 	'0099 - Program <em>generic</em> lain'),
-	array('','01 : Pendidikan | 011 : Pendidikan','0110 - Pengajaran'),
-	array('','01 : Pendidikan | 011 : Pendidikan','0111 - Sains pendidikan'),
-	array('','01 : Pendidikan | 011 : Pendidikan','0012 - Latihan perguruan untuk guru pra-sekolah'),
-	array('','01 : Pendidikan | 011 : Pendidikan','0113 - Latihan perguruan peringkat asas'),
-	array('','01 : Pendidikan | 011 : Pendidikan','0114 - Latihan perguruan dengan pengkhususan subjek'),
-	array('','01 : Pendidikan | 011 : Pendidikan',
+	array('','01 Pendidikan | 011 Pendidikan','0110 - Pengajaran'),
+	array('','01 Pendidikan | 011 Pendidikan','0111 - Sains pendidikan'),
+	array('','01 Pendidikan | 011 Pendidikan','0012 - Latihan perguruan untuk guru pra-sekolah'),
+	array('','01 Pendidikan | 011 Pendidikan','0113 - Latihan perguruan peringkat asas'),
+	array('','01 Pendidikan | 011 Pendidikan','0114 - Latihan perguruan dengan pengkhususan subjek'),
+	array('','01 Pendidikan | 011 Pendidikan',
 	'0119 - Latihan perguruan untuk subjek vokasional/praktikal'),
-	array('','018 : Program <em>inter-disciplinary</em>',
+	array('','018 Program <em>inter-disciplinary</em>',
 	'0188 - Program <em>inter-disciplinary</em> yang melibatkan pendidikan'),
-	array('','02 : Kemanusiaan & kesenian | 020 : Kemanusiaan & kesenian',
+	array('','02 Kemanusiaan & kesenian | 020 Kemanusiaan & kesenian',
 	'0200 - Kemanusiaan & kesenian'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian',
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian',
 	'0211 - Produksi media & teknik audio-visual'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian',
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian',
 	'0212 - Rekabentuk fesyen, dalaman & perindustrian'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian','0213 - Seni lukis'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian','0214 - Seni halus'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian','0215 - Muzik & persembahan kesenian'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian',
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian','0213 - Seni lukis'),
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian','0214 - Seni halus'),
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian','0215 - Muzik & persembahan kesenian'),
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian',
 	'0216 - Pengajian filem, televisyen & skrin'),
-	array('','02 : Kemanusiaan & kesenian | 021 : Kesenian','0219 - Kesenian-kesenian lain'),
-	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0221 - Agama & theology'),
-	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0222 - Sejarah & arkeologi'),
-	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0223 - Falsafah & etika'),
-	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0224 - Pengajian islam'),
-	array('','02 : Kemanusiaan & kesenian | 022 : Kemanusiaan','0229 - Kemanusiaan'),
-	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa','0231 - Pengajian bahasa'),
-	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa','0232 - Kesusasteraan & linguistics'),
-	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa',
+	array('','02 Kemanusiaan & kesenian | 021 Kesenian','0219 - Kesenian-kesenian lain'),
+	array('','02 Kemanusiaan & kesenian | 022 Kemanusiaan','0221 - Agama & theology'),
+	array('','02 Kemanusiaan & kesenian | 022 Kemanusiaan','0222 - Sejarah & arkeologi'),
+	array('','02 Kemanusiaan & kesenian | 022 Kemanusiaan','0223 - Falsafah & etika'),
+	array('','02 Kemanusiaan & kesenian | 022 Kemanusiaan','0224 - Pengajian islam'),
+	array('','02 Kemanusiaan & kesenian | 022 Kemanusiaan','0229 - Kemanusiaan'),
+	array('','02 Kemanusiaan & kesenian | 023 Bahasa','0231 - Pengajian bahasa'),
+	array('','02 Kemanusiaan & kesenian | 023 Bahasa','0232 - Kesusasteraan & linguistics'),
+	array('','02 Kemanusiaan & kesenian | 023 Bahasa',
 	'0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
-	array('','02 : Kemanusiaan & kesenian | 023 : Bahasa','0239 - Bahasa-bahasa lain'),
-	array('','02 : Kemanusiaan & kesenian<br>'
-	. '028 : Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
+	array('','02 Kemanusiaan & kesenian | 023 Bahasa','0239 - Bahasa-bahasa lain'),
+	array('','02 Kemanusiaan & kesenian<br>'
+	. '028 Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
 	'0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
-	array('','02 : Kemanusiaan & kesenian | 029 : Kemanusiaan & kesenian lain',
+	array('','02 Kemanusiaan & kesenian | 029 Kemanusiaan & kesenian lain',
 	'0299 - Kemanusiaan & kesenian lain'),
-	array('','03 : Sains sosial, kewartawanan & maklumat | '
-	. '030 : Sains sosial, kewartawanan & maklumat',
+	array('','03 Sains sosial, kewartawanan & maklumat | '
+	. '030 Sains sosial, kewartawanan & maklumat',
 	'0300 - Sains sosial, kewartawanan & maklumat'),
-	array('','031 : Sains sosial & tingkah laku','0311 - Ekonomi'),
-	array('','031 : Sains sosial & tingkah laku','0312 - Sains politik & sivik'),
-	array('','031 : Sains sosial & tingkah laku','0313 - Psikologi'),
-	array('','031 : Sains sosial & tingkah laku','0314 - Pengajian sosiologi & kebudayaan'),
-	array('','031 : Sains sosial & tingkah laku','0319 - Sains sosial & tingkah laku'),
-	array('','032 : Kewartawanan & maklumat','0321 - Kewartawanan & pelaporan'),
-	array('','032 : Kewartawanan & maklumat','0322 - Perpustakaan, maklumat & arkib'),
-	array('','032 : Kewartawanan & maklumat','0323 - Media & komunikasi'),
-	array('','032 : Kewartawanan & maklumat','0329 - Kewartawanan & maklumat lain'),
-	array('','038 : Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	array('','031 Sains sosial & tingkah laku','0311 - Ekonomi'),
+	array('','031 Sains sosial & tingkah laku','0312 - Sains politik & sivik'),
+	array('','031 Sains sosial & tingkah laku','0313 - Psikologi'),
+	array('','031 Sains sosial & tingkah laku','0314 - Pengajian sosiologi & kebudayaan'),
+	array('','031 Sains sosial & tingkah laku','0319 - Sains sosial & tingkah laku'),
+	array('','032 Kewartawanan & maklumat','0321 - Kewartawanan & pelaporan'),
+	array('','032 Kewartawanan & maklumat','0322 - Perpustakaan, maklumat & arkib'),
+	array('','032 Kewartawanan & maklumat','0323 - Media & komunikasi'),
+	array('','032 Kewartawanan & maklumat','0329 - Kewartawanan & maklumat lain'),
+	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
 	. ' kewartawanan & maklumat',
 	'0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
 	. ' kewartawanan & maklumat'),
-	array('','039 : Sains sosial, kewartawanan & maklumat lain',
+	array('','039 Sains sosial, kewartawanan & maklumat lain',
 	'0399 - Sains sosial, kewartawanan & maklumat lain'),
 	array('','04 Perniagaan, pentadbiran & undang-undang | '
-	. ' 040 : Perniagaan, pentadbiran & undang-undang',
+	. ' 040 Perniagaan, pentadbiran & undang-undang',
 	'0400 - Perniagaan, pentadbiran & undang-undang'),
-	array('','041 : Perniagaan & pentadbiran','0411 - Perakaunan, percukaian & pengauditan'),
-	array('','041 : Perniagaan & pentadbiran','0412 - Kewangan, perbankan & insurans'),
-	array('','041 : Perniagaan & pentadbiran','0413 - Kewangan & perbankan islam'),
-	array('','041 : Perniagaan & pentadbiran','0414 - Pengurusan & pentadbiran'),
-	array('','041 : Perniagaan & pentadbiran','0415 - Pemasaran & pengiklanan'),
-	array('','041 : Perniagaan & pentadbiran','0416 - Kesetiausahaan & perkeranian'),
-	array('','041 : Perniagaan & pentadbiran','0417 - Kemahiran kerja'),
-	array('','041 : Perniagaan & pentadbiran','0419 - Perniagaan & pentadbiran lain'),
+	array('','041 Perniagaan & pentadbiran','0411 - Perakaunan, percukaian & pengauditan'),
+	array('','041 Perniagaan & pentadbiran','0412 - Kewangan, perbankan & insurans'),
+	array('','041 Perniagaan & pentadbiran','0413 - Kewangan & perbankan islam'),
+	array('','041 Perniagaan & pentadbiran','0414 - Pengurusan & pentadbiran'),
+	array('','041 Perniagaan & pentadbiran','0415 - Pemasaran & pengiklanan'),
+	array('','041 Perniagaan & pentadbiran','0416 - Kesetiausahaan & perkeranian'),
+	array('','041 Perniagaan & pentadbiran','0417 - Kemahiran kerja'),
+	array('','041 Perniagaan & pentadbiran','0419 - Perniagaan & pentadbiran lain'),
 	array('','042 Undang-undang (<em>LAW</em>)','0421 - Undang-undang (<em>LAW</em>)'),
 	array('','048 Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
-	. ' pentadbiran & undang-undang<br>',
+	. ' pentadbiran & undang-undang',
 	'0488 - Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang'),
-	array('','049 Perniagaan, pentadbiran & undang-undang lain<br>',
+	array('','049 Perniagaan, pentadbiran & undang-undang lain',
 	'0499 - Perniagaan, pentadbiran & undang-undang lain'),
-	array('','05 Sains tulen, matematik & statistik<br>'
+	array('','05 Sains tulen, matematik & statistik | '
 	. '050 Sains tulen, matematik & statistik<br>',
 	'0500 - Sains tulen, matematik & statistik'),
-	array('','05 Sains tulen, matematik & statistik<br>'
+	array('','05 Sains tulen, matematik & statistik | '
 	. '051 Biologi & sains berkaitan',
 	'0511 - Biologi<br>'
 	. '0512 - Biokimia<br>'
 	. '0519 - Biologi & sains berkaitan lain'),
-	array('','05 Sains tulen, matematik & statistik<br>'
+	array('','05 Sains tulen, matematik & statistik | '
 	. '052 Sains persekitaran',
 	'0521 - Sains persekitaran<br>'
 	. '0522 - Persekitaran semula jadi & hidupan liar<br>'
 	. '0529 - Sains persekitaran lain'),
-	array('','05 Sains tulen, matematik & statistik<br>'
+	array('','05 Sains tulen, matematik & statistik | '
 	. '053 Sains fizikal',
 	'0531 - Kimia<br>'
 	. '0532 - Sains hayat<br>'
 	. '0533 - Fizik<br>'
 	. '0539 - Sains fizik lain'),
-	array('','05 Sains tulen, matematik & statistik<br>'
+	array('','05 Sains tulen, matematik & statistik | '
 	. '054 Matematik & statistik',
 	'0540 - Matematik & statistik<br>'
 	. '0541 - Matematik<br>'
@@ -1131,9 +1131,9 @@ $data['Bidang'] = array(
 	. ' matematik & statistik<br>',
 	'0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
 	. ' matematik & statistik'),
-	array('','059 Sains tulen, matematik & statistik lain<br>',
+	array('','059 Sains tulen, matematik & statistik lain',
 	'0599 - Sains tulen, matematik & statistik lain'),
-	array('','06 Teknologi maklumat & komunikasi<br>'
+	array('','06 Teknologi maklumat & komunikasi | '
 	. '061 Teknologi maklumat & komunikasi',
 	'0610 - Teknologi maklumat & komunikasi<br>'
 	. '0611 - Teknologi & sistem maklumat<br>'
@@ -1141,15 +1141,15 @@ $data['Bidang'] = array(
 	. '0613 - Sains pengkomputeran<br>'
 	. '0614 - Penggunaan komputer<br>'
 	. '0619 - Teknologi maklumat & komunikasi lain'),
-	array('','06 Teknologi maklumat & komunikasi<br>'
+	array('','06 Teknologi maklumat & komunikasi | '
 	. '068 Program <em>inter-discplinary</em> yang melibatkan'
 	. ' teknologi maklumat & komunikasi<br>',
 	'0688 - Program <em>inter-discplinary</em> yang melibatkan'
 	. ' teknologi maklumat & komunikasi'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '070 Kejuruteraan, pembuatan & pembinaan<br>',
 	'0700 - Kejuruteraan, pembuatan & pembinaan'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '071 Kejuruteraan & kejuruteraan dagangan',
 	'0711 - Kejuruteraan kimia & proses<br>'
 	. '0712 - Tenaga & elektrik<br>'
@@ -1159,32 +1159,32 @@ $data['Bidang'] = array(
 	. '0716 - Kejuruteraan awam<br>'
 	. '0717 - Teknologi perlindungan alam sekitar<br>'
 	. '0719 - Kejuruteraan & kejuruteraan dagangan lain'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '072 Pembuatan & pemprosesan',
 	'0721 - Pemprosesan makanan<br>'
 	. '0722 - Bahan(gelas, kertas, plastik & kayu)<br>'
 	. '0723 - Tekstil (pakaian, pakaian kaki & kulit)<br>'
 	. '0724 - Perlombongan & galian<br>'
 	. '0729 - Pembuatan & pemprosesan lain'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '073 Senibina & perancang bandar',
 	'0731 - Senibina<br>'
 	. '0732 - Perancangan bandar & wilayah<br>'
 	. '0733 - Pembinaan & bangunan<br>'
 	. '0734 - <em>Surveying</em>'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '074 Teknologi kejuruteraan',
 	'0741 - Teknologi kejuruteraan'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '078 Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
 	. ' pembuatan & pembinaan<br>',
 	'0788 - Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
 	. ' pembuatan & pembinaan'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
+	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '079 Kejuruteraan, pembuatan & pembinaan lain<br>',
 	'0799 - Kejuruteraan, pembuatan & pembinaan lain'),
-	array('','08 Pertanian, perhutanan, perikanan & veterinar<br>'
-	. '080 Pertanian, perhutanan, perikanan & veterinar<br>',
+	array('','08 Pertanian, perhutanan, perikanan & veterinar | '
+	. '080 Pertanian, perhutanan, perikanan & veterinar',
 	'0800 - Pertanian, perhutanan, perikanan & veterinar'),
 	array('','081 Pertanian',
 	'0811 - Pengeluaran ternakan & tanaman<br>'
@@ -1226,20 +1226,20 @@ $data['Bidang'] = array(
 	. '1014 - Sukan<br>'
 	. '1015 - Pengembaraan, pelancongan & rekreasi<br>'
 	. '1019 - Perkhidmatan personel lain'),
-	array('','102 : Perkhidmatan kebersihan & kesihatan pekerjaan',
+	array('','102 Perkhidmatan kebersihan & kesihatan pekerjaan',
 	'1021 - Sanitasi komuniti<br>'
 	. '1022 - Keselamatan & kesihatan pekerjaan<br>'
 	. '1029 - Perkhidmatan kebersihan & kesihatan pekerjaan lain'),
-	array('','103 : Perkhidmatan keselamatan',
+	array('','103 Perkhidmatan keselamatan',
 	'1031 - Ketenteraan & pertahanan<br>'
 	. '1032 - Perlindungan diri & harta benda<br>'
 	. '1039 - Perkhidmatan keselamatan lain'),
-	array('','104 : Perkhidmatan pengangkutan<br>',
+	array('','104 Perkhidmatan pengangkutan<br>',
 	'1041 - Perkhidmatan pengangkutan'),
-	array('','108 : Program <em>inter-discplinary</em> yang melibatkan perkhidmatan<br>',
+	array('','108 Program <em>inter-discplinary</em> yang melibatkan perkhidmatan',
 	'1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
-	array('','109 : Perkhidmatan lain<br>','1099 - Perkhidmatan lain'),
-	array('','99 : Lain-lain<br>999 : Lain-lain<br>','9999 - Lain-lain'),
+	array('','109 Perkhidmatan lain','1099 - Perkhidmatan lain'),
+	array('','99 Lain-lain | 999 Lain-lain<br>','9999 - Lain-lain'),
 );
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
