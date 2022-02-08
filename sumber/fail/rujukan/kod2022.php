@@ -683,7 +683,8 @@ $data['sijil 2022'] = array(
 	array('','356','356 - Sijil drpd universiti @ yg setaraf',''),
 	array('','357','357 - Sijil perguruan/kejururawatan/kesihatan bersekutu',''),
 	array('','551','551 - Diploma dlm kemahiran khusus dan teknikal',''),
-	array('','552','552 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran khusus & teknikal',''),
+	array('','552','552 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran'
+	. ' khusus & teknikal',''),
 	array('','553','553 - Diploma drpd kolej @ yg setaraf(terutama kolej swasta)',''),
 	array('','554','554 - Diploma drpd politeknik @ yg setaraf',''),
 	array('','555','555 - Diploma drpd universiti @ yg setaraf',''),
@@ -706,9 +707,11 @@ $data['sijil 2022'] = array(
 $data['PendidikanSijil 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun','020 - Tiada Sijil'),
 	array('','002','002 - Pendidikan pra-sekolah','020 - Tiada Sijil'),
-	array('','003','003 - Pendidikan tidak formal','020 - Tiada Sijil<br>'
-	. '- Merujuk kepada seseorang yang masih bersekolah atau telah tamat persekolahan tanpa'
-	. ' memperoleh sebarang sijil.'),
+	array('','003','003 - Pendidikan tidak formal','022 - Tiada berkenaan<br>'
+	. '- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
+	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil'
+	. ' dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
 	array('','004','004 - Tiada pendidikan','022 - Tiada berkenaan<br>'
 	. '- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
 	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil'
