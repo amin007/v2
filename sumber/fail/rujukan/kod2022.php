@@ -1065,18 +1065,16 @@ $dataX['Bidang'] = array(
 	array('','02 : Kemanusiaan & kesenian<br>'
 	. '028 : Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
 	'0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
-	array('','02 : Kemanusiaan & kesenian<br>'
-	. '029 : Kemanusiaan & kesenian lain',
+	array('','02 : Kemanusiaan & kesenian | 029 : Kemanusiaan & kesenian lain',
 	'0299 - Kemanusiaan & kesenian lain'),
-	array('','03 : Sains sosial, kewartawanan & maklumat<br>'
-	. '030 : Sains sosial, kewartawanan & maklumat<br>',
+	array('','03 : Sains sosial, kewartawanan & maklumat | '
+	. '030 : Sains sosial, kewartawanan & maklumat',
 	'0300 - Sains sosial, kewartawanan & maklumat'),
-	array('','031 : Sains sosial & tingkah laku',
-	'0311 - Ekonomi<br>'
-	. '0312 - Sains politik & sivik<br>'
-	. '0313 - Psikologi<br>'
-	. '0314 - Pengajian sosiologi & kebudayaan<br>'
-	. '0319 - Sains sosial & tingkah laku<br>'),
+	array('','031 : Sains sosial & tingkah laku','0311 - Ekonomi'),
+	array('','031 : Sains sosial & tingkah laku','0312 - Sains politik & sivik'),
+	array('','031 : Sains sosial & tingkah laku','0313 - Psikologi'),
+	array('','031 : Sains sosial & tingkah laku','0314 - Pengajian sosiologi & kebudayaan'),
+	array('','031 : Sains sosial & tingkah laku','0319 - Sains sosial & tingkah laku'),
 	array('','032 : Kewartawanan & maklumat',
 	'0321 - Kewartawanan & pelaporan<br>'
 	. '0322 - Perpustakaan, maklumat & arkib<br>'
