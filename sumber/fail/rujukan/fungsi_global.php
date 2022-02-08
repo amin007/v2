@@ -270,6 +270,7 @@ endif;//*/
 		elseif($kira == 0) $p2 = array_merge(array(null),$k0,array($cek,null,null));
 		else $p2 = array('',$cek,'test','','');// $kira = 1
 		//$p1[] = array_merge(array(null),$p3);
+		semakPembolehubah($kira,' bil tatasusunan',2);
 		return $p2;
 	}
 #--------------------------------------------------------------------------------------------------
