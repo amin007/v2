@@ -17,10 +17,10 @@ $data['test001'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 $data['tahun'] = kiraTahunJadual();
-$data['masco2020'] = ImportCSV2Array03($filename = './utama/masco2020_all.csv');
+$data['masco2020'] = ImportCSV2Array01($filename = './utama/masco2020_all.csv');
 //$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
-$data['mascoNewss'] = ImportCSV2Array03($filename = './utama/masco2020_newss.csv');
-$data['mascoSeksyen'] = ImportCSV2Array03($filename = './utama/masco2020_seksyen.csv');
+$data['mascoNewss'] = ImportCSV2Array01($filename = './utama/masco2020_newss.csv');
+$data['mascoSeksyen'] = ImportCSV2Array01($filename = './utama/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 # debug
 //semakPembolehubah($data,'data');//*/
