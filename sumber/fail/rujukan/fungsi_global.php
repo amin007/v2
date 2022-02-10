@@ -102,7 +102,7 @@ if ( ! function_exists('ImportCSV2Array01')):
 		# https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
 		$data = array();
 		$file = file_get_contents($filename, true);
-		$file = str_replace('"', '', $file);
+		$file = str_replace('"', '', $file);//semakPembolehubah($file,'file',1);
 		$row = explode(PHP_EOL,$file);
 
 		foreach ($row as $key => $val)
