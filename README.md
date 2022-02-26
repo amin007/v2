@@ -26,6 +26,21 @@ echo PHP_VERSION . '<br>';
 echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
 echo '<pre>'; print_r($_SERVER); echo '</pre>';
 ```
+
+```javascript
+<script type="text/javascript">
+function confirmdelete(id)
+{
+	var messege="Are you sure to DELETE the record(id:"+id+")?";
+	var r=confirm(message);
+	if(r==true)
+	{
+		//redirect if user press yes
+		window.location.href = "delete.php?x="+id;
+	}
+}
+</script>
+```
 ___
 # Sumber ilham kawan-kawan
 * Stylesheet
