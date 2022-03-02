@@ -5,7 +5,7 @@ include '../diatas.php';
 $tableID = 'myTable';
 $tableClass = 'table table-striped table-bordered';
 //$tajuk = '<th>#</th><th>v2013</th><th>v2008</th><th>jawatan</th>';
-$tajuk = '<th>#</th><th>kumpulan</th><th>kod_masco</th><th>jawatan</th>';
+$tajuk = '<th>#</th><th>kod</th><th>keterangan</th>';
 echo "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
 . "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 . "</table>\n";
@@ -83,7 +83,7 @@ jQuery.fn.highlight = function (words, options)
 };
 /////////////////////////////////////////////////////////////
 	var t = $('#myTable').DataTable({
-	"ajax": "../../../../cari/mascojson",
+	"ajax": "../kod2022/masco2020_hiesba2022.json",
 	searchHighlight: true,
 	"columnDefs": [{
 		"searchable": false,
@@ -100,12 +100,4 @@ jQuery.fn.highlight = function (words, options)
 /////////////////////////////////////////////////////////////
 </script>
 </body>
-</html><?php
-	/*"columns": [
-		{ "data": "bil" },
-		{ "data": "s" },
-		{ "data": "msic" },
-		{ "data": "keterangan" },
-		{ "data": "msic2000" },
-		{ "data": "notakaki" }
-	]*/
+</html>
