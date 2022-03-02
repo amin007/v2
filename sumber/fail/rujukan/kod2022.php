@@ -1384,6 +1384,8 @@ $data['Bidang'] = array(
 	'4','741208','43211'),
 	array('','2','JURURAWAT','HOSPITAL AWAM','2','322101','86101'),
 	array('','1','SERVIS AIRCORN','REPAIR BARANG ELEKTRIK/ELEKTRONIK','1','741208','95221'),
+	array('','4','EJEN INSURANS','EJEN INSURANS','4','332101','66221'),#***
+	array('','3','TUKANG JAHIT PAKAIAN','KILANG PAKAIAN','3','762102','14102'),#***
 	// masco msic
 );//*/
 #--------------------------------------------------------------------------------------------------
