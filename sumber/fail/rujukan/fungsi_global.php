@@ -159,7 +159,7 @@ endif;//*/
 			# print the data row
 			$output .= "\n\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
-			$output .= "\n\t" . '<td>' . $data . '</td>';
+			$output .= "\n\t\t" . '<td>' . $data . '</td>';
 			endforeach;
 			$output .= "\n\t" . '</tr>';
 		}#----------------------------------------------------------------
@@ -366,7 +366,6 @@ endif;//*/
 	{
 		print <<<END
 	var t = $('#allTable').DataTable({
-	/*"ajax": "$url/admin/gradeAction",*/
 	searchHighlight: true,
 	"columnDefs": [{
 		"searchable": false,
@@ -375,13 +374,18 @@ endif;//*/
 	}],
 	"order": []
 	});
-
+/* ***************************************************************************************** */
 	t.on( 'order.dt search.dt', function (){
 		t.column(0, {search:'applied', order:'applied'}).nodes().
 		each( function (cell, i) {cell.innerHTML = i+1;});
 	}).draw();
 /* ***************************************************************************************** */
 END;
+		#
+/* asal
+	var t = $('#allTable').DataTable({
+	/*"ajax": "$url/admin/gradeAction",*/
+//*/
 		#
 	}
 #--------------------------------------------------------------------------------------------------
