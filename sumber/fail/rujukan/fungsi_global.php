@@ -475,6 +475,8 @@ jQuery.fn.highlight = function (words, options)
 		jQuery.highlight(this, re, settings.element, settings.className);
  });
 };
+
+//https://bartaz.github.io/sandbox.js/jquery.highlight.js
 /* ***************************************************************************************** */
 
 END;
