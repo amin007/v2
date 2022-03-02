@@ -488,7 +488,7 @@ if ( ! function_exists('binaButang')):
 		. "\n\t" . '<a class="btn btn-success rounded-pill"'
 		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>'
 		. "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/masco-cari.html">MASCO</a>'
+		. ' target="_blank" href="../rujukan/utama/masco2020-cari.html">MASCO2020</a>'
 		. "\n\t" . '<a class="btn btn-info rounded-pill"'
 		. ' target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>'
 		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
