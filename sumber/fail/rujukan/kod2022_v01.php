@@ -16,7 +16,7 @@ include 'fungsi_global.php';
 	array('','00','00 - Lain-Lain Didiami'),
 );//*/
 #--------------------------------------------------------------------------------------------------
-$data['test002'] = array(
+/*$data['test002'] = array(
 	//array('','Bulan','Tarikh','Hari','Catatan'),
 	array('','Januari','25.01.2022','Selasa','-'),
 	array('','Februari','25.02.2022','Jumaat','Tahun Baru Cina 1&2 Februari 2022(Selasa & Rabu)'),
@@ -31,9 +31,9 @@ $data['test002'] = array(
 	array('','Oktober','18.10.2022','Selasa','Hari Deepavali 24 Oktober 2022 (Isnin)'),
 	array('','November','25.11.2022','Jumaat','-'),
 	array('','Disember','19.12.2022','Isnin','Hari Krismas 25 Disember 2022 (Ahad)'),
-);
+);//*/
 #--------------------------------------------------------------------------------------------------
-$data['tahun'] = kiraTahunJadual();//*/
+//$data['tahun'] = kiraTahunJadual();//*/
 //$data['masco2020'] = ImportCSV2Array01($filename = './utama/masco2020_all.csv');
 //$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
 //$data['mascoNewss'] = ImportCSV2Array01($filename = './utama/masco2020_newss.csv');
@@ -74,7 +74,7 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('kod2022_v01.php',$_SERVER[$s]);
