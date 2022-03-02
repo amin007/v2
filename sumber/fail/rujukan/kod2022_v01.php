@@ -34,10 +34,10 @@ include 'fungsi_global.php';
 );//*/
 #--------------------------------------------------------------------------------------------------
 //$data['tahun'] = kiraTahunJadual();//*/
-//$data['masco2020'] = ImportCSV2Array01($filename = './utama/masco2020_all.csv');
-//$data['mascoBanci'] = ImportCSV2Array($filename = './utama/masco2020_banci.csv');
-//$data['mascoNewss'] = ImportCSV2Array01($filename = './utama/masco2020_newss.csv');
-//$data['mascoSeksyen'] = ImportCSV2Array01($filename = './utama/masco2020_seksyen.csv');
+//$data['masco2020'] = ImportCSV2Array01($filename = './kod2022/masco2020_all.csv');
+//$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
+//$data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
+//$data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
 $data['mascoHies'] = ImportCSV2Array01($filename = './kod2022/masco2020_hiesba2022.csv');
 #--------------------------------------------------------------------------------------------------
 # debug
