@@ -13,7 +13,7 @@ include '../dibawah.php';
 #############################################################################################################
 ?>
 <script type="text/javascript">
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery.extend({
 	highlight: function (node, re, nodeName, className)
 	{
@@ -44,7 +44,7 @@ jQuery.extend({
 		return 0;
 	}
 });
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery.fn.unhighlight = function (options)
 {
 	var settings = { className: 'highlight', element: 'span' };
@@ -57,7 +57,7 @@ jQuery.fn.unhighlight = function (options)
 		parent.normalize();
 	}).end();
 };
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery.fn.highlight = function (words, options)
 {
 	var settings = { className: 'highlight', element: 'span', caseSensitive: false, wordsOnly: false };
@@ -81,7 +81,7 @@ jQuery.fn.highlight = function (words, options)
 		jQuery.highlight(this, re, settings.element, settings.className);
     });
 };
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 	var t = $('#myTable').DataTable({
 	"ajax": "../kod2022/masco2020_hiesba2022.json",
 	searchHighlight: true,
@@ -97,7 +97,7 @@ jQuery.fn.highlight = function (words, options)
 		t.column(0, {search:'applied', order:'applied'}).nodes().
 		each( function (cell, i) {cell.innerHTML = i+1;});
     }).draw();
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 </script>
 </body>
 </html>
