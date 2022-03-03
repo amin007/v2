@@ -1103,14 +1103,14 @@ $data['Bidang'] = array(
 	. ' pentadbiran & undang-undang'),
 	array('','049 Perniagaan, pentadbiran & undang-undang lain',
 	'0499 - Perniagaan, pentadbiran & undang-undang lain'),
-	array('','05 Sains tulen, matematik & statistik | '
-	. '050 Sains tulen, matematik & statistik<br>',
+	array('','05 Sains tulen, matematik & statistik | 050 Sains tulen, matematik & statistik',
 	'0500 - Sains tulen, matematik & statistik'),
-	array('','05 Sains tulen, matematik & statistik | '
-	. '051 Biologi & sains berkaitan',
-	'0511 - Biologi<br>'
-	. '0512 - Biokimia<br>'
-	. '0519 - Biologi & sains berkaitan lain'),
+	array('','05 Sains tulen, matematik & statistik | 051 Biologi & sains berkaitan',
+	'0511 - Biologi'),
+	array('','05 Sains tulen, matematik & statistik | 051 Biologi & sains berkaitan',
+	'0512 - Biokimia'),
+	array('','05 Sains tulen, matematik & statistik | 051 Biologi & sains berkaitan',
+	'0519 - Biologi & sains berkaitan lain'),
 	array('','05 Sains tulen, matematik & statistik | '
 	. '052 Sains persekitaran',
 	'0521 - Sains persekitaran<br>'
