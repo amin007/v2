@@ -948,7 +948,7 @@ $data['Pengajian 2022'] = array(
 	'0731 - Senibina<br>'
 	. '0732 - Perancangan bandar & wilayah<br>'
 	. '0733 - Pembinaan & bangunan<br>'
-	. '0734 - <em>Surveying</em>'),
+	. '0734 - Ukur tanah/Ukur Bahan<em>Surveying</em>'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
 	. '074 Teknologi kejuruteraan',
 	'0741 - Teknologi kejuruteraan'),
@@ -1171,7 +1171,7 @@ $data['Bidang'] = array(
 	'0731 - Senibina<br>'
 	. '0732 - Perancangan bandar & wilayah<br>'
 	. '0733 - Pembinaan & bangunan<br>'
-	. '0734 - Ukur Tanah<em>Surveying</em>'),
+	. '0734 - Ukur tanah / Ukur Bahan<em>Surveying</em>'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '074 Teknologi kejuruteraan',
 	'0741 - Teknologi kejuruteraan'),
