@@ -797,7 +797,8 @@ $data['Pengajian 2022'] = array(
 	array('','xx : Kumpulan Bidang Utama<br>xxx : Kumpulan Bidang Sub-utama<br>',
 	'xxxx - Perincian Bidang Pengajian'),
 	array('','00 : Program asas/ umum<br>000 : Program <em>generic</em><br>',
-	'0000 - <em>Programmes and qualifications generic not further defined</em>'),
+	'0000 - program & kelayakan generik tidak ditakrifkan lagi. '
+	. '<em>Programmes and qualifications generic not further defined</em>'),
 	array('','001 : Program asas/umum<br>','0011 - Program asas/umum'),
 	array('','002 : Literasi & kefahaman asas<br>','0021 - Literasi & numerasi'),
 	array('','003 : Kemahiran personal<br>',
@@ -995,7 +996,7 @@ $data['Pengajian 2022'] = array(
 	array('','098 Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan',
 	'0988 - Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan'),
 	array('','099 Kesihatan & kebajikan lain','0999 - Kesihatan & kebajikan lain'),
-	array('','10 Perkhidmatan<br>100 Perkhidmatan','1000 - Perkhidmatan'),
+	array('','10 Perkhidmatan | 100 Perkhidmatan','1000 - Perkhidmatan'),
 	array('','101 Perkhidmatan personel',
 	'1011 - Perkhidmatan domestik<br>'
 	. '1012 - Perkhidmatan pendandanan & kecantikan<br>'
@@ -1015,8 +1016,8 @@ $data['Pengajian 2022'] = array(
 	'1041 - Perkhidmatan pengangkutan'),
 	array('','108 : Program <em>inter-discplinary</em> yang melibatkan perkhidmatan<br>',
 	'1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
-	array('','109 : Perkhidmatan lain<br>','1099 - Perkhidmatan lain'),
-	array('','99 : Lain-lain<br>999 : Lain-lain<br>','9999 - Lain-lain'),
+	array('','109 : Perkhidmatan lain','1099 - Perkhidmatan lain'),
+	array('','99 : Lain-lain | 999 : Lain-lain<br>','9999 - Lain-lain'),
 );
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
@@ -1201,15 +1202,14 @@ $data['Bidang'] = array(
 	'0899 - Pertanian, perhutanan, perikanan & veterinar lain'),
 	array('','09 Kesihatan & kebajikan<br>090 Kesihatan & kebajikan<br>',
 	'0900 - Kesihatan & kebajikan'),
-	array('','091 Kesihatan',
-	'0911 - Pengajian pergigian<br>'
-	. '0912 - Perubatan<br>'
-	. '0913 - Kejururawatan & penjagaan<br>'
-	. '0914 - Teknologi rawatan & perubatan diagnostik<br>'
-	. '0915 - Terapi & pemulihan<br>'
-	. '0916 - Farmasi<br>'
-	. '0917 - Perubatan & terapi tradisional<br>'
-	. '0919 - Kesihatan lain'),
+	array('','091 Kesihatan','0911 - Pengajian pergigian'),
+	array('','091 Kesihatan','0912 - Perubatan'),
+	array('','091 Kesihatan','0913 - Kejururawatan & penjagaan'),
+	array('','091 Kesihatan','0914 - Teknologi rawatan & perubatan diagnostik'),
+	array('','091 Kesihatan','0915 - Terapi & pemulihan'),
+	array('','091 Kesihatan','0916 - Farmasi'),
+	array('','091 Kesihatan','0917 - Perubatan & terapi tradisional'),
+	array('','091 Kesihatan','0919 - Kesihatan lain'),
 	array('','092 Perkhidmatan sosial',
 	'0921 - Penjagaan orang-orang tua & orang kurang upaya<br>'
 	. '0922 - Perkhidmatan asuhan kanak-kanak & belia<br>'
@@ -1222,7 +1222,7 @@ $data['Bidang'] = array(
 	array('','101 Perkhidmatan personel',
 	'1011 - Perkhidmatan domestik<br>'
 	. '1012 - Perkhidmatan pendandanan & kecantikan<br>'
-	. '1013 - Hotel, restoran & katering<br>'
+	. '1013 - Hotel, restoran & katering, seni kulinari<br>'
 	. '1014 - Sukan<br>'
 	. '1015 - Pengembaraan, pelancongan & rekreasi<br>'
 	. '1019 - Perkhidmatan personel lain'),
