@@ -808,7 +808,7 @@ $data['Pengajian 2022'] = array(
 	array('','01 : Pendidikan<br>011 : Pendidikan',
 	'0110 - Pengajaran<br>'
 	. '0111 - Sains pendidikan<br>'
-	. '0012 - Latihan perguruan untuk guru pra-sekolah<br>'
+	. '0112 - Latihan perguruan untuk guru pra-sekolah<br>'
 	. '0113 - Latihan perguruan peringkat asas<br>'
 	. '0114 - Latihan perguruan dengan pengkhususan subjek<br>'
 	. '0119 - Latihan perguruan untuk subjek vokasional/praktikal'),
@@ -1034,7 +1034,7 @@ $data['Bidang'] = array(
 	'0099 - Program <em>generic</em> lain'),
 	array('','01 Pendidikan | 011 Pendidikan','0110 - Pengajaran'),
 	array('','01 Pendidikan | 011 Pendidikan','0111 - Sains pendidikan'),
-	array('','01 Pendidikan | 011 Pendidikan','0012 - Latihan perguruan untuk guru pra-sekolah'),
+	array('','01 Pendidikan | 011 Pendidikan','0112 - Latihan perguruan untuk guru pra-sekolah'),
 	array('','01 Pendidikan | 011 Pendidikan','0113 - Latihan perguruan peringkat asas'),
 	array('','01 Pendidikan | 011 Pendidikan','0114 - Latihan perguruan dengan pengkhususan subjek'),
 	array('','01 Pendidikan | 011 Pendidikan',
