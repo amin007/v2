@@ -767,7 +767,7 @@ $data['PendidikanSijil 2022'] = array(
 	'353 - Sijil drpd badan2 yg memberi pengiktirafan @ yg setaraf'),
 	array('','403','403 - Program sijil dari kolej/politeknik/universiti @ setaraf dengannya',
 	'354 - Sijil drpd kolej @ yg setaraf<br>'
-	. '355 - Sijil drpd politeknik @ yg setaraf<br>'
+	. '355 - Sijil drpd politeknik(IP=154) @ yg setaraf<br>'
 	. '356 - Sijil drpd universiti @ yg setaraf<br>'
 	. ''),
 	array('','404','404 - Program sijil perguruan/kejururawatan/ kesihatan bersekutu',
@@ -779,7 +779,7 @@ $data['PendidikanSijil 2022'] = array(
 	'552 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran khusus & teknikal'),
 	array('','503','503 - Program diploma dari kolej/politeknik/universiti @ setaraf dengannya',
 	'553 - Diploma drpd kolej @ yg setaraf(terutama kolej swasta)<br>'
-	. '554 - Diploma drpd politeknik @ yg setaraf<br>'
+	. '554 - Diploma drpd politeknik(IP=154) @ yg setaraf<br>'
 	. '555 - Diploma drpd universiti @ yg setaraf'),
 	array('','504','504 - Program diploma perguruan/ kejururawatan/ kesihatan bersekutu',
 	'556 - Diploma perguruan/kejururawatan/kesihatan bersekutu'),
