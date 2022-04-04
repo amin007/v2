@@ -11,6 +11,10 @@
 <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.1.0/css/all.css">
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/dataTables.searchHighlight.css">
+<style>
+.myDivClass { background-color:#FF0000; color:#FFFFFF }
+.mySpanClass { background-color:#1FAB00; color:#FFFFFF }
+</style>
 </head>
 <body>
 
@@ -33,6 +37,17 @@
 <thead><tr><th>#</th><th>kod2020</th><th>keterangan</th></tr></thead>
 <tfoot><tr><th>#</th><th>kod2020</th><th>keterangan</th></tr></tfoot>
 </table>
+
+<div class="row">
+	<div class="col-md-3">
+	</div><!-- / class="col-md-3" -->
+	<div class="col-md-3">
+		<div class="input-group has-validation">
+			<span class="mySpanClass input-group-text">Search: MSIC</span>
+			<input type="text" class="form-control" placeholder="Search: msic" required>
+		</div>
+	</div><!-- / class="col-md-3" -->
+</div><!-- / class="row" -->
 
 <!-- Footer
 =============================================================================================== -->
