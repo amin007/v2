@@ -118,6 +118,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaSatuJadual')):
 	function binaSatuJadual($senarai,$pilih)
 	{
 		$class = 'table table-striped table-bordered';
@@ -134,7 +135,9 @@ endif;//*/
 		endforeach;//*/
 		#
 	}
+endif;
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('paparSatuJadual')):
 	function paparSatuJadual($row,$jadual)
 	{
 		$output = null;
@@ -167,7 +170,9 @@ endif;//*/
 
 		return $output;//*/
 	}
+endif;
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaJadual')):
 	function binaJadual($senarai)
 	{
 		$class = 'table table-striped table-bordered';
@@ -179,7 +184,9 @@ endif;//*/
 		endforeach;
 		#
 	}
+endif;
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('tajukMedanJadual')):
 	function tajukMedanJadual($jadual,$kunci)
 	{
 		if($kunci==0) $p = '#';
@@ -191,7 +198,9 @@ endif;//*/
 
 		return $p;
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('paparJadual')):
 	function paparJadual($row,$jadual)
 	{
 		$output = null;
@@ -223,9 +232,11 @@ endif;//*/
 
 		return $output;
 	}
+endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('kiraTahun')):
 	function kiraTahun()
 	{
 		$thnAkhir = date("Y");
@@ -237,7 +248,9 @@ endif;//*/
 		    else echo " | ";
 		endfor;
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('kiraTahunJadual')):
 	function kiraTahunJadual($p0 = null)
 	{
 		$thnAkhir = date("Y");
@@ -259,7 +272,9 @@ endif;//*/
 
 		return $p1;
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('kiraJadualTahun')):
 	function kiraJadualTahun($p0)
 	{
 		$k0 = explode("|",$p0);
@@ -277,9 +292,11 @@ endif;//*/
 		//semakPembolehubah($kira,' bil tatasusunan',2);
 		return array($p2,$cek);
 	}
+endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaJson')):
 	function binaJson($senarai,$pilih)
 	{
 		foreach($senarai as $jadual => $row):
@@ -290,7 +307,9 @@ endif;//*/
 		endforeach;
 		#
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('jsonDataTables')):
 	function jsonDataTables($row,$jadual)
 	{
 		$kira = count($row);
@@ -306,7 +325,9 @@ endif;//*/
 		//debugJson($output);
 		return json_encode($output);
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('debugJson')):
 	function debugJson($output)
 	{
 		#how to check Malformed UTF-8 characters in php
@@ -317,6 +338,7 @@ endif;//*/
 		die();# halt the script //*/
 		#
 	}
+endif;
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
@@ -362,6 +384,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 # jquery dan rakan2
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('gradeTable002')):
 	function gradeTable002($url)
 	{
 		print <<<END
@@ -388,7 +411,9 @@ END;
 //*/
 		#
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('jqueryExtendA')):
 	function jqueryExtendA()
 	{
 		print <<<END
@@ -427,7 +452,9 @@ jQuery.extend({
 END;
 		#
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('jqueryExtendB')):
 	function jqueryExtendB()
 	{
 		print <<<END
@@ -448,7 +475,9 @@ jQuery.fn.unhighlight = function (options)
 END;
 		#
 	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('jqueryExtendC')):
 	function jqueryExtendC()
 	{
 		print <<<END
