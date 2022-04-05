@@ -38,7 +38,7 @@ include 'fungsi_global.php';
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
 //$data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
 //$data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
-$data['mascoHies'] = ImportCSV2Array01($filename = './kod2022/masco2020_hiesba2022.csv');
+//$data['mascoHies'] = ImportCSV2Array01($filename = './kod2022/masco2020_hiesba2022.csv');
 #--------------------------------------------------------------------------------------------------
 # debug
 //semakPembolehubah($data,'data');//*/
@@ -99,7 +99,7 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 3
 //semakPembolehubah($data,'data');//*/
-binaJson($data,'mascoHies');
+//binaJson($data,'mascoHies');
 #--------------------------------------------------------------------------------------------------
 # tamat koding
 ###################################################################################################
