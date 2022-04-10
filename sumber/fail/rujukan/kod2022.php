@@ -1243,7 +1243,7 @@ $data['Bidang'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 # masco msic - kena tukar masco v2018 kepada v2020
-/*$data['mascoMsic'] = array(
+/*$data['mascoMsicV2'] = array(
 	array('','1','PENGURUS','PASARAYA','1','112120','47112'),
 	array('','3','PENYELIA','PASARAYA','3','522203','47112'),
 	array('','3','PEKERJA','PASARAYA','3','522302','47112'),
@@ -1386,6 +1386,7 @@ $data['Bidang'] = array(
 	array('','1','SERVIS AIRCORN','REPAIR BARANG ELEKTRIK/ELEKTRONIK','1','741208','95221'),
 	array('','4','EJEN INSURANS','EJEN INSURANS','4','332101','66221'),#***
 	array('','3','TUKANG JAHIT PAKAIAN','KILANG PAKAIAN','3','762102','14102'),#***
+	array('','3','PEMUNGUT SAMPAH','PENGUMPULAN SISA PEPEJAL (SWM)','3','961103','38111'),#***
 	// masco msic
 );//*/
 #--------------------------------------------------------------------------------------------------
