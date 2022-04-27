@@ -83,6 +83,8 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Paypal]'=>'For more information about PayPal Account and its services, please'
 			. ' call PayPal Support Centre at 03-77237155 or visit www.paypal.com',
 			'[invisionapp]'=>'https://www.invisionapp.com',
+			'[shapr3d]'=>'https://www.shapr3d.com',
+			//'[]'=>'',
 		);
 
 		return $papar;
