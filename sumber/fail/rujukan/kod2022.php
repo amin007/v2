@@ -1022,16 +1022,16 @@ $data['Pengajian 2022'] = array(
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
 $data['Bidang'] = array(
-	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama<br>',
+	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama',
 	'xxxx - Perincian Bidang Pengajian'),
 	array('','00 Program asas/umum | 000 Program <em>generic</em>',
 	'0000 - <em>Programmes and qualifications generic not further defined</em>'),
-	array('','00 Program asas/umum | 001 Program asas/umum<br>','0011 - Program asas/umum'),
-	array('','00 Program asas/umum | 002 Literasi & kefahaman asas<br>',
+	array('','00 Program asas/umum | 001 Program asas/umum','0011 - Program asas/umum'),
+	array('','00 Program asas/umum | 002 Literasi & kefahaman asas',
 	'0021 - Literasi & numerasi'),
-	array('','00 Program asas/umum | 003 Kemahiran personal<br>',
+	array('','00 Program asas/umum | 003 Kemahiran personal',
 	'0031 - Kemahiran personal / Pengurusan masa / Pengurusan kerjaya / Teknik pengucapan awam'),
-	array('','00 Program asas/umum | 009 Program <em>generic</em> lain<br>',
+	array('','00 Program asas/umum | 009 Program <em>generic</em> lain',
 	'0099 - Program <em>generic</em> lain'),
 	array('','01 Pendidikan | 011 Pendidikan','0110 - Pengajaran'),
 	array('','01 Pendidikan | 011 Pendidikan','0111 - Sains pendidikan'),
@@ -1065,7 +1065,7 @@ $data['Bidang'] = array(
 	array('','02 Kemanusiaan & kesenian | 023 Bahasa',
 	'0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
 	array('','02 Kemanusiaan & kesenian | 023 Bahasa','0239 - Bahasa-bahasa lain'),
-	array('','02 Kemanusiaan & kesenian<br>'
+	array('','02 Kemanusiaan & kesenian'
 	. '028 Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
 	'0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
 	array('','02 Kemanusiaan & kesenian | 029 Kemanusiaan & kesenian lain',
@@ -1132,72 +1132,82 @@ $data['Bidang'] = array(
 	array('','05 Sains tulen, matematik & statistik | 054 Matematik & statistik',
 	'0542 - Statistik'),
 	array('','058 Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
-	. ' matematik & statistik<br>',
+	. ' matematik & statistik',
 	'0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
 	. ' matematik & statistik'),
 	array('','059 Sains tulen, matematik & statistik lain',
 	'0599 - Sains tulen, matematik & statistik lain'),
 	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
-	'0610 - Teknologi maklumat & komunikasi<br>'
-	. '0611 - Teknologi & sistem maklumat<br>'
-	. '0612 - Kejuruteraan perisian<br>'
-	. '0613 - Sains pengkomputeran<br>'
-	. '0614 - Penggunaan komputer<br>'
-	. '0619 - Teknologi maklumat & komunikasi lain'),
+	'0610 - Teknologi maklumat & komunikasi'),
+	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
+	'0611 - Teknologi & sistem maklumat'),
+	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
+	'0612 - Kejuruteraan perisian'),
+	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
+	'0613 - Sains pengkomputeran'),
+	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
+	'0614 - Penggunaan komputer'),
+	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
+	'0619 - Teknologi maklumat & komunikasi lain'),
 	array('','06 Teknologi maklumat & komunikasi | '
-	. '068 Program <em>inter-discplinary</em> yang melibatkan'
-	. ' teknologi maklumat & komunikasi<br>',
-	'0688 - Program <em>inter-discplinary</em> yang melibatkan'
-	. ' teknologi maklumat & komunikasi'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '070 Kejuruteraan, pembuatan & pembinaan<br>',
+	. '068 Program <em>inter-discplinary</em> yang melibatkan teknologi maklumat & komunikasi',
+	'0688 - Program <em>inter-discplinary</em> yang melibatkan teknologi maklumat & komunikasi'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 070 Kejuruteraan, pembuatan & pembinaan',
 	'0700 - Kejuruteraan, pembuatan & pembinaan'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '071 Kejuruteraan & kejuruteraan dagangan',
-	'0711 - Kejuruteraan kimia & proses<br>'
-	. '0712 - Tenaga & elektrik<br>'
-	. '0713 - Elektronik & pengautomasian<br>'
-	. '0714 - Mekanik & kerja logam<br>'
-	. '0715 - Kenderaan bermotor, kapal & kapal terbang<br>'
-	. '0716 - Kejuruteraan awam<br>'
-	. '0717 - Teknologi perlindungan alam sekitar<br>'
-	. '0719 - Kejuruteraan & kejuruteraan dagangan lain'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '072 Pembuatan & pemprosesan',
-	'0721 - Pemprosesan makanan<br>'
-	. '0722 - Bahan(gelas, kertas, plastik & kayu)<br>'
-	. '0723 - Tekstil (pakaian, pakaian kaki & kulit)<br>'
-	. '0724 - Perlombongan & galian<br>'
-	. '0729 - Pembuatan & pemprosesan lain'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '073 Senibina & perancang bandar',
-	'0731 - Senibina<br>'
-	. '0732 - Perancangan bandar & wilayah<br>'
-	. '0733 - Pembinaan & bangunan<br>'
-	. '0734 - Ukur tanah / Ukur Bahan<em>Surveying</em>'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '074 Teknologi kejuruteraan',
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0711 - Kejuruteraan kimia & proses'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0712 - Tenaga & elektrik'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0713 - Elektronik & pengautomasian'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0714 - Mekanik & kerja logam'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0715 - Kenderaan bermotor, kapal & kapal terbang'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0716 - Kejuruteraan awam'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0717 - Teknologi perlindungan alam sekitar'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
+	'0719 - Kejuruteraan & kejuruteraan dagangan lain'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 072 Pembuatan & pemprosesan',
+	'0721 - Pemprosesan makanan'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 072 Pembuatan & pemprosesan',
+	'0722 - Bahan(gelas, kertas, plastik & kayu)'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 072 Pembuatan & pemprosesan',
+	'0723 - Tekstil (pakaian, pakaian kaki & kulit)'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 072 Pembuatan & pemprosesan',
+	'0724 - Perlombongan & galian'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 072 Pembuatan & pemprosesan',
+	'0729 - Pembuatan & pemprosesan lain'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 073 Senibina & perancang bandar',
+	'0731 - Senibina'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 073 Senibina & perancang bandar',
+	'0732 - Perancangan bandar & wilayah'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 073 Senibina & perancang bandar',
+	'0733 - Pembinaan & bangunan'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 073 Senibina & perancang bandar',
+	'0734 - Ukur tanah/Ukur Bahan <em>Surveying</em>'),
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 074 Teknologi kejuruteraan',
 	'0741 - Teknologi kejuruteraan'),
-	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '078 Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
-	. ' pembuatan & pembinaan<br>',
+	array('','07 Kejuruteraan, pembuatan & pembinaan | 078 Program <em>inter-discplinary</em>'
+	. ' yang melibatkan kejuruteraan, pembuatan & pembinaan',
 	'0788 - Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
 	. ' pembuatan & pembinaan'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan | '
-	. '079 Kejuruteraan, pembuatan & pembinaan lain<br>',
+	. '079 Kejuruteraan, pembuatan & pembinaan lain',
 	'0799 - Kejuruteraan, pembuatan & pembinaan lain'),
 	array('','08 Pertanian, perhutanan, perikanan & veterinar | '
 	. '080 Pertanian, perhutanan, perikanan & veterinar',
 	'0800 - Pertanian, perhutanan, perikanan & veterinar'),
-	array('','081 Pertanian',
-	'0811 - Pengeluaran ternakan & tanaman<br>'
-	. '0812 - Horticulture<br>'
-	. '0819 - Pertanian lain'),
+	array('','081 Pertanian','0811 - Pengeluaran ternakan & tanaman'),
+	array('','081 Pertanian','0812 - Hortikultur (<em>Horticulture</em>)'),
+	array('','081 Pertanian','0819 - Pertanian lain'),
 	array('','082 Perhutanan','0821 - Perhutanan'),
 	array('','083 Perikanan','0831 - Perikanan'),
 	array('','084 Veterinar','0841 - Veterinar'),
 	array('','088 Program <em>inter-discplinary</em> yang melibatkan pertanian,'
-	. ' perhutanan, perikanan & veterinar<br>',
+	. ' perhutanan, perikanan & veterinar',
 	'0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar'),
 	array('','089 Pertanian, perhutanan, perikanan & veterinar lain',
