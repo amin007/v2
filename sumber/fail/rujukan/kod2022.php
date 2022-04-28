@@ -1200,9 +1200,9 @@ $data['Bidang'] = array(
 	. ' perhutanan, perikanan & veterinar<br>',
 	'0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar'),
-	array('','089 Pertanian, perhutanan, perikanan & veterinar lain<br>',
+	array('','089 Pertanian, perhutanan, perikanan & veterinar lain',
 	'0899 - Pertanian, perhutanan, perikanan & veterinar lain'),
-	array('','09 Kesihatan & kebajikan<br>090 Kesihatan & kebajikan',
+	array('','09 Kesihatan & kebajikan | 090 Kesihatan & kebajikan',
 	'0900 - Kesihatan & kebajikan'),
 	array('','091 Kesihatan','0911 - Pengajian pergigian'),
 	array('','091 Kesihatan','0912 - Perubatan'),
@@ -1212,32 +1212,29 @@ $data['Bidang'] = array(
 	array('','091 Kesihatan','0916 - Farmasi'),
 	array('','091 Kesihatan','0917 - Perubatan & terapi tradisional'),
 	array('','091 Kesihatan','0919 - Kesihatan lain'),
-	array('','092 Perkhidmatan sosial',
-	'0921 - Penjagaan orang-orang tua & orang kurang upaya<br>'
-	. '0922 - Perkhidmatan asuhan kanak-kanak & belia<br>'
-	. '0923 - Kerja sosial & kaunseling<br>'
-	. '0929 - Perkhidmatan sosial lain<br>'),
+	array('','092 Perkhidmatan sosial','0921 - Penjagaan orang-orang tua & orang kurang upaya'),
+	array('','092 Perkhidmatan sosial','0922 - Perkhidmatan asuhan kanak-kanak & belia'),
+	array('','092 Perkhidmatan sosial','0923 - Kerja sosial & kaunseling'),
+	array('','092 Perkhidmatan sosial','0929 - Perkhidmatan sosial lain'),
 	array('','098 Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan',
 	'0988 - Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan'),
 	array('','099 Kesihatan & kebajikan lain','0999 - Kesihatan & kebajikan lain'),
-	array('','10 Perkhidmatan<br>100 Perkhidmatan','1000 - Perkhidmatan'),
-	array('','101 Perkhidmatan personel',
-	'1011 - Perkhidmatan domestik<br>'
-	. '1012 - Perkhidmatan pendandanan & kecantikan<br>'
-	. '1013 - Hotel, restoran & katering, seni kulinari<br>'
-	. '1014 - Sukan<br>'
-	. '1015 - Pengembaraan, pelancongan & rekreasi<br>'
-	. '1019 - Perkhidmatan personel lain'),
+	array('','10 Perkhidmatan | 100 Perkhidmatan','1000 - Perkhidmatan'),
+	array('','101 Perkhidmatan personel','1011 - Perkhidmatan domestik'),
+	array('','101 Perkhidmatan personel','1012 - Perkhidmatan pendandanan & kecantikan'),
+	array('','101 Perkhidmatan personel','1013 - Hotel, restoran & katering, seni kulinri'),
+	array('','101 Perkhidmatan personel','1014 - Sukan'),
+	array('','101 Perkhidmatan personel','1015 - Pengembaraan, pelancongan & rekreasi'),
+	array('','101 Perkhidmatan personel','1019 - Perkhidmatan personel lain'),
+	array('','102 Perkhidmatan kebersihan & kesihatan pekerjaan','1021 - Sanitasi komuniti'),
 	array('','102 Perkhidmatan kebersihan & kesihatan pekerjaan',
-	'1021 - Sanitasi komuniti<br>'
-	. '1022 - Keselamatan & kesihatan pekerjaan<br>'
-	. '1029 - Perkhidmatan kebersihan & kesihatan pekerjaan lain'),
-	array('','103 Perkhidmatan keselamatan',
-	'1031 - Ketenteraan & pertahanan<br>'
-	. '1032 - Perlindungan diri & harta benda<br>'
-	. '1039 - Perkhidmatan keselamatan lain'),
-	array('','104 Perkhidmatan pengangkutan<br>',
-	'1041 - Perkhidmatan pengangkutan'),
+	'1022 - Keselamatan & kesihatan pekerjaan'),
+	array('','102 Perkhidmatan kebersihan & kesihatan pekerjaan',
+	'1029 - Perkhidmatan kebersihan & kesihatan pekerjaan lain'),
+	array('','103 Perkhidmatan keselamatan','1031 - Ketenteraan & pertahanan'),
+	array('','103 Perkhidmatan keselamatan','1032 - Perlindungan diri & harta benda'),
+	array('','103 Perkhidmatan keselamatan','1039 - Perkhidmatan keselamatan lain'),
+	array('','104 Perkhidmatan pengangkutan','1041 - Perkhidmatan pengangkutan'),
 	array('','108 Program <em>inter-discplinary</em> yang melibatkan perkhidmatan',
 	'1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
 	array('','109 Perkhidmatan lain','1099 - Perkhidmatan lain'),
