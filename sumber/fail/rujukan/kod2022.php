@@ -1027,7 +1027,8 @@ $data['Bidang'] = array(
 	array('','00 Program asas/umum | 000 Program <em>generic</em>',
 	'0000 - <em>Programmes and qualifications generic not further defined</em>'),
 	array('','00 Program asas/umum | 001 Program asas/umum<br>','0011 - Program asas/umum'),
-	array('','00 Program asas/umum | 002 Literasi & kefahaman asas<br>','0021 - Literasi & numerasi'),
+	array('','00 Program asas/umum | 002 Literasi & kefahaman asas<br>',
+	'0021 - Literasi & numerasi'),
 	array('','00 Program asas/umum | 003 Kemahiran personal<br>',
 	'0031 - Kemahiran personal / Pengurusan masa / Pengurusan kerjaya / Teknik pengucapan awam'),
 	array('','00 Program asas/umum | 009 Program <em>generic</em> lain<br>',
@@ -1036,7 +1037,8 @@ $data['Bidang'] = array(
 	array('','01 Pendidikan | 011 Pendidikan','0111 - Sains pendidikan'),
 	array('','01 Pendidikan | 011 Pendidikan','0112 - Latihan perguruan untuk guru pra-sekolah'),
 	array('','01 Pendidikan | 011 Pendidikan','0113 - Latihan perguruan peringkat asas'),
-	array('','01 Pendidikan | 011 Pendidikan','0114 - Latihan perguruan dengan pengkhususan subjek'),
+	array('','01 Pendidikan | 011 Pendidikan',
+	'0114 - Latihan perguruan dengan pengkhususan subjek'),
 	array('','01 Pendidikan | 011 Pendidikan',
 	'0119 - Latihan perguruan untuk subjek vokasional/praktikal'),
 	array('','018 Program <em>inter-disciplinary</em>',
@@ -1112,22 +1114,23 @@ $data['Bidang'] = array(
 	'0512 - Biokimia'),
 	array('','05 Sains tulen, matematik & statistik | 051 Biologi & sains berkaitan',
 	'0519 - Biologi & sains berkaitan lain'),
-	array('','05 Sains tulen, matematik & statistik | '
-	. '052 Sains persekitaran',
-	'0521 - Sains persekitaran<br>'
-	. '0522 - Persekitaran semula jadi & hidupan liar<br>'
-	. '0529 - Sains persekitaran lain'),
-	array('','05 Sains tulen, matematik & statistik | '
-	. '053 Sains fizikal',
-	'0531 - Kimia<br>'
-	. '0532 - Sains hayat<br>'
-	. '0533 - Fizik<br>'
-	. '0539 - Sains fizik lain'),
-	array('','05 Sains tulen, matematik & statistik | '
-	. '054 Matematik & statistik',
-	'0540 - Matematik & statistik<br>'
-	. '0541 - Matematik<br>'
-	. '0542 - Statistik'),
+	array('','05 Sains tulen, matematik & statistik | 052 Sains persekitaran',
+	'0521 - Sains persekitaran'),
+	array('','05 Sains tulen, matematik & statistik | 052 Sains persekitaran',
+	'0522 - Persekitaran semula jadi & hidupan liar'),
+	array('','05 Sains tulen, matematik & statistik | 052 Sains persekitaran',
+	'0529 - Sains persekitaran lain'),
+	array('','05 Sains tulen, matematik & statistik | 053 Sains fizikal','0531 - Kimia'),
+	array('','05 Sains tulen, matematik & statistik | 053 Sains fizikal','0532 - Sains hayat'),
+	array('','05 Sains tulen, matematik & statistik | 053 Sains fizikal','0533 - Fizik'),
+	array('','05 Sains tulen, matematik & statistik | 053 Sains fizikal',
+	'0539 - Sains fizik lain'),
+	array('','05 Sains tulen, matematik & statistik | 054 Matematik & statistik',
+	'0540 - Matematik & statistik'),
+	array('','05 Sains tulen, matematik & statistik | 054 Matematik & statistik',
+	'0541 - Matematik'),
+	array('','05 Sains tulen, matematik & statistik | 054 Matematik & statistik',
+	'0542 - Statistik'),
 	array('','058 Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
 	. ' matematik & statistik<br>',
 	'0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
