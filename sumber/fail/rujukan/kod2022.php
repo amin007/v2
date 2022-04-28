@@ -1385,7 +1385,7 @@ $data['Bidang'] = array(
 ###################################################################################################
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
-$data['masco2020'] = ImportCSV2Array01($filename = './kod2022/masco2020_all.csv');
+$data['mascoBMBI'] = ImportCSV2Array01($filename = './kod2022/masco2020_all.csv');
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
