@@ -502,10 +502,10 @@ jQuery.fn.highlight = function (words, options)
 	return this.each(function ()
 	{
 		jQuery.highlight(this, re, settings.element, settings.className);
- });
+	});
 };
 
-//https://bartaz.github.io/sandbox.js/jquery.highlight.js
+/* *********** https://bartaz.github.io/sandbox.js/jquery.highlight.js ********************* */
 /* ***************************************************************************************** */
 
 END;
