@@ -1137,8 +1137,7 @@ $data['Bidang'] = array(
 	. ' matematik & statistik'),
 	array('','059 Sains tulen, matematik & statistik lain',
 	'0599 - Sains tulen, matematik & statistik lain'),
-	array('','06 Teknologi maklumat & komunikasi | '
-	. '061 Teknologi maklumat & komunikasi',
+	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
 	'0610 - Teknologi maklumat & komunikasi<br>'
 	. '0611 - Teknologi & sistem maklumat<br>'
 	. '0612 - Kejuruteraan perisian<br>'
@@ -1203,7 +1202,7 @@ $data['Bidang'] = array(
 	. ' perhutanan, perikanan & veterinar'),
 	array('','089 Pertanian, perhutanan, perikanan & veterinar lain<br>',
 	'0899 - Pertanian, perhutanan, perikanan & veterinar lain'),
-	array('','09 Kesihatan & kebajikan<br>090 Kesihatan & kebajikan<br>',
+	array('','09 Kesihatan & kebajikan<br>090 Kesihatan & kebajikan',
 	'0900 - Kesihatan & kebajikan'),
 	array('','091 Kesihatan','0911 - Pengajian pergigian'),
 	array('','091 Kesihatan','0912 - Perubatan'),
@@ -1242,7 +1241,7 @@ $data['Bidang'] = array(
 	array('','108 Program <em>inter-discplinary</em> yang melibatkan perkhidmatan',
 	'1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
 	array('','109 Perkhidmatan lain','1099 - Perkhidmatan lain'),
-	array('','99 Lain-lain | 999 Lain-lain<br>','9999 - Lain-lain'),
+	array('','99 Lain-lain | 999 Lain-lain','9999 - Lain-lain'),
 );
 #--------------------------------------------------------------------------------------------------
 # masco msic - kena tukar masco v2018 kepada v2020
