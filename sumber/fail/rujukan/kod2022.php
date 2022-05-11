@@ -1359,9 +1359,9 @@ $data['Bidang'] = array(
 	array('','PENGHANTAR BARANG','JNT EXPRESS','832102','53200'),
 	array('','PENGHANTAR CEPAT','KURIER/POSLAJU','832102','53200'),
 	array('','PENGHANTAR CEPAT','RUNNER','832102','82990'),
+	array('','PENYELARAS JUALAN','HOTEL','522202','55101'),
+	array('','PENJAHIT','KILANG PAKAIAN','762107','14102'),
 	#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-	array('','PENYELARAS JUALAN ','HOTEL','522202','55101'),
-	array('','PENJAHIT','KILANG PAKAIAN','762108','14102'),
 	array('','CAT KERETA','BENGKEL','713203','45202'),
 	array('','OPERATOR','ELEKTRONIK','818911','26109'),
 	array('','FARMASI','KESIHATAN','226205','47721'),
