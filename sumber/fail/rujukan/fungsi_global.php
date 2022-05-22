@@ -539,6 +539,23 @@ if ( ! function_exists('binaButang')):
 		. ' target="_blank" href="./kod2022_v01.php">kod2022_v01</a>'
 		. "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
 		. ' href="' . URL . '?/tahun">Tahun</a>';
+		/*$koleksi = array(
+			array('a'=>'primary','b'=>'../','c'=>'Kembalilah<i class="fa fa-binoculars"></i>'),
+			array('a'=>'success','b'=>'../rujukan/utama/msic-cari.html','c'=>'MSIC'),
+			array('a'=>'success','b'=>'../rujukan/utama/masco-cari.html','c'=>'MASCO2018'),
+			array('a'=>'success','b'=>'../rujukan/utama/masco2020-cari.html','c'=>'MASCO2020'),
+			array('a'=>'info','b'=>'../rujukan/utama/institut-cari.html','c'=>'Institut'),
+			array('a'=>'info','b'=>'../rujukan/utama/negara-cari.html','c'=>'Negara'),
+			array('a'=>'warning','b'=>'./kod00.php','c'=>'kod-lama'),
+			array('a'=>'warning','b'=>'./kod2022.php','c'=>'kod2022'),
+			array('a'=>'warning','b'=>'./kod2022_v01.php','c'=>'kod2022_v01'),
+			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun')
+		);
+		foreach($koleksi as $masa => $kini):
+			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
+			. ' href="' . URL . '/' . $kini['b'] . '">'
+			. ucfirst($kini['c']) . '</a>';//*/
+		endforeach;//*/
 		foreach($senarai as $jadual => $row):
 			if($jadual != 'tahun')
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
