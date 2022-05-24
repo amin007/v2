@@ -554,7 +554,7 @@ if ( ! function_exists('binaButang')):
 		foreach($koleksi as $masa => $kini):
 			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
 			. ' href="' . URL . '/' . $kini['b'] . '">'
-			. ucfirst($kini['c']) . '</a>';//*/
+			. ucfirst($kini['c']) . '</a>';
 		endforeach;//*/
 		foreach($senarai as $jadual => $row):
 			if($jadual != 'tahun')
