@@ -1252,7 +1252,7 @@ $data['Bidang'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 # masco msic - kena tukar masco v2018 kepada v2020
-/*$data['mascoMsicV2'] = array(
+$data['mascoMsicV2'] = array(
 	array('','PENGURUS','PASARAYA','122109','47112'),
 	array('','PENYELIA','PASARAYA','522203','47112'),
 	array('','PEKERJA','PASARAYA','522302','47112'),
@@ -1386,8 +1386,8 @@ $data['Bidang'] = array(
 	array('','EJEN INSURANS','EJEN INSURANS','332101','66221'),
 	array('','TUKANG JAHIT PAKAIAN','KILANG PAKAIAN','762102','14102'),
 	array('','PEMUNGUT SAMPAH','PENGUMPULAN SISA PEPEJAL (SWM)','961103','38111'),
-	// masco msic
-);//*/
+	//array('','***','***','###','###'),
+);# masco msic v2
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # bina tatasusunan dari fungsi
