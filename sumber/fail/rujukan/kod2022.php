@@ -1384,6 +1384,8 @@ $data['mascoMsicV2'] = array(
 	array('','EJEN INSURANS','EJEN INSURANS','332101','66221'),
 	array('','TUKANG JAHIT PAKAIAN','KILANG PAKAIAN','762102','14102'),
 	array('','PEMUNGUT SAMPAH','PENGUMPULAN SISA PEPEJAL (SWM)','961103','38111'),
+	array('','PENGASUH KANAK-KANAK','RUMAH','531103','97000'),
+	array('','PEMBANTU RUMAH','MAJIKAN','911103','97000'),
 	//array('','***','***','###','###'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
