@@ -1828,7 +1828,7 @@ endif;//*/
 $s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
-	$fail = explode('kod00.php',$_SERVER[$s]);
+	$fail = explode('rujukan/',$_SERVER[$s]);
 	$cari = explode('/',$fail[1]);//semakPembolehubah($fail,'fail');
 	//semakPembolehubah($cari,'pilih');
 
