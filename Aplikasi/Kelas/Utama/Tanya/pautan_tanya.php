@@ -89,6 +89,8 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[payoneer]'=>'https://www.payoneer.com',
 			'[invisionapp]'=>'https://www.invisionapp.com',
 			'[shapr3d]'=>'https://www.shapr3d.com',
+			'[Git Tool Submodules]'=>'https://git-scm.com/book/en/v2/Git-Tools-Submodules',
+			'[Spring Java']=>'https://start.spring.io',
 			//'[]'=>'',
 		);
 
