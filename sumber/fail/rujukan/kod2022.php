@@ -1402,7 +1402,7 @@ $data['mascoMsicV2'] = array(
 	array('','PENGASUH KANAK-KANAK','RUMAH','531103','97000'),
 	array('','PEMBANTU RUMAH','MAJIKAN','911103','97000'),
 	array('','URUT TRADITIONAL/JURUTERAPI','FISIOTERAPI TERAPI PEKERJAAN','325505','86903'),
-	//array('','***','***','###','###'),
+	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
