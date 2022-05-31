@@ -184,7 +184,7 @@ $data['etnik'] = array(
 	array('','6140','6140 - Sikh [India]'),
 	array('','6150','6150 - Sinhala [India]'),
 	array('','6160','6160 - Tamil India [India]'),
-	array('','6170','6170 - Tamil Sri Lanka [India]'),
+	array('','6170','6170 - Tamil Sri Lanka [India] | 144 => Kod Negara'),
 	array('','6180','6180 - Telugu [India]'),
 	array('','6998','6998 - Orang India Lain | 356 => Kod Negara(India Luar Negara)'),
 	array('','7110','7110 - Arab [Asia]'),
