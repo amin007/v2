@@ -564,8 +564,8 @@ $data['Pendidikan 2022'] = array(
 	- Tempoh pengajian selama 1–2 tahun.
 	- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan pengajian tahun asas (foundation year) pertama dan kedua.
 	*/
-	array('','306','306 - Diploma Tahun 1',''),
-	array('','307','307 - Diploma Tahun 2',''),
+	array('','306','306 - Diploma Tahun 1','Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
+	array('','307','307 - Diploma Tahun 2','Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
 	array('','308','308 - Kolej vokasional Tahun 3',''),
 	array('','309','309 - Kolej vokasional Tahun 4',''),
 	array('','310','310 - Institusi latihan kemahiran Tahun 1',''),
@@ -755,8 +755,10 @@ $data['PendidikanSijil 2022'] = array(
 	array('','303','303 - Matrikulasi','349 - Sijil Matrikulasi'),
 	array('','304','304 - Program persediaan',''),
 	array('','305','305 - Pra universiti',''),
-	array('','306','306 - Diploma Tahun 1',''),
-	array('','307','307 - Diploma Tahun 2',''),
+	array('','306','306 - Diploma Tahun 1',
+	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
+	array('','307','307 - Diploma Tahun 2',
+	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
 	array('','308','308 - Kolej vokasional Tahun 3','344 - SPVM/SPM(V)/MVC'),
 	array('','309','309 - Kolej vokasional Tahun 4','344 - SPVM/SPM(V)/MVC'),
 	array('','310','310 - Institusi latihan kemahiran Tahun 1',''),
