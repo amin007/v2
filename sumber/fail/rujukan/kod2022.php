@@ -1432,7 +1432,7 @@ $_SERVER['SERVER_PORT'] => 80 atau 443
 
 $s = 'PHP_SELF';
 echo $_SERVER[$s] . '|<br>';
-$cari0 = explode('kod00.php',$_SERVER[$s]);
+$cari0 = explode('rujukan/',$_SERVER[$s]);
 $cari2 = explode('/',$cari0[1]);
 echo '<pre>'; print_r($cari2); echo '</pre>';
 */
