@@ -573,27 +573,7 @@ if ( ! function_exists('binaButang')):
 	function binaButang($senarai)
 	{
 		$output = "\r\t";
-		$output .= '<a class="btn btn-primary" href="../">Kembali'
-		. '<i class="fa fa-binoculars"></i></a>'
-		. "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/msic-cari.html">MSIC</a>'
-		. "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/masco-cari.html">MASCO2018</a>'
-		. "\n\t" . '<a class="btn btn-success rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/masco2020-cari.html">MASCO2020</a>'
-		. "\n\t" . '<a class="btn btn-info rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/institut-cari.html">Institut</a>'
-		. "\n\t" . '<a class="btn btn-info rounded-pill"'
-		. ' target="_blank" href="../rujukan/utama/negara-cari.html">Negara</a>'
-		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
-		. ' target="_blank" href="./kod00.php">kod-lama</a>'
-		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
-		. ' target="_blank" href="./kod2022.php">kod2022</a>'
-		. "\n\t" . '<a class="btn btn-warning rounded-pill"'
-		. ' target="_blank" href="./kod2022_v01.php">kod2022_v01</a>'
-		. "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
-		. ' href="' . URL . '?/tahun">Tahun</a>';
-		/*$koleksi = array(
+		$koleksi = array(
 			array('a'=>'primary','b'=>'../','c'=>'Kembalilah<i class="fa fa-binoculars"></i>'),
 			array('a'=>'success','b'=>'../rujukan/utama/msic-cari.html','c'=>'MSIC'),
 			array('a'=>'success','b'=>'../rujukan/utama/masco-cari.html','c'=>'MASCO2018'),
@@ -609,7 +589,7 @@ if ( ! function_exists('binaButang')):
 			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
 			. ' href="' . URL . '/' . $kini['b'] . '">'
 			. ucfirst($kini['c']) . '</a>';
-		endforeach;//*/
+		endforeach;
 		foreach($senarai as $jadual => $row):
 			if($jadual != 'tahun')
 			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
