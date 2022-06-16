@@ -593,9 +593,9 @@ if ( ! function_exists('binaButang')):
 	function binaButang($senarai)
 	{
 		$output = "\r\t";
-		foreach($koleksi as $masa => $kini):
+		foreach(binaPautan() as $masa => $kini):
 			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
-			. ' href="' . URL . '/' . $kini['b'] . '">'
+			. ' href="' . $kini['b'] . '">'
 			. ucfirst($kini['c']) . '</a>';
 		endforeach;
 		foreach($senarai as $jadual => $row):
