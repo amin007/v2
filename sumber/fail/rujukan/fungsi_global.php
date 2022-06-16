@@ -572,7 +572,6 @@ endif;//*/
 if ( ! function_exists('binaPautan')):
 	function binaPautan()
 	{
-		$output = "\r\t";
 		$koleksi = array(
 			array('a'=>'primary','b'=>'../','c'=>'Kembalilah<i class="fa fa-binoculars"></i>'),
 			array('a'=>'success','b'=>'../rujukan/utama/msic-cari.html','c'=>'MSIC'),
@@ -593,6 +592,7 @@ endif;//*/
 if ( ! function_exists('binaButang')):
 	function binaButang($senarai)
 	{
+		$output = "\r\t";
 		foreach($koleksi as $masa => $kini):
 			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
 			. ' href="' . URL . '/' . $kini['b'] . '">'
