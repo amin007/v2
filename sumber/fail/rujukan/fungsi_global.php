@@ -569,8 +569,8 @@ if ( ! function_exists('binaButangV00')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('binaButang')):
-	function binaButang($senarai)
+if ( ! function_exists('binaPautan')):
+	function binaPautan()
 	{
 		$output = "\r\t";
 		$koleksi = array(
@@ -585,6 +585,14 @@ if ( ! function_exists('binaButang')):
 			array('a'=>'warning','b'=>'./kod2022_v01.php','c'=>'kod2022_v01'),
 			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun')
 		);
+
+		return $koleksi;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaButang')):
+	function binaButang($senarai)
+	{
 		foreach($koleksi as $masa => $kini):
 			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
 			. ' href="' . URL . '/' . $kini['b'] . '">'
