@@ -572,14 +572,15 @@ endif;//*/
 if ( ! function_exists('binaPautan')):
 	function binaPautan()
 	{
+		$folder = '../rujukan/utama/';
 		$koleksi = array(
 			array('a'=>'primary','b'=>'../','c'=>'Kembalilah<i class="fa fa-binoculars"></i>'),
-			array('a'=>'success','b'=>'../rujukan/utama/msic-cari.html','c'=>'MSIC'),
-			array('a'=>'success','b'=>'../rujukan/utama/masco-cari.html','c'=>'MASCO2018'),
-			array('a'=>'success','b'=>'../rujukan/utama/masco2020-cari.html','c'=>'MASCO2020'),
-			array('a'=>'info','b'=>'../rujukan/utama/institut-cari.html','c'=>'Institut'),
-			array('a'=>'info','b'=>'../rujukan/utama/negara-cari.html','c'=>'Negara'),
-			array('a'=>'info','b'=>'../rujukan/utama/produkmm-cari.html','c'=>'ProdukMM'),
+			array('a'=>'success','b'=>$folder . 'msic-cari.html','c'=>'MSIC'),
+			array('a'=>'success','b'=>$folder . 'masco-cari.html','c'=>'MASCO2018'),
+			array('a'=>'success','b'=>$folder . 'masco2020-cari.html','c'=>'MASCO2020'),
+			array('a'=>'info','b'=>$folder . 'institut-cari.html','c'=>'Institut'),
+			array('a'=>'info','b'=>$folder . 'negara-cari.html','c'=>'Negara'),
+			array('a'=>'info','b'=>$folder . 'produkmm-cari.html','c'=>'ProdukMM'),
 			array('a'=>'warning','b'=>'./kod00.php','c'=>'kod-lama'),
 			array('a'=>'warning','b'=>'./kod2022.php','c'=>'kod2022'),
 			array('a'=>'warning','b'=>'./kod2022_v01.php','c'=>'kod2022_v01'),
