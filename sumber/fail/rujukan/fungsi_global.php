@@ -579,6 +579,7 @@ if ( ! function_exists('binaPautan')):
 			array('a'=>'success','b'=>'../rujukan/utama/masco2020-cari.html','c'=>'MASCO2020'),
 			array('a'=>'info','b'=>'../rujukan/utama/institut-cari.html','c'=>'Institut'),
 			array('a'=>'info','b'=>'../rujukan/utama/negara-cari.html','c'=>'Negara'),
+			array('a'=>'info','b'=>'../rujukan/utama/produkmm-cari.html','c'=>'ProdukMM'),
 			array('a'=>'warning','b'=>'./kod00.php','c'=>'kod-lama'),
 			array('a'=>'warning','b'=>'./kod2022.php','c'=>'kod2022'),
 			array('a'=>'warning','b'=>'./kod2022_v01.php','c'=>'kod2022_v01'),
