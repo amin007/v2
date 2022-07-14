@@ -1416,6 +1416,39 @@ $data['mascoMsicV2'] = array(
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
+/*11.2 : Sekiranya terdapat pertukaran aktiviti atau perbezaan keuntungan / kerugian (> atau <30%)
+berbanding dengan tahun sebelum, sila tandakan sebab-sebab di bawah ini
+(Boleh pilih lebih daripada satu):
+If there is any change in activity and or in the profit / loss (> or <30%) as
+compared to the previous year, please mark the reasons below (May chooese more than one)://*/
+$data['bezaUntungRugi'] = array(
+	array('','110003','a) Perubahan model perniagaan','Business model change'),
+	array('','110004','b) Impak kadar pertukaran matawang','Currency exchange rate impact'),
+	array('','110005','c) Perubahan harga barangan yang dijual atau perkhidmatan yang diberikan',
+	'Price changes in goods sold or services rendered'),
+	array('','110006','d) Memberi kontrak kepada pertubuhan luar','Contracting out'),
+	array('','110007','e) Perubahan organisasi','Organisation change'),
+	array('','110008','f) Perubahan dalam kos tenaga buruh atau bahan mentah',
+	'Changes in the cost of labour or raw materials'),
+	array('','110009','g) Bencana alam','Natural disaster'),
+	array('','110010','h) Kemelesetan','Recession'),
+	array('','110011','i) Pertukaran produk','Change in product line'),
+	array('','110012','j) Unit perniagaan yang dijual','Sold business units'),
+	array('','110013','k) Perluasan','Expansion'),
+	array('','110014','l) Kontrak baharu / hilang','New / lost contract'),
+	array('','110015','m) Penutupan kilang / premis','Factory / premises closures'),
+	array('','110016','n) Pengambil alihan unit-unit perniagaan','Acquisition of business units'),
+	array('','110017','o) Mogok atau sekatan','Strike or blockade'),
+	array('','110020','p) Perubahan ke arah automasi','Changes toward automation'),
+	array('','110018','q) Lain-lain (sila nyatakan)','Others (please specify)'),
+	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
+);# beza untung rugi
+#--------------------------------------------------------------------------------------------------
+/*$data['xxx'] = array(
+	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
+	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
+);# data baru akan datang//*/
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
