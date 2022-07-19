@@ -658,6 +658,48 @@ $data['Pendidikan 2022'] = array(
 	. '- Peringkat ini dikhaskan kepada program pendidikan/penyelidikan selepas seseorang itu telah memperolehi ijazah falsafah kedoktoran bertujuan untuk memperoleh kemahiran profesional yang diperlukan dalam kemajuan kerjaya.<br>'
 	. '- Pelajar yang mengikuti program ini akan memegang jawatan postdoctoral fellow bagi tempoh 6 bulan hingga 5 tahun yang dikhususkan untuk menjalankan penyelidikan. Program ini juga telah ditawarkan kepada mereka yang memfokuskan kerjaya dalam bidang pendidikan yang dikenali sebagai "teaching post-docs".'
 	. ''),
+	array('','1xx','(umur pelajar: 6-12 tahun); (pengajian terkumpul: 1-6 tahun)',''
+	. '- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan kemahiran asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang seimbang.<br>'
+	. '- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah, sebelum menyambung pelajaran ke peringkat menengah rendah.<br>'
+	. '- Tempoh pengajian enam tahun tetapi boleh tamat diikuti dalam tempoh lima hingga tujuh tahun.<br>'
+	. '- Kelayakan masuk mengikut peraturan yang ditetapkan oleh kerajaan atau sekolah rendah berkenaan.<br>'
+	. '- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program pendidikan ini.<br>'
+	. ''),
+	array('','2xx','Menengah Rendah;(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)',''
+	. '- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.<br>'
+	. '- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan diri dengan pendidikan umum yang bersepadu.<br>'
+	. '- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang berkelayakan khusus untuk bidang/subjek yang diajar.<br>'
+	. '- Tempoh pengajian selama 3/4 tahun.<br>'
+	. '- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.<br>'
+	. '- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah, sebelum menyambung pelajaran ke peringkat menengah atas.<br>'
+	. ''),
+	array('','2xx','Menengah Atas(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)<br>',''
+	. '- Merupakan kesinambungan program menengah rendah.<br>'
+	. '- Tempoh pengajian selama 2 tahun.<br>'
+	. '- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran sastera, sains, vokasional, teknikal atau agama.<br>'
+	. '- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga dan perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.<br>'
+	. '- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian peringkat tertiari atau memilih memasuki pasaran buruh.<br>'
+	. '- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan Sijil Kemahiran Malaysia.<br>'
+	. ''),
+	array('','2xx','Bidang vokasional','-memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana dalam akademik dan berminat kepada pembelajaran bercorak vokasional (berkaitan pekerjaan). Isi kandungan bidang vokasional mempunyai komponen teori dan praktikal yang seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian, pelajar berpeluang ke IPTA, IPTS, dan institut latihan kemahiran awam dan swasta, atau terus ke alam pekerjaan.<br>'
+	. '- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat Diploma (termasuk lima 5 bulan On The Job Training)<br>'
+	. '- Pelajar yang berjaya di peringkat Sijil akan dianugerahkan Sijil Vokasional Malaysia (SVM)<br>'
+	. '- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di peringkat Diploma di Kolej Vokasional yang sama<br>'
+	. '- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian di Kolej Vokasional yang sama dalam bidang kemahiran dan dianugerahkan Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai<br>'
+	. '- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh Senat Kolej Vokasional, Kementerian Pendidikan Malaysia<br>'
+	. '- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi memenuhi keperluan industri dan entrepreneur<br>'
+	. ''),
+	array('','3xx','Tingkatan 6-(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>',''
+	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
+	. '- Tempoh pengajian selama 1-2 tahun.<br>'
+	. '- Pelajar yang telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian di peringkat diploma/ ijazah atau memasuki pasaran buruh.<br>'
+	. ''),
+	array('','3xx','Pra universiti-(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun).',''
+	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
+	. '- Pengajian peringkat matrikulasi merupakan persediaan untuk pengajian peringkat ijazah dalam negara dan termasuk program persediaan bagi melanjutkan pelajaran ke luar negara.<br>'
+	. '- Tempoh pengajian selama 1–2 tahun.<br>'
+	. '- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan pengajian tahun asas (foundation year) pertama dan kedua.'
+	. ''),
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
