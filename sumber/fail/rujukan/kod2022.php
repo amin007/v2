@@ -658,14 +658,14 @@ $data['Pendidikan 2022'] = array(
 	. '- Peringkat ini dikhaskan kepada program pendidikan/penyelidikan selepas seseorang itu telah memperolehi ijazah falsafah kedoktoran bertujuan untuk memperoleh kemahiran profesional yang diperlukan dalam kemajuan kerjaya.<br>'
 	. '- Pelajar yang mengikuti program ini akan memegang jawatan postdoctoral fellow bagi tempoh 6 bulan hingga 5 tahun yang dikhususkan untuk menjalankan penyelidikan. Program ini juga telah ditawarkan kepada mereka yang memfokuskan kerjaya dalam bidang pendidikan yang dikenali sebagai "teaching post-docs".'
 	. ''),
-	array('','1xx','(umur pelajar: 6-12 tahun); (pengajian terkumpul: 1-6 tahun)',''
+	array('','1xx','Pendidikan rendah:','(umur pelajar: 6-12 tahun); (pengajian terkumpul: 1-6 tahun)'
 	. '- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan kemahiran asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang seimbang.<br>'
 	. '- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah, sebelum menyambung pelajaran ke peringkat menengah rendah.<br>'
 	. '- Tempoh pengajian enam tahun tetapi boleh tamat diikuti dalam tempoh lima hingga tujuh tahun.<br>'
 	. '- Kelayakan masuk mengikut peraturan yang ditetapkan oleh kerajaan atau sekolah rendah berkenaan.<br>'
 	. '- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program pendidikan ini.<br>'
 	. ''),
-	array('','2xx','Menengah Rendah;(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)',''
+	array('','2xx','Pendidikan Menengah Rendah','(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)'
 	. '- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.<br>'
 	. '- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan diri dengan pendidikan umum yang bersepadu.<br>'
 	. '- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang berkelayakan khusus untuk bidang/subjek yang diajar.<br>'
@@ -673,7 +673,7 @@ $data['Pendidikan 2022'] = array(
 	. '- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.<br>'
 	. '- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah, sebelum menyambung pelajaran ke peringkat menengah atas.<br>'
 	. ''),
-	array('','2xx','Menengah Atas(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)<br>',''
+	array('','2xx','Pendidikan Menengah Atas','(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)<br>'
 	. '- Merupakan kesinambungan program menengah rendah.<br>'
 	. '- Tempoh pengajian selama 2 tahun.<br>'
 	. '- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran sastera, sains, vokasional, teknikal atau agama.<br>'
