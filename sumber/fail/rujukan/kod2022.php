@@ -1420,7 +1420,10 @@ $data['mascoMsicV2'] = array(
 berbanding dengan tahun sebelum, sila tandakan sebab-sebab di bawah ini
 (Boleh pilih lebih daripada satu):
 If there is any change in activity and or in the profit / loss (> or <30%) as
-compared to the previous year, please mark the reasons below (May chooese more than one)://*/
+compared to the previous year, please mark the reasons below (May chooese more than one):
+Merujuk kepada peratusan kapasiti penggunaan dalam Soalan 8a(3), sekiranya pengeluaran sebenar
+pada bulan semasa lebih rendah daripada keupayaan pengeluaran penuh, sila tandakan sebab utama
+(Boleh pilih lebih daripada satu)//*/
 $data['bezaUntungRugi'] = array(
 	array('','110003','a) Perubahan model perniagaan','Business model change'),
 	array('','110004','b) Impak kadar pertukaran matawang','Currency exchange rate impact'),
@@ -1441,6 +1444,23 @@ $data['bezaUntungRugi'] = array(
 	array('','110017','o) Mogok atau sekatan','Strike or blockade'),
 	array('','110020','p) Perubahan ke arah automasi','Changes toward automation'),
 	array('','110018','q) Lain-lain (sila nyatakan)','Others (please specify)'),
+	array('','S08B01','Kurang menguntungkan untuk beroperasi pada keupayaan pengeluaran penuh',''),
+	array('','S08B02','Bekalan bahan tidak mencukupi',''),
+	array('','S08B03','Pembaikan & penyelenggaraan mesin dan kelengkapan',''),
+	array('','S08B04','Inventori yang mencukupi',''),
+	array('','S08B05','Permintaan kurang',''),
+	array('','S08B06','Kekurangan tenaga buruh',''),
+	array('','S08B07','Bahan bakar atau tenaga elektrik yang tidak mencukupi',''),
+	array('','S08B08','Limitasi atau kerosakan mesin dan kelengkapan',''),
+	array('','S08B09','Pekerja kurang kompeten',''),
+	array('','S08B10','Limitasi ruang penyimpanan',''),
+	array('','S08B11','Kekangan logistik/pengangkutan',''),
+	array('','S08B12','Penutupan kilang sementara',''),
+	array('','S08B13','Kekangan kewangan',''),
+	array('','S08B14','Mogok atau pemberhentian pekerja',''),
+	array('','S08B15','Operasi bermusim',''),
+	array('','S08B16','Sekatan berkaitan alam sekitar',''),
+	array('','S08B17','Isu kualiti produk atau perkhidmatan',''),
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
