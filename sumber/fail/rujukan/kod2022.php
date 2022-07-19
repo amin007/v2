@@ -689,17 +689,6 @@ $data['Pendidikan 2022'] = array(
 	. '- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh Senat Kolej Vokasional, Kementerian Pendidikan Malaysia<br>'
 	. '- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi memenuhi keperluan industri dan entrepreneur<br>'
 	. ''),
-	/*array('','3xx','Tingkatan 6-(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>',''
-	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
-	. '- Tempoh pengajian selama 1-2 tahun.<br>'
-	. '- Pelajar yang telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian di peringkat diploma/ ijazah atau memasuki pasaran buruh.<br>'
-	. ''),*/
-	array('','3xx','Pra universiti-(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun).',''
-	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
-	. '- Pengajian peringkat matrikulasi merupakan persediaan untuk pengajian peringkat ijazah dalam negara dan termasuk program persediaan bagi melanjutkan pelajaran ke luar negara.<br>'
-	. '- Tempoh pengajian selama 1–2 tahun.<br>'
-	. '- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan pengajian tahun asas (foundation year) pertama dan kedua.'
-	. ''),
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
