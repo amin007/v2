@@ -556,14 +556,14 @@ $data['Pendidikan 2022'] = array(
 	array('','302','302 - Tingkatan 6 atas',''),
 	array('','303','303 - Matrikulasi',''),
 	array('','304','304 - Program persediaan',''),
-	array('','305','305 - Pra universiti',''),
-	/*
-	(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)
-	- Pelajar telah tamat pendidikan menengah atas.
-	- Pengajian peringkat matrikulasi merupakan persediaan untuk pengajian peringkat ijazah dalam negara dan termasuk program persediaan bagi melanjutkan pelajaran ke luar negara.
-	- Tempoh pengajian selama 1–2 tahun.
-	- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan pengajian tahun asas (foundation year) pertama dan kedua.
-	*/
+	array('','305','305 - Pra universiti','(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>'
+	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
+	. '- Pengajian peringkat matrikulasi merupakan persediaan untuk pengajian peringkat ijazah'
+	. ' dalam negara dan termasuk program persediaan bagi melanjutkan pelajaran ke luar negara.<br>'
+	. '- Tempoh pengajian selama 1–2 tahun.<br>'
+	. '- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan'
+	. ' pengajian tahun asas (foundation year) pertama dan kedua.<br>'
+	. ''),
 	array('','306','306 - Diploma Tahun 1','Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
 	array('','307','307 - Diploma Tahun 2','Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
 	array('','308','308 - Kolej vokasional Tahun 3',''),
