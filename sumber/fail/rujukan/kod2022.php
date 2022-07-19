@@ -477,24 +477,40 @@ $data['test123'] = array(
 $data['Pendidikan 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun',''),
 	array('','002','002 - Pendidikan pra-sekolah',
-	'- Merupakan program pendidikan awal terancang yang direka untuk memperkenalkan kanak-kanak kepada persekitaran sekolah.<br>'
-	. '- Mesti dijalankan di premis sekolah atau pusat untuk memenuhi keperluan perkembangan kanak-kanak yang berumur kurang dari 6 tahun dan staf yang mempunyai kelayakan untuk mengajar kanak-kanak peringkat umur muda.<br>'
+	'- Merupakan program pendidikan awal terancang yang direka untuk memperkenalkan kanak-kanak'
+	. ' kepada persekitaran sekolah.<br>'
+	. '- Mesti dijalankan di premis sekolah atau pusat untuk memenuhi keperluan perkembangan'
+	. ' kanak-kanak yang berumur kurang dari 6 tahun dan staf yang mempunyai kelayakan untuk'
+	. ' mengajar kanak-kanak peringkat umur muda.<br>'
 	. '- Tiada kelayakan masuk.<br>'
 	. '- Setelah tamat program ini, murid-murid akan menyambung pendidikan di peringkat rendah.<br>'
-	. '- Pendidikan pra-sekolah TERMASUK di bawah takrif pendidikan rasmi/formal. Ianya dikodkan bertujuan untuk mendapatkan maklumat penduduk yang telah/sedang mengikuti pendidikan pra-sekolah. Ini kerana mereka yang menduduki pra-sekolah telah mendapat pendedahan kepada persekitaran sekolah dan pengetahuan asas berbanding mereka yang tidak pernah bersekolah. Oleh itu, Ruangan 13 (Persekolahan) dikodkan sebagai ‛2’ manakala Ruangan 15 (Sijil Tertinggi Diperoleh) dikodkan ‛020’.'
+	. '- Pendidikan pra-sekolah TERMASUK di bawah takrif pendidikan rasmi/formal. Ianya dikodkan'
+	. ' bertujuan untuk mendapatkan maklumat penduduk yang telah/sedang mengikuti pendidikan'
+	. ' pra-sekolah. Ini kerana mereka yang menduduki pra-sekolah telah mendapat pendedahan'
+	. ' kepada persekitaran sekolah dan pengetahuan asas berbanding mereka yang tidak pernah'
+	. ' bersekolah. Oleh itu, Ruangan 13 (Persekolahan) dikodkan sebagai ‛2’ manakala'
+	. ' Ruangan 15 (Sijil Tertinggi Diperoleh) dikodkan ‛020’.'
 	.''),
 	array('','003','003 - Pendidikan tidak formal',
-	'Merujuk kepada seseorang yang mendapat pendidikan selain daripada pendidikan rasmi atau formal seperti yang didefinisikan pada muka surat 27. Contohnya, seseorang yang bersekolah di sekolah pondok dan mendapat pendidikan agama sahaja akan dikategorikan sebagai ‛Pendidikan tidak formal’.'),
+	'Merujuk kepada seseorang yang mendapat pendidikan selain daripada pendidikan rasmi atau formal'
+	. ' seperti yang didefinisikan pada muka surat 27. Contohnya, seseorang yang bersekolah di'
+	. ' sekolah pondok dan mendapat pendidikan agama sahaja akan dikategorikan sebagai'
+	. ' ‛Pendidikan tidak formal’.'),
 	array('','004','004 - Tiada pendidikan',
 	'Merujuk kepada seseorang yang berumur sembilan tahun dan lebih dan masih belum bersekolah.'),
 	array('','005','005 - Masih belum bersekolah',
 	'Merujuk kepada kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah.'),
 	array('','006','006 - Pendidikan bukan formal',
-	'Merujuk kepada pendidikan yang disusun dan dilaksanakan di luar daripada sistem pendidikan formal yang bertujuan memberi pembelajaran yang terpilih untuk sesuatu kumpulan di dalam masyarakat. Pendidikan ini boleh diperoleh melalui program seperti latihan, kursus dalam perkhidmatan, seminar, bengkel, forum dan persidangan.'),
+	'Merujuk kepada pendidikan yang disusun dan dilaksanakan di luar daripada sistem pendidikan formal'
+	. ' yang bertujuan memberi pembelajaran yang terpilih untuk sesuatu kumpulan di dalam masyarakat.'
+	. ' Pendidikan ini boleh diperoleh melalui program seperti latihan, kursus dalam perkhidmatan,'
+	. ' seminar, bengkel, forum dan persidangan.'),
 	/*
 	(umur pelajar: 6-12 tahun); (pengajian terkumpul: 1-6 tahun)
-	- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan kemahiran asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang seimbang.
-	- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah, sebelum menyambung pelajaran ke peringkat menengah rendah.
+	- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan kemahiran
+	asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang seimbang.
+	- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah, sebelum menyambung
+	pelajaran ke peringkat menengah rendah.
 	- Tempoh pengajian enam tahun tetapi boleh tamat diikuti dalam tempoh lima hingga tujuh tahun.
 	- Kelayakan masuk mengikut peraturan yang ditetapkan oleh kerajaan atau sekolah rendah berkenaan.
 	- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program pendidikan ini.
@@ -508,11 +524,15 @@ $data['Pendidikan 2022'] = array(
 	/*
 	(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)
 	- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.
-	- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan diri dengan pendidikan umum yang bersepadu.
-	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang berkelayakan khusus untuk bidang/subjek yang diajar.
+	- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan diri dengan
+	pendidikan umum yang bersepadu.
+	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang berkelayakan
+	khusus untuk bidang/subjek yang diajar.
 	- Tempoh pengajian selama 3/4 tahun.
-	- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.
-	- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah, sebelum menyambung pelajaran ke peringkat menengah atas.
+	- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai
+	Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.
+	- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah,
+	sebelum menyambung pelajaran ke peringkat menengah atas.
 	*/
 	array('','201','201 - Kelas Peralihan','Pendidikan menengah rendah'),
 	array('','202','202 - Tingkatan 1','Pendidikan menengah rendah'),
@@ -522,9 +542,14 @@ $data['Pendidikan 2022'] = array(
 	(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)
 	- Merupakan kesinambungan program menengah rendah.
 	- Tempoh pengajian selama 2 tahun.
-	- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran sastera, sains, vokasional, teknikal atau agama.
-	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga dan perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
-	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian peringkat tertiari atau memilih memasuki pasaran buruh.
+	- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran sastera, sains,
+	vokasional, teknikal atau agama.
+	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga dan
+	perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan di Malaysia. Bermula
+	tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
+	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau yang setaraf)
+	di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian peringkat tertiari atau
+	memilih memasuki pasaran buruh.
 	- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan Sijil Kemahiran Malaysia.
 	*/
 	array('','205','205 - Tingkatan 4','Pendidikan menengah atas'),
@@ -534,17 +559,27 @@ $data['Pendidikan 2022'] = array(
 	. '- Syarat minimum kemasukan ke program ini adalah boleh membaca, menulis dan mengira.<br>'
 	. '- Merupakan program berbentuk modular, praktikal (hands-on) dan employable skills mengikut keperluan semasa.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 6 bulan.<br>'
-	. '- Pelajar yang telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau mengikuti latihan lanjutan pendidikan vokasional/ teknik.<br>'
+	. '- Pelajar yang telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau mengikuti latihan'
+	. ' lanjutan pendidikan vokasional/ teknik.<br>'
 	. '- Program yang dikelaskan di bawah kategori ini adalah seperti kursus GIAT MARA.<br>'
 	. ''),
 	/*
-	Bidang vokasional memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana dalam akademik dan berminat kepada pembelajaran bercorak vokasional (berkaitan pekerjaan). Isi kandungan bidang vokasional mempunyai komponen teori dan praktikal yang seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian, pelajar berpeluang ke IPTA, IPTS, dan institut latihan kemahiran awam dan swasta, atau terus ke alam pekerjaan.
-	- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat Diploma (termasuk lima 5 bulan On The Job Training)
+	Bidang vokasional memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana dalam akademik dan berminat
+	kepada pembelajaran bercorak vokasional (berkaitan pekerjaan). Isi kandungan bidang vokasional mempunyai komponen teori
+	dan praktikal yang seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/
+	pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian, pelajar berpeluang ke IPTA,
+	IPTS, dan institut latihan kemahiran awam dan swasta, atau terus ke alam pekerjaan.
+	- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat Diploma
+	(termasuk lima 5 bulan On The Job Training)
 	- Pelajar yang berjaya di peringkat Sijil akan dianugerahkan Sijil Vokasional Malaysia (SVM)
-	- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di peringkat Diploma di Kolej Vokasional yang sama
-	- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian di Kolej Vokasional yang sama dalam bidang kemahiran dan dianugerahkan Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai
-	- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh Senat Kolej Vokasional, Kementerian Pendidikan Malaysia
-	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi memenuhi keperluan industri dan entrepreneur
+	- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di peringkat Diploma
+	di Kolej Vokasional yang sama
+	- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian di Kolej Vokasional
+	yang sama dalam bidang kemahiran dan dianugerahkan Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai
+	- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh Senat Kolej Vokasional,
+	Kementerian Pendidikan Malaysia
+	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi memenuhi keperluan
+	industri dan entrepreneur
 	*/
 	array('','208','208 - Kolej vokasional Tahun 1',''),
 	array('','208','209 - Kolej vokasional Tahun 2',''),
@@ -552,7 +587,8 @@ $data['Pendidikan 2022'] = array(
 	'(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>'
 	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
 	. '- Tempoh pengajian selama 1-2 tahun.<br>'
-	. '- Pelajar yang telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian di peringkat diploma/ ijazah atau memasuki pasaran buruh.'),
+	. '- Pelajar yang telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian di peringkat diploma/'
+	. ' ijazah atau memasuki pasaran buruh.'),
 	array('','302','302 - Tingkatan 6 atas',''),
 	array('','303','303 - Matrikulasi',''),
 	array('','304','304 - Program persediaan',''),
