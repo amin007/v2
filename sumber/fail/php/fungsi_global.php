@@ -254,6 +254,114 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+	function senaraiCss($pilih = 0)
+	{
+		$papar[] = array(
+			'https://use.fontawesome.com/releases/v5.11.2/css/all.css',
+			//'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+			'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+		);
+		$papar[] = array(
+			'https://use.fontawesome.com/releases/v5.11.2/css/all.css',
+			'https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css',
+		);
+
+		return $papar[$pilih];
+	}
+#--------------------------------------------------------------------------------------------------
+	function ulangCss($listCss)
+	{
+		$style = null;
+		if (isset($listCss) && $listCss != null)
+		{
+			foreach ($listCss as $css)
+			{
+				$style .= "\n" . '<link rel="stylesheet" type="text/css" href="' . $css . '">';
+			}
+		}
+
+		return $style;
+	}
+#--------------------------------------------------------------------------------------------------
+	function metaList()
+	{
+		$k01 = 'width=device-width, initial-scale=1,';
+		$p[] = '<meta charset="utf-8">';
+		$p[] = '<meta name="viewport" content="' . $k01 . ' shrink-to-fit=no">';
+		//$p[] = '<meta name="viewport" content="' . $k01 . ' maximum-scale=1">';
+		$p[] = '<meta name="description" content="">';
+		//$p[] = '<meta name="keywords" content="derma,Crownfunding,">';
+		$p[] = '<meta name="author" content="Amin007">';
+		//$p[] = '';
+		return $p;
+	}
+#--------------------------------------------------------------------------------------------------
+	function ulangMeta($listMeta)
+	{
+		$p = null;
+		if (isset($listMeta) && $listMeta != null)
+		{
+			foreach ($listMeta as $meta)
+			{
+				$p .= "\n" . $meta;
+			}
+		}
+
+		return $p;
+	}
+#--------------------------------------------------------------------------------------------------
+	function diatasSimple($title = 'List Folder')
+	{
+		print <<<END
+<!doctype html>
+<html lang="en">
+<head>
+<title>$title</title>
+</head>
+<body>
+
+END;
+	}
+#--------------------------------------------------------------------------------------------------
+	function diatasKompleks($title = 'List Folder')
+	{
+		$meta = ulangMeta(metaList());
+		$style = ulangCss(senaraiCss(1));
+		print <<<END
+<!doctype html>
+<html lang="en">
+<head>$meta
+<title>$title</title>$style
+
+<style type="text/css">
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#cccccc;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+</style>
+</head>
+<body>
+
+END;
+	}
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('diatas')):
 	function diatas($title = 'List Folder', $urlcss)
 	{
