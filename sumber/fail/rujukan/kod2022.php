@@ -558,29 +558,34 @@ $data['Pendidikan 2022'] = array(
 	array('','207','207 - Program kemahiran asas',
 	'(umur pelajar antara 15-40 tahun)<br>'
 	. '- Syarat minimum kemasukan ke program ini adalah boleh membaca, menulis dan mengira.<br>'
-	. '- Merupakan program berbentuk modular, praktikal (hands-on) dan employable skills mengikut keperluan semasa.<br>'
+	. '- Merupakan program berbentuk modular, praktikal (hands-on) dan employable skills mengikut'
+	. ' keperluan semasa.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 6 bulan.<br>'
-	. '- Pelajar yang telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau mengikuti latihan'
+	. '- Pelajar yang telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau'
+	. ' mengikuti latihan'
 	. ' lanjutan pendidikan vokasional/ teknik.<br>'
 	. '- Program yang dikelaskan di bawah kategori ini adalah seperti kursus GIAT MARA.<br>'
 	. ''),
 	/*
-	Bidang vokasional memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana dalam akademik dan berminat
-	kepada pembelajaran bercorak vokasional (berkaitan pekerjaan). Isi kandungan bidang vokasional mempunyai komponen teori
-	dan praktikal yang seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/
-	pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian, pelajar berpeluang ke IPTA,
-	IPTS, dan institut latihan kemahiran awam dan swasta, atau terus ke alam pekerjaan.
-	- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat Diploma
-	(termasuk lima 5 bulan On The Job Training)
+	Bidang vokasional memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana
+	dalam akademik dan berminat kepada pembelajaran bercorak vokasional (berkaitan pekerjaan).
+	Isi kandungan bidang vokasional mempunyai komponen teori dan praktikal yang seimbang.
+	Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/
+	pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian,
+	pelajar berpeluang ke IPTA, IPTS, dan institut latihan kemahiran awam dan swasta, atau terus
+	ke alam pekerjaan.
+	- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat
+	Diploma (termasuk lima 5 bulan On The Job Training)
 	- Pelajar yang berjaya di peringkat Sijil akan dianugerahkan Sijil Vokasional Malaysia (SVM)
-	- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di peringkat Diploma
-	di Kolej Vokasional yang sama
-	- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian di Kolej Vokasional
-	yang sama dalam bidang kemahiran dan dianugerahkan Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai
-	- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh Senat Kolej Vokasional,
-	Kementerian Pendidikan Malaysia
-	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi memenuhi keperluan
-	industri dan entrepreneur
+	- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di
+	peringkat Diploma di Kolej Vokasional yang sama
+	- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian
+	di Kolej Vokasional yang sama dalam bidang kemahiran dan dianugerahkan
+	Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai
+	- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh
+	Senat Kolej Vokasional, Kementerian Pendidikan Malaysia
+	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi
+	memenuhi keperluan industri dan entrepreneur
 	*/
 	array('','208','208 - Kolej vokasional Tahun 1',''),
 	array('','208','209 - Kolej vokasional Tahun 2',''),
