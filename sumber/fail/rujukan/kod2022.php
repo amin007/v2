@@ -524,10 +524,10 @@ $data['Pendidikan 2022'] = array(
 	/*
 	(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)
 	- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.
-	- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan diri dengan
-	pendidikan umum yang bersepadu.
-	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang berkelayakan
-	khusus untuk bidang/subjek yang diajar.
+	- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan
+	diri dengan	pendidikan umum yang bersepadu.
+	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang
+	berkelayakan khusus untuk bidang/subjek yang diajar.
 	- Tempoh pengajian selama 3/4 tahun.
 	- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai
 	Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.
@@ -542,15 +542,16 @@ $data['Pendidikan 2022'] = array(
 	(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)
 	- Merupakan kesinambungan program menengah rendah.
 	- Tempoh pengajian selama 2 tahun.
-	- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran sastera, sains,
-	vokasional, teknikal atau agama.
-	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga dan
-	perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan di Malaysia. Bermula
-	tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
-	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau yang setaraf)
-	di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian peringkat tertiari atau
-	memilih memasuki pasaran buruh.
-	- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan Sijil Kemahiran Malaysia.
+	- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran
+	sastera, sains,	vokasional, teknikal atau agama.
+	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga
+	dan	perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan
+	di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
+	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau
+	yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian
+	peringkat tertiari atau	memilih memasuki pasaran buruh.
+	- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan
+	Sijil Kemahiran Malaysia.
 	*/
 	array('','205','205 - Tingkatan 4','Pendidikan menengah atas'),
 	array('','206','206 - Tingkatan 5','Pendidikan menengah atas'),
