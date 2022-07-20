@@ -126,24 +126,14 @@ The output is: <output name="sumresult"></output>
 </form>
 <hr>
 <p> 0417 = 0410+0411+0412+0413 -(0414) +(0415) -(0416)</p>
-<table class="excel"><tr><td>
-<?php
-$kira2 = '0410';
-//foreach($nilaiBuku as $kira2 => $angka2):
-list($harta,$beza) = kiraNilai03($nilaiHarta,$kira2);
-//echo "$harta;\n$beza;\n";
-echo "z99$kira2.value = $harta;<hr>";
-//endforeach;
-?>
-The output is: <output name="z990410"></output>
-</td></tr></table>
-
 
 <?php
 echo '<form oninput="';
 foreach($nilaiHarta as $kira => $angka):
-	list($harta,$beza) = kiraNilai02($kira);
-	echo "$harta;\n$beza;\n";
+	if(!in_array($kira,array('99','99B'))):
+		list($harta,$beza) = kiraNilai02($kira);
+		echo "$harta;\n$beza;\n";
+	endif;
 endforeach;
 echo '">';
 ?>
@@ -172,6 +162,22 @@ endforeach;
 #==================================================================================================
 ?></table>
 </form>
+<br><br><br>
+<table class="excel"><tr><td>
+z990410.value = 0+parseInt(z010410.value)+parseInt(z020410.value)+parseInt(z030410.value);
+<form oninput="z990410.value = parseInt(z010410.value)+parseInt(z020410.value)+parseInt(z030410.value);">
+<?php
+$kira2 = '0410';
+//foreach($nilaiBuku as $kira2 => $angka2):
+//list($harta,$beza) = kiraNilai03($nilaiHarta,$kira2);
+//echo "$harta;\n$beza;\n";
+//echo "z99$kira2.value = $harta;<hr>";
+//endforeach;
+?>
+The output is: <output name="z990410"></output>
+</form>
+</td></tr></table>
+
 
 </body>
 </html>
