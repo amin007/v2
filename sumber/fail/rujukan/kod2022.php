@@ -477,42 +477,42 @@ $data['test123'] = array(
 $data['Pendidikan 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun',''),
 	array('','002','002 - Pendidikan pra-sekolah',
-	'- Merupakan program pendidikan awal terancang yang direka untuk memperkenalkan kanak-kanak'
+	'- Merupakan program pendidikan awal terancang yg direka untuk memperkenalkan kanak-kanak'
 	. ' kepada persekitaran sekolah.<br>'
 	. '- Mesti dijalankan di premis sekolah atau pusat untuk memenuhi keperluan perkembangan'
-	. ' kanak-kanak yang berumur kurang dari 6 tahun dan staf yang mempunyai kelayakan untuk'
+	. ' kanak-kanak yg berumur kurang dari 6 tahun dan staf yg mempunyai kelayakan untuk'
 	. ' mengajar kanak-kanak peringkat umur muda.<br>'
 	. '- Tiada kelayakan masuk.<br>'
 	. '- Setelah tamat program ini, murid-murid akan menyambung pendidikan di peringkat rendah.<br>'
 	. '- Pendidikan pra-sekolah TERMASUK di bawah takrif pendidikan rasmi/formal. Ianya dikodkan'
-	. ' bertujuan untuk mendapatkan maklumat penduduk yang telah/sedang mengikuti pendidikan'
-	. ' pra-sekolah. Ini kerana mereka yang menduduki pra-sekolah telah mendapat pendedahan'
-	. ' kepada persekitaran sekolah dan pengetahuan asas berbanding mereka yang tidak pernah'
+	. ' bertujuan untuk mendapatkan maklumat penduduk yg telah/sedang mengikuti pendidikan'
+	. ' pra-sekolah. Ini kerana mereka yg menduduki pra-sekolah telah mendapat pendedahan'
+	. ' kepada persekitaran sekolah dan pengetahuan asas berbanding mereka yg tidak pernah'
 	. ' bersekolah. Oleh itu, Ruangan 13 (Persekolahan) dikodkan sebagai ‛2’ manakala'
 	. ' Ruangan 15 (Sijil Tertinggi Diperoleh) dikodkan ‛020’.'
 	.''),
 	array('','003','003 - Pendidikan tidak formal',
-	'Merujuk kepada seseorang yang mendapat pendidikan selain daripada pendidikan rasmi atau formal'
-	. ' seperti yang didefinisikan pada muka surat 27. Contohnya, seseorang yang bersekolah di'
+	'Merujuk kepada seseorang yg mendapat pendidikan selain daripada pendidikan rasmi atau formal'
+	. ' seperti yg didefinisikan pada muka surat 27. Contohnya, seseorang yg bersekolah di'
 	. ' sekolah pondok dan mendapat pendidikan agama sahaja akan dikategorikan sebagai'
 	. ' ‛Pendidikan tidak formal’.'),
 	array('','004','004 - Tiada pendidikan',
-	'Merujuk kepada seseorang yang berumur sembilan tahun dan lebih dan masih belum bersekolah.'),
+	'Merujuk kepada seseorang yg berumur sembilan tahun dan lebih dan masih belum bersekolah.'),
 	array('','005','005 - Masih belum bersekolah',
-	'Merujuk kepada kanak-kanak yang berumur kurang daripada sembilan tahun dan masih belum bersekolah.'),
+	'Merujuk kepada kanak-kanak yg berumur kurang daripada sembilan tahun dan masih belum bersekolah.'),
 	array('','006','006 - Pendidikan bukan formal',
-	'Merujuk kepada pendidikan yang disusun dan dilaksanakan di luar daripada sistem pendidikan formal'
-	. ' yang bertujuan memberi pembelajaran yang terpilih untuk sesuatu kumpulan di dalam masyarakat.'
+	'Merujuk kepada pendidikan yg disusun dan dilaksanakan di luar daripada sistem pendidikan formal'
+	. ' yg bertujuan memberi pembelajaran yg terpilih untuk sesuatu kumpulan di dalam masyarakat.'
 	. ' Pendidikan ini boleh diperoleh melalui program seperti latihan, kursus dalam perkhidmatan,'
 	. ' seminar, bengkel, forum dan persidangan.'),
 	/*
 	(umur pelajar: 6-12 tahun); (pengajian terkumpul: 1-6 tahun)
 	- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan kemahiran
-	asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang seimbang.
+	asas membaca, menulis dan mengira (3M) serta mewujudkan individu yg seimbang.
 	- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah, sebelum menyambung
 	pelajaran ke peringkat menengah rendah.
 	- Tempoh pengajian enam tahun tetapi boleh tamat diikuti dalam tempoh lima hingga tujuh tahun.
-	- Kelayakan masuk mengikut peraturan yang ditetapkan oleh kerajaan atau sekolah rendah berkenaan.
+	- Kelayakan masuk mengikut peraturan yg ditetapkan oleh kerajaan atau sekolah rendah berkenaan.
 	- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program pendidikan ini.
 	*/
 	array('','101','101 - Darjah / Tahun 1','Pendidikan rendah'),
@@ -523,11 +523,11 @@ $data['Pendidikan 2022'] = array(
 	array('','106','106 - Darjah / Tahun 6','Pendidikan rendah'),
 	/*
 	(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)
-	- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.
+	- Meneruskan program pendidikan asas yg dijalankan di peringkat rendah.
 	- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan
-	diri dengan	pendidikan umum yang bersepadu.
-	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang
-	berkelayakan khusus untuk bidang/subjek yang diajar.
+	diri dengan	pendidikan umum yg bersepadu.
+	- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yg
+	berkelayakan khusus untuk bidang/subjek yg diajar.
 	- Tempoh pengajian selama 3/4 tahun.
 	- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai
 	Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.
@@ -545,12 +545,12 @@ $data['Pendidikan 2022'] = array(
 	- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran
 	sastera, sains,	vokasional, teknikal atau agama.
 	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga
-	dan	perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang pekerjaan
+	dan	perdagangan. Kursus vokasional yg diberi adalah mengikut peluang-peluang pekerjaan
 	di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
 	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau
-	yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian
+	yg setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian
 	peringkat tertiari atau	memilih memasuki pasaran buruh.
-	- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan
+	- Terdapat juga pelajar sekolah vokasional/ teknik yg hanya menduduki peperiksaan
 	Sijil Kemahiran Malaysia.
 	*/
 	array('','205','205 - Tingkatan 4','Pendidikan menengah atas'),
@@ -561,30 +561,30 @@ $data['Pendidikan 2022'] = array(
 	. '- Merupakan program berbentuk modular, praktikal (hands-on) dan employable skills mengikut'
 	. ' keperluan semasa.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 6 bulan.<br>'
-	. '- Pelajar yang telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau'
+	. '- Pelajar yg telah menamatkan program peringkat ini boleh memasuki pasaran buruh atau'
 	. ' mengikuti latihan'
 	. ' lanjutan pendidikan vokasional/ teknik.<br>'
-	. '- Program yang dikelaskan di bawah kategori ini adalah seperti kursus GIAT MARA.<br>'
+	. '- Program yg dikelaskan di bawah kategori ini adalah seperti kursus GIAT MARA.<br>'
 	. ''),
 	/*
-	Bidang vokasional memberikan peluang kepada pelajar yang berpencapaian baik atau sederhana
+	Bidang vokasional memberikan peluang kepada pelajar yg berpencapaian baik atau sederhana
 	dalam akademik dan berminat kepada pembelajaran bercorak vokasional (berkaitan pekerjaan).
-	Isi kandungan bidang vokasional mempunyai komponen teori dan praktikal yang seimbang.
+	Isi kandungan bidang vokasional mempunyai komponen teori dan praktikal yg seimbang.
 	Objektif aliran ini adalah untuk membantu melahirkan separa profesional (juruteknik/
 	pembantu teknik) dalam bidang kejuruteraan dan bukan kejuruteraan. Setelah tamat pengajian,
 	pelajar berpeluang ke IPTA, IPTS, dan institut latihan kemahiran awam dan swasta, atau terus
 	ke alam pekerjaan.
 	- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di peringkat
 	Diploma (termasuk lima 5 bulan On The Job Training)
-	- Pelajar yang berjaya di peringkat Sijil akan dianugerahkan Sijil Vokasional Malaysia (SVM)
-	- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di
-	peringkat Diploma di Kolej Vokasional yang sama
-	- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian
-	di Kolej Vokasional yang sama dalam bidang kemahiran dan dianugerahkan
-	Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai
-	- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh
+	- Pelajar yg berjaya di peringkat Sijil akan dianugerahkan Sijil Vokasional Malaysia (SVM)
+	- Pelajar yg dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian di
+	peringkat Diploma di Kolej Vokasional yg sama
+	- Pelajar yg tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung pengajian
+	di Kolej Vokasional yg sama dalam bidang kemahiran dan dianugerahkan
+	Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yg dicapai
+	- Pelajar yg lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh
 	Senat Kolej Vokasional, Kementerian Pendidikan Malaysia
-	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten bagi
+	- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yg mahir dan kompeten bagi
 	memenuhi keperluan industri dan entrepreneur
 	*/
 	array('','208','208 - Kolej vokasional Tahun 1',''),
@@ -593,7 +593,7 @@ $data['Pendidikan 2022'] = array(
 	'(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>'
 	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
 	. '- Tempoh pengajian selama 1-2 tahun.<br>'
-	. '- Pelajar yang telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian'
+	. '- Pelajar yg telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian'
 	. 'di peringkat diploma/ijazah atau memasuki pasaran buruh.'),
 	array('','302','302 - Tingkatan 6 atas',''),
 	array('','303','303 - Matrikulasi',''),
@@ -604,7 +604,7 @@ $data['Pendidikan 2022'] = array(
 	. '- Pengajian peringkat matrikulasi merupakan persediaan untuk pengajian peringkat ijazah'
 	. ' dalam negara dan termasuk program persediaan bagi melanjutkan pelajaran ke luar negara.<br>'
 	. '- Tempoh pengajian selama 1–2 tahun.<br>'
-	. '- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yang merupakan'
+	. '- Ini termasuk pengajian tahap alpha dan beta di Universiti Multimedia (MMU) yg merupakan'
 	. ' pengajian tahun asas (foundation year) pertama dan kedua.<br>'
 	. ''),
 	array('','306','306 - Diploma Tahun 1','Untuk mereka di kolej vokasional/sek. teknik/'
@@ -619,10 +619,10 @@ $data['Pendidikan 2022'] = array(
 	'(umur pelajar: 18 tahun dan lebih)<br>'
 	. '- Kemasukan ke program sijil kemahiran khusus dan teknikal kebiasaannya memerlukan kepada'
 	. ' sekurang-kurangnya menamatkan pendidikan menengah atas seperti tamat Tingkatan 5 atau'
-	. ' lulus peperiksaan SPM/ SPM(V). Terdapat juga kursus yang mana syarat kemasukannya hanya'
+	. ' lulus peperiksaan SPM/ SPM(V). Terdapat juga kursus yg mana syarat kemasukannya hanya'
 	. ' lulus PMR atau setaraf dengannya.<br>'
-	. '- Merujuk kepada program sijil yang dijalankan oleh institusi latihan kemahiran khusus dan'
-	. ' teknikal yang menggunakan pensijilan yang diiktiraf oleh badan-badan tertentu seperti'
+	. '- Merujuk kepada program sijil yg dijalankan oleh institusi latihan kemahiran khusus dan'
+	. ' teknikal yg menggunakan pensijilan yg diiktiraf oleh badan-badan tertentu seperti'
 	. ' Jabatan Perkhidmatan Awam (JPA), Majlis Latihan Vokasional Kebangsaan (MLVK)/ Jabatan'
 	. ' Pembangunan Kemahiran (JPK) (Sijil Kemahiran Malaysia (SKM) Tahap 1 hingga 3),'
 	. ' Majlis Latihan Pertanian Kebangsaan (NATC), Majlis Amanah Rakyat (MARA) dan London Chamber'
@@ -630,35 +630,35 @@ $data['Pendidikan 2022'] = array(
 	. '- Contoh institusi : Institut Kemahiran Mara (IKM), Institut Kemahiran Belia Negara (IKBN),'
 	. ' Institut Latihan Perindustrian (ILP), Kolej Komuniti, State Skill Development Centre'
 	. ' (TATI, PSDC, NSSDC, KISMEC, PUSPATRI dll), Institut Pertanian dan kolej swasta'
-	. ' yang berkenaan.<br>'
+	. ' yg berkenaan.<br>'
 	. '- Tempoh kursus sekurang-kurangnya 6 bulan.<br>'
 	. '- Program ini menyediakan pelajar dengan kemahiran teknikal tertentu untuk memasuki'
-	. ' pasaran buruh atau meneruskan pengajian di peringkat yang lebih tinggi.<br>'
-	. '- Tidak termasuk dalam kategori ini adalah sijil yang diperoleh daripada politeknik,'
-	. ' universiti atau badan-badan yang memberi pengiktirafan atau yang setaraf dengannya'
+	. ' pasaran buruh atau meneruskan pengajian di peringkat yg lebih tinggi.<br>'
+	. '- Tidak termasuk dalam kategori ini adalah sijil yg diperoleh daripada politeknik,'
+	. ' universiti atau badan-badan yg memberi pengiktirafan atau yg setaraf dengannya'
 	. ' (kod 401–403).<br>'
 	. ''),
-	array('','402','402 - Program sijil oleh badan-badan yang memberi pengiktirafan',
-	'- Kemasukan ke program sijil dari badan-badan yang memberi pengiktirafan atau yang setaraf'
+	array('','402','402 - Program sijil oleh badan-badan yg memberi pengiktirafan',
+	'- Kemasukan ke program sijil dari badan-badan yg memberi pengiktirafan atau yg setaraf'
 	. ' dengannya memerlukan seseorang pelajar lulus peperiksaan SPM/ SPM(V) atau dengan'
 	. ' kelayakan tambahan dari kod 51.<br>'
 	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 6 bulan hingga 2 tahun.<br>'
-	. '- Kategori ini juga merangkumi program pensijilan daripada badan-badan yang memberi'
+	. '- Kategori ini juga merangkumi program pensijilan daripada badan-badan yg memberi'
 	. ' pengiktirafan seperti program pensijilan daripada Telekom Malaysia, Suruhanjaya Tenaga,'
 	. ' Jabatan Kesihatan dan Keselamatan Pekerja dan agensi-agensi lain.<br>'
 	. ''),
 	array('','403','403 - Program sijil dari kolej/ politeknik/ universiti atau setaraf dengannya',
-	'- Kemasukan ke program sijil dari kolej/ politeknik/ universiti atau yang setaraf'
+	'- Kemasukan ke program sijil dari kolej/ politeknik/ universiti atau yg setaraf'
 	. ' memerlukan seseorang pelajar lulus peperiksaan SPM/SPM(V) atau dengan kelayakan'
 	. ' tambahan dari kod 51.<br>'
 	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 6 bulan hingga 2 tahun.<br>'
-	. '- Merujuk kepada program pensijilan yang ditawarkan oleh institusi pengajian tinggi'
+	. '- Merujuk kepada program pensijilan yg ditawarkan oleh institusi pengajian tinggi'
 	. ' awam(IPTA) dan swasta(IPTS) khususnya di peringkat universiti/kolej termasuk'
 	. ' politeknik.<br>'
 	. '- Contoh: Kursus pensijilan ekonomi, perniagaan dan pengurusan, sains komputer &'
-	. ' teknologi maklumat, senibina dan perancangan bandar & ukur yang ditawarkan oleh'
+	. ' teknologi maklumat, senibina dan perancangan bandar & ukur yg ditawarkan oleh'
 	. ' kolej/politeknik/universiti.<br>'
 	. ''),
 	array('','404','404 - Program sijil perguruan/kejururawatan/ kesihatan bersekutu',
@@ -666,7 +666,7 @@ $data['Pendidikan 2022'] = array(
 	. ' seseorang pelajar lulus peperiksaan SPM/ SPM(V).<br>'
 	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 6 bulan hingga 2 tahun.<br>'
-	. '- Merujuk kepada program pensijilan yang ditawarkan oleh institusi pengajian awam dan'
+	. '- Merujuk kepada program pensijilan yg ditawarkan oleh institusi pengajian awam dan'
 	. ' swasta termasuk institusi di bawah Kementerian Pelajaran dan Kementerian Kesihatan.<br>'
 	. '- Contoh institusi: Institusi Perguruan Malaysia, Sekolah Kejururawatan, Institut Kesihatan'
 	. ' Umum, MASTERSKILL College of Nursing and Health, Kolej MAHSA dll.<br>'
@@ -674,15 +674,15 @@ $data['Pendidikan 2022'] = array(
 	array('','501','501 - Program diploma kemahiran khusus dan teknikal',
 	'- Kemasukan ke program diploma kemahiran khusus dan teknikal kebiasaannya memerlukan'
 	. ' sekurang-kurangnya menamatkan program sijil kemahiran khusus dan teknikal(kod 352).<br>'
-	. '- Merujuk kepada program diploma yang dijalankan oleh institusi latihan kemahiran'
-	. ' khusus dan teknikal yang menggunakan pensijilan yang diiktiraf oleh badan-badan'
+	. '- Merujuk kepada program diploma yg dijalankan oleh institusi latihan kemahiran'
+	. ' khusus dan teknikal yg menggunakan pensijilan yg diiktiraf oleh badan-badan'
 	. ' tertentu seperti Majlis Latihan Vokasional Kebangsaan (MLVK)/ Jabatan Pembangunan'
 	. ' Kemahiran (JPK) (Diploma Kemahiran Malaysia), Majlis Latihan Pertanian Kebangsaan'
 	. ' (NATC), Majlis Amanah Rakyat (MARA) dan London Chamber of Commerce and Industry'
 	. ' International Qualifications (LCCI) (Tahap 3 dan 4).<br>'
 	. '- Contoh institusi: Institut Kemahiran Tinggi Belia Negara (IKTBN), Advanced Technology'
 	. ' Training Centre (ADTEC), State Skill Development Centre (TATI, PSDC, NSSDC, KISMEC,'
-	. ' PUSPATRI dll) dan kolej swasta yang berkenaan.<br>'
+	. ' PUSPATRI dll) dan kolej swasta yg berkenaan.<br>'
 	. '- Program ini menyediakan pelajar dengan kemahiran teknikal tertentu.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 2 tahun.'
 	. ''),
@@ -691,20 +691,20 @@ $data['Pendidikan 2022'] = array(
 	'- Kemasukan ke program diploma lanjutan/ Higher National Diploma kemahiran khusus dan'
 	. ' teknikal kebiasaannya memerlukan sekurang-kurangnya tamat program diploma kemahiran'
 	. ' khusus dan teknikal (kod 356).<br>'
-	. '- Merujuk kepada program diploma yang dijalankan oleh institusi latihan kemahiran'
-	. ' khusus dan teknikal yang menggunakan pensijilan yang diiktiraf oleh badan-badan tertentu'
+	. '- Merujuk kepada program diploma yg dijalankan oleh institusi latihan kemahiran'
+	. ' khusus dan teknikal yg menggunakan pensijilan yg diiktiraf oleh badan-badan tertentu'
 	. ' seperti Majlis Latihan Vokasional Kebangsaan/ Jabatan Pembangunan Kemahiran (Diploma'
 	. ' Lanjutan Kemahiran Malaysia) dan Majlis Amanah Rakyat (MARA).<br>'
 	. '- Contoh institusi: Institusi Kemahiran Tinggi Belia Negara (IKTBN), Advanced Technology'
-	. ' Training Centre (ADTEC) dan kolej swasta yang berkenaan.<br>'
+	. ' Training Centre (ADTEC) dan kolej swasta yg berkenaan.<br>'
 	. '- Program ini menyediakan pelajar dengan kemahiran teknikal tertentu.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 3 tahun.<br>'
 	. ''),
 	array('','503','503 - Program diploma dari kolej/politeknik/universiti atau setaraf dengannya',
-	'- Kemasukan ke program diploma dari kolej/ politeknik/ universiti atau yang setaraf dengannya'
+	'- Kemasukan ke program diploma dari kolej/ politeknik/ universiti atau yg setaraf dengannya'
 	. ' memerlukan seseorang pelajar lulus peperiksaan SPM/SPM(V) atau tamat program sijil dari'
-	. ' kolej/ politeknik/ universiti atau yang setaraf dengannya.<br>'
-	. '- Merujuk kepada program diploma yang ditawarkan oleh institusi pengajian tinggi awam'
+	. ' kolej/ politeknik/ universiti atau yg setaraf dengannya.<br>'
+	. '- Merujuk kepada program diploma yg ditawarkan oleh institusi pengajian tinggi awam'
 	. ' (IPTA) dan swasta (IPTS) khususnya di peringkat universiti/ kolej termasuk politeknik.<br>'
 	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 2 tahun.'
@@ -714,7 +714,7 @@ $data['Pendidikan 2022'] = array(
 	. ' seseorang pelajar lulus peperiksaan SPM/ SPM(V).<br>'
 	. '- Lebih berorientasi amali dan spesifik kepada pekerjaan.<br>'
 	. '- Tempoh pengajian sekurang-kurangnya 2 tahun.<br>'
-	. '- Merujuk kepada program diploma yang ditawarkan oleh institusi pengajian tinggi awam dan'
+	. '- Merujuk kepada program diploma yg ditawarkan oleh institusi pengajian tinggi awam dan'
 	. ' swasta termasuk institusi di bawah Kementerian Pelajaran dan Kementerian Kesihatan.<br>'
 	. '- Contoh institusi: Institut Perguruan Malaysia (IPG), Kolej Kejururawatan/Sains Kesihatan'
 	. ' Bersekutu dan lain-lain di bawah Kementerian Kesihatan Malaysia, Institut Kesihatan Umum,'
@@ -727,15 +727,15 @@ $data['Pendidikan 2022'] = array(
 	. ' Bagaimanapun, golongan ini akan melalui kursus asas (foundation course) pada tahun'
 	. ' pertama pengajian. Contohnya, kursus peringkat ijazah sarjana muda di Universiti'
 	. ' Teknologi Malaysia.<br>'
-	. '- Merujuk kepada program ijazah sarjana muda/ diploma lanjutan yang ditawarkan oleh'
+	. '- Merujuk kepada program ijazah sarjana muda/ diploma lanjutan yg ditawarkan oleh'
 	. ' institusi pengajian tinggi awam (IPTA) dan swasta (IPTS) khususnya di peringkat'
-	. ' universiti/ kolej dalam dan luar negara yang diiktiraf.<br>'
-	. '- Program ini lebih bersifat teori dan adalah untuk menyediakan kelayakan yang mencukupi'
-	. ' untuk memasuki program penyelidikan lanjutan dan profesion yang berkemahiran tinggi.<br>'
+	. ' universiti/ kolej dalam dan luar negara yg diiktiraf.<br>'
+	. '- Program ini lebih bersifat teori dan adalah untuk menyediakan kelayakan yg mencukupi'
+	. ' untuk memasuki program penyelidikan lanjutan dan profesion yg berkemahiran tinggi.<br>'
 	. '- Program ini mempunyai jangka masa terkumpul untuk teori (di peringkat tertiari) selama'
 	. ' tiga tahun sepenuh masa. Melibatkan penulisan tesis atau kertas projek di tahun akhir'
 	. ' pengajian.<br>'
-	. '- Terdapat pelbagai pendekatan laluan yang boleh diikuti oleh seseorang pelajar untuk'
+	. '- Terdapat pelbagai pendekatan laluan yg boleh diikuti oleh seseorang pelajar untuk'
 	. ' mendapatkan ijazah pertama mereka. Selain daripada program pengajian biasa, terdapat'
 	. ' juga program lain seperti program berkembar (3+0 atau 2+1) dan francais.<br>'
 	. '- Kursus diploma lanjutan, diploma dalam bidang sebaran am dan diploma dalam bidang seni'
@@ -744,10 +744,10 @@ $data['Pendidikan 2022'] = array(
 	array('','701','701 - Program lepasan ijazah',
 	'- Kemasukan di peringkat ini memerlukan seseorang pelajar lulus ijazah sarjana muda atau'
 	. ' diploma lanjutan.<br>'
-	. '- Merujuk kepada program lepasan ijazah yang ditawarkan oleh institusi pengajian tinggi awam'
+	. '- Merujuk kepada program lepasan ijazah yg ditawarkan oleh institusi pengajian tinggi awam'
 	. ' (IPTA) dan badan-badan profesional dalam bidang-bidang tertentu.<br>'
 	. '- Program ini lebih bersifat aplikasi untuk memasuki profesion tertentu seperti perguruan'
-	. ' atau mendapat pengiktirafan bagi profesion yang berkenaan seperti kejuruteraan, perakaunan,'
+	. ' atau mendapat pengiktirafan bagi profesion yg berkenaan seperti kejuruteraan, perakaunan,'
 	. ' perundangan, arkitek, perubatan dan lain-lain.<br>'
 	. '- Pensijilan diperoleh melalui kursus/ peperiksaan/ latihan amali. Contohnya, latihan amali'
 	. ' bagi bidang undang-undang ialah chambering.<br>'
@@ -760,19 +760,19 @@ $data['Pendidikan 2022'] = array(
 	. ' muda.<br>'
 	. '- Program ini mempunyai jangka masa terkumpul untuk teori, penulisan tesis dan/atau'
 	. ' kertas projek sekurang-kurangnya satu tahun sepenuh masa.<br>'
-	. '- Merujuk kepada program ijazah sarjana yang ditawarkan oleh institusi pengajian tinggi'
+	. '- Merujuk kepada program ijazah sarjana yg ditawarkan oleh institusi pengajian tinggi'
 	. ' awam (IPTA) dan swasta (IPTS) khususnya di peringkat universiti/kolej dalam dan'
-	. ' luar negara yang diiktiraf.<br>'
+	. ' luar negara yg diiktiraf.<br>'
 	. ''),
 	array('','801','801 - Program ijazah falsafah kedoktoran',
 	'- Kemasukan di peringkat ini memerlukan seseorang pelajar tamat pengajian ijazah sarjana.<br>'
-	. '- Merujuk kepada program ijazah falsafah kedoktoran yang ditawarkan di peringkat universiti'
-	. ' dalam dan luar negara yang diiktiraf.<br>'
-	. '- Peringkat ini dikhaskan untuk program pendidikan tertiari yang membawa kepada'
+	. '- Merujuk kepada program ijazah falsafah kedoktoran yg ditawarkan di peringkat universiti'
+	. ' dalam dan luar negara yg diiktiraf.<br>'
+	. '- Peringkat ini dikhaskan untuk program pendidikan tertiari yg membawa kepada'
 	. ' penganugerahan kelayakan penyelidikan lanjutan. Program ditumpukan kepada penyelidikan'
 	. ' sendiri dan pengajian lanjutan.<br>'
-	. '- Memerlukan penyerahan tesis atau disertasi yang bermutu yang boleh diterbitkan dan'
-	. ' hasil penyelidikan sendiri yang merupakan sumbangan yang signifikan kepada ilmu'
+	. '- Memerlukan penyerahan tesis atau disertasi yg bermutu yg boleh diterbitkan dan'
+	. ' hasil penyelidikan sendiri yg merupakan sumbangan yg signifikan kepada ilmu'
 	. ' pengetahuan. Tidak sepenuhnya berasaskan kepada kerja kursus.<br>'
 	. ''),
 	array('','802','802 - Skim pasca kedoktoran',
@@ -781,32 +781,32 @@ $data['Pendidikan 2022'] = array(
 	. ' penerbitan di peringkat nasional dan antarabangsa.<br>'
 	. '- Peringkat ini dikhaskan kepada program pendidikan/penyelidikan selepas seseorang itu'
 	. ' telah memperolehi ijazah falsafah kedoktoran bertujuan untuk memperoleh kemahiran'
-	. ' profesional yang diperlukan dalam kemajuan kerjaya.<br>'
-	. '- Pelajar yang mengikuti program ini akan memegang jawatan postdoctoral fellow bagi tempoh'
-	. ' 6 bulan hingga 5 tahun yang dikhususkan untuk menjalankan penyelidikan. Program ini juga'
-	. ' telah ditawarkan kepada mereka yang memfokuskan kerjaya dalam bidang pendidikan yang'
+	. ' profesional yg diperlukan dalam kemajuan kerjaya.<br>'
+	. '- Pelajar yg mengikuti program ini akan memegang jawatan postdoctoral fellow bagi tempoh'
+	. ' 6 bulan hingga 5 tahun yg dikhususkan untuk menjalankan penyelidikan. Program ini juga'
+	. ' telah ditawarkan kepada mereka yg memfokuskan kerjaya dalam bidang pendidikan yg'
 	. ' dikenali sebagai "teaching post-docs".'
 	. ''),
 	array('','1xx','Pendidikan rendah:','(umur pelajar: 6-12 tahun);'
 	. ' (pengajian terkumpul: 1-6 tahun)<br>'
 	. '- Direkabentuk untuk menyediakan pendidikan umum bertujuan melengkapkan murid-murid dengan'
-	. ' kemahiran asas membaca, menulis dan mengira (3M) serta mewujudkan individu yang'
+	. ' kemahiran asas membaca, menulis dan mengira (3M) serta mewujudkan individu yg'
 	. ' seimbang.<br>'
 	. '- Murid-murid akan mengambil ujian penilaian di peringkat akhir pendidikan rendah,'
 	. ' sebelum menyambung pelajaran ke peringkat menengah rendah.<br>'
 	. '- Tempoh pengajian enam tahun tetapi boleh tamat diikuti dalam tempoh 5 hingga 7 tahun.<br>'
-	. '- Kelayakan masuk mengikut peraturan yang ditetapkan oleh kerajaan atau sekolah'
+	. '- Kelayakan masuk mengikut peraturan yg ditetapkan oleh kerajaan atau sekolah'
 	. ' rendah berkenaan.<br>'
 	. '- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program'
 	. ' pendidikan ini.<br>'
 	. ''),
 	array('','2xx','Pendidikan Menengah Rendah','(umur pelajar: 12-15 tahun);'
 	. ' (pengajian terkumpul: 7-10 tahun)<br>'
-	. '- Meneruskan program pendidikan asas yang dijalankan di peringkat rendah.<br>'
+	. '- Meneruskan program pendidikan asas yg dijalankan di peringkat rendah.<br>'
 	. '- Disediakan dengan memberi lebih masa kepada murid-murid untuk menguasai dan melengkapkan'
-	. ' diri dengan pendidikan umum yang bersepadu.<br>'
-	. '- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yang'
-	. ' berkelayakan khusus untuk bidang/subjek yang diajar.<br>'
+	. ' diri dengan pendidikan umum yg bersepadu.<br>'
+	. '- Mesti mengikut masa di mana ianya dirancang berorientasikan subjek menggunakan guru yg'
+	. ' berkelayakan khusus untuk bidang/subjek yg diajar.<br>'
 	. '- Tempoh pengajian selama 3/4 tahun.<br>'
 	. '- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk'
 	. ' menguasai Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu'
@@ -821,34 +821,34 @@ $data['Pendidikan 2022'] = array(
 	. '- Selain menerima pendidikan umum, pelajar juga diberi pilihan untuk menjurus dalam aliran'
 	. ' sastera, sains, vokasional, teknikal atau agama.<br>'
 	. '- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah'
-	. ' tangga dan perdagangan. Kursus vokasional yang diberi adalah mengikut peluang-peluang'
+	. ' tangga dan perdagangan. Kursus vokasional yg diberi adalah mengikut peluang-peluang'
 	. ' pekerjaan di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai'
 	. ' sekolah teknik.<br>'
 	. '- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau'
-	. ' yang setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian'
+	. ' yg setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian'
 	. ' peringkat tertiari atau memilih memasuki pasaran buruh.<br>'
-	. '- Terdapat juga pelajar sekolah vokasional/ teknik yang hanya menduduki peperiksaan'
+	. '- Terdapat juga pelajar sekolah vokasional/ teknik yg hanya menduduki peperiksaan'
 	. ' Sijil Kemahiran Malaysia.<br>'
 	. ''),
-	array('','2xx','Bidang vokasional','-memberikan peluang kepada pelajar yang berpencapaian'
+	array('','2xx','Bidang vokasional','-memberikan peluang kepada pelajar yg berpencapaian'
 	. ' baik atau sederhana dalam akademik dan berminat kepada pembelajaran bercorak vokasional'
 	. ' (berkaitan pekerjaan). Isi kandungan bidang vokasional mempunyai komponen teori dan'
-	. ' praktikal yang seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa'
+	. ' praktikal yg seimbang. Objektif aliran ini adalah untuk membantu melahirkan separa'
 	. ' profesional (juruteknik/pembantu teknik) dalam bidang kejuruteraan dan bukan'
 	. ' kejuruteraan. Setelah tamat pengajian, pelajar berpeluang ke IPTA, IPTS, dan institut'
 	. ' latihan kemahiran awam dan swasta, atau terus ke alam pekerjaan.<br>'
 	. '- Program ini merangkumi 2 tahun pengajian di peringkat Sijil dan 2 tahun 6 bulan di'
 	. ' peringkat Diploma (termasuk lima 5 bulan On The Job Training)<br>'
-	. '- Pelajar yang berjaya di peringkat Sijil akan dianugerahkan'
+	. '- Pelajar yg berjaya di peringkat Sijil akan dianugerahkan'
 	. ' Sijil Vokasional Malaysia (SVM)<br>'
-	. '- Pelajar yang dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian'
-	. ' di peringkat Diploma di Kolej Vokasional yang sama<br>'
-	. '- Pelajar yang tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung'
-	. ' pengajian di Kolej Vokasional yang sama dalam bidang kemahiran dan dianugerahkan'
-	. ' Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yang dicapai<br>'
-	. '- Pelajar yang lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh'
+	. '- Pelajar yg dianugerahkan SVM dan melepasi syarat kemasukan layak menyambung pengajian'
+	. ' di peringkat Diploma di Kolej Vokasional yg sama<br>'
+	. '- Pelajar yg tidak melepasi syarat kemasukan ke peringkat Diploma akan menyambung'
+	. ' pengajian di Kolej Vokasional yg sama dalam bidang kemahiran dan dianugerahkan'
+	. ' Sijil Kemahiran Malaysia (SKM) berdasarkan tahap kompetensi yg dicapai<br>'
+	. '- Pelajar yg lulus pengajian di peringkat Diploma akan dianugerahkan Diploma oleh'
 	. ' Senat Kolej Vokasional, Kementerian Pendidikan Malaysia<br>'
-	. '- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yang mahir dan kompeten'
+	. '- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yg mahir dan kompeten'
 	. ' bagi memenuhi keperluan industri dan entrepreneur<br>'
 	. ''),
 );
@@ -889,20 +889,20 @@ $data['sijil 2022'] = array(
 	array('','861','861 - Doktor Falsafah(PhD)',''),
 	array('','862','862 - Diploma/Sijil pasca kedoktoran',''),
 	array('','021','021 - Masih belum bersekolah','-'
-	. ' Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
-	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada 9 tahun dan'
+	. ' Merujuk kepada responden yg dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
+	. ' pada Ruangan 15 iaitu kanak-kanak yg berumur kurang daripada 9 tahun dan'
 	. ' masih belum bersekolah'),
-	array('','020','020 - Tiada Sijil','Merujuk kepada seseorang yang masih bersekolah atau telah'
+	array('','020','020 - Tiada Sijil','Merujuk kepada seseorang yg masih bersekolah atau telah'
 	. ' tamat persekolahan tanpa memperoleh sebarang sijil.'),
-	array('','022','022 - Tiada berkenaan','- Merujuk kepada responden yang dicatatkan sebagai'
+	array('','022','022 - Tiada berkenaan','- Merujuk kepada responden yg dicatatkan sebagai'
 	. '	`Tiada pendidikan` (Kod 004) atau `Pendidikan tidak formal` (Kod 003) pada Ruangan 15'
-	. ' kecuali mereka yang memiliki sijil dari badan-badan yang memberi pengiktirafan tanpa'
+	. ' kecuali mereka yg memiliki sijil dari badan-badan yg memberi pengiktirafan tanpa'
 	. ' melalui pendidikan rasmi.<br>'
-	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
+	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.'),
 	array('','023','023 - Sijil Pendidikan Bukan Formal','-'
-	. ' Merujuk kepada mereka yang menerima	sijil melalui program seperti latihan, kursus dalam'
+	. ' Merujuk kepada mereka yg menerima	sijil melalui program seperti latihan, kursus dalam'
 	. '	perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
-	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal`'
+	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai ‘Pendidikan Bukan Formal`'
 	. '	(Kod 006) sahaja pada Ruangan 16.'),
 );
 #--------------------------------------------------------------------------------------------------
@@ -910,23 +910,23 @@ $data['PendidikanSijil 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun','020 - Tiada Sijil'),
 	array('','002','002 - Pendidikan pra-sekolah','020 - Tiada Sijil'),
 	array('','003','003 - Pendidikan tidak formal','022 - Tiada berkenaan<br>'
-	. '- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
-	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil'
-	. ' dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
-	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
+	. '- Merujuk kepada responden yg dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
+	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yg memiliki sijil'
+	. ' dari badan-badan yg memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.'),
 	array('','004','004 - Tiada pendidikan','022 - Tiada berkenaan<br>'
-	. '- Merujuk kepada responden yang dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
-	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yang memiliki sijil'
-	. ' dari badan-badan yang memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
-	. '- Termasuk juga mereka yang memperoleh sijil agama sahaja.'),
+	. '- Merujuk kepada responden yg dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
+	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yg memiliki sijil'
+	. ' dari badan-badan yg memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
+	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.'),
 	array('','005','005 - Masih belum bersekolah','021 - Masih belum bersekolah<br>'
-	. '- Merujuk kepada responden yang dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
-	. ' pada Ruangan 15 iaitu kanak-kanak yang berumur kurang daripada 9 tahun dan'
+	. '- Merujuk kepada responden yg dikategorikan sebagai `Masih belum bersekolah` (Kod 021)'
+	. ' pada Ruangan 15 iaitu kanak-kanak yg berumur kurang daripada 9 tahun dan'
 	. ' masih belum bersekolah'),
 	array('','006','006 - Pendidikan bukan formal','023 - Sijil Pendidikan Bukan Formal<br>'
-	. '- Merujuk kepada mereka yang menerima sijil melalui program seperti latihan, kursus dalam'
+	. '- Merujuk kepada mereka yg menerima sijil melalui program seperti latihan, kursus dalam'
 	. ' perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
-	. '- Tidak tertakluk kepada responden yang dicatatkan sebagai ‘Pendidikan Bukan Formal`'
+	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai ‘Pendidikan Bukan Formal`'
 	. ' (Kod 006) sahaja pada Ruangan 16.'),
 	array('','101','101 - Darjah / Tahun 1',''),
 	array('','102','102 - Darjah / Tahun 2',''),
@@ -958,7 +958,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','311','311 - Institusi latihan kemahiran Tahun 2',''),
 	array('','401','401 - Program sijil kemahiran khusus dan teknikal',
 	'352 - Sijil kemahiran khusus dan teknikal'),
-	array('','402','402 - Program sijil oleh badan-badan yang memberi pengiktirafan',
+	array('','402','402 - Program sijil oleh badan-badan yg memberi pengiktirafan',
 	'353 - Sijil drpd badan2 yg memberi pengiktirafan @ yg setaraf'),
 	array('','403','403 - Program sijil dari kolej/politeknik/universiti @ setaraf dengannya',
 	'354 - Sijil drpd kolej @ yg setaraf<br>'
@@ -1008,7 +1008,7 @@ $data['Pengajian 2022'] = array(
 	. '0114 - Latihan perguruan dengan pengkhususan subjek<br>'
 	. '0119 - Latihan perguruan untuk subjek vokasional/praktikal'),
 	array('','018 : Program <em>inter-disciplinary</em>',
-	'0188 - Program <em>inter-disciplinary</em> yang melibatkan pendidikan'),
+	'0188 - Program <em>inter-disciplinary</em> yg melibatkan pendidikan'),
 	array('','02 : Kemanusiaan & kesenian<br>020 : Kemanusiaan & kesenian<br>',
 	'0200 - Kemanusiaan & kesenian'),
 	array('','02 : Kemanusiaan & kesenian<br>021 : Kesenian<br>',
@@ -1031,7 +1031,7 @@ $data['Pengajian 2022'] = array(
 	. '0233 - Bahasa Kebangsaan (Bahasa Malaysia)<br>'
 	. '0239 - Bahasa-bahasa lain'),
 	array('','02 : Kemanusiaan & kesenian<br>'
-	. '028 : Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
+	. '028 : Program <em>inter-discpilinary</em> yg melibatkan kemanusiaan & kesenian',
 	'0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
 	array('','02 : Kemanusiaan & kesenian<br>'
 	. '029 : Kemanusiaan & kesenian lain',
@@ -1050,9 +1050,9 @@ $data['Pengajian 2022'] = array(
 	. '0322 - Perpustakaan, maklumat & arkib<br>'
 	. '0323 - Media & komunikasi<br>'
 	. '0329 - Kewartawanan & maklumat lain<br>'),
-	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	array('','038 Program <em>inter-discplinary</em> yg melibatkan sains sosial,'
 	. ' kewartawanan & maklumat<br>',
-	'0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	'0388 - Program <em>inter-discplinary</em> yg melibatkan sains sosial,'
 	. ' kewartawanan & maklumat'),
 	array('','039 Sains sosial, kewartawanan & maklumat lain<br>',
 	'0399 - Sains sosial, kewartawanan & maklumat lain'),
@@ -1070,9 +1070,9 @@ $data['Pengajian 2022'] = array(
 	. '0419 - Perniagaan & pentadbiran lain'),
 	array('','042 Undang-undang (<em>LAW</em>)<br>',
 	'0421 - Undang-undang (<em>LAW</em>)'),
-	array('','048 Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
+	array('','048 Program <em>inter-discplinary</em> yg melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang<br>',
-	'0488 - Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
+	'0488 - Program <em>inter-discplinary</em> yg melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang'),
 	array('','049 Perniagaan, pentadbiran & undang-undang lain<br>',
 	'0499 - Perniagaan, pentadbiran & undang-undang lain'),
@@ -1100,9 +1100,9 @@ $data['Pengajian 2022'] = array(
 	'0540 - Matematik & statistik<br>'
 	. '0541 - Matematik<br>'
 	. '0542 - Statistik'),
-	array('','058 Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
+	array('','058 Program <em>inter-discplinary</em> yg melibatkan sains tulen,'
 	. ' matematik & statistik<br>',
-	'0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
+	'0588 - Program <em>inter-discplinary</em> yg melibatkan sains tulen,'
 	. ' matematik & statistik'),
 	array('','059 Sains tulen, matematik & statistik lain<br>',
 	'0599 - Sains tulen, matematik & statistik lain'),
@@ -1115,9 +1115,9 @@ $data['Pengajian 2022'] = array(
 	. '0614 - Penggunaan komputer<br>'
 	. '0619 - Teknologi maklumat & komunikasi lain'),
 	array('','06 Teknologi maklumat & komunikasi<br>'
-	. '068 Program <em>inter-discplinary</em> yang melibatkan'
+	. '068 Program <em>inter-discplinary</em> yg melibatkan'
 	. ' teknologi maklumat & komunikasi<br>',
-	'0688 - Program <em>inter-discplinary</em> yang melibatkan'
+	'0688 - Program <em>inter-discplinary</em> yg melibatkan'
 	. ' teknologi maklumat & komunikasi'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
 	. '070 Kejuruteraan, pembuatan & pembinaan<br>',
@@ -1149,9 +1149,9 @@ $data['Pengajian 2022'] = array(
 	. '074 Teknologi kejuruteraan',
 	'0741 - Teknologi kejuruteraan'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
-	. '078 Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
+	. '078 Program <em>inter-discplinary</em> yg melibatkan kejuruteraan,'
 	. ' pembuatan & pembinaan<br>',
-	'0788 - Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
+	'0788 - Program <em>inter-discplinary</em> yg melibatkan kejuruteraan,'
 	. ' pembuatan & pembinaan'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan<br>'
 	. '079 Kejuruteraan, pembuatan & pembinaan lain<br>',
@@ -1166,9 +1166,9 @@ $data['Pengajian 2022'] = array(
 	array('','082 Perhutanan','0821 - Perhutanan'),
 	array('','083 Perikanan','0831 - Perikanan'),
 	array('','084 Veterinar','0841 - Veterinar'),
-	array('','088 Program <em>inter-discplinary</em> yang melibatkan pertanian,'
+	array('','088 Program <em>inter-discplinary</em> yg melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar<br>',
-	'0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian,'
+	'0888 - Program <em>inter-discplinary</em> yg melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar'),
 	array('','089 Pertanian, perhutanan, perikanan & veterinar lain<br>',
 	'0899 - Pertanian, perhutanan, perikanan & veterinar lain'),
@@ -1188,8 +1188,8 @@ $data['Pengajian 2022'] = array(
 	. '0922 - Perkhidmatan asuhan kanak-kanak & belia<br>'
 	. '0923 - Kerja sosial & kaunseling<br>'
 	. '0929 - Perkhidmatan sosial lain<br>'),
-	array('','098 Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan',
-	'0988 - Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan'),
+	array('','098 Program <em>inter-discplinary</em> yg melibatkan kesihatan & kebajikan',
+	'0988 - Program <em>inter-discplinary</em> yg melibatkan kesihatan & kebajikan'),
 	array('','099 Kesihatan & kebajikan lain','0999 - Kesihatan & kebajikan lain'),
 	array('','10 Perkhidmatan | 100 Perkhidmatan','1000 - Perkhidmatan'),
 	array('','101 Perkhidmatan personel',
@@ -1209,8 +1209,8 @@ $data['Pengajian 2022'] = array(
 	. '1039 - Perkhidmatan keselamatan lain'),
 	array('','104 : Perkhidmatan pengangkutan<br>',
 	'1041 - Perkhidmatan pengangkutan'),
-	array('','108 : Program <em>inter-discplinary</em> yang melibatkan perkhidmatan<br>',
-	'1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
+	array('','108 : Program <em>inter-discplinary</em> yg melibatkan perkhidmatan<br>',
+	'1088 - Program <em>inter-discplinary</em> yg melibatkan perkhidmatan'),
 	array('','109 : Perkhidmatan lain','1099 - Perkhidmatan lain'),
 	array('','99 : Lain-lain | 999 : Lain-lain<br>','9999 - Lain-lain'),
 );
@@ -1237,7 +1237,7 @@ $data['Bidang'] = array(
 	array('','01 Pendidikan | 011 Pendidikan',
 	'0119 - Latihan perguruan untuk subjek vokasional/praktikal'),
 	array('','018 Program <em>inter-disciplinary</em>',
-	'0188 - Program <em>inter-disciplinary</em> yang melibatkan pendidikan'),
+	'0188 - Program <em>inter-disciplinary</em> yg melibatkan pendidikan'),
 	array('','02 Kemanusiaan & kesenian | 020 Kemanusiaan & kesenian',
 	'0200 - Kemanusiaan & kesenian'),
 	array('','02 Kemanusiaan & kesenian | 021 Kesenian',
@@ -1261,7 +1261,7 @@ $data['Bidang'] = array(
 	'0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
 	array('','02 Kemanusiaan & kesenian | 023 Bahasa','0239 - Bahasa-bahasa lain'),
 	array('','02 Kemanusiaan & kesenian'
-	. '028 Program <em>inter-discpilinary</em> yang melibatkan kemanusiaan & kesenian',
+	. '028 Program <em>inter-discpilinary</em> yg melibatkan kemanusiaan & kesenian',
 	'0288 - Program <em>inter-discpilinary</em> yamg melibatkan kemanusiaan & kesenian'),
 	array('','02 Kemanusiaan & kesenian | 029 Kemanusiaan & kesenian lain',
 	'0299 - Kemanusiaan & kesenian lain'),
@@ -1277,9 +1277,9 @@ $data['Bidang'] = array(
 	array('','032 Kewartawanan & maklumat','0322 - Perpustakaan, maklumat & arkib'),
 	array('','032 Kewartawanan & maklumat','0323 - Media & komunikasi'),
 	array('','032 Kewartawanan & maklumat','0329 - Kewartawanan & maklumat lain'),
-	array('','038 Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	array('','038 Program <em>inter-discplinary</em> yg melibatkan sains sosial,'
 	. ' kewartawanan & maklumat',
-	'0388 - Program <em>inter-discplinary</em> yang melibatkan sains sosial,'
+	'0388 - Program <em>inter-discplinary</em> yg melibatkan sains sosial,'
 	. ' kewartawanan & maklumat'),
 	array('','039 Sains sosial, kewartawanan & maklumat lain',
 	'0399 - Sains sosial, kewartawanan & maklumat lain'),
@@ -1295,9 +1295,9 @@ $data['Bidang'] = array(
 	array('','041 Perniagaan & pentadbiran','0417 - Kemahiran kerja'),
 	array('','041 Perniagaan & pentadbiran','0419 - Perniagaan & pentadbiran lain'),
 	array('','042 Undang-undang (<em>LAW</em>)','0421 - Undang-undang (<em>LAW</em>)'),
-	array('','048 Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
+	array('','048 Program <em>inter-discplinary</em> yg melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang',
-	'0488 - Program <em>inter-discplinary</em> yang melibatkan perniagaan,'
+	'0488 - Program <em>inter-discplinary</em> yg melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang'),
 	array('','049 Perniagaan, pentadbiran & undang-undang lain',
 	'0499 - Perniagaan, pentadbiran & undang-undang lain'),
@@ -1326,9 +1326,9 @@ $data['Bidang'] = array(
 	'0541 - Matematik'),
 	array('','05 Sains tulen, matematik & statistik | 054 Matematik & statistik',
 	'0542 - Statistik'),
-	array('','058 Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
+	array('','058 Program <em>inter-discplinary</em> yg melibatkan sains tulen,'
 	. ' matematik & statistik',
-	'0588 - Program <em>inter-discplinary</em> yang melibatkan sains tulen,'
+	'0588 - Program <em>inter-discplinary</em> yg melibatkan sains tulen,'
 	. ' matematik & statistik'),
 	array('','059 Sains tulen, matematik & statistik lain',
 	'0599 - Sains tulen, matematik & statistik lain'),
@@ -1345,8 +1345,8 @@ $data['Bidang'] = array(
 	array('','06 Teknologi maklumat & komunikasi | 061 Teknologi maklumat & komunikasi',
 	'0619 - Teknologi maklumat & komunikasi lain'),
 	array('','06 Teknologi maklumat & komunikasi | '
-	. '068 Program <em>inter-discplinary</em> yang melibatkan teknologi maklumat & komunikasi',
-	'0688 - Program <em>inter-discplinary</em> yang melibatkan teknologi maklumat & komunikasi'),
+	. '068 Program <em>inter-discplinary</em> yg melibatkan teknologi maklumat & komunikasi',
+	'0688 - Program <em>inter-discplinary</em> yg melibatkan teknologi maklumat & komunikasi'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan | 070 Kejuruteraan, pembuatan & pembinaan',
 	'0700 - Kejuruteraan, pembuatan & pembinaan'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan | 071 Kejuruteraan & kejuruteraan dagangan',
@@ -1386,8 +1386,8 @@ $data['Bidang'] = array(
 	array('','07 Kejuruteraan, pembuatan & pembinaan | 074 Teknologi kejuruteraan',
 	'0741 - Teknologi kejuruteraan'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan | 078 Program <em>inter-discplinary</em>'
-	. ' yang melibatkan kejuruteraan, pembuatan & pembinaan',
-	'0788 - Program <em>inter-discplinary</em> yang melibatkan kejuruteraan,'
+	. ' yg melibatkan kejuruteraan, pembuatan & pembinaan',
+	'0788 - Program <em>inter-discplinary</em> yg melibatkan kejuruteraan,'
 	. ' pembuatan & pembinaan'),
 	array('','07 Kejuruteraan, pembuatan & pembinaan | '
 	. '079 Kejuruteraan, pembuatan & pembinaan lain',
@@ -1401,9 +1401,9 @@ $data['Bidang'] = array(
 	array('','082 Perhutanan','0821 - Perhutanan'),
 	array('','083 Perikanan','0831 - Perikanan'),
 	array('','084 Veterinar','0841 - Veterinar'),
-	array('','088 Program <em>inter-discplinary</em> yang melibatkan pertanian,'
+	array('','088 Program <em>inter-discplinary</em> yg melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar',
-	'0888 - Program <em>inter-discplinary</em> yang melibatkan pertanian,'
+	'0888 - Program <em>inter-discplinary</em> yg melibatkan pertanian,'
 	. ' perhutanan, perikanan & veterinar'),
 	array('','089 Pertanian, perhutanan, perikanan & veterinar lain',
 	'0899 - Pertanian, perhutanan, perikanan & veterinar lain'),
@@ -1421,8 +1421,8 @@ $data['Bidang'] = array(
 	array('','092 Perkhidmatan sosial','0922 - Perkhidmatan asuhan kanak-kanak & belia'),
 	array('','092 Perkhidmatan sosial','0923 - Kerja sosial & kaunseling'),
 	array('','092 Perkhidmatan sosial','0929 - Perkhidmatan sosial lain'),
-	array('','098 Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan',
-	'0988 - Program <em>inter-discplinary</em> yang melibatkan kesihatan & kebajikan'),
+	array('','098 Program <em>inter-discplinary</em> yg melibatkan kesihatan & kebajikan',
+	'0988 - Program <em>inter-discplinary</em> yg melibatkan kesihatan & kebajikan'),
 	array('','099 Kesihatan & kebajikan lain','0999 - Kesihatan & kebajikan lain'),
 	array('','10 Perkhidmatan | 100 Perkhidmatan','1000 - Perkhidmatan'),
 	array('','101 Perkhidmatan personel','1011 - Perkhidmatan domestik'),
@@ -1440,8 +1440,8 @@ $data['Bidang'] = array(
 	array('','103 Perkhidmatan keselamatan','1032 - Perlindungan diri & harta benda'),
 	array('','103 Perkhidmatan keselamatan','1039 - Perkhidmatan keselamatan lain'),
 	array('','104 Perkhidmatan pengangkutan','1041 - Perkhidmatan pengangkutan'),
-	array('','108 Program <em>inter-discplinary</em> yang melibatkan perkhidmatan',
-	'1088 - Program <em>inter-discplinary</em> yang melibatkan perkhidmatan'),
+	array('','108 Program <em>inter-discplinary</em> yg melibatkan perkhidmatan',
+	'1088 - Program <em>inter-discplinary</em> yg melibatkan perkhidmatan'),
 	array('','109 Perkhidmatan lain','1099 - Perkhidmatan lain'),
 	array('','99 Lain-lain | 999 Lain-lain','9999 - Lain-lain'),
 );
@@ -1620,7 +1620,7 @@ pada bulan semasa lebih rendah daripada keupayaan pengeluaran penuh, sila tandak
 $data['bezaUntungRugi'] = array(
 	array('','110003','a) Perubahan model perniagaan','Business model change'),
 	array('','110004','b) Impak kadar pertukaran matawang','Currency exchange rate impact'),
-	array('','110005','c) Perubahan harga barangan yang dijual atau perkhidmatan yang diberikan',
+	array('','110005','c) Perubahan harga barangan yg dijual atau perkhidmatan yg diberikan',
 	'Price changes in goods sold or services rendered'),
 	array('','110006','d) Memberi kontrak kepada pertubuhan luar','Contracting out'),
 	array('','110007','e) Perubahan organisasi','Organisation change'),
@@ -1629,7 +1629,7 @@ $data['bezaUntungRugi'] = array(
 	array('','110009','g) Bencana alam','Natural disaster'),
 	array('','110010','h) Kemelesetan','Recession'),
 	array('','110011','i) Pertukaran produk','Change in product line'),
-	array('','110012','j) Unit perniagaan yang dijual','Sold business units'),
+	array('','110012','j) Unit perniagaan yg dijual','Sold business units'),
 	array('','110013','k) Perluasan','Expansion'),
 	array('','110014','l) Kontrak baharu/hilang','New/lost contract'),
 	array('','110015','m) Penutupan kilang/premis','Factory/premises closures'),
@@ -1642,10 +1642,10 @@ $data['bezaUntungRugi'] = array(
 	array('','S08B02','Bekalan bahan tidak mencukupi','Insufficient material supply'),
 	array('','S08B03','Pembaikan & penyelenggaraan mesin dan kelengkapan',
 	'Repair & maintenance of machinery and equipment'),
-	array('','S08B04','Inventori yang mencukupi','Sufficient inventory'),
+	array('','S08B04','Inventori yg mencukupi','Sufficient inventory'),
 	array('','S08B05','Permintaan kurang','Less requests'),
 	array('','S08B06','Kekurangan tenaga buruh','Labor shortage'),
-	array('','S08B07','Bahan bakar atau tenaga elektrik yang tidak mencukupi',
+	array('','S08B07','Bahan bakar atau tenaga elektrik yg tidak mencukupi',
 	'Insufficient fuel or electricity'),
 	array('','S08B08','Limitasi atau kerosakan mesin dan kelengkapan',
 	'Limitation or damage to machinery and equipment'),
