@@ -1658,6 +1658,7 @@ $data['bezaUntungRugi'] = array(
 	array('','S08B15','Operasi bermusim','Seasonal operation'),
 	array('','S08B16','Sekatan berkaitan alam sekitar','Environmental restrictions'),
 	array('','S08B17','Isu kualiti produk atau perkhidmatan','Product or service quality issues'),
+	array('','POM001','Kos overhead tinggi seperti sewa, insurans, utiliti','High overhead cost'),
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
