@@ -247,8 +247,8 @@ $data['test123'] = array(
 	'0011 Program & kelayakan asas',''),
 	array('','002-Literasi & numerasi','0021 Literasi & numerasi',''),
 	array('','003-Kemahiran & pembangunan peribadi ','0031 Kemahiran & pembangunan peribadi',''),
-	array('','009 Program & kelayakan generik yang tidak dikelaskan di tempat lain',
-	'0099 Program & kelayakan generik yang tidak dikelaskan di tempat lain',''),
+	array('','009 Program & kelayakan generik yg tidak dikelaskan di tempat lain',
+	'0099 Program & kelayakan generik yg tidak dikelaskan di tempat lain',''),
 	array('','01-Pendidikan','',''),
 	array('','0110 Pendidikan tidak ditakrifkan lagi','',''),
 	array('','0111 Sains pendidikan','',''),
@@ -256,8 +256,8 @@ $data['test123'] = array(
 	array('','0113 Latihan guru tanpa pengkhususan mata pelajaran','',''),
 	array('','0114 Latihan guru dengan pengkhususan mata pelajaran','',''),
 	array('','0119 Pendidikan tidak dikelaskan di tempat lain','',''),
-	array('','018 Program & kelayakan antara disiplin yang melibatkan pendidikan','',''),
-	array('','0188 Program & kelayakan antara disiplin yang melibatkan pendidikan','',''),
+	array('','018 Program & kelayakan antara disiplin yg melibatkan pendidikan','',''),
+	array('','0188 Program & kelayakan antara disiplin yg melibatkan pendidikan','',''),
 	array('','02 Seni & kemanusiaan','',''),
 	array('','021 Seni & kemanusiaan tidak ditakrifkan lagi','',''),
 	array('','0200 Seni & kemanusiaan tidak ditakrifkan lagi','',''),
@@ -280,9 +280,9 @@ $data['test123'] = array(
 	array('','0231 Pemerolehan bahasa','',''),
 	array('','0232 Kesusasteraan & linguistik','',''),
 	array('','0239 Bahasa tidak dikelaskan di tempat lain','',''),
-	array('','028 Program & kelayakan antara disiplin yang melibatkan'
+	array('','028 Program & kelayakan antara disiplin yg melibatkan'
 	. 'seni & kemanusiaan','',''),
-	array('','0288 Program & kelayakan antara disiplin yang melibatkan'
+	array('','0288 Program & kelayakan antara disiplin yg melibatkan'
 	. 'seni & kemanusiaan','',''),
 	array('','029 Seni & kemanusiaan tidak dikelaskan di tempat lain','',''),
 	array('','0299 Seni & kemanusiaan tidak dikelaskan di tempat lain','',''),
@@ -301,9 +301,9 @@ $data['test123'] = array(
 	array('','0321 Kewartawanan & pelaporan','',''),
 	array('','0322 Perpustakaan, maklumat & kajian arkib','',''),
 	array('','0329 Kewartawanan & maklumat tidak diklasifikasikan di tempat lain','',''),
-	array('','038 Program & kelayakan antara disiplin yang melibatkan'
+	array('','038 Program & kelayakan antara disiplin yg melibatkan'
 	. ' sains sosial, kewartawanan & maklumat','',''),
-	array('','0388 Program & kelayakan antara disiplin yang melibatkan'
+	array('','0388 Program & kelayakan antara disiplin yg melibatkan'
 	. ' sains sosial, kewartawanan & maklumat','',''),
 	array('','039 Sains sosial, kewartawanan & maklumat tidak dikelaskan di tempat lain','',''),
 	array('','0399 Sains sosial, kewartawanan & maklumat tidak dikelaskan di tempat lain ','',''),
@@ -322,9 +322,9 @@ $data['test123'] = array(
 	array('','0419 Perniagaan & pentadbiran tidak dikelaskan di tempat lain','',''),
 	array('','042 Undang-undang [Law]','',''),
 	array('','0421 Undang-undang [Law]','',''),
-	array('','048 Program & kelayakan antara disiplin yang melibatkan perniagaan,'
+	array('','048 Program & kelayakan antara disiplin yg melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang','',''),
-	array('','0488 Program & kelayakan antara disiplin yang melibatkan perniagaan,'
+	array('','0488 Program & kelayakan antara disiplin yg melibatkan perniagaan,'
 	. ' pentadbiran & undang-undang','',''),
 	array('','049 Perniagaan, pentadbiran & undang-undang tidak dikelaskan di tempat lain','',''),
 	array('','0499 Perniagaan, pentadbiran & undang-undang tidak dikelaskan di tempat lain','',''),
@@ -351,9 +351,9 @@ $data['test123'] = array(
 	array('','0540 Matematik & statistik tidak ditakrifkan lagi','',''),
 	array('','0541 Matematik','',''),
 	array('','0542 Statistik','',''),
-	array('','058 Program & kelayakan antara disiplin yang melibatkan semula jadi'
+	array('','058 Program & kelayakan antara disiplin yg melibatkan semula jadi'
 	. ' sains, matematik & statistik','',''),
-	array('','0588 Program & kelayakan antara disiplin yang melibatkan semula jadi'
+	array('','0588 Program & kelayakan antara disiplin yg melibatkan semula jadi'
 	. ' sains, matematik & statistik','',''),
 	array('','059 Sains semula jadi, matematik & statistik tidak dikelaskan di tempat lain','',''),
 	array('','0599 Sains semula jadi, matematik & statistik tidak dikelaskan di tempat lain','',''),
@@ -366,9 +366,9 @@ $data['test123'] = array(
 	array('','0613 Pembangunan & analisis perisian & aplikasi','',''),
 	array('','0619 Teknologi Maklumat & Komunikasi (ICT)'
 	. ' tidak dikelaskan di tempat lain','',''),
-	array('','068 Program & kelayakan antara disiplin yang melibatkan'
+	array('','068 Program & kelayakan antara disiplin yg melibatkan'
 	. ' Teknologi Maklumat & Komunikasi (ICT)','',''),
-	array('','0688 Program & kelayakan antara disiplin yang melibatkan'
+	array('','0688 Program & kelayakan antara disiplin yg melibatkan'
 	. ' Teknologi Maklumat & Komunikasi (ICT)','',''),
 	array('','07 Kejuruteraan, pembuatan & pembinaan','',''),
 	array('','070 Kejuruteraan, pembuatan & pembinaan tidak ditakrifkan lagi','',''),
@@ -393,9 +393,9 @@ $data['test123'] = array(
 	array('','0730 Seni bina & pembinaan tidak ditakrifkan lagi','',''),
 	array('','0731 Seni bina & perancangan bandar','',''),
 	array('','0732 Bangunan & kejuruteraan awam','',''),
-	array('','078 Program & kelayakan antara disiplin yang melibatkan'
+	array('','078 Program & kelayakan antara disiplin yg melibatkan'
 	. ' kejuruteraan, pembuatan & pembinaan',
-	'0788 Program & kelayakan antara disiplin yang melibatkan'
+	'0788 Program & kelayakan antara disiplin yg melibatkan'
 	. ' kejuruteraan, pembuatan & pembinaan',''),
 	array('','079 Kejuruteraan, pembuatan & pembinaan tidak dikelaskan di tempat lain ','',''),
 	array('','0799 Kejuruteraan, pembuatan & pembinaan tidak dikelaskan di tempat lain','',''),
@@ -410,9 +410,9 @@ $data['test123'] = array(
 	array('','082 Perhutanan','0821 Perhutanan',''),
 	array('','083 Perikanan','0831 Perikanan',''),
 	array('','084 Veterinar','0841 Veterinar',''),
-	array('','088 Program & kelayakan antara disiplin yang melibatkan'
+	array('','088 Program & kelayakan antara disiplin yg melibatkan'
 	. ' pertanian, perhutanan, perikanan & veterinar',
-	'0888 Program & kelayakan antara disiplin yang melibatkan'
+	'0888 Program & kelayakan antara disiplin yg melibatkan'
 	. 'pertanian, perhutanan, perikanan & veterinar','',''),
 	array('','089 Pertanian, perhutanan, perikanan & veterinar tidak dikelaskan di tempat lain',
 	'0899 Pertanian, perhutanan, perikanan & veterinar tidak dikelaskan di tempat lain',''),
@@ -464,8 +464,8 @@ $data['test123'] = array(
 	array('','1032 Perlindungan orang & harta benda','',''),
 	array('','1039 Perkhidmatan keselamatan tidak dikelaskan di tempat lain','',''),
 	array('','104 Perkhidmatan pengangkutan','1041 Perkhidmatan pengangkutan','',''),
-	array('','108 Program & kelayakan antara disiplin yang melibatkan perkhidmatan',
-	'1088 Program & kelayakan antara disiplin yang melibatkan perkhidmatan',''),
+	array('','108 Program & kelayakan antara disiplin yg melibatkan perkhidmatan',
+	'1088 Program & kelayakan antara disiplin yg melibatkan perkhidmatan',''),
 	array('','109 Perkhidmatan tidak dikelaskan di tempat lain','',''),
 	array('','1099 Perkhidmatan tidak dikelaskan di tempat lain','',''),
 	array('','99 Bidang pengajian tidak diketahui','',''),
