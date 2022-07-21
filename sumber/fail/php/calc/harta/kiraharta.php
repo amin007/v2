@@ -117,6 +117,7 @@ diatasKompleks('Kira Harta');
 #==================================================================================================
 $kira = 1;
 ?>
+<h1>Contoh 01</h1>
 <p>sumber = https://www.tutorialspoint.com/How-to-include-the-result-of-a-calculation-in-HTML5</p>
 <form oninput="sumresult.value = parseInt(z1.value)+parseInt(z2.value)+parseInt(z3.value)">
 <input type="range" name="z1" value = "0" /> +
@@ -125,6 +126,7 @@ $kira = 1;
 The output is: <output name="sumresult"></output>
 </form>
 <hr>
+<h1>Contoh 02</h1>
 <p> 0417 = 0410+0411+0412+0413 -(0414) +(0415) -(0416)</p>
 
 <?php
@@ -150,8 +152,8 @@ echo '</tr>';
 #--------------------------------------------------------------------------------------------------
 foreach($nilaiHarta as $key => $val):
 	echo "\n<tr>\n\t";
-	echo '<td>-</td><td>' . $key . '</td>';
-	//echo '<td>'.  $val . '</td><td>' . $key . '</td>';
+	//echo '<td>-</td><td>' . $key . '</td>';
+	echo '<td>'.  $val . '</td><td>' . $key . '</td>';
 	foreach($nilaiBuku as $key2 => $val2):
 		$data = cariData($kira,$key,$val,$key2,$val2);
 		echo "\n\t" . $data;
@@ -162,7 +164,8 @@ endforeach;
 #==================================================================================================
 ?></table>
 </form>
-<br><br><br>
+<hr>
+<h1>Contoh 03</h1>
 <table class="excel"><tr><td>
 z990410.value = 0+parseInt(z010410.value)+parseInt(z020410.value)+parseInt(z030410.value);
 <form oninput="z990410.value = parseInt(z010410.value)+parseInt(z020410.value)+parseInt(z030410.value);">
@@ -177,7 +180,6 @@ $kira2 = '0410';
 The output is: <output name="z990410"></output>
 </form>
 </td></tr></table>
-
 
 </body>
 </html>
