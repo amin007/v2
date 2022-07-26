@@ -93,6 +93,8 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[shapr3d]'=>'https://www.shapr3d.com',
 			'[Git Tool Submodules]'=>'https://git-scm.com/book/en/v2/Git-Tools-Submodules',
 			'[Spring Java']=>'https://start.spring.io',
+			'[best screen recorders windows 7]'=>'https://www.screencapture.com/blog/'
+			. 'best-screen-recorders-windows-7.html',
 			'[Panopto]'=>'https://www.panopto.com',
 			//'[]'=>'',
 		);
