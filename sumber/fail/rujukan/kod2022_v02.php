@@ -90,4 +90,7 @@ echo "<hr><pre>out = \n"; print_r($tajuk);
 exec("ipconfig /displaydns", $out3, $res);
 echo "<hr>out3 = count(" . count($out3) . ")<hr>";
 semakPembolehubah($out3,'out3',0);
+/*foreach (preg_grep('/^\s*Physical Address[^:]*:\s*([0-9a-f-]+)/i', $out) as $line)
+{	echo substr(strrchr($line, ' '), 1), PHP_EOL; }*/
+# http://www.php.net/manual/en/function.exec.php#85930
 #--------------------------------------------------------------------------------------------------
