@@ -78,6 +78,7 @@ $tajuk[] = date("h:i:s",$_SERVER['REQUEST_TIME']);
 $tajuk[] = 'getHostName = ' . getHostName();
 $tajuk[] = 'getHostByName = ' . getHostByName(getHostName());
 $tajuk[] = 'getClientIp = ' . getClientIp(0);
+$tajuk[] = 'getIn6_addr = ' . inet_pton(getClientIp(0));
 $tajuk[] = '-------------------------------------------------';
 //https://www.meridianoutpost.com/resources/articles/command-line/ipconfig.php
 exec("ipconfig /all", $out, $res);
