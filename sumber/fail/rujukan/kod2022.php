@@ -1480,7 +1480,6 @@ $data['mascoMsicV2'] = array(
 	array('','KERANI','GUAMAN','411109','69100'),
 	array('','KERANI','ANGKUT SAYUR','411109','49230'),
 	array('','KERANI','KILANG KAYU','411111','16230'),
-	array('','KERANI','KILANG KAYU','411111','16230'),
 	array('','KERANI','KILANG PERABUT','411111','31001'),
 	array('','KERANI','KILANG PERABOT','411111','31001'),
 	array('','KERANI','KILANG PERABUT','411111','31001'),
