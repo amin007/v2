@@ -70,7 +70,7 @@ $kira2 = count($arr['user']);
 <h1 class="text-center">&nbsp;<span class="bg-secondary butangBulat">&nbsp;<?php
 echo $this->Tajuk_Muka_Surat ?>&nbsp;</span></h1>
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<div class="container bg-light text-dark">
+<div class="container bg-light text-dark"><hr>
 <?php
 # papar data 
 ###################################################################################################
