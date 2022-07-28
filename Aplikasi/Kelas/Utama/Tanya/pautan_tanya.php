@@ -31,6 +31,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 		$papar = array(
 			'[jQuery]'=>'http://jquery.com',
 			'[Bootstrap]'=>'http://getbootstrap.com',
+			'[PicoCss]'=>'https://picocss.com',
 			'[Sample Database]'=>'https://dataedo.com/kb/databases/mysql/sample-databases',
 			'[animate.css]'=>'https://daneden.github.io/animate.css',
 			'[Sweet Alert]'=>'http://t4t5.github.io/sweetalert',
@@ -54,13 +55,21 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[TM Test]'=>'//speedtest.tm.com.my',
 			'[Fast.com]'=>'//fast.com',
 			'[Speedtest.net]'=>'https://www.speedtest.net',
+			'[nPerf]'=>'https://www.nperf.com',
 			'[Web Whatsapp]'=>'//web.whatsapp.com',
 			'[Kalendar]'=>'https://www.mysumber.com/cuti-umum.html',
 			'[Borang Bootstrap]'=>'./?q=borang',
-			'[Semak DNS]'=>'./?q=semakDNS',
+			//'[Semak DNS]'=>'./?q=semakDNS',
 			'[Free MP3]'=>'https://freemp3cloud.com',
 			'[Loop Youtube]'=>'https://looptube.io',
 			'[Forvo]'=>'https://forvo.com',
+			'[Facebook]'=>'//www.facebok.com',
+			'[Youtube]'=>'//www.youtube.com',
+			'[Twitter]'=>'//www.twitter.com',
+			'[Amazon]'=>'//www.amazon.com',
+			'[AliExpress]'=>'//www.aliexpress.com',
+			'[Booking]'=>'//www.booking.com',
+			'[Agoda]'=>'//www.agoda.com',
 		);
 
 		return $papar;
