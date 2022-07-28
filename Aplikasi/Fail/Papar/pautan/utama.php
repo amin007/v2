@@ -63,7 +63,7 @@ $kira2 = count($arr['user']);
 	}
 #--------------------------------------------------------------------------------------------------
 ?>
-<h1><a class="btn btn-outline-secondary btn-lg butangBulat" href="http://jpmuar07-pc/v3/">
+<h1><a class="btn btn-outline-secondary btn-lg butangBulat" href="<?php echo URL ?>">
 <small>Kembali ke pangkal jalan</small></a></h1>
 
 <hr>
