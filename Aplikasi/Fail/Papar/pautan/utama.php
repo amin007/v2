@@ -24,11 +24,11 @@ $kira2 = count($arr['user']);
 		return "\n" . '&nbsp;&nbsp;' . $icon . $link . '<hr>';
 	}
 #--------------------------------------------------------------------------------------------------
-	function kiraPaparan()
+	function kiraPaparan($dns)
 	{
 		$kira[01] = $kira[02] = $kira[03] = 0;
 		//$kira[02] = 16;$kira[03] = 16;
-		foreach($this->dns as $name => $web):
+		foreach($dns as $name => $web):
 			$data = explode('|', $web);
 			//$data0 = strlen($data[0]);
 			if(strlen($data[1]) > $kira[01]) $kira[01] = strlen($data[1]);
@@ -39,14 +39,13 @@ $kira2 = count($arr['user']);
 		return $kira;
 	}
 #--------------------------------------------------------------------------------------------------
-	function paparan($web, $test)
+	function paparan($web, $kira)
 	{
 		# set pembolehubah utama
 		$p1 = 'pre';#https://www.w3schools.com/tags/tag_var.asp
 		$p2 = 'kbd';
 		$p3 = 'code';
 		$p4 = 'samp';
-		$kira = kiraPaparan();
 		$data = explode('|', $web);
 		$semak01 = ($kira[01] - strlen($data[1]) + 1);
 		$semak02 = ($kira[02] - strlen($data[2]) + 1);
@@ -82,11 +81,14 @@ foreach($jadual as $name => $web):
 endforeach;
 endforeach;
 #--------------------------------------------------------------------------------------------------
-foreach($this->dns as $kunci => $jadual):
-foreach($jadual as $name => $web):
-	echo paparan($name,null);
-endforeach;
-endforeach;
+$name = $web = 0;
+$kira = kiraPaparan($this->dns[0]);
+//$this->semakPembolehubah($kira,'kira');# Semak data dulu
+//$this->semakPembolehubah($this->dns[0],'kira2');# Semak data dulu
+#--------------------------------------------------------------------------------------------------
+foreach($this->dns[0] as $name => $web):
+	echo paparan($web,$kira);
+endforeach;//*/
 #--------------------------------------------------------------------------------------------------
 ?>
 </div><!-- / class="container" -->
