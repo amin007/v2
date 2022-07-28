@@ -3,10 +3,24 @@ namespace Aplikasi\Kitab; //echo __NAMESPACE__;
 class Papar
 {
 #==========================================================================================
+#------------------------------------------------------------------------------------------
 	function __construct()
 	{
 		//echo '<br>1. Anda berada di class Papar<br>';
 	}
+#------------------------------------------------------------------------------------------
+	public function semakPembolehubah($senarai,$jadual,$p='0')
+	{
+		echo '<pre style="background:#fff">$' . $jadual . '=><br>';
+		if($p == '0') print_r($senarai);
+		if($p == '1') var_export($senarai);
+		if($p == '2') var_dump($senarai);
+		echo '</pre><hr>';//*/
+		//$this->semakPembolehubah($ujian,'ujian',0);
+		#http://php.net/manual/en/function.var-export.php
+		#http://php.net/manual/en/function.print-r.php
+	}
+#------------------------------------------------------------------------------------------
 #==========================================================================================
 #------------------------------------------------------------------------------------------
 	public function paparTemplate($nama, $template, $noInclude = false)
