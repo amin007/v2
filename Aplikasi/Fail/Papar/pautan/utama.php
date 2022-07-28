@@ -1,3 +1,33 @@
+<h1><a class="btn btn-outline-secondary btn-lg butangBulat" href="<?php echo URL ?>">
+<small>Kembali ke pangkal jalan</small></a></h1>
+
+<hr>
+<h1 class="text-center">&nbsp;<span class="bg-secondary butangBulat">&nbsp;<?php
+echo $this->Tajuk_Muka_Surat ?>&nbsp;</span></h1>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="container bg-light text-dark">&nbsp;<hr>
+<?php
+# papar data
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+foreach($this->senarai as $kunci => $jadual):
+foreach($jadual as $name => $web):
+	echo pautan($name,$web);
+endforeach;
+endforeach;
+#--------------------------------------------------------------------------------------------------
+$name = $web = 0;
+$kira = kiraPaparan($this->dns[0]);
+//$this->semakPembolehubah($kira,'kira');# Semak data dulu
+//$this->semakPembolehubah($this->dns[0],'kira2');# Semak data dulu
+#--------------------------------------------------------------------------------------------------
+foreach($this->dns[0] as $name => $web):
+	echo paparan($web,$kira);
+endforeach;//*/
+#--------------------------------------------------------------------------------------------------
+?>
+</div><!-- / class="container" -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <?php
 # semak pembolehubah dulu #########################################################################
 ###################################################################################################
@@ -63,33 +93,3 @@ $kira2 = count($arr['user']);
 	}
 #--------------------------------------------------------------------------------------------------
 ?>
-<h1><a class="btn btn-outline-secondary btn-lg butangBulat" href="<?php echo URL ?>">
-<small>Kembali ke pangkal jalan</small></a></h1>
-
-<hr>
-<h1 class="text-center">&nbsp;<span class="bg-secondary butangBulat">&nbsp;<?php
-echo $this->Tajuk_Muka_Surat ?>&nbsp;</span></h1>
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<div class="container bg-light text-dark">&nbsp;<hr>
-<?php
-# papar data 
-###################################################################################################
-#--------------------------------------------------------------------------------------------------
-foreach($this->senarai as $kunci => $jadual):
-foreach($jadual as $name => $web):
-	echo pautan($name,$web);
-endforeach;
-endforeach;
-#--------------------------------------------------------------------------------------------------
-$name = $web = 0;
-$kira = kiraPaparan($this->dns[0]);
-//$this->semakPembolehubah($kira,'kira');# Semak data dulu
-//$this->semakPembolehubah($this->dns[0],'kira2');# Semak data dulu
-#--------------------------------------------------------------------------------------------------
-foreach($this->dns[0] as $name => $web):
-	echo paparan($web,$kira);
-endforeach;//*/
-#--------------------------------------------------------------------------------------------------
-?>
-</div><!-- / class="container" -->
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
