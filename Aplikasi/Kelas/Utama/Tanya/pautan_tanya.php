@@ -83,7 +83,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Paypal]'=>'For more information about PayPal Account and its services, please'
 			. ' call PayPal Support Centre at 03-77237155 or visit www.paypal.com',
 			'marketplaces'=>'Get paid by leading marketplaces including Upwork, Fiverr, Envato,'
-			, 'Shutterstock, Getty Images, and more',
+			. 'Shutterstock, Getty Images, and more',
 			'10-top-sites-for-freelance-services'=>'https://www.business.com/articles/'
 			. '10-top-sites-for-freelance-services/',
 			'[install-chocolatey]'=>'https://www.how2shout.com/how-to/how-to-install-chocolatey'
@@ -92,7 +92,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[invisionapp]'=>'https://www.invisionapp.com',
 			'[shapr3d]'=>'https://www.shapr3d.com',
 			'[Git Tool Submodules]'=>'https://git-scm.com/book/en/v2/Git-Tools-Submodules',
-			'[Spring Java']=>'https://start.spring.io',
+			'[Spring Java]'=>'https://start.spring.io',
 			'[best screen recorders windows 7]'=>'https://www.screencapture.com/blog/'
 			. 'best-screen-recorders-windows-7.html',
 			'[Panopto]'=>'https://www.panopto.com',
