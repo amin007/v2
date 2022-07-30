@@ -15,7 +15,7 @@ class Peta2
 #------------------------------------------------------------------------------------------
 	public function semakPembolehubah($senarai,$jadual,$p='0')
 	{
-		echo '<pre>$' . $jadual . '=><br>';
+		echo '<pre style="background:#fff">$' . $jadual . '=><br>';
 		if($p == '0') print_r($senarai);
 		if($p == '1') var_export($senarai);
 		if($p == '2') var_dump($senarai);
@@ -63,10 +63,10 @@ class Peta2
 	{
 		$this->semakPembolehubah($url,'x0');
 		# semak $url
-		if($url == '') echo '$url kosong daa<hr>';
-		else echo '$url adalah tatasusunan<hr>';
+		if($url == '') echo '<kbd>$url kosong daa</kbd><hr>';
+		else echo '<kbd>$url adalah tatasusunan</kbd><hr>';
 		# semak $Url
-		if($Url == null) echo '$Url kosong daa<hr>';
+		if($Url == null) echo '<kbd>$Url kosong daa</kbd><hr>';
 		else
 		{
 			$this->semakPembolehubah($Url,'Url adalah tatasusunan ');
