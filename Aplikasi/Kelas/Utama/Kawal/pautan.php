@@ -70,6 +70,18 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,'utama',$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
+	public function dns($a=null)
+	{
+		# Set pemboleubah utama
+		$this->papar->Tajuk_Muka_Surat = 'IP DNS';
+		$this->papar->senarai = $this->tanya->dnschanger();
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
+		$this->paparKandungan($this->_folder,'dns',$noInclude=0);
+	}//*/
+#------------------------------------------------------------------------------------------
 	/*public function mediasosial($a=null)
 	{
 		# Set pemboleubah utama
