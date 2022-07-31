@@ -16,10 +16,9 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 ##-----------------------------------------------------------------------------------------
 	public function index($p = null)
 	{
-		# Set pemboleubah utama
+		# Set pemboleubah utama//'<hr>Nama class :' . __METHOD__ . '<hr>'
 		$this->papar->Tajuk_Muka_Surat = 'Sesat Daa';
-		$this->papar->mesej =//'<hr>Nama class :' . __METHOD__ . '<hr>'
-			'<hr>' . $p . '<hr>';
+		$this->papar->mesej = '<hr>' . $p . '<hr>';
 
 		# Pergi papar kandungan
 		//$this->_folder = '';
