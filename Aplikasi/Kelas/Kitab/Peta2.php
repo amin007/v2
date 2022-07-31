@@ -78,8 +78,13 @@ class Peta2
 	{
 		# semak sama ada $url[0] kosong * jika ya : $url[0] == 'index';
 		$url[0] = (empty($url[0])) ? 'index' : $url[0];
-		$Url[0] = '\\Aplikasi\Kawal\\' . huruf('Besar', $url[0]);
-
+		$arah = huruf('Depan',$url[0]);
+		$Url[0] = '\\Aplikasi\Kawal\\' . $arah;
+		# debug nilai $url dan $Url
+		//$this->semakPembolehubah($url,'url');
+		//$this->semakPembolehubah($arah,'arah');
+		//$this->semakPembolehubah($Url,'class url');
+		# pulangkan nilai
 		return array($url,$Url);
 	}
 #------------------------------------------------------------------------------------------
