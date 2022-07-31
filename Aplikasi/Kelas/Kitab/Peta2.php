@@ -142,13 +142,13 @@ class Peta2
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>'; exit();
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index('<hr>Nama ' . $method . ' tak wujud<hr>'); exit();
+		$kawal->index('Nama ' . $method . ' tak wujud'); exit();
 	}
 	#----------------------------------------------------------------------------------------------
 	function sesatMethod02($method)
 	{
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index('<hr>Nama ' . $method . ' tak wujud<hr>'); exit();
+		$kawal->index('Nama ' . $method . ' tak daftar'); exit();
 	}
 	#----------------------------------------------------------------------------------------------
 	static function classTanyaTidakWujud($amaran)
