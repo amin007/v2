@@ -92,19 +92,21 @@ class Peta2
 #------------------------------------------------------------------------------------------
 	function semakKawal($url,$Url)
 	{
-		$namaTanya = $url[0];//$this->semakPembolehubah($url,'url');
-		if( file_exists(KAWAL . '/' . $url[0] . '.php') )
+		# debug nilai $url dan $Url
+		//echo '<hr><kbd>Nama class :' . __METHOD__ . '</kbd><hr>';
+		//$this->semakPembolehubah($url,'url');$this->semakPembolehubah($Url,'class url');
+		//echo '<kbd>lokasi fail:' . KAWAL . '/' . huruf('Depan',$url[0]) . '.php</kbd><hr>';
+		$Kelas = huruf('Depan',$url[0]);
+		if( file_exists(KAWAL . '/' . $Kelas . '.php') )
 		{
-			$this->kawal = $Url[0];
-			//echo 'lokasi fail:' . KAWAL . '/' . $url[0] . '.php<hr>';
+			$this->kawal = new $Url[0];# nilai default adalah index
+			$this->semakPembolehubah($Kelas,'Kelas');
 			//$this->semakPembolehubah($this->kawal,'nama class:');
-			require_once KAWAL . '/' . $url[0] . '.php';
+			# cari class model/tanya
+			$this->kawal->jemaahTaskil($Kelas);
 			unset($url[0]);
 		}
 		else $this->sesat();
-		$this->kawal = new $this->kawal;# nilai default adalah index
-		# cari class model/tanya
-		$this->kawal->jemaahTaskil($namaTanya);
 
 		return $url;
 	}
