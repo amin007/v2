@@ -61,15 +61,17 @@ class Peta2
 #------------------------------------------------------------------------------------------
 	private function debugData($url, $Url = null)
 	{
-		$this->semakPembolehubah($url,'x0');
 		# semak $url
 		if($url == '') echo '<kbd>$url kosong daa</kbd><hr>';
-		else echo '<kbd>$url adalah tatasusunan</kbd><hr>';
+		else
+		{
+			$this->semakPembolehubah($url,'url adalah tatasusunan');
+		}
 		# semak $Url
 		if($Url == null) echo '<kbd>$Url kosong daa</kbd><hr>';
 		else
 		{
-			$this->semakPembolehubah($Url,'Url adalah tatasusunan ');
+			$this->semakPembolehubah($Url,'class Url adalah tatasusunan ');
 		}
 		# mungkin akan sambung nota lagi
 	}
