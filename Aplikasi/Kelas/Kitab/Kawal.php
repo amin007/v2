@@ -25,7 +25,7 @@ class Kawal
 			{
 				$amaran = 'class ' . $tanyaNama . ' tidak wujud tetapi fail '
 				. $tanya . ' wujud.';
-				Peta::classTanyaTidakWujud($amaran);
+				Peta2::classTanyaTidakWujud($amaran);
 				//trigger_error("Tidak boleh muatkan class: $tanyaNama", E_USER_WARNING);
 				//exit();
 			}
