@@ -13,10 +13,10 @@ class Kawal
 	{
 		//echo '<hr><kbd>Nama class :' . __METHOD__ . '</kbd><hr>';
 		//$this->semakPembolehubah($nama,'nama');
-		list($tanya) = $this->semakPencam($nama);
+		list($tanya,$tanda,$Nama) = $this->semakPencam($nama);
 		if (file_exists($tanya))
 		{
-			$tanyaNama = '\\Aplikasi\Tanya\\' . huruf('Besar', $nama) . '_Tanya';
+			$tanyaNama = '\\Aplikasi\Tanya\\' . $Nama . '_Tanya';
 			//echo '<hr><kbd>$tanyaNama->' . $tanyaNama . '</kbd><hr>';
 
 			if(class_exists($tanyaNama))
@@ -36,13 +36,15 @@ class Kawal
 	{
 		$failTanya = GetMatchingFiles(GetContents(TANYA),$nama . '_tanya.php');
 		$tanya = $failTanya[0];
+		$Nama = huruf('Besar_Depan', $nama);
+		$tanda = 'fail ' . $nama . '_tanya tidak wujud';
 
 		/*echo '<br> class Kawal :: $nama : ' . $nama . '|';
-		echo 'TANYA->' . TANYA . '';
+		echo '$Nama->' . $Nama . '|TANYA->' . TANYA . '';
 		echo '<pre>$failTanya->'; print_r($failTanya); echo '</pre>';
 		echo '$tanya->' . $tanya . '<br>';
 		//*/
-		return array($tanya);
+		return array($tanya,$tanda,$Nama);
 	}
 #------------------------------------------------------------------------------------------
 	public function semakPembolehubah($senarai,$jadual,$p='0')
