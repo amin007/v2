@@ -100,7 +100,7 @@ class Peta2
 		if( file_exists(KAWAL . '/' . $Kelas . '.php') )
 		{
 			$this->kawal = new $Url[0];# nilai default adalah index
-			$this->semakPembolehubah($Kelas,'Kelas');
+			//$this->semakPembolehubah($Kelas,'Kelas');
 			//$this->semakPembolehubah($this->kawal,'nama class:');
 			# cari class model/tanya
 			$this->kawal->jemaahTaskil($Kelas);
