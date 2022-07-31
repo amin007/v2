@@ -96,14 +96,14 @@ class Peta2
 		//echo '<hr><kbd>Nama class :' . __METHOD__ . '</kbd><hr>';
 		//$this->semakPembolehubah($url,'url');$this->semakPembolehubah($Url,'class url');
 		//echo '<kbd>lokasi fail:' . KAWAL . '/' . huruf('Depan',$url[0]) . '.php</kbd><hr>';
-		$Kelas = huruf('Depan',$url[0]);
-		if( file_exists(KAWAL . '/' . $Kelas . '.php') )
+		//$Kelas = huruf('Depan',$url[0]);
+		if( file_exists(KAWAL . '/' . huruf('Depan',$url[0]) . '.php') )
 		{
 			$this->kawal = new $Url[0];# nilai default adalah index
 			//$this->semakPembolehubah($Kelas,'Kelas');
 			//$this->semakPembolehubah($this->kawal,'nama class:');
 			# cari class model/tanya
-			$this->kawal->jemaahTaskil($Kelas);
+			$this->kawal->jemaahTaskil($url[0]);
 			unset($url[0]);
 		}
 		else $this->sesat();
