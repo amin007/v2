@@ -120,9 +120,9 @@ class Peta2
 				//echo 'nama method:' . $method . '<hr>';
 				unset($url[1]);
 			}
-			else $this->sesatMethod01();
+			else $this->sesatMethod01($method);
 		}
-		else $this->sesatMethod02();
+		else $this->sesatMethod02($method);
 
 		return $url;
 	}
@@ -138,21 +138,23 @@ class Peta2
 		//return false;
 	}
 	#----------------------------------------------------------------------------------------------
-	function sesatMethod01()
+	function sesatMethod01($method)
 	{
-		echo '<hr>Nama class :' . __METHOD__ . '<hr>'; exit();
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>'; exit();
+		$kawal = new \Aplikasi\Kawal\Sesat();
+		$kawal->index('<hr>Nama ' . $method . ' tak wujud<hr>'); exit();
 	}
 	#----------------------------------------------------------------------------------------------
-	function sesatMethod02()
+	function sesatMethod02($method)
 	{
-		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$kawal = new \Aplikasi\Kawal\Sesat();
+		$kawal->index('<hr>Nama ' . $method . ' tak wujud<hr>'); exit();
 	}
 	#----------------------------------------------------------------------------------------------
 	static function classTanyaTidakWujud($amaran)
 	{
-		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
-		echo "<kbd>$amaran</kbd>";
-		exit(); return false;
+		$kawal = new \Aplikasi\Kawal\Sesat();
+		$kawal->index($amaran); exit();
 	}
 	#----------------------------------------------------------------------------------------------
 ###
