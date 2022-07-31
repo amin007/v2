@@ -1,4 +1,5 @@
 <?php
+#--------------------------------------------------------------------------------------------------
 /*
  * Ini fail index.php 
  * Dalam ini kita isytiharkan
@@ -8,6 +9,7 @@
  * 4. masukkan semua fail class dari folder Aplikasi/Kelas
  * 5. istihar class Mulakan
  */
+#--------------------------------------------------------------------------------------------------
 # 1. laporan tahap kesilapan kod PHP
 error_reporting(E_ALL);
 
@@ -16,7 +18,7 @@ date_default_timezone_set('Asia/Kuala_Lumpur');
 
 # 3. setkan tatarajah sistem
 require 'tatarajah.php';
-
+#--------------------------------------------------------------------------------------------------
 /* 4. masukkan semua fail class dari folder Aplikasi/Class
 ** URL : http://www.php-fig.org/psr/psr-4/examples/
 ** Contoh pelaksanaan projek khusus.
@@ -38,7 +40,7 @@ spl_autoload_register(function ($namaClass)
 		//else echo 'tidak jumpa daa<br>';
 	}//*/
 });
-
+#--------------------------------------------------------------------------------------------------
 /* 5. istihar class
 ** Selepas mendaftar fungsi autoload ini dengan SPL, baris berikut
 ** akan menyebabkan fungsi untuk cuba untuk memuatkan kelas \Foo\Bar\Baz\Qux
@@ -48,3 +50,4 @@ spl_autoload_register(function ($namaClass)
 **/
 //$aplikasi = new \Aplikasi\Kitab\Mulakan();
 $aplikasi = new \Aplikasi\Kitab\Peta2();
+#--------------------------------------------------------------------------------------------------
