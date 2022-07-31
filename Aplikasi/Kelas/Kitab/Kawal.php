@@ -11,12 +11,13 @@ class Kawal
 #==========================================================================================
 	public function jemaahTaskil($nama)
 	{
+		//echo '<hr><kbd>Nama class :' . __METHOD__ . '</kbd><hr>';
 		//$this->semakPembolehubah($nama,'nama');
 		list($tanya) = $this->semakPencam($nama);
 		if (file_exists($tanya))
 		{
 			$tanyaNama = '\\Aplikasi\Tanya\\' . huruf('Besar', $nama) . '_Tanya';
-			//echo '<br>$tanyaNama->' . $tanyaNama . '<br>';
+			//echo '<hr><kbd>$tanyaNama->' . $tanyaNama . '</kbd><hr>';
 
 			if(class_exists($tanyaNama))
 				$this->tanya = new $tanyaNama();
