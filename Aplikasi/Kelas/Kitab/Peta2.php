@@ -80,11 +80,9 @@ class Peta2
 	{
 		# semak sama ada $url[0] kosong * jika ya : $url[0] == 'index';
 		$url[0] = (empty($url[0])) ? 'index' : $url[0];
-		$arah = huruf('Depan',$url[0]);
-		$Url[0] = '\\Aplikasi\Kawal\\' . $arah;
+		$Url[0] = '\\Aplikasi\Kawal\\' . huruf('Besar_Depan',$url[0]);
 		# debug nilai $url dan $Url
 		//$this->semakPembolehubah($url,'url');
-		//$this->semakPembolehubah($arah,'arah');
 		//$this->semakPembolehubah($Url,'class url');
 		# pulangkan nilai
 		return array($url,$Url);
@@ -94,10 +92,9 @@ class Peta2
 	{
 		# debug nilai $url dan $Url
 		//echo '<hr><kbd>Nama class :' . __METHOD__ . '</kbd><hr>';
-		//$this->semakPembolehubah($url,'url');$this->semakPembolehubah($Url,'class url');
-		//echo '<kbd>lokasi fail:' . KAWAL . '/' . huruf('Depan',$url[0]) . '.php</kbd><hr>';
+		//echo '<kbd>lokasi fail:' . KAWAL . '/' . huruf('Besar_Depan',$url[0]) . '.php</kbd><hr>';
 		#
-		if( file_exists(KAWAL . '/' . huruf('Depan',$url[0]) . '.php') )
+		if( file_exists(KAWAL . '/' . huruf('Besar_Depan',$url[0]) . '.php') )
 		{
 			$this->kawal = new $Url[0];# nilai default adalah index
 			//$this->semakPembolehubah($this->kawal,'nama class:');
