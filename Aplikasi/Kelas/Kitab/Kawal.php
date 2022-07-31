@@ -46,7 +46,7 @@ class Kawal
 #------------------------------------------------------------------------------------------
 	public function semakPembolehubah($senarai,$jadual,$p='0')
 	{
-		echo '<pre>$' . $jadual . '=><br>';
+		echo '<pre style="background:#fff">$' . $jadual . '=><br>';
 		if($p == '0') print_r($senarai);
 		if($p == '1') var_export($senarai);
 		echo '</pre>';//*/
