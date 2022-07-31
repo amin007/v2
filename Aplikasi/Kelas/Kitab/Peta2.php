@@ -152,11 +152,11 @@ class Peta2
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 	}
 	#--------------------------------------------------------------------------------------
-	function classTanyaTidakWujud($amaran)
+	static function classTanyaTidakWujud($amaran)
 	{
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		echo "<kbd>$amaran</kbd>";
-		return false;
+		exit(); return false;
 	}
 	#--------------------------------------------------------------------------------------
 ###
