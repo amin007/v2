@@ -233,7 +233,7 @@ function huruf($jenis, $papar)
 			$papar = strtolower($papar);
 			break;
 		case 'Depan':
-			$papar = ucfrist($papar);
+			$papar = ucfirst($papar);
 			break;
 		case 'Besar_Depan':
 			$papar = mb_convert_case($papar, MB_CASE_TITLE);
