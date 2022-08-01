@@ -92,9 +92,9 @@ class Peta2
 	{
 		# debug nilai $url dan $Url
 		//echo '<hr><kbd>Nama class :' . __METHOD__ . '</kbd><hr>';
-		//echo '<kbd>lokasi fail:' . KAWAL . '/' . huruf('Besar_Depan',$url[0]) . '.php</kbd><hr>';
+		//echo '<kbd>lokasi fail:' . KAWAL . '/' . $url[0] . '.php</kbd><hr>';
 		#
-		if( file_exists(KAWAL . '/' . huruf('Besar_Depan',$url[0]) . '.php') )
+		if( file_exists(KAWAL . '/' . $url[0] . '.php') )
 		{
 			$this->kawal = new $Url[0];# nilai default adalah index
 			//$this->semakPembolehubah($this->kawal,'nama class:');
@@ -133,8 +133,9 @@ class Peta2
 	#----------------------------------------------------------------------------------------------
 	function sesat()
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index('Fail Kawal tidak wujud'); exit();
+		$kawal->index('Fail Kawal tidak wujud'); //exit();
 		//return false;
 	}
 	#----------------------------------------------------------------------------------------------
@@ -142,19 +143,19 @@ class Peta2
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>'; exit();
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index('Nama ' . $method . ' tak wujud'); exit();
+		$kawal->index('Nama ' . $method . ' tak wujud'); //exit();
 	}
 	#----------------------------------------------------------------------------------------------
 	function sesatMethod02($method)
 	{
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index('Nama ' . $method . ' tak daftar'); exit();
+		$kawal->index('Nama ' . $method . ' tak daftar'); //exit();
 	}
 	#----------------------------------------------------------------------------------------------
 	static function classTanyaTidakWujud($amaran)
 	{
 		$kawal = new \Aplikasi\Kawal\Sesat();
-		$kawal->index($amaran); exit();
+		$kawal->index($amaran); //exit();
 	}
 	#----------------------------------------------------------------------------------------------
 ###################################################################################################
