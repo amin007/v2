@@ -8,6 +8,8 @@ class DB_Pdo extends \PDO
 	{
 		try
 		{
+			//echo '<kbd>' . $DB_TYPE . '#' . $DB_HOST . '#' . $DB_NAME . '#'
+			//. $DB_USER . '#' . $DB_PASS . '</kbd>';
 			parent::__construct($DB_TYPE . ':host=' . $DB_HOST . ';dbname=' . $DB_NAME,
 			$DB_USER, $DB_PASS);
 			//parent::setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTIONS);
