@@ -35,8 +35,9 @@ spl_autoload_register(function ($namaClass)
 	$cariFail = GetMatchingFiles(GetContents('Aplikasi/Kelas'),$class[count($class)-1] . '.php');
 	# jika fail wujud, masukkan
 	foreach($cariFail as $kitabApa)
-	{	//echo '<kbd>$kitabApa->' . $kitabApa . '</kbd><br>';
+	{	//echo '<kbd>index:38=>$kitabApa->' . $kitabApa . '</kbd><br>';
 		if (file_exists($kitabApa)) require $kitabApa;
+		//echo '<kbd>index:40=>$kitabApa->' . $kitabApa . '</kbd><br>';
 		//else echo 'tidak jumpa daa<br>';
 	}//*/
 });
