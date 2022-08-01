@@ -12,6 +12,8 @@
 			Dasar Privasi / Privacy Policy</a>
 		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>hubungi/mediasosial">
 			Media Sosial</a>
+		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>pautan/utama">
+			Pautan</a>
 		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>sumber/fail/rujukan">
 			Rujukan Utama</a>
 		<img src="sumber/gambar/placeimg_290_422_any.jpg"
@@ -25,17 +27,18 @@
 			fail-fail atau perisian yang biasa saya guna, projek-projek yang sedang atau 
 			telah saya jalankan dan juga subdomain dalam laman web saya.
 			<br><br>
-			Anda semua mesti tertanya-tanya kepada saya menggunakan tajuk <b>Dunia Imaginasi Saya. </b> 
-			sebab dari kecil lagi saya suka berangan-angan yang mana banyak dipengaruhi oleh 
-			buku-buku bercorak sains &amp; penyiasatan di perpustakaan awam johor cawangan muar 
-			&amp; filem-filem di tv terutama James Bond. Tapi imaginasi saya lebih dalam sains &amp; 
-			teknologi. saya banyak menghasilkan idea-idea yang dianggap gila bagi sesetengah 
-			pihak. namun saya tak kisah sebab dalam sejarah dunia membuktikan banyak inovasi 
-			dihasilkan dari idea kreatif yang dianggap gila.
+			Anda semua mesti tertanya-tanya kepada saya menggunakan tajuk <b>Dunia Imaginasi<?php
+			?> Saya.</b> Sebab dari kecil lagi saya suka berangan-angan yang mana banyak
+			dipengaruhi oleh buku-buku bercorak sains &amp; penyiasatan di perpustakaan awam
+			johor cawangan muar &amp; filem-filem di tv terutama James Bond. Tapi imaginasi saya
+			lebih dalam sains &amp; teknologi. saya banyak menghasilkan idea-idea yang dianggap
+			gila bagi sesetengah pihak.
+			namun saya tak kisah sebab dalam sejarah dunia membuktikan banyak inovasi dihasilkan
+			dari idea kreatif yang dianggap gila.
 			<br><br>
-			Tetapi sekarang saya banyak ke kedai buku sebab disitu banyak buku-buku 
-			terbaru dalam pasaran. Banyak ilham yang saya dapat apabila ke kedai buku. 
-			Antara buku yang saya minat bercorak motivasi, agama, falsafah dan komputer. 
+			Tetapi sekarang saya banyak ke kedai buku sebab disitu banyak buku-buku terbaru dalam
+			pasaran. Banyak ilham yang saya dapat apabila ke kedai buku. ntara buku yang saya
+			minat bercorak motivasi, agama, falsafah dan komputer.
 			Tapi minat saya cenderung kepada komputer sebab ia memudahkan apa-apa ilham dari 
 			kepala dipaparkan terus ke monitor &amp; boleh dicetak.
 			<br><br>
@@ -46,9 +49,10 @@
 			ini adalah salah satu usaha jadikan dia popular.
 			<br><br>
 			Lagipun saya sekarang tengah nak design satu sistem yang mengabungkan blog dan forum.
-			cuma tak terfikir lagi nak letak apa nama hehehe. Harap anda seronok melayari <b>Dunia Imaginasi Saya.</b> 
-			emaillah kepada saya di al.amin[at]yahoo.com jika ada cadangan yang baik-baik. Saya 
-			akan cuba kemaskini kandungan ni dari semasa ke semasa.
+			cuma tak terfikir lagi nak letak apa nama hehehe. Harap anda seronok melayari <?php
+			?><b>Dunia Imaginasi Saya.</b> Emaillah kepada saya di al.amin[at]yahoo.com jika
+			ada cadangan yang baik-baik. Saya akan cuba kemaskini kandungan ni dari semasa
+			ke semasa.
 			<br><br>
 			Sekian Terima Kasih. Wasalam</p>
 		</div><!-- / class="col-sm-7" -->
