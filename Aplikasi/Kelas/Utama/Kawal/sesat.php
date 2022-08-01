@@ -2,7 +2,8 @@
 namespace Aplikasi\Kawal; //echo __NAMESPACE__;
 class Sesat extends \Aplikasi\Kitab\Kawal
 {
-#==========================================================================================
+#==================================================================================================
+##-------------------------------------------------------------------------------------------------
 	function __construct()
 	{
 		parent::__construct();
@@ -13,7 +14,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}
-##-----------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	public function index($p = null)
 	{
 		# Set pemboleubah utama//'<hr>Nama class :' . __METHOD__ . '<hr>'
@@ -25,7 +26,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//$this->paparKandungan($this->_folder, 'index');
 		$this->paparKhas($this->_folder, 'index');
 	}
-##-----------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	public function paparKandungan($folder, $fail, $noInclude=1)
 	{	# Pergi papar kandungan
 		$jenis = $this->papar->pilihTemplate($template=0);
@@ -35,7 +36,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 			//'mobile/mobile',$jenis,0); # $noInclude=0
 		//*/
 	}
-##-----------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	public function paparKhas($folder, $fail, $noInclude=0)
 	{	# Pergi papar kandungan
 		$jenis = $this->papar->pilihTemplate($template=431);
@@ -45,7 +46,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 			//'mobile/mobile',$jenis,0); # $noInclude=0
 		//*/
 	}
-##-----------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	function logout()
 	{
 		//echo '<pre>sebelum:'; print_r($_SESSION); echo '</pre>';
@@ -53,7 +54,9 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		header('location: ' . URL);
 		//exit;
 	}
-#==========================================================================================
+##-------------------------------------------------------------------------------------------------
+#==================================================================================================
+#--------------------------------------------------------------------------------------------------
 	function parameter()
 	{
 		$this->papar->mesej = 'Class wujud tapi parameter/method/fungsi tidak wujud';
@@ -62,7 +65,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->mesej); # Semak data dulu
 		$this->paparKandungan($this->_folder, 'index');
 	}
-#-------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	function classTidakWujud($amaran)
 	{
 		$this->papar->mesej = $amaran;
@@ -73,7 +76,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder, 'index');
 		//exit();
 	}
-#-------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	function methodTanyaTidakWujud($amaran,$class,$method)
 	{
 		$this->papar->mesej = $amaran
@@ -84,7 +87,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->mesej); # Semak data dulu
 		$this->paparKandungan($this->_folder, 'index');
 	}
-#-------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	function folderPaparTidakWujud()
 	{
 		$this->papar->mesej = 'folder tidak wujud dalam PAPAR';
@@ -94,7 +97,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->mesej); # Semak data dulu
 		$this->paparKandungan($this->_folder, 'index');
 	}
-#-------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	function failTidakWujud()
 	{
 		$this->papar->mesej = 'Fail tidak wujud dalam PAPAR';
@@ -104,7 +107,7 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->mesej); # Semak data dulu
 		$this->paparKandungan($this->_folder, 'index');
 	}
-#-------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	function masalahDB($amaran)
 	{
 		$this->papar->mesej = $amaran;
@@ -114,6 +117,6 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->mesej); # Semak data dulu
 		$this->paparKandungan($this->_folder, 'index');
 	}
-#-------------------------------------------------------------------------------------------
-#===========================================================================================
+#--------------------------------------------------------------------------------------------------
+#==================================================================================================
 }
