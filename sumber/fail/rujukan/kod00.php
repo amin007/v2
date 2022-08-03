@@ -607,7 +607,7 @@ $data['Aktiviti Pekerjaan'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 # masco msic
-$data['mascoMsic'] = array(
+$data['mascoLamaMsic'] = array(
 	array('','1','PENGURUS','PASARAYA','1','112120','47112'),
 	array('','3','PENYELIA','PASARAYA','3','522203','47112'),
 	array('','3','PEKERJA','PASARAYA','3','522302','47112'),
