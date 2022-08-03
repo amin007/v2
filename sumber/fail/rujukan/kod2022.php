@@ -1539,6 +1539,7 @@ $data['mascoMsicV2'] = array(
 	array('','PENANAM','KELAPA SAWIT','611104','01262'),
 	array('','BEKEBUN','KELAPA SAWIT','611104','01262'),
 	array('','PENANAM','DURIAN','611125','01223'),
+	array('','PENANAM/PEKEBUN','KELAPA MUDA/TUA','611103','01263'),
 	array('','PEKEBUN KECIL','SAYUR','611301','01131'),
 	array('','TUKANG RUMAH','BUAT RUMAH','711101','41001'),
 	array('','TUKANG CAT','RUMAH','713104','41001'),
