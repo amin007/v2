@@ -1651,6 +1651,54 @@ $data['bezaUntungRugi'] = array(
 	array('','110017','o) Mogok atau sekatan','Strike or blockade'),
 	array('','110020','p) Perubahan ke arah automasi','Changes toward automation'),
 	array('','110018','q) Lain-lain (sila nyatakan)','Others (please specify)'),
+	array('','380002','(a) Kekurangan bahan mentah','Shortage of raw materials'),
+	array('','380003','(b) Kekurangan pekerja','Shortage of workers'),
+	array('','380004','(c) Pembayaran gaji dan upah','Payment of salaries and wages'),
+	array('','380005','(d) Pembayaran sewa premis','Payment of premises rental'),
+	array('','380006','(e) Pembayaran pinjaman bank','Payment of bank loans'),
+	array('','380007','(f) Penyimpanan bahan mentah','Storage of raw materials'),
+	array('','380008','(g) Ketiadaan peraih pemasaran','No marketing agents'),
+	array('','380009','(h) Ketiadaan pelanggan','No customers'),
+	array('','380010','(i) Kekurangan modal kerja / aliran tunai',
+	'Shortage of working capital / cash flow'),
+	array('','380011','(j) Waktu operasi terhad','Limited hours of operation'),
+	array('','380020','(a) Memperkenalkan atau mempercepatkan pengenalan barangan dan perkhidmatan'
+	. ' baharu','Introduce or accelerate the introduction of new goods and services'),
+	array('','380021','(b) Mengurangkan saiz aktiviti perniagaan (cth. mengurangkan barangan dan'
+	. ' perkhidmatan yang ditawarkan)','Downsizing business activities (e.g., reduce goods and'
+	. ' services offered)'),
+	array('','380022','(c) Mengurangkan kos selain daripada kos buruh',
+	'Reduce costs other than labour costs'),
+	array('','380023','(d) Mengurangkan import barang dan perkhidmatan, serta meningkatkan'
+	. ' penggunaan barangan & perkhidmatan tempatan dalam pengeluaran','Reduce import of'
+	. ' goods and services and increase the use of local goods & services in production'),
+	array('','380024','(a) Membangunkan rantaian bekalan dan pasaran baharu','Develop new supply'
+	. ' chain and market'),
+	array('','380025','(b) Meningkatkan harga barangan dan perkhidmatan tertentu yang ditawarkan'
+	. ' kepada pelanggan','Increase prices of certain goods and services offered to customers'),
+	array('','380026','(c) Menurunkan harga barangan dan perkhidmatan tertentu yang ditawarkan'
+	. ' kepada pelanggan','Decrease prices of certain goods and services offered to customers'),
+	array('','380027','(d) Meningkatkan bajet pemasaran','Increase marketing budgets'),
+	array('','380028','(e) Mengurangkan bajet pemasaran','Reduce marketing budgets'),
+	array('','380029','(a) Menggalakkan cara bekerja jarak jauh / bekerja dari rumah',
+	'Promote the remote work / work from home'),
+	array('','380030','(b) Menggantikan tenaga buruh dengan proses automasi dan penggunaan robot'
+	. ' dalam menghasilkan barangan dan perkhidmatan','Substitute labour with automation process'
+	. ' and usage of robots in producing goods and services'),
+	array('','380031','(c) Memberi latihan tambahan kepada kakitangan (cth. latihan khusus'
+	. ' pekerjaan, latihan pengurusan, latihan teknologi baharu, latihan amalan perniagaan baharu,'
+	. ' latihan kemahiran digital, kemahiran literasi data, latihan dan pembangunan lain)',
+	'Provide additional training to employees (e.g. job specific training, managerial training,'
+	. ' new technology training, new business practice training, digital skills training, data'
+	. ' literacy skills, other training and development)'),
+	array('','380032','(d) Mengurangkan kos pekerja (cth. memberhentikan pekerja, memberi cuti'
+	. ' tanpa gaji dan pemotongan elaun, mengurangkan jam bekerja, menawarkan pakej persaraan'
+	. ' awal)','Reduce labour costs (e.g. lay-off employees, giving unpaid leave and allowance'
+	. ' deduction, reduce working hours, offer early retirement package)'),
+	array('','380033','(a) Meningkatkan penggunaan teknologi maklumat dan komunikasi (cth.'
+	. ' sistem pengkomputeran berasaskan awan dan analitis data raya)','Enhance usage of'
+	. ' information and communication technology (e.g. cloud-based computing systems and'
+	. ' big data analytic)'),
 	array('','S08B01','Kurang menguntungkan untuk beroperasi pada keupayaan pengeluaran penuh',
 	'Less profitable to operate at full production capacity'),
 	array('','S08B02','Bekalan bahan tidak mencukupi','Insufficient material supply'),
