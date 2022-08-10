@@ -1723,8 +1723,10 @@ $data['bezaUntungRugi'] = array(
 	array('','POM001','Kos overhead tinggi seperti sewa, insurans, utiliti','High overhead cost'),
 	array('','POM002','Permintaan dari pasaran domestik meningkat/menurun',
 	'Demand from the domestic market increases/decreases'),
-	array('','POM003','Ramai orang daftar masuk kelab pada tahun ini','-'),
-	array('','POM004','Pembaikan dan penyelenggaraan harta lama','-'),
+	array('','POM003','Ramai orang daftar masuk kelab pada tahun ini',
+	'Lots of people signed up to the club this year'),
+	array('','POM004','Pembaikan dan penyelenggaraan harta lama',
+	'Repair and maintenance of old property'),
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
