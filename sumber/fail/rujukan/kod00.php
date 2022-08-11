@@ -884,6 +884,21 @@ $data['Unit Kuantiti'] = array(
 	array('','97','97-No Unit Of Quantity (N.P.U.)'),
 );
 #--------------------------------------------------------------------------------------------------
+// 15-Air, Pelincir, Bahan Pembakar Dan Tenaga Elektrik Yang Digunakan
+$data['AupAirPelincirPembakarElektrik'] = array(
+	array('','Butiran','Unit Kuantiti','Min','Max','AUP'),
+	array('','Pelincir','Liter','Min = 9.00','Max = 9.22','AUP = 9.11'),
+	array('','Air [2.10]','Meter padu','Min = 0.90','Max = 3.30','AUP = 2.10'),
+	array('','Minyak Diesel [1.95]','Liter','Min = 1.40','Max = 2.50','AUP = 1.95'),
+	array('','Minyak Petrol [2.40]','Liter','Min = 1.70','Max = 3.10','AUP = 2.40'),
+	array('','Minyak relau/pembakar','Liter','Min = 0.80','Max = 1.50','AUP = 1.15'),
+	array('','Gas petroleum cecair(LPG) [1935.50]','Tonne','Min = 1367','Max = 2540',
+	'AUP = 1935.50'),
+	array('','Gas asli untuk kenderaan(NGV)','Tonne','Min = 1000','Max = 1400','AUP = 1200'),
+	array('','Tenaga elektrik yang dibeli [0.37]','k.w.j','Min = 0.10','Max = 1.00',
+	'AUP = 0.37'),
+);
+#--------------------------------------------------------------------------------------------------
 // kod bandar
 $data['bandar'] = array(
 	array('','Johor (Kod Negeri: 01)','',''),
