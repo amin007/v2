@@ -886,7 +886,7 @@ $data['Unit Kuantiti'] = array(
 #--------------------------------------------------------------------------------------------------
 // 15-Air, Pelincir, Bahan Pembakar Dan Tenaga Elektrik Yang Digunakan
 $data['AupAirPelincirPembakarElektrik'] = array(
-	array('','Butiran','Unit Kuantiti','Min','Max','AUP'),
+	//array('','Butiran','Unit Kuantiti','Min','Max','AUP'),
 	array('','Pelincir','Liter','Min = 9.00','Max = 9.22','AUP = 9.11'),
 	array('','Air [2.10]','Meter padu','Min = 0.90','Max = 3.30','AUP = 2.10'),
 	array('','Minyak Diesel [1.95]','Liter','Min = 1.40','Max = 2.50','AUP = 1.95'),
