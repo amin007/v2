@@ -1727,6 +1727,8 @@ $data['bezaUntungRugi'] = array(
 	'Lots of people signed up to the club this year'),
 	array('','POM004','Pembaikan dan penyelenggaraan harta lama',
 	'Repair and maintenance of old property'),
+	array('','POM005','Keuntungan besar disebabkan strategi khusus perniagaan',
+	'Huge profits due to specific business strategies'),
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
