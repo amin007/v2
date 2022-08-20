@@ -15,16 +15,16 @@ define('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']
 define('Tajuk_Muka_Surat', '***');
 
 # setkan jquery, bootstrap dan font awesome sama ada local atau cdn
-## cdn
+## cdn => tukar maxcdn kepada stackpath
       $jquery_cdn = 'https://code.jquery.com/jquery-2.2.3.min.js';
- $bootstrapJS_cdn = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js';
-$bootstrapCSS_cdn = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css';
- $ceruleanCSS_cdn = 'https://maxcdn.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css';
- $fontawesome_cdn = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+ $bootstrapJS_cdn = 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js';
+$bootstrapCSS_cdn = 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css';
+ $ceruleanCSS_cdn = 'https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css';
+ $fontawesome_cdn = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 ## 431
- $bootstrapJS_431 = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js';
-$bootstrapCSS_431 = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
- $ceruleanCSS_431 = 'https://maxcdn.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css';
+ $bootstrapJS_431 = 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js';
+$bootstrapCSS_431 = 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+ $ceruleanCSS_431 = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css';
  $fontawesome_510 = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
 ## local
             $sumber = 'sumber/utama/';
