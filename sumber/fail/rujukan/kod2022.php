@@ -123,7 +123,6 @@ $data['isced-f 2013'] = array(
 	. ' sciences, mathematics & statistics','',''),
 	array('','059 Natural sciences, mathematics & statistics not elsewhere classified','',''),
 	array('','0599 Natural sciences, mathematics & statistics not elsewhere classified','',''),
-
 	array('','06 Information & Communication Technologies (ICTs)','',''),
 	array('','061 Information & Communication Technologies (ICTs)','',''),
 	array('','0610 Information & Communication Technologies (ICTs) not further defined','',''),
@@ -1679,8 +1678,8 @@ $data['bezaUntungRugi'] = array(
 	. ' kepada pelanggan','Decrease prices of certain goods and services offered to customers'),
 	array('','380027','d) Meningkatkan bajet pemasaran','Increase marketing budgets'),
 	array('','380028','e) Mengurangkan bajet pemasaran','Reduce marketing budgets'),
-	array('','380029','a) Menggalakkan cara bekerja jarak jauh / bekerja dari rumah',
-	'Promote the remote work / work from home'),
+	array('','380029','a) Menggalakkan cara bekerja jarak jauh/bekerja dari rumah',
+	'Promote the remote work/work from home'),
 	array('','380030','b) Menggantikan tenaga buruh dengan proses automasi dan penggunaan robot'
 	. ' dalam menghasilkan barangan dan perkhidmatan','Substitute labour with automation process'
 	. ' and usage of robots in producing goods and services'),
@@ -1705,7 +1704,7 @@ $data['bezaUntungRugi'] = array(
 	//array('','17.4','Mengapakah pertubuhan ini mengalami peunurunan penggunaan kapasiti?',
 	//'Why is this establishment experiencing an decerease in capacity utilisation?'),
 	array('','160009','a) Pesanan tidak mencukupi','Insufficient orders'),
-	array('','160010','b) Mogok atau berhenti kerja','Strike or work stoppage'),
+	array('','160010','b) Mogok atau berhenti kerja','Strike or work stoppage',
 	array('','160011','c) Stok yang mencukupi','Sufficient inventory'),
 	array('','160012','d) Buruh tidak mencukupi','Insufficient labour'),
 	array('','160013','e) Pemberhentian operasi','Plant shutdown'),
