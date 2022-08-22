@@ -1699,6 +1699,37 @@ $data['bezaUntungRugi'] = array(
 	. ' sistem pengkomputeran berasaskan awan dan analitis data raya)','Enhance usage of'
 	. ' information and communication technology (e.g. cloud-based computing systems and'
 	. ' big data analytic)'),
+	//array('','17.3','Mengapakah pertubuhan ini mengalami peningkatan penggunaan kapasiti?',
+	//'Why is this establishment experiencing an increase in capacity utilisation?'),
+	array('','160005','(a) Permintaan produk yang lebih tinggi','Higher product demand'),
+	array('','160006','(b) Stok tidak mencukupi','Insufficient inventory'),
+	//array('','17.4','Mengapakah pertubuhan ini mengalami peunurunan penggunaan kapasiti?',
+	//'Why is this establishment experiencing an decerease in capacity utilisation?'),
+	array('','160009','(a) Pesanan tidak mencukupi','Insufficient orders'),
+	array('','160010','(b) Mogok atau berhenti kerja','Strike or work stoppage'),
+	array('','160011','(c) Stok yang mencukupi','Sufficient inventory'),
+	array('','160012','(d) Buruh tidak mencukupi','Insufficient labour'),
+	array('','160013','(e) Pemberhentian operasi','Plant shutdown'),
+	array('','160014','(f) Kekurangan bahan atau bekalan','Lack of materials or supplies'),
+	array('','160015','(g) Memulakan operasi baharu','Start a new operation'),
+	array('','160016','(h) Gangguan bekalan elektrik','Electricity disruption'),
+	array('','160019','(i) Pengurangan waktu operasi','Reduction of operating time'),
+	//B.4 Apakah tujuan pembiayaan yang dipohon?'),
+	array('','350013','(a) Modal kerja (stok, bahan mentah, kos pekerja dsb.)',
+	'Capital (stocks, raw materials, labour costs etc.)'),
+	array('','350014','(b) Penambahbaikan / naik taraf proses pengeluaran',
+	'Improvement / upgrade of production processes'),
+	array('','350015','(c) Pembelian / penyewaan tanah / bangunan (termasuk pembesaran'
+	. ' dan pengubahsuaian)','Purchase / lease of land / building (include extension'
+	. ' and renovation)'),
+	array('','350016','(d) Pembelian / penyewaan peralatan / mesin / kenderaan /'
+	. ' perkakasan dan perisian komputer','Purchase / lease of equipment /'
+	. ' machinery / vehicles / computer hardware and software'),
+	array('','350017','(e) Penyatuan hutang / pembiayaan semula',
+	'Debt consolidation / refinancing'),
+	array('','350018','(f) Penyelidikan dan pembangunan produk',
+	'Research and product development'),
+	array('','350019','(g) Membeli perniagaan','Purchase a business'),
 	array('','S08B01','Kurang menguntungkan untuk beroperasi pada keupayaan pengeluaran penuh',
 	'Less profitable to operate at full production capacity'),
 	array('','S08B02','Bekalan bahan tidak mencukupi','Insufficient material supply'),
