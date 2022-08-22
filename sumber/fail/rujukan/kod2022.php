@@ -1650,7 +1650,6 @@ $data['bezaUntungRugi'] = array(
 	array('','110016','n) Pengambil alihan unit-unit perniagaan','Acquisition of business units'),
 	array('','110017','o) Mogok atau sekatan','Strike or blockade'),
 	array('','110020','p) Perubahan ke arah automasi','Changes toward automation'),
-	array('','110018','q) Lain-lain (sila nyatakan)','Others (please specify)'),
 	array('','380002','(a) Kekurangan bahan mentah','Shortage of raw materials'),
 	array('','380003','(b) Kekurangan pekerja','Shortage of workers'),
 	array('','380004','(c) Pembayaran gaji dan upah','Payment of salaries and wages'),
