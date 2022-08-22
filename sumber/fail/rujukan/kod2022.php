@@ -1704,7 +1704,7 @@ $data['bezaUntungRugi'] = array(
 	//array('','17.4','Mengapakah pertubuhan ini mengalami peunurunan penggunaan kapasiti?',
 	//'Why is this establishment experiencing an decerease in capacity utilisation?'),
 	array('','160009','a) Pesanan tidak mencukupi','Insufficient orders'),
-	array('','160010','b) Mogok atau berhenti kerja','Strike or work stoppage',
+	array('','160010','b) Mogok atau berhenti kerja','Strike or work stoppage'),
 	array('','160011','c) Stok yang mencukupi','Sufficient inventory'),
 	array('','160012','d) Buruh tidak mencukupi','Insufficient labour'),
 	array('','160013','e) Pemberhentian operasi','Plant shutdown'),
