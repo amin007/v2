@@ -1729,7 +1729,9 @@ $data['bezaUntungRugi'] = array(
 	'Repair and maintenance of old property'),
 	array('','POM005','Keuntungan besar disebabkan strategi khusus perniagaan',
 	'Huge profits due to specific business strategies'),
-	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
+	array('','POM006','Permintaan meningkat selepas pandemik covid-19',
+	'Demand increased after the covid-19 pandemic'),
+	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
 /*$data['xxx'] = array(
