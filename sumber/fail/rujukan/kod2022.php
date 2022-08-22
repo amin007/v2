@@ -1716,16 +1716,16 @@ $data['bezaUntungRugi'] = array(
 	//B.4 Apakah tujuan pembiayaan yang dipohon?'),
 	array('','350013','(a) Modal kerja (stok, bahan mentah, kos pekerja dsb.)',
 	'Capital (stocks, raw materials, labour costs etc.)'),
-	array('','350014','(b) Penambahbaikan / naik taraf proses pengeluaran',
-	'Improvement / upgrade of production processes'),
-	array('','350015','(c) Pembelian / penyewaan tanah / bangunan (termasuk pembesaran'
-	. ' dan pengubahsuaian)','Purchase / lease of land / building (include extension'
+	array('','350014','(b) Penambahbaikan/naik taraf proses pengeluaran',
+	'Improvement/upgrade of production processes'),
+	array('','350015','(c) Pembelian/penyewaan tanah/bangunan (termasuk pembesaran'
+	. ' dan pengubahsuaian)','Purchase/lease of land/building (include extension'
 	. ' and renovation)'),
-	array('','350016','(d) Pembelian / penyewaan peralatan / mesin / kenderaan /'
-	. ' perkakasan dan perisian komputer','Purchase / lease of equipment /'
-	. ' machinery / vehicles / computer hardware and software'),
-	array('','350017','(e) Penyatuan hutang / pembiayaan semula',
-	'Debt consolidation / refinancing'),
+	array('','350016','(d) Pembelian/penyewaan peralatan/mesin/kenderaan/'
+	. ' perkakasan dan perisian komputer','Purchase/lease of equipment/'
+	. ' machinery/vehicles/computer hardware and software'),
+	array('','350017','(e) Penyatuan hutang/pembiayaan semula',
+	'Debt consolidation/refinancing'),
 	array('','350018','(f) Penyelidikan dan pembangunan produk',
 	'Research and product development'),
 	array('','350019','(g) Membeli perniagaan','Purchase a business'),
