@@ -1650,85 +1650,97 @@ $data['bezaUntungRugi'] = array(
 	array('','110016','n) Pengambil alihan unit-unit perniagaan','Acquisition of business units'),
 	array('','110017','o) Mogok atau sekatan','Strike or blockade'),
 	array('','110020','p) Perubahan ke arah automasi','Changes toward automation'),
-	array('','380002','(a) Kekurangan bahan mentah','Shortage of raw materials'),
-	array('','380003','(b) Kekurangan pekerja','Shortage of workers'),
-	array('','380004','(c) Pembayaran gaji dan upah','Payment of salaries and wages'),
-	array('','380005','(d) Pembayaran sewa premis','Payment of premises rental'),
-	array('','380006','(e) Pembayaran pinjaman bank','Payment of bank loans'),
-	array('','380007','(f) Penyimpanan bahan mentah','Storage of raw materials'),
-	array('','380008','(g) Ketiadaan peraih pemasaran','No marketing agents'),
-	array('','380009','(h) Ketiadaan pelanggan','No customers'),
-	array('','380010','(i) Kekurangan modal kerja / aliran tunai',
+	array('','380002','a) Kekurangan bahan mentah','Shortage of raw materials'),
+	array('','380003','b) Kekurangan pekerja','Shortage of workers'),
+	array('','380004','c) Pembayaran gaji dan upah','Payment of salaries and wages'),
+	array('','380005','d) Pembayaran sewa premis','Payment of premises rental'),
+	array('','380006','e) Pembayaran pinjaman bank','Payment of bank loans'),
+	array('','380007','f) Penyimpanan bahan mentah','Storage of raw materials'),
+	array('','380008','g) Ketiadaan peraih pemasaran','No marketing agents'),
+	array('','380009','h) Ketiadaan pelanggan','No customers'),
+	array('','380010','i) Kekurangan modal kerja / aliran tunai',
 	'Shortage of working capital / cash flow'),
-	array('','380011','(j) Waktu operasi terhad','Limited hours of operation'),
-	array('','380020','(a) Memperkenalkan atau mempercepatkan pengenalan barangan dan perkhidmatan'
+	array('','380011','j) Waktu operasi terhad','Limited hours of operation'),
+	array('','380020','a) Memperkenalkan atau mempercepatkan pengenalan barangan dan perkhidmatan'
 	. ' baharu','Introduce or accelerate the introduction of new goods and services'),
-	array('','380021','(b) Mengurangkan saiz aktiviti perniagaan (cth. mengurangkan barangan dan'
+	array('','380021','b) Mengurangkan saiz aktiviti perniagaan (cth. mengurangkan barangan dan'
 	. ' perkhidmatan yang ditawarkan)','Downsizing business activities (e.g., reduce goods and'
 	. ' services offered)'),
-	array('','380022','(c) Mengurangkan kos selain daripada kos buruh',
+	array('','380022','c) Mengurangkan kos selain daripada kos buruh',
 	'Reduce costs other than labour costs'),
-	array('','380023','(d) Mengurangkan import barang dan perkhidmatan, serta meningkatkan'
+	array('','380023','d) Mengurangkan import barang dan perkhidmatan, serta meningkatkan'
 	. ' penggunaan barangan & perkhidmatan tempatan dalam pengeluaran','Reduce import of'
 	. ' goods and services and increase the use of local goods & services in production'),
-	array('','380024','(a) Membangunkan rantaian bekalan dan pasaran baharu','Develop new supply'
+	array('','380024','a) Membangunkan rantaian bekalan dan pasaran baharu','Develop new supply'
 	. ' chain and market'),
-	array('','380025','(b) Meningkatkan harga barangan dan perkhidmatan tertentu yang ditawarkan'
+	array('','380025','b) Meningkatkan harga barangan dan perkhidmatan tertentu yang ditawarkan'
 	. ' kepada pelanggan','Increase prices of certain goods and services offered to customers'),
-	array('','380026','(c) Menurunkan harga barangan dan perkhidmatan tertentu yang ditawarkan'
+	array('','380026','c) Menurunkan harga barangan dan perkhidmatan tertentu yang ditawarkan'
 	. ' kepada pelanggan','Decrease prices of certain goods and services offered to customers'),
-	array('','380027','(d) Meningkatkan bajet pemasaran','Increase marketing budgets'),
-	array('','380028','(e) Mengurangkan bajet pemasaran','Reduce marketing budgets'),
-	array('','380029','(a) Menggalakkan cara bekerja jarak jauh / bekerja dari rumah',
+	array('','380027','d) Meningkatkan bajet pemasaran','Increase marketing budgets'),
+	array('','380028','e) Mengurangkan bajet pemasaran','Reduce marketing budgets'),
+	array('','380029','a) Menggalakkan cara bekerja jarak jauh / bekerja dari rumah',
 	'Promote the remote work / work from home'),
-	array('','380030','(b) Menggantikan tenaga buruh dengan proses automasi dan penggunaan robot'
+	array('','380030','b) Menggantikan tenaga buruh dengan proses automasi dan penggunaan robot'
 	. ' dalam menghasilkan barangan dan perkhidmatan','Substitute labour with automation process'
 	. ' and usage of robots in producing goods and services'),
-	array('','380031','(c) Memberi latihan tambahan kepada kakitangan (cth. latihan khusus'
+	array('','380031','c) Memberi latihan tambahan kepada kakitangan (cth. latihan khusus'
 	. ' pekerjaan, latihan pengurusan, latihan teknologi baharu, latihan amalan perniagaan baharu,'
 	. ' latihan kemahiran digital, kemahiran literasi data, latihan dan pembangunan lain)',
 	'Provide additional training to employees (e.g. job specific training, managerial training,'
 	. ' new technology training, new business practice training, digital skills training, data'
 	. ' literacy skills, other training and development)'),
-	array('','380032','(d) Mengurangkan kos pekerja (cth. memberhentikan pekerja, memberi cuti'
+	array('','380032','d) Mengurangkan kos pekerja (cth. memberhentikan pekerja, memberi cuti'
 	. ' tanpa gaji dan pemotongan elaun, mengurangkan jam bekerja, menawarkan pakej persaraan'
 	. ' awal)','Reduce labour costs (e.g. lay-off employees, giving unpaid leave and allowance'
 	. ' deduction, reduce working hours, offer early retirement package)'),
-	array('','380033','(a) Meningkatkan penggunaan teknologi maklumat dan komunikasi (cth.'
+	array('','380033','a) Meningkatkan penggunaan teknologi maklumat dan komunikasi (cth.'
 	. ' sistem pengkomputeran berasaskan awan dan analitis data raya)','Enhance usage of'
 	. ' information and communication technology (e.g. cloud-based computing systems and'
 	. ' big data analytic)'),
 	//array('','17.3','Mengapakah pertubuhan ini mengalami peningkatan penggunaan kapasiti?',
 	//'Why is this establishment experiencing an increase in capacity utilisation?'),
-	array('','160005','(a) Permintaan produk yang lebih tinggi','Higher product demand'),
-	array('','160006','(b) Stok tidak mencukupi','Insufficient inventory'),
+	array('','160005','a) Permintaan produk yang lebih tinggi','Higher product demand'),
+	array('','160006','b) Stok tidak mencukupi','Insufficient inventory'),
 	//array('','17.4','Mengapakah pertubuhan ini mengalami peunurunan penggunaan kapasiti?',
 	//'Why is this establishment experiencing an decerease in capacity utilisation?'),
-	array('','160009','(a) Pesanan tidak mencukupi','Insufficient orders'),
-	array('','160010','(b) Mogok atau berhenti kerja','Strike or work stoppage'),
-	array('','160011','(c) Stok yang mencukupi','Sufficient inventory'),
-	array('','160012','(d) Buruh tidak mencukupi','Insufficient labour'),
-	array('','160013','(e) Pemberhentian operasi','Plant shutdown'),
-	array('','160014','(f) Kekurangan bahan atau bekalan','Lack of materials or supplies'),
-	array('','160015','(g) Memulakan operasi baharu','Start a new operation'),
-	array('','160016','(h) Gangguan bekalan elektrik','Electricity disruption'),
-	array('','160019','(i) Pengurangan waktu operasi','Reduction of operating time'),
+	array('','160009','a) Pesanan tidak mencukupi','Insufficient orders'),
+	array('','160010','b) Mogok atau berhenti kerja','Strike or work stoppage'),
+	array('','160011','c) Stok yang mencukupi','Sufficient inventory'),
+	array('','160012','d) Buruh tidak mencukupi','Insufficient labour'),
+	array('','160013','e) Pemberhentian operasi','Plant shutdown'),
+	array('','160014','f) Kekurangan bahan atau bekalan','Lack of materials or supplies'),
+	array('','160015','g) Memulakan operasi baharu','Start a new operation'),
+	array('','160016','h) Gangguan bekalan elektrik','Electricity disruption'),
+	array('','160019','i) Pengurangan waktu operasi','Reduction of operating time'),
 	//B.4 Apakah tujuan pembiayaan yang dipohon?'),
-	array('','350013','(a) Modal kerja (stok, bahan mentah, kos pekerja dsb.)',
+	array('','350013','a) Modal kerja (stok, bahan mentah, kos pekerja dsb.)',
 	'Capital (stocks, raw materials, labour costs etc.)'),
-	array('','350014','(b) Penambahbaikan/naik taraf proses pengeluaran',
+	array('','350014','b) Penambahbaikan/naik taraf proses pengeluaran',
 	'Improvement/upgrade of production processes'),
-	array('','350015','(c) Pembelian/penyewaan tanah/bangunan (termasuk pembesaran'
+	array('','350015','c) Pembelian/penyewaan tanah/bangunan (termasuk pembesaran'
 	. ' dan pengubahsuaian)','Purchase/lease of land/building (include extension'
 	. ' and renovation)'),
-	array('','350016','(d) Pembelian/penyewaan peralatan/mesin/kenderaan/'
+	array('','350016','d) Pembelian/penyewaan peralatan/mesin/kenderaan/'
 	. ' perkakasan dan perisian komputer','Purchase/lease of equipment/'
 	. ' machinery/vehicles/computer hardware and software'),
-	array('','350017','(e) Penyatuan hutang/pembiayaan semula',
+	array('','350017','e) Penyatuan hutang/pembiayaan semula',
 	'Debt consolidation/refinancing'),
-	array('','350018','(f) Penyelidikan dan pembangunan produk',
+	array('','350018','f) Penyelidikan dan pembangunan produk',
 	'Research and product development'),
-	array('','350019','(g) Membeli perniagaan','Purchase a business'),
+	array('','350019','g) Membeli perniagaan','Purchase a business'),
+	array('','370109','a) Meningkatkan tahap produktiviti dan kualiti produk',
+	'Increase productivity level and products quality'),
+	array('','370110','b) Meningkatkan tahap automasi dalam pengeluaran',
+	'Increase level of automation in production'),
+	array('','370111','c) Mengikuti trend global Revolusi Perindustrian Keempat',
+	'Follow the global trend of Fourth Industrial Revolution'),
+	array('','370112','d) Transformasi dan bertahan sebagai pengilang',
+	'Transform and survive as a manufacturer'),
+	array('','370113','e) Layak mendapat insentif kerajaan',
+	'Eligible for government incentives'),
+	array('','370114','f) Mengurangkan kebergantungan kepada tenaga buruh',
+	'Reduce dependency on labour'),
 	array('','S08B01','Kurang menguntungkan untuk beroperasi pada keupayaan pengeluaran penuh',
 	'Less profitable to operate at full production capacity'),
 	array('','S08B02','Bekalan bahan tidak mencukupi','Insufficient material supply'),
