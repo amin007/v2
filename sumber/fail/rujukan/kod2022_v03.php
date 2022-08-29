@@ -47,6 +47,7 @@ $arr['user']=Array
     [27] => panggildatatable
 )*/
 #--------------------------------------------------------------------------------------------------
+echo '<hr>';
 $functions = get_defined_functions();
 $functions_list = array();
 foreach ($functions['user'] as $func)
@@ -71,10 +72,11 @@ foreach ($functions['user'] as $func)
 //print_r($functions_list);
 semakPembolehubah($functions_list,'functions_list',0);
 #--------------------------------------------------------------------------------------------------
+
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
 # 3. semak ip dan dns
-$tajuk[] = date("h:i:s",$_SERVER['REQUEST_TIME']);
+$tajuk[] = '<hr>' . date("h:i:s",$_SERVER['REQUEST_TIME']);
 $tajuk[] = 'getHostName = ' . getHostName();
 $tajuk[] = 'getHostByName = ' . getHostByName(getHostName());
 $tajuk[] = '-------------------------------------------------';
@@ -92,4 +94,10 @@ semakPembolehubah($out3,'out3',0);
 /*foreach (preg_grep('/^\s*Physical Address[^:]*:\s*([0-9a-f-]+)/i', $out) as $line)
 {	echo substr(strrchr($line, ' '), 1), PHP_EOL; }*/
 # http://www.php.net/manual/en/function.exec.php#85930
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+echo '<hr>';
+$arr = get_defined_vars();
+semakPembolehubah($arr,'semak pembolehubah',0);//*/
 #--------------------------------------------------------------------------------------------------
