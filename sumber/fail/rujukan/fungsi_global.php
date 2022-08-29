@@ -576,7 +576,7 @@ if ( ! function_exists('binaPautan')):
 		$koleksi = array(
 			array('a'=>'primary','b'=>'../','c'=>'Kembalilah<i class="fa fa-binoculars"></i>'),
 			array('a'=>'success','b'=>$folder . 'msic-cari.html','c'=>'MSIC'),
-			array('a'=>'success','b'=>$folder . 'masco-cari.html','c'=>'MASCO2018'),
+			array('a'=>'success','b'=>$folder . 'masco-cari.html','c'=>'MASCO2013'),
 			array('a'=>'success','b'=>$folder . 'masco2020-cari.html','c'=>'MASCO2020'),
 			array('a'=>'info','b'=>$folder . 'institut-cari.html','c'=>'Institut'),
 			array('a'=>'info','b'=>$folder . 'negara-cari.html','c'=>'Negara'),
