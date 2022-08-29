@@ -5,13 +5,13 @@ include 'fungsi_global.php';
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
-$arr = get_defined_functions();
+/*$arr = get_defined_functions();
 $kira = count($arr['internal']);
 $kira2 = count($arr['user']);
 #--------------------------------------------------------------------------------------------------
 semakPembolehubah($kira,'jum internal');
 semakPembolehubah($kira2,'jum user');
-semakPembolehubah($arr['user'],'semak fungsi',0);
+semakPembolehubah($arr['user'],'semak fungsi',0);//*/
 #--------------------------------------------------------------------------------------------------
 /*
 $arr['user']=Array
@@ -45,6 +45,30 @@ $arr['user']=Array
     [26] => binabutang
     [27] => panggildatatable
 )*/
+#--------------------------------------------------------------------------------------------------
+$functions = get_defined_functions();
+$functions_list = array();
+foreach ($functions['user'] as $func)
+{
+	$f = new ReflectionFunction($func);
+	$args = array();
+	foreach ($f->getParameters() as $param)
+	{
+		$tmparg = '';
+			if ($param->isPassedByReference()) $tmparg = '&';
+				if ($param->isOptional()) {
+					$tmparg = '[' . $tmparg . '$' . $param->getName()
+					. ' = ' . $param->getDefaultValue() . ']';
+				} else {
+					$tmparg.= '&' . $param->getName();
+				}
+				$args[] = $tmparg;
+				unset ($tmparg);
+	}
+	$functions_list[] = 'function ' . $func . ' ( ' . implode(', ', $args) . ' )' . PHP_EOL;
+}
+//print_r($functions_list);
+semakPembolehubah($functions_list,'functions_list',0);
 #--------------------------------------------------------------------------------------------------
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
