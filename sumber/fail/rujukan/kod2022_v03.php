@@ -89,7 +89,7 @@ $arr['user']=Array
     [27] => panggildatatable
 )*/
 #--------------------------------------------------------------------------------------------------
-echo '<hr>';
+/*echo '<hr>';
 $functions = get_defined_functions();
 $functions_list = array();
 foreach ($functions['user'] as $func)
@@ -112,9 +112,9 @@ foreach ($functions['user'] as $func)
 	$functions_list[] = 'function ' . $func . ' ( ' . implode(', ', $args) . ' )' . PHP_EOL;
 }
 //print_r($functions_list);
-semakPembolehubah($functions_list,'functions_list',0);
+semakPembolehubah($functions_list,'functions_list',0);//*/
 #--------------------------------------------------------------------------------------------------
-# 2. isytiharkan zon masa => Asia/Kuala Lumpur
+/*# 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
 # 3. semak ip dan dns
 $tajuk[] = '<hr>' . date("h:i:s",$_SERVER['REQUEST_TIME']);
@@ -138,7 +138,7 @@ semakPembolehubah($out3,'out3',0);
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-echo '<hr>';
+/*echo '<hr>';
 $arr = get_defined_vars();
 semakPembolehubah($arr,'semak pembolehubah',0);//*/
 #--------------------------------------------------------------------------------------------------
