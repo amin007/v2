@@ -51,45 +51,37 @@ function get_defined_functions_in_file($file)
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-/*$arr = get_defined_functions();
-$kira = count($arr['internal']);
-$kira2 = count($arr['user']);
-#--------------------------------------------------------------------------------------------------
-semakPembolehubah($kira,'jum internal');
-semakPembolehubah($kira2,'jum user');
-semakPembolehubah($arr['user'],'semak fungsi',0);//*/
-#--------------------------------------------------------------------------------------------------
 /*
-$arr['user']=Array
+$arr=Array
 (
-    [0] => semakpembolehubah
-    [1] => tagvar
+    [0] => semakPembolehubah
+    [1] => tagVar
     [2] => versiphp
-    [3] => paparversiphp
+    [3] => paparVersiPhp
     [4] => bersih
-    [5] => myurlencode
-    [6] => importcsv2array01
-    [7] => binasatujadual
-    [8] => paparsatujadual
-    [9] => binajadual
-    [10] => tajukmedanjadual
-    [11] => paparjadual
-    [12] => kiratahun
-    [13] => kiratahunjadual
-    [14] => kirajadualtahun
-    [15] => binajson
-    [16] => jsondatatables
-    [17] => debugjson
+    [5] => myUrlEncode
+    [6] => ImportCSV2Array01
+    [7] => binaSatuJadual
+    [8] => paparSatuJadual
+    [9] => binaJadual
+    [10] => tajukMedanJadual
+    [11] => paparJadual
+    [12] => kiraTahun
+    [13] => kiraTahunJadual
+    [14] => kiraJadualTahun
+    [15] => binaJson
+    [16] => jsonDataTables
+    [17] => debugJson
     [18] => diatas
-    [19] => masukcss
-    [20] => gradetable002
-    [21] => jqueryextenda
-    [22] => jqueryextendb
-    [23] => jqueryextendc
-    [24] => binabutangv00
-    [25] => binapautan
-    [26] => binabutang
-    [27] => panggildatatable
+    [19] => masukCss
+    [20] => gradeTable002
+    [21] => jqueryExtendA
+    [22] => jqueryExtendB
+    [23] => jqueryExtendC
+    [24] => binaButangV00
+    [25] => binaPautan
+    [26] => binaButang
+    [27] => panggilDataTable
 )*/
 #--------------------------------------------------------------------------------------------------
 /*echo '<hr>';
@@ -116,28 +108,6 @@ foreach ($functions['user'] as $func)
 }
 //print_r($functions_list);
 semakPembolehubah($functions_list,'functions_list',0);//*/
-#--------------------------------------------------------------------------------------------------
-/*# 2. isytiharkan zon masa => Asia/Kuala Lumpur
-date_default_timezone_set('Asia/Kuala_Lumpur');
-# 3. semak ip dan dns
-$tajuk[] = '<hr>' . date("h:i:s",$_SERVER['REQUEST_TIME']);
-$tajuk[] = 'getHostName = ' . getHostName();
-$tajuk[] = 'getHostByName = ' . getHostByName(getHostName());
-$tajuk[] = '-------------------------------------------------';
-//https://www.meridianoutpost.com/resources/articles/command-line/ipconfig.php
-exec("ipconfig /all", $out, $res);
-# 4. trim data dalam tatasusunan
-$tajuk[] = trim($out[3]);
-list($tajuk[],$tajuk[]) = explode(': ',trim($out[26]));
-$tajuk[] = trim($out[27]);
-echo "<hr><pre>out = \n"; print_r($tajuk);
-# 5. papar tatasusunan yang bersih
-exec("ipconfig /displaydns", $out3, $res);
-echo "<hr>out3 = count(" . count($out3) . ")<hr>";
-semakPembolehubah($out3,'out3',0);
-/*foreach (preg_grep('/^\s*Physical Address[^:]*:\s*([0-9a-f-]+)/i', $out) as $line)
-{	echo substr(strrchr($line, ' '), 1), PHP_EOL; }*/
-# http://www.php.net/manual/en/function.exec.php#85930
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
