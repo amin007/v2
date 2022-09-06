@@ -850,6 +850,23 @@ $data['Pendidikan 2022'] = array(
 	. '- Matlamat Program Kolej Vokasional untuk melahirkan tenaga kerja yg mahir dan kompeten'
 	. ' bagi memenuhi keperluan industri dan entrepreneur<br>'
 	. ''),
+	array('','Nota','kaki','Catatan : 1. Program lepasan ijazah termasuk `Kursus Perguruan Lepasan'
+	. ' Ijazah (KPLI)` dan `Association of Chartered Certified Accountants (ACCA)` dikodkan'
+	. ' sebagai ‘701’;<br>'
+	. ' 2. Kursus pensijilan daripada GIAT MARA dikelaskan di bawah kategori Program'
+	. ' kemahiran asas dan dikodkan sebagai `207`;<br>'
+	. ' 3. Program sijil yang dijalankan oleh institusi kemahiran khusus dan teknikal dikodkan'
+	. ' od `401`, seperti:<br>'
+	. ' i. Institut Kemahiran MARA (IKM);<br>'
+	. ' ii. Institut Kemahiran Belia Negara (IKBN);<br>'
+	. ' iii. Institut Latihan Perindustrian (ILP);<br>'
+	. ' iv. Kolej Komuniti;<br>'
+	. ' v. Jabatan Pembangunan Kemahiran (Sijil Kemahiran Malaysia (SKM) Tahap 1 hingga 3);<br>'
+	. ' vi. Majlis Latihan Vokasional Kebangsaan (MLVK);<br>'
+	. ' vii. Majlis Latihan Pertanian Kebangsaan (NATC)/ Institut Pertanian/ Institut Perikanan/'
+	. ' Akuakultur/ Institut Veterinar;<br>'
+	. ' viii. `State Skill Development Centre` (Cth: PSDC, TATI, NSSDC); dan<br>'
+	. ' ix. Yang setaraf.')
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
