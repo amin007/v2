@@ -906,8 +906,8 @@ $data['sijil 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 $data['PendidikanSijil 2022'] = array(
-	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun','020 - Tiada Sijil'),
-	array('','002','002 - Pendidikan pra-sekolah','020 - Tiada Sijil'),
+	array('','001','001 - Pendidikan awal kanak-kanak(kurang dari 3 tahun)','020 - Tiada Sijil'),
+	array('','002','002 - Pendidikan pra-sekolah(4-6 tahun)','020 - Tiada Sijil'),
 	array('','003','003 - Pendidikan tidak formal','022 - Tiada berkenaan<br>'
 	. '- Merujuk kepada responden yg dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
 	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yg memiliki sijil'
@@ -927,12 +927,12 @@ $data['PendidikanSijil 2022'] = array(
 	. ' perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
 	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai ‘Pendidikan Bukan Formal`'
 	. ' (Kod 006) sahaja pada Ruangan 16.'),
-	array('','101','101 - Darjah / Tahun 1',''),
-	array('','102','102 - Darjah / Tahun 2',''),
-	array('','103','103 - Darjah / Tahun 3',''),
-	array('','104','104 - Darjah / Tahun 4',''),
-	array('','105','105 - Darjah / Tahun 5','101 - UPKK'),
-	array('','106','106 - Darjah / Tahun 6','102 - UPSR/UPSRA'),
+	array('','101','101 - Darjah/Tahun 1',''),
+	array('','102','102 - Darjah/Tahun 2',''),
+	array('','103','103 - Darjah/Tahun 3',''),
+	array('','104','104 - Darjah/Tahun 4',''),
+	array('','105','105 - Darjah/Tahun 5','101 - UPKK'),
+	array('','106','106 - Darjah/Tahun 6','102 - UPSR/UPSRA'),
 	array('','201','201 - Kelas Peralihan',''),
 	array('','202','202 - Tingkatan 1',''),
 	array('','203','203 - Tingkatan 2',''),
