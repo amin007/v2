@@ -912,7 +912,8 @@ $data['PendidikanSijil 2022'] = array(
 	. '- Merujuk kepada responden yg dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
 	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yg memiliki sijil'
 	. ' dari badan-badan yg memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
-	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.'),
+	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.<br>'
+	. '* Untuk OKU juga{Pendidikan tidak formal}.'),
 	array('','004','004 - Tiada pendidikan','022 - Tiada berkenaan<br>'
 	. '- Merujuk kepada responden yg dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
 	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yg memiliki sijil'
