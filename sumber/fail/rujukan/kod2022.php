@@ -529,7 +529,7 @@ $data['Pendidikan 2022'] = array(
 	berkelayakan khusus untuk bidang/subjek yg diajar.
 	- Tempoh pengajian selama 3/4 tahun.
 	- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk menguasai
-	Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu ‘Kelas Peralihan’.
+	Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu `Kelas Peralihan`.
 	- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah,
 	sebelum menyambung pelajaran ke peringkat menengah atas.
 	*/
@@ -546,7 +546,7 @@ $data['Pendidikan 2022'] = array(
 	- Pendidikan vokasional adalah seperti dalam bidang pertukangan, pertanian, sains rumah tangga
 	dan	perdagangan. Kursus vokasional yg diberi adalah mengikut peluang-peluang pekerjaan
 	di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai sekolah teknik.
-	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau
+	- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE `O` Level atau
 	yg setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian
 	peringkat tertiari atau	memilih memasuki pasaran buruh.
 	- Terdapat juga pelajar sekolah vokasional/ teknik yg hanya menduduki peperiksaan
@@ -809,7 +809,7 @@ $data['Pendidikan 2022'] = array(
 	. '- Tempoh pengajian selama 3/4 tahun.<br>'
 	. '- Turut menyediakan program peralihan bagi pelajar aliran bahasa Cina dan Tamil untuk'
 	. ' menguasai Bahasa Malaysia sebelum meneruskan pengajian ke Tingkatan 1 iaitu'
-	. ' ‘Kelas Peralihan’.<br>'
+	. ' `Kelas Peralihan`.<br>'
 	. '- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah'
 	. ' rendah, sebelum menyambung pelajaran ke peringkat menengah atas.<br>'
 	. ''),
@@ -823,7 +823,7 @@ $data['Pendidikan 2022'] = array(
 	. ' tangga dan perdagangan. Kursus vokasional yg diberi adalah mengikut peluang-peluang'
 	. ' pekerjaan di Malaysia. Bermula tahun 1997, sekolah vokasional telah dinaik taraf sebagai'
 	. ' sekolah teknik.<br>'
-	. '- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE ‛O’ Level atau'
+	. '- Pelajar akan menduduki peperiksaan penilaian (SPM/ SPMV/ SMA/ SMU/ GCE `O` Level atau'
 	. ' yg setaraf) di peringkat akhir pendidikan menengah atas sebelum menyambung pengajian'
 	. ' peringkat tertiari atau memilih memasuki pasaran buruh.<br>'
 	. '- Terdapat juga pelajar sekolah vokasional/ teknik yg hanya menduduki peperiksaan'
@@ -852,7 +852,7 @@ $data['Pendidikan 2022'] = array(
 	. ''),
 	array('','Nota','kaki','Catatan : 1. Program lepasan ijazah termasuk `Kursus Perguruan Lepasan'
 	. ' Ijazah (KPLI)` dan `Association of Chartered Certified Accountants (ACCA)` dikodkan'
-	. ' sebagai ‘701’;<br>'
+	. ' sebagai `701`;<br>'
 	. ' 2. Kursus pensijilan daripada GIAT MARA dikelaskan di bawah kategori Program'
 	. ' kemahiran asas dan dikodkan sebagai `207`;<br>'
 	. ' 3. Program sijil yang dijalankan oleh institusi kemahiran khusus dan teknikal dikodkan'
@@ -916,10 +916,26 @@ $data['sijil 2022'] = array(
 	. ' melalui pendidikan rasmi.<br>'
 	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.'),
 	array('','023','023 - Sijil Pendidikan Bukan Formal','-'
-	. ' Merujuk kepada mereka yg menerima	sijil melalui program seperti latihan, kursus dalam'
+	. ' Merujuk kepada mereka yg menerima sijil melalui program seperti latihan, kursus dalam'
 	. '	perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
-	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai ‘Pendidikan Bukan Formal`'
+	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai `Pendidikan Bukan Formal`'
 	. '	(Kod 006) sahaja pada Ruangan 16.'),
+	array('','Nota','kaki','Catatan:<br>'
+	. ' 1. Semak jika Butiran 16 (PT) dikodkan `005` (Masih belum bersekolah), maka'
+	. '	Butiran 17 (SJ) hendaklah dikodkan `020` (Tiada sijil).<br>'
+	. ' 2. Mulai STB 2010, pendidikan pra-sekolah TERMASUK di bawah takrif pendidikan rasmi.'
+	. '	Oleh itu, hendaklah dikodkan seperti berikut:<br>'
+	. ' Butiran 15 (P) - Kod `2` (Bersekolah sepenuh masa)<br>'
+	. ' Butiran 16 (PT) - Kod `001` (Pendidikan awal kanak-kanak)<br>'
+	. ' Kod `002` (Pra-Sekolah)<br>'
+	. ' Butiran 17 (SJ) - Kod `020` (Tiada sijil)<br>'
+	. ' 3. Untuk ahli yang pernah bersekolah tetapi tidak mempunyai sijil dan ahli yang sedang'
+	. ' bersekolah tetapi tidak mempunyai sebarang sijil lagi (contohnya, seseorang yang masih'
+	. ' belajar dalam Tahun 5) hendaklah dikodkan `020` (Tiada sijil).<br>'
+	. ' 4. Sijil GIAT MARA dikelaskan sebagai `Sijil Kemahiran Asas` dan dikodkan `351`.<br>'
+	. ' 5. Sijil ikhtisas seperti `Association of Chartered Certified Accountants` (ACCA),'
+	. ' `Chartered Accountancy` (CA) dll. hendaklah disamakan dengan kod `667`.<br>'
+	. ' '),
 );
 #--------------------------------------------------------------------------------------------------
 $data['PendidikanSijil 2022'] = array(
@@ -943,7 +959,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','006','006 - Pendidikan bukan formal','023 - Sijil Pendidikan Bukan Formal<br>'
 	. '- Merujuk kepada mereka yg menerima sijil melalui program seperti latihan, kursus dalam'
 	. ' perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
-	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai ‘Pendidikan Bukan Formal`'
+	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai `Pendidikan Bukan Formal`'
 	. ' (Kod 006) sahaja pada Ruangan 16.<br>'
 	. '* Sila nyatakan institusi[SJ] dan bidang pengajian[IP]'),
 	array('','101','101 - Darjah/Tahun 1',''),
