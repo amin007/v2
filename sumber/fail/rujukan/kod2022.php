@@ -927,7 +927,8 @@ $data['PendidikanSijil 2022'] = array(
 	. '- Merujuk kepada mereka yg menerima sijil melalui program seperti latihan, kursus dalam'
 	. ' perkhidmatan, seminar, bengkel, forum dan persidangan.<br>'
 	. '- Tidak tertakluk kepada responden yg dicatatkan sebagai ‘Pendidikan Bukan Formal`'
-	. ' (Kod 006) sahaja pada Ruangan 16.'),
+	. ' (Kod 006) sahaja pada Ruangan 16.<br>'
+	. '* Sila nyatakan institusi[SJ] dan bidang pengajian[IP]'),
 	array('','101','101 - Darjah/Tahun 1',''),
 	array('','102','102 - Darjah/Tahun 2',''),
 	array('','103','103 - Darjah/Tahun 3',''),
