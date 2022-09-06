@@ -1480,57 +1480,21 @@ $data['Bidang'] = array(
 	array('','99 Lain-lain | 999 Lain-lain','9999 - Lain-lain'),
 );
 #--------------------------------------------------------------------------------------------------
-/*
-18.
-Bidang Pengajian (FS)
-(4 digit)
-0000
-0011
-0021
-0031
-0099
-Program asas/umum
--Programmes and qualifications generic not
+/* 18. Bidang Pengajian (FS) (4 digit)
+
+*-Program asas/umum
+0000-Programmes and qualifications generic not
 further defined
--Program asas/umum
--Literasi dan numerasi
--Kemahiran personal
--Programmes and qualifications generic not elsewwhere classified
-[42]
-BIL. PERKARA KOD PENERANGAN
-0110
-0111
-0112
-0113
-0114
-0119
-0188
-0200
-0211
-0212
-0213
-0214
-0215
-0216
-0219
-0221
-0222
-0223
-0224
-0229
-0231
-0232
-0233
-0239
-0288
-0299
-Pendidikan
--Pengajaran
+0011-Program asas/umum
+0021-Literasi dan numerasi
+0031-Kemahiran personal
+0099-Programmes and qualifications generic not elsewwhere classified
+*-Pendidikan
+0110-Pengajaran
 -Sains pendidikan
 -Latihan perguruan untuk guru pra-sekolah
 -Latihan perguruan untuk guru peringkat asas
--Latihan perguruan untuk guru dengan
-pengkhususan subjek
+-Latihan perguruan untuk guru dengan pengkhususan subjek
 -Programmes and qualifications involving education not elsewhere classified
 -Inter-disciplinary programmes and
 qualifications involving education
