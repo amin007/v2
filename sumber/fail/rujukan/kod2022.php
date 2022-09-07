@@ -1482,67 +1482,44 @@ $data['Bidang'] = array(
 #--------------------------------------------------------------------------------------------------
 /* 18. Bidang Pengajian (FS) (4 digit)
 
-*-Program asas/umum
-0000-Programmes and qualifications generic not
-further defined
-0011-Program asas/umum
-0021-Literasi dan numerasi
-0031-Kemahiran personal
-0099-Programmes and qualifications generic not elsewwhere classified
-*-Pendidikan
-0110-Pengajaran
--Sains pendidikan
--Latihan perguruan untuk guru pra-sekolah
--Latihan perguruan untuk guru peringkat asas
--Latihan perguruan untuk guru dengan pengkhususan subjek
--Programmes and qualifications involving education not elsewhere classified
--Inter-disciplinary programmes and
-qualifications involving education
-Kesenian
--Seni halus, lukisan, khat, calligraphy
--Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio
+|*-Program asas/umum
+|0000-Programmes and qualifications generic not further defined
+|0011-Program asas/umum
+|0021-Literasi dan numerasi
+|0031-Kemahiran personal
+|0099-Programmes and qualifications generic not else where classified
+|*-Pendidikan
+|0110-Pengajaran
+|0111-Sains pendidikan
+|0112-Latihan perguruan untuk guru pra-sekolah
+|0113-Latihan perguruan untuk guru peringkat asas
+|0114-Latihan perguruan untuk guru dengan pengkhususan subjek
+|0119-Programmes and qualifications involving education not elsewhere classified
+|0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary programmes and qualifications involving education
+|*-Kesenian
+|0200-Seni halus, lukisan, khat, calligraphy
+|0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio
 dan TV, graphic design, computer graphic, percetakan dan penerbitan)
--Rekaan (fashion and costume design, interior design, stage design)
--Fine arts
--Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran
--Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian, teater)
--Pengajian filem, televisyen dan skrin
--Arts not elsewhere classified
-Kemanusiaan
--Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)
--Sejarah dan arkeologi
--Falsafah dan etika
--Pengajian Islam
--Humanities (except languages) not elsewhere classified
-Bahasa
--Pengajian bahasa
--Kesusateraan dan linguistics
--Bahasa Kebangsaan (Bahasa Malaysia)
--Bahasa not elsewhere
--Inter-disciplinary programmes and
-qualifications involving arts and humanities
--Arts and humanities not elsewhere classified
-[43]
-BIL. PERKARA KOD PENERANGAN
-0300
-0311
-0312
-0313
-0314
-0319
-0321
-0322
-0323
-0329
-0388
-0399
-0400
-0411
-0412
-0413
-0414
-0415
-Sains sosial dan sains gelagat
+|0212-Rekaan (fashion and costume design, interior design, stage design)
+|0213-Seni lukis/Fine arts
+|0214-Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)
+|0215-Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian, teater)
+|0216-Pengajian filem, televisyen dan skrin
+|0219-Kesenian-kesenian lain/Arts not elsewhere classified
+|*-Kemanusiaan
+|0221-Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)
+|0222-Sejarah dan arkeologi
+|0223-Falsafah dan etika
+|0224-Pengajian Islam
+|0229-Program kemanusiaan lain/Humanities (except languages) not elsewhere classified
+|*-Bahasa
+|0231-Pengajian bahasa
+|0232-Kesusateraan dan linguistics
+|0233-Bahasa Kebangsaan (Bahasa Malaysia)
+|0239-Bahasa not elsewhere
+|0288-Inter-disciplinary programmes and qualifications involving arts and humanities
+|0299-Arts and humanities not elsewhere classified
+|*-Sains sosial dan sains gelagat
 -Social sciences, journalism dan information not further defined
 -Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)
 -Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)
