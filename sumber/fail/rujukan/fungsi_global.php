@@ -145,7 +145,7 @@ if ( ! function_exists('paparSatuJadual')):
 		$cetak_tajuk_utama = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < $bilBaris; $kira++)
-		{	# print the headers once:
+		{	# papar tajuk jadual sekali sahaja :
 			if ( !$cetak_tajuk_utama )
 			{##===========================================================
 				$output .= "\n\t<thead><tr>";
@@ -159,7 +159,7 @@ if ( ! function_exists('paparSatuJadual')):
 				$cetak_tajuk_utama = true;
 			}
 		#-----------------------------------------------------------------
-			# print the data row
+			# papar baris data dari tatasusunan
 			$output .= "\n\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\n\t\t" . '<td>' . $data . '</td>';
