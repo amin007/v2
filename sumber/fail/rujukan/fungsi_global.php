@@ -142,11 +142,11 @@ if ( ! function_exists('paparSatuJadual')):
 	{
 		$output = null;
 		$bilBaris = count($row);
-		$printed_headers = false;# mula bina jadual
+		$cetak_tajuk_utama = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < $bilBaris; $kira++)
 		{	# print the headers once:
-			if ( !$printed_headers )
+			if ( !$cetak_tajuk_utama )
 			{##===========================================================
 				$output .= "\n\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
@@ -156,7 +156,7 @@ if ( ! function_exists('paparSatuJadual')):
 				$output .= "\n\t" . '</tr></thead>';
 				$output .= "\n\t" . '<tbody>';
 			##============================================================
-				$printed_headers = true;
+				$cetak_tajuk_utama = true;
 			}
 		#-----------------------------------------------------------------
 			# print the data row
