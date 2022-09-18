@@ -967,7 +967,7 @@
 "";"810";"2009v1.1";"36001";"3600105001";"Water distribution services, except through mains (on a fee or contract basis) e.g: by trucks"";"86350";"tiada";
 "";"810";"2009v1.1";"37000";"3700001001";"Sewage removal services usually provided using equipment such as waste pipes, sewers or drains"";"94110";"tiada";
 "";"810";"2009v1.1";"37000";"3700001002";"Sewage treatment services using dilution, screening and filtering, sedimentation, chemical precipitation, etc."";"94110";"tiada";
-"";"810";"2009v1.1";"37000";"3700002001";"Emptying and cleaning of cesspools and septic tanks";" servicing of chemical toilets"";"94120";"tiada";
+"";"810";"2009v1.1";"37000";"3700002001";"Emptying and cleaning of cesspools and septic tanks, servicing of chemical toilets"";"94120";"tiada";
 "";"810";"2009v1.1";"38111";"3811101001";"Collection services of non-hazardous recyclable materials, residential"";"94221";"tiada";
 "";"810";"2009v1.1";"38111";"3811102001";"General collection of waste, garbage, rubbish, refuse, trash, and commingled materials from residential locations, including curbside collection, back door collection, or automated collection on a flexible or regular schedule"";"94231";"tiada";
 "";"810";"2009v1.1";"38113";"3811301001";"General collection of waste, garbage, rubbish, refuse, trash, and commingled materials from nonresidential locations, on a regular or flexible schedule"";"94239";"tiada";
@@ -987,7 +987,7 @@
 "";"810";"2009v1.1";"38210";"3821002001";"Disposal of non-hazardous waste on or in landfills other than a sanitary one"";"94332";"tiada";
 "";"810";"2009v1.1";"38210";"3821003001";"Incineration of non-hazardous waste in a facility that meets legal standard and requirements for incineration of non-hazardous waste"";"94333";"tiada";
 "";"810";"2009v1.1";"38210";"3821004001";"Services of chemical or biological reduction of agricultural waste, and similar treatment services"";"94339";"tiada";
-"";"810";"2009v1.1";"38220";"3822001001";"Treatment to reduce, eliminate, or transform hazardous waste";" Process include biological, chemical, and/or physical procedures or incineration. These procedures may lead to a disposable residual or result in the recovery of a recyclable material."";"94321";"tiada";
+"";"810";"2009v1.1";"38220";"3822001001";"Treatment to reduce, eliminate, or transform hazardous waste: Process include biological, chemical, and/or physical procedures or incineration. These procedures may lead to a disposable residual or result in the recovery of a recyclable material."";"94321";"tiada";
 "";"810";"2009v1.1";"38220";"3822002001";"Disposal services for hazardous waste at a facility that meets legal standards for the approved controlled containment facilities disposal of hazardous waste, such as at"";"94322";"tiada";
 "";"810";"2009v1.1";"38301";"3830101001";"Processing services of metal waste and scrap and of metal articles, whether or not used, into secondary raw material. Typical input consists of waste and scrap being sorted or unsorted but always unfit for further direct use in an industrial process, whe"";"89410";"tiada";
 "";"810";"2009v1.1";"38302";"3830201001";"Shipbreaking, dismantling of wrecks, such as cars, computers etc., in order to obtain and separate recoverable materials"";"94312";"tiada";
