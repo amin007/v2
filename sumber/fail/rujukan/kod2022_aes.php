@@ -1374,7 +1374,7 @@ $data['luasTanamanLampiran23'] = array(
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
-$data['mcpaPertanian'] = ImportCSV2Array01($filename = './kod2022/mcpa+pertanian.csv');
+$data['mcpaPertanian'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
