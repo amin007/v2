@@ -134,6 +134,8 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
+#==================================================================================================
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 	public function tukarJson()
 	{
@@ -147,6 +149,46 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
+#--------------------------------------------------------------------------------------------------
+	function binaJson($senarai,$pilih)
+	{
+		foreach($senarai as $jadual => $row):
+		if($jadual == $pilih):
+			$output = jsonDataTables($row,$jadual);
+			echo $output;
+		endif;
+		endforeach;
+		#
+	}
+#--------------------------------------------------------------------------------------------------
+	function jsonDataTables($row,$jadual)
+	{
+		$kira = count($row);
+		# cara papar output guna json
+		$output = array(
+			"draw"	=>	intval(1),
+			"recordsTotal"	=> 	$kira,
+			"recordsFiltered" => $kira,
+			"data" => $row
+		);
+
+		$output = mb_convert_encoding($output, 'UTF-8', 'UTF-8');
+		//debugJson($output);
+		return json_encode($output);
+	}
+#--------------------------------------------------------------------------------------------------
+	function debugJson($output)
+	{
+		#how to check Malformed UTF-8 characters in php
+		#https://medium.com/@onwuka_gideon/how-i-fixed-php-json-encode-returning-empty-result-e4ef97638ea1
+		//semakPembolehubah($output,'<hr>output V2 daa');
+		echo json_encode($output);
+		echo '<hr>' . json_last_error_msg();# Print out the error if any
+		die();# halt the script //*/
+		#
+	}
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
 }
