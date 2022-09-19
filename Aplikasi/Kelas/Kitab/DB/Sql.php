@@ -214,6 +214,12 @@ class Sql
 		//*/
 	}	
 #-------------------------------------------------------------------------------------------------
+	public function bentukSqlMudah($myTable)
+	{
+		$sql = ' SELECT * FROM ' . $myTable;
+		return $sql;
+	}
+#-------------------------------------------------------------------------------------------------
 	public function bentukSqlSelect($myTable, $medan, $carian, $susun = null)
 	{
 		$sql = ' SELECT ' . $medan . "\r" . ' FROM ' . $myTable
