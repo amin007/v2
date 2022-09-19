@@ -142,5 +142,18 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
 #--------------------------------------------------------------------------------------------------
+	public function tukarJson()
+	{
+		# Set pemboleubah utama
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$tajuk = ' proses tukar dari database kepada json';
+		# Koding sikit tukar Json dari database
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+	}
+#--------------------------------------------------------------------------------------------------
 #==================================================================================================
 }
