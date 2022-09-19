@@ -216,7 +216,7 @@ class Tanya
 	public function cariSemuaData($myTable, $medan, $carian, $susun)
 	{
 		$sql = $this->sql->bentukSqlSelect($myTable, $medan, $carian, $susun);
-		$result = $this->db->selectAll($sql);
+		$result = $this->db->selectAll($sql,null,\PDO::FETCH_NUM);
 		//echo json_encode($result);
 
 		return $result;
