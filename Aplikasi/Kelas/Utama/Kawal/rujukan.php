@@ -140,18 +140,20 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 	public function tukarJson($myJadual,$medanID=null,$dataID=null)
 	{
 		# Set pemboleubah utama
-		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
-		$tajuk = ' proses tukar dari database kepada json';
-		$senarai[$myJadual] = $this->tanya->paparMedan02($myJadual);
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		//$tajuk = ' proses tukar dari database kepada json';
 		# Koding sikit tukar Json dari database
+		$data = $this->tanya->paparSemuaData($myJadual);
+		//$senarai = $this->jsonDataTables($data,$myJadual);
 		/*list($entah, $medan, $carian, $susun) = $this->tanya->pilihJadual($medanID,$dataID);
 		$this->papar->senarai[$myJadual] = $this->tanya->cariSql
 			//cariSemuaData
 			($myJadual, $medan, $carian, $susun);//*/
-		$this->papar->Tajuk_Muka_Surat = $tajuk;
+		//$this->papar->Tajuk_Muka_Surat = $tajuk;
 
 		# Pergi papar kandungan
-		$this->semakPembolehubah($senarai,'senarai'); # Semak data dulu
+		//echo $senarai;
+		$this->semakPembolehubah($data,'senarai'); # Semak data dulu
 		//$this->semakPembolehubah($this->papar->senarai,'senarai'); # Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
