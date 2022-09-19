@@ -1364,6 +1364,21 @@ $data['luasTanamanLampiran23'] = array(
 	array('','0122904010','Dokong','Luas(kg/ha)','17,000','Luas(tan/ha)','17'),
 );//*/
 #--------------------------------------------------------------------------------------------------
+$data['untungRugiBuat'] = array(
+	array('','KP 205','Jumlah Pendapatan','F080089'),
+	array('','KP 205','(-) Jumlah Perbelanjaan','F090089'),
+	array('','KP 205','(-) Jumlah Stok Awal(Dalam Proses + Siap)','F100102 + F100103'),
+	array('','KP 205','(+) Jumlah Stok Akhir(Dalam Proses + Siap)','F100202 + F100203'),
+	array('','KP 205',' =  Keuntungan / kerugian','M110001'),
+	array('','KP 101','Jumlah Pendapatan','F080089'),
+	array('','KP 101','(-) Jumlah Perbelanjaan','F090089'),
+	array('','KP 101','(-) Jumlah Stok Awal(Pertanian + Dalam Proses + Siap)',
+	'F100105 + F100106'),
+	array('','KP 101','(+) Jumlah Stok Akhir(Pertanian + Dalam Proses + Siap)',
+	'F100205 + F100206'),
+	array('','KP 101','= Keuntungan / kerugian','M110001'),
+);//*/
+#--------------------------------------------------------------------------------------------------
 /*$data['xxx'] = array(
 	array('','',''),
 	array('','',''),
