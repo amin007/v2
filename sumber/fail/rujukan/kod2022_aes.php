@@ -1364,7 +1364,7 @@ $data['luasTanamanLampiran23'] = array(
 	array('','0122904010','Dokong','Luas(kg/ha)','17,000','Luas(tan/ha)','17'),
 );//*/
 #--------------------------------------------------------------------------------------------------
-$data['untungRugiBuat'] = array(
+$data['untungRugi'] = array(
 	array('','KP 205','Jumlah Pendapatan','F080089'),
 	array('','KP 205','(-) Jumlah Perbelanjaan','F090089'),
 	array('','KP 205','(-) Jumlah Stok Awal(Dalam Proses + Siap)','F100102 + F100103'),
