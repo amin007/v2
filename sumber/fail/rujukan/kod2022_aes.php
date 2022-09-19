@@ -1379,6 +1379,24 @@ $data['untungRugi'] = array(
 	array('','KP 101','= Keuntungan / kerugian','M110001'),
 );//*/
 #--------------------------------------------------------------------------------------------------
+$data['tarikhGaji'] = array(
+	array('','Januari','25.01.2022','Selasa',''),
+	array('','Februari','25.02.2022','Jumaat','Tahun Baru Cina – 1 & 2'
+	. 'Februari 2022 (Selasa & Rabu)'),
+	array('','Mac','25.03.2022','Jumaat',''),
+	array('','April','25.04.2022','Isnin',''),
+	array('','Mei','25.05.2022','Rabu','Hari Raya Puasa – 3 & 4 Mei 2022 (Selasa & Rabu)'
+	. '<br>Hari Pesta Kaamatan – 30 & 31 Mei 2022 (Isnin & Selasa)'),
+	array('','Jun','24.06.2022','Jumaat','Hari Gawai – 1 & 2 Jun 2022 (Rabu & Khamis)'),
+	array('','Julai','25.07.2022','Isnin','Hari Raya Haji – 10 & 11 Julai 2022 (Ahad & Isnin)'),
+	array('','Ogos','25.08.2022','Khamis',''),
+	array('','September','23.09.2022','Jumaat',''),
+	array('','Oktober','18.10.2022','Selasa','Hari Deepavali – 24 Oktober 2022 (Isnin'),
+	array('','November','25.11.2022','Jumaat',''),
+	array('','Disember','19.12.2022','Isnin','Hari Krismas – 25 Disember 2022 (Ahad)'),
+	array('','Sumber:','','','Jabatan Akauntan Negara Malaysia'),
+);//*/
+#--------------------------------------------------------------------------------------------------
 /*$data['xxx'] = array(
 	array('','',''),
 	array('','',''),
