@@ -253,6 +253,22 @@ function bersih($papar)
 	return $papar;
 }
 #--------------------------------------------------------------------------------------------------
+function dptSenarai($pilih)
+{
+	# define('MSICBARU', serialize (array()) );
+	if ($pilih == 'MSICBARU') :
+		$jadual = unserialize(MSICBARU);
+	elseif ($pilih == 'mcpa2009') :
+		$jadual = unserialize(MCPA2009);
+	else : $jadual = array(); //unserialize()
+	endif;
+
+	//echo 'dptSenarai($pilih = ' . $pilih . ')<hr>';
+	//echo '<pre>$jadual =>'; print_r($jadual); echo '</pre><hr>';
+
+	return $jadual;
+}
+#--------------------------------------------------------------------------------------------------
 function gambar_latarbelakang()
 {
 	$tmpt2 = ($_SERVER['SERVER_NAME']=='www.amin007.org') ?
