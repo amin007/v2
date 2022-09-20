@@ -148,16 +148,17 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($dataID,'dataID'); # Semak data dulu
 	}
 #--------------------------------------------------------------------------------------------------
-	public function tukarJson($myJadual,$medanID=null,$dataID=null)
+	public function tukarJson($myJadual=null,$medanID=null,$dataID=null)
 	{
 		# Set pemboleubah utama
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$this->papar->Tajuk_Muka_Surat = 'Tukar data Json';
 		# Koding sikit tukar Json dari database
 		$medan = dptSenarai('mcpa2009');
 		$this->papar->jadual = $myJadual;
 		list($entah, $medan, $carian, $susun) = $this->tanya->
 			jadualMcpa2009($medan[0],$medanID,$dataID);
-		$this->papar->senarai[$myJadual] = $this->tanya->//cariSql
+		$data = $this->papar->senarai[$myJadual] = $this->tanya->//cariSql
 			cariSemuaData
 			($myJadual, $medan, $carian, $susun);
 		//$senarai = $this->jsonDataTables($data,$myJadual);
