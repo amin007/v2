@@ -49,10 +49,14 @@ class DB_Pdo extends \PDO
 	{
 		//echo '<hr><pre>'; print_r($sql) . '</pre><hr>';
 		$sth = $this->prepare($sql);
-		foreach ($array as $key => $value) 
-		{
-			$sth->bindValue("$key", $value);
-		}
+		# semak $array adalah array atau tidak
+		$semak = is_array($array) ? 'array' : 'bukan';
+		if($semak == 'array'):
+			foreach ($array as $key => $value)
+			{
+				$sth->bindValue("$key", $value);
+			}
+		endif;
 
 		$sth->execute();
 		$masalah = $sth->errorInfo(); # semak jika ada error
