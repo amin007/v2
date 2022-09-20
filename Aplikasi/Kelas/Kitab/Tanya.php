@@ -52,6 +52,13 @@ class Tanya
 		return $this->db->getColumnNames($myTable);
 	}
 #-------------------------------------------------------------------------------------------------
+	public function pilihMedan03($myTable)
+	{
+		$data01 = $this->db->getColumnNames($myTable);
+		$data02 = '`' . implode('`,`',$data01) . '`';
+		return $data02;
+	}
+#-------------------------------------------------------------------------------------------------
 	public function ubahMedan($myTable, $medan)
 	{
 		$sql = 'ALTER TABLE `' . $myTable . '` '
