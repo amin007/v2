@@ -68,7 +68,7 @@ if ( ! function_exists('paparSatuJadual')):
 			if ( !$cetak_tajuk_utama )
 			{##===========================================================
 				$output .= "\n\t<thead><tr>";
-				foreach ( $row[$kira] as $tajuk=>$data ) :
+				foreach ( array_keys($row[$kira]) as $tajuk ) :
 				$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
 				endforeach;
 				$output .= "\n\t" . '</tr></thead>';
