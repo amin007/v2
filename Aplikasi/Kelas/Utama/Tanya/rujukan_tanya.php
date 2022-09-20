@@ -59,15 +59,33 @@ class Rujukan_Tanya extends \Aplikasi\Kitab\Tanya
 	function jadualAES($medanID,$dataID)
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '()<hr>';
-		//list($idUser,$namaPendek) = $this->tanyaDataSesi();
-		$myTable = null;
+		$myTable = $carian = $susun = null;
 		$medan = '*';
-		$carian = $susun = null;
 		# semak database
 			$carian[] = array('fix'=>'x=', # cari x= / %like% / xlike
 				'atau'=>'WHERE', # WHERE / OR / AND
 				'medan' => $medanID, # cari dalam medan apa
 				'apa' => $dataID); # benda yang dicari//*/
+
+		return array($myTable, $medan, $carian, $susun); # pulangkan nilai
+	}
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
+	function jadualMcpa2009($medan,$medanID,$dataID)
+	{
+		//echo '<hr>Nama class :' . __METHOD__ . '()<hr>';
+		$myTable = $carian = $susun = null;
+		if($dataID = 0) $dataID = 'is null';
+		# semak database
+		$carian[] = array('fix'=>'x!=', # cari x= / %like% / xlike
+			'atau'=>'WHERE', # WHERE / OR / AND
+			'medan' => $medanID, # cari dalam medan apa
+			'apa' => $dataID); # benda yang dicari//*/
+		/*$carian[] = array('fix'=>'x=', # cari x= / %like% / xlike
+			'atau'=>'OR', # WHERE / OR / AND
+			'medan' => $medanID, # cari dalam medan apa
+			'apa' => '""'); # benda yang dicari//*/
 
 		return array($myTable, $medan, $carian, $susun); # pulangkan nilai
 	}
