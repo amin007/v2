@@ -143,7 +143,8 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//$tajuk = ' proses tukar dari database kepada json';
 		# Koding sikit tukar Json dari database
-		$data = $this->tanya->paparSemuaData($myJadual);
+		$medan = $this->tanya->pilihMedan03($myJadual);
+		//$data = $this->tanya->paparSemuaData($myJadual);
 		//$senarai = $this->jsonDataTables($data,$myJadual);
 		/*list($entah, $medan, $carian, $susun) = $this->tanya->pilihJadual($medanID,$dataID);
 		$this->papar->senarai[$myJadual] = $this->tanya->cariSql
@@ -153,7 +154,8 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 
 		# Pergi papar kandungan
 		//echo $senarai;
-		$this->semakPembolehubah($data,'senarai'); # Semak data dulu
+		$this->semakPembolehubah($medan,'medan'); # Semak data dulu
+		//$this->semakPembolehubah($data,'senarai'); # Semak data dulu
 		//$this->semakPembolehubah($this->papar->senarai,'senarai'); # Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
