@@ -1469,5 +1469,17 @@ endif;//*/
 # tamat koding
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+/*
+Manakah infrastruktur rangkaian di bawah terdapat di pertubuhan ini? (Boleh pilih lebih daripada satu)
+Which of the following network infrastructures is available at this establishment?
+(May choose more than one)
+310005 (a) Intranet dalam perniagaan anda | Intranet within your business
+310006 (b) Extranet di antara perniagaan anda dan organisasi lain (termasuk perniagaan yang berkenaan)
+Extranet between your business and other organisations (include related businesses)
+310007 (c) Rangkaian kawasan setempat | Local area network (LAN)
+310008 (d) Rangkaian kawasan setempat tanpa wayar | Wireless local area network (WLAN)
+310009 (e) Rangkaian kawasan luas | Wide area network (WAN)
+310010 (f) Lain-lain | Others
+*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
