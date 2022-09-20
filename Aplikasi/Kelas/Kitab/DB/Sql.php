@@ -8,6 +8,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaKosong($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//$cariApa==null OR $fix=='xnull'
 		if($cariApa==null)
@@ -21,6 +22,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaSamaDgn($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array('x=','x!=','x<=','x>=')
 		if($fix=='x=')
@@ -37,6 +39,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaLike($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array('like','xlike','%like%','x%like%',
 		//	'like%','xlike%','%like','x%like')
@@ -62,6 +65,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaDalamKurungan($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array('in','xin')
 		if($fix=='in')
@@ -74,6 +78,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaAtauKurungan($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array('or(x=)','or(%like%)')
 		if($fix=='or(x=)') //" $di (`$cari`='$apa' OR msic2000='$apa')\r" :
@@ -90,6 +95,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaRegexp($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array('khas2','xkhas2','khas3','xkhas4')
 		if($fix=='khas2')
@@ -106,6 +112,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jikaZ($fix,$di,$medan,$cariApa,$akhir)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array('z%like%','z1','z2','z2x','z3x','zin','zxin')
 		if($fix=='z%like%')
@@ -128,6 +135,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	private function jika($fix,$di,$medan,$cariApa,$akhir=null)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$dimana = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		if($fix==null) $dimana .= null;
 		elseif($cariApa==null OR $fix=='xnull')
@@ -151,6 +159,7 @@ class Sql
 #-------------------------------------------------------------------------------------------------
 	public function dimana($carian)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$where = null; //echo '<pre>'; print_r($carian); echo '</pre>';
 		if($carian==null || $carian=='' || empty($carian) ):
 			$where .= null;
