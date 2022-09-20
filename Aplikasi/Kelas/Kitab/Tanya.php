@@ -55,7 +55,8 @@ class Tanya
 	public function pilihMedan03($myTable)
 	{
 		$data01 = $this->db->getColumnNames($myTable);
-		$data02 = '`' . implode('`,`',$data01) . '`';
+		//$data02 = '`' . implode('`,`',$data01) . '`';
+		$data02 = "'`" . implode("`','`",$data01) . "`'";
 		return $data02;
 	}
 #-------------------------------------------------------------------------------------------------
