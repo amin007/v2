@@ -662,23 +662,32 @@ if ( ! function_exists('panggilDataTable')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable02')):
-	function panggilDataTable02($data,$pilih)
+	function panggilDataTable02($tajuk,$data,$pilih)
 	{
-		/*define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
-		//define ('URL', $_SERVER['SCRIPT_NAME']);
-		//include 'atas-set-001.php';//include 'diatas-001.php';
-		diatas($pilih, $urlcss);*/
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		include 'atas-set-001.php';//include 'diatas-001.php';
+		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
-		semakPembolehubah($pilih,'pilih');
-		semakPembolehubah($data,'data');
+		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		/*include 'dibawah.php';
+		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
+		$btn = 'btn btn-dark btn-lg btn-block';
+		$tableID = 'myTable';
+		$tableClass = 'table table-striped table-bordered';
+		$tajuk = $tajuk[$pilih]; //semakPembolehubah($tajuk[$pilih],'tajuk',2);
+		echo "\r\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($pilih) . '</h2>'
+		. "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
+		. "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
+		. "</table>\n";
+		#------------------------------------------------------------------------------------------
+		include 'dibawah.php';
 		echo "<script>\n";
 		jqueryExtendA();
 		jqueryExtendB();
 		jqueryExtendC();
-		jsPanggilFailJson($failJson);
-		echo "\n</script>\n</body>\n</html>";*/
+		jsPanggilFailJson($data[$pilih]);//semakPembolehubah($data[$pilih],'data',2);
+		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
