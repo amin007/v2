@@ -1412,11 +1412,15 @@ $data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv'
 #--------------------------------------------------------------------------------------------------
 # bina tatasusunan dari json
 #--------------------------------------------------------------------------------------------------
-# Read the JSON file
+$tajuk['produkio'] = pecahArrayKeTH('#,msic,noO,mcpaO,ProductsManufactured,UnitO,CodeO,'
+. 'XXX,noI,mcpaI,RawMaterialConsumed,UnitI,CodeI');
+$data['produkio'] = './kod2022/mcpaBuatIO.json';
+#--------------------------------------------------------------------------------------------------
+/*# Read the JSON file
 $json = file_get_contents('./kod2022/mcpaBuatIO.json');
 # Decode the JSON file
 $json02 = json_decode($json, true);
-semakPembolehubah($json02,'data');
+semakPembolehubah($json02,'data');*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
@@ -1447,11 +1451,11 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
-	$cari = explode('/',$fail[1]);semakPembolehubah($cari,'pilih');
+	$cari = explode('/',$fail[1]);//semakPembolehubah($cari,'pilih');
 
 	if(isset($cari[1])):
 		$cariApa = bersih($cari[1]);
@@ -1463,7 +1467,7 @@ if (isset($_SERVER[$s])):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		elseif($cariApa == 'produkio'):
-			panggilDataTable02($data,$cariApa);# panggil fungsi
+			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
