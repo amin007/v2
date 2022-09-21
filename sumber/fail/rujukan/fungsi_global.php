@@ -585,7 +585,8 @@ if ( ! function_exists('binaPautan')):
 			array('a'=>'warning','b'=>'./kod2022.php','c'=>'kod2022'),
 			array('a'=>'warning','b'=>'./kod2022_aes.php','c'=>'AES'),
 			array('a'=>'warning','b'=>'./kod2022_v01.php','c'=>'kod2022_v01'),
-			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun')
+			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun'),
+			array('a'=>'outline-secondary','b'=>URL . '?/produkio','c'=>'ProdukIO')
 		);
 
 		return $koleksi;
@@ -632,6 +633,27 @@ if ( ! function_exists('panggilDataTable')):
 		jqueryExtendC();
 		gradeTable002(null);
 		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataTable02')):
+	function panggilDataTable02($data,$pilih)
+	{
+		/*define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		//define ('URL', $_SERVER['SCRIPT_NAME']);
+		//include 'atas-set-001.php';//include 'diatas-001.php';
+		diatas($pilih, $urlcss);*/
+		#------------------------------------------------------------------------------------------
+		semakPembolehubah($pilih,'pilih');
+		semakPembolehubah($data,'data');
+		#------------------------------------------------------------------------------------------
+		/*include 'dibawah.php';
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";*/
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
