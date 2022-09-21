@@ -31,7 +31,7 @@ $urlcss = array($bootstrapCSS_413,$fontawesome_510,$datatablesCSS,$searchHighlig
 $urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-	function pecahArrayKeTH($data)
+/*	function pecahArrayKeTH($data)
 	{
 		$tajuk = null;
 		$data1 = explode(',',$data);
@@ -40,5 +40,5 @@ $urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
 		endforeach;
 
 		return $tajuk;
-	}
+	}//*/
 #--------------------------------------------------------------------------------------------------
