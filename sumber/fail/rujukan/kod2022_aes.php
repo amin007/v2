@@ -1415,7 +1415,8 @@ $data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv'
 # Read the JSON file
 $json = file_get_contents('./kod2022/mcpaBuatIO.json');
 # Decode the JSON file
-$data['produkio'] = json_decode($json,true);
+$json02 = json_decode($json, true);
+semakPembolehubah($json02,'data');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
@@ -1446,11 +1447,11 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
-	$cari = explode('/',$fail[1]);//semakPembolehubah($cari,'pilih');
+	$cari = explode('/',$fail[1]);semakPembolehubah($cari,'pilih');
 
 	if(isset($cari[1])):
 		$cariApa = bersih($cari[1]);
