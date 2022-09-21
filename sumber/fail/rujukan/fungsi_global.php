@@ -200,6 +200,19 @@ if ( ! function_exists('tajukMedanJadual')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('pecahArrayKeTH')):
+	function pecahArrayKeTH($data)
+	{
+		$tajuk = null;
+		$data1 = explode(',',$data);
+		foreach($data1 as $d):
+			$tajuk .= '<th>' . $d . '</th>';
+		endforeach;
+
+		return $tajuk;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('paparJadual')):
 	function paparJadual($row,$jadual)
 	{
