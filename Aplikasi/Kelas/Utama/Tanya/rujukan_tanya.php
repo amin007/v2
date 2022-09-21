@@ -77,7 +77,7 @@ class Rujukan_Tanya extends \Aplikasi\Kitab\Tanya
 		//echo '<hr>Nama class :' . __METHOD__ . '()<hr>';
 		$myTable = $carian = $susun = null;
 		# semak database
-		/*$carian[] = array('fix'=>'z%like%', # cari x= / %like% / xlike
+		$carian[] = array('fix'=>'z3x', # cari x= / %like% / xlike
 			'atau'=>'WHERE', # WHERE / OR / AND
 			'medan' => $medanID, # cari dalam medan apa
 			'apa' => $dataID); # benda yang dicari//*/
