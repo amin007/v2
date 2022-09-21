@@ -161,11 +161,11 @@ class Rujukan extends \Aplikasi\Kitab\Kawal
 		$data = $this->papar->senarai[$myJadual] = $this->tanya->//cariSql
 			cariSemuaData
 			($myJadual, $medan, $carian, $susun);
-		//$senarai = $this->jsonDataTables($data,$myJadual);
+		echo $senarai = $this->jsonDataTables($data,$myJadual);
 
 		# Pergi papar kandungan
 		//$this->semakPembolehubah($data,'senarai'); # Semak data dulu
-		$this->paparKandungan($this->_folder,'index',$noInclude=0);
+		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
 #--------------------------------------------------------------------------------------------------
 	function binaJson($senarai,$pilih)
