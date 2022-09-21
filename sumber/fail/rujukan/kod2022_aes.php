@@ -1410,6 +1410,13 @@ $data['tarikhGaji'] = array(
 $data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv');
 //$data['mcpaBuat'] = ImportCSV2Array01($filename = './kod2022/mcpa_pembuatan_io.csv');
 #--------------------------------------------------------------------------------------------------
+# bina tatasusunan dari json
+#--------------------------------------------------------------------------------------------------
+# Read the JSON file
+$json = file_get_contents('./kod2022/mcpaBuatIO.json');
+# Decode the JSON file
+$data['produkio'] = json_decode($json,true);
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
 #--------------------------------------------------------------------------------------------------
@@ -1454,6 +1461,8 @@ if (isset($_SERVER[$s])):
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable($data,$cariApa);# panggil fungsi
+		elseif($cariApa == 'produkio'):
+			panggilDataTable02($data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable($data,$cariApa);# panggil fungsi
 		endif;
