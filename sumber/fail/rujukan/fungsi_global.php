@@ -732,7 +732,10 @@ if ( ! function_exists('panggilDataTable02')):
 		$tableID = 'myTable';
 		$tableClass = 'table table-striped table-bordered';
 		$tajuk = $tajuk[$pilih]; //semakPembolehubah($tajuk[$pilih],'tajuk',2);
-		echo "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($pilih) . '</h2>'
+		#------------------------------------------------------------------------------------------
+		echo "\n<!-- Table \n================================================================="
+		. '============================== -->'
+		. "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($pilih) . '</h2>'
 		. "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
 		. "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 		. "</table>\n";
