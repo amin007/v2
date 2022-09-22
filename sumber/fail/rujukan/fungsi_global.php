@@ -146,14 +146,14 @@ if ( ! function_exists('tajukMedanJadual')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('binaTajukMedanJson')):
-	function binaTajukMedanJson($tajuk,$pilih)
+if ( ! function_exists('binaJadualJson')):
+	function binaJadualJson($tajuk,$pilih)
 	{
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
 		$btn = 'btn btn-dark btn-lg btn-block';
 		$tableID = 'myTable';
 		$tableClass = 'table table-striped table-bordered';
-		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
+		$namaMedan = pecahArrayKeTH($tajuk);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
 		//semakPembolehubah($namaMedan,'namaMedan',2);
 		#------------------------------------------------------------------------------------------
 		echo "\n<!-- Table \n================================================================="
@@ -817,7 +817,7 @@ if ( ! function_exists('panggilDataTable02')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		binaTajukMedanJson($tajuk,$pilih);
+		binaJadualJson($tajuk[$pilih],$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
