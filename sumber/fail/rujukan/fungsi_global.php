@@ -117,6 +117,37 @@ if ( ! function_exists('ImportCSV2Array01')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
+# bina tajuk medan
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('pecahArrayKeTH')):
+	function pecahArrayKeTH($data)
+	{
+		$tajuk = null;
+		$data1 = explode(',',$data);
+		foreach($data1 as $d):
+			$tajuk .= '<th>' . $d . '</th>';
+		endforeach;
+
+		return $tajuk;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('tajukMedanJadual')):
+	function tajukMedanJadual($jadual,$kunci)
+	{
+		if($kunci==0) $p = '#';
+		elseif($kunci==1) $p = 'Kod';
+		elseif($kunci==2 & $jadual!='Pendidikan&Sijil 2022') $p = $jadual;
+		elseif($kunci==2 & $jadual=='Pendidikan&Sijil 2022') $p = 'Pendidikan 2022';
+		elseif($kunci==3 & $jadual=='Pendidikan&Sijil 2022') $p = 'Sijil';
+		else $p = $kunci;
+
+		return $p;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaSatuJadual')):
 	function binaSatuJadual($senarai,$pilih)
@@ -185,33 +216,6 @@ if ( ! function_exists('binaJadual')):
 		#
 	}
 endif;
-#--------------------------------------------------------------------------------------------------
-if ( ! function_exists('tajukMedanJadual')):
-	function tajukMedanJadual($jadual,$kunci)
-	{
-		if($kunci==0) $p = '#';
-		elseif($kunci==1) $p = 'Kod';
-		elseif($kunci==2 & $jadual!='Pendidikan&Sijil 2022') $p = $jadual;
-		elseif($kunci==2 & $jadual=='Pendidikan&Sijil 2022') $p = 'Pendidikan 2022';
-		elseif($kunci==3 & $jadual=='Pendidikan&Sijil 2022') $p = 'Sijil';
-		else $p = $kunci;
-
-		return $p;
-	}
-endif;//*/
-#--------------------------------------------------------------------------------------------------
-if ( ! function_exists('pecahArrayKeTH')):
-	function pecahArrayKeTH($data)
-	{
-		$tajuk = null;
-		$data1 = explode(',',$data);
-		foreach($data1 as $d):
-			$tajuk .= '<th>' . $d . '</th>';
-		endforeach;
-
-		return $tajuk;
-	}
-endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('paparJadual')):
 	function paparJadual($row,$jadual)
