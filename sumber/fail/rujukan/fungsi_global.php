@@ -720,7 +720,7 @@ if ( ! function_exists('panggilDataTable')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable01')):
-	function panggilDataTable($data,$pilih)
+	function panggilDataTable01($tajuk,$data,$pilih)
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
