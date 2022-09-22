@@ -771,7 +771,7 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
+		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
 		binaTajukJadual($namaMedan,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
@@ -798,13 +798,14 @@ if ( ! function_exists('panggilDataTable02')):
 		$btn = 'btn btn-dark btn-lg btn-block';
 		$tableID = 'myTable';
 		$tableClass = 'table table-striped table-bordered';
-		$tajuk = $tajuk[$pilih]; //semakPembolehubah($tajuk[$pilih],'tajuk',2);
+		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
+		//semakPembolehubah($namaMedan,'namaMedan',2);
 		#------------------------------------------------------------------------------------------
 		echo "\n<!-- Table \n================================================================="
 		. '============================== -->'
 		. "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($pilih) . '</h2>'
 		. "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
-		. "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
+		. "\n<thead><tr>$namaMedan</tr></thead>\n<tfoot><tr>$namaMedan</tr></tfoot>\n"
 		. "</table>\n";
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
