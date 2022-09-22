@@ -260,8 +260,9 @@ if ( ! function_exists('binaTajukJadual')):
 			$output = paparDataSahaja($row,$pilih);
 			echo "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
 			. "\n\t" . '<table class="' . $class . '" id="allTable">'
-			. "\n\t<thead>\n\t\t$namaMedan\n\t</thead>"
-			. "$output\n\t" . '</table>' . "\n\n";
+			. "\n\t<thead>\n\t\t$namaMedan\n\t</thead>$output\n\t"
+			. "\n\t<tfoot>\n\t\t$namaMedan\n\t</tfoot>\n\t"
+			. '</table>' . "\n\n";
 		endif;
 		endforeach;//*/
 		#
