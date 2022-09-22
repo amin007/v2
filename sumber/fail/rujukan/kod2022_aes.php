@@ -1416,12 +1416,6 @@ $tajuk['produkio'] = pecahArrayKeTH('#,msic,noO,mcpaO,ProductsManufactured,UnitO
 . 'XXX,noI,mcpaI,RawMaterialConsumed,UnitI,CodeI');
 $data['produkio'] = './kod2022/mcpaBuatIO.json';
 #--------------------------------------------------------------------------------------------------
-/*# Read the JSON file
-$json = file_get_contents('./kod2022/mcpaBuatIO.json');
-# Decode the JSON file
-$json02 = json_decode($json, true);
-semakPembolehubah($json02,'data');*/
-#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
 #--------------------------------------------------------------------------------------------------
