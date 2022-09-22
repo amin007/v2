@@ -3,6 +3,14 @@
 include 'fungsi_global.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+# bina tatasusunan dari json
+#--------------------------------------------------------------------------------------------------
+$tajuk['produkio'] = pecahArrayKeTH('#,msic,noO,mcpaO,ProductsManufactured,UnitO,CodeO,'
+. 'XXX,noI,mcpaI,RawMaterialConsumed,UnitI,CodeI');
+$data['produkio'] = './kod2022/mcpaBuatIO.json';
+#--------------------------------------------------------------------------------------------------
+# bina tatasusuan dari php
+#--------------------------------------------------------------------------------------------------
 $data['msicAes'] = array(
 	//array('','Seksyen','Subsektor','MSIC 5 Digit','Keterangan MSIC'),
 	array('','A','Tanaman','01111','Penanaman jagung'),
@@ -1409,12 +1417,6 @@ $data['tarikhGaji'] = array(
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
 $data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv');
 //$data['mcpaBuat'] = ImportCSV2Array01($filename = './kod2022/mcpa_pembuatan_io.csv');
-#--------------------------------------------------------------------------------------------------
-# bina tatasusunan dari json
-#--------------------------------------------------------------------------------------------------
-$tajuk['produkio'] = pecahArrayKeTH('#,msic,noO,mcpaO,ProductsManufactured,UnitO,CodeO,'
-. 'XXX,noI,mcpaI,RawMaterialConsumed,UnitI,CodeI');
-$data['produkio'] = './kod2022/mcpaBuatIO.json';
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
