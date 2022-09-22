@@ -177,7 +177,8 @@ if ( ! function_exists('binaSatuJadual')):
 		$btn = 'btn btn-dark btn-lg btn-block';
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
-			$output = paparSatuJadual($row,$pilih);
+			$output  = paparSatuJadual($row,$pilih);
+			$output .= binaKakiJadual($row,$pilih);
 			echo "\r\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
 			. "\r\t" . '<table class="' . $class . '" id="allTable">'
 			//echo "\r\t" . '<table border="1">'
@@ -187,6 +188,34 @@ if ( ! function_exists('binaSatuJadual')):
 		#
 	}
 endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaKakiJadual')):
+	function binaKakiJadual($row,$jadual)
+	{
+		$output = null;
+		$bilBaris = count($row);
+		$cetak_tajuk_utama = false;# mula bina jadual
+		#-----------------------------------------------------------------
+		for ($kira=0; $kira < $bilBaris; $kira++)
+		{	# papar tajuk jadual sekali sahaja :
+			if ( !$cetak_tajuk_utama )
+			{##===========================================================
+				$output .= "\n\t<tfoot><tr>";
+				foreach ( array_keys($row[$kira]) as $kunci ) :
+				$tajuk = tajukMedanJadual($jadual,$kunci);
+				$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
+				endforeach;
+				$output .= "\n\t" . '</tr></thead>';
+				$output .= "\n\t" . '<tfoot>';
+			##============================================================
+				$cetak_tajuk_utama = true;
+			}
+		}
+		#-----------------------------------------------------------------
+
+		return $output;//*/
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('paparSatuJadual')):
 	function paparSatuJadual($row,$jadual)
