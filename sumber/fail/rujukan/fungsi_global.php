@@ -276,13 +276,13 @@ endif;
 if ( ! function_exists('binaJadual')):
 	function binaJadual($tajuk,$senarai,$pilih)
 	{
-		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
+		$namaMedan = pecahArrayKeTH($tajuk);
 		$class = 'table table-striped table-bordered';
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
 		$btn = 'btn btn-dark btn-lg btn-block';
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
-			$output = paparDataSahaja($row,$pilih);
+			$output = paparDataSahaja($row);
 			echo "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
 			. "\n\t" . '<table class="' . $class . '" id="allTable">'
 			. "\n\t<thead>\n\t\t$namaMedan\n\t</thead>$output\n\t"
@@ -295,7 +295,7 @@ if ( ! function_exists('binaJadual')):
 endif;
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('paparDataSahaja')):
-	function paparDataSahaja($row,$jadual)
+	function paparDataSahaja($row)
 	{
 		$output = null;
 		$bilBaris = count($row);
@@ -797,7 +797,7 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		binaJadual($tajuk,$data,$pilih);
+		binaJadual($tajuk[$pilih],$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
