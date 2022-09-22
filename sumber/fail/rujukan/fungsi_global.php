@@ -796,7 +796,7 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
+		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
 		binaTajukJadual($namaMedan,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
@@ -825,7 +825,7 @@ if ( ! function_exists('panggilDataTable02')):
 		jqueryExtendA();
 		jqueryExtendB();
 		jqueryExtendC();
-		jsPanggilFailJson($data[$pilih]);//semakPembolehubah($data[$pilih],'data',2);
+		jsPanggilFailJson($data[$pilih]);
 		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
