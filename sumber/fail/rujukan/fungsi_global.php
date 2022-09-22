@@ -719,6 +719,27 @@ if ( ! function_exists('panggilDataTable')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataTable01')):
+	function panggilDataTable($data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		binaSatuJadual($data,$pilih);
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable02')):
 	function panggilDataTable02($tajuk,$data,$pilih)
 	{
