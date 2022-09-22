@@ -772,7 +772,6 @@ if ( ! function_exists('panggilDataTable01')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
-		//binaSatuJadual($data,$pilih);
 		binaTajukJadual($namaMedan,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
