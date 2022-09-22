@@ -1461,17 +1461,17 @@ if (isset($_SERVER[$s])):
 			binaJson($data,$pilih);
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
-			panggilDataTable01($data,$cariApa);# panggil fungsi
+			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
 		elseif($cariApa == 'produkio'):
 			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi
 		else:
-			panggilDataTable01($data,$cariApa);# panggil fungsi
+			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
 		endif;
 	else:
-		panggilDataTable01($data,null);# panggil fungsi
+		panggilDataTable01($tajuk,$data,null);# panggil fungsi
 	endif;
 else:
-	panggilDataTable01($data,null);# panggil fungsi
+	panggilDataTable01($tajuk,$data,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 //versiphp();
