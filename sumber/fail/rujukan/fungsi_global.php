@@ -249,6 +249,49 @@ endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaTajukJadual')):
+	function binaTajukJadual($namaMedan,$senarai,$pilih)
+	{
+		$class = 'table table-striped table-bordered';
+		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
+		$btn = 'btn btn-dark btn-lg btn-block';
+		foreach($senarai as $jadual => $row):
+		if($jadual == $pilih):
+			$output = paparDataSahaja($row,$pilih);
+			echo "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
+			. "\n\t" . '<table class="' . $class . '" id="allTable">'
+			. "\n\t<thead>\n\t\t$namaMedan\n\t</thead>"
+			. "$output\n\t" . '</table>' . "\n\n";
+		endif;
+		endforeach;//*/
+		#
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('paparDataSahaja')):
+	function paparDataSahaja($row,$jadual)
+	{
+		$output = null;
+		$bilBaris = count($row);
+		$output .= "\n\t" . '<tbody>';
+		#-----------------------------------------------------------------
+		for ($kira=0; $kira < $bilBaris; $kira++)
+		{#-----------------------------------------------------------------
+			# papar baris data dari tatasusunan
+			$output .= "\n\t<tr>";
+			foreach ( $row[$kira] as $key=>$data ) :
+			$output .= "\n\t\t" . '<td>' . $data . '</td>';
+			endforeach;
+			$output .= "\n\t" . '</tr>';
+		}#----------------------------------------------------------------
+		$output .= "\n\t" . '</tbody>';
+
+		return $output;//*/
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('kiraTahun')):
 	function kiraTahun()
 	{
