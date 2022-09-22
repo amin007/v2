@@ -1398,7 +1398,7 @@ $data['untungRugi'] = array(
 	array('','KP 101','= Keuntungan / kerugian','M110001'),
 );//*/
 #--------------------------------------------------------------------------------------------------
-$tajuk['untungRugi'] = '#,Bulan,Tarikh,Hari Bila,Peristiwa,Hari Apa';
+$tajuk['tarikhGaji'] = '#,Bulan,Tarikh,Hari Bila,Peristiwa,Hari Apa';
 $data['tarikhGaji'] = array(
 	array('','Januari','25.01.2022','Selasa','',''),
 	array('','Februari','25.02.2022','Jumaat','Tahun Baru Cina - 1 & 2'
@@ -1472,6 +1472,7 @@ if (isset($_SERVER[$s])):
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
 		elseif($cariApa == 'tahun'):
+			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
 		elseif($cariApa == 'produkio'):
