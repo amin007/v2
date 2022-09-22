@@ -722,7 +722,7 @@ if ( ! function_exists('panggilDataTable02')):
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
-		include 'atas-set-001.php';//include 'diatas-001.php';
+		list($urlcss,$urljs) = linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
@@ -747,4 +747,35 @@ if ( ! function_exists('panggilDataTable02')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('dibawah')):
+	function dibawah($pilih,$urljs)
+	{
+		echo "\n";
+		print <<<END
+<!-- Footer
+=============================================================================================== -->
+<footer class="footer">
+	<div class="container">
+		<span class="badge badge-info">
+		&copy; Hak Cipta Terperihara 2019. Theme <?php
+$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
+echo $theme = (isset($theme)) ? $theme : null;
+		?></span>
+	</div>
+</footer>
+
+<!-- khas untuk jquery dan js2 lain
+=============================================================================================== -->
+END;
+		if (isset($urljs))
+		{
+			foreach ($urljs as $js)
+			{
+				echo "\n" . '<script type="text/javascript" src="' . $js . '"></script>';
+			}
+		}
+		echo "\n";
+		#
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
