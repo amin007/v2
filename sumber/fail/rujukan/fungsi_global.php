@@ -396,7 +396,7 @@ if ( ! function_exists('linkCssJs')):
 		$urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
 		###########################################################################################
 
-		return array($urlcss,$urljs);
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
