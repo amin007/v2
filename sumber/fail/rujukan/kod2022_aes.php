@@ -5,12 +5,13 @@ include 'fungsi_global.php';
 #--------------------------------------------------------------------------------------------------
 # bina tatasusunan dari json
 #--------------------------------------------------------------------------------------------------
-$tajuk['produkio'] = pecahArrayKeTH('#,msic,noO,mcpaO,ProductsManufactured,UnitO,CodeO,'
-. 'XXX,noI,mcpaI,RawMaterialConsumed,UnitI,CodeI');
+$tajuk['produkio'] = '#,msic,noO,mcpaO,ProductsManufactured,UnitO,CodeO,'
+. 'XXX,noI,mcpaI,RawMaterialConsumed,UnitI,CodeI';
 $data['produkio'] = './kod2022/mcpaBuatIO.json';
 #--------------------------------------------------------------------------------------------------
 # bina tatasusuan dari php
 #--------------------------------------------------------------------------------------------------
+$tajuk['msicAes'] = '#,Seksyen,Subsektor,MSIC 5 Digit,Keterangan MSIC';
 $data['msicAes'] = array(
 	//array('','Seksyen','Subsektor','MSIC 5 Digit','Keterangan MSIC'),
 	array('','A','Tanaman','01111','Penanaman jagung'),
@@ -233,6 +234,7 @@ $data['msicAes'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 # LAMPIRAN 16 SENARAI UNIT KUANTITI DAN KOD 97
+$tajuk['unitKuantitiLampiran16'] = '#,Unit Kuantiti,Kod Unit Kuantiti';
 $data['unitKuantitiLampiran16'] = array(
 	array('','Unit Kuantiti','Kod Unit Kuantiti'),
 	Array('','Kilogram (Kg)','0 7',),
@@ -284,6 +286,7 @@ $data['unitKuantitiLampiran16'] = array(
 	Array('','No Unit Of Quantity (N.P.U.)','9 7'),
 );//*/
 #--------------------------------------------------------------------------------------------------
+$tajuk['sistemPertanianLampiran17'] = '#,Kod Jenis,Kod,Unit,Jenis Sistem - Lampiran 17';
 $data['sistemPertanianLampiran17'] = array(
 	array('','Kod Jenis','Kod','Unit','Jenis Sistem - Lampiran 17'),
 	array('','tanaman','16A','1','Fertigasi dengan Struktur Perlindungan Hujan'),
@@ -311,6 +314,7 @@ $data['sistemPertanianLampiran17'] = array(
 #--------------------------------------------------------------------------------------------------
 # Lampiran 18 - Jadual Potensi Hasil Tanaman Terpilih
 # Sumber: Bahagian Hortikultur, DOA, MPOB
+$tajuk['potensiHasilTanamanTerpilihLampiran18'] = '#,Jenis sayur,Hasil potensi(kg/ha)';
 $data['potensiHasilTanamanTerpilihLampiran18'] = array(
 	//array('','Jenis sayur','Hasil potensi(kg/ha)'),
 	array('','Kucai (rumpun)','Hasil potensi(kg/ha)','189,000'),
@@ -363,6 +367,8 @@ $data['potensiHasilTanamanTerpilihLampiran18'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 # LAMPIRAN 19 - JULAT HARGA MINIMUM DAN MAKSIMUM – TANAMAN
+$tajuk['julatHargaTanamanLampiran19'] = '#,Kod Produk,Msic,Julat Harga RM/Kg,'
+. 'Julat Harga Min(RM/Tonne)';
 $data['julatHargaTanamanLampiran19'] = array(
 	//array('|Min(RM/Kg)|Max(RM/Kg)|Min(RM/Tonne)|Max(RM/Tonne)'),
 	array('','0126101001','01262 - Kelapa Sawit (Estet)',
@@ -499,8 +505,8 @@ $data['julatHargaTanamanLampiran19'] = array(
 	'RM/Kg => Min : 1.00 | Max : 3.50',	'RM/Tonne => Min : 1,000 | Max : 3,500'),
 );//*/
 #--------------------------------------------------------------------------------------------------
-# LAMPIRAN 20	JULAT HARGA MINIMUM DAN MAKSIMUM - TERNAKAN
-# MCPA_CODE	MCPA_NAME	BERAT
+# LAMPIRAN 20 : JULAT HARGA MINIMUM DAN MAKSIMUM - TERNAKAN
+$tajuk['julatHargaTernakanLampiran20'] = '#,MCPA_CODE,MCPA_NAME,BERAT,Harga Min,Harga Max';
 $data['julatHargaTernakanLampiran20'] = array(
 	array('','0141101001','01411 - Beef cattle(lembu pedaging)','0.3-1.2 tonne',
 	'RM => Min : 1,800.00 | Max : 5,000.00'),
@@ -623,6 +629,7 @@ $data['julatHargaTernakanLampiran20'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 #LAMPIRAN 21 | JULAT HARGA MINIMUM DAN MAKSIMUM - PERIKANAN
+$tajuk['hargaIkanLampiran21'] = '#,Mcpa,Msic,Semenanjung Malaysia,Sabah,Sarawak';
 $data['hargaIkanLampiran21'] = array(
 	array('','0311102023','03111 - Alu-Alu/Kacang-Kacang/Barracuda alive, fresh or chilled',
 	'Semenanjung Malaysia [RM] Min : 3.10 | Max : 9.20',
@@ -1110,6 +1117,7 @@ $data['hargaIkanLampiran21'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 # Lampiran 22 : JULAT HARGA MINIMUM DAN MAKSIMUM - PERHUTANAN & PEMBALAKAN
+$tajuk['hargaBalakLampiran22'] = '#,Mcpa,Msic,Harga Min,Harga Max';
 $data['hargaBalakLampiran22'] = array(
 	array('','0220101001','02201 - Damar minyak','RM => Min : 20.00 | Max : 3,000.00'),
 	array('','0220101002','02201 - Podo','RM => Min : 20.00 | Max : 3,000.00'),
@@ -1309,6 +1317,8 @@ $data['hargaBalakLampiran22'] = array(
 /*KELUASAN TANAMAN Lampiran 23
 MCPA|JENIS TANAMAN|"Yield(kg/ha):F1647RR=07"|"Yield(tan/ha):F1647RR=08"
 */
+$tajuk['luasTanamanLampiran23'] = '#,Mcpa,Jenis Tanaman,Luas:Yield(kg/ha),F1647RR=07'
+. 'Luas:Yield(tan/ha),F1647RR=08';
 $data['luasTanamanLampiran23'] = array(
 	array('','Mcpa','Jenis Tanaman','Yield(kg/ha)','F1647RR=07','Yield(tan/ha)','F1647RR=08'),
 	array('','0113801001','Kucai (chinese chives)','Luas(kg/ha)','189,000','Luas(tan/ha)','189'),
@@ -1372,6 +1382,7 @@ $data['luasTanamanLampiran23'] = array(
 	array('','0122904010','Dokong','Luas(kg/ha)','17,000','Luas(tan/ha)','17'),
 );//*/
 #--------------------------------------------------------------------------------------------------
+$tajuk['untungRugi'] = '#,KP,Keterangan,Kod Soalan';
 $data['untungRugi'] = array(
 	array('','KP 205','Jumlah Pendapatan','F080089'),
 	array('','KP 205','(-) Jumlah Perbelanjaan','F090089'),
@@ -1387,6 +1398,7 @@ $data['untungRugi'] = array(
 	array('','KP 101','= Keuntungan / kerugian','M110001'),
 );//*/
 #--------------------------------------------------------------------------------------------------
+$tajuk['untungRugi'] = '#,Bulan,Tarikh,Hari Bila,Peristiwa,Hari Apa';
 $data['tarikhGaji'] = array(
 	array('','Januari','25.01.2022','Selasa','',''),
 	array('','Februari','25.02.2022','Jumaat','Tahun Baru Cina - 1 & 2'
