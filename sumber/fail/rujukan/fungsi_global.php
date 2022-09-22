@@ -691,7 +691,9 @@ if ( ! function_exists('binaButang')):
 		endforeach;
 		$output .= "\n\t<hr>";
 
-		echo $output;
+		echo "\n<!-- Pautan \n================================================================="
+		. "============================== -->$output";
+
 		#
 	}
 endif;//*/
