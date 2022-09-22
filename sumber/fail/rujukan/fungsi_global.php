@@ -146,6 +146,26 @@ if ( ! function_exists('tajukMedanJadual')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaTajukMedanJson')):
+	function binaTajukMedanJson($tajuk,$pilih)
+	{
+		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
+		$btn = 'btn btn-dark btn-lg btn-block';
+		$tableID = 'myTable';
+		$tableClass = 'table table-striped table-bordered';
+		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
+		//semakPembolehubah($namaMedan,'namaMedan',2);
+		#------------------------------------------------------------------------------------------
+		echo "\n<!-- Table \n================================================================="
+		. '============================== -->'
+		. "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($pilih) . '</h2>'
+		. "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
+		. "\n<thead><tr>$namaMedan</tr></thead>\n<tfoot><tr>$namaMedan</tr></tfoot>\n"
+		. "</table>\n";
+		#------------------------------------------------------------------------------------------
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
@@ -798,20 +818,7 @@ if ( ! function_exists('panggilDataTable02')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		#------------------------------------------------------------------------------------------
-		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
-		$btn = 'btn btn-dark btn-lg btn-block';
-		$tableID = 'myTable';
-		$tableClass = 'table table-striped table-bordered';
-		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
-		//semakPembolehubah($namaMedan,'namaMedan',2);
-		#------------------------------------------------------------------------------------------
-		echo "\n<!-- Table \n================================================================="
-		. '============================== -->'
-		. "\n\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($pilih) . '</h2>'
-		. "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
-		. "\n<thead><tr>$namaMedan</tr></thead>\n<tfoot><tr>$namaMedan</tr></tfoot>\n"
-		. "</table>\n";
+		binaTajukMedanJson($tajuk,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
