@@ -737,7 +737,7 @@ if ( ! function_exists('panggilDataTable02')):
 		. "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 		. "</table>\n";
 		#------------------------------------------------------------------------------------------
-		include 'dibawah.php';
+		dibawah($pilih,$urljs);
 		echo "<script>\n";
 		jqueryExtendA();
 		jqueryExtendB();
@@ -750,6 +750,9 @@ endif;//*/
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
 	{
+		$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
+		$theme = (isset($theme)) ? $theme : null;
+
 		echo "\n";
 		print <<<END
 <!-- Footer
@@ -757,10 +760,7 @@ if ( ! function_exists('dibawah')):
 <footer class="footer">
 	<div class="container">
 		<span class="badge badge-info">
-		&copy; Hak Cipta Terperihara 2019. Theme <?php
-$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
-echo $theme = (isset($theme)) ? $theme : null;
-		?></span>
+		&copy; Hak Cipta Terperihara 2019. Theme $theme </span>
 	</div>
 </footer>
 
