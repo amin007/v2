@@ -314,7 +314,7 @@ $data['sistemPertanianLampiran17'] = array(
 #--------------------------------------------------------------------------------------------------
 # Lampiran 18 - Jadual Potensi Hasil Tanaman Terpilih
 # Sumber: Bahagian Hortikultur, DOA, MPOB
-$tajuk['potensiHasilTanamanTerpilihLampiran18'] = '#,Jenis sayur,Hasil potensi(kg/ha)';
+$tajuk['potensiHasilTanamanTerpilihLampiran18'] = '#,Jenis sayur,Hasil potensi,(kg/ha)';
 $data['potensiHasilTanamanTerpilihLampiran18'] = array(
 	//array('','Jenis sayur','Hasil potensi(kg/ha)'),
 	array('','Kucai (rumpun)','Hasil potensi(kg/ha)','189,000'),
@@ -506,7 +506,7 @@ $data['julatHargaTanamanLampiran19'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 # LAMPIRAN 20 : JULAT HARGA MINIMUM DAN MAKSIMUM - TERNAKAN
-$tajuk['julatHargaTernakanLampiran20'] = '#,MCPA_CODE,MCPA_NAME,BERAT,Harga Min,Harga Max';
+$tajuk['julatHargaTernakanLampiran20'] = '#,MCPA_CODE,MCPA_NAME,Berat,Julat Harga';
 $data['julatHargaTernakanLampiran20'] = array(
 	array('','0141101001','01411 - Beef cattle(lembu pedaging)','0.3-1.2 tonne',
 	'RM => Min : 1,800.00 | Max : 5,000.00'),
@@ -1117,7 +1117,7 @@ $data['hargaIkanLampiran21'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 # Lampiran 22 : JULAT HARGA MINIMUM DAN MAKSIMUM - PERHUTANAN & PEMBALAKAN
-$tajuk['hargaBalakLampiran22'] = '#,Mcpa,Msic,Harga Min,Harga Max';
+$tajuk['hargaBalakLampiran22'] = '#,Mcpa,Msic,Julat Harga';
 $data['hargaBalakLampiran22'] = array(
 	array('','0220101001','02201 - Damar minyak','RM => Min : 20.00 | Max : 3,000.00'),
 	array('','0220101002','02201 - Podo','RM => Min : 20.00 | Max : 3,000.00'),
@@ -1317,7 +1317,7 @@ $data['hargaBalakLampiran22'] = array(
 /*KELUASAN TANAMAN Lampiran 23
 MCPA|JENIS TANAMAN|"Yield(kg/ha):F1647RR=07"|"Yield(tan/ha):F1647RR=08"
 */
-$tajuk['luasTanamanLampiran23'] = '#,Mcpa,Jenis Tanaman,Luas:Yield(kg/ha),F1647RR=07'
+$tajuk['luasTanamanLampiran23'] = '#,Mcpa,Jenis Tanaman,Luas:Yield(kg/ha),F1647RR=07,'
 . 'Luas:Yield(tan/ha),F1647RR=08';
 $data['luasTanamanLampiran23'] = array(
 	array('','Mcpa','Jenis Tanaman','Yield(kg/ha)','F1647RR=07','Yield(tan/ha)','F1647RR=08'),
