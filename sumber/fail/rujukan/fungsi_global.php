@@ -273,9 +273,10 @@ endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('binaTajukJadual')):
-	function binaTajukJadual($namaMedan,$senarai,$pilih)
+if ( ! function_exists('binaJadual')):
+	function binaJadual($tajuk,$senarai,$pilih)
 	{
+		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
 		$class = 'table table-striped table-bordered';
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
 		$btn = 'btn btn-dark btn-lg btn-block';
@@ -796,8 +797,7 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
-		binaTajukJadual($namaMedan,$data,$pilih);
+		binaJadual($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
