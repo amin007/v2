@@ -728,7 +728,9 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		binaSatuJadual($data,$pilih);
+		$namaMedan = pecahArrayKeTH($tajuk[$pilih]);
+		//binaSatuJadual($data,$pilih);
+		binaTajukJadual($namaMedan,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
