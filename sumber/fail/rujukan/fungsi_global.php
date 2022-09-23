@@ -3,7 +3,7 @@
 # fungsi global
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('semakPembolehubah')):
-	function semakPembolehubah($senarai,$jadual='entahlah',$p=2)
+	function semakPembolehubah($senarai,$jadual='entahlah',$p)
 	{
 		# semak $senarai adalah array atau tidak
 		$semak = is_array($senarai) ? 'array' : 'bukan';
@@ -22,7 +22,7 @@ if ( ! function_exists('semakPembolehubah')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('tagVar')):
-	function tagVar($senarai,$jadual,$pilih)
+	function tagVar($senarai,$jadual,$pilih=2)
 	{
 		# set pembolehubah utama
 		$p1 = 'pre';#https://www.w3schools.com/tags/tag_var.asp
