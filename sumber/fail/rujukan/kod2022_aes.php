@@ -1436,8 +1436,8 @@ $data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv'
 ###################################################################################################
 # semak tatasusunan sebelum proses koding seterusnya
 #--------------------------------------------------------------------------------------------------
-semakPembolehubah($tajuk,'tajuk',0);
-semakPembolehubah($data,'data',0);
+//semakPembolehubah($tajuk['mcpaTani'],'tajuk',2);
+//semakPembolehubah($data['mcpaTani'],'data',0);
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
