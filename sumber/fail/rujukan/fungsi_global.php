@@ -205,8 +205,7 @@ if ( ! function_exists('binaKakiJadual')):
 				$tajuk = tajukMedanJadual($jadual,$kunci);
 				$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
 				endforeach;
-				$output .= "\n\t" . '</tr></thead>';
-				$output .= "\n\t" . '<tfoot>';
+				$output .= "\n\t" . '</tr></tfoot>';
 			##============================================================
 				$cetak_tajuk_utama = true;
 			}
