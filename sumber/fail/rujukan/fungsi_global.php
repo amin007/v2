@@ -120,14 +120,23 @@ if ( ! function_exists('ImportCSV2Array02')):
 	function ImportCSV2Array02($filename)
 	{
 		# baca fail csv dan convert kepada tatasusunan
-		#https://www.tutorialspoint.com/php/php_function_fgetcsv.htm
+		# https://www.tutorialspoint.com/php/php_function_fgetcsv.htm
+		# https://www.plus2net.com/php_tutorial/string-fgetcsv.php
+		/*	fgetcsv(): Getting data from CSV file
+			fgetcsv(f_pointer,int $length,string $delimiter, string $encloser,string $escape);
+			Parameter : DESCRIPTION
+			f_pointer : Required : a successful file pointer
+			$length : Optional : Must be greater than the maximum line length
+			$delimiter : Optional : One char only
+			$encloser : Optional : Field encloser char
+			$escape : Optional : escape parmeter sets the escape char
+		//*/
 		$file = fopen($filename, "r");
-		while(! feof($file)) {
-			//print_r(fgetcsv($file));
-			$data[] = fgetcsv($file);
+		while(! feof($file))
+		{
+			$data[] = fgetcsv($file,2000,";");
 		}
-		fclose($file);
-		//semakPembolehubah($data,'data');
+		fclose($file);//semakPembolehubah($data,'data');
 
 		return $data;//*/
 	}
