@@ -1428,9 +1428,8 @@ $data['xxx'] = array(
 ###################################################################################################
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
-//$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
 $tajuk['mcpaTani'] = '#,kp,msic,mcpa baru,keterangan,kod lama,mcpa lama';
-$data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv');
+$data['mcpaTani'] = ImportCSV2Array02($filename = './kod2022/mcpa_pertanian.csv');
 //$data['mcpaBuat'] = ImportCSV2Array01($filename = './kod2022/mcpa_pembuatan_io.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
