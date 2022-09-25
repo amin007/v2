@@ -323,7 +323,7 @@ endif;
 if ( ! function_exists('binaJadual02')):
 	function binaJadual02($tajuk,$senarai,$pilih)
 	{
-		$namaMedan = isset($tajuk[$pilih]) ? pecahArrayKeTH($tajuk) : null;
+		$namaMedan = isset($tajuk[$pilih]) ? pecahArrayKeTH($tajuk[$pilih]) : null;
 		$class = 'table table-striped table-bordered';
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
 		$btn = 'btn btn-dark btn-lg btn-block';
