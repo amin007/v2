@@ -880,7 +880,7 @@ if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
 	{
 		$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
-		$theme = (isset($theme)) ?? null;# Null coalescing operator
+		//$theme = (isset($theme)) ? $theme : null;# Null coalescing operator
 
 		echo "\n";
 		print <<<END
