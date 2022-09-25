@@ -282,10 +282,12 @@ if ( ! function_exists('binaJadual')):
 	{
 		$class = 'table table-striped table-bordered';
 		foreach($senarai as $jadual => $row):
+		if($jadual == $pilih):
 			$output = paparJadual($row,$jadual);
 			//echo "\r\t" . '<table class="'.$class.'" id="allTable">'
 			echo "\r\t" . '<table border="1">'
 			. $output . "\r\t" . '</table>' . "\r\r";
+		endif;
 		endforeach;
 		#
 	}
@@ -330,7 +332,7 @@ endif;
 if ( ! function_exists('binaJadual02')):
 	function binaJadual02($tajuk,$senarai,$pilih)
 	{
-		$namaMedan = pecahArrayKeTH($tajuk);
+		$namaMedan = isset($tajuk[$pilih]) ? pecahArrayKeTH($tajuk) : null;
 		$class = 'table table-striped table-bordered';
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
 		$btn = 'btn btn-dark btn-lg btn-block';
@@ -850,7 +852,7 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		if($pilih != '') binaJadual02($tajuk[$pilih],$data,$pilih);
+		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
