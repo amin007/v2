@@ -1321,7 +1321,7 @@ MCPA|JENIS TANAMAN|"Yield(kg/ha):F1647RR=07"|"Yield(tan/ha):F1647RR=08"
 $tajuk['luasTanamanLampiran23'] = '#,Mcpa,Jenis Tanaman,Luas:Yield(kg/ha),F1647RR=07,'
 . 'Luas:Yield(tan/ha),F1647RR=08';
 $data['luasTanamanLampiran23'] = array(
-	array('','Mcpa','Jenis Tanaman','Yield(kg/ha)','F1647RR=07','Yield(tan/ha)','F1647RR=08'),
+	//array('','Mcpa','Jenis Tanaman','Yield(kg/ha)','F1647RR=07','Yield(tan/ha)','F1647RR=08'),
 	array('','0113801001','Kucai (chinese chives)','Luas(kg/ha)','189,000','Luas(tan/ha)','189'),
 	array('','0113204004','Labu Air','Luas(kg/ha)','23,000','Luas(tan/ha)','23'),
 	array('','0113204005','Labu Manis','Luas(kg/ha)','24,000','Luas(tan/ha)','24'),
@@ -1385,18 +1385,18 @@ $data['luasTanamanLampiran23'] = array(
 #--------------------------------------------------------------------------------------------------
 $tajuk['untungRugi'] = '#,KP,Keterangan,Kod Soalan';
 $data['untungRugi'] = array(
-	array('','KP 205','Jumlah Pendapatan','F080089'),
-	array('','KP 205','(-) Jumlah Perbelanjaan','F090089'),
-	array('','KP 205','(-) Jumlah Stok Awal(Dalam Proses + Siap)','F100102 + F100103'),
-	array('','KP 205','(+) Jumlah Stok Akhir(Dalam Proses + Siap)','F100202 + F100203'),
-	array('','KP 205',' =  Keuntungan / kerugian','M110001'),
-	array('','KP 101','Jumlah Pendapatan','F080089'),
-	array('','KP 101','(-) Jumlah Perbelanjaan','F090089'),
-	array('','KP 101','(-) Jumlah Stok Awal(Pertanian + Dalam Proses + Siap)',
+	array('','KP205','Jumlah Pendapatan','F080089'),
+	array('','KP205','(-) Jumlah Perbelanjaan','F090089'),
+	array('','KP205','(-) Jumlah Stok Awal(Dalam Proses + Siap)','F100102 + F100103'),
+	array('','KP205','(+) Jumlah Stok Akhir(Dalam Proses + Siap)','F100202 + F100203'),
+	array('','KP205',' =  Keuntungan / kerugian','M110001'),
+	array('','KP101','Jumlah Pendapatan','F080089'),
+	array('','KP101','(-) Jumlah Perbelanjaan','F090089'),
+	array('','KP101','(-) Jumlah Stok Awal(Pertanian + Dalam Proses + Siap)',
 	'F100105 + F100106'),
-	array('','KP 101','(+) Jumlah Stok Akhir(Pertanian + Dalam Proses + Siap)',
+	array('','KP101','(+) Jumlah Stok Akhir(Pertanian + Dalam Proses + Siap)',
 	'F100205 + F100206'),
-	array('','KP 101','= Keuntungan / kerugian','M110001'),
+	array('','KP101','= Keuntungan / kerugian','M110001'),
 );//*/
 #--------------------------------------------------------------------------------------------------
 $tajuk['tarikhGaji'] = '#,Bulan,Tarikh,Hari Bila,Peristiwa,Hari Apa';
