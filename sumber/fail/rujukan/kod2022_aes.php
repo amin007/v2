@@ -1,5 +1,6 @@
 <?php
 ###################################################################################################
+//$ruStart = getrusage();# Script start. mula run php
 include 'fungsi_global.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
@@ -1429,14 +1430,17 @@ $data['xxx'] = array(
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
 $tajuk['mcpaTani'] = '#,kp,msic,mcpa baru,keterangan,kod lama,mcpa lama';
-$data['mcpaTani'] = ImportCSV2Array02($filename = './kod2022/mcpa_pertanian.csv');
+$data['mcpaTani'] = ImportCSV2Array01($filename = './kod2022/mcpa_pertanian.csv');
+//$tajuk['mcpaTani02'] = '#,kp,msic,mcpa baru,keterangan,kod lama,mcpa lama';
+//$data['mcpaTani02'] = ImportCSV2Array02($filename = './kod2022/mcpa_pertanian.csv');
 //$data['mcpaBuat'] = ImportCSV2Array01($filename = './kod2022/mcpa_pembuatan_io.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # semak tatasusunan sebelum proses koding seterusnya
 #--------------------------------------------------------------------------------------------------
 //semakPembolehubah($tajuk['mcpaTani'],'tajuk',3);
-//semakPembolehubah($data['mcpaTani'],'data',0);
+//semakPembolehubah($data['mcpaTani01'],'data01',0);
+//semakPembolehubah($data['mcpaTani02'],'data02',0);
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula koding
@@ -1496,6 +1500,11 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 //versiphp();
+/*$ruEnd = getrusage();# tamat run php
+echo "<hr>This process used " . rutime($ruEnd, $ruStart, "utime") .
+    " ms for its computations\n";
+echo "<br>It spent " . rutime($ruEnd, $ruStart, "stime") .
+    " ms in system calls\n";*/
 #--------------------------------------------------------------------------------------------------
 # tamat koding
 ###################################################################################################
