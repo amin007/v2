@@ -218,24 +218,15 @@ endif;
 if ( ! function_exists('binaKakiJadual')):
 	function binaKakiJadual($row,$jadual)
 	{
+		$kira = 0;
 		$output = null;
-		$bilBaris = count($row);
-		$cetak_tajuk_utama = false;# mula bina jadual
 		#-----------------------------------------------------------------
-		for ($kira=0; $kira < $bilBaris; $kira++)
-		{	# papar tajuk jadual sekali sahaja :
-			if ( !$cetak_tajuk_utama )
-			{##===========================================================
-				$output .= "\n\t<tfoot><tr>";
-				foreach ( array_keys($row[$kira]) as $kunci ) :
-				$tajuk = tajukMedanJadual($jadual,$kunci);
-				$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
-				endforeach;
-				$output .= "\n\t" . '</tr></tfoot>';
-			##============================================================
-				$cetak_tajuk_utama = true;
-			}
-		}
+		$output .= "\n\t<tfoot><tr>";
+		foreach ( array_keys($row[$kira]) as $kunci ) :
+			$tajuk = tajukMedanJadual($jadual,$kunci);
+			$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
+		endforeach;
+		$output .= "\n\t" . '</tr></tfoot>';
 		#-----------------------------------------------------------------
 
 		return $output;//*/
