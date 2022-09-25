@@ -368,9 +368,9 @@ $data['potensiHasilTanamanTerpilihLampiran18'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 # LAMPIRAN 19 - JULAT HARGA MINIMUM DAN MAKSIMUM – TANAMAN
-$tajuk['julatHargaTanamanLampiran19'] = '#,Kod Produk,Msic,Julat Harga RM/Kg,'
+$tajuk['hargaTanamanLampiran19'] = '#,Kod Produk,Msic,Julat Harga RM/Kg,'
 . 'Julat Harga Min(RM/Tonne)';
-$data['julatHargaTanamanLampiran19'] = array(
+$data['hargaTanamanLampiran19'] = array(
 	//array('|Min(RM/Kg)|Max(RM/Kg)|Min(RM/Tonne)|Max(RM/Tonne)'),
 	array('','0126101001','01262 - Kelapa Sawit (Estet)',
 	'RM/Kg => Min : 400.00 | Max : 1,300.00','RM/Tonne => Min : 400,000 | Max : 1,300,000'),
@@ -507,8 +507,8 @@ $data['julatHargaTanamanLampiran19'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 # LAMPIRAN 20 : JULAT HARGA MINIMUM DAN MAKSIMUM - TERNAKAN
-$tajuk['julatHargaTernakanLampiran20'] = '#,MCPA_CODE,MCPA_NAME,Berat,Julat Harga';
-$data['julatHargaTernakanLampiran20'] = array(
+$tajuk['hargaTernakanLampiran20'] = '#,MCPA_CODE,MCPA_NAME,Berat,Julat Harga';
+$data['hargaTernakanLampiran20'] = array(
 	array('','0141101001','01411 - Beef cattle(lembu pedaging)','0.3-1.2 tonne',
 	'RM => Min : 1,800.00 | Max : 5,000.00'),
 	array('','0141101002','01411 - Dairy cattle(lembu tenusu)','0.3-0.4 tonne',
