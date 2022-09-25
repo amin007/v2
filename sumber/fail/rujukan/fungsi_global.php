@@ -116,6 +116,23 @@ if ( ! function_exists('ImportCSV2Array01')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('ImportCSV2Array02')):
+	function ImportCSV2Array02($filename)
+	{
+		# baca fail csv dan convert kepada tatasusunan
+		#https://www.tutorialspoint.com/php/php_function_fgetcsv.htm
+		$file = fopen($filename, "r");
+		while(! feof($file)) {
+			//print_r(fgetcsv($file));
+			$data[] = fgetcsv($file);
+		}
+		fclose($file);
+		//semakPembolehubah($data,'data');
+
+		return $data;//*/
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # bina tajuk medan
 #--------------------------------------------------------------------------------------------------
