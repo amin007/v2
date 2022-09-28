@@ -916,3 +916,13 @@ if ( ! function_exists('rutime')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('getTimeLoad')):
+	function getTimeLoad()
+	{
+		$masa = date('d M Y H:i:s', $_SERVER['REQUEST_TIME']);
+		//$masa = date('d M Y h:i:s A', time());
+
+		return $masa;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
