@@ -472,6 +472,85 @@ endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('senaraiCssV01')):
+	function senaraiCssV01($pilih = 0)
+	{
+		$papar[] = array(
+			'https://use.fontawesome.com/releases/v5.11.2/css/all.css',
+			//'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+			'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+		);
+		$papar[] = array(
+			'https://use.fontawesome.com/releases/v5.11.2/css/all.css',
+			'https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css',
+		);
+
+		return $papar[$pilih];
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('ulangCssV01')):
+	function ulangCssV01($listCss)
+	{
+		$style = null;
+		if (isset($listCss) && $listCss != null)
+		{
+			foreach ($listCss as $css)
+			{
+				$style .= "\n" . '<link rel="stylesheet" type="text/css" href="' . $css . '">';
+			}
+		}
+
+		return $style;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('metaList')):
+	function metaList()
+	{
+		$k01 = 'width=device-width, initial-scale=1,';
+		$p[] = '<meta charset="utf-8">';
+		$p[] = '<meta name="viewport" content="' . $k01 . ' shrink-to-fit=no">';
+		//$p[] = '<meta name="viewport" content="' . $k01 . ' maximum-scale=1">';
+		$p[] = '<meta name="description" content="">';
+		//$p[] = '<meta name="keywords" content="derma,Crownfunding,">';
+		$p[] = '<meta name="author" content="Amin007">';
+		//$p[] = '';
+		return $p;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('ulangMeta')):
+	function ulangMeta($listMeta)
+	{
+		$p = null;
+		if (isset($listMeta) && $listMeta != null)
+		{
+			foreach ($listMeta as $meta)
+			{
+				$p .= "\n" . $meta;
+			}
+		}
+
+		return $p;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('diatasSimple')):
+	function diatasSimple($title = 'List Folder')
+	{
+		print <<<END
+<!doctype html>
+<html lang="en">
+<head>
+<title>$title</title>
+</head>
+<body>
+
+END;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('linkCssJs')):
 	function linkCssJs()
 	{
