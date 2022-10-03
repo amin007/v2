@@ -1520,55 +1520,29 @@ dan TV, graphic design, computer graphic, percetakan dan penerbitan)
 |0288-Inter-disciplinary programmes and qualifications involving arts and humanities
 |0299-Arts and humanities not elsewhere classified
 |*-Sains sosial dan sains gelagat
--Social sciences, journalism dan information not further defined
--Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)
--Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)
--Psikologi
--Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional cultures)
--Social and behavioural sciences not elsewhere classified
-Kewartawanan dan maklumat
--Kewartawanan dan pelaporan (broadcast journalism, mass communication)
--Perpustakaan, maklumat dan arkib (archival science, documentation, information science,
-librarianship training, museum documentation)
--Media dan komunikasi
--Journalism and information not elsewhere classified
--Inter-disciplinary programmes and qualifications involving science social, journalism
-and information
-- Science social, journalism and information not elsewhere classified
-Perniagaan dan pentadbiran
-- Business, administration and law not further defined
-- Perakaunan, percukaian, pengauditan, simpan kira
-- Kewangan, perbankan, insurans, pelaburan
-- Perbankan dan kewangan islam
-- Pengurusan dan pentadbiran (human resource management, office management, personnel management,
-quality management, recruitment, enterprise training, public administration)
-- Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising, market research,
-perhubungan awam)
-[44]
-BIL. PERKARA KOD PENERANGAN
-0416
-0417
-0419
-0421
-0488
-0499
-0500
-0511
-0512
-0519
-0521
-0522
-0529
-0531
-0532
-0533
-0539
-0540
-0541
-- Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand,
-receptionist training, legal secretary)
-- Kemahiran pekerjaan
-- Business and administration not elsewhere classified
+|0300-Social sciences, journalism dan information not further defined
+|0311-Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)
+|0312-Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)
+|0313-Psikologi
+|0314-Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional cultures)
+|0319-Social and behavioural sciences not elsewhere classified
+|*-Kewartawanan dan maklumat
+|0321-Kewartawanan dan pelaporan (broadcast journalism, mass communication)
+|0322-Perpustakaan, maklumat dan arkib (archival science, documentation, information science,librarianship training, museum documentation)
+|0323-Media dan komunikasi
+|0329-Journalism and information not elsewhere classified
+|0388-Inter-disciplinary programmes and qualifications involving science social, journalism and information
+|0399- Science social, journalism and information not elsewhere classified
+|*-Perniagaan dan pentadbiran
+|0400-Business, administration and law not further defined
+|0411-Perakaunan, percukaian, pengauditan, simpan kira
+|0412-Kewangan, perbankan, insurans, pelaburan
+|0413-Perbankan dan kewangan islam
+|0414-Pengurusan dan pentadbiran (human resource management, office management, personnel management, quality management, recruitment, enterprise training, public administration)
+|0415-Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising, market research, perhubungan awam)
+|0416-Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand, receptionist training, legal secretary)
+|0417-Kemahiran pekerjaan
+|0418-Business and administration not elsewhere classified
 Undang-undang
 - Undang-undang
 - Inter-disciplinary programmes and qualifications involving business, administration and law
