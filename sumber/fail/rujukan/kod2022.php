@@ -1496,7 +1496,7 @@ $data['Bidang'] = array(
 |0114-|0114-Latihan perguruan untuk guru dengan pengkhususan subjek
 |0119-|0119-Programmes and qualifications involving education not elsewhere classified
 |0188-|0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary programmes and qualifications involving education
-|*-Kesenian
+|*-|*-Kesenian
 |0200-Seni halus, lukisan, khat, calligraphy
 |0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan penerbitan)
 |0212-Rekaan (fashion and costume design, interior design, stage design)
@@ -1505,34 +1505,34 @@ $data['Bidang'] = array(
 |0215-Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian, teater)
 |0216-Pengajian filem, televisyen dan skrin
 |0219-Kesenian-kesenian lain/Arts not elsewhere classified
-|*-Kemanusiaan
+|*-|*-Kemanusiaan
 |0221-Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)
 |0222-Sejarah dan arkeologi
 |0223-Falsafah dan etika
 |0224-Pengajian Islam
 |0229-Program kemanusiaan lain/Humanities (except languages) not elsewhere classified
-|*-Bahasa
+|*-|*-Bahasa
 |0231-Pengajian bahasa
 |0232-Kesusateraan dan linguistics
 |0233-Bahasa Kebangsaan (Bahasa Malaysia)
 |0239-Bahasa not elsewhere
 |0288-Inter-disciplinary programmes and qualifications involving arts and humanities
 |0299-Arts and humanities not elsewhere classified
-|*-Sains sosial dan sains gelagat
+|*-|*-Sains sosial dan sains gelagat
 |0300-Social sciences, journalism dan information not further defined
 |0311-Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)
 |0312-Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)
 |0313-Psikologi
 |0314-Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional cultures)
 |0319-Social and behavioural sciences not elsewhere classified
-|*-Kewartawanan dan maklumat
+|*-|*-Kewartawanan dan maklumat
 |0321-Kewartawanan dan pelaporan (broadcast journalism, mass communication)
 |0322-Perpustakaan, maklumat dan arkib (archival science, documentation, information science,librarianship training, museum documentation)
 |0323-Media dan komunikasi
 |0329-Journalism and information not elsewhere classified
 |0388-Inter-disciplinary programmes and qualifications involving science social, journalism and information
 |0399- Science social, journalism and information not elsewhere classified
-|*-Perniagaan dan pentadbiran
+|*-|*-Perniagaan dan pentadbiran
 |0400-Business, administration and law not further defined
 |0411-Perakaunan, percukaian, pengauditan, simpan kira
 |0412-Kewangan, perbankan, insurans, pelaburan
@@ -1542,31 +1542,31 @@ $data['Bidang'] = array(
 |0416-Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand, receptionist training, legal secretary)
 |0417-Kemahiran pekerjaan
 |0418-Business and administration not elsewhere classified
-|*-Undang-undang
+|*-|*-Undang-undang
 |0421-Undang-undang/LAW
 |0488-Inter-disciplinary programmes and qualifications involving business, administration and law
 |0499-Business, administration and law not elsewhere classified
-|*-Biologi dan sains berkaitan
+|*-|*-Biologi dan sains berkaitan
 |0500-Natural sciences, mathematics and statistics not further defined
 |0511- Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi, entomologi)
 |0512- Biokimia
 |0519- Biological and related sciences not elsewhere classified
-|*-Sains alam sekitar
+|*-|*-Sains alam sekitar
 |0521- Sains alam sekitar
 |0522- Alam semulajadi dan hidupan liar
 |0529- Environment not elsewhere classified
-|*-Sains fizikal
+|*-|*-Sains fizikal
 |0531- Kimia (kimia organik, polimer, petroleum)
 |0532- Sains (earth science, atmosphere, geography (physical), geophysic, geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology, mineralogy, seismology)
 |0533- Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)
 |0539- Physical sciences not elsewhere classified
-|*-Matematik dan statistik
+|*-|*-Matematik dan statistik
 |0540- Mathematics and statistics not further defined
 |0541- Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi, analisis berangka)
 |0542- Statistik (teori kebarangkalian, statistik gunaan, persampelan survei, rekabentuk survei, sains aktuari)
 |0588- Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics
 |0599- Natural sciences, mathematics and statistics not elsewhere classified
-|*-Teknologi maklumat dan komunikasi
+|*-|*-Teknologi maklumat dan komunikasi
 |0610- Information and Communication Technologies (ICTs) not further defined
 |0611- Information Technology and Information System
 |0612- Kejuruteraan Perisian
@@ -1574,7 +1574,7 @@ $data['Bidang'] = array(
 |0614- Penggunaan komputer (computer software use, internet use programmes, spreadsheets, software for data processing, desktop publishing and word processing)
 |0619- Information and Communication Technologies (ICTs) not elsewhere classified
 |0688- Inter-disciplinary programmes and qualifications involving Information and Communication Technologies
-|*-Kejuruteraan dan kejuruteraan dagangan
+|*-|*-Kejuruteraan dan kejuruteraan dagangan
 |0700- Engineering, manufacturing and construction not further defined
 |0711- Kimia dan proses (chemical engineering, laboratory technology, oil refining, oil/gas/petrochemicals processing, plant and machine operation)
 |0712- Tenaga dan elektrik (air-conditioning programmes, electrical appliances repairing, fitting, engineering, power generation, gas distribution, nuclear, hydraulic and thermal energy, power production, powerline installation, refrigeration programmes, solar energy)
@@ -1584,13 +1584,13 @@ $data['Bidang'] = array(
 |0716- Kejuruteraan awam (bridge/building construction, dock and harbour engineering, quantity surveying, road building, technical drawings, water supply and sewerage engineering)
 |0717- Teknologi perlindungan alam sekitar
 |0718- Engineering and engineering trades not elsewhere classified
-|*-Pembuatan dan pemprosesan
+|*-|*-Pembuatan dan pemprosesan
 |0721- Pemprosesan makanan
 |0722- Bahan (gelas, kertas, plastic dan kayu)
 |0723- Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working, tailoring, dressmaking, footwear making, shoemaking, spinning)
 |0724- Perlombongan dan galian (coal mining, oil & gas/raw material extraction)
 |0729- Manufacturing and processing not elsewhere classified
-|*-Senibina dan perancang bandar
+|*-|*-Senibina dan perancang bandar
 |0731- Senibina
 |0732- Perancangan bandar dan wilayah
 |0733- Pembinaan dan bangunan
@@ -1598,18 +1598,18 @@ $data['Bidang'] = array(
 |0741- Teknologi kejuruteraan
 |0788- Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction
 |0799- Engineering, manufacturing and construction not elsewhere classified
-|*-Pertanian, Perhutanan dan Perikanan
+|*-|*-Pertanian, Perhutanan dan Perikanan
 |0800- Agriculture, forestry, fisheries and veterinary not further defined
 |0811- Crop and livestock production
 |0812- Horticulture
 |0819- Agriculture not elsewhere classified
 |0821- Perhutanan
 |0831- Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)
-|*-Veterinar
+|*-|*-Veterinar
 |0841- Penjagaan kesihatan haiwan, reproduction, veterinary assisting and medicine
 |0888-Inter-disciplinary programmesand qualifications involving agriculture, forestry, fisheries and veterinary
 |0899- Agriculture, forestry, fisheries and veterinary not elsewhere classified
-|*-Kesihatan
+|*-|*-Kesihatan
 |0900- Health and welfare not further defined
 |0911- Pengajian pergigian
 |0912- Perubatan
@@ -1619,13 +1619,13 @@ $data['Bidang'] = array(
 |0916- Farmasi
 |0917- Traditional and complementary medicine and therapy
 |0919- Health not elsewhere classified
-|*-Perkhidmatan sosial
+|*-|*-Perkhidmatan sosial
 |0921- Care of elderly and of disabled
 |0922- Perkhidmatan asuhan kanak-kanak dan belia
 |0923- Kerja sosial dan kaunseling (career advising, social stidied, kaunseling perkahwinan dan keluarga)
 |0929- Welfare not elsewhere classified
 |0988- Health and welfare not elsewhere
-|*-Perkhidmatan personel
+|*-|*-Perkhidmatan personel
 |1000- Services not further defined
 |1011- Perkhidmatan domestik (housekeeping, homeservice, laundry)
 |1012- Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik, fitness & weight control, dandanan rambut, persolekan, manicure & pedicure, perkhidmatan salon, urutan kecantikan
@@ -1633,15 +1633,15 @@ $data['Bidang'] = array(
 |1014- Sukan (gymnastik, diving, sports coaching)
 |1015- Pengembaraan, pelancongan dan rekreasi
 |1019- Personal services not elsewhere classified
-|*-Perkhidmatan kebersihan dan kesihatan pekerja
+|*-|*-Perkhidmatan kebersihan dan kesihatan pekerja
 |1021- Community sanitation
 |1022- Occupational health and safety
 |1029- Hygiene and occupational health services not elsewhere
-|*-Perkhidmatan keselamatan
+|*-|*-Perkhidmatan keselamatan
 |1031- Ketenteraan dan pertahanan (latihan ketenteraan, sains militari, national security)
 |1032- Protection of persons and property
 |1039- Security services not elsewhere classified
-|*-Perkhidmatan pengangkutan
+|*-|*-Perkhidmatan pengangkutan
 |1041- Transport services, Air crew programmes, aircraft operation, aviation,
 cabin crew training, crane, truck & fork-lift driving, nautical science,
 postal service, railway operations, seamanship, ship operation
