@@ -1482,20 +1482,20 @@ $data['Bidang'] = array(
 #--------------------------------------------------------------------------------------------------
 /* 18. Bidang Pengajian (FS) (4 digit)
 
-|*-Program asas/umum
-|0000-Programmes and qualifications generic not further defined
-|0011-Program asas/umum
-|0021-Literasi dan numerasi
-|0031-Kemahiran personal
-|0099-Programmes and qualifications generic not else where classified
-|*-Pendidikan
-|0110-Pengajaran
-|0111-Sains pendidikan
-|0112-Latihan perguruan untuk guru pra-sekolah
-|0113-Latihan perguruan untuk guru peringkat asas
-|0114-Latihan perguruan untuk guru dengan pengkhususan subjek
-|0119-Programmes and qualifications involving education not elsewhere classified
-|0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary programmes and qualifications involving education
+|*-|*-Program asas/umum
+|0000-|0000-Programmes and qualifications generic not further defined
+|0011-|0011-Program asas/umum
+|0021-|0021-Literasi dan numerasi
+|0031-|0031-Kemahiran personal
+|0099-|0099-Programmes and qualifications generic not else where classified
+|*-|*-Pendidikan
+|0110-|0110-Pengajaran
+|0111-|0111-Sains pendidikan
+|0112-|0112-Latihan perguruan untuk guru pra-sekolah
+|0113-|0113-Latihan perguruan untuk guru peringkat asas
+|0114-|0114-Latihan perguruan untuk guru dengan pengkhususan subjek
+|0119-|0119-Programmes and qualifications involving education not elsewhere classified
+|0188-|0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary programmes and qualifications involving education
 |*-Kesenian
 |0200-Seni halus, lukisan, khat, calligraphy
 |0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan penerbitan)
