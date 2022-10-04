@@ -1497,41 +1497,41 @@ $data['Bidang'] = array(
 |0119-|0119-Programmes and qualifications involving education not elsewhere classified
 |0188-|0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary programmes and qualifications involving education
 |*-|*-Kesenian
-|0200-Seni halus, lukisan, khat, calligraphy
-|0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan penerbitan)
-|0212-Rekaan (fashion and costume design, interior design, stage design)
-|0213-Seni lukis/Fine arts
-|0214-Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)
-|0215-Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian, teater)
-|0216-Pengajian filem, televisyen dan skrin
-|0219-Kesenian-kesenian lain/Arts not elsewhere classified
+|0200-|0200-Seni halus, lukisan, khat, calligraphy
+|0211-|0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan penerbitan)
+|0212-|0212-Rekaan (fashion and costume design, interior design, stage design)
+|0213-|0213-Seni lukis/Fine arts
+|0214-|0214-Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)
+|0215-|0215-Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian, teater)
+|0216-|0216-Pengajian filem, televisyen dan skrin
+|0219-|0219-Kesenian-kesenian lain/Arts not elsewhere classified
 |*-|*-Kemanusiaan
-|0221-Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)
-|0222-Sejarah dan arkeologi
-|0223-Falsafah dan etika
-|0224-Pengajian Islam
-|0229-Program kemanusiaan lain/Humanities (except languages) not elsewhere classified
+|0221-|0221-Agama (pengajian agama, sejarah agama, study of sacred books i.e. Al-Quran)
+|0222-|0222-Sejarah dan arkeologi
+|0223-|0223-Falsafah dan etika
+|0224-|0224-Pengajian Islam
+|0229-|0229-Program kemanusiaan lain/Humanities (except languages) not elsewhere classified
 |*-|*-Bahasa
-|0231-Pengajian bahasa
-|0232-Kesusateraan dan linguistics
-|0233-Bahasa Kebangsaan (Bahasa Malaysia)
-|0239-Bahasa not elsewhere
-|0288-Inter-disciplinary programmes and qualifications involving arts and humanities
-|0299-Arts and humanities not elsewhere classified
+|0231-|0231-Pengajian bahasa
+|0232-|0232-Kesusateraan dan linguistics
+|0233-|0233-Bahasa Kebangsaan (Bahasa Malaysia)
+|0239-|0239-Bahasa not elsewhere
+|0288-|0288-Inter-disciplinary programmes and qualifications involving arts and humanities
+|0299-|0299-Arts and humanities not elsewhere classified
 |*-|*-Sains sosial dan sains gelagat
-|0300-Social sciences, journalism dan information not further defined
-|0311-Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)
-|0312-Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)
-|0313-Psikologi
-|0314-Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional cultures)
-|0319-Social and behavioural sciences not elsewhere classified
+|0300-|0300-Social sciences, journalism dan information not further defined
+|0311-|0311-Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national accounts)
+|0312-|0312-Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa, keamanan)
+|0313-|0313-Psikologi
+|0314-|0314-Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional cultures)
+|0319-|0319-Social and behavioural sciences not elsewhere classified
 |*-|*-Kewartawanan dan maklumat
-|0321-Kewartawanan dan pelaporan (broadcast journalism, mass communication)
-|0322-Perpustakaan, maklumat dan arkib (archival science, documentation, information science,librarianship training, museum documentation)
-|0323-Media dan komunikasi
-|0329-Journalism and information not elsewhere classified
-|0388-Inter-disciplinary programmes and qualifications involving science social, journalism and information
-|0399- Science social, journalism and information not elsewhere classified
+|0321-|0321-Kewartawanan dan pelaporan (broadcast journalism, mass communication)
+|0322-|0322-Perpustakaan, maklumat dan arkib (archival science, documentation, information science,librarianship training, museum documentation)
+|0323-|0323-Media dan komunikasi
+|0329-|0329-Journalism and information not elsewhere classified
+|0388-|0388-Inter-disciplinary programmes and qualifications involving science social, journalism and information
+|0399-|0399-Science social, journalism and information not elsewhere classified
 |*-|*-Perniagaan dan pentadbiran
 |0400-Business, administration and law not further defined
 |0411-Perakaunan, percukaian, pengauditan, simpan kira
