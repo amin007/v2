@@ -1533,19 +1533,19 @@ $data['Bidang'] = array(
 |0388-|0388-Inter-disciplinary programmes and qualifications involving science social, journalism and information
 |0399-|0399-Science social, journalism and information not elsewhere classified
 |*-|*-Perniagaan dan pentadbiran
-|0400-Business, administration and law not further defined
-|0411-Perakaunan, percukaian, pengauditan, simpan kira
-|0412-Kewangan, perbankan, insurans, pelaburan
-|0413-Perbankan dan kewangan islam
-|0414-Pengurusan dan pentadbiran (human resource management, office management, personnel management, quality management, recruitment, enterprise training, public administration)
-|0415-Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising, market research, perhubungan awam)
-|0416-Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand, receptionist training, legal secretary)
-|0417-Kemahiran pekerjaan
-|0418-Business and administration not elsewhere classified
+|0400-|0400-Business, administration and law not further defined
+|0411-|0411-Perakaunan, percukaian, pengauditan, simpan kira
+|0412-|0412-Kewangan, perbankan, insurans, pelaburan
+|0413-|0413-Perbankan dan kewangan islam
+|0414-|0414-Pengurusan dan pentadbiran (human resource management, office management, personnel management, quality management, recruitment, enterprise training, public administration)
+|0415-|0415-Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising, market research, perhubungan awam)
+|0416-|0416-Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand, receptionist training, legal secretary)
+|0417-|0417-Kemahiran pekerjaan
+|0418-|0418-Business and administration not elsewhere classified
 |*-|*-Undang-undang
-|0421-Undang-undang/LAW
-|0488-Inter-disciplinary programmes and qualifications involving business, administration and law
-|0499-Business, administration and law not elsewhere classified
+|0421-|0421-Undang-undang/LAW
+|0488-|0488-Inter-disciplinary programmes and qualifications involving business, administration and law
+|0499-|0499-Business, administration and law not elsewhere classified
 |*-|*-Biologi dan sains berkaitan
 |0500-Natural sciences, mathematics and statistics not further defined
 |0511- Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi, entomologi)
