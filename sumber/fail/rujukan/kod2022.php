@@ -1547,25 +1547,25 @@ $data['Bidang'] = array(
 |0488-|0488-Inter-disciplinary programmes and qualifications involving business, administration and law
 |0499-|0499-Business, administration and law not elsewhere classified
 |*-|*-Biologi dan sains berkaitan
-|0500-Natural sciences, mathematics and statistics not further defined
-|0511- Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi, entomologi)
-|0512- Biokimia
-|0519- Biological and related sciences not elsewhere classified
+|0500-|0500-Natural sciences, mathematics and statistics not further defined
+|0511-|0511- Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi, entomologi)
+|0512-|0512- Biokimia
+|0519-|0519- Biological and related sciences not elsewhere classified
 |*-|*-Sains alam sekitar
-|0521- Sains alam sekitar
-|0522- Alam semulajadi dan hidupan liar
-|0529- Environment not elsewhere classified
+|0521-|0521- Sains alam sekitar
+|0522-|0522- Alam semulajadi dan hidupan liar
+|0529-|0529- Environment not elsewhere classified
 |*-|*-Sains fizikal
-|0531- Kimia (kimia organik, polimer, petroleum)
-|0532- Sains (earth science, atmosphere, geography (physical), geophysic, geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology, mineralogy, seismology)
-|0533- Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)
-|0539- Physical sciences not elsewhere classified
+|0531-|0531- Kimia (kimia organik, polimer, petroleum)
+|0532-|0532- Sains (earth science, atmosphere, geography (physical), geophysic, geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology, mineralogy, seismology)
+|0533-|0533- Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)
+|0539-|0539- Physical sciences not elsewhere classified
 |*-|*-Matematik dan statistik
-|0540- Mathematics and statistics not further defined
-|0541- Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi, analisis berangka)
-|0542- Statistik (teori kebarangkalian, statistik gunaan, persampelan survei, rekabentuk survei, sains aktuari)
-|0588- Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics
-|0599- Natural sciences, mathematics and statistics not elsewhere classified
+|0540-|0540- Mathematics and statistics not further defined
+|0541-|0541- Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi, analisis berangka)
+|0542-|0542- Statistik (teori kebarangkalian, statistik gunaan, persampelan survei, rekabentuk survei, sains aktuari)
+|0588-|0588- Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics
+|0599-|0599- Natural sciences, mathematics and statistics not elsewhere classified
 |*-|*-Teknologi maklumat dan komunikasi
 |0610- Information and Communication Technologies (ICTs) not further defined
 |0611- Information Technology and Information System
