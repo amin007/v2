@@ -1498,8 +1498,7 @@ $data['Bidang'] = array(
 |0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary programmes and qualifications involving education
 |*-Kesenian
 |0200-Seni halus, lukisan, khat, calligraphy
-|0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio
-dan TV, graphic design, computer graphic, percetakan dan penerbitan)
+|0211-Produksi media dan teknik audio-visual (animasi, fotografi, cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan penerbitan)
 |0212-Rekaan (fashion and costume design, interior design, stage design)
 |0213-Seni lukis/Fine arts
 |0214-Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)
@@ -1543,220 +1542,112 @@ dan TV, graphic design, computer graphic, percetakan dan penerbitan)
 |0416-Kesetiausahaan dan perkeranian (clerical programmes, typing, stenography, shorthand, receptionist training, legal secretary)
 |0417-Kemahiran pekerjaan
 |0418-Business and administration not elsewhere classified
-Undang-undang
-- Undang-undang
-- Inter-disciplinary programmes and qualifications involving business, administration and law
-- Business, administration and law not elsewhere classified
-Biologi dan sains berkaitan
-- Natural sciences, mathematics and statistics not further defined
-- Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi, entomologi)
-- Biokimia
-- Biological and related sciences not elsewhere classified
-Sains alam sekitar
-- Sains alam sekitar
-- Alam semulajadi dan hidupan liar
-- Environment not elsewhere classified
-Sains fizikal
-- Kimia (kimia organik, polimer, petroleum)
-- Sains (earth science, atmosphere, geography (physical), geophysic, geoscience, geology,
-hydrologi, sains marin, oceanography, palentology, meteorology, mineralogy, seismology)
-- Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)
-- Physical sciences not elsewhere classified
-Matematik dan statistik
-- Mathematics and statistics not further defined
-- Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi, analisis berangka)
-[45]
-BIL. PERKARA KOD PENERANGAN
-0542
-0588
-0599
-0610
-0611
-0612
-0613
-0614
-0619
-0688
-0700
-0711
-0712
-0713
-- Statistik (teori kebarangkalian, statistik gunaan, persampelan survei, rekabentuk survei,
-sains aktuari)
-- Inter-disciplinary programmes and qualifications involving natural sciences, mathematics
-and statistics
-- Natural sciences, mathematics and statistics
-not elsewhere classified
-Teknologi maklumat dan komunikasi
-- Information and Communication Technologies (ICTs) not further defined
-- Information Technology and Information System
-- Kejuruteraan Perisian
-- Sains Komputer
-- Penggunaan komputer (computer software use, internet use programmes, spreadsheets,
-software for data processing, desktop publishing and word processing)
-- Information and Communication Technologies (ICTs) not elsewhere
-classified
-- Inter-disciplinary programmes
-and qualifications involving Information
-and Communication Technologies
-Kejuruteraan dan kejuruteraan dagangan
-- Engineering, manufacturing and
-construction not further defined
-- Kimia dan proses (chemical engineering, laboratory technology, oil refining,
-oil/gas/petrochemicals processing, plant and machine operation)
-- Tenaga dan elektrik (air-conditioning programmes, electrical appliances repairing,
-fitting, engineering, power generation, gas distribution, nuclear, hydraulic and
-thermal energy, power production, powerline installation, refrigeration programmes, solar energy)
-- Elektronik dan pengautomasian (broadcasting electronics, communication systems,
-installation, equiment maintenance, computer engineering, repairing, control engineering,
-digital technologi, network
-[46]
-BIL. PERKARA KOD PENERANGAN
-0714
-0715
-0716
-0717
-0719
-0721
-0722
-0723
-0724
-0729
-0731
-0732
-0733
-0734
-0741
-0788
-0799
-0800
-0811
-technology, robotics, telecommunication technology, television and radio repairing)
-- Mekanik dan kerja logam
-- Kenderaan bermotor, kapal dan kapal terbang (aeronautical/aerospace engineering,
-agriculture machinery, air-craft engineering, automotive engineering,
-helicopter/marine/motorcycle/ naval engineering, shipbuilding,
-vehicle and motor engineering)
-- Kejuruteraan awam (bridge/building construction, dock and harbour engineering,
-quantity surveying, road building, technical drawings, water supply
-and sewerage engineering)
-- Teknologi perlindungan alam sekitar
-- Engineering and engineering trades not elsewhere classified
-Pembuatan dan pemprosesan
-- Pemprosesan makanan
-- Bahan (gelas, kertas, plastic dan kayu)
-- Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working,
-tailoring, dressmaking, footwear making, shoemaking, spinning)
-- Perlombongan dan galian (coal mining, oil & gas/raw material extraction)
-- Manufacturing and processing not elsewhere classified
-Senibina dan perancang bandar
-- Senibina
-- Perancangan bandar dan wilayah
-- Pembinaan dan bangunan
-- Surveying
-- Teknologi kejuruteraan
-- Inter-disciplinary programmes
-and qualifications involving engineering, manufacturing and construction
-- Engineering, manufacturing and construction not elsewhere classified
-Pertanian, Perhutanan dan Perikanan
-- Agriculture, forestry, fisheries and
-veterinary not further defined
-- Crop and livestock production
-[47]
-BIL. PERKARA KOD PENERANGAN
-0812
-0819
-0821
-0831
-0841
-0888
-0899
-0900
-0911
-0912
-0913
-0914
-0915
-0916
-0917
-0919
-0921
-0922
-0923
-0929
-0988
-1000
-1011
-- Horticulture
-- Agriculture not elsewhere classified
-- Perhutanan
-- Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)
-Veterinar
-- Penjagaan kesihatan haiwan, reproduction, veterinary assisting and medicine
--Inter-disciplinary programmesand qualifications involving agriculture,
-forestry, fisheries and veterinary
-- Agriculture, forestry, fisheries and veterinary not elsewhere classified
-Kesihatan
-- Health and welfare not further
-defined
-- Pengajian pergigian
-- Perubatan
-- Kejururawatan dan penjagaan
-- Perkhidmatan perubatan (diagnostik, teknologi perawatan, terapi dan pemulihan, farmasi)
-- Terapi dan pemulihan (nutrisi & dietetik, urutan perubatan, kesihatan mental,
-optometry, refleksologi, fisioterapi
-- Farmasi
-- Traditional and complementary medicine and therapy
-- Health not elsewhere classified
-Perkhidmatan sosial
-- Care of elderly and of disabled
-- Perkhidmatan asuhan kanak-kanak dan belia
-- Kerja sosial dan kaunseling (career advising, social stidied,
-kaunseling perkahwinan dan keluarga)
-- Welfare not elsewhere classified
-- Health and welfare not elsewhere
-Perkhidmatan personel
-- Services not further defined
-- Perkhidmatan domestik (housekeeping, homeservice, laundry)
-[48]
-BIL. PERKARA KOD PENERANGAN
-1012
-1013
-1014
-1015
-1019
-1021
-1022
-1029
-1031
-1032
-1039
-1041
-1088
-1099
-9999
-- Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik, fitness & weight control,
-dandanan rambut, persolekan, manicure & pedicure, perkhidmatan salon, urutan kecantikan
-- Hotel, restoran dan katering (seni kulinari, masakan, penyediaan makanan,
-perkhidmatan hospitaliti)
-- Sukan (gymnastik, diving, sports coaching)
-- Pengembaraan, pelancongan dan rekreasi
-- Personal services not elsewhere classified
-Perkhidmatan kebersihan dan kesihatan pekerja
-- Community sanitation
-- Occupational health and safety
-- Hygiene and occupational health services not elsewhere
-Perkhidmatan keselamatan
-- Ketenteraan dan pertahanan (latihan ketenteraan, sains militari, national security)
-- Protection of persons and property
-- Security services not elsewhere classified
-Perkhidmatan pengangkutan
-- Transport services, Air crew programmes, aircraft operation, aviation,
+|*-Undang-undang
+|0421-Undang-undang/LAW
+|0488-Inter-disciplinary programmes and qualifications involving business, administration and law
+|0499-Business, administration and law not elsewhere classified
+|*-Biologi dan sains berkaitan
+|0500-Natural sciences, mathematics and statistics not further defined
+|0511- Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi, entomologi)
+|0512- Biokimia
+|0519- Biological and related sciences not elsewhere classified
+|*-Sains alam sekitar
+|0521- Sains alam sekitar
+|0522- Alam semulajadi dan hidupan liar
+|0529- Environment not elsewhere classified
+|*-Sains fizikal
+|0531- Kimia (kimia organik, polimer, petroleum)
+|0532- Sains (earth science, atmosphere, geography (physical), geophysic, geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology, mineralogy, seismology)
+|0533- Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)
+|0539- Physical sciences not elsewhere classified
+|*-Matematik dan statistik
+|0540- Mathematics and statistics not further defined
+|0541- Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi, analisis berangka)
+|0542- Statistik (teori kebarangkalian, statistik gunaan, persampelan survei, rekabentuk survei, sains aktuari)
+|0588- Inter-disciplinary programmes and qualifications involving natural sciences, mathematics and statistics
+|0599- Natural sciences, mathematics and statistics not elsewhere classified
+|*-Teknologi maklumat dan komunikasi
+|0610- Information and Communication Technologies (ICTs) not further defined
+|0611- Information Technology and Information System
+|0612- Kejuruteraan Perisian
+|0613- Sains Komputer
+|0614- Penggunaan komputer (computer software use, internet use programmes, spreadsheets, software for data processing, desktop publishing and word processing)
+|0619- Information and Communication Technologies (ICTs) not elsewhere classified
+|0688- Inter-disciplinary programmes and qualifications involving Information and Communication Technologies
+|*-Kejuruteraan dan kejuruteraan dagangan
+|0700- Engineering, manufacturing and construction not further defined
+|0711- Kimia dan proses (chemical engineering, laboratory technology, oil refining, oil/gas/petrochemicals processing, plant and machine operation)
+|0712- Tenaga dan elektrik (air-conditioning programmes, electrical appliances repairing, fitting, engineering, power generation, gas distribution, nuclear, hydraulic and thermal energy, power production, powerline installation, refrigeration programmes, solar energy)
+|0713- Elektronik dan pengautomasian (broadcasting electronics, communication systems, installation, equiment maintenance, computer engineering, repairing, control engineering, digital technologi, network technology, robotics, telecommunication technology, television and radio repairing)
+|0714- Mekanik(mekanikal) dan kerja logam
+|0715- Kenderaan bermotor, kapal dan kapal terbang (aeronautical/aerospace engineering, agriculture machinery, air-craft engineering, automotive engineering, helicopter/marine/motorcycle/ naval engineering, shipbuilding, vehicle and motor engineering)
+|0716- Kejuruteraan awam (bridge/building construction, dock and harbour engineering, quantity surveying, road building, technical drawings, water supply and sewerage engineering)
+|0717- Teknologi perlindungan alam sekitar
+|0718- Engineering and engineering trades not elsewhere classified
+|*-Pembuatan dan pemprosesan
+|0721- Pemprosesan makanan
+|0722- Bahan (gelas, kertas, plastic dan kayu)
+|0723- Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working, tailoring, dressmaking, footwear making, shoemaking, spinning)
+|0724- Perlombongan dan galian (coal mining, oil & gas/raw material extraction)
+|0729- Manufacturing and processing not elsewhere classified
+|*-Senibina dan perancang bandar
+|0731- Senibina
+|0732- Perancangan bandar dan wilayah
+|0733- Pembinaan dan bangunan
+|0734- Surveying
+|0741- Teknologi kejuruteraan
+|0788- Inter-disciplinary programmes and qualifications involving engineering, manufacturing and construction
+|0799- Engineering, manufacturing and construction not elsewhere classified
+|*-Pertanian, Perhutanan dan Perikanan
+|0800- Agriculture, forestry, fisheries and veterinary not further defined
+|0811- Crop and livestock production
+|0812- Horticulture
+|0819- Agriculture not elsewhere classified
+|0821- Perhutanan
+|0831- Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)
+|*-Veterinar
+|0841- Penjagaan kesihatan haiwan, reproduction, veterinary assisting and medicine
+|0888-Inter-disciplinary programmesand qualifications involving agriculture, forestry, fisheries and veterinary
+|0899- Agriculture, forestry, fisheries and veterinary not elsewhere classified
+|*-Kesihatan
+|0900- Health and welfare not further defined
+|0911- Pengajian pergigian
+|0912- Perubatan
+|0913- Kejururawatan dan penjagaan
+|0914- Perkhidmatan perubatan (diagnostik, teknologi perawatan, terapi dan pemulihan, farmasi)
+|0915- Terapi dan pemulihan (nutrisi & dietetik, urutan perubatan, kesihatan mental, optometry, refleksologi, fisioterapi
+|0916- Farmasi
+|0917- Traditional and complementary medicine and therapy
+|0919- Health not elsewhere classified
+|*-Perkhidmatan sosial
+|0921- Care of elderly and of disabled
+|0922- Perkhidmatan asuhan kanak-kanak dan belia
+|0923- Kerja sosial dan kaunseling (career advising, social stidied, kaunseling perkahwinan dan keluarga)
+|0929- Welfare not elsewhere classified
+|0988- Health and welfare not elsewhere
+|*-Perkhidmatan personel
+|1000- Services not further defined
+|1011- Perkhidmatan domestik (housekeeping, homeservice, laundry)
+|1012- Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik, fitness & weight control, dandanan rambut, persolekan, manicure & pedicure, perkhidmatan salon, urutan kecantikan
+|1013- Hotel, restoran dan katering (seni kulinari, masakan, penyediaan makanan, perkhidmatan hospitaliti)
+|1014- Sukan (gymnastik, diving, sports coaching)
+|1015- Pengembaraan, pelancongan dan rekreasi
+|1019- Personal services not elsewhere classified
+|*-Perkhidmatan kebersihan dan kesihatan pekerja
+|1021- Community sanitation
+|1022- Occupational health and safety
+|1029- Hygiene and occupational health services not elsewhere
+|*-Perkhidmatan keselamatan
+|1031- Ketenteraan dan pertahanan (latihan ketenteraan, sains militari, national security)
+|1032- Protection of persons and property
+|1039- Security services not elsewhere classified
+|*-Perkhidmatan pengangkutan
+|1041- Transport services, Air crew programmes, aircraft operation, aviation,
 cabin crew training, crane, truck & fork-lift driving, nautical science,
 postal service, railway operations, seamanship, ship operation
-- Inter-disciplinary programmes and qualifications involving services
-- Services not elsewhere classified
-- Field unknown
+|1088- Inter-disciplinary programmes and qualifications involving services
+|1099- Services not elsewhere classified
+|9999- Field unknown
 Tindakan:
 1. Pengekodan Bidang Pengajian (FS) adalah berdasarkan Sijil Tertinggi Diperoleh (SJ)
 yang telah dimiliki responden.
