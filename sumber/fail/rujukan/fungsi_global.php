@@ -205,10 +205,10 @@ if ( ! function_exists('binaSatuJadual')):
 		if($jadual == $pilih):
 			$output  = paparSatuJadual($row,$pilih);
 			$output .= binaKakiJadual($row,$pilih);
-			echo "\r\t" . '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
-			. "\r\t" . '<table class="' . $class . '" id="allTable">'
+			echo '<h2 class="' . $btn . '" >Kod ' . ucfirst($jadual) . '</h2>'
+			. "\n\n\t" . '<table class="' . $class . '" id="allTable">'
 			//echo "\r\t" . '<table border="1">'
-			. "\r\t$output\r\t" . '</table>' . "\r\r";
+			. "\r\t$output\r\n\t</table>\r\r";
 		endif;
 		endforeach;//*/
 		#
@@ -224,7 +224,7 @@ if ( ! function_exists('binaKakiJadual')):
 		$output .= "\n\t<tfoot><tr>";
 		foreach ( array_keys($row[$kira]) as $kunci ) :
 			$tajuk = tajukMedanJadual($jadual,$kunci);
-			$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
+			$output .= "\n\t\t" . '<th>' . ucfirst($tajuk) . '</th>';
 		endforeach;
 		$output .= "\n\t" . '</tr></tfoot>';
 		#-----------------------------------------------------------------
@@ -247,7 +247,7 @@ if ( ! function_exists('paparSatuJadual')):
 				$output .= "\n\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
 				$tajuk = tajukMedanJadual($jadual,$kunci);
-				$output .= "\n\t" . '<th>' . ucfirst($tajuk) . '</th>';
+				$output .= "\n\t\t" . '<th>' . ucfirst($tajuk) . '</th>';
 				endforeach;
 				$output .= "\n\t" . '</tr></thead>';
 				$output .= "\n\t" . '<tbody>';
