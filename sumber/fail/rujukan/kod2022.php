@@ -1461,7 +1461,7 @@ $data['Bidang'] = array(
 	array('','10 Perkhidmatan | 100 Perkhidmatan','1000 - Perkhidmatan'),
 	array('','101 Perkhidmatan personel','1011 - Perkhidmatan domestik'),
 	array('','101 Perkhidmatan personel','1012 - Perkhidmatan pendandanan & kecantikan'),
-	array('','101 Perkhidmatan personel','1013 - Hotel, restoran & katering, seni kulinri'),
+	array('','101 Perkhidmatan personel','1013 - Hotel, restoran & katering, seni kulinari'),
 	array('','101 Perkhidmatan personel','1014 - Sukan'),
 	array('','101 Perkhidmatan personel','1015 - Pengembaraan, pelancongan & rekreasi'),
 	array('','101 Perkhidmatan personel','1019 - Perkhidmatan personel lain'),
@@ -1699,7 +1699,7 @@ $data['programLatihan'] = array(
 	. ' railway operations, seamanship, ship operation'),
 	array('','1088','1088-Inter-disciplinary programmes and qualifications involving services'),
 	array('','1099','1099-Services not elsewhere classified'),
-	array('','9999','9999-Field unknown'),
+	array('','9999','9999-Lain-lain/Field unknown'),
 	array('','X001','1. Pengekodan Bidang Pengajian (FS) adalah berdasarkan Sijil Tertinggi'
 	. ' Diperoleh (SJ) yang telah dimiliki responden.'),
 	array('','X002','2. Sehubungan itu, Butiran 19 (FS) hanya diisi sekiranya Butiran 17 (SJ)'
