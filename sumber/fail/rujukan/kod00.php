@@ -896,7 +896,7 @@ $data['AupAirPelincirPembakarElektrik'] = array(
 	'AUP = 1935.50 <= LPG'),
 	array('','Gas asli untuk kenderaan(NGV)','Tonne','Min = 1000','Max = 1400',
 	'AUP = 1200 <= NGV'),
-	array('','Tenaga elektrik yang dibeli [0.37]','k.w.j','Min = 0.10','Max = 1.00',
+	array('','Tenaga elektrik yang dibeli [0.37]','k.w.j','Min = 0.10','Max = 0.60',
 	'AUP = 0.37 <= Elektrik'),
 );
 #--------------------------------------------------------------------------------------------------
