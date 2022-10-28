@@ -2067,6 +2067,8 @@ $data['bezaUntungRugi'] = array(
 	'Huge profits due to specific business strategies'),
 	array('','POM006','Permintaan meningkat selepas pandemik covid-19',
 	'Demand increased after the covid-19 pandemic'),
+	array('','POM007','Keuntungan besar disebabkan harga minyak sawit meningkat di pasaran dunia',
+	'Huge profits due to rising palm oil prices in the world market'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
