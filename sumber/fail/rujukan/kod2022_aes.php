@@ -1426,6 +1426,7 @@ compared to the previous year, please mark the reasons below (May chooese more t
 Merujuk kepada peratusan kapasiti penggunaan dalam Soalan 8a(3), sekiranya pengeluaran sebenar
 pada bulan semasa lebih rendah daripada keupayaan pengeluaran penuh, sila tandakan sebab utama
 (Boleh pilih lebih daripada satu)//*/
+$tajuk['bezaUntungRugi'] = '#,Kod,Keterangan Melayu,Keterangan Inggeris';
 $data['bezaUntungRugi'] = array(
 	array('','110003','a) Perubahan model perniagaan','Business model change'),
 	array('','110004','b) Impak kadar pertukaran matawang','Currency exchange rate impact'),
