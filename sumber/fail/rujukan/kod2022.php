@@ -1482,224 +1482,224 @@ $data['Bidang'] = array(
 #--------------------------------------------------------------------------------------------------
 # 18. Bidang Pengajian (FS) (4 digit)
 $data['programLatihan'] = array(
-	array('','0***','*-Program asas/umum'),
-	array('','0000','0000-Programmes and qualifications generic not further defined'),
-	array('','0011','0011-Program asas/umum'),
-	array('','0021','0021-Literasi dan numerasi'),
-	array('','0031','0031-Kemahiran personal'),
-	array('','0099','0099-Programmes and qualifications generic not else where classified'),
-	array('','011*','*-Pendidikan'),
-	array('','0110','0110-Pengajaran'),
-	array('','0111','0111-Sains pendidikan'),
-	array('','0112','0112-Latihan perguruan untuk guru pra-sekolah'),
-	array('','0113','0113-Latihan perguruan untuk guru peringkat asas'),
-	array('','0114','0114-Latihan perguruan untuk guru dengan pengkhususan subjek'),
-	array('','0119','0119-Programmes and qualifications involving education not elsewhere'
+	array('','0***','* - Program asas/umum'),
+	array('','0000','0000 - Programmes and qualifications generic not further defined'),
+	array('','0011','0011 - Program asas/umum'),
+	array('','0021','0021 - Literasi dan numerasi'),
+	array('','0031','0031 - Kemahiran personal'),
+	array('','0099','0099 - Programmes and qualifications generic not else where classified'),
+	array('','011*','* - Pendidikan'),
+	array('','0110','0110 - Pengajaran'),
+	array('','0111','0111 - Sains pendidikan'),
+	array('','0112','0112 - Latihan perguruan untuk guru pra - sekolah'),
+	array('','0113','0113 - Latihan perguruan untuk guru peringkat asas'),
+	array('','0114','0114 - Latihan perguruan untuk guru dengan pengkhususan subjek'),
+	array('','0119','0119 - Programmes and qualifications involving education not elsewhere'
 	. ' classified'),
-	array('','0188','0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary'
+	array('','0188','0188 - Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary'
 	. ' programmes and qualifications involving education'),
-	array('','02**','*-Kesenian'),
-	array('','0200','0200-Seni halus, lukisan, khat, calligraphy'),
-	array('','0211','0211-Produksi media dan teknik audio-visual (animasi, fotografi,'
+	array('','02**','* - Kesenian'),
+	array('','0200','0200 - Seni halus, lukisan, khat, calligraphy'),
+	array('','0211','0211 - Produksi media dan teknik audio - visual (animasi, fotografi,'
 	. ' cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan'
 	. ' penerbitan)'),
-	array('','0212','0212-Rekaan (fashion and costume design, interior design, stage design)'),
-	array('','0213','0213-Seni lukis/Fine arts'),
-	array('','0214','0214-Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)'),
-	array('','0215','0215-Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian,'
+	array('','0212','0212 - Rekaan (fashion and costume design, interior design, stage design)'),
+	array('','0213','0213 - Seni lukis/Fine arts'),
+	array('','0214','0214 - Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)'),
+	array('','0215','0215 - Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian,'
 	. ' teater)'),
-	array('','0216','0216-Pengajian filem, televisyen dan skrin'),
-	array('','0219','0219-Kesenian-kesenian lain/Arts not elsewhere classified'),
-	array('','022*','*-Kemanusiaan'),
-	array('','0221','0221-Agama(pengajian agama, sejarah agama, study of sacred books i.e.'
-	. ' Al-Quran)'),
-	array('','0222','0222-Sejarah dan arkeologi'),
-	array('','0223','0223-Falsafah dan etika'),
-	array('','0224','0224-Pengajian Islam'),
-	array('','0229','0229-Program kemanusiaan lain/Humanities (except languages) not elsewhere'
+	array('','0216','0216 - Pengajian filem, televisyen dan skrin'),
+	array('','0219','0219 - Kesenian - kesenian lain/Arts not elsewhere classified'),
+	array('','022*','* - Kemanusiaan'),
+	array('','0221','0221 - Agama(pengajian agama, sejarah agama, study of sacred books i.e.'
+	. ' Al - Quran)'),
+	array('','0222','0222 - Sejarah dan arkeologi'),
+	array('','0223','0223 - Falsafah dan etika'),
+	array('','0224','0224 - Pengajian Islam'),
+	array('','0229','0229 - Program kemanusiaan lain/Humanities (except languages) not elsewhere'
 	. ' classified'),
-	array('','023*','*-Bahasa'),
-	array('','0231','0231-Pengajian bahasa'),
-	array('','0232','0232-Kesusateraan dan linguistics'),
-	array('','0233','0233-Bahasa Kebangsaan (Bahasa Malaysia)'),
-	array('','0239','0239-Bahasa not elsewhere'),
-	array('','0288','0288-Inter-disciplinary programmes and qualifications involving arts and'
+	array('','023*','* - Bahasa'),
+	array('','0231','0231 - Pengajian bahasa'),
+	array('','0232','0232 - Kesusateraan dan linguistics'),
+	array('','0233','0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
+	array('','0239','0239 - Bahasa not elsewhere'),
+	array('','0288','0288 - Inter - disciplinary programmes and qualifications involving arts and'
 	. ' humanities'),
-	array('','0299','0299-Arts and humanities not elsewhere classified'),
-	array('','03**','*-Sains sosial dan sains gelagat'),
-	array('','0300','0300-Social sciences, journalism dan information not further defined'),
-	array('','0311','0311-Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national'
-	. ' accounts)'),
-	array('','0312','0312-Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa,'
+	array('','0299','0299 - Arts and humanities not elsewhere classified'),
+	array('','03**','* - Sains sosial dan sains gelagat'),
+	array('','0300','0300 - Social sciences, journalism dan information not further defined'),
+	array('','0311','0311 - Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik,'
+	. ' national accounts)'),
+	array('','0312','0312 - Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa,'
 	. ' keamanan)'),
-	array('','0313','0313-Psikologi'),
-	array('','0314','0314-Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional'
+	array('','0313','0313 - Psikologi'),
+	array('','0314','0314 - Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional'
 	. ' cultures)'),
-	array('','0319','0319-Social and behavioural sciences not elsewhere classified'),
-	array('','032*','*-Kewartawanan dan maklumat'),
-	array('','0321','0321-Kewartawanan dan pelaporan (broadcast journalism, mass communication)'),
-	array('','0322','0322-Perpustakaan, maklumat dan arkib (archival science, documentation,'
+	array('','0319','0319 - Social and behavioural sciences not elsewhere classified'),
+	array('','032*','* - Kewartawanan dan maklumat'),
+	array('','0321','0321 - Kewartawanan dan pelaporan (broadcast journalism, mass communication)'),
+	array('','0322','0322 - Perpustakaan, maklumat dan arkib (archival science, documentation,'
 	. ' information science,librarianship training, museum documentation)'),
-	array('','0323','0323-Media dan komunikasi'),
-	array('','0329','0329-Journalism and information not elsewhere classified'),
-	array('','0388','0388-Inter-disciplinary programmes and qualifications involving science'
+	array('','0323','0323 - Media dan komunikasi'),
+	array('','0329','0329 - Journalism and information not elsewhere classified'),
+	array('','0388','0388 - Inter-disciplinary programmes and qualifications involving science'
 	. ' social, journalism and information'),
-	array('','0399','0399-Science social, journalism and information not elsewhere classified'),
-	array('','04**','*-Perniagaan dan pentadbiran'),
-	array('','0400','0400-Business, administration and law not further defined'),
-	array('','0411','0411-Perakaunan, percukaian, pengauditan, simpan kira'),
-	array('','0412','0412-Kewangan, perbankan, insurans, pelaburan'),
-	array('','0413','0413-Perbankan dan kewangan islam'),
-	array('','0414','0414-Pengurusan dan pentadbiran (human resource management, office'
+	array('','0399','0399 - Science social, journalism and information not elsewhere classified'),
+	array('','04**','* - Perniagaan dan pentadbiran'),
+	array('','0400','0400 - Business, administration and law not further defined'),
+	array('','0411','0411 - Perakaunan, percukaian, pengauditan, simpan kira'),
+	array('','0412','0412 - Kewangan, perbankan, insurans, pelaburan'),
+	array('','0413','0413 - Perbankan dan kewangan islam'),
+	array('','0414','0414 - Pengurusan dan pentadbiran (human resource management, office'
 	. ' management, personnel management, quality management, recruitment, enterprise'
 	. ' training, public administration)'),
-	array('','0415','0415-Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising,'
+	array('','0415','0415 - Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising,'
 	. ' market research, perhubungan awam)'),
-	array('','0416','0416-Kesetiausahaan dan perkeranian (clerical programmes, typing,'
+	array('','0416','0416 - Kesetiausahaan dan perkeranian (clerical programmes, typing,'
 	. ' stenography, shorthand, receptionist training, legal secretary)'),
-	array('','0417','0417-Kemahiran pekerjaan'),
-	array('','0418','0418-Business and administration not elsewhere classified'),
-	array('','042*','*-Undang-undang'),
-	array('','0421','0421-Undang-undang/LAW'),
-	array('','0488','0488-Inter-disciplinary programmes and qualifications involving business,'
+	array('','0417','0417 - Kemahiran pekerjaan'),
+	array('','0418','0418 - Business and administration not elsewhere classified'),
+	array('','042*','* - Undang-undang'),
+	array('','0421','0421 - Undang-undang/LAW'),
+	array('','0488','0488 - Inter-disciplinary programmes and qualifications involving business,'
 	. ' administration and law'),
-	array('','0499','0499-Business, administration and law not elsewhere classified'),
-	array('','05**','*-Biologi dan sains berkaitan'),
-	array('','0500','0500-Natural sciences, mathematics and statistics not further defined'),
-	array('','0511','0511-Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi,'
+	array('','0499','0499 - Business, administration and law not elsewhere classified'),
+	array('','05**','* - Biologi dan sains berkaitan'),
+	array('','0500','0500 - Natural sciences, mathematics and statistics not further defined'),
+	array('','0511','0511 - Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi,'
 	. ' entomologi)'),
-	array('','0512','0512-Biokimia'),
-	array('','0519','0519-Biological and related sciences not elsewhere classified'),
-	array('','052*','*-Sains alam sekitar'),
-	array('','0521','0521-Sains alam sekitar'),
-	array('','0522','0522-Alam semulajadi dan hidupan liar'),
-	array('','0529','0529-Environment not elsewhere classified'),
-	array('','053*','*-Sains fizikal'),
-	array('','0531','0531-Kimia (kimia organik, polimer, petroleum)'),
-	array('','0532','0532-Sains (earth science, atmosphere, geography (physical), geophysic,'
+	array('','0512','0512 - Biokimia'),
+	array('','0519','0519 - Biological and related sciences not elsewhere classified'),
+	array('','052*','* - Sains alam sekitar'),
+	array('','0521','0521 - Sains alam sekitar'),
+	array('','0522','0522 - Alam semulajadi dan hidupan liar'),
+	array('','0529','0529 - Environment not elsewhere classified'),
+	array('','053*','* - Sains fizikal'),
+	array('','0531','0531 - Kimia (kimia organik, polimer, petroleum)'),
+	array('','0532','0532 - Sains (earth science, atmosphere, geography (physical), geophysic,'
 	. ' geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology,'
 	. ' mineralogy, seismology)'),
-	array('','0533','0533-Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)'),
-	array('','0539','0539-Physical sciences not elsewhere classified'),
-	array('','054*','*-Matematik dan statistik'),
-	array('','0540','0540-Mathematics and statistics not further defined'),
-	array('','0541','0541-Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi,'
+	array('','0533','0533 - Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)'),
+	array('','0539','0539 - Physical sciences not elsewhere classified'),
+	array('','054*','* - Matematik dan statistik'),
+	array('','0540','0540 - Mathematics and statistics not further defined'),
+	array('','0541','0541 - Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi,'
 	. ' analisis berangka)'),
-	array('','0542','0542-Statistik (teori kebarangkalian, statistik gunaan, persampelan survei,'
+	array('','0542','0542 - Statistik (teori kebarangkalian, statistik gunaan, persampelan survei,'
 	. ' rekabentuk survei, sains aktuari)'),
-	array('','0588','0588-Inter-disciplinary programmes and qualifications involving natural'
+	array('','0588','0588 - Inter-disciplinary programmes and qualifications involving natural'
 	. ' sciences, mathematics and statistics'),
-	array('','0599','0599-Natural sciences, mathematics and statistics not elsewhere classified'),
-	array('','06**','*-Teknologi maklumat dan komunikasi'),
-	array('','0610','0610-Information and Communication Technologies (ICTs) not further defined'),
-	array('','0611','0611-Information Technology and Information System'),
-	array('','0612','0612-Kejuruteraan Perisian'),
-	array('','0613','0613-Sains Komputer'),
-	array('','0614','0614-Penggunaan komputer (computer software use, internet use programmes,'
+	array('','0599','0599 - Natural sciences, mathematics and statistics not elsewhere classified'),
+	array('','06**','* - Teknologi maklumat dan komunikasi'),
+	array('','0610','0610 - Information and Communication Technologies (ICTs) not further defined'),
+	array('','0611','0611 - Information Technology and Information System'),
+	array('','0612','0612 - Kejuruteraan Perisian'),
+	array('','0613','0613 - Sains Komputer'),
+	array('','0614','0614 - Penggunaan komputer (computer software use, internet use programmes,'
 	. ' spreadsheets, software for data processing, desktop publishing and word processing)'),
-	array('','0619','0619-Information and Communication Technologies (ICTs) not elsewhere'
+	array('','0619','0619 - Information and Communication Technologies (ICTs) not elsewhere'
 	. ' classified'),
-	array('','0688','0688-Inter-disciplinary programmes and qualifications involving Information'
+	array('','0688','0688 - Inter-disciplinary programmes and qualifications involving Information'
 	. ' and Communication Technologies'),
 	array('','07**','*-Kejuruteraan dan kejuruteraan dagangan'),
-	array('','0700','0700-Engineering, manufacturing and construction not further defined'),
-	array('','0711','0711-Kimia dan proses (chemical engineering, laboratory technology,'
+	array('','0700','0700 - Engineering, manufacturing and construction not further defined'),
+	array('','0711','0711 - Kimia dan proses (chemical engineering, laboratory technology,'
 	. ' oil refining, oil/gas/petrochemicals processing, plant and machine operation)'),
-	array('','0712','0712-Tenaga dan elektrik (air-conditioning programmes, electrical appliances'
-	. ' repairing, fitting, engineering, power generation, gas distribution, nuclear, hydraulic'
-	. ' and thermal energy, power production, powerline installation, refrigeration programmes,'
-	. ' solar energy)'),
-	array('','0713','0713-Elektronik dan pengautomasian (broadcasting electronics, communication'
+	array('','0712','0712 - Tenaga dan elektrik (air-conditioning programmes, electrical'
+	. ' appliances repairing, fitting, engineering, power generation, gas distribution, nuclear,'
+	. ' hydraulic and thermal energy, power production, powerline installation, refrigeration'
+	. ' programmes, solar energy)'),
+	array('','0713','0713 - Elektronik dan pengautomasian (broadcasting electronics, communication'
 	. ' systems, installation, equiment maintenance, computer engineering, repairing, control'
 	. ' engineering, digital technologi, network technology, robotics, telecommunication'
 	. ' technology, television and radio repairing)'),
-	array('','0714','0714-Mekanik(mekanikal) dan kerja logam'),
-	array('','0715','0715-Kenderaan bermotor, kapal dan kapal terbang (aeronautical/aerospace'
-	. ' engineering, agriculture machinery, air-craft engineering, automotive engineering,'
+	array('','0714','0714 - Mekanik(mekanikal) dan kerja logam'),
+	array('','0715','0715 - Kenderaan bermotor, kapal dan kapal terbang (aeronautical/aerospace'
+	. ' engineering, agriculture machinery, air - craft engineering, automotive engineering,'
 	. ' helicopter/marine/motorcycle/ naval engineering, shipbuilding, vehicle and motor'
 	. ' engineering)'),
-	array('','0716','0716-Kejuruteraan awam (bridge/building construction, dock and harbour'
+	array('','0716','0716 - Kejuruteraan awam (bridge/building construction, dock and harbour'
 	. ' engineering, quantity surveying, road building, technical drawings, water supply and'
 	. ' sewerage engineering)'),
-	array('','0717','0717-Teknologi perlindungan alam sekitar'),
-	array('','0718','0718-Engineering and engineering trades not elsewhere classified'),
-	array('','072*','*-Pembuatan dan pemprosesan'),
-	array('','0721','0721-Pemprosesan makanan'),
-	array('','0722','0722-Bahan (gelas, kertas, plastic dan kayu)'),
-	array('','0723','0723-Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working,'
+	array('','0717','0717 - Teknologi perlindungan alam sekitar'),
+	array('','0718','0718 - Engineering and engineering trades not elsewhere classified'),
+	array('','072*','* - Pembuatan dan pemprosesan'),
+	array('','0721','0721 - Pemprosesan makanan'),
+	array('','0722','0722 - Bahan (gelas, kertas, plastic dan kayu)'),
+	array('','0723','0723 - Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working,'
 	. ' tailoring, dressmaking, footwear making, shoemaking, spinning)'),
-	array('','0724','0724-Perlombongan dan galian (coal mining, oil & gas/raw material'
+	array('','0724','0724 - Perlombongan dan galian (coal mining, oil & gas/raw material'
 	. ' extraction)'),
-	array('','0729','0729-Manufacturing and processing not elsewhere classified'),
-	array('','073*','*-Senibina dan perancang bandar'),
-	array('','0731','0731-Senibina'),
-	array('','0732','0732-Perancangan bandar dan wilayah'),
-	array('','0733','0733-Pembinaan dan bangunan'),
-	array('','0734','0734-Surveying'),
-	array('','0741','0741-Teknologi kejuruteraan'),
-	array('','0788','0788-Inter-disciplinary programmes and qualifications involving'
+	array('','0729','0729 - Manufacturing and processing not elsewhere classified'),
+	array('','073*','* - Senibina dan perancang bandar'),
+	array('','0731','0731 - Senibina'),
+	array('','0732','0732 - Perancangan bandar dan wilayah'),
+	array('','0733','0733 - Pembinaan dan bangunan'),
+	array('','0734','0734 - Surveying'),
+	array('','0741','0741 - Teknologi kejuruteraan'),
+	array('','0788','0788 - Inter-disciplinary programmes and qualifications involving'
 	. ' engineering, manufacturing and construction'),
-	array('','0799','0799-Engineering, manufacturing and construction not elsewhere classified'),
-	array('','08**','*-Pertanian, Perhutanan dan Perikanan'),
-	array('','0800','0800-Agriculture, forestry, fisheries and veterinary not further defined'),
-	array('','0811','0811-Crop and livestock production'),
-	array('','0812','0812-Horticulture'),
-	array('','0819','0819-Agriculture not elsewhere classified'),
-	array('','0821','0821-Perhutanan'),
-	array('','0831','0831-Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)'),
-	array('','084*','*-Veterinar'),
-	array('','0841','0841-Penjagaan kesihatan haiwan, reproduction, veterinary assisting and'
+	array('','0799','0799 - Engineering, manufacturing and construction not elsewhere classified'),
+	array('','08**','* - Pertanian, Perhutanan dan Perikanan'),
+	array('','0800','0800 - Agriculture, forestry, fisheries and veterinary not further defined'),
+	array('','0811','0811 - Crop and livestock production'),
+	array('','0812','0812 - Horticulture'),
+	array('','0819','0819 - Agriculture not elsewhere classified'),
+	array('','0821','0821 - Perhutanan'),
+	array('','0831','0831 - Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)'),
+	array('','084*','* - Veterinar'),
+	array('','0841','0841 - Penjagaan kesihatan haiwan, reproduction, veterinary assisting and'
 	. ' medicine'),
-	array('','0888','0888-Inter-disciplinary programmesand qualifications involving agriculture,'
-	. ' forestry, fisheries and veterinary'),
-	array('','0899','0899-Agriculture, forestry, fisheries and veterinary not elsewhere'
+	array('','0888','0888 - Inter-disciplinary programmesand qualifications involving '
+	. ' agriculture, forestry, fisheries and veterinary'),
+	array('','0899','0899 - Agriculture, forestry, fisheries and veterinary not elsewhere'
 	. ' classified'),
-	array('','09**','*-Kesihatan'),
-	array('','0900','0900-Health and welfare not further defined'),
-	array('','0911','0911-Pengajian pergigian'),
-	array('','0912','0912-Perubatan'),
-	array('','0913','0913-Kejururawatan dan penjagaan'),
-	array('','0914','0914-Perkhidmatan perubatan (diagnostik, teknologi perawatan, terapi'
+	array('','09**','* - Kesihatan'),
+	array('','0900','0900 - Health and welfare not further defined'),
+	array('','0911','0911 - Pengajian pergigian'),
+	array('','0912','0912 - Perubatan'),
+	array('','0913','0913 - Kejururawatan dan penjagaan'),
+	array('','0914','0914 - Perkhidmatan perubatan (diagnostik, teknologi perawatan, terapi'
 	. ' dan pemulihan, farmasi)'),
-	array('','0915','0915-Terapi dan pemulihan (nutrisi & dietetik, urutan perubatan, kesihatan'
+	array('','0915','0915 - Terapi dan pemulihan (nutrisi & dietetik, urutan perubatan, kesihatan'
 	. ' mental, optometry, refleksologi, fisioterapi'),
-	array('','0916','0916-Farmasi'),
-	array('','0917','0917-Traditional and complementary medicine and therapy'),
-	array('','0919','0919-Health not elsewhere classified'),
-	array('','092*','*-Perkhidmatan sosial'),
-	array('','0921','0921-Care of elderly and of disabled'),
-	array('','0922','0922-Perkhidmatan asuhan kanak-kanak dan belia'),
-	array('','0923','0923-Kerja sosial dan kaunseling (career advising, social stidied,'
+	array('','0916','0916 - Farmasi'),
+	array('','0917','0917 - Traditional and complementary medicine and therapy'),
+	array('','0919','0919 - Health not elsewhere classified'),
+	array('','092*','* - Perkhidmatan sosial'),
+	array('','0921','0921 - Care of elderly and of disabled'),
+	array('','0922','0922 - Perkhidmatan asuhan kanak-kanak dan belia'),
+	array('','0923','0923 - Kerja sosial dan kaunseling (career advising, social stidied,'
 	. ' kaunseling perkahwinan dan keluarga)'),
-	array('','0929','0929-Welfare not elsewhere classified'),
-	array('','0988','0988-Health and welfare not elsewhere'),
-	array('','10**','*-Perkhidmatan personel'),
-	array('','1000','1000-Services not further defined'),
-	array('','1011','1011-Perkhidmatan domestik (housekeeping, homeservice, laundry)'),
-	array('','1012','1012-Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik,'
+	array('','0929','0929 - Welfare not elsewhere classified'),
+	array('','0988','0988 - Health and welfare not elsewhere'),
+	array('','10**','* - Perkhidmatan personel'),
+	array('','1000','1000 - Services not further defined'),
+	array('','1011','1011 - Perkhidmatan domestik (housekeeping, homeservice, laundry)'),
+	array('','1012','1012 - Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik,'
 	. ' fitness & weight control, dandanan rambut, persolekan, manicure & pedicure,'
 	. ' perkhidmatan salon, urutan kecantikan'),
-	array('','1013','1013-Hotel, restoran dan katering (seni kulinari, masakan, penyediaan'
+	array('','1013','1013 - Hotel, restoran dan katering (seni kulinari, masakan, penyediaan'
 	. ' makanan, perkhidmatan hospitaliti)'),
-	array('','1014','1014-Sukan (gymnastik, diving, sports coaching)'),
-	array('','1015','1015-Pengembaraan, pelancongan dan rekreasi'),
-	array('','1019','1019-Personal services not elsewhere classified'),
-	array('','102*','*-Perkhidmatan kebersihan dan kesihatan pekerja'),
-	array('','1021','1021-Community sanitation'),
-	array('','1022','1022-Occupational health and safety'),
-	array('','1029','1029-Hygiene and occupational health services not elsewhere'),
-	array('','103*','*-Perkhidmatan keselamatan'),
-	array('','1031','1031-Ketenteraan dan pertahanan (latihan ketenteraan, sains militari,'
+	array('','1014','1014 - Sukan (gymnastik, diving, sports coaching)'),
+	array('','1015','1015 - Pengembaraan, pelancongan dan rekreasi'),
+	array('','1019','1019 - Personal services not elsewhere classified'),
+	array('','102*','* - Perkhidmatan kebersihan dan kesihatan pekerja'),
+	array('','1021','1021 - Community sanitation'),
+	array('','1022','1022 - Occupational health and safety'),
+	array('','1029','1029 - Hygiene and occupational health services not elsewhere'),
+	array('','103*','* - Perkhidmatan keselamatan'),
+	array('','1031','1031 - Ketenteraan dan pertahanan (latihan ketenteraan, sains militari,'
 	. ' national security)'),
-	array('','1032','1032-Protection of persons and property'),
-	array('','1039','1039-Security services not elsewhere classified'),
-	array('','104*','*-Perkhidmatan pengangkutan'),
-	array('','1041','1041-Transport services, Air crew programmes, aircraft operation, aviation,'
+	array('','1032','1032 - Protection of persons and property'),
+	array('','1039','1039 - Security services not elsewhere classified'),
+	array('','104*','* - Perkhidmatan pengangkutan'),
+	array('','1041','1041 - Transport services, Air crew programmes, aircraft operation, aviation,'
 	. ' cabin crew training, crane, truck & fork-lift driving, nautical science, postal service,'
 	. ' railway operations, seamanship, ship operation'),
-	array('','1088','1088-Inter-disciplinary programmes and qualifications involving services'),
-	array('','1099','1099-Services not elsewhere classified'),
-	array('','9999','9999-Lain-lain/Field unknown'),
+	array('','1088','1088 - Inter - disciplinary programmes and qualifications involving services'),
+	array('','1099','1099 - Services not elsewhere classified'),
+	array('','9999','9999 - Lain-lain/Field unknown'),
 	array('','X001','1. Pengekodan Bidang Pengajian (FS) adalah berdasarkan Sijil Tertinggi'
 	. ' Diperoleh (SJ) yang telah dimiliki responden.'),
 	array('','X002','2. Sehubungan itu, Butiran 19 (FS) hanya diisi sekiranya Butiran 17 (SJ)'
