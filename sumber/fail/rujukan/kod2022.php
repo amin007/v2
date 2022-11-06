@@ -1919,6 +1919,7 @@ $data['mascoMsicV2'] = array(
 	array('','TEBANG POKOK BALAK','TEBANG POKOK HUTAN','621108','02201'),
 	array('','NELAYAN','PERIKANAN LAUT DALAM','634112','03111'),
 	array('','NELAYAN PANTAI','PERIKANAN','622211','03111'),
+	array('','KERJA RENCAM/BURUH AM','KERJA KAMPUNG','962204','01610'),
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
