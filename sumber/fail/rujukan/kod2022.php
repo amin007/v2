@@ -1482,13 +1482,13 @@ $data['Bidang'] = array(
 #--------------------------------------------------------------------------------------------------
 # 18. Bidang Pengajian (FS) (4 digit)
 $data['programLatihan'] = array(
-	array('','*','*-Program asas/umum'),
+	array('','0***','*-Program asas/umum'),
 	array('','0000','0000-Programmes and qualifications generic not further defined'),
 	array('','0011','0011-Program asas/umum'),
 	array('','0021','0021-Literasi dan numerasi'),
 	array('','0031','0031-Kemahiran personal'),
 	array('','0099','0099-Programmes and qualifications generic not else where classified'),
-	array('','*','*-Pendidikan'),
+	array('','011*','*-Pendidikan'),
 	array('','0110','0110-Pengajaran'),
 	array('','0111','0111-Sains pendidikan'),
 	array('','0112','0112-Latihan perguruan untuk guru pra-sekolah'),
@@ -1498,7 +1498,7 @@ $data['programLatihan'] = array(
 	. ' classified'),
 	array('','0188','0188-Program inter-disciplinary yg melibatkan pendidikan/Inter-disciplinary'
 	. ' programmes and qualifications involving education'),
-	array('','*','*-Kesenian'),
+	array('','02**','*-Kesenian'),
 	array('','0200','0200-Seni halus, lukisan, khat, calligraphy'),
 	array('','0211','0211-Produksi media dan teknik audio-visual (animasi, fotografi,'
 	. ' cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan'
@@ -1510,7 +1510,7 @@ $data['programLatihan'] = array(
 	. ' teater)'),
 	array('','0216','0216-Pengajian filem, televisyen dan skrin'),
 	array('','0219','0219-Kesenian-kesenian lain/Arts not elsewhere classified'),
-	array('','*','*-Kemanusiaan'),
+	array('','022*','*-Kemanusiaan'),
 	array('','0221','0221-Agama(pengajian agama, sejarah agama, study of sacred books i.e.'
 	. ' Al-Quran)'),
 	array('','0222','0222-Sejarah dan arkeologi'),
@@ -1518,7 +1518,7 @@ $data['programLatihan'] = array(
 	array('','0224','0224-Pengajian Islam'),
 	array('','0229','0229-Program kemanusiaan lain/Humanities (except languages) not elsewhere'
 	. ' classified'),
-	array('','*','*-Bahasa'),
+	array('','023*','*-Bahasa'),
 	array('','0231','0231-Pengajian bahasa'),
 	array('','0232','0232-Kesusateraan dan linguistics'),
 	array('','0233','0233-Bahasa Kebangsaan (Bahasa Malaysia)'),
@@ -1526,7 +1526,7 @@ $data['programLatihan'] = array(
 	array('','0288','0288-Inter-disciplinary programmes and qualifications involving arts and'
 	. ' humanities'),
 	array('','0299','0299-Arts and humanities not elsewhere classified'),
-	array('','*','*-Sains sosial dan sains gelagat'),
+	array('','03**','*-Sains sosial dan sains gelagat'),
 	array('','0300','0300-Social sciences, journalism dan information not further defined'),
 	array('','0311','0311-Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik, national'
 	. ' accounts)'),
@@ -1536,7 +1536,7 @@ $data['programLatihan'] = array(
 	array('','0314','0314-Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional'
 	. ' cultures)'),
 	array('','0319','0319-Social and behavioural sciences not elsewhere classified'),
-	array('','*','*-Kewartawanan dan maklumat'),
+	array('','032*','*-Kewartawanan dan maklumat'),
 	array('','0321','0321-Kewartawanan dan pelaporan (broadcast journalism, mass communication)'),
 	array('','0322','0322-Perpustakaan, maklumat dan arkib (archival science, documentation,'
 	. ' information science,librarianship training, museum documentation)'),
@@ -1545,7 +1545,7 @@ $data['programLatihan'] = array(
 	array('','0388','0388-Inter-disciplinary programmes and qualifications involving science'
 	. ' social, journalism and information'),
 	array('','0399','0399-Science social, journalism and information not elsewhere classified'),
-	array('','*','*-Perniagaan dan pentadbiran'),
+	array('','04**','*-Perniagaan dan pentadbiran'),
 	array('','0400','0400-Business, administration and law not further defined'),
 	array('','0411','0411-Perakaunan, percukaian, pengauditan, simpan kira'),
 	array('','0412','0412-Kewangan, perbankan, insurans, pelaburan'),
@@ -1559,29 +1559,29 @@ $data['programLatihan'] = array(
 	. ' stenography, shorthand, receptionist training, legal secretary)'),
 	array('','0417','0417-Kemahiran pekerjaan'),
 	array('','0418','0418-Business and administration not elsewhere classified'),
-	array('','*','*-Undang-undang'),
+	array('','042*','*-Undang-undang'),
 	array('','0421','0421-Undang-undang/LAW'),
 	array('','0488','0488-Inter-disciplinary programmes and qualifications involving business,'
 	. ' administration and law'),
 	array('','0499','0499-Business, administration and law not elsewhere classified'),
-	array('','*','*-Biologi dan sains berkaitan'),
+	array('','05**','*-Biologi dan sains berkaitan'),
 	array('','0500','0500-Natural sciences, mathematics and statistics not further defined'),
 	array('','0511','0511-Biologi dan biokimia (bioteknologi, genetik, mikrobiologi, zoologi,'
 	. ' entomologi)'),
 	array('','0512','0512-Biokimia'),
 	array('','0519','0519-Biological and related sciences not elsewhere classified'),
-	array('','*','*-Sains alam sekitar'),
+	array('','052*','*-Sains alam sekitar'),
 	array('','0521','0521-Sains alam sekitar'),
 	array('','0522','0522-Alam semulajadi dan hidupan liar'),
 	array('','0529','0529-Environment not elsewhere classified'),
-	array('','*','*-Sains fizikal'),
+	array('','053*','*-Sains fizikal'),
 	array('','0531','0531-Kimia (kimia organik, polimer, petroleum)'),
 	array('','0532','0532-Sains (earth science, atmosphere, geography (physical), geophysic,'
 	. ' geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology,'
 	. ' mineralogy, seismology)'),
 	array('','0533','0533-Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)'),
 	array('','0539','0539-Physical sciences not elsewhere classified'),
-	array('','*','*-Matematik dan statistik'),
+	array('','054*','*-Matematik dan statistik'),
 	array('','0540','0540-Mathematics and statistics not further defined'),
 	array('','0541','0541-Matematik (algebra, matematik gunaan, geometri, penyelidikan operasi,'
 	. ' analisis berangka)'),
@@ -1590,7 +1590,7 @@ $data['programLatihan'] = array(
 	array('','0588','0588-Inter-disciplinary programmes and qualifications involving natural'
 	. ' sciences, mathematics and statistics'),
 	array('','0599','0599-Natural sciences, mathematics and statistics not elsewhere classified'),
-	array('','*','*-Teknologi maklumat dan komunikasi'),
+	array('','06**','*-Teknologi maklumat dan komunikasi'),
 	array('','0610','0610-Information and Communication Technologies (ICTs) not further defined'),
 	array('','0611','0611-Information Technology and Information System'),
 	array('','0612','0612-Kejuruteraan Perisian'),
@@ -1601,7 +1601,7 @@ $data['programLatihan'] = array(
 	. ' classified'),
 	array('','0688','0688-Inter-disciplinary programmes and qualifications involving Information'
 	. ' and Communication Technologies'),
-	array('','*','*-Kejuruteraan dan kejuruteraan dagangan'),
+	array('','07**','*-Kejuruteraan dan kejuruteraan dagangan'),
 	array('','0700','0700-Engineering, manufacturing and construction not further defined'),
 	array('','0711','0711-Kimia dan proses (chemical engineering, laboratory technology,'
 	. ' oil refining, oil/gas/petrochemicals processing, plant and machine operation)'),
@@ -1623,7 +1623,7 @@ $data['programLatihan'] = array(
 	. ' sewerage engineering)'),
 	array('','0717','0717-Teknologi perlindungan alam sekitar'),
 	array('','0718','0718-Engineering and engineering trades not elsewhere classified'),
-	array('','*','*-Pembuatan dan pemprosesan'),
+	array('','072*','*-Pembuatan dan pemprosesan'),
 	array('','0721','0721-Pemprosesan makanan'),
 	array('','0722','0722-Bahan (gelas, kertas, plastic dan kayu)'),
 	array('','0723','0723-Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working,'
@@ -1631,7 +1631,7 @@ $data['programLatihan'] = array(
 	array('','0724','0724-Perlombongan dan galian (coal mining, oil & gas/raw material'
 	. ' extraction)'),
 	array('','0729','0729-Manufacturing and processing not elsewhere classified'),
-	array('','*','*-Senibina dan perancang bandar'),
+	array('','073*','*-Senibina dan perancang bandar'),
 	array('','0731','0731-Senibina'),
 	array('','0732','0732-Perancangan bandar dan wilayah'),
 	array('','0733','0733-Pembinaan dan bangunan'),
@@ -1640,21 +1640,21 @@ $data['programLatihan'] = array(
 	array('','0788','0788-Inter-disciplinary programmes and qualifications involving'
 	. ' engineering, manufacturing and construction'),
 	array('','0799','0799-Engineering, manufacturing and construction not elsewhere classified'),
-	array('','*','*-Pertanian, Perhutanan dan Perikanan'),
+	array('','08**','*-Pertanian, Perhutanan dan Perikanan'),
 	array('','0800','0800-Agriculture, forestry, fisheries and veterinary not further defined'),
 	array('','0811','0811-Crop and livestock production'),
 	array('','0812','0812-Horticulture'),
 	array('','0819','0819-Agriculture not elsewhere classified'),
 	array('','0821','0821-Perhutanan'),
 	array('','0831','0831-Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)'),
-	array('','*','*-Veterinar'),
+	array('','084*','*-Veterinar'),
 	array('','0841','0841-Penjagaan kesihatan haiwan, reproduction, veterinary assisting and'
 	. ' medicine'),
 	array('','0888','0888-Inter-disciplinary programmesand qualifications involving agriculture,'
 	. ' forestry, fisheries and veterinary'),
 	array('','0899','0899-Agriculture, forestry, fisheries and veterinary not elsewhere'
 	. ' classified'),
-	array('','*','*-Kesihatan'),
+	array('','09**','*-Kesihatan'),
 	array('','0900','0900-Health and welfare not further defined'),
 	array('','0911','0911-Pengajian pergigian'),
 	array('','0912','0912-Perubatan'),
@@ -1666,14 +1666,14 @@ $data['programLatihan'] = array(
 	array('','0916','0916-Farmasi'),
 	array('','0917','0917-Traditional and complementary medicine and therapy'),
 	array('','0919','0919-Health not elsewhere classified'),
-	array('','*','*-Perkhidmatan sosial'),
+	array('','092*','*-Perkhidmatan sosial'),
 	array('','0921','0921-Care of elderly and of disabled'),
 	array('','0922','0922-Perkhidmatan asuhan kanak-kanak dan belia'),
 	array('','0923','0923-Kerja sosial dan kaunseling (career advising, social stidied,'
 	. ' kaunseling perkahwinan dan keluarga)'),
 	array('','0929','0929-Welfare not elsewhere classified'),
 	array('','0988','0988-Health and welfare not elsewhere'),
-	array('','*','*-Perkhidmatan personel'),
+	array('','10**','*-Perkhidmatan personel'),
 	array('','1000','1000-Services not further defined'),
 	array('','1011','1011-Perkhidmatan domestik (housekeeping, homeservice, laundry)'),
 	array('','1012','1012-Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik,'
@@ -1684,16 +1684,16 @@ $data['programLatihan'] = array(
 	array('','1014','1014-Sukan (gymnastik, diving, sports coaching)'),
 	array('','1015','1015-Pengembaraan, pelancongan dan rekreasi'),
 	array('','1019','1019-Personal services not elsewhere classified'),
-	array('','*','*-Perkhidmatan kebersihan dan kesihatan pekerja'),
+	array('','102*','*-Perkhidmatan kebersihan dan kesihatan pekerja'),
 	array('','1021','1021-Community sanitation'),
 	array('','1022','1022-Occupational health and safety'),
 	array('','1029','1029-Hygiene and occupational health services not elsewhere'),
-	array('','*','*-Perkhidmatan keselamatan'),
+	array('','103*','*-Perkhidmatan keselamatan'),
 	array('','1031','1031-Ketenteraan dan pertahanan (latihan ketenteraan, sains militari,'
 	. ' national security)'),
 	array('','1032','1032-Protection of persons and property'),
 	array('','1039','1039-Security services not elsewhere classified'),
-	array('','*','*-Perkhidmatan pengangkutan'),
+	array('','104*','*-Perkhidmatan pengangkutan'),
 	array('','1041','1041-Transport services, Air crew programmes, aircraft operation, aviation,'
 	. ' cabin crew training, crane, truck & fork-lift driving, nautical science, postal service,'
 	. ' railway operations, seamanship, ship operation'),
