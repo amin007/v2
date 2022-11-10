@@ -357,6 +357,58 @@ $data['bangsaV2'] = array(
 	array('','9998','Lain-lain Bangsa'),
 );# data bangsaV2//*/
 #--------------------------------------------------------------------------------------------------
+$tajuk['strata(ST)'] = '#,kod,keterangan,kawasan';
+$data['strata(ST)'] = array(
+	array('','1','Metropolitan','Semenanjung Malaysia'),
+	array('','2','Bandar Besar','Semenanjung Malaysia'),
+	array('','3','Bandar Kecil','Semenanjung Malaysia'),
+	array('','4','Luar Bandar','Semenanjung Malaysia'),
+	array('','1','Metropolitan','Sabah Dan Sarawak'),
+	array('','2','Bandar Besar','Sabah Dan Sarawak'),
+	array('','3','Bandar Kecil','Sabah Dan Sarawak'),
+	array('','5','Luar Bandar 1','Sabah Dan Sarawak'),
+	array('','6','Luar Bandar 2','Sabah Dan Sarawak'),
+	array('','7','Luar Bandar 3','Sabah Dan Sarawak'),
+	array('','8','Luar Bandar 4','Sabah Dan Sarawak'),
+	array('','9','Luar Bandar 5','Sabah Dan Sarawak'),
+	array('','0','Luar Bandar 6','Sabah Dan Sarawak'),
+);# data strata(ST)//*/
+#--------------------------------------------------------------------------------------------------
+$tajuk['respon(R)'] = '#,kod,keterangan';
+$data['respon(R)'] = array(
+	array('','0','Lain-lain didiami'),
+	array('','1','Selesai'),
+	array('','2','Kosong'),
+	array('','3','Tiada orang di rumah'),
+	array('','4','Rumah sedang dalam pembinaan'),
+	array('','5','Bukan TK / TK Institusi'),
+	array('','6','Telah roboh / Rumah usang'),
+	array('','7','Tidak layak'),
+	array('','8','Enggan bekerjasama'),
+	array('','9','Lain-lain'),
+	array('','10','No. telefon tidak dapat dihubungi'),
+	array('','11','Pemilik bertukar no. telefon'),
+);# data respon(R)//*/
+#--------------------------------------------------------------------------------------------------
+$tajuk['statusAktiviti(TA)'] = '#,kod,keterangan';
+$data['statusAktiviti(TA)'] = array(
+	array('','01','Majikan'),
+	array('','02','Pekerja Kerajaan'),
+	array('','03','Pekerja Swasta'),
+	array('','04','Bekerja Sendiri (Berdaftar)'),
+	array('','05','Bekerja Sendiri (Tidak berdaftar)'),
+	array('','06','Pekerja keluarga tanpa gaji'),
+	array('','07','Penganggur (Umur 15-54 tahun)'),
+	array('','08','Suri rumah/ Menjaga rumah'),
+	array('','09','Pelajar'),
+	array('','10','Pesara Kerajaan'),
+	array('','11','Pesara Swasta'),
+	array('','12','Warga Emas (Umur 60 tahun ke atas)'),
+	array('','13','Kanak-kanak tidak bersekolah (Umur 1-9 tahun)'),
+	array('','14','Bayi (Umur bawah 1 tahun)'),
+	array('','15','Lain-lain (nyatakan)'),
+);# data statusAktiviti(TA)//*/
+#--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,xxx';
 $data['xxx'] = array(
 	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
