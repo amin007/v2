@@ -1576,7 +1576,9 @@ $data['bezaUntungRugi'] = array(
 	'Revenue increased due to the use of fertilizers & drainage systems & market prices'),
 	array('','POM009','Kos baja dan racun meningkat','The cost of fertilizers and pesticides'
 	. ' increases'),
-	array('','POM010','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
+	array('','POM010','Bilangan pekerja yang terhad untuk urusan tanaman','Limited number of'
+	. ' workers for plant affairs'),
+	array('','POM011','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
 	'No keeping stock in this year. Order items directly for ready-made items'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
