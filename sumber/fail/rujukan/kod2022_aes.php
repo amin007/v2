@@ -1574,7 +1574,9 @@ $data['bezaUntungRugi'] = array(
 	'Huge profits due to rising palm oil prices in the world market'),
 	array('','POM008','Hasil meningkat sebab penggunaan baja dan sistem saliran dan harga pasaran',
 	'Revenue increased due to the use of fertilizers & drainage systems & market prices'),
-	array('','POM009','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
+	array('','POM009','Kos baja dan racun meningkat','The cost of fertilizers and pesticides'
+	. ' increases'),
+	array('','POM010','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
 	'No keeping stock in this year. Order items directly for ready-made items'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
