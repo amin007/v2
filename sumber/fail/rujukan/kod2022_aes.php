@@ -1570,16 +1570,16 @@ $data['bezaUntungRugi'] = array(
 	'Huge profits due to specific business strategies'),
 	array('','POM006','Permintaan meningkat selepas pandemik covid-19',
 	'Demand increased after the covid-19 pandemic'),
-	array('','POM007','Keuntungan besar disebabkan harga minyak sawit meningkat di pasaran dunia',
-	'Huge profits due to rising palm oil prices in the world market'),
-	array('','POM008','Hasil meningkat sebab penggunaan baja dan sistem saliran dan harga pasaran',
-	'Revenue increased due to the use of fertilizers & drainage systems & market prices'),
-	array('','POM009','Kos baja dan racun meningkat','The cost of fertilizers and pesticides'
-	. ' increases'),
-	array('','POM010','Bilangan pekerja yang terhad untuk urusan tanaman','Limited number of'
-	. ' workers for plant affairs'),
-	array('','POM011','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
+	array('','POM007','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
 	'No keeping stock in this year. Order items directly for ready-made items'),
+	array('','POM008','Keuntungan besar disebabkan harga minyak sawit meningkat di pasaran dunia',
+	'Huge profits due to rising palm oil prices in the world market'),
+	array('','POM009','Hasil meningkat sebab penggunaan baja dan sistem saliran dan harga pasaran',
+	'Revenue increased due to the use of fertilizers & drainage systems & market prices'),
+	array('','POM010','Kos baja dan racun meningkat','The cost of fertilizers and pesticides'
+	. ' increases'),
+	array('','POM011','Bilangan pekerja yang terhad untuk urusan tanaman','Limited number of'
+	. ' workers for plant affairs'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
