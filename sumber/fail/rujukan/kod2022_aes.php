@@ -1581,6 +1581,9 @@ $data['bezaUntungRugi'] = array(
 	. ' increases'),
 	array('','POM011','Bilangan pekerja yang terhad untuk urusan tanaman','Limited number of'
 	. ' workers for plant affairs'),
+	array('','POM012','Rugi sebab covid19 dan perubahan dalam kos tenaga buruh dan bahan langsung'
+	. ' seperti baja dan racun','Losses due to covid19 and changes in the cost of labor and'
+	. ' direct materials such as fertilizers and pesticides'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
