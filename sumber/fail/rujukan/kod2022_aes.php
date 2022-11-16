@@ -366,6 +366,7 @@ $data['potensiHasilTanamanTerpilihLampiran18'] = array(
 	array('','Getah','Hasil potensi(kg/ha)','3000'),
 	array('','Kelapa Sawit','Hasil potensi(kg/ha)','23,000'),
 	array('','Kelapa Sawit [MPOB]','Hasil potensi(tan/ha)','35'),
+	array('','Kelapa Sawit [MPOB]','Harga Purata(rm/tan)','960'),
 );//*/
 #--------------------------------------------------------------------------------------------------
 # LAMPIRAN 19 - JULAT HARGA MINIMUM DAN MAKSIMUM – TANAMAN
