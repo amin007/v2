@@ -138,5 +138,17 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 		return $data;
 	}
 #--------------------------------------------------------------------------------------------------
+	function tetikus()
+	{
+		/*
+		Logitech MX Master 2S
+		Logitech signature m650
+		Logitech M590
+		Logitech Amywhere
+		Logitech Unifying Receiver
+		razer basilisk x hyperspeed
+		*/
+	}
+#--------------------------------------------------------------------------------------------------
 #==================================================================================================
 }
