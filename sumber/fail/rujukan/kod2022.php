@@ -4,6 +4,7 @@ include 'fungsi_global.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 /* bidang pengajian ISCED-F 2013: List of possible codes
+$tajuk['isced-f 2013'] = '#,Broad field,Narrow field,Detailed field';
 $data['isced-f 2013'] = array(
 	array('','Broad field','Narrow field','Detailed field'),
 	array('','00-Generic programmes & qualifications','',''),
@@ -238,6 +239,7 @@ $data['isced-f 2013'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //
+$tajuk['test123'] = '#,program luas,program sempit,program terperinci';
 $data['test123'] = array(
 	array('','00-program & kelayakan generik','',''),
 	array('','000-program & kelayakan generik tidak ditakrifkan lagi',
@@ -473,6 +475,7 @@ $data['test123'] = array(
 );//*/
 #--------------------------------------------------------------------------------------------------
 #3.18 Ruangan 16 - Taraf Pendidikan Rasmi Tertinggi (PT)
+$tajuk['Pendidikan 2022'] = '#,Kod,Keterangan,Nota';
 $data['Pendidikan 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak( kurang dari 3 tahun',''),
 	array('','002','002 - Pendidikan pra-sekolah',
@@ -870,6 +873,7 @@ $data['Pendidikan 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
+$tajuk['sijil 2022'] = '#,Kod,Keterangan,Nota';
 $data['sijil 2022'] = array(
 	array('','101','101 - UPKK',''),
 	array('','102','102 - UPSR/UPSRA',''),
@@ -938,6 +942,7 @@ $data['sijil 2022'] = array(
 	. ' '),
 );
 #--------------------------------------------------------------------------------------------------
+$tajuk['PendidikanSijil 2022'] = '#,Kod,Pendidikan,Sijil';
 $data['PendidikanSijil 2022'] = array(
 	array('','001','001 - Pendidikan awal kanak-kanak(kurang dari 3 tahun)','020 - Tiada Sijil'),
 	array('','002','002 - Pendidikan pra-sekolah(4-6 tahun)','020 - Tiada Sijil'),
@@ -1022,6 +1027,7 @@ $data['PendidikanSijil 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
+$tajuk['Pengajian 2022'] = '#,Kumpulan Bidang Utama &amp; Sub-utama,Perincian Bidang Pengajian';
 $data['Pengajian 2022'] = array(
 	array('','xx : Kumpulan Bidang Utama<br>xxx : Kumpulan Bidang Sub-utama<br>',
 	'xxxx - Perincian Bidang Pengajian'),
@@ -1250,6 +1256,7 @@ $data['Pengajian 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 – Bidang Pengajian (FS)
+$tajuk['Bidang'] = '#,Kumpulan Bidang Utama &amp; Sub-utama,Perincian Bidang Pengajian';
 $data['Bidang'] = array(
 	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama',
 	'xxxx - Perincian Bidang Pengajian'),
@@ -1481,6 +1488,7 @@ $data['Bidang'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 # 18. Bidang Pengajian (FS) (4 digit)
+$tajuk['programLatihan'] = '#,Kod,Bidang Pengajian';
 $data['programLatihan'] = array(
 	array('','0***','* - Program asas/umum'),
 	array('','0000','0000 - Programmes and qualifications generic not further defined'),
@@ -1725,6 +1733,7 @@ dikodkan `301` hingga `330` (institusi pengajian luar negara).
 */
 #--------------------------------------------------------------------------------------------------
 # masco msic - kena tukar masco v2018 kepada v2020
+$tajuk['mascoMsicV2'] = '#,pekerjaan,industri,masco,msic';
 $data['mascoMsicV2'] = array(
 	array('','PENGURUS','PASARAYA','122109','47112'),
 	array('','PENYELIA','PASARAYA','522203','47112'),
@@ -1930,7 +1939,9 @@ $data['mascoMsicV2'] = array(
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
-/*$data['xxx'] = array(
+/*
+$tajuk['xxx'] = '#,a,b,c,d';
+$data['xxx'] = array(
 	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# data baru akan datang//*/
@@ -1938,9 +1949,13 @@ $data['mascoMsicV2'] = array(
 ###################################################################################################
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
+$tajuk['mascoBMBI'] = '#,seksyen,kod,masco melayu,masco inggeris,tahunV01,kodV01,tahunV02,kodV02';
 $data['mascoBMBI'] = ImportCSV2Array01($filename = './kod2022/masco2020_all.csv');
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
+$tajuk['mascoNewss'] = '#,kod,masco melayu,masco inggeris';
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
+$tajuk['mascoSeksyen'] = '#,tahun,kod,seksyen melayu,seksyen inggeris,keterangan melayu,'
+. 'keterangan inggeris';
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
