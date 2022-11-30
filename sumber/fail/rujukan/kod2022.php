@@ -1940,8 +1940,7 @@ $data['mascoMsicV2'] = array(
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
-/*
-$tajuk['xxx'] = '#,a,b,c,d';
+/*$tajuk['xxx'] = '#,a,b,c,d';
 $data['xxx'] = array(
 	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
