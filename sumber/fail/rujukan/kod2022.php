@@ -1733,7 +1733,7 @@ dikodkan `301` hingga `330` (institusi pengajian luar negara).
 */
 #--------------------------------------------------------------------------------------------------
 # masco msic - kena tukar masco v2018 kepada v2020
-$tajuk['mascoMsicV2'] = '#,pekerjaan,industri,masco,msic';
+$tajuk['mascoMsicV2'] = '#,Pekerjaan,Industri,Masco,Msic';
 $data['mascoMsicV2'] = array(
 	array('','PENGURUS','PASARAYA','122109','47112'),
 	array('','PENYELIA','PASARAYA','522203','47112'),
@@ -1949,13 +1949,13 @@ $data['xxx'] = array(
 ###################################################################################################
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
-$tajuk['mascoBMBI'] = '#,seksyen,kod,masco melayu,masco inggeris,tahunV01,kodV01,tahunV02,kodV02';
+$tajuk['mascoBMBI'] = '#,Seksyen,Kod,Masco Melayu,Masco Inggeris,TahunV01,KodV01,TahunV02,KodV02';
 $data['mascoBMBI'] = ImportCSV2Array01($filename = './kod2022/masco2020_all.csv');
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
-$tajuk['mascoNewss'] = '#,kod,masco melayu,masco inggeris';
+$tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
-$tajuk['mascoSeksyen'] = '#,tahun,kod,seksyen melayu,seksyen inggeris,keterangan melayu,'
-. 'keterangan inggeris';
+$tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,'
+. 'Keterangan Inggeris';
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
@@ -1987,7 +1987,7 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
@@ -2010,6 +2010,33 @@ if (isset($_SERVER[$s])):
 	endif;
 else:
 	panggilDataTable($data,null);# panggil fungsi
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+# kaedah 2.1
+$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+//semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
+if (isset($_SERVER[$s])):
+	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
+	$cari = explode('/',$fail[1]);//semakPembolehubah($cari,'pilih');
+
+	if(isset($cari[1])):
+		$cariApa = bersih($cari[1]);
+		if($cariApa == 'json'):
+			$pilih = isset($cari[2]) ? $cari[2] : null;
+			$cariApa = bersih($pilih);
+			binaJson($data,$pilih);
+		elseif($cariApa == 'tahun'):
+			$tajuk['tahun'] = '#,-,-,-,-';
+			$data['tahun'] = kiraTahunJadual();
+			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+		else:
+			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+		endif;
+	else:
+		panggilDataTable01($tajuk,$data,null);# panggil fungsi
+	endif;
+else:
+	panggilDataTable01($tajuk,$data,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 //versiphp();
