@@ -12,6 +12,8 @@ untuk panduan guna tortoisegit dan github dalam windows.
 
 http://amin007.github.io/phparastinggi/nota-asas-git.html
 
+https://www.howtogeek.com/devops/how-to-set-up-https-personal-access-tokens-for-github-authentication
+
 test 
 ==
 hendak tengok sama ada boleh push tanpa login github
