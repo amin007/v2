@@ -1954,8 +1954,7 @@ $data['mascoBMBI'] = ImportCSV2Array01($filename = './kod2022/masco2020_all.csv'
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
 $tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
-$tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,'
-. 'Keterangan Inggeris';
+$tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Inggeris';
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
