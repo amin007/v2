@@ -1002,8 +1002,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','403','403 - Program sijil dari kolej/politeknik/universiti @ setaraf dengannya',
 	'354 - Sijil drpd kolej @ yg setaraf<br>'
 	. '355 - Sijil drpd politeknik(IP=154) @ yg setaraf<br>'
-	. '356 - Sijil drpd universiti @ yg setaraf<br>'
-	. ''),
+	. '356 - Sijil drpd universiti @ yg setaraf<br>'),
 	array('','404','404 - Program sijil perguruan/kejururawatan/ kesihatan bersekutu',
 	'357 - Sijil perguruan(IP=144)(FS=0114)/kejururawatan(FS=0913)/kesihatan bersekutu'),
 	array('','501','501 - Program diploma kemahiran khusus & teknikal',
