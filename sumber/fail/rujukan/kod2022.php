@@ -1491,7 +1491,7 @@ $data['Bidang'] = array(
 # 18. Bidang Pengajian (FS) (4 digit)
 $tajuk['programLatihan'] = '#,Kod,Bidang Pengajian';
 $data['programLatihan'] = array(
-	array('','0***','* - Program asas/umum'),
+	array('','00**','* - Program asas/umum'),
 	array('','0000','0000 - Programmes and qualifications generic not further defined'),
 	array('','0011','0011 - Program asas/umum'),
 	array('','0021','0021 - Literasi dan numerasi'),
@@ -1500,7 +1500,7 @@ $data['programLatihan'] = array(
 	array('','011*','* - Pendidikan'),
 	array('','0110','0110 - Pengajaran'),
 	array('','0111','0111 - Sains pendidikan'),
-	array('','0112','0112 - Latihan perguruan untuk guru pra - sekolah'),
+	array('','0112','0112 - Latihan perguruan untuk guru pra-sekolah'),
 	array('','0113','0113 - Latihan perguruan untuk guru peringkat asas'),
 	array('','0114','0114 - Latihan perguruan untuk guru dengan pengkhususan subjek'),
 	array('','0119','0119 - Programmes and qualifications involving education not elsewhere'
@@ -1509,16 +1509,18 @@ $data['programLatihan'] = array(
 	. ' programmes and qualifications involving education'),
 	array('','02**','* - Kesenian'),
 	array('','0200','0200 - Seni halus, lukisan, khat, calligraphy'),
-	array('','0211','0211 - Produksi media dan teknik audio - visual (animasi, fotografi,'
+	array('','0211','0211 - Produksi media dan teknik audio-visual (animasi, fotografi,'
 	. ' cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan'
 	. ' penerbitan)'),
-	array('','0212','0212 - Rekaan (fashion and costume design, interior design, stage design)'),
+	array('','0212','0212 - Rekaan <br>(<strong>reka bentuk fesyen dan pakaian, reka bentuk'
+	. 'dalaman, reka bentuk pentas</strong>)'
+	. ' <br>(<em>fashion and costume design, interior design, stage design</em>)'),
 	array('','0213','0213 - Seni lukis/Fine arts'),
 	array('','0214','0214 - Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)'),
 	array('','0215','0215 - Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian,'
 	. ' teater)'),
 	array('','0216','0216 - Pengajian filem, televisyen dan skrin'),
-	array('','0219','0219 - Kesenian - kesenian lain/Arts not elsewhere classified'),
+	array('','0219','0219 - Kesenian-kesenian lain/Arts not elsewhere classified'),
 	array('','022*','* - Kemanusiaan'),
 	array('','0221','0221 - Agama(pengajian agama, sejarah agama, study of sacred books i.e.'
 	. ' Al - Quran)'),
@@ -1532,7 +1534,7 @@ $data['programLatihan'] = array(
 	array('','0232','0232 - Kesusateraan dan linguistics'),
 	array('','0233','0233 - Bahasa Kebangsaan (Bahasa Malaysia)'),
 	array('','0239','0239 - Bahasa not elsewhere'),
-	array('','0288','0288 - Inter - disciplinary programmes and qualifications involving arts and'
+	array('','0288','0288 - Inter-disciplinary programmes and qualifications involving arts and'
 	. ' humanities'),
 	array('','0299','0299 - Arts and humanities not elsewhere classified'),
 	array('','03**','* - Sains sosial dan sains gelagat'),
@@ -1542,13 +1544,16 @@ $data['programLatihan'] = array(
 	array('','0312','0312 - Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa,'
 	. ' keamanan)'),
 	array('','0313','0313 - Psikologi'),
-	array('','0314','0314 - Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi, regional'
-	. ' cultures)'),
+	array('','0314','0314 - Pengajian sosiologi dan kajian kebudayaan (antropologi, demografi,'
+	. ' <strong>budaya serantau</strong>/<em>regional cultures</em>)'),
 	array('','0319','0319 - Social and behavioural sciences not elsewhere classified'),
 	array('','032*','* - Kewartawanan dan maklumat'),
-	array('','0321','0321 - Kewartawanan dan pelaporan (broadcast journalism, mass communication)'),
-	array('','0322','0322 - Perpustakaan, maklumat dan arkib (archival science, documentation,'
-	. ' information science,librarianship training, museum documentation)'),
+	array('','0321','0321 - Kewartawanan dan pelaporan<br>(<strong>kewartawanan penyiaran, komunikasi'
+	. ' massa</strong>)<br>(<em>broadcast journalism, mass communication</em>)'),
+	array('','0322','0322 - Perpustakaan, maklumat dan arkib<br>(<strong>sains arkib, dokumentasi,'
+	. ' sains maklumat, latihan kepustakaan, dokumentasi muzium</strong>)<br>(<em>archival'
+	. ' science, documentation, information science,librarianship training,'
+	. ' museum documentation)'),
 	array('','0323','0323 - Media dan komunikasi'),
 	array('','0329','0329 - Journalism and information not elsewhere classified'),
 	array('','0388','0388 - Inter-disciplinary programmes and qualifications involving science'
