@@ -1571,8 +1571,10 @@ $data['programLatihan'] = array(
 	. ' training, public administration</em>)'),
 	array('','0415','0415 - Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising,'
 	. ' market research, perhubungan awam)'),
-	array('','0416','0416 - Kesetiausahaan dan perkeranian (clerical programmes, typing,'
-	. ' stenography, shorthand, receptionist training, legal secretary)'),
+	array('','0416','0416 - Kesetiausahaan dan perkeranian <br>(<strong>program perkeranian,'
+	. ' menaip, stenografi, trengkas, latihan penyambut tetamu, setiausaha undang-undang'
+	. '</strong>)<br>(<em>clerical programmes, typing, stenography, shorthand, receptionist'
+	. ' training, legal secretary</em>)'),
 	array('','0417','0417 - Kemahiran pekerjaan'),
 	array('','0418','0418 - Business and administration not elsewhere classified'),
 	array('','042*','* - Undang-undang'),
@@ -1592,9 +1594,11 @@ $data['programLatihan'] = array(
 	array('','0529','0529 - Environment not elsewhere classified'),
 	array('','053*','* - Sains fizikal'),
 	array('','0531','0531 - Kimia (kimia organik, polimer, petroleum)'),
-	array('','0532','0532 - Sains (earth science, atmosphere, geography (physical), geophysic,'
-	. ' geoscience, geology, hydrologi, sains marin, oceanography, palentology, meteorology,'
-	. ' mineralogy, seismology)'),
+	array('','0532','0532 - Sains <br>(<strong>sains bumi, atmosfera, geografi (fizikal),'
+	. ' geofizik, geosains, geologi, hidrologi, sains marin, oseanografi, paleontologi,'
+	. ' meteorologi, mineralogi, seismologi</strong>)<br>(<em>earth science, atmosphere,'
+	. ' geography (physical), geophysic, geoscience, geology, hydrologi, sains marin,'
+	. ' oceanography, palentology, meteorology, mineralogy, seismology</em>)'),
 	array('','0533','0533 - Fizik (sains fizik, astronomi, sains nuklear, optik, sains angkasa)'),
 	array('','0539','0539 - Physical sciences not elsewhere classified'),
 	array('','054*','* - Matematik dan statistik'),
@@ -1608,27 +1612,38 @@ $data['programLatihan'] = array(
 	array('','0599','0599 - Natural sciences, mathematics and statistics not elsewhere classified'),
 	array('','06**','* - Teknologi maklumat dan komunikasi'),
 	array('','0610','0610 - Information and Communication Technologies (ICTs) not further defined'),
-	array('','0611','0611 - Information Technology and Information System'),
+	array('','0611','0611 - <strong>Teknologi Maklumat dan Sistem Maklumat</strong>'
+	. ' / <em>Information Technology and Information System</em>'),
 	array('','0612','0612 - Kejuruteraan Perisian'),
 	array('','0613','0613 - Sains Komputer'),
-	array('','0614','0614 - Penggunaan komputer (computer software use, internet use programmes,'
-	. ' spreadsheets, software for data processing, desktop publishing and word processing)'),
+	array('','0614','0614 - Penggunaan komputer <br>(<strong>penggunaan perisian komputer, program'
+	. ' penggunaan internet, hamparan, perisian untuk pemprosesan data, penerbitan desktop dan'
+	. ' pemprosesan perkataan</strong>)<br>(<em>computer software use, internet use programmes,'
+	. ' spreadsheets, software for data processing, desktop publishing and word processing</em>)'),
 	array('','0619','0619 - Information and Communication Technologies (ICTs) not elsewhere'
 	. ' classified'),
 	array('','0688','0688 - Inter-disciplinary programmes and qualifications involving Information'
 	. ' and Communication Technologies'),
 	array('','07**','*-Kejuruteraan dan kejuruteraan dagangan'),
 	array('','0700','0700 - Engineering, manufacturing and construction not further defined'),
-	array('','0711','0711 - Kimia dan proses (chemical engineering, laboratory technology,'
-	. ' oil refining, oil/gas/petrochemicals processing, plant and machine operation)'),
-	array('','0712','0712 - Tenaga dan elektrik (air-conditioning programmes, electrical'
+	array('','0711','0711 - Kimia dan proses <br>(<strong>kejuruteraan kimia, teknologi makmal,'
+	. ' penapisan minyak, pemprosesan minyak/gas/petrokimia, loji dan operasi mesin</strong>)'
+	. ' <br>(<em>chemical engineering, laboratory technology, oil refining,'
+	. ' oil/gas/petrochemicals processing, plant and machine operation</em>)'),
+	array('','0712','0712 - Tenaga dan elektrik <br>(<strong>program penyaman udara, pembaikan'
+	. ' peralatan elektrik, pemasangan, kejuruteraan, penjanaan kuasa, pengagihan gas, tenaga'
+	. ' nuklear, hidraulik dan haba, pengeluaran kuasa, pemasangan talian kuasa, program'
+	. ' penyejukan, tenaga suria)</strong><br>(<em>air-conditioning programmes, electrical'
 	. ' appliances repairing, fitting, engineering, power generation, gas distribution, nuclear,'
 	. ' hydraulic and thermal energy, power production, powerline installation, refrigeration'
-	. ' programmes, solar energy)'),
-	array('','0713','0713 - Elektronik dan pengautomasian (broadcasting electronics, communication'
-	. ' systems, installation, equiment maintenance, computer engineering, repairing, control'
-	. ' engineering, digital technologi, network technology, robotics, telecommunication'
-	. ' technology, television and radio repairing)'),
+	. ' programmes, solar energy)</em>'),
+	array('','0713','0713 - Elektronik dan pengautomasian<br>(<strong>elektronik penyiaran, sistem'
+	. ' komunikasi, pemasangan, penyelenggaraan ekuimen, kejuruteraan komputer, pembaikan,'
+	. ' kejuruteraan kawalan, teknologi digital, teknologi rangkaian, robotik, teknologi'
+	. ' telekomunikasi, pembaikan televisyen dan radio</strong>)<br>(<em>broadcasting electronics,'
+	. ' communication systems, installation, equiment maintenance, computer engineering,'
+	. ' repairing, control engineering, digital technologi, network technology, robotics,'
+	. ' telecommunication technology, television and radio repairing</em>)'),
 	array('','0714','0714 - Mekanik(mekanikal) dan kerja logam'),
 	array('','0715','0715 - Kenderaan bermotor, kapal dan kapal terbang (aeronautical/aerospace'
 	. ' engineering, agriculture machinery, air - craft engineering, automotive engineering,'
