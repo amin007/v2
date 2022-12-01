@@ -1559,9 +1559,11 @@ $data['programLatihan'] = array(
 	array('','0411','0411 - Perakaunan, percukaian, pengauditan, simpan kira'),
 	array('','0412','0412 - Kewangan, perbankan, insurans, pelaburan'),
 	array('','0413','0413 - Perbankan dan kewangan islam'),
-	array('','0414','0414 - Pengurusan dan pentadbiran (human resource management, office'
+	array('','0414','0414 - Pengurusan dan pentadbiran <br>(<strong>pengurusan sumber manusia,'
+	. ' pengurusan pejabat, pengurusan kakitangan, pengurusan kualiti, pengambilan, latihan'
+	. ' perusahaan, pentadbiran awam</strong>)<br>(<em>human resource management, office'
 	. ' management, personnel management, quality management, recruitment, enterprise'
-	. ' training, public administration)'),
+	. ' training, public administration</em>)'),
 	array('','0415','0415 - Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising,'
 	. ' market research, perhubungan awam)'),
 	array('','0416','0416 - Kesetiausahaan dan perkeranian (clerical programmes, typing,'
