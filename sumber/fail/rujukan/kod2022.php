@@ -1512,9 +1512,9 @@ $data['programLatihan'] = array(
 	array('','0211','0211 - Produksi media dan teknik audio-visual (animasi, fotografi,'
 	. ' cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan'
 	. ' penerbitan)'),
-	array('','0212','0212 - Rekaan <br>(<strong>reka bentuk fesyen dan pakaian, reka bentuk'
+	array('','0212','0212 - Rekaan<br>(<strong>reka bentuk fesyen dan pakaian, reka bentuk'
 	. 'dalaman, reka bentuk pentas</strong>)'
-	. ' <br>(<em>fashion and costume design, interior design, stage design</em>)'),
+	. '<br>(<em>fashion and costume design, interior design, stage design</em>)'),
 	array('','0213','0213 - Seni lukis/Fine arts'),
 	array('','0214','0214 - Seni halus/Kemahiran tukangan (kraftangan, jahitan, tenunan, ukiran)'),
 	array('','0215','0215 - Muzik dan persembahan kesenian (nyanyian, lakonan, drama, tarian,'
@@ -1538,7 +1538,8 @@ $data['programLatihan'] = array(
 	. ' humanities'),
 	array('','0299','0299 - Arts and humanities not elsewhere classified'),
 	array('','03**','* - Sains sosial dan sains gelagat'),
-	array('','0300','0300 - Social sciences, journalism dan information not further defined'),
+	array('','0300','0300 - <strong>Sains sosial, kewartawanan dan maklumat tidak ditakrifkan lagi'
+	. '</strong><br><em>Social sciences, journalism dan information not further defined</em>'),
 	array('','0311','0311 - Ekonomi (mikroekonomi, makroekonomi, ekonomi antarabangsa, ekonometrik,'
 	. ' national accounts)'),
 	array('','0312','0312 - Sains politik dan sivik (hak asasi manusia, hubungan antarabangsa,'
@@ -1564,14 +1565,14 @@ $data['programLatihan'] = array(
 	array('','0411','0411 - Perakaunan, percukaian, pengauditan, simpan kira'),
 	array('','0412','0412 - Kewangan, perbankan, insurans, pelaburan'),
 	array('','0413','0413 - Perbankan dan kewangan islam'),
-	array('','0414','0414 - Pengurusan dan pentadbiran <br>(<strong>pengurusan sumber manusia,'
+	array('','0414','0414 - Pengurusan dan pentadbiran<br>(<strong>pengurusan sumber manusia,'
 	. ' pengurusan pejabat, pengurusan kakitangan, pengurusan kualiti, pengambilan, latihan'
 	. ' perusahaan, pentadbiran awam</strong>)<br>(<em>human resource management, office'
 	. ' management, personnel management, quality management, recruitment, enterprise'
 	. ' training, public administration</em>)'),
 	array('','0415','0415 - Pemasaran dan pengiklanan (pengiklanan, pemasaran, merchandising,'
 	. ' market research, perhubungan awam)'),
-	array('','0416','0416 - Kesetiausahaan dan perkeranian <br>(<strong>program perkeranian,'
+	array('','0416','0416 - Kesetiausahaan dan perkeranian<br>(<strong>program perkeranian,'
 	. ' menaip, stenografi, trengkas, latihan penyambut tetamu, setiausaha undang-undang'
 	. '</strong>)<br>(<em>clerical programmes, typing, stenography, shorthand, receptionist'
 	. ' training, legal secretary</em>)'),
@@ -1594,7 +1595,7 @@ $data['programLatihan'] = array(
 	array('','0529','0529 - Environment not elsewhere classified'),
 	array('','053*','* - Sains fizikal'),
 	array('','0531','0531 - Kimia (kimia organik, polimer, petroleum)'),
-	array('','0532','0532 - Sains <br>(<strong>sains bumi, atmosfera, geografi (fizikal),'
+	array('','0532','0532 - Sains<br>(<strong>sains bumi, atmosfera, geografi (fizikal),'
 	. ' geofizik, geosains, geologi, hidrologi, sains marin, oseanografi, paleontologi,'
 	. ' meteorologi, mineralogi, seismologi</strong>)<br>(<em>earth science, atmosphere,'
 	. ' geography (physical), geophysic, geoscience, geology, hydrologi, sains marin,'
@@ -1616,7 +1617,7 @@ $data['programLatihan'] = array(
 	. ' / <em>Information Technology and Information System</em>'),
 	array('','0612','0612 - Kejuruteraan Perisian'),
 	array('','0613','0613 - Sains Komputer'),
-	array('','0614','0614 - Penggunaan komputer <br>(<strong>penggunaan perisian komputer, program'
+	array('','0614','0614 - Penggunaan komputer<br>(<strong>penggunaan perisian komputer, program'
 	. ' penggunaan internet, hamparan, perisian untuk pemprosesan data, penerbitan desktop dan'
 	. ' pemprosesan perkataan</strong>)<br>(<em>computer software use, internet use programmes,'
 	. ' spreadsheets, software for data processing, desktop publishing and word processing</em>)'),
@@ -1625,12 +1626,13 @@ $data['programLatihan'] = array(
 	array('','0688','0688 - Inter-disciplinary programmes and qualifications involving Information'
 	. ' and Communication Technologies'),
 	array('','07**','*-Kejuruteraan dan kejuruteraan dagangan'),
-	array('','0700','0700 - Engineering, manufacturing and construction not further defined'),
-	array('','0711','0711 - Kimia dan proses <br>(<strong>kejuruteraan kimia, teknologi makmal,'
+	array('','0700','0700 - <strong>Kejuruteraan, pembuatan dan pembinaan tidak ditakrifkan lagi'
+	. '</strong><br><em>Engineering, manufacturing and construction not further defined</em>'),
+	array('','0711','0711 - Kimia dan proses<br>(<strong>kejuruteraan kimia, teknologi makmal,'
 	. ' penapisan minyak, pemprosesan minyak/gas/petrokimia, loji dan operasi mesin</strong>)'
-	. ' <br>(<em>chemical engineering, laboratory technology, oil refining,'
+	. '<br>(<em>chemical engineering, laboratory technology, oil refining,'
 	. ' oil/gas/petrochemicals processing, plant and machine operation</em>)'),
-	array('','0712','0712 - Tenaga dan elektrik <br>(<strong>program penyaman udara, pembaikan'
+	array('','0712','0712 - Tenaga dan elektrik<br>(<strong>program penyaman udara, pembaikan'
 	. ' peralatan elektrik, pemasangan, kejuruteraan, penjanaan kuasa, pengagihan gas, tenaga'
 	. ' nuklear, hidraulik dan haba, pengeluaran kuasa, pemasangan talian kuasa, program'
 	. ' penyejukan, tenaga suria)</strong><br>(<em>air-conditioning programmes, electrical'
@@ -1662,30 +1664,33 @@ $data['programLatihan'] = array(
 	array('','072*','* - Pembuatan dan pemprosesan'),
 	array('','0721','0721 - Pemprosesan makanan'),
 	array('','0722','0722 - Bahan (gelas, kertas, plastic dan kayu)'),
-	array('','0723','0723 - Tekstil, pakaian, pakaian kaki, kulit (apparel and textile working,'
-	. ' tailoring, dressmaking, footwear making, shoemaking, spinning)'),
-	array('','0724','0724 - Perlombongan dan galian (coal mining, oil & gas/raw material'
-	. ' extraction)'),
+	array('','0723','0723 - Tekstil, pakaian, pakaian kaki, kulit<br>(<strong>kerja pakaian dan'
+	. ' tekstil, menjahit, membuat pakaian, membuat kasut, membuat kasut, berputar</strong>)<br>'
+	. ' (<em>apparel and textile working, tailoring, dressmaking, footwear making, shoemaking,'
+	. ' spinning)</em>'),
+	array('','0724','0724 - Perlombongan dan galian (<strong>perlombongan arang batu, minyak &'
+	. ' gas, pengekstrakan bahan mentah</strong>)(<em>coal mining, oil & gas,raw material'
+	. ' extraction</em>)'),
 	array('','0729','0729 - Manufacturing and processing not elsewhere classified'),
 	array('','073*','* - Senibina dan perancang bandar'),
 	array('','0731','0731 - Senibina'),
 	array('','0732','0732 - Perancangan bandar dan wilayah'),
 	array('','0733','0733 - Pembinaan dan bangunan'),
-	array('','0734','0734 - Surveying'),
+	array('','0734','0734 - Mengukur/Surveying'),
 	array('','0741','0741 - Teknologi kejuruteraan'),
 	array('','0788','0788 - Inter-disciplinary programmes and qualifications involving'
 	. ' engineering, manufacturing and construction'),
 	array('','0799','0799 - Engineering, manufacturing and construction not elsewhere classified'),
 	array('','08**','* - Pertanian, Perhutanan dan Perikanan'),
 	array('','0800','0800 - Agriculture, forestry, fisheries and veterinary not further defined'),
-	array('','0811','0811 - Crop and livestock production'),
-	array('','0812','0812 - Horticulture'),
+	array('','0811','0811 - Pengeluaran tanaman dan ternakan/Crop and livestock production'),
+	array('','0812','0812 - Hortikultur/Horticulture'),
 	array('','0819','0819 - Agriculture not elsewhere classified'),
 	array('','0821','0821 - Perhutanan'),
 	array('','0831','0831 - Perikanan (akuakultur, pembiakan ikan/haiwan kerang-kerangan)'),
 	array('','084*','* - Veterinar'),
-	array('','0841','0841 - Penjagaan kesihatan haiwan, reproduction, veterinary assisting and'
-	. ' medicine'),
+	array('','0841','0841 - Penjagaan kesihatan haiwan<br>(<strong>pembiakan, bantuan veterinar'
+	. ' dan perubatan</strong>)<br>(<em>reproduction, veterinary assisting and medicine</em>)'),
 	array('','0888','0888 - Inter-disciplinary programmesand qualifications involving '
 	. ' agriculture, forestry, fisheries and veterinary'),
 	array('','0899','0899 - Agriculture, forestry, fisheries and veterinary not elsewhere'
@@ -1700,40 +1705,48 @@ $data['programLatihan'] = array(
 	array('','0915','0915 - Terapi dan pemulihan (nutrisi & dietetik, urutan perubatan, kesihatan'
 	. ' mental, optometry, refleksologi, fisioterapi'),
 	array('','0916','0916 - Farmasi'),
-	array('','0917','0917 - Traditional and complementary medicine and therapy'),
+	array('','0917','0917 - <strong>Perubatan dan terapi tradisional dan pelengkap</strong>/'
+	. '<em>Traditional and complementary medicine and therapy</em>'),
 	array('','0919','0919 - Health not elsewhere classified'),
 	array('','092*','* - Perkhidmatan sosial'),
-	array('','0921','0921 - Care of elderly and of disabled'),
+	array('','0921','0921 - <strong>Penjagaan warga emas dan orang kurang upaya</strong>/'
+	. '<em>Care of elderly and of disabled</em>'),
 	array('','0922','0922 - Perkhidmatan asuhan kanak-kanak dan belia'),
-	array('','0923','0923 - Kerja sosial dan kaunseling (career advising, social stidied,'
-	. ' kaunseling perkahwinan dan keluarga)'),
+	array('','0923','0923 - Kerja sosial dan kaunseling (nasihat kerjaya/career advising,'
+	. ' kajian sosial/social studies, kaunseling perkahwinan dan keluarga)'),
 	array('','0929','0929 - Welfare not elsewhere classified'),
 	array('','0988','0988 - Health and welfare not elsewhere'),
 	array('','10**','* - Perkhidmatan personel'),
 	array('','1000','1000 - Services not further defined'),
-	array('','1011','1011 - Perkhidmatan domestik (housekeeping, homeservice, laundry)'),
+	array('','1011','1011 - Perkhidmatan domestik<br>(<strong>kemas rumah, perkhidmatan rumah,'
+	. ' dobi</strong>)<br>(<em>housekeeping, homeservice, laundry</em>)'),
 	array('','1012','1012 - Perkhidmatan pendandanan dan kecantikan (perkhidmatan kosmetik,'
-	. ' fitness & weight control, dandanan rambut, persolekan, manicure & pedicure,'
-	. ' perkhidmatan salon, urutan kecantikan'),
+	. ' kecergasan & kawalan berat badan/fitness & weight control, dandanan rambut, persolekan,'
+	. ' urutan tangan & kaki/manicure & pedicure, perkhidmatan salon, urutan kecantikan'),
 	array('','1013','1013 - Hotel, restoran dan katering (seni kulinari, masakan, penyediaan'
 	. ' makanan, perkhidmatan hospitaliti)'),
-	array('','1014','1014 - Sukan (gymnastik, diving, sports coaching)'),
+	array('','1014','1014 - Sukan<br>(<strong>gimnastik, menyelam, bimbingan sukan</strong>)<br>'
+	. ' (<em>gymnastik, diving, sports coaching</em>)'),
 	array('','1015','1015 - Pengembaraan, pelancongan dan rekreasi'),
 	array('','1019','1019 - Personal services not elsewhere classified'),
 	array('','102*','* - Perkhidmatan kebersihan dan kesihatan pekerja'),
 	array('','1021','1021 - Community sanitation'),
-	array('','1022','1022 - Occupational health and safety'),
+	array('','1022','1022 - <strong>Kesihatan dan keselamatan pekerjaan</strong>'
+	. ' <em>Occupational health and safety</em>'),
 	array('','1029','1029 - Hygiene and occupational health services not elsewhere'),
 	array('','103*','* - Perkhidmatan keselamatan'),
 	array('','1031','1031 - Ketenteraan dan pertahanan (latihan ketenteraan, sains militari,'
-	. ' national security)'),
+	. ' keselamatan negara/national security)'),
 	array('','1032','1032 - Protection of persons and property'),
 	array('','1039','1039 - Security services not elsewhere classified'),
 	array('','104*','* - Perkhidmatan pengangkutan'),
-	array('','1041','1041 - Transport services, Air crew programmes, aircraft operation, aviation,'
-	. ' cabin crew training, crane, truck & fork-lift driving, nautical science, postal service,'
-	. ' railway operations, seamanship, ship operation'),
-	array('','1088','1088 - Inter - disciplinary programmes and qualifications involving services'),
+	array('','1041','1041 - Perkhidmatan pengangkutan<br><strong>Program krew udara, operasi'
+	. ' pesawat, penerbangan, latihan kru kabin, kren, pemanduan trak & forklift, sains nautika,'
+	. ' perkhidmatan pos, operasi kereta api, pelayaran, operasi kapal</strong><br>(<em> Air crew'
+	. ' programmes, aircraft operation, aviation, cabin crew training, crane, truck & fork-lift'
+	. ' driving, nautical science, postal service, railway operations, seamanship,'
+	. ' ship operation</em>'),
+	array('','1088','1088 - Inter-disciplinary programmes and qualifications involving services'),
 	array('','1099','1099 - Services not elsewhere classified'),
 	array('','9999','9999 - Lain-lain/Field unknown'),
 	array('','X001','1. Pengekodan Bidang Pengajian (FS) adalah berdasarkan Sijil Tertinggi'
