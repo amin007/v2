@@ -1633,12 +1633,12 @@ $data['programLatihan'] = array(
 	. '<br>(<em>chemical engineering, laboratory technology, oil refining,'
 	. ' oil/gas/petrochemicals processing, plant and machine operation</em>)'),
 	array('','0712','0712 - Tenaga dan elektrik<br>(<strong>program penyaman udara, pembaikan'
-	. ' peralatan elektrik, pemasangan, kejuruteraan, penjanaan kuasa, pengagihan gas, tenaga'
-	. ' nuklear, hidraulik dan haba, pengeluaran kuasa, pemasangan talian kuasa, program'
-	. ' penyejukan, tenaga suria)</strong><br>(<em>air-conditioning programmes, electrical'
-	. ' appliances repairing, fitting, engineering, power generation, gas distribution, nuclear,'
-	. ' hydraulic and thermal energy, power production, powerline installation, refrigeration'
-	. ' programmes, solar energy)</em>'),
+	. ' peralatan elektrik, pemasangan, kejuruteraan, penjanaan kuasa, pengagihan gas, hidraulik'
+	. ' dan haba, pengeluaran kuasa, pemasangan talian kuasa, program penyejukan, tenaga nuklear,'
+	. ' tenaga suria)</strong><br>(<em>air-conditioning programmes, electrical appliances'
+	. ' repairing, fitting, engineering, power generation, gas distribution, hydraulic and thermal'
+	. ' energy, power production, powerline installation, refrigeration programmes, nuclear energy,'
+	. ' solar energy)</em>'),
 	array('','0713','0713 - Elektronik dan pengautomasian<br>(<strong>elektronik penyiaran, sistem'
 	. ' komunikasi, pemasangan, penyelenggaraan ekuimen, kejuruteraan komputer, pembaikan,'
 	. ' kejuruteraan kawalan, teknologi digital, teknologi rangkaian, robotik, teknologi'
@@ -1666,7 +1666,7 @@ $data['programLatihan'] = array(
 	array('','0722','0722 - Bahan (gelas, kertas, plastic dan kayu)'),
 	array('','0723','0723 - Tekstil, pakaian, pakaian kaki, kulit<br>(<strong>kerja pakaian dan'
 	. ' tekstil, menjahit, membuat pakaian, membuat kasut, membuat kasut, berputar</strong>)<br>'
-	. ' (<em>apparel and textile working, tailoring, dressmaking, footwear making, shoemaking,'
+	. '(<em>apparel and textile working, tailoring, dressmaking, footwear making, shoemaking,'
 	. ' spinning)</em>'),
 	array('','0724','0724 - Perlombongan dan galian (<strong>perlombongan arang batu, minyak &'
 	. ' gas, pengekstrakan bahan mentah</strong>)(<em>coal mining, oil & gas,raw material'
