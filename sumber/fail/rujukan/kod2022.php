@@ -1676,7 +1676,7 @@ $data['programLatihan'] = array(
 	array('','0731','0731 - Senibina'),
 	array('','0732','0732 - Perancangan bandar dan wilayah'),
 	array('','0733','0733 - Pembinaan dan bangunan'),
-	array('','0734','0734 - Mengukur/Surveying'),
+	array('','0734','0734 - Ukur tanah/Ukur bahan/<em>Surveying</em>'),
 	array('','0741','0741 - Teknologi kejuruteraan'),
 	array('','0788','0788 - Inter-disciplinary programmes and qualifications involving'
 	. ' engineering, manufacturing and construction'),
