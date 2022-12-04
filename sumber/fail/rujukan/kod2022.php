@@ -1645,13 +1645,18 @@ $data['programLatihan'] = array(
 	. ' repairing, control engineering, digital technologi, network technology, robotics,'
 	. ' telecommunication technology, television and radio repairing</em>)'),
 	array('','0714','0714 - Mekanik(mekanikal) dan kerja logam'),
-	array('','0715','0715 - Kenderaan bermotor, kapal dan kapal terbang (aeronautical/aerospace'
+	array('','0715','0715 - Kenderaan bermotor, kapal dan kapal terbang<br>(<strong>kejuruteraan'
+	. ' aeronautik/aeroangkasa, jentera pertanian, kejuruteraan kapal udara, kejuruteraan'
+	. ' automotif, kejuruteraan helikopter/marin/motosikal/ tentera laut, pembinaan kapal,'
+	. ' kejuruteraan kenderaan dan motor</strong>)<br>(<em>aeronautical/aerospace'
 	. ' engineering, agriculture machinery, air - craft engineering, automotive engineering,'
 	. ' helicopter/marine/motorcycle/ naval engineering, shipbuilding, vehicle and motor'
-	. ' engineering)'),
-	array('','0716','0716 - Kejuruteraan awam (bridge/building construction, dock and harbour'
-	. ' engineering, quantity surveying, road building, technical drawings, water supply and'
-	. ' sewerage engineering)'),
+	. ' engineering</em>)'),
+	array('','0716','0716 - Kejuruteraan awam<br>(<strong>pembinaan jambatan/bangunan,'
+	. ' kejuruteraan dok dan pelabuhan, ukur kuantiti, pembinaan jalan, lukisan teknikal,'
+	. ' bekalan air dan kejuruteraan pembetungan</strong>)<br>(<em>bridge/building construction,'
+	. ' dock and harbour engineering, quantity surveying, road building, technical drawings,'
+	. ' water supply and sewerage engineering</em>)'),
 	array('','0717','0717 - Teknologi perlindungan alam sekitar'),
 	array('','0718','0718 - Engineering and engineering trades not elsewhere classified'),
 	array('','072*','* - Pembuatan dan pemprosesan'),
