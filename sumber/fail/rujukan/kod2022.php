@@ -2053,8 +2053,8 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2.1
-$s = 'REQUEST_URI';//$s = 'PHP_SELF';
-//semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
+$s = 'REQUEST_URI';//$s = 'PHP_SELF';//$s = 'QUERY_STRING';
+//semakPembolehubah($_SERVER[$s],$s);
 if (isset($_SERVER[$s])):
 	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
 	$cari = explode('/',$fail[1]);//semakPembolehubah($cari,'pilih');
