@@ -48,11 +48,15 @@ if ( ! function_exists('versiphp')):
 		//echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
 		//echo '$_SERVER=><pre>'; print_r($_SERVER); echo '</pre>';
 		$paparServer = array('PATH_INFO','REQUEST_URI','PATH_TRANSLATED','PHP_SELF','QUERY_STRING',
-		'REQUEST_SCHEME','SERVER_PORT');
+		'REQUEST_SCHEME','SERVER_PORT','HTTP_USER_AGENT');
 		foreach($paparServer as $pelayan):
 			echo (isset($_SERVER[$pelayan])) ?
 				'<br>' . $pelayan . ' = <strong>' . $_SERVER[$pelayan] . '</strong>'
 				: '<br><em> pembolehubah ' . $pelayan . ' tak wujud</em>';
+		endforeach;
+		$pecahan = explode('C:\\',$_SERVER['PATH']); echo '<hr>';
+		foreach($pecahan as $kunci => $pecah):
+			echo '<br>' . $kunci . ' = C:\<strong>' . $pecah . '</strong>';
 		endforeach;
 	}
 endif;//*/
