@@ -3,8 +3,10 @@
 include 'fungsi_global.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-$arr = get_defined_functions_in_file('fungsi_global.php');
-semakPembolehubah($arr,'semak fungsi',0);
+//versiphp();
+#--------------------------------------------------------------------------------------------------
+//$arr = get_defined_functions_in_file('fungsi_global.php');
+//semakPembolehubah($arr,'semak fungsi',0);
 #--------------------------------------------------------------------------------------------------
 function get_defined_functions_in_file($file)
 {
