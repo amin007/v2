@@ -1,5 +1,6 @@
 <?php
 #############################################################################################################
+include '../fungsi_global.php';
 include '../atas-set-001.php';
 include '../diatas.php';
 $tableID = 'myTable';
