@@ -1,18 +1,22 @@
 <?php
-#############################################################################################################
+###################################################################################################
 include '../fungsi_global.php';
 include '../atas-set-001.php';
 include '../diatas.php';
 $tableID = 'myTable';
 $tableClass = 'table table-striped table-bordered';
-$tajuk = pecahArrayKeTH('#,BilM8,Negeri,Kod Negeri,Daerah,Kod DP,Mukim,Kod Mukim,PBT,Kod PBT,Bandar,Kod Bandar,DB00,BP00,Jenis BP00,Strata00,DB10,LB10,BP10,NGDBBP10,Jenis BP10,Strata10,DB20,LB20,BPSem20,NGDBBP20Sem,BPMuk20,NGDBBP20Muk,Jenis BP20,Strata20,JumTK10,JumPen10,JumTK20,JumPen20,Kod Perbandaran 2010,Nama PBT 2010,Kod Perbandaran 2020,Nama PBT 2020,DPN,Kod DPN,Wilayah Pem WP,Kod WP,Catatan');
+$tajuk = pecahArrayKeTH('#,BilM8,Negeri,Kod Negeri,Daerah,Kod DP,Mukim,Kod Mukim,PBT,Kod PBT,'
+.'Bandar,Kod Bandar,DB00,BP00,Jenis BP00,Strata00,DB10,LB10,BP10,NGDBBP10,Jenis BP10,Strata10,'
+.'DB20,LB20,BPSem20,NGDBBP20Sem,BPMuk20,NGDBBP20Muk,Jenis BP20,Strata20,JumTK10,JumPen10,'
+.'JumTK20,JumPen20,Kod Perbandaran 2010,Nama PBT 2010,Kod Perbandaran 2020,Nama PBT 2020,DPN,'
+.'Kod DPN,Wilayah Pem WP,Kod WP,Catatan');
 echo "\n" . '<table id="' . $tableID . '" class="' . $tableClass . '" style="width:100%">'
 . "\n<thead><tr>$tajuk</tr></thead>\n<tfoot><tr>$tajuk</tr></tfoot>\n"
 . "</table>\n";
 include '../dibawah.php';
 //$datajson = '../../../../../cari/coicopjson';
 $datajson = 'kodalamat02.json';
-#############################################################################################################
+###################################################################################################
 ?>
 <script type="text/javascript">
 /////////////////////////////////////////////////////////////
