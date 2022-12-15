@@ -87,7 +87,6 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = 'Latihan' . $tajuk;
 		$namaFail = 'latihan' . $tajuk;
-		//$this->papar->senarai = $this->tanya->dnschanger();
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 
 		# Pergi papar kandungan
