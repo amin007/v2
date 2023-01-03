@@ -1561,7 +1561,8 @@ $data['programLatihan'] = array(
 	. ' social, journalism and information'),
 	array('','0399','0399 - Science social, journalism and information not elsewhere classified'),
 	array('','04**','* - Perniagaan dan pentadbiran'),
-	array('','0400','0400 - Business, administration and law not further defined'),
+	array('','0400','0400 - <strong>Perniagaan, pentadbiran & undang-undang</strong>/'
+	. '<em>Business, administration and law not further defined</em>'),
 	array('','0411','0411 - Perakaunan, percukaian, pengauditan, simpan kira'),
 	array('','0412','0412 - Kewangan, perbankan, insurans, pelaburan'),
 	array('','0413','0413 - Perbankan dan kewangan islam'),
@@ -1577,7 +1578,8 @@ $data['programLatihan'] = array(
 	. '</strong>)<br>(<em>clerical programmes, typing, stenography, shorthand, receptionist'
 	. ' training, legal secretary</em>)'),
 	array('','0417','0417 - Kemahiran pekerjaan'),
-	array('','0418','0418 - Business and administration not elsewhere classified'),
+	array('','0418','0418 - <strong>Perniagaan & pentadbiran lain</strong>/<em>Business and'
+	. ' administration not elsewhere classified</em>'),
 	array('','042*','* - Undang-undang'),
 	array('','0421','0421 - Undang-undang/LAW'),
 	array('','0488','0488 - Inter-disciplinary programmes and qualifications involving business,'
