@@ -1779,6 +1779,7 @@ dikodkan `301` hingga `330` (institusi pengajian luar negara).
 # masco msic - kena tukar masco v2018 kepada v2020
 $tajuk['mascoMsicV2'] = '#,Pekerjaan,Industri,Masco,Msic';
 $data['mascoMsicV2'] = array(
+	array('','PENGURUS SYARIKAT','KONTRAKTOR AWAM','112122','42909'),
 	array('','PENGURUS','PASARAYA','122109','47112'),
 	array('','PENYELIA','PASARAYA','522203','47112'),
 	array('','PEKERJA','PASARAYA','522302','47112'),
