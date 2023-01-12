@@ -517,12 +517,12 @@ $data['Pendidikan 2022'] = array(
 	- Kelayakan masuk mengikut peraturan yg ditetapkan oleh kerajaan atau sekolah rendah berkenaan.
 	- Permulaan aktiviti pembacaan sahaja bukan kriteria untuk klasifikasi program pendidikan ini.
 	*/
-	array('','101','101 - Darjah / Tahun 1','Pendidikan rendah'),
-	array('','102','102 - Darjah / Tahun 2','Pendidikan rendah'),
-	array('','103','103 - Darjah / Tahun 3','Pendidikan rendah'),
-	array('','104','104 - Darjah / Tahun 4','Pendidikan rendah'),
-	array('','105','105 - Darjah / Tahun 5','Pendidikan rendah'),
-	array('','106','106 - Darjah / Tahun 6','Pendidikan rendah'),
+	array('','101','101 - Darjah / Tahun 1','Pendidikan rendah. Jika Luar Negara = Thn 1'),
+	array('','102','102 - Darjah / Tahun 2','Pendidikan rendah. Jika Luar Negara = Thn 2'),
+	array('','103','103 - Darjah / Tahun 3','Pendidikan rendah. Jika Luar Negara = Thn 3'),
+	array('','104','104 - Darjah / Tahun 4','Pendidikan rendah. Jika Luar Negara = Thn 4'),
+	array('','105','105 - Darjah / Tahun 5','Pendidikan rendah. Jika Luar Negara = Thn 5'),
+	array('','106','106 - Darjah / Tahun 6','Pendidikan rendah. Jika Luar Negara = Thn 6'),
 	/*
 	(umur pelajar: 12-15 tahun); (pengajian terkumpul: 7-10 tahun)
 	- Meneruskan program pendidikan asas yg dijalankan di peringkat rendah.
@@ -536,10 +536,10 @@ $data['Pendidikan 2022'] = array(
 	- Pelajar akan menduduki peperiksaan penilaian di peringkat akhir pendidikan menengah rendah,
 	sebelum menyambung pelajaran ke peringkat menengah atas.
 	*/
-	array('','201','201 - Kelas Peralihan','Pendidikan menengah rendah'),
-	array('','202','202 - Tingkatan 1','Pendidikan menengah rendah'),
-	array('','203','203 - Tingkatan 2','Pendidikan menengah rendah'),
-	array('','204','204 - Tingkatan 3','Pendidikan menengah rendah'),
+	array('','201','201 - Kelas Peralihan','Pendidikan menengah rendah. Jika Luar Negara = Thn 7'),
+	array('','202','202 - Tingkatan 1','Pendidikan menengah rendah. Jika Luar Negara = Thn 8'),
+	array('','203','203 - Tingkatan 2','Pendidikan menengah rendah. Jika Luar Negara = Thn 9'),
+	array('','204','204 - Tingkatan 3','Pendidikan menengah rendah. Jika Luar Negara = Thn 10'),
 	/*
 	(umur pelajar: 15-17 tahun); (pengajian terkumpul: 10-12 tahun)
 	- Merupakan kesinambungan program menengah rendah.
@@ -555,8 +555,8 @@ $data['Pendidikan 2022'] = array(
 	- Terdapat juga pelajar sekolah vokasional/ teknik yg hanya menduduki peperiksaan
 	Sijil Kemahiran Malaysia.
 	*/
-	array('','205','205 - Tingkatan 4','Pendidikan menengah atas'),
-	array('','206','206 - Tingkatan 5','Pendidikan menengah atas'),
+	array('','205','205 - Tingkatan 4','Pendidikan menengah atas. Jika Luar Negara = Thn 11'),
+	array('','206','206 - Tingkatan 5','Pendidikan menengah atas. Jika Luar Negara = Thn 12'),
 	array('','207','207 - Program kemahiran asas',
 	'(umur pelajar antara 15-40 tahun)<br>'
 	. '- Syarat minimum kemasukan ke program ini adalah boleh membaca, menulis dan mengira.<br>'
@@ -596,8 +596,9 @@ $data['Pendidikan 2022'] = array(
 	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
 	. '- Tempoh pengajian selama 1-2 tahun.<br>'
 	. '- Pelajar yg telah menamatkan pendidikan di peringkat ini boleh meneruskan pengajian'
-	. 'di peringkat diploma/ijazah atau memasuki pasaran buruh.'),
-	array('','302','302 - Tingkatan 6 atas',''),
+	. 'di peringkat diploma/ijazah atau memasuki pasaran buruh.<br>'
+	. 'Jika Pendidikan Luar Negara = Thn 12/13'),
+	array('','302','302 - Tingkatan 6 atas','Jika Pendidikan Luar Negara = Thn 13/14'),
 	array('','303','303 - Matrikulasi',''),
 	array('','304','304 - Program persediaan',''),
 	array('','305','305 - Pra universiti','(umur pelajar: 17-19 tahun);'
