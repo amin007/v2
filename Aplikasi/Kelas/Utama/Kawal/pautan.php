@@ -118,4 +118,48 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 	}//*/
 #--------------------------------------------------------------------------------------------------
 #==================================================================================================
+#--------------------------------------------------------------------------------------------------
+	public function processCuddle($a=null)
+	{
+		# Set pemboleubah utama
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$this->semakPembolehubah($_POST,'POST',0);
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		//$this->paparKandungan($this->_folder,$namaFail,$noInclude=0);
+	}
+#--------------------------------------------------------------------------------------------------
+/*
+		$POST[cuddle]
+		[name] => cute girl
+		[age] => 20
+		[gender] => female
+		[phone] => 0123456789
+		[address1] => a
+		[address2] => b
+		[movies1] => a
+		[movies2] => b
+		[movies3] => c
+		[movies4] => d
+		[movies5] => e
+		[facts1] => 1
+		[facts2] => 2
+		[facts3] => 3
+		[facts4] => 4
+		[facts5] => 5
+		[cutename] => yes
+		[fort] => no
+		[food] => yes
+		[kiss] => no
+		[ms-instagram] => cute_girl
+		[ms-twitter] => cute_girl
+		[ms-tumblr] => cute_girl
+		[ms-snapchat] => cute_girl
+		[ms-tiktok] => cute_girl
+		[signature] => cute_girl
+		[face-photo] =>
+*/
+#--------------------------------------------------------------------------------------------------
+#==================================================================================================
 }
