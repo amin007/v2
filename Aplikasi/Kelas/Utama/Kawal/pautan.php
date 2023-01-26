@@ -93,6 +93,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		$this->paparKandungan($this->_folder,$namaFail,$noInclude=0);
 	}
+#------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 	/*public function mediasosial($a=null)
 	{
