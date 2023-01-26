@@ -94,7 +94,18 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,$namaFail,$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------------------
+	public function cuddle($a=null)
+	{
+		# Set pemboleubah utama
+		$this->papar->Tajuk_Muka_Surat = 'CUDDLE APPLICATION';
+		$namaFail = 'cuddle';
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+
+		# Pergi papar kandungan
+		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
+		$this->paparKandungan($this->_folder,$namaFail,$noInclude=0);
+	}
+#------------------------------------------------------------------------------------------
 	/*public function mediasosial($a=null)
 	{
 		# Set pemboleubah utama
