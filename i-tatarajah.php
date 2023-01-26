@@ -26,6 +26,7 @@ $bootstrapCSS_cdn = 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/boot
 $bootstrapCSS_431 = 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
  $ceruleanCSS_431 = 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css';
  $fontawesome_510 = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+ $fontawesome_514 = 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
 ## local
             $sumber = 'sumber/utama/';
       $jquery_local = $sumber . 'jquery/jquery-2.2.3.min.js';
