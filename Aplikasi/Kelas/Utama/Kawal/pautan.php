@@ -2,7 +2,7 @@
 namespace Aplikasi\Kawal; //echo __NAMESPACE__;
 class Pautan extends \Aplikasi\Kitab\Kawal
 {
-#==========================================================================================
+#==================================================================================================
 	function __construct()
 	{
 		parent::__construct();
@@ -12,7 +12,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}
-##------------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	public function index($a=null)
 	{
 		# Set pemboleubah utama
@@ -24,7 +24,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
 	}
-##------------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	public function paparHeader($lokasi = 'pergi/mana')
 	{
 		//$this->paparHeader('sumber/fail/rujukan');
@@ -32,7 +32,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//echo '<br>location: ' . URL . $lokasi;
 		header('location:' . URL . $lokasi);//*/
 	}
-##------------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	public function paparKandungan($folder, $fail, $noInclude)
 	{
 		$jenis = $this->papar->pilihTemplate($template=431);
@@ -42,7 +42,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 			//'mobile/mobile',$jenis,0); # $noInclude=0
 		//*/
 	}
-##------------------------------------------------------------------------------------------
+##-------------------------------------------------------------------------------------------------
 	function logout()
 	{
 		//echo '<pre>sebelum:'; print_r($_SESSION); echo '</pre>';
@@ -50,8 +50,8 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		header('location: ' . URL);
 		//exit;
 	}
-#==========================================================================================
-#------------------------------------------------------------------------------------------
+#==================================================================================================
+#--------------------------------------------------------------------------------------------------
 	public function utama($a=null)
 	{
 		# Set pemboleubah utama
@@ -69,7 +69,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		$this->paparKandungan($this->_folder,'utama',$noInclude=0);
 	}
-#------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	public function dns($a=null)
 	{
 		# Set pemboleubah utama
@@ -81,7 +81,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		$this->paparKandungan($this->_folder,'dns',$noInclude=0);
 	}//*/
-#------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	public function latihan($tajuk = '001')
 	{
 		# Set pemboleubah utama
@@ -93,7 +93,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		$this->paparKandungan($this->_folder,$namaFail,$noInclude=0);
 	}
-#------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	public function cuddle($a=null)
 	{
 		# Set pemboleubah utama
@@ -105,7 +105,7 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai); # Semak data dulu
 		$this->paparKandungan($this->_folder,$namaFail,$noInclude=0);
 	}
-#------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 	/*public function mediasosial($a=null)
 	{
 		# Set pemboleubah utama
@@ -116,6 +116,6 @@ class Pautan extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		$this->paparKandungan($this->_folder,'mediasosial',$noInclude=0);
 	}//*/
-#------------------------------------------------------------------------------------------
-#==========================================================================================
+#--------------------------------------------------------------------------------------------------
+#==================================================================================================
 }
