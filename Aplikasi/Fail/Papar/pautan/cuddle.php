@@ -1,5 +1,7 @@
 <!-- mula - borang utama ---------------------------------------------------------------------------------------------- -->
-<form method="POST" action="" class="form-horizontal bg-light text-dark">
+<?php $url = URL . 'pautan/processCuddle/';
+//echo $url . '<br>'; ?>
+<form method="POST" action="<?php echo $url ?>" class="form-horizontal bg-light text-dark">
 <!-- mula - input tengah ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <div class="form-group row">
 	<div class="col-1"></div>
@@ -12,49 +14,49 @@
 	<div class="col-1"></div>
 	<div class="col-8">
 		<label for="" class="form-label font-weight-bold">Name</label>
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[name]">
 	</div>
 </div><!-- / class="form-group row" -->
 <div class="form-group row">
 	<div class="col-1"></div>
 	<div class="col-1">
 		<label for="" class="form-label font-weight-bold">Age</label>
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[age]">
 	</div><!-- / class="col-md-*" -->
 	<div class="col-3">
 		<label for="" class="form-label font-weight-bold">Gender</label>
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[gender]">
 	</div><!-- / class="col-md-*" -->
 	<div class="col-4">
 		<label for="" class="form-label font-weight-bold">Phone Number</label>
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[phone]">
 	</div><!-- / class="col-md-*" -->
 </div><!-- / class="form-group row" -->
 <div class="form-group row">
 	<div class="col-1"></div>
 	<div class="col-8">
 		<label for="" class="form-label font-weight-bold">Address</label>
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[address1]">
+		<input type="text" class="form-control" name="cuddle[address2]">
 	</div>
 </div><!-- / class="form-group row" -->
 <div class="form-group row">
 	<div class="col-1"></div>
 	<div class="col-3">
 		<label for="" class="form-label font-weight-bold">Top 5 Movies</label>
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[movies1]">
+		<input type="text" class="form-control" name="cuddle[movies2]">
+		<input type="text" class="form-control" name="cuddle[movies3]">
+		<input type="text" class="form-control" name="cuddle[movies4]">
+		<input type="text" class="form-control" name="cuddle[movies5]">
 	</div>
 	<div class="col-5">
 		<label for="" class="form-label font-weight-bold">5 Random Facts&nbsp;About Youself</label>
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[facts1]">
+		<input type="text" class="form-control" name="cuddle[facts2]">
+		<input type="text" class="form-control" name="cuddle[facts3]">
+		<input type="text" class="form-control" name="cuddle[facts4]">
+		<input type="text" class="form-control" name="cuddle[facts5]">
 	</div>
 </div><!-- / class="form-group row" -->
 <div class="form-group row">
@@ -63,11 +65,11 @@
 		<label for="" class="form-label font-weight-bold">
 		Do you mind if i give you a cute name</label>
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[cutename]" value="yes">
 			<label class="form-check-label" for="">Yes</label>
 		</div><!-- / ="form-check form-check-inline" -->
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[cutename]" value="no">
 			<label class="form-check-label" for="">No</label>
 		</div><!-- / ="form-check form-check-inline" -->
 	</div><!-- / class="col-8" -->
@@ -77,11 +79,11 @@
 	<div class="col-8">
 		<label for="" class="form-label font-weight-bold">Can we build a fort</label>
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[fort]" value="yes">
 			<label class="form-check-label" for="">Yes</label>
 		</div><!-- / ="form-check form-check-inline" -->
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[fort]" value="no">
 			<label class="form-check-label" for="">No</label>
 		</div><!-- / ="form-check form-check-inline" -->
 	</div><!-- / class="col-8" -->
@@ -92,11 +94,11 @@
 		<label for="" class="form-label font-weight-bold">
 		Will there be random junk food and food fights</label>
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[food]" value="yes">
 			<label class="form-check-label" for="">Yes</label>
 		</div><!-- / ="form-check form-check-inline" -->
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[food]" value="no">
 			<label class="form-check-label" for="">No</label>
 		</div><!-- / ="form-check form-check-inline" -->
 	</div><!-- / class="col-8" -->
@@ -106,11 +108,11 @@
 	<div class="col-8">
 		<label for="" class="form-label font-weight-bold">Do you mind kiss</label>
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[kiss]" value="yes">
 			<label class="form-check-label" for="">Yes</label>
 		</div><!-- / ="form-check form-check-inline" -->
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="cuteName">
+			<input class="form-check-input" type="radio" name="cuddle[kiss]" value="no">
 			<label class="form-check-label" for="">No</label>
 		</div><!-- / ="form-check form-check-inline" -->
 	</div><!-- / class="col-8" -->
@@ -123,29 +125,29 @@
 		<div class="input-group input-group-lg">
 			<span class="input-group-text">Instagram&nbsp;
 			<i class="fab fa-instagram fa-2x"></i></span>
-			<input type="text" class="form-control">
+			<input type="text" class="form-control" name="cuddle[ms-instagram]">
 		</div><!-- / class="input-group" -->
 		<div class="input-group input-group-lg">
 			<span class="input-group-text">Twitter&nbsp;
 			<i class="fab fa-twitter-square fa-2x"></i></span>
-			<input type="text" class="form-control">
+			<input type="text" class="form-control"name="cuddle[ms-twitter]">
 		</div><!-- / class="input-group" -->
 	</div><!-- / class="col-4" -->
 	<div class="col-4">
 		<div class="input-group input-group-lg">
 			<span class="input-group-text">Tumblr&nbsp;
 			<i class="fab fa-tumblr-square fa-2x"></i></span>
-			<input type="text" class="form-control">
+			<input type="text" class="form-control" name="cuddle[ms-tumblr]">
 		</div><!-- / class="input-group" -->
 		<div class="input-group input-group-lg">
 			<span class="input-group-text">Snapchat&nbsp;
 			<i class="fab fa-snapchat-square fa-2x"></i></span>
-			<input type="text" class="form-control">
+			<input type="text" class="form-control" name="cuddle[ms-snapchat]">
 		</div><!-- / class="input-group" -->
 		<div class="input-group input-group-lg">
 			<span class="input-group-text">TikTok&nbsp;
 			<i class="fab fa-tiktok fa-2x"></i></span>
-			<input type="text" class="form-control">
+			<input type="text" class="form-control" name="cuddle[ms-tiktok]">
 		</div><!-- / class="input-group" -->
 	</div><!-- / class="col-4" -->
 </div><!-- / class="form-group row" -->
@@ -160,11 +162,11 @@
 		<br>nap and take pictures and do cute things together.
 		</p>
 		<label for="" class="form-label font-weight-bold">Signature</label>
-		<input type="text" class="form-control">
+		<input type="text" class="form-control" name="cuddle[signature]">
 	</div><!-- / class="col-4" -->
 	<div class="col-4">
 		<div class="input-group mb-3">
-			<input type="file" class="form-control" id="inputGroupFile02">
+			<input type="file" class="form-control" name="cuddle[face-photo]">
 			<label class="input-group-text" for="inputGroupFile02">Upload Photo</label>
 		</div>
 		<div class="text-center">
