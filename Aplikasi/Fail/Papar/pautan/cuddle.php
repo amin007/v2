@@ -17,15 +17,15 @@
 </div><!-- / class="form-group row" -->
 <div class="form-group row">
 	<div class="col-1"></div>
-	<div class="col-md-1">
+	<div class="col-1">
 		<label for="" class="form-label font-weight-bold">Age</label>
 		<input type="text" class="form-control">
 	</div><!-- / class="col-md-*" -->
-	<div class="col-md-3">
+	<div class="col-3">
 		<label for="" class="form-label font-weight-bold">Gender</label>
 		<input type="text" class="form-control">
 	</div><!-- / class="col-md-*" -->
-	<div class="col-md-4">
+	<div class="col-4">
 		<label for="" class="form-label font-weight-bold">Phone Number</label>
 		<input type="text" class="form-control">
 	</div><!-- / class="col-md-*" -->
