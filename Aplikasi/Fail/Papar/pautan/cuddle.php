@@ -4,7 +4,7 @@
 <div class="form-group row">
 	<div class="col-1"></div>
 	<div class="col-8">
-		<h1 class="display-1 text-center"><?php echo $this->Tajuk_Muka_Surat ?></h1>
+		<h1 class="text-center"><?php echo $this->Tajuk_Muka_Surat ?></h1>
 		<p class="text-center">I am lonely and cold dan in need of a cudle buddy so fill this out</p>
 	</div>
 </div><!-- / class="form-group row" -->
@@ -40,7 +40,7 @@
 </div><!-- / class="form-group row" -->
 <div class="form-group row">
 	<div class="col-1"></div>
-	<div class="col-4">
+	<div class="col-3">
 		<label for="" class="form-label font-weight-bold">Top 5 Movies</label>
 		<input type="text" class="form-control">
 		<input type="text" class="form-control">
@@ -48,8 +48,8 @@
 		<input type="text" class="form-control">
 		<input type="text" class="form-control">
 	</div>
-	<div class="col-4">
-		<label for="" class="form-label font-weight-bold">5 Random Facts About Youself</label>
+	<div class="col-5">
+		<label for="" class="form-label font-weight-bold">5 Random Facts&nbsp;About Youself</label>
 		<input type="text" class="form-control">
 		<input type="text" class="form-control">
 		<input type="text" class="form-control">
