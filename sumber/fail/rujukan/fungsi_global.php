@@ -243,11 +243,11 @@ if ( ! function_exists('paparSatuJadual')):
 		$output = null;
 		$bilBaris = count($row);
 		$cetak_tajuk_utama = false;# mula bina jadual
-		#-----------------------------------------------------------------
+		#----------------------------------------------------------------------
 		for ($kira=0; $kira < $bilBaris; $kira++)
 		{	# papar tajuk jadual sekali sahaja :
 			if ( !$cetak_tajuk_utama )
-			{##===========================================================
+			{##================================================================
 				$output .= "\n\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
 				$tajuk = tajukMedanJadual($jadual,$kunci);
@@ -255,17 +255,18 @@ if ( ! function_exists('paparSatuJadual')):
 				endforeach;
 				$output .= "\n\t" . '</tr></thead>';
 				$output .= "\n\t" . '<tbody>';
-			##============================================================
+			##=================================================================
 				$cetak_tajuk_utama = true;
 			}
-		#-----------------------------------------------------------------
+		#---------------------------------------------------------------------
 			# papar baris data dari tatasusunan
 			$output .= "\n\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\n\t\t" . '<td>' . $data . '</td>';
+			//$output .= "<!-- $key|$kira -->";# untuk debug di masa hadapan
 			endforeach;
 			$output .= "\n\t" . '</tr>';
-		}#----------------------------------------------------------------
+		}#---------------------------------------------------------------------
 		$output .= "\n\t" . '</tbody>';
 
 		return $output;//*/
@@ -294,11 +295,11 @@ if ( ! function_exists('paparJadual')):
 		$output = null;
 		$bil_baris = count($row);
 		$printed_headers = false;# mula bina jadual
-		#-----------------------------------------------------------------
+		#----------------------------------------------------------------------
 		for ($kira=0; $kira < $bil_baris; $kira++)
 		{	# print the headers once:
 			if ( !$printed_headers )
-			{##===========================================================
+			{##================================================================
 				$output .= "\r\t<thead><tr>";
 				foreach ( array_keys($row[$kira]) as $kunci ) :
 				$tajuk = tajukMedanJadual($jadual,$kunci);
@@ -306,17 +307,18 @@ if ( ! function_exists('paparJadual')):
 				endforeach;
 				$output .= "\r\t" . '</tr></thead>';
 				$output .= "\r\t" . '<tbody>';
-			##============================================================
+			##=================================================================
 				$printed_headers = true;
 			}
-		#-----------------------------------------------------------------
+		#----------------------------------------------------------------------
 			# print the data row
 			$output .= "\r\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\r\t" . '<td>' . $data . '</td>';
+			//$output .= "<!-- $key|$kira -->";# untuk debug di masa hadapan
 			endforeach;
 			$output .= "\r\t" . '</tr></tbody>';
-		}#----------------------------------------------------------------
+		}#---------------------------------------------------------------------
 
 		return $output;
 	}
@@ -351,16 +353,17 @@ if ( ! function_exists('paparDataSahaja')):
 		$output = null;
 		$bilBaris = count($row);
 		$output .= "\n\t" . '<tbody>';
-		#-----------------------------------------------------------------
+		#----------------------------------------------------------------------
 		for ($kira=0; $kira < $bilBaris; $kira++)
-		{#-----------------------------------------------------------------
+		{#---------------------------------------------------------------------
 			# papar baris data dari tatasusunan
 			$output .= "\n\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\n\t\t" . '<td>' . $data . '</td>';
+			//$output .= "<!-- $key|$kira -->";# untuk debug di masa hadapan
 			endforeach;
 			$output .= "\n\t" . '</tr>';
-		}#----------------------------------------------------------------
+		}#---------------------------------------------------------------------
 		$output .= "\n\t" . '</tbody>';
 
 		return $output;//*/
