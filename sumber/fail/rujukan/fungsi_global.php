@@ -701,6 +701,7 @@ if ( ! function_exists('jqueryExtendA')):
 	function jqueryExtendA()
 	{
 		print <<<END
+/* ***************************************************************************************** */
 jQuery.extend({
 	highlight: function (node, re, nodeName, className)
 	{
