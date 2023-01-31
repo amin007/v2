@@ -697,6 +697,24 @@ END;
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+# nota untuk function jsBuatLimitPage($pilih=1)
+#https://stackoverflow.com/questions/9443773/how-to-show-all-rows-by-default-in-jquery-datatable
+#https://datatables.net/forums/discussion/69141/set-default-page-length-option-to-100-show-entries
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('jsBuatLimitPage')):
+	function jsBuatLimitPage($pilih=1)
+	{
+		$papar[] = '';
+		$papar[] = 'pageLength: 10,' . "\n\t"
+		. 'aLengthMenu: [[5, 10, 25, 50, 100, 200, -1],'
+		. '[5, 10 ,25, 50, 100, 200, "All"]],'
+		//. "\n\t". 'iDisplayLength: -1,'
+		. '';
+
+		return $papar[$pilih];
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('jqueryExtendA')):
 	function jqueryExtendA()
 	{
