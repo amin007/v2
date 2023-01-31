@@ -568,8 +568,7 @@ if ( ! function_exists('linkCssJs')):
 		## cdn bootstrap 3.3.7 ====================================================================
 		$bootstrapJS_cdn = '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
 		$bootstrapCSS_cdn = '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
-		$ceruleanCSS_cdn = '//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min'
-		. '.css';
+		$ceruleanCSS_cdn = '//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css';
 		$fontawesome_cdn = '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min'
 		. '.css';
 		## cdn bootstrap 4.1.3 ====================================================================
@@ -578,6 +577,7 @@ if ( ! function_exists('linkCssJs')):
 		$ceruleanCSS_413 = '//stackpath.bootstrapcdn.com/bootswatch/4.1.3/cerulean/bootstrap.min'
 		. '.css';
 		$fontawesome_510 = '//use.fontawesome.com/releases/v5.1.0/css/all.css';
+		$fontawesome_5140 = '//use.fontawesome.com/releases/v5.14.0/css/all.css';
 		## local  =================================================================================
 		$sumber = 'sumber/utama/';
 		$jquery_local = $sumber . 'jquery/jquery-2.2.3.min.js';
