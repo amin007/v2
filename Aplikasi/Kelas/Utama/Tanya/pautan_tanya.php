@@ -100,6 +100,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[payoneer]'=>'https://www.payoneer.com',
 			'[invisionapp]'=>'https://www.invisionapp.com',
 			'[shapr3d]'=>'https://www.shapr3d.com',
+			'[sketchup]'=>' https://app.sketchup.com',
 			'[Git Tool Submodules]'=>'https://git-scm.com/book/en/v2/Git-Tools-Submodules',
 			'[Spring Java]'=>'https://start.spring.io',
 			'[best screen recorders windows 7]'=>'https://www.screencapture.com/blog/'
