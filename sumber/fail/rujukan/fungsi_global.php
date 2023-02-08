@@ -948,7 +948,7 @@ if ( ! function_exists('panggilDataTable01')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
+		if($pilih != '' && !isset($data[$pilih])) binaJadual02($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
@@ -969,7 +969,7 @@ if ( ! function_exists('panggilDataTable02')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
-		if($pilih != '') binaJadualJson($tajuk[$pilih],$pilih);
+		if($pilih != '') semakJadualJson($tajuk,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
