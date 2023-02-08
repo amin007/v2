@@ -2026,10 +2026,14 @@ $tajuk['msic'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic'] = './utama/msic.json';
 $tajuk['coicop'] = '#,kod1,kod2,keterangan';
 $data['coicop'] = './utama/coicop.json';
+$tajuk['masco_subutama'] = '#,kumpulan,masco_lama,jawatan';
+$data['masco_subutama'] = './utama/masco_subutama.json';
+$tajuk['pendidikan'] = '#,kod,keterangan_lama,nota01';
+$data['pendidikan'] = './utama/pendidikan.json';
 //*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
-$dataJson = ['institut','coicop','komuniti','produkmm','msic'];
+$dataJson = ['institut','coicop','pendidikan','masco_subutama','komuniti','produkmm','msic'];
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
