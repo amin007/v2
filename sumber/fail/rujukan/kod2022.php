@@ -2018,12 +2018,12 @@ $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksy
 ###################################################################################################
 # bina tatasusunan untuk fail json
 #--------------------------------------------------------------------------------------------------
-$tajuk['komuniti'] = '#,versi,msic,kod produk,kod2,keterangan,keterangan inggeris';
+/*$tajuk['komuniti'] = '#,versi,msic,kod produk,kod2,keterangan,keterangan inggeris';
 $data['komuniti'] = './utama/komuniti.json';
 $tajuk['produkmm'] = '#,msic,kodx,keterangan,aup-min-max';
 $data['produkmm'] = './utama/produkmm.json';
 $tajuk['msic'] = '#,s,msic,keterangan,msic2000,notakaki';
-$data['msic'] = './utama/msic.json';
+$data['msic'] = './utama/msic.json';*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataJson = ['institut','coicop','komuniti','produkmm','msic'];
