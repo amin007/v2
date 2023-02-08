@@ -997,8 +997,9 @@ endif;//*/
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
 	{
-		$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
 		//$theme = (isset($theme)) ? $theme : null;# Null coalescing operator
+		$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
+		$senaraiJS = binaSenaraiJs();
 
 		echo "\n";
 		print <<<END
@@ -1013,6 +1014,7 @@ if ( ! function_exists('dibawah')):
 
 <!-- khas untuk jquery dan js2 lain
 =============================================================================================== -->
+$senaraiJS
 END;
 		#
 	}
