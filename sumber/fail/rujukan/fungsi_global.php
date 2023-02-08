@@ -177,7 +177,18 @@ if ( ! function_exists('tajukMedanJadual')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
-# untuk semak jadual berasaskan json
+# untuk semak tajuk medan berasaskan json
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('semakJadualJson')):
+	function semakJadualJson($tajuk,$pilih)
+	{
+		if(isset($tajuk[$pilih])):
+			binaJadualJson($tajuk[$pilih],$pilih);
+		else:
+			//echo 'Jadual tak wujud';
+		endif;
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaJadualJson')):
 	function binaJadualJson($tajuk,$pilih)
