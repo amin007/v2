@@ -1028,14 +1028,14 @@ $data['PendidikanSijil 2022'] = array(
 	array('','802','802 - Skim pasca kedoktoran','862 - Diploma/Sijil pasca kedoktoran'),
 );
 #--------------------------------------------------------------------------------------------------
-//3.20 Ruangan 18 – INSTITUSI PENGAJIAN (IP)
+//3.20 Ruangan 18 - INSTITUSI PENGAJIAN (IP)
 $tajuk['ip'] = '#,kod,keterangan,nota01';
 $data['ip'] = './utama/institut.json';
 /*$data['ip'] = [
 	['','kod','keterangan','nota01'],
 ];*/
 #--------------------------------------------------------------------------------------------------
-//3.21 Ruangan 19 – Bidang Pengajian (FS)
+//3.21 Ruangan 19 - Bidang Pengajian (FS)
 $tajuk['Pengajian 2022'] = '#,Kumpulan Bidang Utama &amp; Sub-utama,Perincian Bidang Pengajian';
 $data['Pengajian 2022'] = array(
 	array('','xx : Kumpulan Bidang Utama<br>xxx : Kumpulan Bidang Sub-utama<br>',
@@ -1264,7 +1264,7 @@ $data['Pengajian 2022'] = array(
 	array('','99 : Lain-lain | 999 : Lain-lain<br>','9999 - Lain-lain'),
 );
 #--------------------------------------------------------------------------------------------------
-//3.21 Ruangan 19 – Bidang Pengajian (FS)
+//3.21 Ruangan 19 - Bidang Pengajian (FS)
 $tajuk['Bidang'] = '#,Kumpulan Bidang Utama &amp; Sub-utama,Perincian Bidang Pengajian';
 $data['Bidang'] = array(
 	array('','xx : Kumpulan Bidang Utama | xxx : Kumpulan Bidang Sub-utama',
