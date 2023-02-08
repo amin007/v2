@@ -1029,11 +1029,8 @@ $data['PendidikanSijil 2022'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //3.20 Ruangan 18 - INSTITUSI PENGAJIAN (IP)
-$tajuk['ip'] = '#,kod,keterangan,nota01';
-$data['ip'] = './utama/institut.json';
-/*$data['ip'] = [
-	['','kod','keterangan','nota01'],
-];*/
+$tajuk['institut'] = '#,kod,keterangan,nota01';
+$data['institut'] = './utama/institut.json';
 #--------------------------------------------------------------------------------------------------
 //3.21 Ruangan 19 - Bidang Pengajian (FS)
 $tajuk['Pengajian 2022'] = '#,Kumpulan Bidang Utama &amp; Sub-utama,Perincian Bidang Pengajian';
@@ -2089,7 +2086,7 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
-		elseif($cariApa == 'ip'):
+		elseif($cariApa == 'institusi'):
 			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
 		else:
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
