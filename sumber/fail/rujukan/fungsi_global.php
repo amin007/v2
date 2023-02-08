@@ -999,7 +999,7 @@ if ( ! function_exists('dibawah')):
 	{
 		//$theme = (isset($theme)) ? $theme : null;# Null coalescing operator
 		$theme = ( !isset($pilih) ) ? 'Asal Bootstrap Twitter' : $pilih;
-		$senaraiJS = binaSenaraiJs();
+		$senaraiJS = binaSenaraiJs($urljs);
 
 		echo "\n";
 		print <<<END
@@ -1021,7 +1021,7 @@ END;
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaSenaraiJs')):
-	function binaSenaraiJs()
+	function binaSenaraiJs($urljs)
 	{
 		$p = '';
 		if (isset($urljs))
