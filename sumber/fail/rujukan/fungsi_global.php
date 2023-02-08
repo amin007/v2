@@ -881,7 +881,7 @@ if ( ! function_exists('binaPautan')):
 			array('a'=>'success','b'=>$folder . 'msic-cari.html','c'=>'MSIC'),
 			array('a'=>'success','b'=>$folder . 'masco-cari.html','c'=>'MASCO2013'),
 			array('a'=>'success','b'=>$folder . 'masco2020-cari.html','c'=>'MASCO2020'),
-			array('a'=>'info','b'=>$folder . 'institut-cari.html','c'=>'Institut'),
+			//array('a'=>'info','b'=>$folder . 'institut-cari.html','c'=>'Institut'),
 			array('a'=>'info','b'=>$folder . 'negara-cari.html','c'=>'Negara'),
 			array('a'=>'info','b'=>$folder . 'produkmm-cari.html','c'=>'ProdukMM'),
 			array('a'=>'warning','b'=>'./kod00.php','c'=>'kod-lama'),
