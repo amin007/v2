@@ -1014,19 +1014,25 @@ if ( ! function_exists('dibawah')):
 <!-- khas untuk jquery dan js2 lain
 =============================================================================================== -->
 END;
-		if (isset($urljs))
-		{
-			foreach ($urljs as $js)
-			{
-				echo "\n" . '<script type="text/javascript" src="' . $js . '"></script>';
-			}
-		}
-		echo "\n";
 		#
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaSenaraiJs')):
+	function binaSenaraiJs()
+	{
+		$p = '';
+		if (isset($urljs))
+		foreach ($urljs as $js)
+			$p .= "\n" . '<script type="text/javascript" src="' . $js . '"></script>';
+		$p .= "\n";
+
+		return $p;
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('xxx')):
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('rutime')):
 	function rutime($ru, $rus, $index)
