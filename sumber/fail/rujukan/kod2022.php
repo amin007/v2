@@ -2016,6 +2016,11 @@ $tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Ingge
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
+# bina tatasusunan untuk fail json
+#--------------------------------------------------------------------------------------------------
+$dataJson = ['institusi','coicop','komuniti','produkmm'];
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
 # mula koding
 #--------------------------------------------------------------------------------------------------
 /*
@@ -2086,7 +2091,7 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
-		elseif($cariApa == 'institusi'):
+		elseif(in_array($cariApa,$dataJson)):
 			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
 		else:
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
