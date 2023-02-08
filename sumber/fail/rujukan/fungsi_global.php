@@ -913,7 +913,7 @@ endif;//*/
 if ( ! function_exists('binaButang')):
 	function binaButang($senarai)
 	{
-		$output = "\r\t";
+		$output = '';
 		foreach(binaPautan() as $masa => $kini):
 			$output .= "\n\t" . '<a class="btn btn-' . $kini['a'] . ' rounded-pill"'
 			. ' href="' . $kini['b'] . '">'
@@ -1028,7 +1028,7 @@ if ( ! function_exists('binaSenaraiJs')):
 		$p = '';
 		if (isset($urljs))
 		foreach ($urljs as $js)
-			$p .= "\n" . '<script type="text/javascript" src="' . $js . '"></script>';
+			$p .= '<script type="text/javascript" src="' . $js . '"></script>' . "\n";
 		$p .= "\n";
 
 		return $p;
