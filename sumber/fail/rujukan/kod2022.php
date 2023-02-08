@@ -2023,7 +2023,10 @@ $data['komuniti'] = './utama/komuniti.json';
 $tajuk['produkmm'] = '#,msic,kodx,keterangan,aup-min-max';
 $data['produkmm'] = './utama/produkmm.json';
 $tajuk['msic'] = '#,s,msic,keterangan,msic2000,notakaki';
-$data['msic'] = './utama/msic.json';*/
+$data['msic'] = './utama/msic.json';
+$tajuk['coicop'] = '#,kod1,kod2,keterangan';
+$data['coicop'] = './utama/coicop.json';
+//*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataJson = ['institut','coicop','komuniti','produkmm','msic'];
