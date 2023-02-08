@@ -2033,7 +2033,8 @@ $data['pendidikan'] = './utama/pendidikan.json';
 //*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
-$dataJson = ['institut','coicop','pendidikan','masco_subutama','komuniti','produkmm','msic'];
+$dataJson = ['institut','coicop','pendidikan','masco_subutama','komuniti','produkmm','msic',
+'ayam'];
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
