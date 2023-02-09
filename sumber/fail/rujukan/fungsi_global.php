@@ -727,6 +727,7 @@ END;
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 # nota untuk function jsBuatLimitPage($pilih=1)
 #https://stackoverflow.com/questions/9443773/how-to-show-all-rows-by-default-in-jquery-datatable
 #https://datatables.net/forums/discussion/69141/set-default-page-length-option-to-100-show-entries
@@ -1011,6 +1012,7 @@ if ( ! function_exists('panggilDataTable02')):
 		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
+#--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
