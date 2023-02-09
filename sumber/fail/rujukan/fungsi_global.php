@@ -727,6 +727,34 @@ END;
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('jsPhpJson')):
+	function jsPhpJson($failJson)
+	{
+		print <<<END
+	var t = $('#myTable').DataTable({
+	"ajax" : {
+		"url" : "$failJson",
+		"type" : "POST",
+		/*"dataSrc": ""*/
+	},
+	searchHighlight: true,
+	"columnDefs": [{
+		"searchable": false,
+		"orderable": false,
+		"targets": 0
+	}],
+	"order": [[ 1, 'asc' ]]
+    });
+/* ***************************************************************************************** */
+	t.on( 'order.dt search.dt', function (){
+		t.column(0, {search:'applied', order:'applied'}).nodes().
+		each( function (cell, i) {cell.innerHTML = i+1;});
+    }).draw();
+/* ***************************************************************************************** */
+
+END;
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 # nota untuk function jsBuatLimitPage($pilih=1)
 #https://stackoverflow.com/questions/9443773/how-to-show-all-rows-by-default-in-jquery-datatable
@@ -1013,6 +1041,27 @@ if ( ! function_exists('panggilDataTable02')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataTable03')):
+	function panggilDataTable03($tajuk,$data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		if($pilih != '') binaJadualJson($tajuk,$pilih);
+		binaNotaKaki($tajuk,$data,$pilih);
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		jsPhpJson($data[$pilih]);
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
