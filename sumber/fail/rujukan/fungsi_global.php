@@ -735,7 +735,6 @@ if ( ! function_exists('jsPhpJson')):
 	"ajax" : {
 		"url" : "$failJson",
 		"type" : "POST",
-		/*"dataSrc": ""*/
 	},
 	searchHighlight: true,
 	"columnDefs": [{
