@@ -17,6 +17,7 @@ if (isset($_SERVER[$s])):
 		if($cariApa == 'json'):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
+			header('Content-Type: application/json; charset=utf-8');
 			binaJson($data,$cariApa);
 		else:endif;
 	else:endif;
