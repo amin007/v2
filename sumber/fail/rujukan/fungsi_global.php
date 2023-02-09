@@ -446,6 +446,21 @@ if ( ! function_exists('kiraJadualTahun')):
 endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
+# bina nota kaki
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaNotaKaki')):
+	binaNotaKaki(($tajuk,$data,$pilih)
+	{
+		echo '<blockquote class="blockquote text-center">'
+		. "\n\t" . '<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+		. ' Integer posuere erat a ante.</p>'
+		. "\n\t" . '<footer class="blockquote-footer">Someone famous in'
+		. ' <cite title="Source Title"> Source Title</cite></footer>'
+		. "\n\t" . ' </blockquote>';
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaJson')):
 	function binaJson($senarai,$pilih)
@@ -985,6 +1000,7 @@ if ( ! function_exists('panggilDataTable02')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
+		//binaNotaKaki(($tajuk,$data,$pilih);if ( ! function_exists('binaNotaKaki')):endif;//*/
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
@@ -994,7 +1010,7 @@ if ( ! function_exists('panggilDataTable02')):
 		jsPanggilFailJson($data[$pilih]);
 		echo "\n</script>\n</body>\n</html>";
 	}
-endif;//*/
+
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
