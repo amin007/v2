@@ -1010,7 +1010,7 @@ if ( ! function_exists('panggilDataTable02')):
 		jsPanggilFailJson($data[$pilih]);
 		echo "\n</script>\n</body>\n</html>";
 	}
-
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
