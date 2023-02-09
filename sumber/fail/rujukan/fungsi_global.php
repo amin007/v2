@@ -449,14 +449,14 @@ endif;
 # bina nota kaki
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaNotaKaki')):
-	binaNotaKaki(($tajuk,$data,$pilih)
+	function binaNotaKaki($tajuk,$data,$pilih)
 	{
 		echo '<blockquote class="blockquote text-center">'
-		. "\n\t" . '<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-		. ' Integer posuere erat a ante.</p>'
-		. "\n\t" . '<footer class="blockquote-footer">Someone famous in'
-		. ' <cite title="Source Title"> Source Title</cite></footer>'
+		. "\n\t" . '<p class="mb-0">' . $pilih . '</p>'
+		. "\n\t" . '<footer class="blockquote-footer">' . $tajuk[$pilih] . '|'
+		. ' <cite title="Source Title">' . $data[$pilih] . '</cite></footer>'
 		. "\n\t" . ' </blockquote>';
+		#
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
