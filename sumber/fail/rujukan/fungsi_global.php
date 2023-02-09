@@ -727,6 +727,9 @@ END;
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+# jawapan kenapa data php yang tukar json, datatables tak boleh baca
+#https://stackoverflow.com/questions/33582203/datatables-warning-table-usertable-invalid-json-response
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('jsPhpJson')):
 	function jsPhpJson($failJson)
 	{
