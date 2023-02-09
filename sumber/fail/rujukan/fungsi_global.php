@@ -1000,7 +1000,7 @@ if ( ! function_exists('panggilDataTable02')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
-		//binaNotaKaki(($tajuk,$data,$pilih);if ( ! function_exists('binaNotaKaki')):endif;//*/
+		binaNotaKaki($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
