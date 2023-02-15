@@ -1031,7 +1031,7 @@ if ( ! function_exists('panggilDataTable02')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
-		binaNotaKaki($tajuk,$data,$pilih);
+		//binaNotaKaki($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
@@ -1053,7 +1053,7 @@ if ( ! function_exists('panggilDataTable03')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
-		binaNotaKaki($tajuk,$data,$pilih);
+		//binaNotaKaki($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
