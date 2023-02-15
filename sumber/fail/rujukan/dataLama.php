@@ -11,7 +11,7 @@ $data['respon'] = array(
 	array('','04','04 - Rumah  sedang dalam pembinaan'),
 	array('','05','05 - Bukan TK/TK Institusi'),
 	array('','06','06 - Telah Roboh/Rumah Usang'),
-	array('','07','07 - Tidak Layak'),
+	array('','07','07 - Tidak Layak//Persinggahan(TKP)'),
 	array('','08','08 - Enggan Bekerjasama'),
 	array('','09','09 - Lain-lain'),
 	array('','00','00 - Lain-Lain Didiami'),
