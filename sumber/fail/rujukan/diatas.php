@@ -22,7 +22,7 @@ echo "\n"; ?>
 <body>
 
 <a class="btn btn-primary" href="../">Kembali<i class="fa fa-binoculars"></i></a>
-<a class="btn btn-warning" href="../kod2022.php">Kod2022</a>
+<a class="btn btn-warning" href="../kod2023.php">Kod2023</a>
 <a class="btn btn-outline-secondary rounded-pill" href="msic-cari.html">
 	Cari MSIC</a>
 <a class="btn btn-outline-secondary rounded-pill" href="masco2020-cari.html">
