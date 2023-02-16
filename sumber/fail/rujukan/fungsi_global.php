@@ -980,8 +980,9 @@ if ( ! function_exists('binaButang')):
 			. ucfirst($kini['c']) . '</a>';
 		endforeach;
 		foreach($senarai as $jadual => $row):
+			$warnaButang = tukarWarnaButang($jadual);
 			if($jadual != 'tahun')
-			$output .= "\n\t" . '<a class="btn btn-outline-secondary rounded-pill"'
+			$output .= "\n\t" . '<a class="btn btn-' . $warnaButang . ' rounded-pill"'
 			. ' href="' . URL . '?/' .$jadual. '">'
 			. ucfirst($jadual) . '</a>';
 		endforeach;
