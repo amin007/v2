@@ -35,6 +35,4 @@ echo "\n"; ?>
 	Cari Negara</a>
 <a class="btn btn-outline-secondary rounded-pill" href="institut-cari.html">
 	Cari Institut</a>
-<a class="btn btn-outline-secondary rounded-pill" href="mcpaBuatIO.php">
-	Produk Output Input</a>
 <hr>
