@@ -937,7 +937,7 @@ if ( ! function_exists('tukarWarnaButang')):
 	function tukarWarnaButang($pilih)
 	{
 		$p = null;
-		if($pilih == 'msic'):
+		if(in_array($pilih,['mascoMsicV2','mascoBMBI','mascoNewss','msic'])):
 			$p = 'success';
 		elseif(in_array($pilih,['bandar','negeri','negara','produkmm'])):
 			$p = 'info';
