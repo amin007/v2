@@ -3,6 +3,10 @@
 include 'fungsi_global.php';
 include 'dataBaru.php';
 ###################################################################################################
+#--------------------------------------------------------------------------------------------------
+# bina tatasusunan untuk json
+$dataJson = ['institut'];
+#--------------------------------------------------------------------------------------------------
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
 $tajuk['mascoBMBI'] = '#,Seksyen,Kod,Masco Melayu,Masco Inggeris,TahunV01,KodV01,TahunV02,KodV02';
@@ -87,6 +91,8 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+		elseif(in_array($cariApa,$dataJson)):
+			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi
 		else:
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
 		endif;
