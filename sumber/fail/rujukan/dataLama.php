@@ -109,6 +109,13 @@ $data['AIR'] = array(
 	array('','12','12 - Orang Iain yg tidak bersaudara dgn KIR & isteri/ suami KIR'),
 );
 #--------------------------------------------------------------------------------------------------
+# data jantina
+$data['jantina'] = array(
+	array('','1','1 - Lelaki'),
+	array('','2','2 - Perempuan'),
+	array('','X','X - Rahsia'),
+);
+#--------------------------------------------------------------------------------------------------
 //<tr class="table-primary"><td colspan="2">Kod Negeri'),
 $data['negeri'] = array(
 	array('','01','01 - Johor'),
