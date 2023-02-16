@@ -939,7 +939,8 @@ if ( ! function_exists('tukarWarnaButang')):
 		$p = null;
 		if($pilih == 'msic'):
 			$p = 'success';
-		//elseif():
+		elseif(in_array($pilih,['bandar','negeri','negara','produkmm'])):
+			$p = 'info';
 		else:
 			$p = 'outline-secondary';
 		endif;
