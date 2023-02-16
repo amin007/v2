@@ -933,6 +933,20 @@ if ( ! function_exists('binaButangV00')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('tukarWarnaButang')):
+	function tukarWarnaButang($pilih)
+	{
+		$p = null;
+		if($pilih == 'msic'):
+			$p = 'success';
+		//elseif():
+		else:
+			$p = 'outline-secondary';
+		endif;
+
+		return $p;
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaPautan')):
 	function binaPautan()
