@@ -14,27 +14,6 @@ $tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Ingge
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
-# bina tatasusunan untuk fail json
-#--------------------------------------------------------------------------------------------------
-/*$tajuk['komuniti'] = '#,versi,msic,kod produk,kod2,keterangan,keterangan inggeris';
-$data['komuniti'] = './utama/komuniti.json';
-$tajuk['produkmm'] = '#,msic,kodx,keterangan,aup-min-max';
-$data['produkmm'] = './utama/produkmm.json';
-$tajuk['msic'] = '#,s,msic,keterangan,msic2000,notakaki';
-$data['msic'] = './utama/msic.json';
-$tajuk['coicop'] = '#,kod1,kod2,keterangan';
-$data['coicop'] = './utama/coicop.json';
-$tajuk['masco_subutama'] = '#,kumpulan,masco_lama,jawatan';
-$data['masco_subutama'] = './utama/masco_subutama.json';
-$tajuk['pendidikan'] = '#,kod,keterangan_lama,nota01';
-$data['pendidikan'] = './utama/pendidikan.json';
-//*/
-#--------------------------------------------------------------------------------------------------
-# setkan tatasusunan yang berkaitan dengan fail json
-$dataJson = ['institut','coicop','pendidikan','masco_subutama','komuniti','produkmm','msic',
-'ayam'];
-#--------------------------------------------------------------------------------------------------
-###################################################################################################
 # untuk debug sahaja
 #--------------------------------------------------------------------------------------------------
 /*
@@ -108,8 +87,6 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
-		elseif(in_array($cariApa,$dataJson)):
-			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
 		else:
 			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
 		endif;
