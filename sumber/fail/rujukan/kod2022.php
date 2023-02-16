@@ -4,9 +4,6 @@ include 'fungsi_global.php';
 include 'dataBaru.php';
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
-# bina tatasusunan untuk json
-$dataJson = ['institut'];
-#--------------------------------------------------------------------------------------------------
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
 $tajuk['mascoBMBI'] = '#,Seksyen,Kod,Masco Melayu,Masco Inggeris,TahunV01,KodV01,TahunV02,KodV02';
@@ -16,6 +13,9 @@ $tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
 $tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Inggeris';
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
+#--------------------------------------------------------------------------------------------------
+# bina tatasusunan untuk json
+$dataJson = ['institut'];
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
