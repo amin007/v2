@@ -95,6 +95,9 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			. 'Shutterstock, Getty Images, and more',
 			'10-top-sites-for-freelance-services'=>'https://www.business.com/articles/'
 			. '10-top-sites-for-freelance-services/',
+			'[Freelance.com]'=>'https://www.freelancer.com',
+			'[Workana]'=>'https://www.workana.com',
+			'[Fiverr]'=>'https://www.fiverr.com',
 			'[install-chocolatey]'=>'https://www.how2shout.com/how-to/how-to-install-chocolatey'
 			. '-package-manager-on-windows-10-8-7.html',
 			'[payoneer]'=>'https://www.payoneer.com',
