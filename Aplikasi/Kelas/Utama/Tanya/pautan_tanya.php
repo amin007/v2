@@ -115,6 +115,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Transkriptor]'=>'https://transkriptor.com',
 			'[Go-Transcribe]'=>'https://go-transcribe.com',
 			'[Geekflare]'=>'https://geekflare.com',
+			'[owncloud]'=>'https://owncloud.com',
 			//'[]'=>'',
 		);
 
