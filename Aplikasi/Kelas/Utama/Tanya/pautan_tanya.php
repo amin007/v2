@@ -109,6 +109,12 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[best screen recorders windows 7]'=>'https://www.screencapture.com/blog/'
 			. 'best-screen-recorders-windows-7.html',
 			'[Panopto]'=>'https://www.panopto.com',
+			'[Happyscribe]'=>'https://www.happyscribe.com',
+			'[Veed]'=>'https://www.veed.io',
+			'[Fliki]'=>'https://fliki.ai',
+			'[Transkriptor]'=>'https://transkriptor.com',
+			'[Go-Transcribe]'=>'https://go-transcribe.com',
+			'[Geekflare]'=>'https://geekflare.com',
 			//'[]'=>'',
 		);
 
