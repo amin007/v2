@@ -986,7 +986,8 @@ $data['PendidikanSijil 2022'] = array(
 	array('','301','301 - Tingkatan 6 rendah',''),
 	array('','302','302 - Tingkatan 6 atas','347 - STPM/STP/HSC'),
 	array('','303','303 - Matrikulasi','349 - Sijil Matrikulasi'),
-	array('','304','304 - Program persediaan',''),
+	array('','304','304 - Program persediaan','Seperti GCE `A` Level, A Level,'
+	. 'Ke Jepun/Austaria/Jerman/Rusia/Taiwan'),
 	array('','305','305 - Pra universiti',''),
 	array('','306','306 - Diploma Tahun 1',
 	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
