@@ -462,7 +462,30 @@ endif;//*/
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # bina json dari tatasusunan php
+# https://www.kodingmadesimple.com/2016/04/convert-csv-to-json-using-php.html
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('dariCsvKeJson')):
+	function dariCsvKeJson($namaFail)
+	{
+		# open csv file
+		if (!($fp = fopen($namaFail, 'r'))) {
+			die("Can't open file...");
+		}
+		# read csv headers
+		$key = fgetcsv($fp,"1024",",");
+		# parse csv rows into array
+		$json = array();
+		while ($row = fgetcsv($fp,"1024",","))
+		{
+			//$json[] = array_combine($key, $row);
+			$json[] = $row;
+		}
+
+		fclose($fp); # release file handle
+
+		return json_encode($json); # encode array to json
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaJson')):
 	function binaJson($senarai,$pilih)
