@@ -80,7 +80,7 @@ $dataJson = ['institut','coicop','pendidikan','masco_subutama','komuniti','produ
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
 $tajuk['mascoBMBI'] = '#,Seksyen,Kod,Masco Melayu,Masco Inggeris,TahunV01,KodV01,TahunV02,KodV02';
-$failD['mascoBMBI'] = './kod2022/masco2020_newss.csv';
+$failD['mascoBMBI'] = './kod2022/masco2020_all.csv';
 $data['mascoBMBI'] = ImportCSV2Array01($failD['mascoBMBI']);
 //$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
 $tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
@@ -134,8 +134,8 @@ if (isset($_SERVER[$s])):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
-		elseif($cariApa == 'mascoNewss'):
-			$data[$cariApa] = dariCsvKeJson($failD[$cariApa]);
+		elseif(in_array($cariApa,['mascoNewss','mascoBMBI'])):
+			$data[$cariApa] = 'kod2023_v01.php?/json/' . $cariApa;
 			panggilDataTable03($tajuk,$data,$cariApa);
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
