@@ -77,6 +77,19 @@ $dataPhpJson = ['respon','responEko','bahasa','AIR','negeri','etnik','pertuturan
 $dataJson = ['institut','coicop','pendidikan','masco_subutama','komuniti','produkmm','msic',
 'ayam'];
 #--------------------------------------------------------------------------------------------------
+# bina tatasusunan dari fungsi
+#--------------------------------------------------------------------------------------------------
+$tajuk['mascoBMBI'] = '#,Seksyen,Kod,Masco Melayu,Masco Inggeris,TahunV01,KodV01,TahunV02,KodV02';
+$failD['mascoBMBI'] = './kod2022/masco2020_newss.csv';
+$data['mascoBMBI'] = ImportCSV2Array01($failD['mascoBMBI']);
+//$data['mascoBanci'] = ImportCSV2Array($filename = './kod2022/masco2020_banci.csv');
+$tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
+$failD['mascoNewss'] = './kod2022/masco2020_newss.csv';
+$data['mascoNewss'] = ImportCSV2Array01($failD['mascoNewss']);
+$tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Inggeris';
+$failD['mascoSeksyen'] = './kod2022/masco2020_seksyen.csv';
+$data['mascoSeksyen'] = ImportCSV2Array01($failD['mascoSeksyen']);
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
 #--------------------------------------------------------------------------------------------------
@@ -109,7 +122,7 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2
-/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';
+$s = 'REQUEST_URI';//$s = 'PHP_SELF';
 //semakPembolehubah($_SERVER['REQUEST_URI'],'REQUEST_URI');
 if (isset($_SERVER[$s])):
 	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
@@ -121,6 +134,9 @@ if (isset($_SERVER[$s])):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
+		elseif($cariApa == 'mascoNewss'):
+			$data[$cariApa] = dariCsvKeJson($failD[$cariApa]);
+			panggilDataTable03($tajuk,$data,$cariApa);
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable($data,$cariApa);# panggil fungsi
