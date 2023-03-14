@@ -135,7 +135,7 @@ else:
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2.1
-$s = 'REQUEST_URI';//$s = 'PHP_SELF';//$s = 'QUERY_STRING';
+/*$s = 'REQUEST_URI';//$s = 'PHP_SELF';//$s = 'QUERY_STRING';
 //semakPembolehubah($_SERVER[$s],$s);
 if (isset($_SERVER[$s])):
 	$fail = explode('rujukan/',$_SERVER[$s]);//semakPembolehubah($fail,'fail');
