@@ -1511,8 +1511,8 @@ $data['programLatihan'] = array(
 	array('','0114','0114 - Latihan perguruan untuk guru dengan pengkhususan subjek'),
 	array('','0119','0119 - Programmes and qualifications involving education not elsewhere'
 	. ' classified'),
-	array('','0188','0188 - Program inter-disciplinary yg melibatkan pendidikan / '
-	. 'Inter-disciplinary programmes and qualifications involving education'),
+	array('','0188','0188 - <strong>Program inter-disciplinary yg melibatkan pendidikan</strong>'
+	. ' / <em>Inter-disciplinary programmes and qualifications involving education</em>'),
 	array('','02**','* - Kesenian'),
 	array('','0200','0200 - Seni halus, lukisan, khat, calligraphy'),
 	array('','0211','0211 - Produksi media dan teknik audio-visual (animasi, fotografi,'
