@@ -1682,7 +1682,7 @@ $data['programLatihan'] = array(
 	. ' extraction</em>)'),
 	array('','0729','0729 - Manufacturing and processing not elsewhere classified'),
 	array('','073*','* - Senibina dan perancang bandar'),
-	array('','0731','0731 - Senibina'),
+	array('','0731','0731 - <strong>Senibina</strong> / <em>Architecture, arkitek</em>'),
 	array('','0732','0732 - Perancangan bandar dan wilayah'),
 	array('','0733','0733 - Pembinaan dan bangunan'),
 	array('','0734','0734 - Ukur tanah / Ukur bahan / <em>Surveying</em>'),
