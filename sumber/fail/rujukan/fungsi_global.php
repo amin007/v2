@@ -149,14 +149,14 @@ endif;//*/
 if ( ! function_exists('ImportCSV2Array03')):
 	function ImportCSV2Array03($filename)
 	{
-		$csv = [];
+		$data = [];
 		$i = 0;
 		if (( $handle = fopen($filename, "r")) !== false)
 		{
 			$columns = fgetcsv($handle, 2000, ",");
 			$while (( $row = fgetcsv($handle, 2000, ",") !== false)
 			{
-				$csv[$i] = array_combine($columns, $row);
+				$data[$i] = array_combine($columns, $row);
 				$i++;
 			}
 			fclose($handle);
