@@ -154,7 +154,7 @@ if ( ! function_exists('ImportCsv2Array03')):
 		if (( $handle = fopen($filename, "r")) !== false)
 		{
 			$columns = fgetcsv($handle, 2000, ",");
-			$while ( $row = fgetcsv($handle, 2000, ",") !== false )
+			while ( $row = fgetcsv($handle, 2000, ",") !== false )
 			{
 				$data[$i] = array_combine($columns, $row);
 				$i++;
