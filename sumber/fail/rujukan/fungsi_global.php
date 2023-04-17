@@ -146,15 +146,15 @@ if ( ! function_exists('ImportCSV2Array02')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('ImportCSV2Array03')):
-	function ImportCSV2Array03($filename)
+if ( ! function_exists('ImportCsv2Array03')):
+	function ImportCsv2Array03($filename)
 	{
 		$data = [];
 		$i = 0;
 		if (( $handle = fopen($filename, "r")) !== false)
 		{
 			$columns = fgetcsv($handle, 2000, ",");
-			$while (( $row = fgetcsv($handle, 2000, ",") !== false)
+			$while ( $row = fgetcsv($handle, 2000, ",") !== false )
 			{
 				$data[$i] = array_combine($columns, $row);
 				$i++;
