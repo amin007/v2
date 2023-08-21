@@ -770,6 +770,7 @@ END;
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 # jawapan kenapa data php yang tukar json, datatables tak boleh baca
 #https://stackoverflow.com/questions/33582203/datatables-warning-table-usertable-invalid-json-response
 #--------------------------------------------------------------------------------------------------
@@ -1097,7 +1098,7 @@ if ( ! function_exists('panggilDataTable02')):
 		jqueryExtendA();
 		jqueryExtendB();
 		jqueryExtendC();
-		jsPanggilFailJson($data[$pilih]);
+		jsPanggilFailJsonV02($data[$pilih]);
 		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
