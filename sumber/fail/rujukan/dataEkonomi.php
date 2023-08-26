@@ -1593,6 +1593,7 @@ $data['bezaUntungRugi'] = array(
 	array('','POM012','Rugi sebab covid19 dan perubahan dalam kos tenaga buruh dan bahan langsung'
 	. ' seperti baja dan racun','Losses due to covid19 and changes in the cost of labor and'
 	. ' direct materials such as fertilizers and pesticides'),
+	array('','POM013','Tiada potongan KWSP/EPF','No EPF/EPF deduction'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
