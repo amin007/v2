@@ -42,6 +42,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Pixabay]'=>'https://pixabay.com',
 			'[Pexels]'=>'https://pexels.com',
 			'[Unslpash]'=>'https://unsplash.com',
+			'[Vecteezy]'=>'https://www.vecteezy.com',
 			'[7-themes]'=>'http://7-themes.com',
 		);
 
