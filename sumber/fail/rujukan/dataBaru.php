@@ -1516,8 +1516,9 @@ $data['programLatihan'] = array(
 	array('','02**','* - Kesenian'),
 	array('','0200','0200 - Seni halus, lukisan, khat, calligraphy'),
 	array('','0211','0211 - Produksi media dan teknik audio-visual (animasi, fotografi,'
-	. ' cinematografi, produksi radio dan TV, graphic design, computer graphic, percetakan dan'
-	. ' penerbitan)'),
+	. ' cinematografi, produksi radio dan TV,'
+	. ' reka bentuk grafik/graphic design, grafik komputer/computer graphic,'
+	. ' percetakan dan penerbitan)'),
 	array('','0212','0212 - Rekaan<br>(<strong>reka bentuk fesyen dan pakaian, reka bentuk'
 	. 'dalaman, reka bentuk pentas</strong>)'
 	. '<br>(<em>fashion and costume design, interior design, stage design</em>)'),
