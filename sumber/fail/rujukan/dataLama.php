@@ -132,7 +132,7 @@ $data['negeri'] = array(
 	array('','12','12 - Sabah'),
 	array('','13','13 - Sarawak'),
 	array('','14','14 - WP Kuala Lumpur'),
-	array('','15','15 - WP Labiran'),
+	array('','15','15 - WP Labuan'),
 	array('','16','16 - WP Putrajaya'),
 	array('','98','98 - Luar Negara'),
 );
