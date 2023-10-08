@@ -498,7 +498,7 @@ $data['Pendidikan 2022'] = array(
 	. ' seperti yg didefinisikan pada muka surat 27. Contohnya, seseorang yg bersekolah di'
 	. ' sekolah pondok dan mendapat pendidikan agama sahaja akan dikategorikan sebagai'
 	. ' ‛Pendidikan tidak formal’.'),
-	array('','004','004 - Tiada pendidikan',
+	array('','004','004 - Tiada pendidikan(tak belajar)',
 	'Merujuk kepada seseorang yg berumur sembilan tahun dan lebih dan masih belum bersekolah.'),
 	array('','005','005 - Masih belum bersekolah',
 	'Merujuk kepada kanak-kanak yg berumur kurang daripada sembilan tahun dan masih belum bersekolah.'),
@@ -953,7 +953,7 @@ $data['PendidikanSijil 2022'] = array(
 	. ' dari badan-badan yg memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
 	. '- Termasuk juga mereka yg memperoleh sijil agama sahaja.<br>'
 	. '* Untuk OKU juga{Pendidikan tidak formal}.'),
-	array('','004','004 - Tiada pendidikan','022 - Tiada berkenaan<br>'
+	array('','004','004 - Tiada pendidikan(tak belajar)','022 - Tiada berkenaan<br>'
 	. '- Merujuk kepada responden yg dicatatkan sebagai `Tiada pendidikan` (Kod 004) atau'
 	. ' `Pendidikan tidak formal` (Kod 003) pada Ruangan 15 kecuali mereka yg memiliki sijil'
 	. ' dari badan-badan yg memberi pengiktirafan tanpa melalui pendidikan rasmi.<br>'
