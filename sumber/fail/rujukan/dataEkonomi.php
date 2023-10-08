@@ -99,7 +99,7 @@ $data['msicAes'] = array(
 	array('','A','Ternakan','01442','Pengeluaran susu mentah biri-biri/kambing'),
 	array('','A','Ternakan','01443','Pengeluaran bulu belum proses'),
 	array('','A','Ternakan','01450','Penternakan, pembiakan dan pengeluaran babi'),
-	array('','','A','Ternakan','01461','Penternakan, pembiakan dan pengeluaran ayam,'
+	array('','A','Ternakan','01461','Penternakan, pembiakan dan pengeluaran ayam,'
 	. ' ayam daging'),
 	array('','A','Ternakan','01462','Penternakan, pembiakan dan pengeluaran itik'),
 	array('','A','Ternakan','01463','Penternakan, pembiakan dan pengeluaran angsa'),
