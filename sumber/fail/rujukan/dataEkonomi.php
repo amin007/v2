@@ -1594,8 +1594,8 @@ $data['bezaUntungRugi'] = array(
 	. ' seperti baja dan racun','Losses due to covid19 and changes in the cost of labor and'
 	. ' direct materials such as fertilizers and pesticides'),
 	array('','POM013','Tiada potongan KWSP/EPF','No EPF/EPF deduction'),
-	array('','POM014','perubahan dalam kos nilai bekalan seperti alat ganti,aksesori, bahan'
-	. ' pembaikan dan penyenggeraan, tayar dan tiub, bateri','changes in the cost of supplies'
+	array('','POM014','Perubahan dalam kos nilai bekalan seperti alat ganti,aksesori, bahan'
+	. ' pembaikan dan penyenggeraan, tayar dan tiub, bateri','Changes in the cost of supplies'
 	. ' such as spare parts, accessories, repair and maintenance materials, tires and tubes,'
 	. ' batteries'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
