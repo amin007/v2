@@ -1578,8 +1578,9 @@ $data['bezaUntungRugi'] = array(
 	'Repair and maintenance of old property'),
 	array('','POM005','Keuntungan besar disebabkan strategi khusus perniagaan',
 	'Huge profits due to specific business strategies'),
-	array('','POM006','Permintaan meningkat selepas pandemik covid-19',
-	'Demand increased after the covid-19 pandemic'),
+	array('','POM006','Permintaan meningkat selepas pandemik covid-19 dan perubahan dalam kos'
+	. ' tenaga buruh dan bahan langsung', 'Demand increased after the covid-19 pandemic and'
+	. ' changes in labor and direct material costs'),
 	array('','POM007','Tiada simpan stok pada tahun ini. pesan barang terus buat barang siap',
 	'No keeping stock in this year. Order items directly for ready-made items'),
 	array('','POM008','Keuntungan besar disebabkan harga minyak sawit meningkat di pasaran dunia',
