@@ -1599,6 +1599,10 @@ $data['bezaUntungRugi'] = array(
 	. ' pembaikan dan penyenggeraan, tayar dan tiub, bateri','Changes in the cost of supplies'
 	. ' such as spare parts, accessories, repair and maintenance materials, tires and tubes,'
 	. ' batteries'),
+	array('','POM015','Harta sudah lama sejak penubuhan syarikat. Namum ada pembelian harta baru'
+	. ' F041199 pada tahun ini.','Property has been around for a long time since the'
+	. ' establishment of the company. However, there is a new property purchase F041199'
+	. ' this year.'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
