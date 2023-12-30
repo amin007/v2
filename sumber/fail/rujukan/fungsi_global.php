@@ -719,6 +719,7 @@ endif;//*/
 if ( ! function_exists('gradeTable002')):
 	function gradeTable002($url)
 	{
+		$papar = jsBuatLimitPage($pilih=2);
 		print <<<END
 	var t = $('#allTable').DataTable({
 	searchHighlight: true,
@@ -727,6 +728,7 @@ if ( ! function_exists('gradeTable002')):
 		"orderable": false,
 		"targets": 0
 	}],
+	$papar
 	"order": []
 	});
 /* ***************************************************************************************** */
@@ -839,6 +841,11 @@ if ( ! function_exists('jsBuatLimitPage')):
 		$papar[] = 'pageLength: 10,' . "\n\t"
 		. 'aLengthMenu: [[5, 10, 25, 50, 100, 200, -1],'
 		. '[5, 10 ,25, 50, 100, 200, "All"]],'
+		//. "\n\t". 'iDisplayLength: -1,'
+		. '';
+		$papar[] = 'pageLength: 10,' . "\n\t"
+		. 'aLengthMenu: [[5, 10, 25, 50, 100, 200, 300, -1],'
+		. '[5, 10 ,25, 50, 100, 200, 300, "All"]],'
 		//. "\n\t". 'iDisplayLength: -1,'
 		. '';
 
