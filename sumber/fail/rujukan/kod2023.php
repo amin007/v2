@@ -69,6 +69,8 @@ $tajuk['bandar'] = '#,Kod Negeri,Daerah,Bandar Besar 2024';
 $data['bandar'] = 'dataJsonLama.php?/json/bandar2024';
 $tajuk['bandar kecil'] = '#,Kod Negeri,Daerah,Bandar Kecil(801(TL BD)/802(TI BD))';
 $data['bandar kecil'] = 'dataJsonLama.php?/json/bandarkecil2024';
+$tajuk['Migrasi M6-PSM'] = '#,Kod,Migrasi M6-PSM';
+$data['Migrasi M6-PSM'] = 'dataJsonLama.php?/json/Gaji G2';
 #--------------------------------------------------------------------------------------------------
 # kod lama
 /*$tajuk['pendidikan'] = '#,Kod,Pendidikan';
@@ -114,7 +116,7 @@ $dataPhpJson = ['respon','bahasa','pertuturan','AIR','jantina','negeri','etnik',
 'kahwin','sekolah','pendidikan','sijil','pengajian','Aktiviti Pekerjaan','mascoLamaMsic',
 'aktiviti','Gaji G2','Bil Piece Rate','Unit Kuantiti','responEko','AupAirPelincirPembakarElektrik',
 'bandar','bandar kecil','KodNegeriJPN','KodNegaraJPN','Pendidikan 2022','sijil 2022',
-'PendidikanSijil 2022','Pengajian 2022','Bidang','programLatihan','mascoMsicV2'];
+'PendidikanSijil 2022','Pengajian 2022','Bidang','programLatihan','mascoMsicV2','Migrasi M6-PSM'];
 $dataJson = ['negara','institut','coicop','pendidikan','masco_subutama','komuniti','produkmm',
 'msic','ayam'];
 #--------------------------------------------------------------------------------------------------
