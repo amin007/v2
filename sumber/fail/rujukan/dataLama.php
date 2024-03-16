@@ -808,14 +808,17 @@ Kod ini termasuk jenis responden (d) hingga (k).
 TAMATKAN temuramah bagi ahli isi rumah ini.
 */
 $data['Gaji G2'] = array(
-	array('','000001','000001 – Majikan'),
-	array('','000004','000004 – Bekerja sendiri'),
-	array('','000005','000005 – Pekerja keluarga tanpa gaji'),
-	array('','000006','000006 – Penganggur'),
-	array('','000007','000007 – Suri rumah'),
-	array('','000008','000008 – Pelajar'),
-	array('','000009','000009 – Pesara'),
-	array('','000010','000010 – Lain-lain (Nyatakan)')
+	array('','000001','000001 - Majikan'),
+	array('','000004','000004 - Bekerja sendiri'),
+	array('','000005','000005 - Pekerja keluarga tanpa gaji'),
+	array('','000006','000006 - Penganggur'),
+	array('','000007','000007 - Suri rumah'),
+	array('','000008','000008 - Pelajar'),
+	array('','000009','000009 - Pesara'),
+	array('','000010','000010 - Lain-lain (Nyatakan)'),
+	array('','1111-01 hingga 9629-02','Sekiranya bekerja:<br>'
+	. ' Kod dan klasifikasi pekerjaan mengikut <br> Piawaian Pengelasan'
+	. ' Pekerjaan Malaysia (MASCO) 2020.'),
 );
 #--------------------------------------------------------------------------------------------------
 /*
