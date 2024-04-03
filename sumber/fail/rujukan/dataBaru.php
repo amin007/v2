@@ -980,7 +980,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','204','204 - Tingkatan 3','242 - PT3/PMR/SRP/LCE | Luar Negara = 10'),
 	array('','205','205 - Tingkatan 4','Luar Negara = 11'),
 	array('','206','206 - Tingkatan 5','343 - SPM/MCE/SC/FMCE/CSC | Luar Negara = 12'),
-	array('','207','207 - Program kemahiran asas','351 - Sijil Kemahiran Asas/Giat Mara'),
+	array('','207','207 - Program kemahiran asas','351 - Sijil Kemahiran Asas/Giat Mara(IP=134)'),
 	array('','208','208 - Kolej vokasional Tahun 1','344 - SPVM/SPM(V)/MVC/MVE'),
 	array('','208','209 - Kolej vokasional Tahun 2','344 - SPVM/SPM(V)/MVC/MVE'),
 	array('','301','301 - Tingkatan 6 rendah','Luar Negara = 13'),
