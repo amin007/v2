@@ -981,8 +981,10 @@ $data['PendidikanSijil 2022'] = array(
 	array('','205','205 - Tingkatan 4','Luar Negara = 11'),
 	array('','206','206 - Tingkatan 5','343 - SPM/MCE/SC/FMCE/CSC | Luar Negara = 12'),
 	array('','207','207 - Program kemahiran asas','351 - Sijil Kemahiran Asas/Giat Mara(IP=134)'),
-	array('','208','208 - Kolej vokasional Tahun 1','344 - SPVM/SPM(V)/MVC/MVE'),
-	array('','208','209 - Kolej vokasional Tahun 2','344 - SPVM/SPM(V)/MVC/MVE'),
+	array('','208','208 - Kolej vokasional Tahun 1','352 - Sijil kemahiran khusus & teknikal'
+	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
+	array('','208','209 - Kolej vokasional Tahun 2','352 - Sijil kemahiran khusus & teknikal'
+	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
 	array('','301','301 - Tingkatan 6 rendah','Luar Negara = 13'),
 	array('','302','302 - Tingkatan 6 atas','347 - STPM/STP/HSC '
 	. '/ Setaraf 348 - GCE `A` Level, A Level | Luar Negara = 14'),
@@ -990,11 +992,17 @@ $data['PendidikanSijil 2022'] = array(
 	array('','304','304 - Program persediaan','Setaraf Ke Jepun/Austaria/Jerman/Rusia/Taiwan'),
 	array('','305','305 - Pra universiti',''),
 	array('','306','306 - Diploma Tahun 1',
-	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
+	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'
+	. '<br>551 - Diploma dlm kemahiran khusus & teknikal'
+	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
 	array('','307','307 - Diploma Tahun 2',
-	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'),
-	array('','308','308 - Kolej vokasional Tahun 3','344 - SPVM/SPM(V)/MVC/MVE'),
-	array('','309','309 - Kolej vokasional Tahun 4','344 - SPVM/SPM(V)/MVC/MVE'),
+	'<=Untuk mereka di kolej vokasional/sek. teknik/kementerian pendidikan malaysia'
+	. '<br>551 - Diploma dlm kemahiran khusus & teknikal'
+	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
+	array('','308','308 - Kolej vokasional Tahun 3','352 - Sijil kemahiran khusus & teknikal'
+	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
+	array('','309','309 - Kolej vokasional Tahun 4','352 - Sijil kemahiran khusus & teknikal'
+	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
 	array('','310','310 - Institusi latihan kemahiran Tahun 1',''),
 	array('','311','311 - Institusi latihan kemahiran Tahun 2',''),
 	array('','401','401 - Program sijil kemahiran khusus dan teknikal',
