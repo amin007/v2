@@ -4,7 +4,7 @@ include '../fungsi_global.php';
 include '../atas-set-001.php';
 include '../diatas.php';
 $tableID = 'myTable';
-$tableClass = 'table table-striped table-bordered';
+$tableClass = '';//'table table-striped table-bordered';
 $tajuk = pecahArrayKeTH('#,BilM8,Negeri,Kod Negeri,Daerah,Kod DP,Mukim,Kod Mukim,PBT,Kod PBT,'
 .'Bandar,Kod Bandar,DB00,BP00,Jenis BP00,Strata00,DB10,LB10,BP10,NGDBBP10,Jenis BP10,Strata10,'
 .'DB20,LB20,BPSem20,NGDBBP20Sem,BPMuk20,NGDBBP20Muk,Jenis BP20,Strata20,JumTK10,JumPen10,'
