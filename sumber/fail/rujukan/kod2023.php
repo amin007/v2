@@ -71,6 +71,8 @@ $tajuk['bandar kecil'] = '#,Kod Negeri,Daerah,Bandar Kecil(801(TL BD)/802(TI BD)
 $data['bandar kecil'] = 'dataJsonLama.php?/json/bandarkecil2024';
 $tajuk['Migrasi M6-PSM'] = '#,Kod,Migrasi M6-PSM';
 $data['Migrasi M6-PSM'] = 'dataJsonLama.php?/json/Gaji G2';
+$tajuk['psm'] = '#,Kod,Keterangan PSM';
+$data['psm'] = 'dataJsonLama.php?/json/psmjr7';
 $tajuk['daerah'] = '#,Versi,Negeri,Kod Daerah Pentadbiran,Status Rekod';
 $data['daerah'] = 'dataJsonLama.php?/json/daerah';
 #--------------------------------------------------------------------------------------------------
@@ -115,7 +117,7 @@ $data['bandar'] = './json2023/bandar.json';//$data['bandar'] = 'dataJsonLama.php
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['respon','bahasa','pertuturan','AIR','jantina','negeri','etnik','warganegara',
-'kahwin','sekolah','pendidikan','sijil','pengajian','Aktiviti Pekerjaan','mascoLamaMsic',
+'kahwin','sekolah','pendidikan','sijil','pengajian','Aktiviti Pekerjaan','mascoLamaMsic','psm',
 'aktiviti','Gaji G2','Bil Piece Rate','Unit Kuantiti','responEko','AupAirPelincirPembakarElektrik',
 'bandar','bandar kecil','KodNegeriJPN','KodNegaraJPN','Pendidikan 2022','sijil 2022','daerah',
 'PendidikanSijil 2022','Pengajian 2022','Bidang','programLatihan','mascoMsicV2','Migrasi M6-PSM'];
