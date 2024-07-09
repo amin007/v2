@@ -3634,7 +3634,7 @@ $data['KodNegaraJPN'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 // PSM : M6 - pekerjaan sebelum pindah | JR7 Mirgrasi
-$data['psm'] = [
+$data['psmjr7'] = [
 	['','000006','Penganggur'],
 	['','000007','Suri rumah'],
 	['','000008','Pelajar'],
