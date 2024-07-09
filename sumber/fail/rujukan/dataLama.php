@@ -3633,3 +3633,22 @@ $data['KodNegaraJPN'] = array(
 	array('','ZIMBABWE - 85'),
 );
 #--------------------------------------------------------------------------------------------------
+// PSM : M6 - pekerjaan sebelum pindah | JR7 Mirgrasi
+$data['psm'] = [
+	['','000006','Penganggur'],
+	['','000007','Suri rumah'],
+	['','000008','Pelajar'],
+	['','000009','Pesara'],
+	['','000010','Lain-lain (nyatakan)'],
+	['','1111-01 - 1624-04','Pengurus'],
+	['','2111-01 - 2919-07','Profesional'],
+	['','3111-01 - 3719-17','Juruteknik dan profesional bersekutu'],
+	['','4111-01 - 4419-20','Pekerja sokongan perkeranian'],
+	['','5111-01 - 5419-30','Pekerja perkhidmatan dan jualan'],
+	['','6111-01 - 6341-17','Pekerja kemahiran pertanian, perhutanan, penternakan dan perikanan'],
+	['','7111-01 - 7639-04','Pekerja kemahiran dan pekerja pertukangan yang berkaitan'],
+	['','8111-01 - 8351-23','Operator loji dan mesin, serta pemasang'],
+	['','9111-01 - 9629-02','Pekerja asas'],
+	['','0111-01 - 0321-25','Angkatan tentera'],
+];
+#--------------------------------------------------------------------------------------------------
