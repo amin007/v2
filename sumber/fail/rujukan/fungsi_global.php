@@ -676,10 +676,10 @@ if ( ! function_exists('linkCssJs')):
 endif;
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('diatas')):
-	function diatas($title = 'List Folder', $urlcss)
+	function diatas($title, $urlcss)
 	{
 		$linkCss = masukCss($urlcss);
-		$title = ($title == null) ? 'Senarai Kod' : ucfirst($title);
+		$title = empty($title) ? 'Senarai Kod' : ucfirst($title);
 		print <<<END
 <!doctype html>
 <html lang="en">
