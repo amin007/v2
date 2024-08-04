@@ -435,7 +435,8 @@ if ( ! function_exists('kiraTahunJadual')):
 			else
 				$p0 .= $kod . '|';
 		endfor;
-		list($p2,$cek) = kiraJadualTahun($p0);
+		//Tetapkan nilai lalai jika $p0 adalah null
+		list($p2, $cek) = kiraJadualTahun($p0 ?? '');
 		//semakPembolehubah($cek,'cek',2);
 		if($cek != 'kosong')
 			$p1[] = $p2;
