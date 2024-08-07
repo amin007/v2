@@ -590,7 +590,7 @@ $data['Pendidikan 2022'] = array(
 	memenuhi keperluan industri dan entrepreneur
 	*/
 	array('','208','208 - Kolej vokasional Tahun 1',''),
-	array('','208','209 - Kolej vokasional Tahun 2',''),
+	array('','209','209 - Kolej vokasional Tahun 2',''),
 	array('','301','301 - Tingkatan 6 rendah',
 	'(umur pelajar: 17-19 tahun); (pengajian terkumpul: 12-14 tahun)<br>'
 	. '- Pelajar telah tamat pendidikan menengah atas.<br>'
@@ -983,7 +983,7 @@ $data['PendidikanSijil 2022'] = array(
 	array('','207','207 - Program kemahiran asas','351 - Sijil Kemahiran Asas/Giat Mara(IP=134)'),
 	array('','208','208 - Kolej vokasional Tahun 1','352 - Sijil kemahiran khusus & teknikal'
 	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
-	array('','208','209 - Kolej vokasional Tahun 2','352 - Sijil kemahiran khusus & teknikal'
+	array('','209','209 - Kolej vokasional Tahun 2','352 - Sijil kemahiran khusus & teknikal'
 	. '<br>(IP=160)=>Lain-lain IPTA/IPA'),
 	array('','301','301 - Tingkatan 6 rendah','Luar Negara = 13'),
 	array('','302','302 - Tingkatan 6 atas','347 - STPM/STP/HSC '
