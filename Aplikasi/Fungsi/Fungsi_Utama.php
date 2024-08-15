@@ -3,7 +3,8 @@
 #------------------------------------------------------------------------------------------
 function dpt_url()
 {
-	$url = isset($_GET['url']) ? $_GET['url'] : null;
+	//$url = isset($_GET['url']) ? $_GET['url'] : '';
+	$url = $_GET['url'] ?? '';
 	$url = rtrim($url, '/');
 	$url = filter_var($url, FILTER_SANITIZE_URL);
 	$url = explode('/', $url);
@@ -13,7 +14,8 @@ function dpt_url()
 #------------------------------------------------------------------------------------------
 function dpt_url_xfilter()
 {
-	$url = isset($_GET['url']) ? $_GET['url'] : null;
+	//$url = isset($_GET['url']) ? $_GET['url'] : null;
+	$url = $_GET['url'] ?? '';
 	$url = rtrim($url, '/');
 	//$url = filter_var($url, FILTER_SANITIZE_URL);
 	$url = explode('/', $url);
