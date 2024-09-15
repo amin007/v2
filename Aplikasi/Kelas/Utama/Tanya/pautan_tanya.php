@@ -117,6 +117,8 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Go-Transcribe]'=>'https://go-transcribe.com',
 			'[Geekflare]'=>'https://geekflare.com',
 			'[owncloud]'=>'https://owncloud.com',
+			'[Pos.My-track-label]'=>'https://shop.pos.com.my/tracked-label-international.html',
+			'[Pos.My-flexipack]'=>'https://shop.pos.com.my/flexipack-international-zone-2-xs.html',
 			//'[]'=>'',
 		);
 
