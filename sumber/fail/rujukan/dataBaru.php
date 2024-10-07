@@ -1902,6 +1902,7 @@ $data['mascoMsicV2'] = array(
 	array('','PEKEBUN KECIL','SAYUR','611301','01131'),
 	array('','PENANAM','DURIAN','611125','01223'),
 	array('','PENANAM','PISANG','611106','01221'),
+	array('','PENANAM','NANAS/NENAS','611109','01227'),
 	array('','PENANAM','BUAH TROPIKA(CIKU/DUKU/LANGSAT/DLL)','611132','01229'),
 	array('','PENANAM','KELAPA SAWIT','611104','01262'),
 	array('','BEKEBUN','KELAPA SAWIT','611104','01262'),
