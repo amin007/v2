@@ -1603,6 +1603,8 @@ $data['bezaUntungRugi'] = array(
 	. ' F041199 pada tahun ini.','Property has been around for a long time since the'
 	. ' establishment of the company. However, there is a new property purchase F041199'
 	. ' this year.'),
+	array('','POM016','Persaingan sengit daripada produk China','Fierce competition from'
+	. '  China products'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
