@@ -823,24 +823,24 @@ $data['aktiviti'] = array(
 	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
-//<td> Status Aktiviti ICT</td>
-$data['xtvtICT'] = array(
-	array('','01','01 - Majikan'),
-	array('','02','02 - Pekerja Kerajaan'),
-	array('','03','03 - Pekerja swasta'),
-	array('','04','04 - Bekerja sendiri(Berdaftar)'),
-	array('','05','05 - Bekerja sendiri(Tidak Berdaftar)'),
-	array('','06','06 - Pekerja keluarga tanpa gaji'),
-	array('','07','07 - Penganggur'),
-	array('','08','08 - Suri rumah/menjaga rumah'),
-	array('','09','09 - Pelajar'),
-	array('','10','10 - Pesara kerajaan'),
-	array('','11','11 - Pesara swasta'),
-	array('','12','12 - Warga emas'),
-	array('','13','13 - Kanak-kanak tidak bersekolah'),
-	array('','14','14 - Bayi'),
-	array('','15','15 - Lain-lain(terangkan)')
-);
+//<td> Ictec Status Aktiviti</td>
+$data['xtvtIctec'] = [
+	['','01','01 - Majikan'],
+	['','02','02 - Pekerja Kerajaan'],
+	['','03','03 - Pekerja Swasta'],
+	['','04','04 - Bekerja sendiri(berdaftar)'],
+	['','05','05 - Berkerja sendiri(tidak berdaftar)'],
+	['','06','06 - Pekerja keluarga tanpa gaji '],
+	['','07','07 - Penganggur (Umur 15-54)'],
+	['','08','08 - Suri rumah/menjaga rumah'],
+	['','09','09 - Pelajar'],
+	['','10','10 - Pesara Kerajaan'],
+	['','11','11 - Pesara Swasta'],
+	['','12','12 - Warga emas (bukan pesara kerajaan/swasta berumur 60 tahun ke atas)'],
+	['','13','13 - Kanak-kanak tidak bersekolah (Umur 1-9 tahun)'],
+	['','14','14 - Bayi (Umur bawah 1 tahun)'],
+	['','15','15 - Lain-lain'],
+];
 #--------------------------------------------------------------------------------------------------
 /*
 2.2.5 Soalan G2 - Apakah pekerjaan biasa anda pada bulan lepas _____?
