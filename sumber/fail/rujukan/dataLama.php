@@ -311,6 +311,43 @@ $data['pendidikan'] = array(
 	array('','93','93 - Masih belum bersekolah | 01 - Masih belum bersekolah','')
 );
 #--------------------------------------------------------------------------------------------------
+//<td> Ictec Taraf Pendidikan Rasmi Tertinggi di sekolah,maktab / universiti</td>
+$data['pendidikanIctec'] = [
+	['','00','00 - Pendidikan Prasekolah'],
+	['','11','11 - Tahun 1'],
+	['','12','12 - Tahun 2'],
+	['','13','13 - Tahun 3'],
+	['','14','14 - Tahun 4'],
+	['','15','15 - Tahun 5'],
+	['','16','16 - Tahun 6'],
+	['','21','21 - Kelas Peralihan'],
+	['','22','22 - Tingkatan 1'],
+	['','23','23 - Tingkatan 2'],
+	['','24','24 - Tingkatan 3'],
+	['','31','31 - Tingkatan 4'],
+	['','32','32 - Tingkatan 5'],
+	['','33','33 - Program Kemahiran Asas'],
+	['','41','41 - Tingkatan 6 (rendah)'],
+	['','42','42 - Tingkatan 6 (atas)'],
+	['','43','43 - Matrikulasi (Prauniversiti)'],
+	['','51','51 - Program Sijil Kemahiran Khusus dan Teknikal'],
+	['','61','61 - Program Sijil oleh Badan-badan yang memberi Pengiktirafan'],
+	['','62','62 - Program Sijil dari kolej/politeknik/universiti atau setaraf dengannya'],
+	['','63','63 - Program Sijil perguruan/kejururawatan/kesihatan bersekutu'],
+	['','64','64 - Program Diploma Kemahiran Khusus dan Teknikal'],
+	['','65','65 - Program Diploma Lanjutan/Higher National Diploma Kemahiran Khusus dan Teknikal'],
+	['','66','66 - Program Diploma dari kolej/politeknik/universiti atau setaraf dengannya'],
+	['','67','67 - Program Diploma perguruan/kejururawatan/kesihatan bersekutu'],
+	['','71','71 - Program Ijazah Sarjana Muda/Diploma Lanjutan'],
+	['','72','72 - Program Lepasan Ijazah'],
+	['','73','73 - Program Sarjana'],
+	['','81','81 - Program Ijazah Falsafah Kedoktoran'],
+	['','82','82 - Skim Pasca Kedoktoran'],
+	['','91','91 - Pendidikan tidak formal'],
+	['','92','92 - Tiada pendidikan'],
+	['','93','93 - Masih belum bersekolah'],
+];
+#--------------------------------------------------------------------------------------------------
 //<td> Sijil Asas Sahaja</td>
 $data['sijilAsas'] = array(
 	array('','1','1 - Ijazah / Diploma lanjutan'),
