@@ -311,6 +311,16 @@ $data['pendidikan'] = array(
 	array('','93','93 - Masih belum bersekolah | 01 - Masih belum bersekolah','')
 );
 #--------------------------------------------------------------------------------------------------
+//<td> Sijil Asas Sahaja</td>
+$data['sijilAsas'] = array(
+	array('','1','1 - Ijazah / Diploma lanjutan'),
+	array('','2','2 - Diploma/Sijil'),
+	array('','3','3 - STPM/STP/HSC'),
+	array('','4','4 - SPM/MCE/SC/FMCE/CSC'),
+	array('','5','5 - PT3/PMR/SRP/LCE'),
+	array('','6','6 - Tiada sijil'),
+);
+#--------------------------------------------------------------------------------------------------
 //<td> Sijil Tertinggi Yang Diperolehi di sekolah,maktab / universiti</td>
 $data['sijil'] = array(
 	array('','11','11 - UPKK'),
