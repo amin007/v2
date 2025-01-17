@@ -787,7 +787,7 @@ $data['aktiviti'] = array(
 );
 #--------------------------------------------------------------------------------------------------
 //<td> Status Aktiviti ICT</td>
-$data['aktivitiICT'] = array(
+$data['xtvtICT'] = array(
 	array('','01','01 - Majikan'),
 	array('','02','02 - Pekerja Kerajaan'),
 	array('','03','03 - Pekerja swasta'),
@@ -800,8 +800,8 @@ $data['aktivitiICT'] = array(
 	array('','10','10 - Pesara kerajaan'),
 	array('','11','11 - Pesara swasta'),
 	array('','12','12 - Warga emas'),
-	array('','13','13 - Kanak-kanak tidak bersekolah')
-	array('','14','14 - Bayi')
+	array('','13','13 - Kanak-kanak tidak bersekolah'),
+	array('','14','14 - Bayi'),
 	array('','15','15 - Lain-lain(terangkan)')
 );
 #--------------------------------------------------------------------------------------------------
