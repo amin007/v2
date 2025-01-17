@@ -786,6 +786,25 @@ $data['aktiviti'] = array(
 	array('','11','11 - Kanak-kanak tidak bersekolah')
 );
 #--------------------------------------------------------------------------------------------------
+//<td> Status Aktiviti ICT</td>
+$data['aktivitiICT'] = array(
+	array('','01','01 - Majikan'),
+	array('','02','02 - Pekerja Kerajaan'),
+	array('','03','03 - Pekerja swasta'),
+	array('','04','04 - Bekerja sendiri(Berdaftar)'),
+	array('','05','05 - Bekerja sendiri(Tidak Berdaftar)'),
+	array('','06','06 - Pekerja keluarga tanpa gaji'),
+	array('','07','07 - Penganggur'),
+	array('','08','08 - Suri rumah/menjaga rumah'),
+	array('','09','09 - Pelajar'),
+	array('','10','10 - Pesara kerajaan'),
+	array('','11','11 - Pesara swasta'),
+	array('','12','12 - Warga emas'),
+	array('','13','13 - Kanak-kanak tidak bersekolah')
+	array('','14','14 - Bayi')
+	array('','15','15 - Lain-lain(terangkan)')
+);
+#--------------------------------------------------------------------------------------------------
 /*
 2.2.5 Soalan G2 - Apakah pekerjaan biasa anda pada bulan lepas _____?
 * Tapisan keempat: Soalan ini bagi menentukan status pekerjaan ahli isi rumah dalam bulan rujukan,
