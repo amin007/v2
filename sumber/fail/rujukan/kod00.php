@@ -3,30 +3,7 @@
 require 'fungsi_global.php';
 require 'dataLama.php';
 ###################################################################################################
-#--------------------------------------------------------------------------------------------------
-// bina tatasusunan dari fungsi
-//$tahunJadual = kiraTahunJadual();
-//semakPembolehubah(array($tahunJadual),'tahunJadual');
-//$data['tahun'] = array(array($tahunJadual));
-#--------------------------------------------------------------------------------------------------
-###################################################################################################
 # mula koding
-#--------------------------------------------------------------------------------------------------
-/*
-$_SERVER['PATH_INFO'] => untuk apache
-$_SERVER['REQUEST_URI'] =
-$_SERVER['PATH_TRANSLATED']
-$_SERVER['PHP_SELF']
-$_SERVER['QUERY_STRING'] => /bandar
-$_SERVER['REQUEST_SCHEME'] => https
-$_SERVER['SERVER_PORT'] => 80 atau 443
-
-$s = 'PHP_SELF';
-echo $_SERVER[$s] . '|<br>';
-$cari0 = explode('kod00.php',$_SERVER[$s]);
-$cari2 = explode('/',$cari0[1]);
-echo '<pre>'; print_r($cari2); echo '</pre>';
-*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 1
 /*if (isset($_GET['cari'])):
@@ -67,4 +44,28 @@ endif;//*/
 	//versiphp();
 #--------------------------------------------------------------------------------------------------
 # tamat koding
+###################################################################################################
+# simpan debug kod
+#--------------------------------------------------------------------------------------------------
+// bina tatasusunan dari fungsi
+//$tahunJadual = kiraTahunJadual();
+//semakPembolehubah(array($tahunJadual),'tahunJadual');
+//$data['tahun'] = array(array($tahunJadual));
+#--------------------------------------------------------------------------------------------------
+/*
+$_SERVER['PATH_INFO'] => untuk apache
+$_SERVER['REQUEST_URI'] =
+$_SERVER['PATH_TRANSLATED']
+$_SERVER['PHP_SELF']
+$_SERVER['QUERY_STRING'] => /bandar
+$_SERVER['REQUEST_SCHEME'] => https
+$_SERVER['SERVER_PORT'] => 80 atau 443
+
+$s = 'PHP_SELF';
+echo $_SERVER[$s] . '|<br>';
+$cari0 = explode('kod00.php',$_SERVER[$s]);
+$cari2 = explode('/',$cari0[1]);
+echo '<pre>'; print_r($cari2); echo '</pre>';
+*/
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
