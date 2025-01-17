@@ -480,6 +480,27 @@ $data['test123'] = array(
 //*/
 
 #--------------------------------------------------------------------------------------------------
+/*
+<ul class="chzn-results">
+<li id="dAktiviti_chzn_o_0" class="active-result" style="">Sila Pilih</li>
+<li id="dAktiviti_chzn_o_1" class="active-result" style="">01 - Majikan</li>
+<li id="dAktiviti_chzn_o_2" class="active-result" style="">02 - Pekerja Kerajaan</li>
+<li id="dAktiviti_chzn_o_3" class="active-result" style="">03 - Pekerja Swasta</li>
+<li id="dAktiviti_chzn_o_4" class="active-result result-selected" style="">04 - Bekerja sendiri(berdaftar)</li>
+<li id="dAktiviti_chzn_o_5" class="active-result" style="">05 - Berkerja sendiri(tidak berdaftar)</li>
+<li id="dAktiviti_chzn_o_6" class="active-result" style="">06 - Pekerja keluarga tanpa gaji </li>
+<li id="dAktiviti_chzn_o_7" class="active-result" style="">07 - Penganggur (Umur 15-54)</li>
+<li id="dAktiviti_chzn_o_8" class="active-result" style="">08 - Suri rumah/menjaga rumah</li>
+<li id="dAktiviti_chzn_o_9" class="active-result" style="">09 - Pelajar</li>
+<li id="dAktiviti_chzn_o_10" class="active-result" style="">10 - Pesara Kerajaan</li>
+<li id="dAktiviti_chzn_o_11" class="active-result" style="">11 - Pesara Swasta</li>
+<li id="dAktiviti_chzn_o_12" class="active-result" style="">12 - Warga emas (bukan pesara kerajaan/swasta berumur 60 tahun ke atas)</li>
+<li id="dAktiviti_chzn_o_13" class="active-result" style="">13 - Kanak-kanak tidak bersekolah (Umur 1-9 tahun)</li>
+<li id="dAktiviti_chzn_o_14" class="active-result" style="">14 - Bayi (Umur bawah 1 tahun)</li>
+<li id="dAktiviti_chzn_o_15" class="active-result" style="">15 - Lain-lain</li>
+</ul>
+*/
+#--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,a,b,c,d';
 $data['xxx'] = array(
 	array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
