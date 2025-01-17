@@ -830,7 +830,7 @@ $data['xtvtIctec'] = [
 	['','03','03 - Pekerja Swasta'],
 	['','04','04 - Bekerja sendiri(berdaftar)'],
 	['','05','05 - Berkerja sendiri(tidak berdaftar)'],
-	['','06','06 - Pekerja keluarga tanpa gaji '],
+	['','06','06 - Pekerja keluarga tanpa gaji'],
 	['','07','07 - Penganggur (Umur 15-54)'],
 	['','08','08 - Suri rumah/menjaga rumah'],
 	['','09','09 - Pelajar'],
