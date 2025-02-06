@@ -1442,6 +1442,7 @@ $data['mascoMsicV2'] = array(
 	array('','TUKANG PEMASANG JUBIN/MOZEK','RUMAH','712201','41001'),
 	array('','BURUH PEMBINAAN(KERJA BANGUNAN)','RUMAH','931308','41001'),
 	array('','BURUH KELAPA SAWIT','LADANG SAWIT','921113','01261'),
+	array('','MANDOR LADANG','LADANG SAWIT','611115','01261'),
 	array('','PENGURUS','BENGKEL BESI','132101','25113'),
 	array('','CAT KERETA','BENGKEL','713203','45202'),
 	array('','CUCI/GILAP KERETA','CUCI KENDERAAN','912201','45203'),
@@ -1556,6 +1557,7 @@ $data['mascoMsicV2'] = array(
 	array('','PEKEBUN KECIL','SAYUR','611301','01131'),
 	array('','KERJA RENCAM/BURUH AM','KERJA KAMPUNG','962204','01610'),
 	array('','KERJA RENCAM/BURUH AM','TURAP JALAN RAYA','962204','42102'),
+	array('','PEMOTONG RUMPUT','PROFESIONAL','921401','81300'),
 	//array('','zzzzzz','zzzzzz','xxxxxx','xxxxx'),
 );# masco msic v2
 #--------------------------------------------------------------------------------------------------
