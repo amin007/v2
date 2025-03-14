@@ -4,6 +4,7 @@
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 # soalan 2 - negeri
+$tajuk['negeri'] = '#,kod,keterangan';
 $data['negeri'] = [
 	['','01','01 - Johor'],
 	['','02','02 - Kedah'],
@@ -22,9 +23,10 @@ $data['negeri'] = [
 	['','15','15 - WP Labuan'],
 	['','16','16 - WP Putrajaya'],
 	['','98','98 - Luar Negara'],
-];
+];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 6. Strata (ST) (1 digit) - Kod bagi strata adalah seperti berikut
+$tajuk['strata'] = '#,kod,keterangan';
 $data['strata'] = [
 	['','SM = 0','Semenanjung Malaysia'],
 	['','SM = 1','Metropolitan'],
@@ -39,9 +41,10 @@ $data['strata'] = [
 	['','SS = 6','Luar Bandar 2'],
 	['','SS = 7','Luar Bandar 3'],
 	['','SS = 8','Luar Bandar 4'],
-];
+];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 10. Bulan (2 digit) 01 hingga 12| Catatan: Rujukan bulan semasa aktiviti pelancongan.
+$tajuk['bulan'] = '#,kod,keterangan';
 $data['bulan'] = [
 	['','01','Januari / January'],
 	['','02','Februari / February'],
@@ -55,11 +58,12 @@ $data['bulan'] = [
 	['','10','Oktober / October'],
 	['','11','November / November'],
 	['','12','Disember / December'],
-];
+];//*/
 #--------------------------------------------------------------------------------------------------
 #soalan 12. Kod PO Nota: Bagi tangkapan data (Prosesan Komputer), perlu mengisi 4 digit kod PO,
 # iaitu : Dua digit pertama: Kod Negeri | Dua digit terakhir: Kod PO
 # Contoh: Pejabat Operasi = Johor Bahru | Kod PO=0101
+$tajuk['kodPO'] = '#,kod,keterangan';
 $data['kodPO'] = [
 	['','01xx','Johor'],
 	['','0101','Johor Bahru'],
@@ -121,8 +125,9 @@ $data['kodPO'] = [
 	['','1501','W.P. Labuan'],
 	['','16xx','W.P. Putrajaya'],
 	['','1601','W.P. Putrajaya'],
-];
+];//*/
 #--------------------------------------------------------------------------------------------------
+$tajuk['respon'] = '#,kod,keterangan';
 $data['respon'] = [
 	['','01','01 - Selesai'],
 	['','02','02 - TK Kosong'],
@@ -134,14 +139,88 @@ $data['respon'] = [
 	['','08','08 - Enggan Bekerjasama'],
 	['','09','09 - Lain-lain'],
 	['','00','00 - Lain-Lain Didiami'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+# dts 1/2
+#--------------------------------------------------------------------------------------------------
+#soalan 1. Perhubungan Dengan Ketua Isi Rumah (PK IS) (1 digit)
+$tajuk['pkis'] = '#,kod,keterangan';
+$data['pkis'] = [
+	['','1','Ketua Isi Rumah'],
+	['','2','Suami / Isteri'],
+	['','3','Anak'],
+	['','4','Ibu Bapa'],
+	['','5','Lain-lain Ahli Keluarga'],
+	['','6','Pembantu Rumah'],
+	['','7','Orang lain yang tidak bersaudara'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+# 5. Kumpulan Etnik
+$tajuk['etnik'] = '#,kod,keterangan';
+$data['etnik'] = [
+	['','01','Melayu'],
+	['','02','Cina'],
+	['','03','India'],
+	['','04','Iban'],
+	['','05','Bidayuh'],
+	['','06','Melanau'],
+	['','07','Kadazan / Dusun'],
+	['','08','Bajau'],
+	['','09','Murut'],
+	['','10','Bumiputera Lain Semenanjung'],
+	['','11','Bumiputera Lain Sabah / Sarawak'],
+	['','12','Warganegara Lain-lain'],
+	['','13','Bukan Warganegara'],
+];# data baru akan datang//*/
+#--------------------------------------------------------------------------------------------------
+# 6. Sijil Tertinggi yang Diperoleh Di Sekolah, Maktab atau Universiti (SJ) (1 digit)
+/*Catatan:
+1. Sijil ikhtisas seperti ACCA, CA dll. hendaklah
+disamakan dengan kod ‘4’ atau ‘5’ mengikut taraf
+sijil tersebut.
+2. Untuk ahli yang pernah bersekolah tetapi tidak
+mempunyai sijil dan ahli yang sedang
+bersekolah tetapi tidak mempunyai sebarang sijil
+lagi (contohnya, orang yang masih belajar dalam
+darjah 5) hendaklah dikodkan ‘7’.
+3. Tiada Pendidikan Rasmi atau Pendidikan
+Agama sahaja hendaklah dikodkan '6'.
+*/
+$tajuk['sijil'] = '#,kod,keterangan';
+$data['sijil'] = [
+	['','1','PMR / SRP'],
+	['','2','SPM / SPM(V)'],
+	['','3','STPM / HSC'],
+	['','4','Diploma / Sijil'],
+	['','5','Ijazah dan ke atas'],
+	['','6','Tidak berkenaan'],
+	['','7','Tiada Sijil'],
+	['','8','Tidak diketahui'],
 ];
+];#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];# data baru akan datang//*/
 #--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];# data baru akan datang//*/
 #--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];# data baru akan datang//*/
 #--------------------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];# data baru akan datang//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,a,b,c,d';
 $data['xxx'] = [
