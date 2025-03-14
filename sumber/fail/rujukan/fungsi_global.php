@@ -594,6 +594,7 @@ if ( ! function_exists('metaList')):
 		$p[] = '<meta name="viewport" content="' . $k01 . ' shrink-to-fit=no">';
 		//$p[] = '<meta name="viewport" content="' . $k01 . ' maximum-scale=1">';
 		$p[] = '<meta name="description" content="">';
+		$p[] = '<meta name="robots" content="noindex, nofollow">';
 		//$p[] = '<meta name="keywords" content="derma,Crownfunding,">';
 		$p[] = '<meta name="author" content="Amin007">';
 		//$p[] = '';
@@ -624,6 +625,7 @@ if ( ! function_exists('diatasSimple')):
 <!doctype html>
 <html lang="en">
 <head>
+<meta name="robots" content="noindex, nofollow">
 <title>$title</title>
 </head>
 <body>
@@ -689,6 +691,7 @@ if ( ! function_exists('diatas')):
 <meta name="viewport" content="width=device-width, initial-scale=1,, maximum-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
+<meta name="robots" content="noindex, nofollow">
 <title>$title</title>
 $linkCss
 </head>
