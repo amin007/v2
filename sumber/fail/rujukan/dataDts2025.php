@@ -22,25 +22,24 @@ $data['negeri'] = [
 	['','14','14 - WP Kuala Lumpur'],
 	['','15','15 - WP Labuan'],
 	['','16','16 - WP Putrajaya'],
-	['','98','98 - Luar Negara'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 6. Strata (ST) (1 digit) - Kod bagi strata adalah seperti berikut
 $tajuk['strata'] = '#,kod,keterangan';
 $data['strata'] = [
 	['','SM = 0','Semenanjung Malaysia'],
-	['','SM = 1','Metropolitan'],
-	['','SM = 2','Bandar Besar'],
-	['','SM = 3','Bandar Kecil'],
-	['','SM = 4','Luar Bandar'],
+	['','SM = 1','1 - Metropolitan'],
+	['','SM = 2','2 - Bandar Besar'],
+	['','SM = 3','3 - Bandar Kecil'],
+	['','SM = 4','4 - Luar Bandar'],
 	['','SS = 0','Sabah dan Sarawak'],
-	['','SS = 1','Metropolitan'],
-	['','SS = 2','Bandar Besar'],
-	['','SS = 3','Bandar Kecil'],
-	['','SS = 5','Luar Bandar 1'],
-	['','SS = 6','Luar Bandar 2'],
-	['','SS = 7','Luar Bandar 3'],
-	['','SS = 8','Luar Bandar 4'],
+	['','SS = 1','1 - Metropolitan'],
+	['','SS = 2','2 - Bandar Besar'],
+	['','SS = 3','3 - Bandar Kecil'],
+	['','SS = 5','5 - Luar Bandar 1'],
+	['','SS = 6','6 - Luar Bandar 2'],
+	['','SS = 7','7 - Luar Bandar 3'],
+	['','SS = 8','8 - Luar Bandar 4'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 10. Bulan (2 digit) 01 hingga 12| Catatan: Rujukan bulan semasa aktiviti pelancongan.
@@ -71,16 +70,16 @@ $data['kodPO'] = [
 	['','0103','0103 - Muar'],
 	['','0104','0104 - Batu Pahat'],
 	['','02xx','Kedah'],
-	['','0201','Alor Setar'],
-	['','0202','Sungai Petani'],
-	['','0203','Langkawi'],
+	['','0201','0201 - Alor Setar'],
+	['','0202','0202 - Sungai Petani'],
+	['','0203','0203 - Langkawi'],
 	['','03xx','Kelantan'],
-	['','0301','Kota Bharu'],
-	['','0302','Kuala Krai'],
+	['','0301','0301 - Kota Bharu'],
+	['','0302','0302 - Kuala Krai'],
 	['','04xx','Melaka'],
-	['','0401','Melaka'],
+	['','0401','0401 - Melaka'],
 	['','05xx','Negeri Sembilan'],
-	['','0501','Negeri Sembilan'],
+	['','0501','0501 - Negeri Sembilan'],
 	['','06xx','Pahang'],
 	['','0601','Kuantan'],
 	['','0602','Temerloh'],
@@ -244,12 +243,66 @@ $data['pendapatanAIR'] = [
 	['','2','2 - 1,001 - 2,000'],
 	['','3','3 - 2,001 - 3,000'],
 	['','4','4 - 3,001 - 4,000'],
-	['','5"<5 - 4,001 - 5,000'],
+	['','5','5 - 4,001 - 5,000'],
 	['','6','6 - 5,001 - 10,000'],
 	['','7','7 - &gt; 10,000'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,a,b,c,d';
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+];//*/
+#--------------------------------------------------------------------------------------------------
+/*$tajuk['xxx'] = '#,kod,keterangan';
 $data['xxx'] = [
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
