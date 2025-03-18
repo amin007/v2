@@ -66,10 +66,10 @@ $data['bulan'] = [
 $tajuk['kodPO'] = '#,kod,keterangan';
 $data['kodPO'] = [
 	['','01xx','Johor'],
-	['','0101','Johor Bahru'],
-	['','0102','Kluang'],
-	['','0103','Muar'],
-	['','0104','Batu Pahat'],
+	['','0101','0101 - Johor Bahru'],
+	['','0102','0102 - Kluang'],
+	['','0103','0103 - Muar'],
+	['','0104','0104 - Batu Pahat'],
 	['','02xx','Kedah'],
 	['','0201','Alor Setar'],
 	['','0202','Sungai Petani'],
@@ -147,31 +147,31 @@ $data['respon'] = [
 #soalan 1. Perhubungan Dengan Ketua Isi Rumah (PK IS) (1 digit)
 $tajuk['pkis'] = '#,kod,keterangan';
 $data['pkis'] = [
-	['','1','Ketua Isi Rumah'],
-	['','2','Suami / Isteri'],
-	['','3','Anak'],
-	['','4','Ibu Bapa'],
-	['','5','Lain-lain Ahli Keluarga'],
-	['','6','Pembantu Rumah'],
-	['','7','Orang lain yang tidak bersaudara'],
+	['','1','1 - Ketua Isi Rumah'],
+	['','2','2 - Suami / Isteri'],
+	['','3','3 - Anak'],
+	['','4','4 - Ibu Bapa'],
+	['','5','5 - Lain-lain Ahli Keluarga'],
+	['','6','6 - Pembantu Rumah'],
+	['','7','7 - Orang lain yang tidak bersaudara'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # 5. Kumpulan Etnik
 $tajuk['etnik'] = '#,kod,keterangan';
 $data['etnik'] = [
-	['','01','Melayu'],
-	['','02','Cina'],
-	['','03','India'],
-	['','04','Iban'],
-	['','05','Bidayuh'],
-	['','06','Melanau'],
-	['','07','Kadazan / Dusun'],
-	['','08','Bajau'],
-	['','09','Murut'],
-	['','10','Bumiputera Lain Semenanjung'],
-	['','11','Bumiputera Lain Sabah / Sarawak'],
-	['','12','Warganegara Lain-lain'],
-	['','13','Bukan Warganegara'],
+	['','01','01 - Melayu'],
+	['','02','02 - Cina'],
+	['','03','03 - India'],
+	['','04','04 - Iban'],
+	['','05','05 - Bidayuh'],
+	['','06','06 - Melanau'],
+	['','07','07 - Kadazan / Dusun'],
+	['','08','08 - Bajau'],
+	['','09','09 - Murut'],
+	['','10','10 - Bumiputera Lain Semenanjung'],
+	['','11','11 - Bumiputera Lain Sabah / Sarawak'],
+	['','12','12 - Warganegara Lain-lain'],
+	['','13','13 - Bukan Warganegara'],
 ];# data baru akan datang//*/
 #--------------------------------------------------------------------------------------------------
 # 6. Sijil Tertinggi yang Diperoleh Di Sekolah, Maktab atau Universiti (SJ) (1 digit)
@@ -189,42 +189,46 @@ Agama sahaja hendaklah dikodkan '6'.
 */
 $tajuk['sijil'] = '#,kod,keterangan';
 $data['sijil'] = [
-	['','1','PMR / SRP'],
-	['','2','SPM / SPM(V)'],
-	['','3','STPM / HSC'],
-	['','4','Diploma / Sijil'],
-	['','5','Ijazah dan ke atas'],
-	['','6','Tidak berkenaan'],
-	['','7','Tiada Sijil'],
-	['','8','Tidak diketahui'],
+	['','1','1 - PMR / SRP'],
+	['','2','2 - SPM / SPM(V)'],
+	['','3','3 - STPM / HSC'],
+	['','4','4 - Diploma / Sijil'],
+	['','5','5 - Ijazah dan ke atas'],
+	['','6','6 - Tidak berkenaan'],
+	['','7','7 - Tiada Sijil'],
+	['','8','8 - Tidak diketahui'],
 ];
-];#--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-];# data baru akan datang//*/
+#--------------------------------------------------------------------------------------------------
+# Soalan 9 : Butiranahli - perjalananDomestik
+$tajuk['xxx'] = '#,kod,keterangan';
+$data['xxx'] = [
+	['','1','1 - Perjalanan harian'],
+	['','2','2 - Perjalanan Bermalam'],
+	['','4','4 - Perjalanan harian &amp; bermalam'],
+	['','0','0 - Tiada perjalanan domestik'],
+];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
 $data['xxx'] = [
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-];# data baru akan datang//*/
+];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
 $data['xxx'] = [
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-];# data baru akan datang//*/
+];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
 $data['xxx'] = [
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-];# data baru akan datang//*/
+];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,a,b,c,d';
 $data['xxx'] = [
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
 	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-];# data baru akan datang//*/
+];//*/
 #--------------------------------------------------------------------------------------------------
