@@ -217,10 +217,23 @@ $data['jlnLuarNegara'] = [
 	['','0','0 - Tidak'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# Soalan 11 : pekerjaanAIR
+$tajuk['kerjaAIR'] = '#,kod,keterangan';
+$data['kerjaAIR'] = [
+	['','1','1 - Pengurus'],
+	['','2','2 - Profesional'],
+	['','3','3 - Juruteknik &amp; Profesional Bersekutu'],
+	['','4','4 - Pekerja Sokongan Perkeranian'],
+	['','5','5 - Pekerja Perkhidmatan dan Jualan'],
+	['','6','6 - Pekerja Mahir Pertanian, Perhutanan dan Perikanan'],
+	['','7','7 - Pekerja Kemahiran dan Pekerja Pertukangan yang Berkaitan'],
+	['','8','8 - Operator loji dan mesin dan pemasangan'],
+	['','9','9 - Pekerja Asas'],
+	['','10','10 - Suri rumah'],
+	['','11','11 - Pelajar'],
+	['','12','12 - Pesara'],
+	['','13','13 - Tidak bekerja'],
+	['','0','0 - Tidak berkaitan'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
