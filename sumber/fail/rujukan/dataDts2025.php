@@ -174,7 +174,7 @@ $data['etnik'] = [
 	['','13','13 - Bukan Warganegara'],
 ];# data baru akan datang//*/
 #--------------------------------------------------------------------------------------------------
-# 6. Sijil Tertinggi yang Diperoleh Di Sekolah, Maktab atau Universiti (SJ) (1 digit)
+# 8. Sijil Tertinggi yang Diperoleh Di Sekolah, Maktab atau Universiti (SJ) (1 digit)
 /*Catatan:
 1. Sijil ikhtisas seperti ACCA, CA dll. hendaklah disamakan dengan kod 4 atau 5 mengikut taraf
 sijil tersebut.
@@ -201,19 +201,20 @@ $data['sijil'] = [
 	['','x3','x3 - Tiada Pendidikan Rasmi atau Pendidikan Agama sahaja hendaklah kod=6'],
 ];
 #--------------------------------------------------------------------------------------------------
-# Soalan 9 : Butiranahli - perjalananDomestik
-$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
+# Soalan 10a : perjalananDomestik
+$tajuk['jlnDomestik'] = '#,kod,keterangan';
+$data['jlnDomestik'] = [
 	['','1','1 - Perjalanan harian'],
 	['','2','2 - Perjalanan Bermalam'],
 	['','4','4 - Perjalanan harian &amp; bermalam'],
 	['','0','0 - Tiada perjalanan domestik'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# Soalan 10b : perjalananLuarNegara
+$tajuk['jlnLuarNegara'] = '#,kod,keterangan';
+$data['jlnLuarNegara'] = [
+	['','3','3 - Ya'],
+	['','0','0 - Tidak'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
