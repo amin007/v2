@@ -176,16 +176,12 @@ $data['etnik'] = [
 #--------------------------------------------------------------------------------------------------
 # 6. Sijil Tertinggi yang Diperoleh Di Sekolah, Maktab atau Universiti (SJ) (1 digit)
 /*Catatan:
-1. Sijil ikhtisas seperti ACCA, CA dll. hendaklah
-disamakan dengan kod ‘4’ atau ‘5’ mengikut taraf
+1. Sijil ikhtisas seperti ACCA, CA dll. hendaklah disamakan dengan kod 4 atau 5 mengikut taraf
 sijil tersebut.
-2. Untuk ahli yang pernah bersekolah tetapi tidak
-mempunyai sijil dan ahli yang sedang
-bersekolah tetapi tidak mempunyai sebarang sijil
-lagi (contohnya, orang yang masih belajar dalam
-darjah 5) hendaklah dikodkan ‘7’.
-3. Tiada Pendidikan Rasmi atau Pendidikan
-Agama sahaja hendaklah dikodkan '6'.
+2. Untuk ahli yang pernah bersekolah tetapi tidak mempunyai sijil dan ahli yang sedang
+bersekolah tetapi tidak mempunyai sebarang sijil lagi (contohnya, orang yang masih belajar dalam
+darjah 5) hendaklah dikodkan 7.
+3. Tiada Pendidikan Rasmi atau Pendidikan Agama sahaja hendaklah dikodkan 6.
 */
 $tajuk['sijil'] = '#,kod,keterangan';
 $data['sijil'] = [
@@ -197,6 +193,12 @@ $data['sijil'] = [
 	['','6','6 - Tidak berkenaan'],
 	['','7','7 - Tiada Sijil'],
 	['','8','8 - Tidak diketahui'],
+	['','x1','x1 - Sijil ikhtisas seperti ACCA, CA dll. hendaklah disamakan dengan kod=4 atau 5'
+	. ' mengikut taraf sijil tersebut.'],
+	['','x2','x2 - Untuk ahli yang pernah bersekolah tetapi tidak mempunyai sijil dan ahli yang'
+	. ' sedang bersekolah tetapi tidak mempunyai sebarang sijil lagi (contohnya, orang yang'
+	. ' masih belajar dalam darjah 5) hendaklah kod=7'],
+	['','x3','x3 - Tiada Pendidikan Rasmi atau Pendidikan Agama sahaja hendaklah kod=6'],
 ];
 #--------------------------------------------------------------------------------------------------
 # Soalan 9 : Butiranahli - perjalananDomestik
