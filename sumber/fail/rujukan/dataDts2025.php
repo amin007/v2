@@ -281,28 +281,60 @@ $data['jenisJln'] = [
 	['','3','3 - Bersama IR TK Lain'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# soalan 7 - mod pengangkutan
+$tajuk['modAngkut'] = '#,kod,keterangan';
+$data['modAngkut'] = [
+	['','1','1 - Udara'],
+	['','2','2 - Air'],
+	['','3','3 - Kenderaan persendirian'],
+	['','4','4 - Teksi'],
+	['','5','5 - E-hailing'],
+	['','6','6 - Kenderaan sewa'],
+	['','7','7 - Bas'],
+	['','8','8 - Keretapi'],
+	['','9','9 - Lain-lain pengangkutan darat'],
+	['','10','10 - Lain-lain kenderaan persendirian (tidak menggunakan petrol)/ Berjalan kaki'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# Soalan 8 - jenis penginapan
+$tajuk['jenisPenginapan'] = '#,kod,keterangan';
+$data['jenisPenginapan'] = [
+	['','1','1 - Hotel / Resort'],
+	['','2','2 - Motel'],
+	['','3','3 - Hotel apartmen'],
+	['','4','4 - Chalet'],
+	['','5','5 - Rumah rehat'],
+	['','6','6 - Homestay'],
+	['','7','7 - Penginapan lain (bed and breakfast unit, asrama, tapak perkhemahan, dll.)'],
+	['','8','8 - Penginapan (rumah ibu bapa / saudara-mara / rakan / rumah persinggahan)'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# soalan 9 - dapat maklumat
+$tajuk['dptInfo'] = '#,kod,keterangan';
+$data['dptInfo'] = [
+	['','1','1 - Agensi pelancongan'],
+	['','2','2 - Internet'],
+	['','3','3 - Akhbar &amp; majalah'],
+	['','4','4 - Brosor pelancongan'],
+	['','5','5 - Radio'],
+	['','6','6 - Karnival pelancongan'],
+	['','7','7 - Keluarga &amp; rakan'],
+	['','8','8 - Pusat informasi pelancongan'],
+	['','9','9 - Televisyen'],
+	['','10','10 - Lain-lain'],
+	['','11','11 - Tidak berkenaan'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# Soalan 10. Kaedah tempahan penginapan
+$tajuk['tempahan'] = '#,kod,keterangan';
+$data['tempahan'] = [
+	['','1','1 - Internet - Laman Web hotel '],
+	['','2','2 - Internet - Airbnb'],
+	['','3','3 - Internet - Trivago, Agoda, Booking.com dll'],
+	['','4','4 - Agensi pelancongan '],
+	['','5','5 - Tempahan secara manual (telefon, walk-in, emel dll)'],
+	['','6','6 - Tempahan secara pakej oleh organisasi (majikan, persatuan dll)'],
+	['','7','7 - Tidak berkenaan'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
