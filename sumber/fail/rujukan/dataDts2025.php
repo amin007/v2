@@ -296,7 +296,7 @@ $data['modAngkut'] = [
 	['','10','10 - Lain-lain kenderaan persendirian (tidak menggunakan petrol)/ Berjalan kaki'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-# Soalan 8 - jenis penginapan
+# soalan 8 - jenis penginapan
 $tajuk['jenisPenginapan'] = '#,kod,keterangan';
 $data['jenisPenginapan'] = [
 	['','1','1 - Hotel / Resort'],
@@ -325,7 +325,7 @@ $data['dptInfo'] = [
 	['','11','11 - Tidak berkenaan'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-# Soalan 10. Kaedah tempahan penginapan
+# soalan 10. Kaedah tempahan penginapan
 $tajuk['tempahan'] = '#,kod,keterangan';
 $data['tempahan'] = [
 	['','1','1 - Internet - Laman Web hotel '],
@@ -337,16 +337,66 @@ $data['tempahan'] = [
 	['','7','7 - Tidak berkenaan'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# soalan 11. Apakah tujuan utama perjalanan anda?
+$tajuk['tujuanPerjalanan'] = '#,kod,keterangan';
+$data['tujuanPerjalanan'] = [
+	['','1','1 - Menghantar / Melawat rakan &amp; saudara'],
+	['','2','2 - Percutian'],
+	['','3','3 - Mesyuarat, Persidangan &amp; Pameran'],
+	['','4','4 - Amal ibadat'],
+	['','5','5 - Melawat rumah ibadat (cth.: masjid, kuil, gereja)'],
+	['','6','6 - Hiburan / menghadiri acara khas - (cth.: festival, persembahan, konsert &amp;'
+	. ' konvokesyen dll.)'],
+	['','7','7 - Sukan &amp; Rekreasi'],
+	['','8','8 - Membeli belah'],
+	['','9','9 - Perniagaan'],
+	['','10','10 - Pendidikan (cth.: lawatan lapangan, kursus jangka pendek dll.)'],
+	['','11','11 - Rawatan perubatan'],
+	['','12','12 - Kesihatan (cth.: spa, rawatan kecantikan dll.)'],
+	['','13','13 - Perjalanan insentif'],
+	['','14','14 - Makan-makan'],
+	['','15','15 - Lain-lain (nyatakan)'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
-/*$tajuk['xxx'] = '#,kod,keterangan';
-$data['xxx'] = [
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
-	['','zzzzzz','zzzzzz','xxxxxx','xxxxx'],
+# soalan 12. Apakah aktiviti utama anda lakukan bagi setiap perjalanan?
+$tajuk['xtvtUtama'] = '#,kod,keterangan';
+$data['xtvtUtama'] = [
+	['','1','1 - Aktiviti pantai / laut'],
+	['','2','2 - Aktiviti sungai / air terjun / tasik'],
+	['','3','3 - Memancing'],
+	['','4','4 - Sukan'],
+	['','5','5 - Berkelah'],
+	['','6','6 - Aktiviti mendaki'],
+	['','7','7 - Taman haiwan/taman safari(cth:Zoo,taman burung,taman buaya)'],
+	['','8','8 - Melawat taman hiburan/taman tema'],
+	['','9','9 - Melawat taman negara/taman negeri/taman hidupan liar'],
+	['','10','10 - Menikmati pemandangan dari menara/tempat tinggi(cth:Bukit Bendera,MenaraKl)'],
+	['','11','11 - Ekspedisi'],
+	['','12','12 - Belayar'],
+	['','13','13 - Golf'],
+	['','14','14 - Selam skuba'],
+	['','21','21 - Menghadiri aktiviti kesenian atau warisan / pesta / pameran seni / majlis'
+	. ' kebudayaan (cth.: konsert, Citrawarna atau lain-lain persembahan kesenian)'],
+	['','22','22 - Melawat muzium / galeri seni'],
+	['','23','23 - Melawat bangunan bersejarah/warisan/tapak bersejarah/monumen'],
+	['','24','24 - Melawat industry tarikan pelancong(cth:kilang piuter/batik,menganyam bakul)'],
+	['','41','41 - Melawat saudara mara &amp; rakan'],
+	['','42','42 - Makan di luar/restoran'],
+	['','43','43 - Wayang gambar'],
+	['','44','44 - Kelab,pub,disko,karaoke dll '],
+	['','45','45 - Perjudian'],
+	['','46','46 - Berehat &amp; bersiar-siar'],
+	['','47','47 - Mendapat rawatan perubatan'],
+	['','48','48 - Kesihatan/spa'],
+	['','61','61 - Membeli-belah'],
+	['','62','62 - Perniagaan'],
+	['','63','63 - Pendidikan/kursus'],
+	['','64','64 - Temuduga'],
+	['','65','65 - Persidangan/seminar/mesyuarat/pameran'],
+	['','66','66 - Amal ibadat'],
+	['','67','67 - Melawat rumah ibadat(cth: masjid,kuil,gereja)'],
+	['','68','68 - Acara khusus(cth:konvokesyen)'],
+	['','99','99 - Lain-lain(Nyatakan)'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
