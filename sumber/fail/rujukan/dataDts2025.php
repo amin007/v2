@@ -359,44 +359,103 @@ $data['tujuanPerjalanan'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 12. Apakah aktiviti utama anda lakukan bagi setiap perjalanan?
-$tajuk['xtvtUtama'] = '#,kod,keterangan';
+$tajuk['xtvtUtama'] = '#,kod,keterangan,catatat';
 $data['xtvtUtama'] = [
-	['','1','1 - Aktiviti pantai / laut'],
-	['','2','2 - Aktiviti sungai / air terjun / tasik'],
-	['','3','3 - Memancing'],
-	['','4','4 - Sukan'],
-	['','5','5 - Berkelah'],
-	['','6','6 - Aktiviti mendaki'],
-	['','7','7 - Taman haiwan/taman safari(cth:Zoo,taman burung,taman buaya)'],
-	['','8','8 - Melawat taman hiburan/taman tema'],
-	['','9','9 - Melawat taman negara/taman negeri/taman hidupan liar'],
-	['','10','10 - Menikmati pemandangan dari menara/tempat tinggi(cth:Bukit Bendera,MenaraKl)'],
-	['','11','11 - Ekspedisi'],
-	['','12','12 - Belayar'],
-	['','13','13 - Golf'],
-	['','14','14 - Selam skuba'],
+	['','01','01 - Aktiviti pantai / laut','Semua kegiatan yang'
+	. ' dilakukan di persisiran pantai, misalnya berjemur di pantai, bermain bola tampar pantai'
+	. ' dan jet ski. Tidak termasuk aktiviti berkelah, selam scuba dan memancing.'],
+	['','02','02 - Aktiviti sungai / air terjun / tasik','Aktiviti seperti bersampan, berkayak,'
+	. '  berenang dan lain-lain yang berkaitan. Tidak termasuk berkelah dan memancing.'],
+	['','03','03 - Memancing','Memancing yang dilakukan di sungai, laut dan tasik sama ada berbayar'
+	. ' atau percuma. Termasuk juga aktiviti mencandat sotong.'],
+	['','04','04 - Sukan','Kegiatan-kegiatan yang berkaitan dengan aktiviti sukan seperti menyertai'
+	. ' atau menyaksikan acara sukan, misalnya acara padang. Kod ini termasuk aktiviti renang dan'
+	. ' sukan akuatik yang diadakan di kolam renang. Tidak termasuk sukan golf.'],
+	['','05','05 - Berkelah','Aktiviti bersuka-suka dan berjamu beramai-ramai di luar rumah seperti'
+	. ' di kawasan rekreasi. Misalnya berkelah di tepi pantai, taman rekreasi atau tempat'
+	. ' perkelahan.'],
+	['','06','06 - Aktiviti mendaki','Aktiviti memanjat dan mendaki, umpamanya mendaki Gunung'
+	. ' Kinabalu, Gunung Tahan,Bukit Broga dan sebagainya.'],
+	['','07','07 - Taman haiwan/taman safari(cth:Zoo,taman burung,taman buaya)','Lawatan ke'
+	. ' taman-taman haiwan/ taman safari dan taman burung. Misalnya zoo, taman buaya, taman safari,'
+	. ' taman rusa dan lain-lain.'],
+	['','08','08 - Melawat taman hiburan/taman tema','Taman hiburan bermaksud tempat bersuka ria'
+	. ' dan terdapat berbagai jenis permainan. Sesetengah taman hiburan dilengkapi dengan tempat'
+	. ' menari, meluncur ais dan sebagainya. Taman tema biasanya dilengkapi dengan alatan'
+	. ' permainan outdoor game dan indoor game. Contohnya Sunway Lagoon, Gambang Water Park,'
+	. ' Genting Theme Park dan Taman Air A’Famosa.'],
+	['','09','09 - Melawat taman negara/taman negeri/taman hidupan liar','Ia adalah taman yang'
+	. ' diwartakan oleh pihak kerajaan. Taman negara dan taman negeri biasanya adalah hutan'
+	. ' simpan yang dipelihara oleh Jabatan Perhutanan seperti Taman Negara Endau Rompin dan'
+	. ' Taman Negara Niah. Taman hidupan liar, taman pemuliharaan (sanctuary) atau tempat'
+	. ' perlindungan selalunya dipelihara oleh Jabatan Perhilitan dan Hidupan Liar di habitat'
+	. ' semulajadi dan berfungsi untuk menempatkan haiwan-haiwan yang semakin pupus seperti'
+	. ' Taman Orang Utan Sepilok dan Pusat Pemuliharaan Tuntung Bota.'],
+	['','10','10 - Menikmati pemandangan dari menara/tempat tinggi(cth:Bukit Bendera,MenaraKl)',
+	'Aktiviti menikmati keindahan pemandangan dari menara seperti Menara Kuala Lumpur atau'
+	. ' Menara Petronas. Termasuk juga menikmati pemandangan dari Bukit Bendera & sebagainya.'],
+	['','11','11 - Ekspedisi','Aktiviti kembara menjelajah ke sesuatu tempat untuk mengenali'
+	. ' dan mempelajari keindahan budaya setempat.'],
+	['','12','12 - Belayar','Aktiviti pelayaran seperti menyertai kelab layar, menaiki kapal,'
+	. ' misalnya Tasik Cruise Putrajaya, Mines Cruise dan sebagainya.'],
+	['','13','13 - Golf','Aktiviti yang khusus melibatkan kegiatan berkaitan golf.'],
+	['','14','14 - Selam skuba','Aktiviti menyelam di dasar laut untuk menikmati keistimewaan'
+	. ' hidupan di bawah permukaan laut.'],
 	['','21','21 - Menghadiri aktiviti kesenian atau warisan / pesta / pameran seni / majlis'
-	. ' kebudayaan (cth.: konsert, Citrawarna atau lain-lain persembahan kesenian)'],
-	['','22','22 - Melawat muzium / galeri seni'],
-	['','23','23 - Melawat bangunan bersejarah/warisan/tapak bersejarah/monumen'],
-	['','24','24 - Melawat industry tarikan pelancong(cth:kilang piuter/batik,menganyam bakul)'],
-	['','41','41 - Melawat saudara mara &amp; rakan'],
-	['','42','42 - Makan di luar/restoran'],
-	['','43','43 - Wayang gambar'],
-	['','44','44 - Kelab,pub,disko,karaoke dll '],
-	['','45','45 - Perjudian'],
-	['','46','46 - Berehat &amp; bersiar-siar'],
-	['','47','47 - Mendapat rawatan perubatan'],
-	['','48','48 - Kesihatan/spa'],
-	['','61','61 - Membeli-belah'],
-	['','62','62 - Perniagaan'],
-	['','63','63 - Pendidikan/kursus'],
-	['','64','64 - Temuduga'],
-	['','65','65 - Persidangan/seminar/mesyuarat/pameran'],
-	['','66','66 - Amal ibadat'],
-	['','67','67 - Melawat rumah ibadat(cth: masjid,kuil,gereja)'],
-	['','68','68 - Acara khusus(cth:konvokesyen)'],
-	['','99','99 - Lain-lain(Nyatakan)'],
+	. ' kebudayaan (cth.: konsert, Citrawarna atau lain-lain persembahan kesenian)','Aktiviti'
+	. ' kesenian dan warisan seperti menghadiri konsert atau lain-lain persembahan seni seperti'
+	. ' persembahan nyanyian, tarian dan teater.'],
+	['','22','22 - Melawat muzium / galeri seni','Muzium adalah bangunan tempat menyimpan,'
+	. ' memelihara, mengkaji atau mempamerkan objek-objek yang mempunyai nilai sejarah, seni,'
+	. ' saintifik dan sebagainya. <br>Galeri pula adalah sebuah bangunan atau bilik tempat'
+	. ' pameran karya-karya seni dan sebagainya. Muzium atau geleri termasuk kepunyaan kerajaan'
+	. ' dan swasta. Contoh: Muzium Negara dan Balai Seni Lukis Negara.'],
+	['','23','23 - Melawat bangunan bersejarah/warisan/tapak bersejarah/monumen','Bangunan'
+	. ' bersejarah/ warisan/ tapak bersejarah/ monumen adalah berbeza dengan muzium kerana'
+	. ' muzium adalah tempat menyimpan barang bersejarah manakala bangunan bersejarah adalah'
+	. ' bangunan yang mengandungi kesan tinggalan sejarah. Contoh: Tapak Bersejarah Pasir Salak,'
+	. ' Bangunan Sultan Ibrahim.'],
+	['','24','24 - Melawat industry tarikan pelancong(cth:kilang piuter/batik,menganyam bakul)',
+	'Lawatan ke pusat industri tarikan pelancong seperti kilang batik, kilang piuter, pusat kraf'
+	. ' tangan, kilang kerepek, kilang coklat.'],
+	['','41','41 - Melawat saudara mara &amp; rakan','Mengunjungi rakan-rakan dan saudara sama ada'
+	. ' di rumah mereka atau pun melawat mereka di hospital. Ini termasuk menghadiri acara kenduri,'
+	. ' majlis perkahwinan dan lain-lain majlis yang diadakan sama ada di rumah atau pun'
+	. ' tempat-tempat lain seperti dewan.'],
+	['','42','42 - Makan di luar/restoran','Makan di luar seperti di gerai, kedai makan, restoran'
+	. ' atau hotel.'],
+	['','43','43 - Wayang gambar','Menonton wayang gambar sama ada di pawagam atau di cineplex,'
+	. ' iaitu bilik kecil yang disediakan skrin besar yang mana banyak terdapat di pusat membeli'
+	. ' belah dewasa ini.'],
+	['','44','44 - Kelab,pub,disko,karaoke dll','Mengunjungi pusat hiburan seperti kelab, pub,'
+	. ' disko, karoke dan lain-lain.'],
+	['','45','45 - Perjudian/Kasino','Tempat perjudian seperti di Genting Highland Casino.'],
+	['','46','46 - Berehat &amp; bersiar-siar','Merehatkan diri dan bersiar-siar.'],
+	['','47','47 - Mendapat rawatan perubatan','Mendapat rawatan perubatan secara klinikal'
+	. ' moden atau perubatan tradisional dan alternatif.'],
+	['','48','48 - Kesihatan/spa','Aktiviti yang berkaitan kesihatan selain rawatan perubatan'
+	. ' seperti mendapatkan rawatan kecantikan di pusat spa atau sauna.'],
+	['','61','61 - Membeli-belah','Aktiviti membeli barangan/ perkhidmatan di pusat-pusat beli'
+	. ' belah, kedai atau pasaraya.'],
+	['','62','62 - Perniagaan','Aktiviti yang berkaitan dengan urusan perniagaan. Misalnya'
+	. ' perbincangan tentang perniagaan, meninjau potensi dan barangan perniagaan.'],
+	['','63','63 - Pendidikan/kursus','Semua aktiviti yang terlibat dengan pendidikan seperti'
+	. ' menghadiri sesuatu sesi pendidikan seperti mendengar ceramah agama dan motivasi.'],
+	['','64','64 - Temuduga','Aktiviti perjalanan responden bagi menghadiri temuduga pekerjaan'
+	. ' atau lain-lain temuduga.'],
+	['','65','65 - Persidangan/seminar/mesyuarat/pameran','Aktiviti ini adalah sama ada'
+	. ' menghadiri, menganjur atau mengurus konvensyen/ seminar/mesyuarat/ pameran.'],
+	['','66','66 - Amal ibadat','Aktiviti yang berkaitan dengan amal ibadat/aktiviti keagamaan.'
+	. ' Contohnya mengerjakan haji dan umrah bagi umat Islam dan pergi ke Batu Caves untuk'
+	. ' perayaan Thaipusam bagi penganut Hindu.'],
+	['','67','67 - Melawat rumah ibadat(cth: masjid,kuil,gereja)','Aktiviti ini termasuk melawat'
+	. ' masjid, tokong, kuil, gereja atau lain-lain rumah ibadat. Misalnya melawat Masjid Putra'
+	. ' di Putrajaya dan Kek Lok Si di Pulau Penang. Melawat rumah ibadat tidak semestinya'
+	. ' melakukan amal ibadat.'],
+	['','68','68 - Acara khusus(cth:konvokesyen)','Menghadiri acara khusus umpamanya acara'
+	. ' konvokesyen, acara berbuka puasa dan acara penganugerahan pingat.'],
+	['','99','99 - Lain-lain(Nyatakan)','Lain-lain aktiviti yang tidak dikelaskan di'
+	. ' mana-mana kod.'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
