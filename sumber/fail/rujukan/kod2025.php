@@ -21,7 +21,7 @@ $failPhp2 = ['modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalana
 foreach($failPhp2 as $dataPhp2):
 	$tajuk[$dataPhp2] = ($dataPhp2 === 'xtvtUtama') ?
 	'#,Kod,Keterangan,Catatan':'#,Kod,Keterangan';
-	$data[$dataPhp2] = 'dataJsonDts.php?/json/' . $dataPhp;
+	$data[$dataPhp2] = 'dataJsonDts.php?/json/' . $dataPhp2;
 endforeach;
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
