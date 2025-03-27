@@ -5,76 +5,29 @@ require 'fungsi_global.php';
 # bina tatasusunan dari php array kepada json
 #--------------------------------------------------------------------------------------------------
 # bentuk tatasusunan baru 2025
-$tajuk['negeri'] = '#,Kod,Keterangan';
-$data['negeri'] = 'dataJsonDts.php?/json/negeri';
-# soalan 6. Strata (ST) (1 digit)
-$tajuk['strata'] = '#,Kod,Keterangan';
-$data['strata'] = 'dataJsonDts.php?/json/strata';
-# soalan 10. Bulan (2 digit) 01 hingga 12
-$tajuk['bulan'] = '#,Kod,Keterangan';
-$data['bulan'] = 'dataJsonDts.php?/json/bulan';
-# Contoh: Pejabat Operasi(PO) = Johor Bahru | Kod PO=0101
-$tajuk['kodPO'] = '#,Kod,Keterangan';
-$data['kodPO'] = 'dataJsonDts.php?/json/kodPO';
-$tajuk['respon'] = '#,Kod,Keterangan';
-$data['respon'] = 'dataJsonDts.php?/json/respon';
-#--------------------------------------------------------------------------------------------------
-# dts 1/2
-#--------------------------------------------------------------------------------------------------
-#Soalan 1. Perhubungan Dengan Ketua Isi Rumah (Pk Is) (1 Digit)
-$tajuk['pkis'] = '#,Kod,Keterangan';
-$data['pkis'] = 'dataJsonDts.php?/json/pkis';
-$tajuk['etnik'] = '#,Kod,Keterangan';# 5. Kumpulan Etnik
-$data['etnik'] = 'dataJsonDts.php?/json/etnik';
-$tajuk['sijil'] = '#,Kod,Keterangan';# 8. Sijil Tertinggi
-$data['sijil'] = 'dataJsonDts.php?/json/sijil';
-# Soalan 10a : Perjalanan Domestik
-$tajuk['jlnDomestik'] = '#,Kod,Keterangan';
-$data['jlnDomestik'] = 'dataJsonDts.php?/json/jlnDomestik';
-$tajuk['jlnLuarNegara'] = '#,Kod,Keterangan';# Soalan 10b : Perjalanan Luar Negara
-$data['jlnLuarNegara'] = 'dataJsonDts.php?/json/jlnLuarNegara';
-$tajuk['kerjaAIR'] = '#,Kod,Keterangan';# Soalan 11 : pekerjaanAIR
-$data['kerjaAIR'] = 'dataJsonDts.php?/json/kerjaAIR';
-$tajuk['pendapatanAIR'] = '#,Kod,Keterangan';# # Soalan 12 : pendapatanAIR
-$data['pendapatanAIR'] = 'dataJsonDts.php?/json/pendapatanAIR';
-# Soalan 13/14/15//16/17/18/19/20 - Perjalanan Harian Dan Bermalam
-# Nh - Negeri Harian   Nm - Negeri Malam
-$tajuk['negeriHariMlm'] = '#,Kod,Keterangan';
-$data['negeriHariMlm'] = 'dataJsonDts.php?/json/negeriHariMlm';
-#--------------------------------------------------------------------------------------------------
-# dts 1/3
-#--------------------------------------------------------------------------------------------------
-# Soalan 4 - Jenis Perjalanan
-$tajuk['jenisJln'] = '#,Kod,Keterangan';
-$data['jenisJln'] = 'dataJsonDts.php?/json/jenisJln';
+$failPhp = ['negeri','strata','bulan','kodPO','respon','pkis','etnik','sijil','jlnDomestik',
+'jlnLuarNegara','kerjaAIR','pendapatanAIR','negeriHariMlm','jenisJln'];
+foreach($failPhp as $dataPhp):
+	$tajuk[$dataPhp] = '#,Kod,Keterangan';
+	$data[$dataPhp] = 'dataJsonDts.php?/json/' . $dataPhp;
+endforeach;
 #--------------------------------------------------------------------------------------------------
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
 $tajuk['namaTempat'] = '#,Kod,Nama Tempat,Daerah,Negeri';
 $data['namaTempat'] = ImportCSV2Array01($filename = './kod2022/namatempat.csv');
 #--------------------------------------------------------------------------------------------------
-# Soalan 7 - Mod Pengangkutan
-$tajuk['modAngkut'] = '#,Kod,Keterangan';
-$data['modAngkut'] = 'dataJsonDts.php?/json/modAngkut';
-# Soalan 8 - Jenis Penginapan
-$tajuk['jenisPenginapan'] = '#,Kod,Keterangan';
-$data['jenisPenginapan'] = 'dataJsonDts.php?/json/jenisPenginapan';
-# Soalan 9 - Dapat Maklumat
-$tajuk['dptInfo'] = '#,Kod,Keterangan';
-$data['dptInfo'] = 'dataJsonDts.php?/json/dptInfo';
-# Soalan 10. Kaedah Tempahan Penginapan
-$tajuk['tempahan'] = '#,Kod,Keterangan';
-$data['tempahan'] = 'dataJsonDts.php?/json/tempahan';
-$tajuk['tujuanPerjalanan'] = '#,Kod,Keterangan';
-$data['tujuanPerjalanan'] = 'dataJsonDts.php?/json/tujuanPerjalanan';
-# Soalan 12. Apakah Aktiviti Utama Anda Lakukan Bagi Setiap Perjalanan?
-$tajuk['xtvtUtama'] = '#,Kod,Keterangan,Catatan';
-$data['xtvtUtama'] = 'dataJsonDts.php?/json/xtvtUtama';
+$failPhp2 = ['modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama'];
+foreach($failPhp2 as $dataPhp2):
+	$tajuk[$dataPhp2] = ($dataPhp2 === 'xtvtUtama') ?
+	'#,Kod,Keterangan,Catatan':'#,Kod,Keterangan';
+	$data[$dataPhp2] = 'dataJsonDts.php?/json/' . $dataPhp;
+endforeach;
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['negeri','strata','bulan','kodPO','respon','pkis','etnik','sijil','jlnDomestik',
-'jlnLuarNegara','kerjaAIR','pendapatanAIR','negeriHariMlm','jenisJln','modAngkut',
-'jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama'];
+'jlnLuarNegara','kerjaAIR','pendapatanAIR','negeriHariMlm','jenisJln',
+'modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama'];
 $dataJson = [''];// buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
