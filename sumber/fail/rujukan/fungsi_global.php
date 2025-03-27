@@ -734,6 +734,7 @@ if ( ! function_exists('gradeTable002')):
 	}],
 	$papar
 	"order": []
+	/* gradeTable002 */
 	});
 /* ***************************************************************************************** */
 	t.on( 'order.dt search.dt', function (){
