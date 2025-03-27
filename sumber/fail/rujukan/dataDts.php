@@ -250,8 +250,8 @@ $data['pendapatanAIR'] = [
 #--------------------------------------------------------------------------------------------------
 # soalan 13/14/15//16/17/18/19/20 - perjalanan harian dan bermalam
 # NH - Negeri Harian   NM - Negeri Malam
-$tajuk['nh-nm-1234'] = '#,kod,keterangan';
-$data['negeri'] = [
+$tajuk['negeriHariMlm'] = '#,kod,keterangan';
+$data['negeriHariMlm'] = [
 	['','01','01 - Johor'],
 	['','02','02 - Kedah'],
 	['','03','03 - Kelantan'],
@@ -359,7 +359,7 @@ $data['tujuanPerjalanan'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 12. Apakah aktiviti utama anda lakukan bagi setiap perjalanan?
-$tajuk['xtvtUtama'] = '#,kod,keterangan,catatat';
+$tajuk['xtvtUtama'] = '#,kod,keterangan,catatan';
 $data['xtvtUtama'] = [
 	['','01','01 - Aktiviti pantai / laut','Semua kegiatan yang'
 	. ' dilakukan di persisiran pantai, misalnya berjemur di pantai, bermain bola tampar pantai'
