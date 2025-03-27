@@ -1046,6 +1046,7 @@ if ( ! function_exists('binaPautan')):
 			array('a'=>'warning','b'=>'./kod00.php','c'=>'kod-lama'),
 			array('a'=>'warning','b'=>'./kod2022_aes.php','c'=>'AES'),
 			array('a'=>'warning','b'=>'./kod2023.php','c'=>'kod2023'),
+			array('a'=>'warning','b'=>'./kod2025.php','c'=>'kod2025'),
 			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun'),
 		);
 
