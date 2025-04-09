@@ -361,54 +361,50 @@ $data['S11tujuanPerjalanan'] = [
 # soalan 12. Apakah aktiviti utama anda lakukan bagi setiap perjalanan?
 $tajuk['S12xtvtUtama'] = '#,kod,keterangan,catatan,aktiviti';
 $data['S12xtvtUtama'] = [
-	['','01','01 - Aktiviti pantai / laut','Semua kegiatan yang'
-	. ' dilakukan di persisiran pantai, misalnya berjemur di pantai, bermain bola tampar pantai'
-	. ' dan jet ski. Tidak termasuk aktiviti berkelah, selam scuba dan memancing.',
-	'aktiviti luar/alam semulajadi'],
+	['','01','01 - Aktiviti pantai / laut','Semua kegiatan yang dilakukan di persisiran pantai,'
+	. ' misalnya berjemur di pantai, bermain bola tampar pantai dan jet ski. Tidak termasuk'
+	. ' aktiviti berkelah, selam scuba dan memancing.','luar/alam semulajadi'],
 	['','02','02 - Aktiviti sungai / air terjun / tasik','Aktiviti seperti bersampan, berkayak,'
 	. '  berenang dan lain-lain yang berkaitan. Tidak termasuk berkelah dan memancing.',
-	'aktiviti luar/alam semulajadi'],
+	'luar/alam semulajadi'],
 	['','03','03 - Memancing','Memancing yang dilakukan di sungai, laut dan tasik sama ada berbayar'
-	. ' atau percuma. Termasuk juga aktiviti mencandat sotong.',
-	'aktiviti luar/alam semulajadi'],
+	. ' atau percuma. Termasuk juga aktiviti mencandat sotong.','luar/alam semulajadi'],
 	['','04','04 - Sukan','Kegiatan-kegiatan yang berkaitan dengan aktiviti sukan seperti menyertai'
 	. ' atau menyaksikan acara sukan, misalnya acara padang. Kod ini termasuk aktiviti renang dan'
 	. ' sukan akuatik yang diadakan di kolam renang. Tidak termasuk sukan golf.',
-	'aktiviti luar/alam semulajadi'],
+	'luar/alam semulajadi'],
 	['','05','05 - Berkelah','Aktiviti bersuka-suka dan berjamu beramai-ramai di luar rumah seperti'
 	. ' di kawasan rekreasi. Misalnya berkelah di tepi pantai, taman rekreasi atau tempat'
-	. ' perkelahan.','aktiviti luar/alam semulajadi'],
+	. ' perkelahan.','luar/alam semulajadi'],
 	['','06','06 - Aktiviti mendaki','Aktiviti memanjat dan mendaki, umpamanya mendaki Gunung'
-	. ' Kinabalu, Gunung Tahan,Bukit Broga dan sebagainya.','aktiviti luar/alam semulajadi'],
+	. ' Kinabalu, Gunung Tahan,Bukit Broga dan sebagainya.','luar/alam semulajadi'],
 	['','07','07 - Taman haiwan/taman safari(cth:Zoo,taman burung,taman buaya)','Lawatan ke'
 	. ' taman-taman haiwan/ taman safari dan taman burung. Misalnya zoo, taman buaya, taman safari,'
-	. ' taman rusa dan lain-lain.','aktiviti luar/alam semulajadi'],
+	. ' taman rusa dan lain-lain.','luar/alam semulajadi'],
 	['','08','08 - Melawat taman hiburan/taman tema','Taman hiburan bermaksud tempat bersuka ria'
 	. ' dan terdapat berbagai jenis permainan. Sesetengah taman hiburan dilengkapi dengan tempat'
 	. ' menari, meluncur ais dan sebagainya. Taman tema biasanya dilengkapi dengan alatan'
 	. ' permainan outdoor game dan indoor game. Contohnya Sunway Lagoon, Gambang Water Park,'
-	. ' Genting Theme Park dan Taman Air A’Famosa.','aktiviti luar/alam semulajadi'],
+	. ' Genting Theme Park dan Taman Air A’Famosa.','luar/alam semulajadi'],
 	['','09','09 - Melawat taman negara/taman negeri/taman hidupan liar','Ia adalah taman yang'
 	. ' diwartakan oleh pihak kerajaan. Taman negara dan taman negeri biasanya adalah hutan'
 	. ' simpan yang dipelihara oleh Jabatan Perhutanan seperti Taman Negara Endau Rompin dan'
 	. ' Taman Negara Niah. Taman hidupan liar, taman pemuliharaan (sanctuary) atau tempat'
 	. ' perlindungan selalunya dipelihara oleh Jabatan Perhilitan dan Hidupan Liar di habitat'
 	. ' semulajadi dan berfungsi untuk menempatkan haiwan-haiwan yang semakin pupus seperti'
-	. ' Taman Orang Utan Sepilok dan Pusat Pemuliharaan Tuntung Bota.',
-	'aktiviti luar/alam semulajadi'],
+	. ' Taman Orang Utan Sepilok dan Pusat Pemuliharaan Tuntung Bota.','luar/alam semulajadi'],
 	['','10','10 - Menikmati pemandangan dari menara/tempat tinggi(cth:Bukit Bendera,MenaraKl)',
 	'Aktiviti menikmati keindahan pemandangan dari menara seperti Menara Kuala Lumpur atau'
 	. ' Menara Petronas. Termasuk juga menikmati pemandangan dari Bukit Bendera & sebagainya.',
-	'aktiviti luar/alam semulajadi'],
+	'luar/alam semulajadi'],
 	['','11','11 - Ekspedisi','Aktiviti kembara menjelajah ke sesuatu tempat untuk mengenali'
-	. ' dan mempelajari keindahan budaya setempat.','aktiviti luar/alam semulajadi'],
+	. ' dan mempelajari keindahan budaya setempat.','luar/alam semulajadi'],
 	['','12','12 - Belayar','Aktiviti pelayaran seperti menyertai kelab layar, menaiki kapal,'
-	. ' misalnya Tasik Cruise Putrajaya, Mines Cruise dan sebagainya.',
-	'aktiviti luar/alam semulajadi'],
+	. ' misalnya Tasik Cruise Putrajaya, Mines Cruise dan sebagainya.','luar/alam semulajadi'],
 	['','13','13 - Golf','Aktiviti yang khusus melibatkan kegiatan berkaitan golf.',
-	'aktiviti luar/alam semulajadi'],
+	'luar/alam semulajadi'],
 	['','14','14 - Selam skuba','Aktiviti menyelam di dasar laut untuk menikmati keistimewaan'
-	. ' hidupan di bawah permukaan laut.','aktiviti luar/alam semulajadi'],
+	. ' hidupan di bawah permukaan laut.','luar/alam semulajadi'],
 	['','21','21 - Menghadiri aktiviti kesenian atau warisan / pesta / pameran seni / majlis'
 	. ' kebudayaan (cth.: konsert, Citrawarna atau lain-lain persembahan kesenian)','Aktiviti'
 	. ' kesenian dan warisan seperti menghadiri konsert atau lain-lain persembahan seni seperti'
