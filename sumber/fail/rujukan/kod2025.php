@@ -6,7 +6,7 @@ require 'fungsi_global.php';
 #--------------------------------------------------------------------------------------------------
 # bentuk tatasusunan baru 2025
 $failPhp = ['negeri','strata','bulan','kodPO','respon','pkis','etnik','sijil','jlnDomestik',
-'jlnLuarNegara','kerjaAIR','pendapatanAIR','negeriHariMlm','jenisJln'];
+'jlnLuarNegara','kerjaAIR','pendapatanAIR','negeriHariMlm','jenisJln','xLakuJalan'];
 foreach($failPhp as $dataPhp):
 	$tajuk[$dataPhp] = '#,Kod,Keterangan';
 	$data[$dataPhp] = 'dataJsonDts.php?/json/' . $dataPhp;
@@ -17,7 +17,8 @@ endforeach;
 $tajuk['namaTempat'] = '#,Kod,Nama Tempat,Daerah,Negeri';
 $data['namaTempat'] = ImportCSV2Array01($filename = './kod2022/namatempat.csv');
 #--------------------------------------------------------------------------------------------------
-$failPhp2 = ['modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama'];
+$failPhp2 = ['modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama',
+'xLakuJalan'];
 foreach($failPhp2 as $dataPhp2):
 	$tajuk[$dataPhp2] = ($dataPhp2 === 'xtvtUtama') ?
 	'#,Kod,Keterangan,Catatan':'#,Kod,Keterangan';
@@ -27,7 +28,7 @@ endforeach;
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['negeri','strata','bulan','kodPO','respon','pkis','etnik','sijil','jlnDomestik',
 'jlnLuarNegara','kerjaAIR','pendapatanAIR','negeriHariMlm','jenisJln',
-'modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama'];
+'modAngkut','jenisPenginapan','dptInfo','tempahan','tujuanPerjalanan','xtvtUtama','xLakuJalan'];
 $dataJson = [''];// buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
