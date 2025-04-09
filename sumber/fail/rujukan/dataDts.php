@@ -274,16 +274,16 @@ $data['negeriHariMlm'] = [
 # dts 1/3
 #--------------------------------------------------------------------------------------------------
 # soalan 4 - jenis perjalanan
-$tajuk['jenisJln'] = '#,kod,keterangan';
-$data['jenisJln'] = [
+$tajuk['S4jenisJln'] = '#,kod,keterangan';
+$data['S4jenisJln'] = [
 	['','1','1 - Individu'],
 	['','2','2 - Bersama keluarga'],
 	['','3','3 - Bersama IR TK Lain'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 7 - mod pengangkutan
-$tajuk['modAngkut'] = '#,kod,keterangan';
-$data['modAngkut'] = [
+$tajuk['S7modAngkut'] = '#,kod,keterangan';
+$data['S7modAngkut'] = [
 	['','1','1 - Udara'],
 	['','2','2 - Air'],
 	['','3','3 - Kenderaan persendirian'],
@@ -297,8 +297,8 @@ $data['modAngkut'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 8 - jenis penginapan
-$tajuk['jenisPenginapan'] = '#,kod,keterangan';
-$data['jenisPenginapan'] = [
+$tajuk['S8jenisPenginapan'] = '#,kod,keterangan';
+$data['S8jenisPenginapan'] = [
 	['','1','1 - Hotel / Resort'],
 	['','2','2 - Motel'],
 	['','3','3 - Hotel apartmen'],
@@ -310,8 +310,8 @@ $data['jenisPenginapan'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 9 - dapat maklumat
-$tajuk['dptInfo'] = '#,kod,keterangan';
-$data['dptInfo'] = [
+$tajuk['S9dptInfo'] = '#,kod,keterangan';
+$data['S9dptInfo'] = [
 	['','1','1 - Agensi pelancongan'],
 	['','2','2 - Internet'],
 	['','3','3 - Akhbar &amp; majalah'],
@@ -326,8 +326,8 @@ $data['dptInfo'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 10. Kaedah tempahan penginapan
-$tajuk['tempahan'] = '#,kod,keterangan';
-$data['tempahan'] = [
+$tajuk['S10tempahan'] = '#,kod,keterangan';
+$data['S10tempahan'] = [
 	['','1','1 - Internet - Laman Web hotel '],
 	['','2','2 - Internet - Airbnb'],
 	['','3','3 - Internet - Trivago, Agoda, Booking.com dll'],
@@ -338,8 +338,8 @@ $data['tempahan'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 11. Apakah tujuan utama perjalanan anda?
-$tajuk['tujuanPerjalanan'] = '#,kod,keterangan';
-$data['tujuanPerjalanan'] = [
+$tajuk['S11tujuanPerjalanan'] = '#,kod,keterangan';
+$data['S11tujuanPerjalanan'] = [
 	['','1','1 - Menghantar / Melawat rakan &amp; saudara'],
 	['','2','2 - Percutian'],
 	['','3','3 - Mesyuarat, Persidangan &amp; Pameran'],
@@ -359,8 +359,8 @@ $data['tujuanPerjalanan'] = [
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # soalan 12. Apakah aktiviti utama anda lakukan bagi setiap perjalanan?
-$tajuk['xtvtUtama'] = '#,kod,keterangan,catatan,aktiviti';
-$data['xtvtUtama'] = [
+$tajuk['S12xtvtUtama'] = '#,kod,keterangan,catatan,aktiviti';
+$data['S12xtvtUtama'] = [
 	['','01','01 - Aktiviti pantai / laut','Semua kegiatan yang'
 	. ' dilakukan di persisiran pantai, misalnya berjemur di pantai, bermain bola tampar pantai'
 	. ' dan jet ski. Tidak termasuk aktiviti berkelah, selam scuba dan memancing.',
