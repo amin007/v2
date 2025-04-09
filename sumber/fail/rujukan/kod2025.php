@@ -20,7 +20,7 @@ $data['namaTempat'] = ImportCSV2Array01($filename = './kod2022/namatempat.csv');
 $failPhp2 = ['S7modAngkut','S8jenisPenginapan','S9dptInfo','S10tempahan','S11tujuanPerjalanan',
 'S12xtvtUtama','S15xLakuJalan'];
 foreach($failPhp2 as $dataPhp2):
-	$tajuk[$dataPhp2] = ($dataPhp2 === 'xtvtUtama') ?
+	$tajuk[$dataPhp2] = ($dataPhp2 === 'S12xtvtUtama') ?
 	'#,Kod,Keterangan,Catatan,Aktiviti':'#,Kod,Keterangan';
 	$data[$dataPhp2] = 'dataJsonDts.php?/json/' . $dataPhp2;
 endforeach;
