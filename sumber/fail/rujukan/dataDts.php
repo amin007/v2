@@ -412,70 +412,73 @@ $data['xtvtUtama'] = [
 	['','21','21 - Menghadiri aktiviti kesenian atau warisan / pesta / pameran seni / majlis'
 	. ' kebudayaan (cth.: konsert, Citrawarna atau lain-lain persembahan kesenian)','Aktiviti'
 	. ' kesenian dan warisan seperti menghadiri konsert atau lain-lain persembahan seni seperti'
-	. ' persembahan nyanyian, tarian dan teater.'],
+	. ' persembahan nyanyian, tarian dan teater.','kesenian/warisan/pesta/tarikan pelancong'],
 	['','22','22 - Melawat muzium / galeri seni','Muzium adalah bangunan tempat menyimpan,'
 	. ' memelihara, mengkaji atau mempamerkan objek-objek yang mempunyai nilai sejarah, seni,'
 	. ' saintifik dan sebagainya. <br>Galeri pula adalah sebuah bangunan atau bilik tempat'
 	. ' pameran karya-karya seni dan sebagainya. Muzium atau geleri termasuk kepunyaan kerajaan'
-	. ' dan swasta. Contoh: Muzium Negara dan Balai Seni Lukis Negara.'],
+	. ' dan swasta. Contoh: Muzium Negara dan Balai Seni Lukis Negara.',
+	'kesenian/warisan/pesta/tarikan pelancong'],
 	['','23','23 - Melawat bangunan bersejarah/warisan/tapak bersejarah/monumen','Bangunan'
 	. ' bersejarah/ warisan/ tapak bersejarah/ monumen adalah berbeza dengan muzium kerana'
 	. ' muzium adalah tempat menyimpan barang bersejarah manakala bangunan bersejarah adalah'
 	. ' bangunan yang mengandungi kesan tinggalan sejarah. Contoh: Tapak Bersejarah Pasir Salak,'
-	. ' Bangunan Sultan Ibrahim.'],
+	. ' Bangunan Sultan Ibrahim.','kesenian/warisan/pesta/tarikan pelancong'],
 	['','24','24 - Melawat industry tarikan pelancong(cth:kilang piuter/batik,menganyam bakul)',
 	'Lawatan ke pusat industri tarikan pelancong seperti kilang batik, kilang piuter, pusat kraf'
-	. ' tangan, kilang kerepek, kilang coklat.'],
+	. ' tangan, kilang kerepek, kilang coklat.','kesenian/warisan/pesta/tarikan pelancong'],
 	['','41','41 - Melawat saudara mara &amp; rakan','Mengunjungi rakan-rakan dan saudara sama ada'
 	. ' di rumah mereka atau pun melawat mereka di hospital. Ini termasuk menghadiri acara kenduri,'
 	. ' majlis perkahwinan dan lain-lain majlis yang diadakan sama ada di rumah atau pun'
-	. ' tempat-tempat lain seperti dewan.'],
+	. ' tempat-tempat lain seperti dewan.','sosial'],
 	['','42','42 - Makan di luar/restoran','Makan di luar seperti di gerai, kedai makan, restoran'
-	. ' atau hotel.'],
+	. ' atau hotel.','sosial'],
 	['','43','43 - Wayang gambar','Menonton wayang gambar sama ada di pawagam atau di cineplex,'
 	. ' iaitu bilik kecil yang disediakan skrin besar yang mana banyak terdapat di pusat membeli'
-	. ' belah dewasa ini.'],
+	. ' belah dewasa ini.','sosial'],
 	['','44','44 - Kelab,pub,disko,karaoke dll','Mengunjungi pusat hiburan seperti kelab, pub,'
-	. ' disko, karoke dan lain-lain.'],
-	['','45','45 - Perjudian/Kasino','Tempat perjudian seperti di Genting Highland Casino.'],
-	['','46','46 - Berehat &amp; bersiar-siar','Merehatkan diri dan bersiar-siar.'],
+	. ' disko, karoke dan lain-lain.','sosial'],
+	['','45','45 - Perjudian/Kasino','Tempat perjudian seperti di Genting Highland Casino.',
+	'sosial'],
+	['','46','46 - Berehat &amp; bersiar-siar','Merehatkan diri dan bersiar-siar.','sosial'],
 	['','47','47 - Mendapat rawatan perubatan','Mendapat rawatan perubatan secara klinikal'
-	. ' moden atau perubatan tradisional dan alternatif.'],
+	. ' moden atau perubatan tradisional dan alternatif.','sosial'],
 	['','48','48 - Kesihatan/spa','Aktiviti yang berkaitan kesihatan selain rawatan perubatan'
-	. ' seperti mendapatkan rawatan kecantikan di pusat spa atau sauna.'],
+	. ' seperti mendapatkan rawatan kecantikan di pusat spa atau sauna.','sosial'],
 	['','61','61 - Membeli-belah','Aktiviti membeli barangan/ perkhidmatan di pusat-pusat beli'
-	. ' belah, kedai atau pasaraya.'],
+	. ' belah, kedai atau pasaraya.','lain-lain'],
 	['','62','62 - Perniagaan','Aktiviti yang berkaitan dengan urusan perniagaan. Misalnya'
-	. ' perbincangan tentang perniagaan, meninjau potensi dan barangan perniagaan.'],
+	. ' perbincangan tentang perniagaan, meninjau potensi dan barangan perniagaan.','lain-lain'],
 	['','63','63 - Pendidikan/kursus','Semua aktiviti yang terlibat dengan pendidikan seperti'
-	. ' menghadiri sesuatu sesi pendidikan seperti mendengar ceramah agama dan motivasi.'],
+	. ' menghadiri sesuatu sesi pendidikan seperti mendengar ceramah agama dan motivasi.',
+	'lain-lain'],
 	['','64','64 - Temuduga','Aktiviti perjalanan responden bagi menghadiri temuduga pekerjaan'
-	. ' atau lain-lain temuduga.'],
+	. ' atau lain-lain temuduga.','lain-lain'],
 	['','65','65 - Persidangan/seminar/mesyuarat/pameran','Aktiviti ini adalah sama ada'
-	. ' menghadiri, menganjur atau mengurus konvensyen/ seminar/mesyuarat/ pameran.'],
+	. ' menghadiri, menganjur atau mengurus konvensyen/ seminar/mesyuarat/ pameran.','lain-lain'],
 	['','66','66 - Amal ibadat','Aktiviti yang berkaitan dengan amal ibadat/aktiviti keagamaan.'
 	. ' Contohnya mengerjakan haji dan umrah bagi umat Islam dan pergi ke Batu Caves untuk'
-	. ' perayaan Thaipusam bagi penganut Hindu.'],
+	. ' perayaan Thaipusam bagi penganut Hindu.','lain-lain'],
 	['','67','67 - Melawat rumah ibadat(cth: masjid,kuil,gereja)','Aktiviti ini termasuk melawat'
 	. ' masjid, tokong, kuil, gereja atau lain-lain rumah ibadat. Misalnya melawat Masjid Putra'
 	. ' di Putrajaya dan Kek Lok Si di Pulau Penang. Melawat rumah ibadat tidak semestinya'
-	. ' melakukan amal ibadat.'],
+	. ' melakukan amal ibadat.','lain-lain'],
 	['','68','68 - Acara khusus(cth:konvokesyen)','Menghadiri acara khusus umpamanya acara'
-	. ' konvokesyen, acara berbuka puasa dan acara penganugerahan pingat.'],
+	. ' konvokesyen, acara berbuka puasa dan acara penganugerahan pingat.','lain-lain'],
 	['','99','99 - Lain-lain(Nyatakan)','Lain-lain aktiviti yang tidak dikelaskan di'
-	. ' mana-mana kod.'],
+	. ' mana-mana kod.','lain-lain'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 # 15. Apakah sebab utama tidak melakukan perjalanan (pada bulan rujukan)?
-$tajuk['S15-xLakuJalan'] = '#,kod,keterangan';
-$data['xLakuJalan'] = [
-	['','1','Tiada kemahuan untuk melakukan perjalanan'],
-	['','2','Tidak mampu dari segi kewangan'],
-	['','3','Tiada tempat untuk dilawati'],
-	['','4','Tiada kesempatan/sibuk'],
-	['','5','Telah membuat perjalanan kurang dari 50km / kurang dari 4 jam'],
-	['','6','Cuaca tidak mengizinkan'],
-	['','7','Lain-lain'],
+$tajuk['S15xLakuJalan'] = '#,kod,keterangan';
+$data['S15xLakuJalan'] = [
+	['','1','1 - Tiada kemahuan untuk melakukan perjalanan'],
+	['','2','2 - Tidak mampu dari segi kewangan'],
+	['','3','3 - Tiada tempat untuk dilawati'],
+	['','4','4 - Tiada kesempatan/sibuk'],
+	['','5','5 - Telah membuat perjalanan kurang dari 50km/kurang dari 4 jam'],
+	['','6','6 - Cuaca tidak mengizinkan'],
+	['','7','7 - Lain-lain'],
 ];//*/
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['xxx'] = '#,kod,keterangan';
