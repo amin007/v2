@@ -1323,6 +1323,9 @@ dikodkan `301` hingga `330` (institusi pengajian luar negara).
 # masco msic - kena tukar masco v2018 kepada v2020
 $tajuk['mascoMsicV2'] = '#,Pekerjaan,Industri,Masco,Msic';
 $data['mascoMsicV2'] = array(
+	ARRAY('','IMAM','MASJID/SURAU/AKTIVITI ORGANISASI KEAGAMAAN','282604','94910'),
+	ARRAY('','BILAL','MASJID/SURAU/AKTIVITI ORGANISASI KEAGAMAAN','361204','94910'),
+	ARRAY('','SIAK/NUJA','MASJID/SURAU/AKTIVITI ORGANISASI KEAGAMAAN','515307','94910'),
 	array('','PENGURUS SYARIKAT','KONTRAKTOR AWAM','112122','42909'),
 	array('','PENYELIA SYARIKAT','KONTRAKTOR AWAM','312223','42909'),
 	array('','PENGURUS','PASARAYA','122109','47112'),
