@@ -123,6 +123,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Perplexity]'=>'https://perplexity.ai',
 			'[Claude]'=>'https://claude.ai',
 			'[Gemini]'=>'https://gemini.google.com',
+			'[Knime]'=>'https://www.knime.com',
 			//'[]'=>'',
 		);
 
