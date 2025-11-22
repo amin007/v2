@@ -15,9 +15,47 @@ error_reporting(E_ALL);
 
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
-
-# 3. setkan tatarajah sistem
-require 'tatarajah.php';
+#--------------------------------------------------------------------------------------------------
+# 3. semak sama ada wujud tatarajah sistem
+if (!file_exists('tatarajah.php'))
+{
+echo '<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Ralat - Fail Tidak Dijumpai</title>
+<style>
+body {
+	font-family: Arial, sans-serif; background: #f8f9fa; padding: 50px; text-align: center;
+}
+.error-box
+{
+	max-width: 600px; margin: 0 auto; padding: 30px;
+	background: white; border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+h1 { color: #dc3545; }
+</style>
+</head>
+<body>
+<div class="error-box">
+	<h1> Fail Hilang!</h1>
+	<p>Maaf, sistem tidak dapat mencari fail <strong>tatarajah.php</strong>.</p>
+	<p>Sila:</p>
+		<ol style="text-align: left; display: inline-block;">
+		<li>Buat fail bernama <code>tatarajah.php</code></li>
+		<li>Letakkan dalam folder yang sama dengan <code>index.php</code></li>
+		<li>Refresh semula halaman ini</li>
+		</ol>
+	<hr><small>Untuk pembangun: ' . dirname(__FILE__) . '\tatarajah.php</small>
+</div>
+</body>
+</html>';
+	exit;
+}
+#--------------------------------------------------------------------------------------------------
+# 3.2 setkan tatarajah sistem
+require 'tatarajah.php'; // baru require kalau dah confirm wujud
 #--------------------------------------------------------------------------------------------------
 /* 4. masukkan semua fail class dari folder Aplikasi/Class
 ** URL : http://www.php-fig.org/psr/psr-4/examples/
