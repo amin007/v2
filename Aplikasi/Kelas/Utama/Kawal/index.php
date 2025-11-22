@@ -1,8 +1,14 @@
 <?php
 namespace Aplikasi\Kawal; //echo __NAMESPACE__;
+#[\AllowDynamicProperties]
 class Index extends \Aplikasi\Kitab\Kawal
 {
 #==========================================================================================
+##------------------------------------------------------------------------------------------
+	public string $_folder = '';
+	public string $Tajuk_Muka_Surat = '';
+	//protected $Tajuk_Muka_Surat;
+##------------------------------------------------------------------------------------------
 	function __construct()
 	{
 		parent::__construct();
