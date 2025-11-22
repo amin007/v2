@@ -58,6 +58,7 @@
 		</div><!-- / class="col-sm-7" -->
 		<div class="col-sm-1"><?php
 $namaServer = $_SERVER['SERVER_NAME'];
+//echo '<h1>' . $namaServer . '</h1>';
 if (($namaServer=='localhost') || ($namaServer=='amindell') ):
 	echo null;
 else:?>
