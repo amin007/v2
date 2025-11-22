@@ -3,6 +3,11 @@ namespace Aplikasi\Kawal; //echo __NAMESPACE__;
 class Hubungi extends \Aplikasi\Kitab\Kawal
 {
 #==========================================================================================
+##------------------------------------------------------------------------------------------
+	public string $_folder;
+	public string $paparHeader;
+	public $paparKandungan;
+##------------------------------------------------------------------------------------------
 	function __construct()
 	{
 		parent::__construct();
@@ -16,7 +21,7 @@ class Hubungi extends \Aplikasi\Kitab\Kawal
 	public function index($a=null)
 	{
 		# Set pemboleubah utama
-		//$this->papar->Tajuk_Muka_Surat = $tajuk;
+		$this->papar->Tajuk_Muka_Surat = $tajuk;
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 
 		# Pergi papar kandungan
