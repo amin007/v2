@@ -10,6 +10,10 @@ namespace Aplikasi\Kitab; //echo __NAMESPACE__;
 class Mulakan
 {
 #==================================================================================================================
+	protected $kawal;
+	protected $parameter;
+	protected $cari_pengawal;
+	protected $muatkanKawal;
 #------------------------------------------------------------------------------------------------------------------
 	function __construct()
 	{
