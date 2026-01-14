@@ -1264,7 +1264,7 @@ if ( ! function_exists('panggilDataTable04')):
 		list($urlcss,$urljs) = linkBt5CssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
-		if ($pilih === 'kodSv-Msic2025vs2028'):
+		if ($pilih === 'kodSv-Msic2025vs2008'):
 			echo "\r\n" . '<style>'
 			. '/* Medan ke-5 => hijau muda */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
