@@ -1234,6 +1234,25 @@ if ( ! function_exists('panggilDataTable04')):
 		list($urlcss,$urljs) = linkBt5CssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
+		if ($pilih === 'kodSv-Msic2025vs2028'):
+			echo '<style>'
+			. '/* Medan ke-5 => hijau muda */'
+			. 'table.dataTable tbody td:nth-child(5),'
+			. 'table.dataTable thead th:nth-child(5) {'
+			. '	background-color: #d8f3dc; /* hijau muda */'
+			. '}'
+			. ''
+			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
+			. 'table.dataTable tbody td:nth-child(7),'
+			. 'table.dataTable thead th:nth-child(7),'
+			. 'table.dataTable tbody td:nth-child(8),'
+			. 'table.dataTable thead th:nth-child(8) {'
+			. '	background-color: #f7b2c4; /* pink sirap bandung */'
+			. '}'
+			. '</style>';
+		else :
+		endif;
+		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table04 - ' . $pilih . ' <h1>';# buat tajuk besar
