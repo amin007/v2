@@ -122,10 +122,10 @@ if (isset($_SERVER[$s])):
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		endif;
 	else:
-		panggilDataTable01($tajuk,$data,null);# panggil fungsi
+		panggilDataKosong($tajuk,$data,null);# panggil fungsi
 	endif;
 else:
-	panggilDataTable01($tajuk,$data,null);# panggil fungsi
+	panggilDataKosong($tajuk,$data,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 //versiphp();
