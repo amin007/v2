@@ -1226,6 +1226,31 @@ if ( ! function_exists('panggilDataTable03')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataTable04')):
+	function panggilDataTable04($tajuk,$data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8
+		list($urlcss,$urljs) = linkBt5CssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		#------------------------------------------------------------------------------------------
+		echo '<h1>Table04 - ' . $pilih . ' <h1>';# buat tajuk besar
+		#------------------------------------------------------------------------------------------
+		if($pilih != '') binaJadualJson($tajuk,$pilih);
+		//binaNotaKaki($tajuk,$data,$pilih);
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		jsPhpJson($data[$pilih]);
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#-------------------------------------------------------------------------------------------------
 if ( ! function_exists('dibawah')):
 	function dibawah($pilih,$urljs)
 	{
