@@ -21,7 +21,7 @@ endforeach;//*/
 //$data['namaTempat'] = ImportCSV2Array01($filename = './kod2022/namatempat.csv');
 $tajuk['kodSv-Msic2025vs2028'] = '#,kod-kp,seksyen MSIC 2025,seksyen MSIC 2008,MSIC 2025,'
 . 'keterangan 2025,MSIC 2008(sebahagian),MSIC 2008,keterangan MSIC 2008';
-$data['kodSv-Msic2025vs2028'] = ImportCSV2Array01($filename = './kod2026/kodSv-Msic2025vs2028'
+$data['kodSv-Msic2025vs2028'] = ImportCSV2Array01($filename = './kod2026/kodSv-Msic2025vs2008'
 . '-inggeris.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
