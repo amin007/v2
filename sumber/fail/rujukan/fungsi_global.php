@@ -1162,7 +1162,7 @@ if ( ! function_exists('panggilDataTable01')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Table01 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table01 - ' . $pilih . ' <h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
@@ -1186,7 +1186,7 @@ if ( ! function_exists('panggilDataTable02')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Table02 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table02 - ' . $pilih . ' <h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1211,7 +1211,7 @@ if ( ! function_exists('panggilDataTable03')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Table03 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table03 - ' . $pilih . ' <h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1230,13 +1230,13 @@ if ( ! function_exists('panggilDataTable04')):
 	function panggilDataTable04($tajuk,$data,$pilih)
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
-		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8
+		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8 dan ada tatasusunan
 		list($urlcss,$urljs) = linkBt5CssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Table04 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table04 - ' . $pilih . ' <h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		//if($pilih != '') binaJadualJson($tajuk,$pilih);
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
