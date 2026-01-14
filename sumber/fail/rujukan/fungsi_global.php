@@ -16,6 +16,7 @@ if ( ! function_exists('semakPembolehubah')):
 			echo tagVar($senarai,$jadual,$p);
 		endif;
 		//$this->semakPembolehubah($ujian,'ujian',0);
+		//semakPembolehubah($ujian,'ujian');
 		#http://php.net/manual/en/function.var-export.php
 		#http://php.net/manual/en/function.print-r.php
 	}
@@ -1260,9 +1261,9 @@ if ( ! function_exists('panggilDataTable04')):
 		//if($pilih != '') binaJadualJson($tajuk,$pilih);
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
-		//semakPembolehubah($tajuk,'tajuk',0);
-		//semakPembolehubah($data,'data',0);
-		//semakPembolehubah($pilih,'pilih',0);
+		//semakPembolehubah($tajuk,'tajuk');
+		//semakPembolehubah($data,'data');
+		//semakPembolehubah($pilih,'pilih');
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
