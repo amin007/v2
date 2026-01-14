@@ -215,7 +215,7 @@ if ( ! function_exists('janaJadualJson')):
 		//$btn = 'btn btn-outline-secondary rounded-pill btn-lg btn-block';
 		$btn = 'btn btn-dark btn-lg btn-block';
 		$tableID = 'myTable';
-		$tableClass = 'table table-striped table-bordered';
+		$tableClass = 'table table-striped table-bordered border border-black';
 		$namaMedan = pecahArrayKeTH($tajuk);//semakPembolehubah($tajuk[$pilih],'tajuk',2);
 		//semakPembolehubah($namaMedan,'namaMedan',2);
 		#------------------------------------------------------------------------------------------
