@@ -597,6 +597,48 @@ if ( ! function_exists('linkCssJs')):
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('linkBt5CssJs')):
+	function linkBt5CssJs()
+	{
+		# setkan jquery, bootstrap dan font awesome sama ada local atau cdn
+		## cdn jquery =============================================================================
+		//$jquery_cdn = '//code.jquery.com/jquery-2.2.3.min.js';
+		$jquery_cdn = '//code.jquery.com/jquery-3.3.1.js';
+		## cdn bootstrap 3.3.7 ====================================================================
+		$bootstrapJS_cdn = '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
+		$bootstrapCSS_cdn = '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+		$ceruleanCSS_cdn = '//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css';
+		$fontawesome_cdn = '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min'
+		. '.css';
+		## cdn bootstrap 4.1.3 ====================================================================
+		$bootstrapJS_413 = '//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js';
+		$bootstrapCSS_413 = '//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css';
+		$ceruleanCSS_413 = '//stackpath.bootstrapcdn.com/bootswatch/4.1.3/cerulean/bootstrap.min'
+		. '.css';
+		## cdn bootstrap aka bt5 5.3.8 ============================================================
+		$bt538_CSS = '//cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css';
+		$bt538_JS = '//cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js';
+		## cdn fontawesome aka fa =================================================================
+		$fontawesome_510 = '//use.fontawesome.com/releases/v5.1.0/css/all.css';
+		$fontawesome_5140 = '//use.fontawesome.com/releases/v5.14.0/css/all.css';
+		$fa_701 = '//use.fontawesome.com/releases/v7.0.1/css/all.css';
+		$fa701_cdn = '//cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css';
+		## datatables  ============================================================================
+		$datatablesCSS = '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css';
+		$datatablesJSS = '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js';
+		$searchHighlightCSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
+		. 'dataTables.searchHighlight.css';
+		$searchHighlightJSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
+		. 'dataTables.searchHighlight.min.js';
+		###########################################################################################
+		$urlcss = array($bt538_CSS,$fa_701,$datatablesCSS,$searchHighlightCSS);
+		$urljs = array($jquery_cdn,$bt538_JS,$datatablesJSS,$searchHighlightJSS);
+		###########################################################################################
+
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('senaraiCssV01')):
