@@ -109,9 +109,9 @@ if (isset($_SERVER[$s])):
 		elseif($cariApa == 'tahun'):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
-			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
-			panggilDataTable03($tajuk,$data,$cariApa);
+			panggilDataTable05($tajuk,$data,$cariApa);
 		elseif(in_array($cariApa,$dataJson)):
 			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
 		else:
