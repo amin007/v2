@@ -1238,15 +1238,19 @@ if ( ! function_exists('panggilDataTable04')):
 		#------------------------------------------------------------------------------------------
 		echo '<h1>Table04 - ' . $pilih . ' <h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
-		if($pilih != '') binaJadualJson($tajuk,$pilih);
+		//if($pilih != '') binaJadualJson($tajuk,$pilih);
+		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
+		//semakPembolehubah($tajuk,'tajuk',0);
+		//semakPembolehubah($data,'data',0);
+		//semakPembolehubah($pilih,'pilih',0);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
 		jqueryExtendA();
 		jqueryExtendB();
 		jqueryExtendC();
-		jsPhpJson($data[$pilih]);
+		gradeTable002(null);
 		echo "\n</script>\n</body>\n</html>";
 	}
 endif;//*/
