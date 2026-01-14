@@ -4,6 +4,31 @@
 # bina tatasusunan dari php
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+$tajuk['responBE2026'] = '#,Kod,Keterangan';
+$data['responBE2026'] = array(
+	array('','11','11 - Borang Lengkap'),
+	array('','31','31 - Tidak menjalankan operasi'),
+	array('','40','40 - Telah tutup'),
+	array('','60','60 - Pendua'),
+	array('','13','13 - Enggan bekerjasama'),
+	array('','14','14 - Diliputi di bawah syarikat (cover under)'),
+	array('','21','21 - Alamat tidak dapat dikesan'),
+	array('','22','22 - Tidak terdapat pertubuhan di alamat yang diberi'),
+	array('','23','23 - Berpindah ke alamat yang tidak dapat diketahui'),
+	array('','32','32 - Under receivership/ Syarikat di bawah tanggungan'),
+	array('','71','71 - Berjanji untuk menghantar laporan'),
+	array('','12','12 - Tidak menjalankan perusahaan pada tempoh rujukan tetapi beroperasi pada tempoh penyiasatan'),
+	array('','72','72 - Pemilik atau pengurus tiada'),
+	array('','73','73 - Akaun belum selesai'),
+	array('','74','74 - Berpindah ke alamat lain di Negeri/PO sama'),
+	array('','75','75 - Berpindah ke Negeri/PO lain'),
+	array('','76','76 - Dalam proses lengkap'),
+	array('','77','77 - Lain-lain keputusan'),
+	array('','50','50 - Salah penyiasatan'),
+	array('','15','15 - Luar liputan industri tetapi masih dalam penyiasatan yang sama'),
+	array('','99','99 - Kes yang dikecualikan bagi suku tahun ketiga 2020'),
+);
+#--------------------------------------------------------------------------------------------------
 $tajuk['msicAes'] = '#,Seksyen,Subsektor,MSIC 5 Digit,Keterangan MSIC';
 $data['msicAes'] = array(
 	//array('','Seksyen','Subsektor','MSIC 5 Digit','Keterangan MSIC'),
