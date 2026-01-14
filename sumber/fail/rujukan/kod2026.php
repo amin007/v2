@@ -17,8 +17,8 @@ endforeach;//*/
 #--------------------------------------------------------------------------------------------------
 # bina tatasusunan dari fungsi
 #--------------------------------------------------------------------------------------------------
-$tajuk['namaTempat'] = '#,Kod,Nama Tempat,Daerah,Negeri';
-$data['namaTempat'] = ImportCSV2Array01($filename = './kod2022/namatempat.csv');
+//$tajuk['namaTempat'] = '#,Kod,Nama Tempat,Daerah,Negeri';
+//$data['namaTempat'] = ImportCSV2Array01($filename = './kod2022/namatempat.csv');
 $tajuk['kodSv-Msic2025vs2028'] = '#,kod-kp,seksyen MSIC 2025,seksyen MSIC 2008,MSIC 2025,'
 . 'keterangan 2025,MSIC 2008(sebahagian),MSIC 2008,keterangan MSIC 2008';
 $data['kodSv-Msic2025vs2028'] = ImportCSV2Array01($filename = './kod2026/kodSv-Msic2025vs2028'
