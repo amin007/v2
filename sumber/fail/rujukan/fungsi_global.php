@@ -1141,7 +1141,7 @@ if ( ! function_exists('panggilDataTable')):
 		binaButang($data);//versiphp();
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Data Table<h1>';# buat tajuk besar
+		//echo '<h1>Data Table<h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 
 		dibawah($pilih,$urljs);
