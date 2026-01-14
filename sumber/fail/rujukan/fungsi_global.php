@@ -1380,7 +1380,7 @@ if ( ! function_exists('dibawah')):
 =============================================================================================== -->
 <footer class="footer">
 	<div class="container">
-		<span class="badge badge-info">
+		<span class="badge badge-info text-bg-info">
 		&copy; Hak Cipta Terperihara 2019. Theme $theme </span>
 	</div>
 </footer>
