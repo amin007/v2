@@ -1088,7 +1088,7 @@ if ( ! function_exists('binaPautan')):
 		$folder = '../rujukan/utama/';
 		$koleksi = array(
 			array('a'=>'primary','b'=>'../','c'=>'Kembalilah<i class="fa fa-binoculars"></i>'),
-			array('a'=>'success','b'=>$folder . 'msic-cari.html','c'=>'MSIC'),
+			array('a'=>'success','b'=>$folder . 'msic-cari.html','c'=>'MSIC2008'),
 			//array('a'=>'success','b'=>$folder . 'masco-cari.html','c'=>'MASCO2013'),
 			//array('a'=>'success','b'=>$folder . 'masco2020-cari.html','c'=>'MASCO2020'),
 			//array('a'=>'info','b'=>$folder . 'institut-cari.html','c'=>'Institut'),
@@ -1098,6 +1098,7 @@ if ( ! function_exists('binaPautan')):
 			array('a'=>'warning','b'=>'./kod2022_aes.php','c'=>'AES'),
 			array('a'=>'warning','b'=>'./kod2023.php','c'=>'kod2023'),
 			array('a'=>'warning','b'=>'./kod2025.php','c'=>'DTS2025'),
+			array('a'=>'warning','b'=>'./kod2026.php','c'=>'BE2026'),
 			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun'),
 		);
 
