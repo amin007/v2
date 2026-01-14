@@ -1228,6 +1228,34 @@ if ( ! function_exists('panggilDataTable03')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataKosong')):
+	function panggilDataKosong($tajuk,$data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8 dan tiada data
+		list($urlcss,$urljs) = linkBt5CssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		binaSatuJadual($data,$pilih);
+		#------------------------------------------------------------------------------------------
+		echo '<h1>Sila Pilih Menu Berkaitan<h1>';# buat tajuk besar
+		//semakPembolehubah($tajuk,'tajuk',0);
+		//semakPembolehubah($data,'data',0);
+		//semakPembolehubah($pilih,'pilih',0);
+		//semakPembolehubah($urljs,'urlcss',0);
+		//semakPembolehubah($urljs,'urljs',0);
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		jqueryExtendA();
+		jqueryExtendB();
+		jqueryExtendC();
+		gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable04')):
 	function panggilDataTable04($tajuk,$data,$pilih)
 	{
