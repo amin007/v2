@@ -24,13 +24,17 @@ $tajuk['kodSv-Msic2025vs2028'] = '#,kod-kp,seksyen MSIC 2025,seksyen MSIC 2008,M
 $data['kodSv-Msic2025vs2028'] = ImportCSV2Array01($filename = './kod2026/kodSv-Msic2025vs2028'
 . '-inggeris.csv');
 #--------------------------------------------------------------------------------------------------
+$tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
+$data['msic2008 notakaki'] = './utama/msic.json';
+#--------------------------------------------------------------------------------------------------
 /*
 "#";"kod-kp";"seksyen MSIC 2025";"seksyen MSIC 2008";"MSIC 2025";"keterangan 2025";"MSIC 2008(sebahagian)";"MSIC 2008";"keterangan MSIC 2008"
 //*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
-$dataJson = [''];// buat null sebab tak wujud data json
+$dataJson = ['msic2008 notakaki'];
+// buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
@@ -113,7 +117,7 @@ if (isset($_SERVER[$s])):
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
 			panggilDataTable05($tajuk,$data,$cariApa);
 		elseif(in_array($cariApa,$dataJson)):
-			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
+			panggilDataTable06($tajuk,$data,$cariApa);# panggil fungsi untuk data json
 		else:
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		endif;
