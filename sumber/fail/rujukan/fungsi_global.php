@@ -1237,21 +1237,19 @@ if ( ! function_exists('panggilDataTable04')):
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		if ($pilih === 'kodSv-Msic2025vs2028'):
-			echo '<style>'
+			echo "\r\n" . '<style>'
 			. '/* Medan ke-5 => hijau muda */'
-			. 'table.dataTable tbody td:nth-child(5),'
-			. 'table.dataTable thead th:nth-child(5) {'
-			. '	background-color: #d8f3dc; /* hijau muda */'
-			. '}'
-			. ''
-			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
-			. 'table.dataTable tbody td:nth-child(7),'
-			. 'table.dataTable thead th:nth-child(7),'
-			. 'table.dataTable tbody td:nth-child(8),'
-			. 'table.dataTable thead th:nth-child(8) {'
-			. '	background-color: #f7b2c4; /* pink sirap bandung */'
-			. '}'
-			. '</style>';
+			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
+			. "\r\n" .  'table.dataTable thead th:nth-child(5)'
+			. "\r\n" . '{ background-color: #d8f3dc; /* hijau muda */ }'
+			. "\r\n"
+			. "\r\n" . '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(7),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(7),'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(8),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(8)'
+			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
+			. '</style>' . "\r\n";
 		else :
 		endif;
 		#------------------------------------------------------------------------------------------
@@ -1308,6 +1306,21 @@ if ( ! function_exists('panggilDataTable06')):
 		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8 dan fail json
 		list($urlcss,$urljs) = linkBt5CssJs();
 		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		if ($pilih === 'msic2008 notakaki'):
+			echo "\r\n" . '<style>'
+			. "\r\n" . '/* Medan ke-5 => hijau muda '
+			. 'table.dataTable tbody td:nth-child(5),'
+			. 'table.dataTable thead th:nth-child(5)'
+			. '{ background-color: #d8f3dc; hijau muda}*/'
+			. "\r\n"
+			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(3),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(3)'
+			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
+			. '</style>' . "\r\n";
+		else :
+		endif;
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
