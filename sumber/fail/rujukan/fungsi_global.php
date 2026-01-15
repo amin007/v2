@@ -776,6 +776,8 @@ if ( ! function_exists('masukStyle')):
 	function masukStyle($pilih)
 	{
 		$p = '';
+		semakPembolehubah('function masukStyle','fungsi',2);
+		semakPembolehubah($pilih,'pilih',2);
 		#
 		if ($pilih === 'kodSv-Msic2025vs2008'):
 			$p =  "\r\n" . '<style>'
