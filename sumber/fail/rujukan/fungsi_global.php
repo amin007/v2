@@ -13,7 +13,8 @@ if ( ! function_exists('semakPembolehubah')):
 			if($p == '1') var_export($senarai);
 			echo '</pre>' . "\n";
 		else:
-			echo tagVar($senarai,$jadual,$p);
+			//echo tagVar($senarai,$jadual,$p);
+			echo tagVar2($senarai,$jadual,$p);
 		endif;
 		//$this->semakPembolehubah($ujian,'ujian',0);
 		//semakPembolehubah($ujian,'ujian');
@@ -37,6 +38,23 @@ if ( ! function_exists('tagVar')):
 		$p[4] = "<$p4>\$$jadual = $senarai</$p4><br>\n";
 		#
 		return $p[$pilih];
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('tagVar2')):
+	function tagVar2($senarai,$jadual,$pilih)
+	{
+		# set pembolehubah utama
+		$tag = [#https://www.w3schools.com/tags/tag_var.asp
+			1 => 'pre',
+			2 => 'kbd',
+			3 => 'code',
+			4 => 'samp'
+		];
+		# setkan tatasusunan
+		$pilih = $tag[$pilih] ?? 'pre'; // default selamat
+		#
+		return "<$pilih>\$$jadual = $senarai</$pilih><br>\n";
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
