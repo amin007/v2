@@ -783,38 +783,45 @@ if ( ! function_exists('masukStyle')):
 			$p = "\r\n" . '<style>'
 			. "\r\n" . '/* Medan ke-5 => hijau muda */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
-			. "\r\n" . 'table.dataTable thead th:nth-child(5)'
+			. "\r\n" . 'table.dataTable thead th:nth-child(5),'
+			. "\r\n" . 'table.dataTable tfoot th:nth-child(5)'
 			. "\r\n" . '{ background-color: #d8f3dc; /* hijau muda */ }'
 			. "\r\n"
 			. "\r\n" . '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(7),'
 			. "\r\n" . 'table.dataTable thead th:nth-child(7),'
+			. "\r\n" . 'table.dataTable tfoot th:nth-child(7),'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(8),'
-			. "\r\n" . 'table.dataTable thead th:nth-child(8)'
+			. "\r\n" . 'table.dataTable thead th:nth-child(8),'
+			. "\r\n" . 'table.dataTable tfoot th:nth-child(8)'
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
 			. "\r\n" . '</style>';
 		elseif ($pilih === 'msic2008 notakaki'):
 			$p = "\r\n" . '<style>'
 			. "\r\n" . '/* Medan ke-5 => hijau muda '
 			. 'table.dataTable tbody td:nth-child(5),'
-			. 'table.dataTable thead th:nth-child(5)'
+			. 'table.dataTable thead th:nth-child(5),'
+			. 'table.dataTable tfoot th:nth-child(5)'
 			. '{ background-color: #d8f3dc; hijau muda}*/'
 			. "\r\n"
 			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(3),'
-			. "\r\n" . 'table.dataTable thead th:nth-child(3)'
+			. "\r\n" . 'table.dataTable thead th:nth-child(3),'
+			. "\r\n" . 'table.dataTable tfoot th:nth-child(3)'
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
 			. "\r\n" . '</style>';
-		elseif ($pilih === 'msicLamaBaru') : //3 / 6 - msicLamaBaru
+		elseif ($pilih === 'msicLamaBaru') :
 			$p = "\r\n" . '<style>'
 			. "\r\n" . '/* Medan ke-5 => hijau muda */'
 			. 'table.dataTable tbody td:nth-child(3),'
-			. 'table.dataTable thead th:nth-child(3)'
+			. 'table.dataTable thead th:nth-child(3),'
+			. 'table.dataTable tfoot th:nth-child(3)'
 			. '{ background-color: #d8f3dc; hijau muda}'
 			. "\r\n"
 			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
-			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
-			. "\r\n" . 'table.dataTable thead th:nth-child(5)'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(6),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(6),'
+			. "\r\n" . 'table.dataTable tfoot th:nth-child(6)'
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
 			. "\r\n" . '</style>';
 		else :
