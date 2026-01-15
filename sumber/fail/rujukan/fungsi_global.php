@@ -780,10 +780,10 @@ if ( ! function_exists('masukStyle')):
 		//semakPembolehubah($pilih,'pilih',2);
 		#
 		if ($pilih === 'kodSv-Msic2025vs2008'):
-			$p =  "\r\n" . '<style>'
-			. '/* Medan ke-5 => hijau muda */'
+			$p = "\r\n" . '<style>'
+			. "\r\n" . '/* Medan ke-5 => hijau muda */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
-			. "\r\n" .  'table.dataTable thead th:nth-child(5)'
+			. "\r\n" . 'table.dataTable thead th:nth-child(5)'
 			. "\r\n" . '{ background-color: #d8f3dc; /* hijau muda */ }'
 			. "\r\n"
 			. "\r\n" . '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
@@ -792,7 +792,7 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . 'table.dataTable tbody td:nth-child(8),'
 			. "\r\n" . 'table.dataTable thead th:nth-child(8)'
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
-			. '</style>' . "\r\n";
+			. "\r\n" . '</style>';
 		elseif ($pilih === 'msic2008 notakaki'):
 			$p = "\r\n" . '<style>'
 			. "\r\n" . '/* Medan ke-5 => hijau muda '
@@ -804,7 +804,19 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . 'table.dataTable tbody td:nth-child(3),'
 			. "\r\n" . 'table.dataTable thead th:nth-child(3)'
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
-			. '</style>' . "\r\n";
+			. "\r\n" . '</style>';
+		elseif ($pilih === 'msicLamaBaru') : //3 / 6 - msicLamaBaru
+			$p = "\r\n" . '<style>'
+			. "\r\n" . '/* Medan ke-5 => hijau muda */'
+			. 'table.dataTable tbody td:nth-child(3),'
+			. 'table.dataTable thead th:nth-child(3)'
+			. '{ background-color: #d8f3dc; hijau muda}'
+			. "\r\n"
+			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(5)'
+			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
+			. "\r\n" . '</style>';
 		else :
 		endif;
 
