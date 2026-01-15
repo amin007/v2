@@ -731,6 +731,7 @@ if ( ! function_exists('diatas')):
 	function diatas($title, $urlcss)
 	{
 		$linkCss = masukCss($urlcss);
+		$styleCss = masukStyle($title);
 		$title = empty($title) ? 'Senarai Kod' : ucfirst($title);
 		print <<<END
 <!doctype html>
@@ -743,6 +744,7 @@ if ( ! function_exists('diatas')):
 <meta name="robots" content="noindex, nofollow">
 <title>$title</title>
 $linkCss
+$styleCss
 </head>
 <body>
 END;
@@ -763,6 +765,47 @@ if ( ! function_exists('masukCss')):
 			}
 		}
 		#
+		return $p;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+# buat style khas dalam <head> bawah <link>
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('masukStyle')):
+	function masukStyle($pilih)
+	{
+		$p = '';
+		#
+		if ($pilih === 'kodSv-Msic2025vs2008'):
+			$p =  "\r\n" . '<style>'
+			. '/* Medan ke-5 => hijau muda */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
+			. "\r\n" .  'table.dataTable thead th:nth-child(5)'
+			. "\r\n" . '{ background-color: #d8f3dc; /* hijau muda */ }'
+			. "\r\n"
+			. "\r\n" . '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(7),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(7),'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(8),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(8)'
+			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
+			. '</style>' . "\r\n";
+		elseif ($pilih === 'msic2008 notakaki'):
+			$p = "\r\n" . '<style>'
+			. "\r\n" . '/* Medan ke-5 => hijau muda '
+			. 'table.dataTable tbody td:nth-child(5),'
+			. 'table.dataTable thead th:nth-child(5)'
+			. '{ background-color: #d8f3dc; hijau muda}*/'
+			. "\r\n"
+			. '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(3),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(3)'
+			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
+			. '</style>' . "\r\n";
+		else :
+		endif;
+
 		return $p;
 	}
 endif;//*/
