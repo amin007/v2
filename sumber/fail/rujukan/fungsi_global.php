@@ -1332,7 +1332,7 @@ if ( ! function_exists('panggilDataKosong')):
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
 		echo '<h1>Sila Pilih Menu Berkaitan</h1>';# buat tajuk besar
-		binaNotaKaki($tajuk,$data,$pilih);
+		//binaNotaKaki($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
