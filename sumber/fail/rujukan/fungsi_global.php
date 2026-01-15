@@ -1326,11 +1326,7 @@ if ( ! function_exists('panggilDataKosong')):
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
 		echo '<h1>Sila Pilih Menu Berkaitan</h1>';# buat tajuk besar
-		//semakPembolehubah($tajuk,'tajuk',0);
-		//semakPembolehubah($data,'data',0);
-		//semakPembolehubah($pilih,'pilih',0);
-		//semakPembolehubah($urljs,'urlcss',0);
-		//semakPembolehubah($urljs,'urljs',0);
+		binaNotaKaki($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
@@ -1357,9 +1353,6 @@ if ( ! function_exists('panggilDataTable04')):
 		//if($pilih != '') binaJadualJson($tajuk,$pilih);
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
-		//semakPembolehubah($tajuk,'tajuk');
-		//semakPembolehubah($data,'data');
-		//semakPembolehubah($pilih,'pilih');
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
