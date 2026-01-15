@@ -31,11 +31,14 @@ if ( ! function_exists('tagVar')):
 		$p2 = 'kbd';
 		$p3 = 'code';
 		$p4 = 'samp';
+		$p5 = 'var';
 		# setkan tatasusunan
+		$p[0] = "<$p1>\$$jadual = $senarai</$p1><br>\n";
 		$p[1] = "<$p1>\$$jadual = $senarai</$p1><br>\n";
 		$p[2] = "<$p2>\$$jadual = $senarai</$p2><br>\n";
 		$p[3] = "<$p3>\$$jadual = $senarai</$p3><br>\n";
 		$p[4] = "<$p4>\$$jadual = $senarai</$p4><br>\n";
+		$p[5] = "<$p5>\$$jadual = $senarai</$p5><br>\n";
 		#
 		return $p[$pilih];
 	}
@@ -49,7 +52,8 @@ if ( ! function_exists('tagVar2')):
 			1 => 'pre',
 			2 => 'kbd',
 			3 => 'code',
-			4 => 'samp'
+			4 => 'samp',
+			5 => 'var',
 		];
 		# setkan tatasusunan
 		$pilih = $tag[$pilih] ?? 'pre'; // default selamat
