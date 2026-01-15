@@ -1239,7 +1239,7 @@ if ( ! function_exists('panggilDataKosong')):
 		binaButang($data);//versiphp();
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Sila Pilih Menu Berkaitan<h1>';# buat tajuk besar
+		echo '<h1>Sila Pilih Menu Berkaitan</h1>';# buat tajuk besar
 		//semakPembolehubah($tajuk,'tajuk',0);
 		//semakPembolehubah($data,'data',0);
 		//semakPembolehubah($pilih,'pilih',0);
