@@ -1262,7 +1262,7 @@ if ( ! function_exists('panggilDataTable01')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table01 - ' . $pilih . ' </h1>';# buat tajuk besar
-		echo "\n\t" . '<div class="form-group">'
+		/*echo "\n\t" . '<div class="form-group">'
 		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
 		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
 		. "\n\t" . '<label for="c" class="well">Semoga anda ceria sepanjang masa</label>'
