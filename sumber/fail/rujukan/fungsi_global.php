@@ -494,11 +494,17 @@ endif;
 if ( ! function_exists('binaNotaKaki')):
 	function binaNotaKaki($tajuk,$data,$pilih)
 	{
-		echo '<blockquote class="blockquote text-center">'
+		/*echo '<blockquote class="blockquote text-center">'
 		. "\n\t" . '<p class="mb-0">' . $pilih . '</p>'
 		. "\n\t" . '<footer class="blockquote-footer">' . $tajuk[$pilih] . '|'
 		. ' <cite title="Source Title">' . $data[$pilih] . '</cite></footer>'
-		. "\n\t" . ' </blockquote>';
+		. "\n\t" . ' </blockquote>';*/
+		#
+		$tajuk2 = 'binaNotaKaki';
+		semakPembolehubah($tajuk2,'tajuk2',0);
+		//semakPembolehubah($tajuk,'tajuk');
+		//semakPembolehubah($data,'data');
+		//semakPembolehubah($pilih,'pilih');
 		#
 	}
 endif;//*/
