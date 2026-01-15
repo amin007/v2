@@ -1342,7 +1342,19 @@ if ( ! function_exists('panggilDataKosong')):
 		binaButang($data);//versiphp();
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
-		echo '<h1>Sila Pilih Menu Berkaitan</h1><hr>';# buat tajuk besar
+		echo "\n" . '<!-- Aluan ' . "\n"
+		. '=============================================================================================== -->'
+		. "\n\t" . '<h1 class="display-1">Selamat datang ke halaman kami</h1><br>'
+		. "\n\t" . '<figure>'
+		. "\n\t" . '<blockquote class="blockquote">'
+		. "\n\t\t" . '<p>Macam mana <mark>kehidupan</mark> anda pada hari ini?<br>'
+		. "\n\t\t" . 'Semoga anda ceria sepanjang masa.</p>'
+		. "\n\t" . '</blockquote>'
+		. "\n\t" . '<figcaption class="blockquote-footer">'
+		. "\n\t\t" . 'Sila Pilih<cite title="Source Title"> Pautan </cite>Berkaitan'
+		. "\n\t" . '</figcaption>'
+		. "\n\t" . '</figure>'
+		. "\n\t<hr>";//*/
 		//binaNotaKaki($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
