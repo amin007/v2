@@ -1233,13 +1233,13 @@ if ( ! function_exists('panggilDataTable')):
 		binaButang($data);//versiphp();
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Data Table<h1>';# buat tajuk besar
+		//echo '<h1>Data Table</h1>';# buat tajuk besar
 		/*echo "\n\t" . '<div class="form-group">'
 		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
 		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
 		. "\n\t" . '<label for="c" class="well">Semoga anda ceria sepanjang masa</label>'
 		. "\n\t" . '</div><!-- / class="form-group" -->'
-		. "\n\t<hr>";*/
+		. "\n\t<hr>";//*/
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
@@ -1261,7 +1261,13 @@ if ( ! function_exists('panggilDataTable01')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table01 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table01 - ' . $pilih . ' </h1>';# buat tajuk besar
+		echo "\n\t" . '<div class="form-group">'
+		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
+		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
+		. "\n\t" . '<label for="c" class="well">Semoga anda ceria sepanjang masa</label>'
+		. "\n\t" . '</div><!-- / class="form-group" -->'
+		. "\n\t<hr>";//*/
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
@@ -1285,7 +1291,7 @@ if ( ! function_exists('panggilDataTable02')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table02 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table02 - ' . $pilih . ' </h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1310,7 +1316,7 @@ if ( ! function_exists('panggilDataTable03')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table03 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table03 - ' . $pilih . ' </h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1359,7 +1365,7 @@ if ( ! function_exists('panggilDataTable04')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table04 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table04 - ' . $pilih . ' </h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		//if($pilih != '') binaJadualJson($tajuk,$pilih);
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
@@ -1385,7 +1391,7 @@ if ( ! function_exists('panggilDataTable05')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table05 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table05 - ' . $pilih . ' </h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1410,7 +1416,7 @@ if ( ! function_exists('panggilDataTable06')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table02 - ' . $pilih . ' <h1>';# buat tajuk besar
+		//echo '<h1>Table06 - ' . $pilih . ' </h1>';# buat tajuk besar
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
