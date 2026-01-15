@@ -1234,8 +1234,13 @@ if ( ! function_exists('panggilDataTable')):
 		binaSatuJadual($data,$pilih);
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Data Table<h1>';# buat tajuk besar
+		/*echo "\n\t" . '<div class="form-group">'
+		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
+		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
+		. "\n\t" . '<label for="c" class="well">Semoga anda ceria sepanjang masa</label>'
+		. "\n\t" . '</div><!-- / class="form-group" -->'
+		. "\n\t<hr>";*/
 		#------------------------------------------------------------------------------------------
-
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
 		jqueryExtendA();
