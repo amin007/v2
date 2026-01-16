@@ -1629,7 +1629,12 @@ $data['bezaUntungRugi'] = array(
 	. ' establishment of the company. However, there is a new property purchase F041199'
 	. ' this year.'),
 	array('','POM016','Persaingan sengit daripada produk China','Fierce competition from'
-	. '  China products'),
+	. ' China products'),
+	array('','POM017','Menumpukan aktiviti pengangkutan dari pusat pengumpulan ke kilang',
+	'Focusing on transportation activities from collection centers to factories'),
+	array('','POM018','Kapasiti pembelian tandan sawit dihadkan bagi mengecilkan atau'
+	. ' memperlahankan operasi','The purchasing capacity of palm bunches is limited to reduce'
+	. ' or slow down operations.'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
