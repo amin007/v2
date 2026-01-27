@@ -28,6 +28,9 @@ $data['kodSv-Msic2025vs2008'] = ImportCSV2Array01($filename = './kod2026/kodSv-M
 //. 'Baru.csv');
 $tajuk['msicLamaBaru'] = '#,s,msic 2025,keterangan bm,description item_bi,msic 2008';
 $data['msicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/msicLamaBaru-BMBI.csv');
+$tajuk['kodKp-MsicLamaBaru'] = '#,sektor,sub sektor,kp,msic 2025,description 2025,msic 2008,'
+. 'Keterangan MSIC 2008';
+$data['kodKp-MsicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/kodKp-Msic-En-Ismail-v2.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
