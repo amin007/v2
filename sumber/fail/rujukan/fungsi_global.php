@@ -1265,6 +1265,78 @@ if ( ! function_exists('panggilDataTable')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataExcel')):
+	function panggilDataExcel($data,$pilih)
+	{
+		define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		//define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		binaSatuJadualExcel($data,$pilih);
+		#------------------------------------------------------------------------------------------
+		/*echo '<h1>TableExcel - ' . $pilih . ' </h1>';# buat tajuk besar
+		semakPembolehubah($pilih,'pilih');
+		foreach($data as $kunci => $hati):
+		if($pilih === $kunci):
+			semakPembolehubah($kunci,'kunci',0);
+			semakPembolehubah($hati,'hati',0);
+			echo '<hr>';
+		endif;
+		endforeach;//*/
+		#------------------------------------------------------------------------------------------
+		//dibawah($pilih,$urljs);
+		echo "<script>\n";
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilDataJsonPhp')):
+	function panggilDataJsonPhp($data,$pilih)
+	{
+		define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		//define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		#------------------------------------------------------------------------------------------
+		echo '<h1>TableJsonPhp - ' . $pilih . ' </h1>';# buat tajuk besar
+		$json = file_get_contents(URL . '/' . $data[$pilih]);
+		$dataJson = json_decode($json, true);
+		$paparDataJson[$pilih] = $dataJson['data'];
+		binaSatuJadualExcel($paparDataJson,$pilih);
+		#------------------------------------------------------------------------------------------
+		//semakPembolehubah($pilih,'pilih');
+		//semakPembolehubah(URL . '/','URL');
+		//semakPembolehubah($data[$pilih],'data');
+		//semakPembolehubah($paparDataJson,'paparData',0);
+		//semakPembolehubah($paparDataJson['data'],'paparData',0);
+		#------------------------------------------------------------------------------------------
+		//dibawah($pilih,$urljs);
+		echo "\n<script>\n";
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaSatuJadualExcel')):
+	function binaSatuJadualExcel($senarai,$pilih)
+	{
+		foreach($senarai as $jadual => $row):
+		if($jadual == $pilih):
+			$output  = paparSatuJadual($row,$pilih);
+			$output .= binaKakiJadual($row,$pilih);
+			echo '<h2>Kod ' . ucfirst($jadual) . '</h2>'
+			//. "\n\n\t" . '<table class="' . $class . '" id="allTable">'
+			. "\n\n\t" . '<table border="1">'
+			. "\r\t$output\r\n\t</table>\r\r";
+		endif;
+		endforeach;//*/
+		#
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable01')):
 	function panggilDataTable01($tajuk,$data,$pilih)
 	{
