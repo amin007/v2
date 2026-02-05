@@ -1323,13 +1323,39 @@ endif;//*/
 if ( ! function_exists('binaSatuJadualExcel')):
 	function binaSatuJadualExcel($senarai,$pilih)
 	{
+		# bina css excel
+		echo "\n\n\t" . '<style type="text/css">'
+		. "\n\t" . 'table.excel {'
+		. "\n\t" . '	border-style:ridge;'
+		. "\n\t" . '	border-width:1;'
+		. "\n\t" . '	border-collapse:collapse;'
+		. "\n\t" . '	font-family:sans-serif;'
+		. "\n\t" . '	font-size:11px;'
+		. "\n\t" . '}'
+		. "\n\t" . 'table.excel thead th, table.excel tbody th {'
+		. "\n\t" . '	background:#CCCCCC;'
+		. "\n\t" . '	border-style:ridge;'
+		. "\n\t" . '	border-width:1;'
+		. "\n\t" . '	text-align: center;'
+		. "\n\t" . '	vertical-align: top;'
+		. "\n\t" . '}'
+		. "\n\t" . 'table.excel tbody th { text-align:center; vertical-align: top; }'
+		. "\n\t" . 'table.excel tbody td { vertical-align:bottom; }'
+		. "\n\t" . 'table.excel tbody td '
+		. "\n\t" . '{'
+		. "\n\t" . '	padding: 0 3px; border: 1px solid #aaaaaa;'
+		. "\n\t" . '	background:#ffffff;'
+		. "\n\t" . '}'
+		. "\n\t" . '</style>';
+		$class = 'excel';
+		# bina tatasusunan kepada jadual
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
 			$output  = paparSatuJadual($row,$pilih);
 			$output .= binaKakiJadual($row,$pilih);
 			echo '<h2>Kod ' . ucfirst($jadual) . '</h2>'
-			//. "\n\n\t" . '<table class="' . $class . '" id="allTable">'
-			. "\n\n\t" . '<table border="1">'
+			. "\n\n\t" . '<table class="' . $class . '" id="semuaJadual">'
+			//. "\n\n\t" . '<table border="1">'
 			. "\r\t$output\r\n\t</table>\r\r";
 		endif;
 		endforeach;//*/
