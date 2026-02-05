@@ -1303,20 +1303,29 @@ if ( ! function_exists('panggilDataJsonPhp')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		echo '<h1>TableJsonPhp - ' . $pilih . ' </h1>';# buat tajuk besar
-		$json = file_get_contents(URL . '/' . $data[$pilih]);
+		echo '<input type="text" name="cari" id="cari" placeholder="Cari...">';
+		#------------------------------------------------------------------------------------------
+		$url = URL . '/' . $data[$pilih];
+		$url = str_replace(" ", "%20", $url);
+		$json = file_get_contents($url);
 		$dataJson = json_decode($json, true);
 		$paparDataJson[$pilih] = $dataJson['data'];
 		binaSatuJadualExcel($paparDataJson,$pilih);
 		#------------------------------------------------------------------------------------------
-		//semakPembolehubah($pilih,'pilih');
-		//semakPembolehubah(URL . '/','URL');
-		//semakPembolehubah($data[$pilih],'data');
-		//semakPembolehubah($paparDataJson,'paparData',0);
-		//semakPembolehubah($paparDataJson['data'],'paparData',0);
-		#------------------------------------------------------------------------------------------
 		//dibawah($pilih,$urljs);
-		echo "\n<script>\n";
-		echo "\n</script>\n</body>\n</html>";
+		echo "
+<script>
+	document.getElementById('cari').addEventListener('keyup', function () {
+	let v = this.value.toLowerCase();
+	document.querySelectorAll('#semuaJadual tr').forEach((tr, i) =>
+	{
+		if(i === 0) return;
+		tr.style.display = tr.textContent.toLowerCase().includes(v) ? '' : 'none';
+	});
+});
+</script>\n</body>\n</html>
+		";
+		#
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
@@ -1354,8 +1363,8 @@ if ( ! function_exists('binaSatuJadualExcel')):
 			$output  = paparSatuJadual($row,$pilih);
 			$output .= binaKakiJadual($row,$pilih);
 			echo '<h2>Kod ' . ucfirst($jadual) . '</h2>'
-			. "\n\n\t" . '<table class="' . $class . '" id="semuaJadual">'
-			//. "\n\n\t" . '<table border="1">'
+			//. "\n\n\t" . '<table class="' . $class . '" id="semuaJadual">'
+			. "\n\n\t" . '<table border="1" id="semuaJadual">'
 			. "\r\t$output\r\n\t</table>\r\r";
 		endif;
 		endforeach;//*/
