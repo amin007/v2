@@ -626,6 +626,37 @@ if ( ! function_exists('linkCssJs')):
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('linkLocalCssJs')):
+	function linkLocalCssJs()
+	{
+		# setkan jquery, bootstrap dan font awesome sama ada local atau cdn
+		$cdn = 'http://localhost/cdn/';
+		## local  =================================================================================
+		$jquery = $cdn . 'jquery/jquery-2.2.3.min.js';
+		$btJS_337 = $cdn . 'bootstrap/3.3.7/js/bootstrap.min.js';
+		$btCSS_337 = $cdn . 'bootstrap/3.3.7/css/bootstrap.min.css';
+		## cdn fontawesome aka fa =================================================================
+		$fa_470 = $cdn . 'font-awesome/4.7.0/css/font-awesome.min.css';
+		$fa_510 = $cdn . 'use.fontawesome.com/releases/v5.1.0/css/all.css';
+		$fa_5140 = $cdn . 'use.fontawesome.com/releases/v5.14.0/css/all.css';
+		$fa_701 = $cdn . 'use.fontawesome.com/releases/v7.0.1/css/all.css';
+		$fa701_cdn = $cdn . 'cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css';
+		## datatables  ============================================================================
+		$datatablesCSS = $cdn . 'cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css';
+		$datatablesJSS = $cdn . 'cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js';
+		$searchHighlightCSS = $cdn . 'cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
+		. 'dataTables.searchHighlight.css';
+		$searchHighlightJSS = $cdn . 'cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
+		. 'dataTables.searchHighlight.min.js';
+		###########################################################################################
+		$urlcss = array($btCSS_337,$fa_510,$datatablesCSS,$searchHighlightCSS);
+		$urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
+		###########################################################################################
+
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('linkBt5CssJs')):
 	function linkBt5CssJs()
 	{
@@ -658,6 +689,38 @@ if ( ! function_exists('linkBt5CssJs')):
 		$searchHighlightCSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
 		. 'dataTables.searchHighlight.css';
 		$searchHighlightJSS = '//cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
+		. 'dataTables.searchHighlight.min.js';
+		###########################################################################################
+		$urlcss = array($bt538_CSS,$fa_701,$datatablesCSS,$searchHighlightCSS);
+		$urljs = array($jquery_cdn,$bt538_JS,$datatablesJSS,$searchHighlightJSS);
+		###########################################################################################
+
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('linkLocalBt5CssJs')):
+	function linkLocalBt5CssJs()
+	{
+		# setkan jquery, bootstrap dan font awesome sama ada local atau cdn
+		$cdn = 'http://localhost/cdn/';
+		## cdn jquery =============================================================================
+		//$jquery_cdn = $cdn . 'code.jquery.com/jquery-2.2.3.min.js';
+		$jquery_cdn = $cdn . 'code.jquery.com/jquery-3.3.1.js';
+		## cdn bootstrap aka bt5 5.3.8 ============================================================
+		$bt538_CSS = $cdn . 'cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css';
+		$bt538_JS = $cdn . 'cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js';
+		## cdn fontawesome aka fa =================================================================
+		$fa_510 = $cdn . 'use.fontawesome.com/releases/v5.1.0/css/all.css';
+		$fa_5140 = $cdn . 'use.fontawesome.com/releases/v5.14.0/css/all.css';
+		$fa_701 = $cdn . 'use.fontawesome.com/releases/v7.0.1/css/all.css';
+		$fa701_cdn = $cdn . 'cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css';
+		## datatables  ============================================================================
+		$datatablesCSS = $cdn . 'cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css';
+		$datatablesJSS = $cdn . 'cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js';
+		$searchHighlightCSS = $cdn . 'cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
+		. 'dataTables.searchHighlight.css';
+		$searchHighlightJSS = $cdn . 'cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
 		. 'dataTables.searchHighlight.min.js';
 		###########################################################################################
 		$urlcss = array($bt538_CSS,$fa_701,$datatablesCSS,$searchHighlightCSS);
