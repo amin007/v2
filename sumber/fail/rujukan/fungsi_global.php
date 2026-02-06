@@ -631,15 +631,27 @@ if ( ! function_exists('linkLocalCssJs')):
 	{
 		# setkan jquery, bootstrap dan font awesome sama ada local atau cdn
 		$cdn = 'http://localhost/cdn/';
-		## local  =================================================================================
+		## local =================================================================================
 		$jquery = $cdn . 'jquery/jquery-2.2.3.min.js';
-		$btJS_337 = $cdn . 'bootstrap/3.3.7/js/bootstrap.min.js';
-		$btCSS_337 = $cdn . 'bootstrap/3.3.7/css/bootstrap.min.css';
+		## cdn bootstrap 3.3.7 ====================================================================
+		$btJS_337 = $cdn . 'maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
+		$btCSS_337 = $cdn . 'maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+		$ceruleanCSS_337 = $cdn . 'maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css';
+		## cdn bootstrap 4.1.3 ====================================================================
+		$btJS_413 = $cdn . 'stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js';
+		$btCSS_413 = $cdn . 'stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css';
+		$ceruleanCSS_413 = $cdn . 'stackpath.bootstrapcdn.com/bootswatch/4.1.3/cerulean/bootstrap.min'
+		. '.css';
 		## cdn fontawesome aka fa =================================================================
+		//http://cdn\use.fontawesome.com\releases\v4.4.0
+		$fa_440 = $cdn . 'cdn/use.fontawesome.com/releases/v4.4.0/css/font-awesome.min.css';
 		$fa_470 = $cdn . 'font-awesome/4.7.0/css/font-awesome.min.css';
+		//$fa470 = $cdn . 'maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 		$fa_510 = $cdn . 'use.fontawesome.com/releases/v5.1.0/css/all.css';
+		//http://cdn\use.fontawesome.com\releases\v5.1.0\css
 		$fa_5140 = $cdn . 'use.fontawesome.com/releases/v5.14.0/css/all.css';
 		$fa_701 = $cdn . 'use.fontawesome.com/releases/v7.0.1/css/all.css';
+		//http://cdn\use.fontawesome.com\releases\v7.0.1\css
 		$fa701_cdn = $cdn . 'cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css';
 		## datatables  ============================================================================
 		$datatablesCSS = $cdn . 'cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css';
@@ -649,8 +661,8 @@ if ( ! function_exists('linkLocalCssJs')):
 		$searchHighlightJSS = $cdn . 'cdn.datatables.net/plug-ins/1.10.11/features/searchHighlight/'
 		. 'dataTables.searchHighlight.min.js';
 		###########################################################################################
-		$urlcss = array($btCSS_337,$fa_510,$datatablesCSS,$searchHighlightCSS);
-		$urljs = array($jquery_cdn,$bootstrapJS_413,$datatablesJSS,$searchHighlightJSS);
+		$urlcss = array($btCSS_413,$fa_510,$datatablesCSS,$searchHighlightCSS);
+		$urljs = array($jquery_cdn,$btJS_413,$datatablesJSS,$searchHighlightJSS);
 		###########################################################################################
 
 		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
