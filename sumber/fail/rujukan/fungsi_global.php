@@ -1453,7 +1453,7 @@ if ( ! function_exists('panggilDataTable01')):
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
-		list($urlcss,$urljs) = linkCssJs();
+		list($urlcss,$urljs) = linkLocalCssJs();//linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
@@ -1483,7 +1483,7 @@ if ( ! function_exists('panggilDataTable02')):
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
-		list($urlcss,$urljs) = linkCssJs();
+		list($urlcss,$urljs) = linkLocalCssJs();//linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
@@ -1508,7 +1508,7 @@ if ( ! function_exists('panggilDataTable03')):
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
-		list($urlcss,$urljs) = linkCssJs();
+		list($urlcss,$urljs) = linkLocalCssJs();//linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
