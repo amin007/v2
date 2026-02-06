@@ -1342,7 +1342,7 @@ if ( ! function_exists('panggilDataTable')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataExcel')):
-	function panggilDataExcel($data,$pilih)
+	function panggilDataExcel($tajuk,$data,$pilih)
 	{
 		define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		//define ('URL', $_SERVER['SCRIPT_NAME']);
@@ -1369,7 +1369,7 @@ if ( ! function_exists('panggilDataExcel')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataJsonPhp')):
-	function panggilDataJsonPhp($data,$pilih)
+	function panggilDataJsonPhp($tajuk,$data,$pilih)
 	{
 		define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		//define ('URL', $_SERVER['SCRIPT_NAME']);
