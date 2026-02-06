@@ -149,17 +149,20 @@ if (isset($_SERVER[$s])):
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
 			//panggilDataTable01($tajuk = 'Tahun Daa',$data,$cariApa);# panggil fungsi
-			panggilDataExcel($data,$cariApa);# panggil fungsi
+			panggilDataExcel($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
-			panggilDataJsonPhp($data,$cariApa);
+			//panggilDataJsonPhp($tajuk,$data,$cariApa);
+			panggilDataTable03($tajuk,$data,$cariApa);
+		elseif(in_array($cariApa,$dataJson)):
+			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
 		else:
-			panggilDataExcel($data,$cariApa);# panggil fungsi
+			panggilDataExcel($tajuk,$data,$cariApa);# panggil fungsi
 		endif;
 	else:
-		panggilDataExcel($data,null);# panggil fungsi
+		panggilDataExcel($tajuk,$data,null);# panggil fungsi
 	endif;
 else:
-	panggilDataExcel($data,null);# panggil fungsi
+	panggilDataExcel($tajuk,$data,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 # kaedah 2.1
