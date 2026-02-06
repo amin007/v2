@@ -147,9 +147,10 @@ if (isset($_SERVER[$s])):
 			$data[$cariApa] = 'kod2023_v02.php?/json/' . $cariApa;
 			panggilDataTable03($tajuk,$data,$cariApa);
 		elseif($cariApa == 'tahun'):
+			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
-			//panggilDataTable01($tajuk = 'Tahun Daa',$data,$cariApa);# panggil fungsi
-			panggilDataExcel($tajuk,$data,$cariApa);# panggil fungsi
+			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+			//panggilDataExcel($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
 			//panggilDataJsonPhp($tajuk,$data,$cariApa);
 			panggilDataTable03($tajuk,$data,$cariApa);
