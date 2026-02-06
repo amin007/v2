@@ -1345,7 +1345,7 @@ if ( ! function_exists('panggilDataExcel')):
 	{
 		define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		//define ('URL', $_SERVER['SCRIPT_NAME']);
-		list($urlcss,$urljs) = linkCssJs();
+		list($urlcss,$urljs) = linkLocalCssJs();//linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
@@ -1372,7 +1372,7 @@ if ( ! function_exists('panggilDataJsonPhp')):
 	{
 		define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		//define ('URL', $_SERVER['SCRIPT_NAME']);
-		list($urlcss,$urljs) = linkCssJs();
+		list($urlcss,$urljs) = linkLocalCssJs();//linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
