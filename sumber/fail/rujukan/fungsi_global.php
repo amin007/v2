@@ -632,7 +632,8 @@ if ( ! function_exists('linkLocalCssJs')):
 		# setkan jquery, bootstrap dan font awesome sama ada local atau cdn
 		$cdn = 'http://localhost/cdn/';
 		## local =================================================================================
-		$jquery = $cdn . 'jquery/jquery-2.2.3.min.js';
+		//$jquery_223 = $cdn . 'code.jquery.com/jquery-2.2.3.min.js';
+		$jquery_331 = $cdn . 'code.jquery.com/jquery-3.3.1.js';
 		## cdn bootstrap 3.3.7 ====================================================================
 		$btJS_337 = $cdn . 'maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
 		$btCSS_337 = $cdn . 'maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
@@ -662,7 +663,7 @@ if ( ! function_exists('linkLocalCssJs')):
 		. 'dataTables.searchHighlight.min.js';
 		###########################################################################################
 		$urlcss = array($btCSS_413,$fa_510,$datatablesCSS,$searchHighlightCSS);
-		$urljs = array($jquery_cdn,$btJS_413,$datatablesJSS,$searchHighlightJSS);
+		$urljs = array($jquery_331,$btJS_413,$datatablesJSS,$searchHighlightJSS);
 		###########################################################################################
 
 		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
