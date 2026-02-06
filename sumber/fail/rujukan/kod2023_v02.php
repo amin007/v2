@@ -144,7 +144,7 @@ if (isset($_SERVER[$s])):
 			$cariApa = bersih($pilih);
 			binaJson($data,$pilih);
 		elseif(in_array($cariApa,['mascoNewss','mascoBMBI'])):
-			$data[$cariApa] = 'kod2023_v01.php?/json/' . $cariApa;
+			$data[$cariApa] = 'kod2023_v02.php?/json/' . $cariApa;
 			panggilDataTable03($tajuk,$data,$cariApa);
 		elseif($cariApa == 'tahun'):
 			$data['tahun'] = kiraTahunJadual();
