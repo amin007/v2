@@ -1278,8 +1278,9 @@ if ( ! function_exists('binaPautan')):
 			array('a'=>'info','b'=>$folder . 'produkmm-cari.html','c'=>'ProdukMM'),
 			array('a'=>'warning','b'=>'./kod00.php','c'=>'kod-lama'),
 			array('a'=>'warning','b'=>'./kod2022_aes.php','c'=>'AES'),
-			array('a'=>'warning','b'=>'./kod2023.php','c'=>'kod2023'),
+			//array('a'=>'warning','b'=>'./kod2023.php','c'=>'kod2023'),
 			array('a'=>'warning','b'=>'./kod2025.php','c'=>'DTS2025'),
+			array('a'=>'secondary','b'=>'./kodStb2026.php','c'=>'kodStb2026'),
 			array('a'=>'warning','b'=>'./kod2026.php','c'=>'BE2026'),
 			array('a'=>'outline-secondary','b'=>URL . '?/tahun','c'=>'Tahun'),
 		);
