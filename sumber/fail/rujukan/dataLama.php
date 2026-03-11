@@ -2626,8 +2626,7 @@ $data['bandar2024'] = [
 ];
 #-------------------------------------------------------------------------------------------------=
 # JR7: M3 (bandarBesar) - Di manakah tempat tinggal anda sebelum menetap di rumah/ alamat ini?
-//$tajuk['bandarBesar2026'] = '#,Kod Negeri,Daerah,Bandar Besar 2024';
-$data['bandarBesar2026'] = [
+$data['bandar2026'] = [
 	['','00-kod','Bandar Metropolitan/ Bandar Besar','001-784 (Lampiran 7)'],
 	['','00-kod','Bandar Kecil','800(TL BD)/801(TI BD)<=(Lampiran 8)'],
 	['','00-kod','Luar Bandar','900(TL BD)/901(TI BD)-(Nama Kampung)'],
