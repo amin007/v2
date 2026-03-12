@@ -1494,7 +1494,7 @@ if ( ! function_exists('binaSatuJadualExcel')):
 		# bina tatasusunan kepada jadual
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
-			$output  = paparSatuJadual($row,$pilih);
+			$output  = binaJadual03($row,$pilih);
 			$output .= binaKakiJadual($row,$pilih);
 			echo '<h2>Kod ' . ucfirst($jadual) . '</h2>'
 			//. "\n\n\t" . '<table class="' . $class . '" id="semuaJadual">'
