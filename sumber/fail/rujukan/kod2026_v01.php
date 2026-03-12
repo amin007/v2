@@ -33,12 +33,11 @@ $tajuk['kodKp-MsicLamaBaru'] = '#,sektor,sub sektor,kp,msic 2025,description 202
 $data['kodKp-MsicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/kodKp-Msic-En-Ismail-v2.csv');
 $tajuk['notakaki-Msic2025'] = '#,s, perkara, keterangan, msic 2008, nota kaki';
 $data['notakaki-Msic2025'] = ImportCSV2Array01($filename = './kod2026/nota-kaki-msic2025.csv');
+$tajuk['masco2020'] = '#,kod,keterangan';
+$data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
-#--------------------------------------------------------------------------------------------------
-/*
-//*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
