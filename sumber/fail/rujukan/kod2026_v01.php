@@ -126,6 +126,7 @@ if (isset($_SERVER[$s])):
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif($cariApa === 'notakaki-Msic2025'):
 			panggilTableExcel($tajuk,$data,$cariApa);
+			//panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
 			panggilDataTable05($tajuk,$data,$cariApa);
 		elseif(in_array($cariApa,$dataJson)):
