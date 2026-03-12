@@ -429,6 +429,63 @@ endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaJadual03')):
+	function binaJadual03($row,$jadual)
+	{
+		$output = null;
+		$bilBaris = count($row);
+		$cetak_tajuk_utama = false;# mula bina jadual
+		#----------------------------------------------------------------------
+		for ($kira=0; $kira < $bilBaris; $kira++)
+		{	# papar tajuk jadual sekali sahaja :
+			if ( !$cetak_tajuk_utama )
+			{##================================================================
+				$output .= "\n\t<thead><tr>";
+				foreach ( array_keys($row[$kira]) as $kunci ) :
+				$tajuk = tajukMedanJadual($jadual,$kunci);
+				$output .= "\n\t\t" . '<th>' . ucfirst($tajuk) . '</th>';
+				endforeach;
+				$output .= "\n\t" . '</tr></thead>';
+				$output .= "\n\t" . '<tbody>';
+			##=================================================================
+				$cetak_tajuk_utama = true;
+			}
+		#---------------------------------------------------------------------
+			# papar baris data dari tatasusunan
+			$output .= "\n\t<tr>";
+			$kunci_semua = array_keys($row[$kira]);
+			$lompat = []; # simpan indeks yang perlu dilangkau
+			foreach ( $row[$kira] as $key=>$data ) :
+				$idx = array_search($key, $kunci_semua);
+				# langkau medan yang telah digabungkan
+				if ( in_array($idx, $lompat) ) :
+					$output .= "<!-- $key|$kira -->";
+					continue;
+				endif;
+				# semak sama ada medan 4 & 5 kosong/_
+				if ( $idx === 3 ) :
+					$tiada4 = empty($row[$kira][$kunci_semua[4]]) || $row[$kira][$kunci_semua[4]] === '_';
+					$tiada5 = empty($row[$kira][$kunci_semua[5]]) || $row[$kira][$kunci_semua[5]] === '_';
+					if ( $tiada4 && $tiada5 ) :
+						$output .= "\n\t\t" . '<td colspan="3">' . $data . '</td>';
+						$output .= "<!-- $key|$kira -->";
+						$lompat = [4, 5]; # tandakan indeks 4 & 5 untuk dilangkau
+						continue;
+					endif;
+				endif;
+				$output .= "\n\t\t" . '<td>' . $data . '</td>';
+				$output .= "<!-- $key|$kira -->";
+			endforeach;
+			$output .= "\n\t" . '</tr>';
+		}#---------------------------------------------------------------------
+		$output .= "\n\t" . '</tbody>';
+
+		return $output;//*/
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('kiraTahun')):
 	function kiraTahun()
 	{
