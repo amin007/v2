@@ -318,7 +318,7 @@ if ( ! function_exists('paparSatuJadual')):
 			$output .= "\n\t<tr>";
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\n\t\t" . '<td>' . $data . '</td>';
-			//$output .= "<!-- $key|$kira -->";# untuk debug di masa hadapan
+			$output .= "<!-- $key|$kira -->";# untuk debug di masa hadapan
 			endforeach;
 			$output .= "\n\t" . '</tr>';
 		}#---------------------------------------------------------------------
@@ -1448,6 +1448,27 @@ if ( ! function_exists('binaSatuJadualExcel')):
 		#
 	}
 endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilTableExcel')):
+	function panggilTableExcel($tajuk,$data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();//linkLocalCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		#------------------------------------------------------------------------------------------
+		echo '<h1>TableExcel - ' . $pilih . ' </h1>';# buat tajuk besar
+		#------------------------------------------------------------------------------------------
+		if($pilih != '') binaSatuJadualExcel($data,$pilih);
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		//jqueryExtendA();jqueryExtendB();jqueryExtendC();gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable01')):
 	function panggilDataTable01($tajuk,$data,$pilih)
