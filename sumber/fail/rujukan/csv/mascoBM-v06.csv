@@ -1696,8 +1696,7 @@
 "";"2221";"b) memeriksa pesakit untuk menentukan jenis penyakit"
 "";"2221";"c) menjalankan pemeriksaan perubatan dan membuat diagnosis"
 "";"2221";"d) memberi preskripsi dan rawatan penyakit gangguan atau kecederaan yang didiagnos"
-"";"2221";"e) memberi rawatan perubatan dan pembedahan khusus bagi penyakit gangguan dan kecederaan"
-"";"2221";tertentu
+"";"2221";"e) memberi rawatan perubatan dan pembedahan khusus bagi penyakit gangguan dan kecederaan tertentu"
 "";"2221";"f) memberi nasihat dan menerapkan kaedah perubatan dan rawatan pencegahan"
 "";"2221";"g) mengambil bahagian dalam penggubalan dan pelaksanaan undang-undang dan peraturan kesihatan"
 "";"2221";"awam untuk menjaga dan meningkatkan kesihatan komuniti"
@@ -1773,14 +1772,14 @@
 "";"2231";"223102 - Ahli Perubatan Tradisional"
 "";"2231";"223103 - Ahli Akupuntur"
 "";"2231";"223104 - Ahli Homeopati"
-"";"2231";"KUMPULAN KECIL 224 PENGAMAL PARAMEDIK"
-"";"2231";"Pengamal Paramedik menyediakan khidmat nasihat diagnostik rawatan dan pencegahan yang lebih terhad"
-"";"2231";"dalam skop dan kerumitan daripada yang dilakukan oleh doktor perubatan. Mereka bekerja secara autonomi"
-"";"2231";"atau dengan pengawasan yang terhad daripada doktor perubatan dan mengaplikasikan prosedur klinikal"
-"";"2231";"awalan untuk merawat dan mencegah penyakit kecederaan dan gangguan fizikal atau mental yang biasa"
-"";"2231";"kepada masyarakat tertentu."
-"";"2231";"Pekerjaan dalam kumpulan kecil ini diklasifikasikan kepada kumpulan unit berikut"
-"";"2231";"2241 PENGAMAL PARAMEDIK"
+"";"224X";"KUMPULAN KECIL 224 PENGAMAL PARAMEDIK"
+"";"224X";"Pengamal Paramedik menyediakan khidmat nasihat diagnostik rawatan dan pencegahan yang lebih terhad"
+"";"224X";"dalam skop dan kerumitan daripada yang dilakukan oleh doktor perubatan. Mereka bekerja secara autonomi"
+"";"224X";"atau dengan pengawasan yang terhad daripada doktor perubatan dan mengaplikasikan prosedur klinikal"
+"";"224X";"awalan untuk merawat dan mencegah penyakit kecederaan dan gangguan fizikal atau mental yang biasa"
+"";"224X";"kepada masyarakat tertentu."
+"";"224X";"Pekerjaan dalam kumpulan kecil ini diklasifikasikan kepada kumpulan unit berikut"
+"";"224X";"2241 PENGAMAL PARAMEDIK"
 "";"2241";"KUMPULAN UNIT 2241 PENGAMAL PARAMEDIK"
 "";"2241";"Pengamal Paramedik menyediakan khidmat nasihat diagnostik rawatan dan pencegahan"
 "";"2241";"yang lebih terhad dalam skop dan kerumitan daripada yang dilakukan oleh doktor perubatan."
@@ -2087,16 +2086,14 @@
 "";"2268";"perubatan dan pihak yang berkenaan"
 "";"2268";"j) mengendalikan pusat harian untuk pesakit-pesakit yang mengalami masalah fiizikal dan psikososial"
 "";"2268";"termasuk pemantauan dan pengekalan kefungsian mereka"
-"";"2268";"k) mengendalikan kumpulan sokongan (support group) untuk pesakit-pesakit saling berkongsi masalah"
-"";"2268";mereka
+"";"2268";"k) mengendalikan kumpulan sokongan (support group) untuk pesakit-pesakit saling berkongsi masalah mereka"
 "";"2268";"l) menjalankan tugas yang berkaitan dan"
 "";"2268";"m) meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
 "";"2268";"Contoh pekerjaan yang dikelaskan di sini (rujuk indeks kumpulan unit 2268)"
 "";"2268";"226801 - Jurupulih Pekerjaan"
 "";"2268";"226802 - Pegawai Jurupulih Kerja Gred 23"
 "";"2268";"226803 - Pengurus Kes Gred 23"
-"";"2269";"KUMPULAN UNIT 2269 PROFESIONAL KESIHATAN YANG TIDAK DIKELASKAN DI MANA-"
-"";"2269";MANA
+"";"2269";"KUMPULAN UNIT 2269 PROFESIONAL KESIHATAN YANG TIDAK DIKELASKAN DI MANA-MANA"
 "";"2269";"Kumpulan unit ini merangkumi Profesional Kesihatan yang Tidak dikelaskan di Mana-mana"
 "";"2269";"Kumpulan Kecil 226 Profesional Kesihatan Lain. Sebagai contoh kumpulan ini termasuk juru"
 "";"2269";"x-ray pengajar dan perfusionist."
@@ -2756,8 +2753,7 @@
 "";"2426";"d) menilai dan menentukan hasil penyelidikan itu dapat digunakan untuk tujuan pembangunan"
 "";"2426";"e) menguatkuasakan akta-akta yang berkaitan"
 "";"2426";"f) melaksanakan kajian dan penyelidikan mengenai jaminan kualiti penyelidikan serta pemindahan"
-"";"2426";"sains dan teknologi dan pembangunan serta latihan kursus-kursus bagi pengguna-pengguna dalam"
-"";"2426";negara
+"";"2426";"sains dan teknologi dan pembangunan serta latihan kursus-kursus bagi pengguna-pengguna dalam negara"
 "";"2426";"g) menjalankan penyelidikan asas dan gunaan khidmat nasihat kepakaran dan menyebarkan maklumat"
 "";"2426";"berkenaan teknologi berkaitan dalam negara"
 "";"2426";"h) menjalankan kerja-kerja penyelidikan pembangunan (R  D) dalam pelbagai bidang dan"
@@ -2928,144 +2924,65 @@
 "";"2512";"Tugas merangkumi"
 "";"2512";"a) menyelidik menganalisis dan menilai keperluan aplikasi perisian dan sistem operasi"
 "";"2512";"b) menyelidik mereka bentuk dan membangunkan sistem perisian komputer"
-"";"2512";"c) merujuk kakitangan kejuruteraan untuk menilai antara muka (interface) antara perkakasan dengan"
-"";"2512";perisian
+"";"2512";"c) merujuk kakitangan kejuruteraan untuk menilai antara muka (interface) antara perkakasan dengan perisian"
 "";"2512";"d) membangun dan mengarahkan pengujian perisian dan pengesahan prosedur"
 "";"2512";"e) mengubahsuai perisian sedia ada untuk membetulkan ralat dan menyesuaikannya dengan"
 "";"2512";"perkakasan baru atau untuk menaik taraf antara muka (interface) dan meningkatkan prestasi"
-"";"2512";f)
-"";"2512";"mengarah pengaturcaraan perisian dan pembangunan dokumentasi"
-"";"2512";g)
-"";"2512";"menilai membangunkan menaik taraf dan mendokumentasi prosedur penyelenggaraan untuk"
+"";"2512";"f) mengarah pengaturcaraan perisian dan pembangunan dokumentasi"
+"";"2512";"g) menilai membangunkan menaik taraf dan mendokumentasi prosedur penyelenggaraan untuk"
 "";"2512";"sistem operasi persekitaran komunikasi dan perisian aplikasi"
-"";"2512";h)
-"";"2512";"merujuk pelanggan berhubung dengan penyelenggaraan sistem perisian dan"
-"";"2512";i)
-"";"2512";"meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
-"";"2512";"Contoh pekerjaan yang dikelaskan di sini"
-"";"2512";"(rujuk indeks kum"
-"";"2512";"pulan unit 2512)"
-"";"2512";2512-01
-"";"2512";"Pembangun Perisian"
-"";"2512";2512-02
-"";"2512";"Pembangun Perisian Multimedia"
-"";"2512";2512-03
-"";"2512";"Pereka Perisian"
-"";"2512";2512-04
-"";"2512";"Jurutera Rekabentuk"
-"";"2512";KUM
-"";"2512";"PULAN UNIT 2513"
-"";"2512";PEM
-"";"2512";"BANGUN W"
-"";"2512";"EB DAN M"
-"";"2512";ULTIM
-"";"2512";EDIA
-"";"2512";Pem
-"";"2512";"bangun W"
-"";"2512";"eb dan M"
-"";"2512";ultim
-"";"2512";edia
-"";"2512";"menggabungkan pengetahuan reka bentuk dan teknikal"
-"";"2512";"untuk menyelidik menganalisis menilai mereka bentuk mengatur cara dan mengubahsuai"
-"";"2512";"laman web dan aplikasi yang memaparkan teks grafik animasi pengimejan audio dan video"
-"";"2512";"dan media interaktif lain."
-"";"2512";"Tugas m"
-"";"2512";erangkum
-"";"2512";i
-"";"2512";a)
-"";"2512";"menganalisis mereka bentuk dan membangunkan laman Internet dengan menggunakan hasil seni"
+"";"2512";"h) merujuk pelanggan berhubung dengan penyelenggaraan sistem perisian dan"
+"";"2512";"i) meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
+"";"2512";"Contoh pekerjaan yang dikelaskan di sini rujuk indeks kum pulan unit 2512)"
+"";"2512";"251201 - Pembangun Perisian"
+"";"2512";"251202 - Pembangun Perisian Multimedia"
+"";"2512";"251203 - Pereka Perisian"
+"";"2512";"251204 - Jurutera Rekabentuk"
+"";"2513";"KUMPULAN UNIT 2513 PEMBANGUN WEB DAN MULTIMEDIA"
+"";"2513";"Pembangun Web dan Multimedia menggabungkan pengetahuan reka bentuk dan teknikal"
+"";"2513";"untuk menyelidik menganalisis menilai mereka bentuk mengatur cara dan mengubahsuai"
+"";"2513";"laman web dan aplikasi yang memaparkan teks grafik animasi pengimejan audio dan video"
+"";"2513";"dan media interaktif lain."
+"";"2513";"Tugas merangkumi"
+"";"2513";"a) menganalisis mereka bentuk dan membangunkan laman Internet dengan menggunakan hasil seni"
 "";"2512";"dan kreativiti dengan menggunakan pengaturcaraan perisian (software programming) dan bahasa"
-"";"2512";"penskripan (scripting languages) dan antara muka (interfacing) dengan persekitaran operasi"
-"";"2512";b)
-"";"2512";"mereka bentuk dan membangunkan animasi digital pengimejan persembahan permainan audio"
+"";"2513";"penskripan (scripting languages) dan antara muka (interfacing) dengan persekitaran operasi"
+"";"2512";"b) mereka bentuk dan membangunkan animasi digital pengimejan persembahan permainan audio"
 "";"2512";"dan klip video dan aplikasi Internet dengan menggunakan perisian multimedia perkakasan dan"
 "";"2512";"utiliti grafik interaktif dan bahasa pengaturcaraan"
-"";"2512";c)
-"";"2512";"berhubung dengan pakar rangkaian berkenaan dengan isu yang berkaitan dengan web seperti"
+"";"2513";"c) berhubung dengan pakar rangkaian berkenaan dengan isu yang berkaitan dengan web seperti"
 "";"2512";"keselamatan dan hosting laman web untuk mengawal dan menguatkuasakan keselamatan Internet"
 "";"2512";"dan pelayan web (web server) peruntukan ruang (space allocation) akses pengguna laman web"
 "";"2512";"sandaran (website backup) dan perancangan pemulihan bencana"
-"";"2512";d)
-"";"2512";"mereka bentuk membangunkan dan menyepadukan kod komputer dengan input khusus lain seperti"
+"";"2513";"d) mereka bentuk membangunkan dan menyepadukan kod komputer dengan input khusus lain seperti"
 "";"2512";"fail imej fail audio dan penskripan bahasa untuk menghasilkan menyelenggara dan menyokong"
 "";"2512";"laman web"
-"";"2512";e)
-"";"2512";"membantu menganalisis menetapkan dan membangunkan strategi Internet (Internet strategies)"
-"";"2512";"metodologi pangkalan web (web-based methodologies) dan pelan pembangunan (development"
-"";"2512";plans)
-"";"2512";f)
-"";"2512";"menjalankan tugas yang berkaitan dan"
-"";"2512";g)
-"";"2512";"meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
-"";"2512";"Contoh pekerjaan yang dikelaskan di sini"
-"";"2512";"(rujuk indeks kum"
-"";"2512";"pulan unit 2513)"
-"";"2512";2513-01
-"";"2512";"Pembangun Laman Web"
-"";"2512";2513-02
-"";"2512";"Pembangun Internet Intranet"
-"";"2512";2513-03
-"";"2512";"Arkitek Laman Web"
-"";"2512";2513-04
-"";"2512";"Pengendali Web"
-"";"2512";KUM
-"";"2512";"PULAN UNIT 2514"
-"";"2512";"PENGATURCARA APLIKASI"
-"";"2512";Pengaturcara
-"";"2512";Aplikasi
-"";"2512";menulis
-"";"2512";dan
-"";"2512";menjaga
-"";"2512";program
-"";"2512";m
-"";"2512";able
-"";"2512";code
-"";"2512";yang
-"";"2512";digariskan
-"";"2512";dalam
-"";"2512";panduan
-"";"2512";dan
-"";"2512";spesifikasi
-"";"2512";teknikal
-"";"2512";untuk
-"";"2512";aplikasi
-"";"2512";perisian
-"";"2512";dan
-"";"2512";sistem
-"";"2512";operasi
-"";"2512";.
-"";"2512";"Tugas m"
-"";"2512";erangkum
-"";"2512";i
-"";"2512";a)
-"";"2512";"menulis dan menjaga"
-"";"2512";"code outline"
-"";"2512";"yang digariskan dalam panduan dan spesifikasi menurut standard"
-"";"2512";"akreditasi kualiti"
-"";"2512";b)
-"";"2512";"menyemak membaik pulih atau mengembangkan program sedia ada untuk meningkatkan kecekapan"
-"";"2512";"operasi atau menyesuaikannya dengan keperluan baharu"
-"";"2512";c)
-"";"2512";"menjalankan percubaan"
-"";"2512";runs
-"";"2512";"dan aplikasi perisian untuk mengesahkan ia akan menghasilkan"
-"";"2512";"maklumat yang dikehendaki"
-"";"2512";d)
-"";"2512";"menyusun dan menulis dokumentasi pembangunan atur cara"
-"";"2512";e)
-"";"2512";"mengenal pasti dan membincangkan masalah teknikal proses dan p"
-"";"2512";enyelesaian
-"";"2512";f)
-"";"2512";"menjalankan tugas yang berkaitan dan"
-"";"2512";g)
-"";"2512";"meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
-"";"2512";"Contoh pekerjaan yang dikelaskan di sini (rujuk indeks kumpulan unit 2514)"
-"";"2512";"251401 - Pengaturcara Komputer"
-"";"2512";"251402 - Pengaturcara Perisian"
-"";"2512";"251403 - Pengaturcara Teknikal"
-"";"2512";"251404 - Pengaturcara Teknologi Maklumat"
-"";"2519";"KUMPULAN UNIT 2519 PEMBANGUN DAN JURUANALISIS PERISIAN DAN APLIKASI YANG"
-"";"2519";"TIDAK DIKELASKAN DI MANA-MANA"
+"";"2513";"e) membantu menganalisis menetapkan dan membangunkan strategi Internet (Internet strategies)"
+"";"2512";"metodologi pangkalan web (web-based methodologies) dan pelan pembangunan (development plans)"
+"";"2513";"f) menjalankan tugas yang berkaitan dan"
+"";"2513";"g) meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
+"";"2513";"Contoh pekerjaan yang dikelaskan di sini (rujuk indeks kumpulan unit 2513)"
+"";"2513";"251301 - Pembangun Laman Web"
+"";"2513";"251302 - Pembangun Internet Intranet"
+"";"2513";"251303 - Arkitek Laman Web"
+"";"2513";"251304 - Pengendali Web"
+"";"2514";"KUMPULAN UNIT 2514 PENGATURCARA APLIKASI"
+"";"2514";"Pengaturcara Aplikasi menulis dan menjaga program m able code yang digariskan dalam panduan"
+"";"2514";" dan spesifikasi teknikal untuk aplikasi perisian dan sistem operasi"
+"";"2514";"Tugas merangkumi"
+"";"2514";"a) menulis dan menjaga code outline yang digariskan dalam panduan dan spesifikasi menurut standard akreditasi kualiti"
+"";"2514";"b) menyemak membaik pulih atau mengembangkan program sedia ada untuk meningkatkan kecekapan operasi atau menyesuaikannya dengan keperluan baharu"
+"";"2514";"c) menjalankan percubaan runs dan aplikasi perisian untuk mengesahkan ia akan menghasilkan maklumat yang dikehendaki"
+"";"2514";"d) menyusun dan menulis dokumentasi pembangunan atur cara"
+"";"2514";"e) mengenal pasti dan membincangkan masalah teknikal proses dan penyelesaian"
+"";"2514";"f) menjalankan tugas yang berkaitan dan"
+"";"2514";"g) meningkatkan kefahaman dan menyelaras pelaksanaan kerja."
+"";"2514";"Contoh pekerjaan yang dikelaskan di sini (rujuk indeks kumpulan unit 2514)"
+"";"2514";"251401 - Pengaturcara Komputer"
+"";"2514";"251402 - Pengaturcara Perisian"
+"";"2514";"251403 - Pengaturcara Teknikal"
+"";"2514";"251404 - Pengaturcara Teknologi Maklumat"
+"";"2519";"KUMPULAN UNIT 2519 PEMBANGUN DAN JURUANALISIS PERISIAN DAN APLIKASI YANG TIDAK DIKELASKAN DI MANA-MANA"
 "";"2519";"Kumpulan unit ini merangkumi Pembangun dan Juruanalisis Perisian dan Aplikasi yang"
 "";"2519";"Tidak dikelaskan di Mana-mana dalam Kumpulan Kecil 251 Pembangun dan Juruanalisis"
 "";"2519";"Perisian dan Aplikasi. Sebagai contoh kumpulan ini termasuk penguji perisian penguji sistem"
@@ -3086,15 +3003,15 @@
 "";"2519";"251902 - Penguji Sistem"
 "";"2519";"251903 - Jurutera Jaminan Kualiti Produk (Teknologi Maklumat)"
 "";"2519";"251904 - Juruanalisis Jaminan Kualiti (Teknologi Maklumat)"
-"";"2519";"KUMPULAN KECIL 252 PROFESIONAL PANGKALAN DATA DAN RANGKAIAN"
-"";"2519";"Profesional Pangkalan Data dan Rangkaian mereka bentuk membangunkan menyelenggara dan membantu"
-"";"2519";"mencapai prestasi optimum serta mengawal keselamatan dan infrastruktur termasuk pangkalan data"
-"";"2519";"perkakasan dan perisian serta sistem rangkaian dan operasi."
-"";"2519";"Pekerjaan dalam kumpulan kecil ini diklasifikasikan kepada kumpulan unit berikut"
-"";"2519";"2521 PEREKA DAN PENTADBIR PANGKALAN DATA"
-"";"2519";"2522 PENTADBIR SISTEM TEKNOLOGI MAKLUMAT"
-"";"2519";"2523 PROFESIONAL RANGKAIAN KOMPUTER"
-"";"2519";"2524 PROFESIONAL DATA"
+"";"252X";"KUMPULAN KECIL 252 PROFESIONAL PANGKALAN DATA DAN RANGKAIAN"
+"";"252X";"Profesional Pangkalan Data dan Rangkaian mereka bentuk membangunkan menyelenggara dan membantu"
+"";"252X";"mencapai prestasi optimum serta mengawal keselamatan dan infrastruktur termasuk pangkalan data"
+"";"252X";"perkakasan dan perisian serta sistem rangkaian dan operasi."
+"";"252X";"Pekerjaan dalam kumpulan kecil ini diklasifikasikan kepada kumpulan unit berikut"
+"";"252X";"2521 PEREKA DAN PENTADBIR PANGKALAN DATA"
+"";"252X";"2522 PENTADBIR SISTEM TEKNOLOGI MAKLUMAT"
+"";"252X";"2523 PROFESIONAL RANGKAIAN KOMPUTER"
+"";"252X";"2524 PROFESIONAL DATA"
 "";"2521";"KUMPULAN UNIT 2521 PEREKA DAN PENTADBIR PANGKALAN DATA"
 "";"2521";"Pereka dan Pentadbir Pangkalan Data mereka bentuk membangunkan mengawal"
 "";"2521";"menyelenggara dan membantu mencapai prestasi optimum dan mengawal keselamatan"
@@ -3163,1215 +3080,119 @@
 "";"2523";"252302 - Perunding Perkhidmatan Rangkaian"
 "";"2523";"252303 - Pentadbir Rangkaian"
 "";"2523";"252304 - Pentadbir Rangkaian Infrastruktur"
-"";"2523";KUM
-"";"2523";"PULAN UNIT 2524"
-"";"2523";"PROFESIONAL DATA"
-"";"2523";"Profesional Data"
-"";"2523";"mengkhusus dalam bidang sains data yang menyediakan maklumat penting"
-"";"2523";"berdasarkan sejumlah data yang kompleks atau data besar. Ia menggabungkan pelbagai bidang"
-"";"2523";"kerja dalam statistik dan pengiraan untuk mentafsir data bagi tujuan membuat keputusan."
-"";"2523";"Tugas m"
-"";"2523";erangkum
-"";"2523";i
-"";"2523";a)
-"";"2523";"menyediakan dokumen untuk menggariskan sumber data model dan algoritma yang digunakan dan"
-"";"2523";dibangunkan
-"";"2523";b)
-"";"2523";"mengekstrak data dari sumber data"
-"";"2523";c)
-"";"2523";"mencadangkan kegunaan baru untuk sumber dan struktur data sedia"
-"";"2523";ada
-"";"2523";d)
-"";"2523";"menggabungkan pelbagai set data untuk membina set data besar dan kompleks"
-"";"2523";e)
-"";"2523";"membina perisian untuk membersih menggabung dan mengurus data"
-"";"2523";f)
-"";"2523";"membuat teknik pengekstrakan data untuk menyiasat petunjuk mengenal pasti corak dan"
-"";"2523";"keteraturan dalam data"
-"";"2523";g)
-"";"2523";"melaksanakan proses automatik untuk menghasilkan model skala"
-"";"2523";h)
-"";"2523";"membangunkan kod kompleks skrip dan saluran data untuk memproses data berstruktur dan tidak"
-"";"2523";berstruktur
-"";"2523";j)
-"";"2523";"menguji konfigurasi sistem data untuk meningkatkan kecekapan"
-"";"2523";k)
-"";"2523";"menjalankan pencarian visualisasi data dan fungsi analisis la"
-"";"2523";njutan
-"";"2523";l)
-"";"2523";"memantau prestasi sistem data"
-"";"2523";m)
-"";"2523";"memudahkan pembersihan dan pengayaan data dan"
-"";"2523";n)
-"";"2523";"melakukan pemeriksaan data dan semakan kawalan kualiti"
-"";"2523";"Contoh pekerjaan yang dikelaskan di sini"
-"";"2523";"(rujuk indeks kum"
-"";"2523";"pulan unit 2524)"
-"";"2523";2524-01
-"";"2523";"Ahli Sains Data"
-"";"2523";2524-02
-"";"2523";"Jurutera Data Besar"
-"";"2523";2524-03
-"";"2523";"Juruanalisis Data"
-"";"2523";2524-04
-"";"2523";"Data Model"
-"";"2523";KUM
-"";"2523";"PULAN KECIL 253"
-"";"2523";"PROFESIONAL KESELAM"
-"";"2523";"ATAN TEKNOLOGI M"
-"";"2523";AKLUM
-"";"2523";AT
-"";"2523";"Profesional Keselam"
-"";"2523";"atan Teknologi M"
-"";"2523";aklum
-"";"2523";at
-"";"2523";"menilai dan menangani risiko keselamatan untuk dan dalam"
-"";"2523";"parameter organisasi."
-"";"2523";"Pekerjaan dalam"
-"";"2523";kum
-"";"2523";"pulan kecil ini diklasifikasikan kepada kum"
-"";"2523";"pulan unit berikut"
-"";"2523";2531
-"";"2523";"PROFESIONAL KESELAM"
-"";"2523";"ATAN SIBER"
-"";"2523";KUM
-"";"2523";"PULAN UNIT 2531"
-"";"2523";"PROFESIONAL KESELAM"
-"";"2523";"ATAN SIBER"
-"";"2523";"Profesional Keselam"
-"";"2523";"atan Siber"
-"";"2523";"termasuk bukan sahaja fokus terhadap staf teknikal tetapi juga"
-"";"2523";"mereka yang menggunakan pengetahuan mengenai keselamatan siber bagi organisasi untuk"
-"";"2523";"melaksanakan misi dengan jayanya. Tenaga kerja keselamatan siber yang berpengetahuan"
-"";"2523";"dan mahir diperlukan untuk menangani risiko keselamatan siber dalam keseluruhan proses"
-"";"2523";"pengurusan risiko organisasi."
-"";"2523";Tugas
-"";"2523";m
-"";"2523";erangkum
-"";"2523";i
-"";"2523";a
-"";"2523";)
-"";"2523";me
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";c
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";k
-"";"2523";o
-"";"2523";n
-"";"2523";s
-"";"2523";e
-"";"2523";p
-"";"2523";m
-"";"2523";e
-"";"2523";r
-"";"2523";e
-"";"2523";k
-"";"2523";a
-"";"2523";b
-"";"2523";e
-"";"2523";n
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";p
-"";"2523";e
-"";"2523";r
-"";"2523";o
-"";"2523";l
-"";"2523";e
-"";"2523";h
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";u
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";b
-"";"2523";i
-"";"2523";n
-"";"2523";a
-"";"2523";s
-"";"2523";i
-"";"2523";s
-"";"2523";t
-"";"2523";e
-"";"2523";m
-"";"2523";t
-"";"2523";e
-"";"2523";k
-"";"2523";n
-"";"2523";o
-"";"2523";l
-"";"2523";o
-"";"2523";g
-"";"2523";i
-"";"2523";m
-"";"2523";a
-"";"2523";k
-"";"2523";l
-"";"2523";u
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";(
-"";"2523";I
-"";"2523";T
-"";"2523";)
-"";"2523";y
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";s
-"";"2523";e
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";g
-"";"2523";u
-"";"2523";n
-"";"2523";g
-"";"2523";j
-"";"2523";a
-"";"2523";w
-"";"2523";a
-"";"2523";b
-"";"2523";u
-"";"2523";n
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";a
-"";"2523";s
-"";"2523";p
-"";"2523";e
-"";"2523";k
-"";"2523";p
-"";"2523";e
-"";"2523";m
-"";"2523";b
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";u
-"";"2523";n
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";s
-"";"2523";t
-"";"2523";e
-"";"2523";m
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";u
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";k
-"";"2523";a
-"";"2523";i
-"";"2523";a
-"";"2523";n
-"";"2523";b
-"";"2523";)
-"";"2523";me
-"";"2523";m
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";i
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";o
-"";"2523";k
-"";"2523";o
-"";"2523";n
-"";"2523";g
-"";"2523";a
-"";"2523";n
-"";"2523";p
-"";"2523";e
-"";"2523";n
-"";"2523";t
-"";"2523";a
-"";"2523";d
-"";"2523";b
-"";"2523";i
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";p
-"";"2523";e
-"";"2523";n
-"";"2523";y
-"";"2523";e
-"";"2523";l
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";g
-"";"2523";a
-"";"2523";r
-"";"2523";a
-"";"2523";a
-"";"2523";n
-"";"2523";y
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";d
-"";"2523";i
-"";"2523";p
-"";"2523";e
-"";"2523";r
-"";"2523";l
-"";"2523";u
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";u
-"";"2523";n
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";a
-"";"2523";s
-"";"2523";t
-"";"2523";i
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";p
-"";"2523";r
-"";"2523";e
-"";"2523";s
-"";"2523";t
-"";"2523";a
-"";"2523";s
-"";"2523";i
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";e
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";s
-"";"2523";t
-"";"2523";e
-"";"2523";m
-"";"2523";t
-"";"2523";e
-"";"2523";k
-"";"2523";n
-"";"2523";o
-"";"2523";l
-"";"2523";o
-"";"2523";g
-"";"2523";i
-"";"2523";m
-"";"2523";a
-"";"2523";k
-"";"2523";l
-"";"2523";u
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";(
-"";"2523";I
-"";"2523";T
-"";"2523";)
-"";"2523";y
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";e
-"";"2523";f
-"";"2523";i
-"";"2523";s
-"";"2523";i
-"";"2523";e
-"";"2523";n
-"";"2523";c
-"";"2523";)
-"";"2523";me
-"";"2523";m
-"";"2523";i
-"";"2523";m
-"";"2523";p
-"";"2523";i
-"";"2523";n
-"";"2523";m
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";u
-"";"2523";r
-"";"2523";u
-"";"2523";s
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";i
-"";"2523";a
-"";"2523";r
-"";"2523";a
-"";"2523";h
-"";"2523";a
-"";"2523";n
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";u
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";b
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";u
-"";"2523";n
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";i
-"";"2523";n
-"";"2523";a
-"";"2523";s
-"";"2523";i
-"";"2523";h
-"";"2523";a
-"";"2523";t
-"";"2523";s
-"";"2523";u
-"";"2523";p
-"";"2523";a
-"";"2523";y
-"";"2523";a
-"";"2523";o
-"";"2523";r
-"";"2523";g
-"";"2523";a
-"";"2523";n
-"";"2523";i
-"";"2523";s
-"";"2523";a
-"";"2523";s
-"";"2523";i
-"";"2523";d
-"";"2523";a
-"";"2523";p
-"";"2523";a
-"";"2523";t
-"";"2523";m
-"";"2523";e
-"";"2523";n
-"";"2523";j
-"";"2523";a
-"";"2523";l
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";e
-"";"2523";r
-"";"2523";j
-"";"2523";a
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";e
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";d
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";a
-"";"2523";n
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";)
-"";"2523";men
-"";"2523";g
-"";"2523";e
-"";"2523";n
-"";"2523";a
-"";"2523";l
-"";"2523";p
-"";"2523";a
-"";"2523";s
-"";"2523";t
-"";"2523";i
-"";"2523";m
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";a
-"";"2523";n
-"";"2523";a
-"";"2523";l
-"";"2523";i
-"";"2523";s
-"";"2523";i
-"";"2523";s
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";m
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";u
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";a
-"";"2523";n
-"";"2523";c
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";n
-"";"2523";t
-"";"2523";e
-"";"2523";r
-"";"2523";h
-"";"2523";a
-"";"2523";d
-"";"2523";a
-"";"2523";p
-"";"2523";s
-"";"2523";i
-"";"2523";s
-"";"2523";t
-"";"2523";e
-"";"2523";m
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";u
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";k
-"";"2523";a
-"";"2523";i
-"";"2523";a
-"";"2523";n
-"";"2523";t
-"";"2523";e
-"";"2523";k
-"";"2523";n
-"";"2523";o
-"";"2523";l
-"";"2523";o
-"";"2523";g
-"";"2523";i
-"";"2523";m
-"";"2523";a
-"";"2523";k
-"";"2523";l
-"";"2523";u
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";d
-"";"2523";a
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";n
-"";"2523";(
-"";"2523";I
-"";"2523";T
-"";"2523";)
-"";"2523";e
-"";"2523";)
-"";"2523";me
-"";"2523";l
-"";"2523";a
-"";"2523";k
-"";"2523";u
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";t
-"";"2523";i
-"";"2523";n
-"";"2523";j
-"";"2523";a
-"";"2523";u
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";p
-"";"2523";e
-"";"2523";n
-"";"2523";i
-"";"2523";l
-"";"2523";a
-"";"2523";i
-"";"2523";a
-"";"2523";n
-"";"2523";m
-"";"2523";a
-"";"2523";k
-"";"2523";l
-"";"2523";u
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";e
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";y
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";s
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";a
-"";"2523";t
-"";"2523";k
-"";"2523";h
-"";"2523";u
-"";"2523";s
-"";"2523";u
-"";"2523";s
-"";"2523";u
-"";"2523";n
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";m
-"";"2523";e
-"";"2523";n
-"";"2523";e
-"";"2523";n
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";e
-"";"2523";g
-"";"2523";u
-"";"2523";n
-"";"2523";a
-"";"2523";a
-"";"2523";n
-"";"2523";n
-"";"2523";y
-"";"2523";a
-"";"2523";u
-"";"2523";n
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";k
-"";"2523";e
-"";"2523";p
-"";"2523";i
-"";"2523";n
-"";"2523";t
-"";"2523";a
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";f
-"";"2523";)
-"";"2523";menyedia
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";o
-"";"2523";p
-"";"2523";e
-"";"2523";r
-"";"2523";a
-"";"2523";s
-"";"2523";i
-"";"2523";p
-"";"2523";e
-"";"2523";n
-"";"2523";o
-"";"2523";l
-"";"2523";a
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";p
-"";"2523";e
-"";"2523";n
-"";"2523";i
-"";"2523";p
-"";"2523";u
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";h
-"";"2523";u
-"";"2523";s
-"";"2523";u
-"";"2523";s
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";p
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";u
-"";"2523";m
-"";"2523";p
-"";"2523";u
-"";"2523";l
-"";"2523";a
-"";"2523";n
-"";"2523";m
-"";"2523";a
-"";"2523";k
-"";"2523";l
-"";"2523";u
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";e
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";y
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";m
-"";"2523";u
-"";"2523";n
-"";"2523";g
-"";"2523";k
-"";"2523";i
-"";"2523";n
-"";"2523";d
-"";"2523";i
-"";"2523";g
-"";"2523";u
-"";"2523";n
-"";"2523";a
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";u
-"";"2523";t
-"";"2523";u
-"";"2523";k
-"";"2523";m
-"";"2523";e
-"";"2523";m
-"";"2523";b
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";u
-"";"2523";n
-"";"2523";k
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";e
-"";"2523";p
-"";"2523";i
-"";"2523";n
-"";"2523";t
-"";"2523";a
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";)
-"";"2523";meny
-"";"2523";i
-"";"2523";a
-"";"2523";s
-"";"2523";a
-"";"2523";t
-"";"2523";k
-"";"2523";e
-"";"2523";j
-"";"2523";a
-"";"2523";d
-"";"2523";i
-"";"2523";a
-"";"2523";n
-"";"2523";k
-"";"2523";e
-"";"2523";s
-"";"2523";e
-"";"2523";l
-"";"2523";a
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";a
-"";"2523";t
-"";"2523";a
-"";"2523";u
-"";"2523";j
-"";"2523";e
-"";"2523";n
-"";"2523";a
-"";"2523";y
-"";"2523";a
-"";"2523";h
-"";"2523";y
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";b
-"";"2523";e
-"";"2523";r
-"";"2523";k
-"";"2523";a
-"";"2523";i
-"";"2523";t
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";e
-"";"2523";n
-"";"2523";g
-"";"2523";a
-"";"2523";n
-"";"2523";s
-"";"2523";i
-"";"2523";s
-"";"2523";t
-"";"2523";e
-"";"2523";m
-"";"2523";r
-"";"2523";a
-"";"2523";n
-"";"2523";g
-"";"2523";k
-"";"2523";a
-"";"2523";i
-"";"2523";a
-"";"2523";n
-"";"2523";d
-"";"2523";a
-"";"2523";n
-"";"2523";b
-"";"2523";u
-"";"2523";k
-"";"2523";t
-"";"2523";i
-"";"2523";d
-"";"2523";i
-"";"2523";g
-"";"2523";i
-"";"2523";t
-"";"2523";a
-"";"2523";l
-"";"2523";t
-"";"2523";e
-"";"2523";k
-"";"2523";n
-"";"2523";o
-"";"2523";l
-"";"2523";o
-"";"2523";g
-"";"2523";i
-"";"2523";m
-"";"2523";a
-"";"2523";k
-"";"2523";l
-"";"2523";u
-"";"2523";m
-"";"2523";a
-"";"2523";t
-"";"2523";(
-"";"2523";I
-"";"2523";T
-"";"2523";)
-"";"2523";"Contoh pekerjaan yang dikelaskan di sini"
-"";"2523";"(rujuk indeks kum"
-"";"2523";"pulan unit 2531)"
-"";"2523";2531-01
-"";"2523";"Eksekutif keselamatan teknologi maklumat dan komunikasi"
-"";"2523";2531-02
-"";"2523";"Eksekutif keselamatan siber"
-"";"2523";2531-03
-"";"2523";"Pakar forensik digital"
-"";"2523";2531-04
-"";"2523";"Pakar keselamatan (Teknologi Maklumat)"
-"";"2523";KUM
-"";"2523";"PULAN KECIL 254"
-"";"2523";"PROFESIONAL KANDUNGAN KREATIF DAN DIGITAL"
-"";"2523";"Profesional Kandungan Kreatif dan Digital"
-"";"2523";"memberi gambaran merancang membuat menghasilkan dan"
-"";"2523";"membangunkan kandungan digital menerusi pelbagai medium penghantaran seperti animasi permainan"
-"";"2523";"kesan visual media baru"
-"";"2523";"Virtual Reality (VR) Augm"
-"";"2523";"ented Reality (AR)"
-"";"2523";"dan format media digital yang lain."
-"";"2523";"Pekerjaan dalam"
-"";"2523";kum
-"";"2523";"pulan kecil ini diklasifikasikan kepada kum"
-"";"2523";"pulan unit berikut"
-"";"2523";2541
-"";"2523";P
-"";"2523";R
-"";"2523";O
-"";"2523";F
-"";"2523";E
-"";"2523";S
-"";"2523";I
-"";"2523";O
-"";"2523";N
-"";"2523";A
-"";"2523";L
-"";"2523";KESAN
-"";"2523";VISUAL
-"";"2523";DAN
-"";"2523";ANIM
-"";"2523";ASI
-"";"2523";2542
-"";"2523";PROFESIONAL
-"";"2523";PERM
-"";"2523";AINAN
-"";"2523";DIGITAL
-"";"2523";DAN
-"";"2523";E
-"";"2523";-
-"";"2523";SUKAN
-"";"2523";2543
-"";"2523";P
-"";"2523";R
-"";"2523";O
-"";"2523";F
-"";"2523";E
-"";"2523";S
-"";"2523";I
-"";"2523";O
-"";"2523";N
-"";"2523";A
-"";"2523";L
-"";"2523";PEREKA
-"";"2523";KANDUNGAN
-"";"2523";KREATIF
-"";"2523";KUM
-"";"2523";PULAN
-"";"2523";UNIT
-"";"2523";2541
-"";"2523";P
-"";"2523";R
-"";"2523";O
-"";"2523";F
-"";"2523";E
-"";"2523";S
-"";"2523";I
-"";"2523";O
-"";"2523";N
-"";"2523";A
-"";"2523";L
-"";"2523";KESAN
-"";"2523";VISUAL
-"";"2523";DAN
-"";"2523";ANIM
-"";"2523";ASI
-"";"2523";P
-"";"2523";r
-"";"2523";o
-"";"2523";f
-"";"2523";e
-"";"2523";s
-"";"2523";i
-"";"2523";o
-"";"2523";n
-"";"2523";a
-"";"2523";l
-"";"2523";Kesan
-"";"2523";Visual
-"";"2523";dan
-"";"2523";Anim
-"";"2523";asi
-"";"2523";menggabungkan
-"";"2523";pengetahuan
-"";"2523";artistik
-"";"2523";dan
-"";"2523";teknikal
-"";"2523";untuk
-"";"2523";memberi
-"";"2523";gambaran
-"";"2523";merancang
-"";"2523";membuat
-"";"2523";menghasilkan
-"";"2523";membangunkan
-"";"2523";kandungan
-"";"2523";digital
-"";"2523";yang
-"";"2523";memaparkan
-"";"2523";teks
-"";"2523";grafik
-"";"2523";animasi
-"";"2523";pengimejan
-"";"2523";audio
-"";"2523";dan
-"";"2523";video
-"";"2523";dan
-"";"2523";jenis
-"";"2523";kandungan
-"";"2523";lain
-"";"2523";untuk
-"";"2523";animasi
-"";"2523";kesan
-"";"2523";visual
-"";"2523";media
-"";"2523";baru
-"";"2523";dan
-"";"2523";lain
-"";"2523";-
-"";"2523";lain
-"";"2523";digital
-"";"2523";format
-"";"2523";media
-"";"2523";linear
-"";"2523";.
-"";"2523";"Tugas m"
-"";"2523";erangkum
-"";"2523";i
-"";"2523";a)
-"";"2523";"menggunakan pengetahuan teknikal dan artistik untuk memberi gambaran mengenai kandungan"
-"";"2523";digital
-"";"2523";b)
-"";"2523";"merancang dan menyusun aliran kerja dan saluran pengeluaran untuk memastikan pengeluaran"
-"";"2523";"yang berkualiti"
-"";"2523";c)
-"";"2523";"menentukan kandungan secara visual secara lisan atau secara bertulis mengenai format output"
-"";"2523";akhir
-"";"2523";d)
-"";"2523";"melaksanakan atau membantu dalam pelaksanaan kandungan digital"
-"";"2523";e)
-"";"2523";"menganalisis dan menilai pelbagai pilihan dalam proses membuat keputusan untuk memastikan"
-"";"2523";"penyelesaian paling optimum dipilih"
-"";"2523";f)
-"";"2523";"berkomunikasi secara jelas dengan penyelia dan pekerja bawahan untuk memastikan penghantaran"
-"";"2523";"tugas dipenuhi tepat pada masanya"
-"";"2523";g)
-"";"2523";"bekerjasama secara proaktif dengan ahli pasukan lain termasuk dari pelbagai kepakaran untuk"
-"";"2523";"menyelesaikan masalah"
-"";"2523";h)
-"";"2523";"mewujudkan kandungan digital untuk meningkatkan kualiti output"
-"";"2523";i)
-"";"2523";"menjalankan tugas-tugas yang berkaitan melalui alat penciptaan kandungan digital saluran paip"
-"";"2523";"alat dan teknologi dan"
-"";"2523";j)
-"";"2523";"meningkatkan pengetahuan dan menyelaraskan prestasi kerja."
-"";"2523";"Contoh pekerjaan yang dikelaskan di sini"
-"";"2523";"(rujuk indeks kum"
-"";"2523";"pulan unit 2541)"
-"";"2523";2541-01
-"";"2523";Artis
-"";"2523";Layout
-"";"2523";2541-02
-"";"2523";"Animator 3D"
-"";"2523";2541-03
-"";"2523";"Animator 2D"
-"";"2523";2541-04
-"";"2523";"Pemodel CG"
-"";"2523";KUM
-"";"2523";"PULAN UNIT 2542"
-"";"2523";"PROFESIONAL PERM"
-"";"2523";"AINAN DIGITAL DAN E-SUKAN"
-"";"2523";"Profesional Perm"
-"";"2523";"ainan Digital dan E-Sukan"
-"";"2523";"menggabungkan pengetahuan artistik dan"
-"";"2523";"teknikal untuk memberi gambaran merancang membuat menghasilkan membangunkan"
-"";"2523";"kandungan digital yang memaparkan teks grafik animasi pengimejan audio dan video dan"
-"";"2523";"jenis kandungan lain untuk permainan vrar dan lain-lain format media digital bukan linear."
-"";"2523";"Tugas m"
-"";"2523";erangkum
-"";"2523";i
-"";"2523";a)
-"";"2523";"mengatur penciptaan kandungan permainan menjadikannya tepat pada masanya dan dalam"
-"";"2523";"anggaran kos"
-"";"2523";b)
-"";"2523";"mencipta rupa rasa dan jalan cerita permainan menentukan bagaimana permainan akan dimainkan"
-"";"2523";c)
-"";"2523";"mencipta karya seni 2D 3D animasi untuk aset seni visual dalam permainan"
-"";"2523";d)
-"";"2523";"menggubah muzik dan mencipta kesan bunyi menyatukannya ke dala"
-"";"2523";"m permainan"
-"";"2523";e)
-"";"2523";"melaksanakan ciri-ciri dan fungsi melalui pengaturcaraan untuk menjadikan permainan seronok untuk"
-"";"2523";dimainkan
-"";"2523";f)
-"";"2523";"uji permainan untuk mengenal pasti kesilapan dalam permainan semak untuk sebarang"
-"";"2523";bug
-"";"2523";gangguan
-"";"2523";"dan kesilapan"
-"";"2523";g)
-"";"2523";"bekerjasama secara proaktif dengan ahli pasukan lain termasuk dari pelbagai kepakaran untuk"
-"";"2523";"menyelesaikan masalah"
-"";"2523";h)
-"";"2523";"mengoptimumkan kandungan digital untuk kecekapan prestasi masa sebenar"
-"";"2523";i)
-"";"2523";"melaksanakan tugas yang berkaitan melalui alat penciptaan kandungan digital enjin permainan alat dan"
-"";"2523";"teknologi dan"
-"";"2523";j)
-"";"2523";"meningkatkan pengetahuan dan menyelaraskan prestasi kerja."
-"";"2523";"Contoh pekerjaan yang dikelaskan di sini"
-"";"2523";"(rujuk indeks kum"
-"";"2523";"pulan unit 2542)"
-"";"2523";2542-01
-"";"2523";"Pereka Permainan (Digital)"
-"";"2523";2542-02
-"";"2523";"Pereka Tahap (Digital)"
-"";"2523";2542-03
-"";"2523";"Penguji QA  Penguji Permainan (Digital)"
-"";"2523";2542-04
-"";"2523";"Pengeluar Permainan (Digital)"
+"";"2524";"KUMPULAN UNIT 2524 PROFESIONAL DATA"
+"";"2524";"Profesional Data mengkhusus dalam bidang sains data yang menyediakan maklumat penting"
+"";"2524";"berdasarkan sejumlah data yang kompleks atau data besar. Ia menggabungkan pelbagai bidang"
+"";"2524";"kerja dalam statistik dan pengiraan untuk mentafsir data bagi tujuan membuat keputusan."
+"";"2524";"Tugas merangkumi"
+"";"2524";"a) menyediakan dokumen untuk menggariskan sumber data model dan algoritma yang digunakan dan dibangunkan"
+"";"2524";"b) mengekstrak data dari sumber data"
+"";"2524";"c) mencadangkan kegunaan baru untuk sumber dan struktur data sedia ada"
+"";"2524";"d) menggabungkan pelbagai set data untuk membina set data besar dan kompleks"
+"";"2524";"e) membina perisian untuk membersih menggabung dan mengurus data"
+"";"2524";"f) membuat teknik pengekstrakan data untuk menyiasat petunjuk mengenal pasti corak dan"
+"";"2524";"keteraturan dalam data"
+"";"2524";"g) melaksanakan proses automatik untuk menghasilkan model skala"
+"";"2524";"h) membangunkan kod kompleks skrip dan saluran data untuk memproses data berstruktur dan tidak berstruktur:
+"";"2524";"j) menguji konfigurasi sistem data untuk meningkatkan kecekapan"
+"";"2524";"k) menjalankan pencarian visualisasi data dan fungsi analisis lanjutan
+"";"2524";"l) memantau prestasi sistem data"
+"";"2524";"m) memudahkan pembersihan dan pengayaan data dan"
+"";"2524";"n) melakukan pemeriksaan data dan semakan kawalan kualiti"
+"";"2524";"Contoh pekerjaan yang dikelaskan di sini(rujuk indeks kumpulan unit 2524)"
+"";"2524";2524-01 - Ahli Sains Data"
+"";"2524";2524-02 - Jurutera Data Besar"
+"";"2524";2524-03 - Juruanalisis Data"
+"";"2524";2524-04 - Data Model"
+"";"253X";"KUMPULAN KECIL 253 PROFESIONAL KESELAMATAN TEKNOLOGI MAKLUMAT"
+"";"253X";"Profesional Keselamatan Teknologi Maklumat menilai dan menangani risiko keselamatan untuk dan dalam"
+"";"253X";"parameter organisasi. Pekerjaan dalam kumpulan kecil ini diklasifikasikan kepada kumpulan unit berikut"
+"";"253X";"2531 PROFESIONAL KESELAMATAN SIBER"
+"";"2531";"KUMPULAN UNIT 2531 PROFESIONAL KESELAMATAN SIBER"
+"";"2531";"Profesional Keselamatan Siber termasuk bukan sahaja fokus terhadap staf teknikal tetapi juga"
+"";"2531";"mereka yang menggunakan pengetahuan mengenai keselamatan siber bagi organisasi untuk"
+"";"2531";"melaksanakan misi dengan jayanya. Tenaga kerja keselamatan siber yang berpengetahuan"
+"";"2531";"dan mahir diperlukan untuk menangani risiko keselamatan siber dalam keseluruhan proses"
+"";"2531";"pengurusan risiko organisasi."
+"";"2523";"Tugas merangkumi:"
+"";"2531";"a) merancang konsep, mereka bentuk, memperoleh, dan / atau membina sistem teknologi maklumat
+(IT)"";"2531";"yang selamat, dan bertanggungjawab untuk aspek pembangunan sistem dan / atau rangkaian"
+"";"2531";"b) memberikan sokongan, pentadbiran, dan penyelenggaraan yang diperlukan untuk memastikan"
+"";"2531";"prestasi dan keselamatan sistem teknologi maklumat (IT) yang berkesan dan efisien"
+"";"2531";"c) memimpin, mengurus, memberi arahan, atau membangunkan dan memberi nasihat supaya"
+"";"2531";"organisasi dapat menjalankan kerja keselamatan siber dengan berkesan"
+"";"2531";"d) mengenal pasti, menganalisis, dan mengurangkan ancaman terhadap sistem dan / atau rangkaian"
+"";"2531";"teknologi maklumat dalaman (IT)"
+"";"2531";"e) melakukan tinjauan dan penilaian maklumat keselamatan siber yang sangat khusus untuk"
+"";"2531";"menentukan kegunaannya untuk kepintaran"
+"";"2531";"f) menyediakan operasi penolakan dan penipuan khusus dan pengumpulan maklumat keselamatan"
+"";"2531";"siber yang mungkin digunakan utuk membangunkan kepintaran dan"
+"";"2531";"g) menyiasat kejadian keselamatan siber atau jenayah yang berkaitan dengan sistem, rangkaian, dan"
+"";"2531";"bukti digital teknologi maklumat (IT)"
+"";"2531";"Contoh pekerjaan yang dikelaskan di sini (rujuk indeks kumpulan unit 2531)"
+"";"2531";"253101 - Eksekutif keselamatan teknologi maklumat dan komunikasi"
+"";"2531";"253102 - Eksekutif keselamatan siber"
+"";"2531";"253103 - Pakar forensik digital"
+"";"2531";"253104 - Pakar keselamatan (Teknologi Maklumat)"
+"";"254X";KUMPULAN KECIL 254 PROFESIONAL KANDUNGAN KREATIF DAN DIGITAL"
+"";"254X";"Profesional Kandungan Kreatif dan Digital"
+"";"254X";"memberi gambaran merancang membuat menghasilkan dan"
+"";"254X";"membangunkan kandungan digital menerusi pelbagai medium penghantaran seperti animasi permainan"
+"";"254X";"kesan visual media baru,Virtual Reality (VR) Augmented Reality (AR)"
+"";"254X";"dan format media digital yang lain."
+"";"254X";"Pekerjaan dalam kumpulan kecil ini diklasifikasikan kepada kumpulan unit berikut"
+"";"254X";"2541 PROFESIONAL KESAN VISUAL DAN ANIMASI"
+"";"254X";"2542 PROFESIONAL PERMAINAN DIGITAL DAN E-SUKAN"
+"";"254X";"2543 PROFESIONAL PEREKA KANDUNGAN KREATIF"
+"";"2541";"KUMPULAN UNIT 2541 PROFESIONAL KESAN VISUAL DAN ANIMASI"
+"";"2541";"Profesional Kesan Visual dan Animasi menggabungkan pengetahuan artistik dan teknikal untuk memberi gambaran merancang membuat menghasilkan membangunkan kandungan digital yang memaparkan teks grafik animasi pengimejan audio dan video dan jenis kandungan lain untuk animasi kesan visual media baru dan lain - lain digital format media linear."
+"";"2541";"Tugas merangkumi"
+"";"2541";"a) menggunakan pengetahuan teknikal dan artistik untuk memberi gambaran mengenai kandungan digital"b) merancang dan menyusun aliran kerja dan saluran pengeluaran untuk memastikan pengeluaran"
+"";"2541";"yang berkualiti"
+"";"2541";"c) menentukan kandungan secara visual secara lisan atau secara bertulis mengenai format output"
+"";"2541";"akhir"
+"";"2541";"d) melaksanakan atau membantu dalam pelaksanaan kandungan digital"
+"";"2541";"e) menganalisis dan menilai pelbagai pilihan dalam proses membuat keputusan untuk memastikan"
+"";"2541";"penyelesaian paling optimum dipilih"
+"";"2541";"f) berkomunikasi secara jelas dengan penyelia dan pekerja bawahan untuk memastikan penghantaran"
+"";"2541";"tugas dipenuhi tepat pada masanya"
+"";"2541";"g) bekerjasama secara proaktif dengan ahli pasukan lain termasuk dari pelbagai kepakaran untuk"
+"";"2541";"menyelesaikan masalah"
+"";"2541";"h) mewujudkan kandungan digital untuk meningkatkan kualiti output"
+"";"2541";"i) menjalankan tugas-tugas yang berkaitan melalui alat penciptaan kandungan digital saluran paip"
+"";"2541";"alat dan teknologi dan"
+"";"2541";"j) meningkatkan pengetahuan dan menyelaraskan prestasi kerja."
+"";"2541";"Contoh pekerjaan yang dikelaskan di sini (rujuk indeks kumpulan unit 2541)"
+"";"2541";"2541-01 Artis Layout"
+"";"2541";"2541-02 Animator 3D"
+"";"2541";"2541-03 Animator 2D"
+"";"2541";"2541-04 Pemodel CG"
+"";"2542";KUMPULAN UNIT 2542 PROFESIONAL PERMAINAN DIGITAL DAN E-SUKAN"
+"";"2542";"Profesional Permainan Digital dan E-Sukan menggabungkan pengetahuan artistik dan"
+"";"2542";"teknikal untuk memberi gambaran merancang membuat menghasilkan membangunkan"
+"";"2542";"kandungan digital yang memaparkan teks grafik animasi pengimejan audio dan video dan"
+"";"2542";"jenis kandungan lain untuk permainan vrar dan lain-lain format media digital bukan linear."
+"";"2542";"Tugas merangkumi"
+"";"2542";"a) mengatur penciptaan kandungan permainan menjadikannya tepat pada masanya dan dalam"
+"";"2542";"anggaran kos"
+"";"2542";"b) mencipta rupa rasa dan jalan cerita permainan menentukan bagaimana permainan akan dimainkan"
+"";"2542";"c) mencipta karya seni 2D 3D animasi untuk aset seni visual dalam permainan"
+"";"2542";"d) menggubah muzik dan mencipta kesan bunyi menyatukannya ke dalam permainan"
+"";"2542";"e) melaksanakan ciri-ciri dan fungsi melalui pengaturcaraan untuk menjadikan permainan seronok untuk"
+"";"2542";"dimainkan"
+"";"2542";"f) uji permainan untuk mengenal pasti kesilapan dalam permainan semak untuk sebarang bug, gangguan"
+"";"2542";"dan kesilapan"
+"";"2542";"g) bekerjasama secara proaktif dengan ahli pasukan lain termasuk dari pelbagai kepakaran untuk"
+"";"2542";"menyelesaikan masalah"
+"";"2542";"h) mengoptimumkan kandungan digital untuk kecekapan prestasi masa sebenar"
+"";"2542";"i) melaksanakan tugas yang berkaitan melalui alat penciptaan kandungan digital enjin permainan alat dan"
+"";"2542";"teknologi dan"
+"";"2542";"j) meningkatkan pengetahuan dan menyelaraskan prestasi kerja."
+"";"2542";"Contoh pekerjaan yang dikelaskan di sini(rujuk indeks kumpulan unit 2542)"
+"";"2542";254201 - Pereka Permainan (Digital)"
+"";"2542";254202 - Pereka Tahap (Digital)"
+"";"2542";254203 - Penguji QA  Penguji Permainan (Digital)"
+"";"2542";254204 - Pengeluar Permainan (Digital)"
 "";"2523";KUM
 "";"2523";PULAN
 "";"2523";UNIT
