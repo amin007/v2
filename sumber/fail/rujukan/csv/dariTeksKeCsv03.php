@@ -2,18 +2,29 @@
 
 $raw = <<<EOT
 BAHAGIAN 01 : PENGELUARAN TANAMAN DAN TERNAKAN, PEMBURUAN DAN AKTIVITI PERKHIDMATAN BERKAITAN
-Kumpulan 013 : Pembiakan tumbuhan
+Kumpulan 014 : Pengeluaran ternakan
 
 KELAS PERKARA KETERANGAN MSIC 2008
-0130(1) Pembiakan tumbuhan
-01301 Penanaman tumbuhan sebagai tanaman 01301
-01302 Penanaman tumbuhan untuk tujuan hiasan(2) 01302
-01303 Penanaman tumbuhan untuk bebawang, ubi dan akar / keratan dan slips / benih cendawan 01303
-01304 Operasi tapak semaian pokok (nurseries)(3) 01304
+0141(1) Penternakan lembu dan kerbau
+01411 Penternakan, pembiakan dan pengeluaran lembu(2) 01411p, 01413
+01412 Penternakan, pembiakan dan pengeluaran kerbau 01411p
+01413 Pengeluaran susu mentah daripada lembu atau kerbau 01412
+0142(3) Penternakan kuda dan kuda lumba lain
+01420 Penternakan dan pembiakan kuda, keldai, baghal atau hinnes 01420
+0143 Penternakan unta dan camelid
+01430 Penternakan dan pembiakan unta (dromedary) dan camelid 01430
+0144(4) Penternakan biri-biri dan kambing
+01441 Penternakan, pembiakan dan pengeluaran biri-biri 01441p
+01442 Penternakan, pembiakan dan pengeluaran kambing 01441p
+01443 Pengeluaran susu mentah biri-biri atau kambing 01442
+01444 Pengeluaran bulu belum proses 01443
+0145 Penternakan babi
+01450 Penternakan, pembiakan dan pengeluaran babi 01450
 
-(1) Tidak termasuk: penanaman tumbuhan untuk tujuan pengeluaran benih, lihat kumpulan  011 dan 012
-(2) Termasuk: rumput untuk dipindah tanam
-(3) Tidak termasuk: operasi tapak semaian pokok hutan, lihat 02103
+(1) Tidak termasuk: pemprosesan susu, lihat 1050
+(2) Termasuk: pengeluaran air mani lembu
+(3) Termasuk: kuda lumba<br>Tidak termasuk: operasi kandang untuk kuda perlumbaan dan tunggangan, lihat 9319
+(4) Tidak termasuk:<br>(a) pengguntingan bulu biri-biri berasaskan yuran atau kontrak, lihat  0162 <br>(b) pengeluaran bulu biri-biri, lihat 10103 <br>(c) pemprosesan susu, lihat 1050
 EOT;
 
 // -----------------------------------------------
