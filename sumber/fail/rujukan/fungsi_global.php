@@ -1527,6 +1527,36 @@ if ( ! function_exists('panggilTableExcel')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilTableExcel02')):
+	function panggilTableExcel02($tajuk,$data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		//list($urlcss,$urljs) = linkCssJs();//linkLocalCssJs(); kalau guna css Excel
+		list($urlcss,$urljs) = linkBt5CssJs();// bootstrap baru 5.3.8 dan ada tatasusunan
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		#------------------------------------------------------------------------------------------
+		echo '<h1>Jadual ' . $pilih . ' </h1>'# buat tajuk besar
+		. '<mark>Masih dalam proses kemaskini</mark><br>'
+		. '<mark>Boleh hubungi Amin Ledang Untuk Bantuan</mark>'
+		. '<br><br>';
+		#------------------------------------------------------------------------------------------
+		//if($pilih != '') binaSatuJadualExcel($data,$pilih); // kalau guna css Excel
+		//if($pilih != '') binaJadual02($tajuk,$data,$pilih); // kalau guna BS5
+		if($pilih != '') binaJadual03($data[$pilih],$pilih); // kalau guna BS5
+		//semakPembolehubah($pilih,'pilih');
+		//semakPembolehubah($tajuk[$pilih],'tajuk');
+		//semakPembolehubah($data[$pilih],"data[$pilih]",0);
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		jqueryExtendA();jqueryExtendB();jqueryExtendC();gradeTable002(null);
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable01')):
 	function panggilDataTable01($tajuk,$data,$pilih)
 	{
