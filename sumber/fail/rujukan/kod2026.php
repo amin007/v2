@@ -123,7 +123,7 @@ if (isset($_SERVER[$s])):
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif($cariApa === 'notakaki-Msic2025'):
-			panggilTableExcel($tajuk,$data,$cariApa);
+			panggilTableExcel02($tajuk,$data,$cariApa);
 			//panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
 			panggilDataTable05($tajuk,$data,$cariApa);
