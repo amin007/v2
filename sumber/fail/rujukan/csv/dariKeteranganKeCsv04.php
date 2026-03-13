@@ -5,7 +5,7 @@
 // ============================================================
 function sanitizeText(string $text): string
 {
-	return str_replace(';', ' / ', $text);
+	return str_replace(';', ' /', $text);
 }
 
 // ============================================================
