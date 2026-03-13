@@ -1544,8 +1544,7 @@ if ( ! function_exists('panggilTableExcel02')):
 		. '<br><br>';
 		#------------------------------------------------------------------------------------------
 		//if($pilih != '') binaSatuJadualExcel($data,$pilih); // kalau guna css Excel
-		//if($pilih != '') binaJadual02($tajuk,$data,$pilih); // kalau guna BS5
-		if($pilih != '') binaJadual03($data[$pilih],$pilih); // kalau guna BS5
+		if($pilih != '') binaJadual02($tajuk,$data,$pilih); // kalau guna BS5
 		//semakPembolehubah($pilih,'pilih');
 		//semakPembolehubah($tajuk[$pilih],'tajuk');
 		//semakPembolehubah($data[$pilih],"data[$pilih]",0);
