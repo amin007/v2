@@ -1,0 +1,628 @@
+<?php
+
+// ============================================================
+// Fungsi: Sanitize teks — tukar ; kepada ' / '
+// ============================================================
+function sanitizeText(string $text): string
+{
+	return str_replace(';', ' / ', $text);
+}
+
+// ============================================================
+// Fungsi: Jana satu baris CSV
+// Format: "";"SEKSYEN";"KOD";"PERKARA";"MSIC2008";"NOTAKAKI"
+// ============================================================
+function makeCsvRow(
+	string $seksyen,
+	string $kod,
+	string $perkara,
+	string $msic2008 = '_',
+	string $notakaki = '_'
+): string {
+	$escape = fn(string $s): string => '"' . str_replace('"', '""', sanitizeText($s)) . '"';
+	return '""'
+		. ';' . $escape($seksyen)
+		. ';' . $escape($kod)
+		. ';' . $escape($perkara)
+		. ';' . $escape($msic2008)
+		. ';' . $escape($notakaki);
+}
+
+// ============================================================
+// Fungsi: Parse notakaki daripada array baris
+// Pulangkan: ['1' => 'teks notakaki...', '2' => 'teks...']
+// ============================================================
+function parseFootnotes(array $lines): array
+{
+	$footnotes   = [];
+	$currentNum  = null;
+	$currentText = '';
+
+	foreach ($lines as $line) {
+		$trimmed = trim($line);
+		if ($trimmed === '') continue;
+
+		// Baris baru notakaki: bermula dengan (N)
+		if (preg_match('/^\((\d+)\)\s*(.*)/', $trimmed, $m)) {
+			if ($currentNum !== null) {
+				$footnotes[$currentNum] = trim($currentText);
+			}
+			$currentNum  = $m[1];
+			$currentText = $m[2];
+		} elseif ($currentNum !== null) {
+			// Sambungan baris notakaki yang panjang
+			$currentText .= ' ' . $trimmed;
+		}
+	}
+
+	// Flush notakaki terakhir
+	if ($currentNum !== null) {
+		$footnotes[$currentNum] = trim($currentText);
+	}
+
+	return $footnotes;
+}
+
+// ============================================================
+// Fungsi: Proses blok FORMAT JADUAL → jana baris CSV
+// ============================================================
+function flushBlockJadual(array &$rows, string $seksyen, array $dataLines, array $fnLines): void
+{
+	$footnotes = parseFootnotes($fnLines);
+
+	foreach ($dataLines as $dline) {
+		$dline = trim($dline);
+		if ($dline === '') continue;
+
+		// Padankan: KOD [opsional (N)] diikuti PERKARA
+		// Contoh: "02101 Nama perkara 02101" atau "0210(1) Nama..."
+		if (!preg_match('/^(\d{3,5}(?:\s*\(\d+\))?)\s+(.+)/', $dline, $m)) continue;
+
+		$kod  = trim($m[1]);
+		$rest = trim($m[2]);
+
+		// ── Ekstrak kod MSIC 2008 daripada hujung baris ──────────
+		// Contoh tunggal: "02101" atau "02201p"
+		// Contoh berganda: "02201p,02202p,02203p,02204p"
+		$msic2008 = '_';
+		if (preg_match('/\s+(\d{5}[a-zA-Z]?(?:,\s*\d{5}[a-zA-Z]?)*)$/', $rest, $mm)) {
+			$msic2008 = trim($mm[1]);
+			$rest     = trim(substr($rest, 0, -strlen($mm[0])));
+		}
+
+		// ── Cari rujukan notakaki ─────────────────────────────────
+		// Keutamaan 1: rujukan dalam KOD sendiri  → cth. "0210(1)"
+		// Keutamaan 2: rujukan di hujung PERKARA  → cth. "...lapang(2)"
+		$fnRef = null;
+		if (preg_match('/\((\d+)\)/', $kod, $mm)) {
+			$fnRef = $mm[1];
+		} elseif (preg_match('/\((\d+)\)\s*$/', $rest, $mm)) {
+			$fnRef = $mm[1];
+		}
+
+		$notakaki = '_';
+		if ($fnRef !== null && isset($footnotes[$fnRef])) {
+			$notakaki = '(' . $fnRef . ') ' . $footnotes[$fnRef];
+		}
+
+		$rows[] = makeCsvRow($seksyen, $kod, $rest, $msic2008, $notakaki);
+	}
+}
+
+// ============================================================
+// Fungsi: Proses blok FORMAT NARATIF → jana 2 baris CSV
+// Baris 1: tajuk (sudah dioutput semasa kesan KUMPULAN/BAHAGIAN)
+// Baris 2: huraian dicantum jadi satu baris
+// ============================================================
+function flushBlockNaratif(
+	array  &$rows,
+	string $seksyen,
+	string $kodKumpulan,
+	array  $huraianLines
+): void {
+	$huraian = trim(preg_replace('/\s+/', ' ', implode(' ', $huraianLines)));
+	if ($huraian === '') return;
+
+	// MSIC 2008 diisi dengan kod Kumpulan semula (cth. 031)
+	$rows[] = makeCsvRow($seksyen, $kodKumpulan, $huraian, $kodKumpulan, '_');
+}
+
+// ============================================================
+// Parser utama — sokong FORMAT JADUAL dan FORMAT NARATIF
+//
+// Format auto-dikesan berdasarkan kehadiran baris:
+//   "KELAS PERKARA KETERANGAN MSIC 2008" → mod JADUAL
+//   Tiada baris tersebut dalam blok       → mod NARATIF
+// ============================================================
+function parseMsic(string $raw): array
+{
+	$rows    = [];
+	$lines   = explode("\n", $raw);
+	$seksyen = 'A';
+
+	// ── Pemboleh ubah blok semasa ─────────────────────────────
+	$modBlok      = '';       // 'jadual' atau 'naratif'
+	$kodKumpulan  = '';       // kod Kumpulan aktif, cth. "031"
+	$blockData    = [];       // baris data jadual
+	$blockFn      = [];       // baris notakaki jadual
+	$blockNaratif = [];       // baris huraian naratif
+	$blockSeksyen = 'A';
+	$inFn         = false;
+
+	// Rekod BAHAGIAN yang sudah dioutput — elak duplikasi pengepala halaman
+	$outputtedBahagian  = [];
+	$outputtedKumpulan  = [];
+
+	// ── Closure: flush blok semasa mengikut mod ──────────────
+	$flushCurrentBlock = function () use (
+		&$rows, &$modBlok, &$kodKumpulan,
+		&$blockData, &$blockFn, &$blockNaratif,
+		&$blockSeksyen, &$inFn
+	): void {
+		if ($modBlok === 'jadual' && !empty($blockData)) {
+			flushBlockJadual($rows, $blockSeksyen, $blockData, $blockFn);
+		} elseif ($modBlok === 'naratif' && !empty($blockNaratif)) {
+			flushBlockNaratif($rows, $blockSeksyen, $kodKumpulan, $blockNaratif);
+		}
+		$modBlok      = '';
+		$blockData    = [];
+		$blockFn      = [];
+		$blockNaratif = [];
+		$inFn         = false;
+	};
+
+	foreach ($lines as $line) {
+		$trimmed = trim($line);
+
+		// 1. Kesan "MSIC 2025 SEKSYEN X" — kemas kini huruf seksyen
+		if (preg_match('/^MSIC\s+\d+\s+SEKSYEN\s+([A-Z])/i', $trimmed, $m)) {
+			$seksyen = strtoupper($m[1]);
+			continue;
+		}
+
+		// 2. Abaikan pengepala halaman cth. "A - 22"
+		if (preg_match('/^[A-Z]\s*-\s*\d+$/', $trimmed)) continue;
+
+		// 3. Kesan pengepala jadual — tetapkan mod JADUAL
+		if (preg_match('/^KELAS\s+PERKARA/i', $trimmed)) {
+			$modBlok = 'jadual';
+			continue;
+		}
+
+		// 4. Abaikan baris kosong
+		if ($trimmed === '') continue;
+
+		// 5. Kesan "BAHAGIAN XX : Nama..." (sebarang huruf besar/kecil)
+		if (preg_match('/^BAHAGIAN\s+(\d+)\s*[:\-]?\s*(.*)/i', $trimmed, $m)) {
+			$flushCurrentBlock();
+			$noBahagian   = trim($m[1]);
+			$namaBahagian = trim($m[2]);
+			$key          = $noBahagian;
+
+			if (!isset($outputtedBahagian[$key])) {
+				$outputtedBahagian[$key] = true;
+				$tajuk  = 'BAHAGIAN ' . $noBahagian . ' : ' . strtoupper($namaBahagian);
+				$rows[] = makeCsvRow($seksyen, $noBahagian, $tajuk, '_', '_');
+			}
+			$blockSeksyen = $seksyen;
+			continue;
+		}
+
+		// 6a. Kesan "Kumpulan XXX : Nama..." — huruf kecil (FORMAT JADUAL)
+		if (preg_match('/^Kumpulan\s+(\d+)\s*[:\-]?\s*(.*)/i', $trimmed, $m)
+			&& ctype_upper($trimmed[0]) && !ctype_upper($trimmed[1])
+		) {
+			$flushCurrentBlock();
+			$noKumpulan   = trim($m[1]);
+			$namaKumpulan = trim($m[2]);
+			$tajuk        = 'Kumpulan ' . $noKumpulan . ' : ' . $namaKumpulan;
+
+			if (!isset($outputtedKumpulan[$noKumpulan])) {
+				$outputtedKumpulan[$noKumpulan] = true;
+				$rows[] = makeCsvRow($seksyen, $noKumpulan, $tajuk, '_', '_');
+			}
+			$kodKumpulan  = $noKumpulan;
+			$blockSeksyen = $seksyen;
+			// Mod akan ditetapkan apabila jumpa KELAS PERKARA
+			continue;
+		}
+
+		// 6b. Kesan "KUMPULAN XXX Nama..." — huruf besar (FORMAT NARATIF)
+		if (preg_match('/^KUMPULAN\s+(\d+)\s+(.*)/i', $trimmed, $m)
+			&& ctype_upper(substr($trimmed, 0, 8))
+		) {
+			$flushCurrentBlock();
+			$noKumpulan   = trim($m[1]);
+			$namaKumpulan = trim($m[2]);
+			$tajuk        = 'KUMPULAN ' . $noKumpulan . ' : ' . $namaKumpulan;
+
+			if (!isset($outputtedKumpulan[$noKumpulan])) {
+				$outputtedKumpulan[$noKumpulan] = true;
+				$rows[] = makeCsvRow($seksyen, $noKumpulan, $tajuk, '_', '_');
+			}
+			$kodKumpulan  = $noKumpulan;
+			$modBlok      = 'naratif';
+			$blockSeksyen = $seksyen;
+			continue;
+		}
+
+		// 7. Kesan baris notakaki dalam mod JADUAL — bermula dengan "(N)"
+		if ($modBlok === 'jadual' && preg_match('/^\(\d+\)/', $trimmed)) {
+			$inFn = true;
+		}
+
+		// 8. Tambah ke buffer blok semasa mengikut mod
+		if ($modBlok === 'jadual') {
+			if ($inFn) {
+				$blockFn[] = $line;
+			} else {
+				$blockData[] = $line;
+			}
+		} elseif ($modBlok === 'naratif') {
+			$blockNaratif[] = $line;
+		}
+	}
+
+	// Flush blok terakhir
+	$flushCurrentBlock();
+
+	return $rows;
+}
+
+// ============================================================
+// Data mentah MSIC — Format JADUAL (Bahagian 02) dan
+//                    Format NARATIF (Bahagian 03)
+// ============================================================
+$rawData = <<<'EOT'
+MSIC 2025 SEKSYEN B
+
+B - 8
+BAHAGIAN 07 PERLOMBONGAN BIJIH LOGAM
+
+Bahagian ini termasuk perlombongan untuk mineral berlogam (bijih),
+dijalankan
+melalui perlombongan bawah tanah atau dedah, dasar laut dan sebagainya.
+Juga termasuk adalah pencucian bijih dan operasi pengekstrakan seperti
+pemecahan, pengisaran, pembersihan, pengeringan, pensinteran, proses
+rawatan terma (calcining) atau penapisan bijih, operasi pemisahan
+graviti atau
+pengapungan.
+
+<br><br>Bahagian ini tidak termasuk aktiviti pembuatan seperti penyalaian pirit
+besi (lihat
+kelas 2011), pengeluaran aluminium oksida (lihat kelas 2420) dan operasi
+relau
+bagas (lihat kelas 2410 dan 2420).
+
+KUMPULAN 071 Perlombongan bijih besi
+
+Kumpulan ini termasuk perlombongan bijih yang tinggi kandungan besi dan
+pengekstrakan serta penggumpalan besi bijih.
+
+<br><br>Kumpulan ini tidak termasuk pengekstrakan dan penyediaan pirit dan pirotit
+(kecuali penyalaian), lihat kelas 0891. Juga tidak termasuk perkhidmatan
+penggumpalan dan pati bijih bagi pihak ketiga (lihat kelas 0990).
+
+KUMPULAN 072 Perlombongan bijih logam bukan besi
+
+Kumpulan ini termasuk perlombongan bijih uranium dan torium dan bijih logam
+bukan ferus lain.
+
+MSIC 2025 SEKSYEN B
+B - 9
+BAHAGIAN 07 : PERLOMBONGAN BIJIH LOGAM
+Kumpulan 071 : Perlombongan bijih besi
+
+KELAS PERKARA KETERANGAN MSIC 2008
+0710(1) Perlombongan bijih besi
+07101 Perlombongan bijih yang tinggi kandungan besi 07101
+07102 Pengekstrakan dan penggumpalan bijih besi 07102
+
+(1) Tidak termasuk: <br>(a) pengekstrakan dan penyediaan pirit dan pirotit (kecuali penyalaian),  lihat 08914
+<br>(b) perkhidmatan penggumpalan dan pati bijih bagi pihak ketiga, lihat 09900
+
+MSIC 2025 SEKSYEN B
+
+B - 10
+BAHAGIAN 07 : PERLOMBONGAN BIJIH LOGAM
+Kumpulan 072 : Perlombongan bijih logam bukan besi
+
+KELAS PERKARA KETERANGAN MSIC 2008
+0721(1) Perlombongan bijih uranium dan torium
+07210 Perlombongan bijih uranium dan torium 07210
+
+(1) Termasuk: <br>(a) perlombongan bijih yang tinggi kandungan uranium dan torium:pitchblende, dll.
+<br>(b) pati bijih
+<br>(c) pembuatan urania (yellowcake)
+<br><br>Tidak termasuk:<br>(a) pengayaan bijih uranium dan torium, lihat 20119
+<br>(b) pengeluaran logam uranium daripada pitchblende atau bijih lain, lihat 24209
+<br>(c) peleburan dan penapisan uranium, lihat 24209
+
+MSIC 2025 SEKSYEN B
+B - 11
+BAHAGIAN 07 : PERLOMBONGAN BIJIH LOGAM
+Kumpulan 072 : Perlombongan bijih logam bukan besi
+
+KELAS PERKARA KETERANGAN MSIC 2008
+0729(1) Perlombongan bijih logam bukan besi lain
+07291 Perlombongan bijih timah 07291
+07292 Perlombongan tembaga 07292
+07293 Perlombongan bauksit (aluminium) 07293
+07294 Pembilasan amang (2) 07294, 07298
+07295 Perlombongan emas dan perak 07295, 07296
+07296 Perlombongan unsur nadir bumi(REE)(3) 07299p
+07299 Perlombongan bijih logam bukan besi lain t.t.t.l. (4) 07297, 07299p
+
+(1) Tidak termasuk:<br>(a) perlombongan dan penyediaan bijih uranium dan torium, lihat 07210
+<br>(b) pengekstrakan garam daripada air laut, air garam, dan air masin lain, lihat 08932
+<br>(c) pengeluaran aluminium oksida, lihat 24202
+<br>(d) pengeluaran nikel atau tembaga kusam, lihat 24209
+
+(2) Termasuk: perlombongan ilmenit
+(3) Termasuk: perlombongan 17 unsur nadir bumi (REE)
+
+(4) Termasuk: <br>(a) perlombongan dan penyediaan bijih yang tinggi kandungan logam bukan besi: plumbum, litium (spodumene), zink, mangan, krom, nikel, kobalt, molibdenum, tantalum, vanadium, dll.
+<br>(b) logam berharga: platinum
+
+EOT;
+
+// ============================================================
+// Jalankan parser
+// ============================================================
+$csvRows = parseMsic($rawData);
+
+?>
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MSIC 2025 — Paparan CSV</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			background: #f0f2f5;
+			color: #333;
+			padding: 30px 20px;
+		}
+
+		h1 {
+			font-size: 1.4rem;
+			margin-bottom: 6px;
+			color: #1a1a2e;
+		}
+
+		.subtitle {
+			font-size: 0.85rem;
+			color: #666;
+			margin-bottom: 20px;
+		}
+
+		.stats {
+			display: inline-block;
+			background: #1a73e8;
+			color: #fff;
+			font-size: 0.78rem;
+			padding: 4px 12px;
+			border-radius: 20px;
+			margin-bottom: 20px;
+		}
+
+		.csv-table-wrap {
+			overflow-x: auto;
+			background: #fff;
+			border-radius: 10px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 0.82rem;
+		}
+
+		thead tr {
+			background: #1a73e8;
+			color: #fff;
+		}
+
+		thead th {
+			padding: 10px 14px;
+			text-align: left;
+			font-weight: 600;
+			white-space: nowrap;
+		}
+
+		tbody tr:nth-child(odd) {
+			background: #f9f9f9;
+		}
+
+		tbody tr:hover {
+			background: #eaf2ff;
+		}
+
+		tbody td {
+			padding: 8px 14px;
+			vertical-align: top;
+			border-bottom: 1px solid #eee;
+		}
+
+		/* Lajur 1 — Bil */
+		td:nth-child(1),
+		th:nth-child(1) { width: 40px; text-align: center; color: #aaa; }
+
+		/* Lajur 2 — Seksyen */
+		td:nth-child(2),
+		th:nth-child(2) { width: 70px; text-align: center; }
+
+		/* Lajur 3 — Kod */
+		td:nth-child(3),
+		th:nth-child(3) { width: 110px; font-family: monospace; color: #1a73e8; font-weight: 600; }
+
+		/* Lajur 4 — Perkara */
+		td:nth-child(4) { max-width: 340px; line-height: 1.6; }
+
+		/* Lajur 5 — MSIC 2008 */
+		td:nth-child(5),
+		th:nth-child(5) { width: 160px; font-family: monospace; font-size: 0.75rem; color: #555; }
+
+		/* Lajur 6 — Notakaki */
+		td:nth-child(6) { max-width: 320px; font-size: 0.78rem; color: #555; line-height: 1.6; }
+
+		/* Baris pengepala BAHAGIAN */
+		tr.row-bahagian td {
+			font-weight: 700;
+			color: #fff;
+			background: #1a1a2e;
+		}
+
+		tr.row-bahagian td:nth-child(3) {
+			color: #90caf9;
+		}
+
+		/* Baris pengepala Kumpulan */
+		tr.row-kumpulan td {
+			font-weight: 600;
+			color: #1a1a2e;
+			background: #e8f0fe;
+		}
+
+		tr.row-kumpulan td:nth-child(3) {
+			color: #c0392b;
+		}
+
+		/* Paparan CSV mentah */
+		.raw-section {
+			margin-top: 30px;
+			background: #fff;
+			border-radius: 10px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+			overflow: hidden;
+		}
+
+		.raw-header {
+			background: #2d3436;
+			color: #fff;
+			padding: 10px 16px;
+			font-size: 0.85rem;
+			font-weight: 600;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.raw-header button {
+			background: #636e72;
+			color: #fff;
+			border: none;
+			padding: 4px 12px;
+			border-radius: 4px;
+			font-size: 0.78rem;
+			cursor: pointer;
+		}
+
+		.raw-header button:hover {
+			background: #b2bec3;
+			color: #333;
+		}
+
+		pre#csvRaw {
+			padding: 16px;
+			font-size: 0.75rem;
+			font-family: 'Courier New', monospace;
+			line-height: 1.7;
+			overflow-x: auto;
+			white-space: pre-wrap;
+			word-break: break-all;
+			color: #2d3436;
+			max-height: 400px;
+			overflow-y: auto;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>📄 MSIC 2025 — Paparan CSV</h1>
+	<p class="subtitle">Data diproses terus daripada teks mentah. Auto-kesan format jadual &amp; naratif. Tiada fail CSV dijana.</p>
+	<span class="stats"><?= count($csvRows) ?> baris dijana</span>
+
+	<!-- ========================================================
+	     JADUAL CSV (paparan mesra)
+	======================================================== -->
+	<div class="csv-table-wrap">
+		<table>
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Seksyen</th>
+					<th>Kod</th>
+					<th>Perkara</th>
+					<th>MSIC 2008</th>
+					<th>Notakaki</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php
+				$bil = 1;
+				foreach ($csvRows as $row):
+					// Parse semula baris CSV untuk paparan jadual
+					$parts = str_getcsv($row, ';', '"');
+					$col2  = $parts[1] ?? '';
+					$col3  = $parts[2] ?? '';
+					$col4  = $parts[3] ?? '';
+					$col5  = $parts[4] ?? '_';
+					$col6  = $parts[5] ?? '_';
+
+					// Tentukan kelas baris berdasarkan kandungan Perkara
+					$rowClass = '';
+					if (str_starts_with($col4, 'BAHAGIAN')) {
+						$rowClass = 'row-bahagian';
+					} elseif (str_starts_with($col4, 'Kumpulan')) {
+						$rowClass = 'row-kumpulan';
+					}
+				?>
+				<tr class="<?= $rowClass ?>">
+					<td><?= $bil++ ?></td>
+					<td><?= htmlspecialchars($col2) ?></td>
+					<td><?= htmlspecialchars($col3) ?></td>
+					<td><?= htmlspecialchars($col4) ?></td>
+					<td><?= htmlspecialchars($col5) ?></td>
+					<td><?= $col6 !== '_' ? $col6 : '<span style="color:#ccc">_</span>' ?></td>
+				</tr>
+				<?php endforeach; ?>
+			</tbody>
+		</table>
+	</div><!-- /.csv-table-wrap -->
+
+<!-- ========================================================
+	PAPARAN CSV MENTAH
+======================================================== -->
+	<div class="raw-section">
+		<div class="raw-header">
+			<span>📋 Format CSV Mentah</span>
+			<button onclick="copyRaw()">Salin Semua</button>
+		</div><!-- /.raw-header -->
+		<pre id="csvRaw"><?php
+			foreach ($csvRows as $row) {
+				echo htmlspecialchars($row) . "\n";
+			}
+		?></pre>
+	</div><!-- /.raw-section -->
+
+<script>
+		function copyRaw() {
+			const text = document.getElementById('csvRaw').innerText;
+			navigator.clipboard.writeText(text).then(() => {
+				alert('CSV berjaya disalin ke papan klip!');
+			});
+		}
+</script>
+
+</body>
+</html>
