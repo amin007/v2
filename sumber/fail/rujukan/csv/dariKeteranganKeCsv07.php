@@ -7,7 +7,7 @@
 // ============================================================
 function sanitizeText(string $text): string
 {
-	return str_replace(';', ' / ', $text);
+	return str_replace(';', ' /', $text);
 }
 
 // ============================================================
@@ -145,10 +145,10 @@ function flushBlockJadual(array &$rows, string $seksyen, array $dataLines, array
 //   KUMPULAN  → $seksyen . $noKumpulan        cth. "B091"
 //   Kelas     → kod asal 5 digit              cth. "07101"
 //
-// Deduplication:
-//   Tajuk KUMPULAN — dioutput SEKALI sahaja walaupun muncul
-//   dalam kedua-dua format (naratif & jadual). Data kelas
-//   dalam jadual tetap diproses tanpa halangan.
+// Pengendalian Kumpulan (TIADA deduplication):
+//   KUMPULAN (huruf besar semua) = keterangan konsep Kumpulan (format naratif)
+//   Kumpulan (huruf campuran)    = pengepala jadual kelas MSIC (format jadual)
+//   Kedua-dua mempunyai fungsi berbeza dan dioutput secara bebas.
 //   Tajuk BAHAGIAN — dioutput setiap kali (termasuk ulangan
 //   halaman) supaya konteks kekal jelas.
 // ============================================================
@@ -168,9 +168,10 @@ function parseMsic(string $raw): array
 	$blockSeksyen   = 'A';
 	$inFn           = false;
 
-	// Rekod tajuk Kumpulan yang sudah dioutput — elak tajuk berulang
-	// (naratif + jadual ada Kumpulan yang sama, data jadual tetap diproses)
-	$outputtedKumpulan = [];
+	// Nota: Tiada deduplication untuk Kumpulan.
+	// KUMPULAN (huruf besar) = keterangan konsep kumpulan (format naratif)
+	// Kumpulan (huruf campuran) = pengepala jadual kelas MSIC (format jadual)
+	// Kedua-dua entri mempunyai tujuan yang berbeza — kedua-duanya dikekalkan.
 
 	// ── Closure: flush huraian BAHAGIAN sebagai baris CSV kedua ──
 	// Dipanggil apabila jumpa KUMPULAN atau BAHAGIAN baharu
@@ -204,6 +205,7 @@ function parseMsic(string $raw): array
 			// Cantum huraian naratif Kumpulan jadi satu baris
 			$huraian = trim(preg_replace('/\s+/', ' ', implode(' ', $blockNaratif)));
 			if ($huraian !== '') {
+				//$rows[] = makeCsvRow($blockSeksyen, $kodAktif, $huraian, $kodAktif, '_');
 				$rows[] = makeCsvRow($blockSeksyen, $kodAktif, $huraian, '_', '_');
 			}
 		}
@@ -267,12 +269,9 @@ function parseMsic(string $raw): array
 			$namaKumpulan = trim($m[2]);
 			$kodKumpulan  = $seksyen . $noKumpulan;        // cth. "B091"
 
-			// Output tajuk hanya jika belum pernah dioutput
-			if (!isset($outputtedKumpulan[$kodKumpulan])) {
-				$outputtedKumpulan[$kodKumpulan] = true;
-				$tajuk  = 'Kumpulan ' . $noKumpulan . ' : ' . $namaKumpulan;
-				$rows[] = makeCsvRow($seksyen, $kodKumpulan, $tajuk, '_', '_');
-			}
+			// Output tajuk pengepala jadual Kumpulan (format jadual)
+			$tajuk  = 'Kumpulan ' . $noKumpulan . ' : ' . $namaKumpulan;
+			$rows[] = makeCsvRow($seksyen, $kodKumpulan, $tajuk, '_', '_');
 			$kodAktif     = $kodKumpulan;
 			$blockSeksyen = $seksyen;
 			// Mod akan ditetapkan kepada 'jadual' apabila jumpa KELAS PERKARA
@@ -291,12 +290,9 @@ function parseMsic(string $raw): array
 			$namaKumpulan = trim($m[2]);
 			$kodKumpulan  = $seksyen . $noKumpulan;        // cth. "B091"
 
-			// Output tajuk hanya jika belum pernah dioutput
-			if (!isset($outputtedKumpulan[$kodKumpulan])) {
-				$outputtedKumpulan[$kodKumpulan] = true;
-				$tajuk  = 'KUMPULAN ' . $noKumpulan . ' : ' . $namaKumpulan;
-				$rows[] = makeCsvRow($seksyen, $kodKumpulan, $tajuk, '_', '_');
-			}
+			// Output tajuk keterangan konsep Kumpulan (format naratif)
+			$tajuk  = 'KUMPULAN ' . $noKumpulan . ' : ' . $namaKumpulan;
+			$rows[] = makeCsvRow($seksyen, $kodKumpulan, $tajuk, '_', '_');
 			$kodAktif     = $kodKumpulan;
 			$modBlok      = 'naratif';
 			$blockSeksyen = $seksyen;
@@ -544,16 +540,15 @@ $csvRows = parseMsic($rawData);
 				<tr>
 					<th>#</th>
 					<th>Seksyen</th>
-					<th>Kod</th>
+					<th style="color: snow;">Kod</th>
 					<th>Perkara</th>
-					<th>MSIC 2008</th>
+					<th style="color: snow;">MSIC 2008</th>
 					<th>Notakaki</th>
 				</tr>
 			</thead>
 			<tbody>
 				<?php
-				$bil      = 1;
-				$prevKod  = null;   // Jejak kod baris sebelumnya untuk elak ulangan
+				$bil = 1;
 				foreach ($csvRows as $row):
 					// Parse semula baris CSV untuk paparan jadual
 					$parts = str_getcsv($row, ';', '"');
@@ -567,18 +562,14 @@ $csvRows = parseMsic($rawData);
 					$rowClass = '';
 					if (str_starts_with($col4, 'BAHAGIAN')) {
 						$rowClass = 'row-bahagian';
-					} elseif (str_starts_with($col4, 'Kumpulan') || str_starts_with($col4, 'KUMPULAN')) {
+					} elseif (str_starts_with($col4, 'Kumpulan')) {
 						$rowClass = 'row-kumpulan';
 					}
-
-					// Tunjukkan kod hanya jika berbeza daripada baris sebelumnya
-					$paparKod = ($col3 !== $prevKod);
-					$prevKod  = $col3;
 				?>
 				<tr class="<?= $rowClass ?>">
 					<td><?= $bil++ ?></td>
 					<td><?= htmlspecialchars($col2) ?></td>
-					<td><?= $paparKod ? htmlspecialchars($col3) : '' ?></td>
+					<td><?= htmlspecialchars($col3) ?></td>
 					<td><?= htmlspecialchars($col4) ?></td>
 					<td><?= htmlspecialchars($col5) ?></td>
 					<td><?= $col6 !== '_' ? $col6 : '<span style="color:#ccc">_</span>' ?></td>
