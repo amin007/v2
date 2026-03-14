@@ -7,7 +7,7 @@
 // ============================================================
 function sanitizeText(string $text): string
 {
-	return str_replace(';', ' / ', $text);
+	return str_replace(';', ' /', $text);
 }
 
 // ============================================================
@@ -170,9 +170,9 @@ function parseMsic(string $raw): array
 
 	// Rekod tajuk Kumpulan yang sudah dioutput — elak tajuk berulang
 	// (naratif + jadual ada Kumpulan yang sama, data jadual tetap diproses)
-	$outputtedKumpulan = [];
+	//$outputtedKumpulan = [];
 
-	// ── Closure: flush huraian BAHAGIAN sebagai baris CSV kedua ──
+	// - Closure: flush huraian BAHAGIAN sebagai baris CSV kedua -
 	// Dipanggil apabila jumpa KUMPULAN atau BAHAGIAN baharu
 	$flushBahagianHuraian = function () use (
 		&$rows, &$blockBahagian, &$kodAktif, &$blockSeksyen
