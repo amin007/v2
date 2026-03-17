@@ -5282,3 +5282,30 @@ $data['psmjr7'] = [
 	['','0111-01 - 0321-25','Angkatan tentera'],
 ];
 #--------------------------------------------------------------------------------------------------
+//Ringkasan (RIN) - (1 digit)
+$data['ringkasan_RIN'] = [
+	['','1','1 - Guna tenaga penuh – Seseorang yang bekerja 30 jam atau lebih pada minggu'
+	. ' rujukan.'],
+	['','2','2 - Guna tenaga tidak penuh yang nyata – Seseorang yang bekerja kurang daripada'
+	. ' 30 jam pada minggu rujukan disebabkan kerja tidak mencukupi/memang keadaan kerja begitu'
+	. ' tetapi boleh dan sanggup menerima tambahan bilangan jam bekerja.'],
+	['','3','3 - Seseorang yang bekerja kurang daripada 30 jam pada minggu rujukan disebabkan'
+	. ' kerja tidak mencukupi/ memang keadaan kerja begitu tetapi tidak boleh dan tidak sanggup'
+	. ' menerima tambahan bilangan jam bekerja.'],
+	['','4','4 - Seseorang yang bekerja kurang daripada 30 jam dengan sebab lain selain daripada'
+	. ' kerja tidak mencukupi atau memang keadaan kerja begitu.'],
+	['','5','5 - Seseorang yang mempunyai pekerjaan tetapi tidak bekerja pada minggu rujukan.'],
+	['','6','6 - Penganggur aktif – Seseorang yang tidak mempunyai pekerjaan semasa minggu rujukan'
+	. ' tetapi bersedia untuk bekerja dan aktif mencari pekerjaan dalam minggu tersebut.'],
+	['','7','7 - Penganggur tidak aktif – merujuk kepada kategori berikut: '
+	. '<br>a) Mereka yang tidak mencari pekerjaan dalam minggu rujukan kerana mereka percaya'
+	. ' tidak terdapat pekerjaan yang sesuai atau pun mereka tidak berkelayakan'
+	. '<br>b) Mereka yang mungkin mencari pekerjaan jika tidak kerana sakit atau cuaca buruk'
+	. '<br>c) Mereka yang menunggu jawapan daripada permohonan pekerjaan atau'
+	. '<br>d) Mereka yang telah mencari pekerjaan sebelum minggu rujukan.'],
+	['','8','8 - Luar Tenaga Buruh – Seseorang yang tidak mempunyai pekerjaan dan tidak pernah'
+	. ' mencari pekerjaan semasa minggu rujukan disebabkan belajar, kerja rumah, melanjutkan'
+	. ' pelajaran, hilang upaya, tidak berminat lagi untuk mencari kerja dan '
+	. ' bersara/ keadaan sudah tua.'],
+];
+#--------------------------------------------------------------------------------------------------
