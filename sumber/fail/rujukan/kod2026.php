@@ -32,16 +32,18 @@ $tajuk['kodKp-MsicLamaBaru'] = '#,sektor,sub sektor,kp,msic 2025,description 202
 . 'Keterangan MSIC 2008';
 $data['kodKp-MsicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/kodKp-Msic-En-Ismail-v2.csv');
 #--------------------------------------------------------------------------------------------------
-// untuk ujikaji
+/* untuk ujikaji
 $tajuk['notakaki-Msic2025'] = '#,s, perkara, keterangan, msic 2008, nota kaki';
-$data['notakaki-Msic2025'] = ImportCSV2Array01($filename = './csv/nota-kaki-msic2025.csv');
+$data['notakaki-Msic2025'] = ImportCSV2Array01($filename = './csv/nota-kaki-msic2025.csv');//*/
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
+$tajuk['msic2025 notakaki'] = '#,s,msic,keterangan,msic2008,notakaki';
+$data['msic2025 notakaki'] = './utama/msic2025_notakaki.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
-$dataJson = ['msic2008 notakaki'];
+$dataJson = ['msic2025 notakaki','msic2008 notakaki'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
