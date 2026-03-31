@@ -33,8 +33,8 @@ $tajuk['kodKp-MsicLamaBaru'] = '#,sektor,sub sektor,kp,msic 2025,description 202
 $data['kodKp-MsicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/kodKp-Msic-En-Ismail-v2.csv');
 #--------------------------------------------------------------------------------------------------
 // untuk ujikaji
-$tajuk['notakaki-Msic2025'] = '#,s, perkara, keterangan, msic 2008, nota kaki';
-$data['notakaki-Msic2025'] = ImportCSV2Array01($filename = './csv/nota-kaki-msic2025.csv');
+$tajuk['Msic2025-notakaki'] = '#,s, perkara, keterangan, msic 2008, nota kaki';
+$data['Msic2025-notakaki'] = ImportCSV2Array01($filename = './csv/nota-kaki-msic2025.csv');
 $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 #--------------------------------------------------------------------------------------------------
@@ -124,7 +124,7 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
-		elseif($cariApa === 'notakaki-Msic2025'):
+		elseif($cariApa === 'masco2020'):
 			panggilTableExcel($tajuk,$data,$cariApa);
 			//panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
