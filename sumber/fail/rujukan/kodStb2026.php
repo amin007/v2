@@ -57,6 +57,8 @@ $tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
 $tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Inggeris';
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
+$tajuk['mascoTugasan'] = '#,kod,keterangan';
+$data['mascoTugasan'] = ImportCSV2Array01($filename = './kod2022/masco2020_tugasan.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic'] = './utama/msic.json';
