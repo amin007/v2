@@ -57,9 +57,11 @@ $tajuk['mascoNewss'] = '#,Kod,Masco Melayu,Masco Inggeris';
 $data['mascoNewss'] = ImportCSV2Array01($filename = './kod2022/masco2020_newss.csv');
 $tajuk['mascoSeksyen'] = '#,Tahun,Kod,Seksyen,Keterangan Melayu,Keterangan Inggeris';
 $data['mascoSeksyen'] = ImportCSV2Array01($filename = './kod2022/masco2020_seksyen.csv');
-$tajuk['mascoTugasan'] = '#,kod,keterangan';
-$data['mascoTugasan'] = ImportCSV2Array01($filename = './kod2022/masco2020_tugasan.csv');
+//$tajuk['mascoTugasan'] = '#,kod,keterangan';
+//$data['mascoTugasan'] = ImportCSV2Array01($filename = './kod2022/masco2020_tugasan.csv');
 #--------------------------------------------------------------------------------------------------
+$tajuk['mascoTugasan'] = '#,kod,keterangan';
+$data['mascoTugasan'] = './kod2022/masco2020_tugasan.json';
 $tajuk['msic'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic'] = './utama/msic.json';
 #--------------------------------------------------------------------------------------------------
@@ -124,7 +126,7 @@ $dataPhpJson = ['respon','bahasa','pertuturan','AIR','jantina','negeri','etnik',
 'bandar','bandar kecil','KodNegeriJPN','KodNegaraJPN','Pendidikan 2022','sijil 2022','daerah',
 'PendidikanSijil 2022','Pengajian 2022','Bidang','programLatihan','mascoMsicV2','Migrasi M6-PSM'];
 $dataJson = ['negara','institut','coicop','pendidikan','masco_subutama','komuniti','produkmm',
-'msic','ayam'];
+'msic','mascoTugasan','ayam'];
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
