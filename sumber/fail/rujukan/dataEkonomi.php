@@ -1635,6 +1635,9 @@ $data['bezaUntungRugi'] = array(
 	array('','POM018','Kapasiti pembelian tandan sawit dihadkan bagi mengecilkan atau'
 	. ' memperlahankan operasi','The purchasing capacity of palm bunches is limited to reduce'
 	. ' or slow down operations.'),
+	array('','POM019','gaji kosong sebab pekerja adalah (1) pemilik dan rakan niaga yang aktif'
+	. ' (2) pekerja keluarga tidak bergaji','Empty salaries because workers are 1) working'
+	. ' proprietors and active business partners 2) unpaid family workers'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
