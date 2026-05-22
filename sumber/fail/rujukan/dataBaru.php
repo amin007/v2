@@ -551,7 +551,7 @@ $data['PendidikanSijil 2022'] = array(
 	. ' kemahiran khusus & teknikal',
 	'552 - Diploma Lanjutan/Higher National Diploma(HND) dlm kemahiran khusus & teknikal'),
 	array('','503','503 - Program diploma dari kolej/politeknik/universiti @ setaraf dengannya',
-	'553 - Diploma drpd kolej @ yg setaraf(terutama kolej swasta)<br>'
+	'553 - Diploma drpd kolej @ yg setaraf(terutama kolej swasta(IP=291))<br>'
 	. '554 - Diploma drpd politeknik(IP=154) @ yg setaraf<br>'
 	. '555 - Diploma drpd universiti @ yg setaraf'),
 	array('','504','504 - Program diploma perguruan/ kejururawatan/ kesihatan bersekutu',
