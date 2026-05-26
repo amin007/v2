@@ -1041,6 +1041,14 @@ if ( ! function_exists('gradeTable002')):
 	/* gradeTable002 */
 	});
 /* ***************************************************************************************** */
+	/* var cariData = $('#cariData').text(); => jika cari elemen dalam paparan teks */
+	var cariData = $('#cariData').data('cari');/* jika cari kod html atribut data-* */
+
+	/* Tetapkan nilai carian dan jana semula jadual */
+	if (cariData){
+		t.search(cariData).draw();
+	}
+/* ***************************************************************************************** */
 	t.on( 'order.dt search.dt', function (){
 		t.column(0, {search:'applied', order:'applied'}).nodes().
 		each( function (cell, i) {cell.innerHTML = i+1;});
@@ -1071,6 +1079,14 @@ if ( ! function_exists('jsPanggilFailJson')):
 	"order": [[ 1, 'asc' ]]
     });
 /* ***************************************************************************************** */
+	/* var cariData = $('#cariData').text(); => jika cari elemen dalam paparan teks */
+	var cariData = $('#cariData').data('cari');/* jika cari kod html atribut data-* */
+
+	/* Tetapkan nilai carian dan jana semula jadual */
+	if (cariData){
+		t.search(cariData).draw();
+	}
+/* ***************************************************************************************** */
 	t.on( 'order.dt search.dt', function (){
 		t.column(0, {search:'applied', order:'applied'}).nodes().
 		each( function (cell, i) {cell.innerHTML = i+1;});
@@ -1097,6 +1113,14 @@ if ( ! function_exists('jsPanggilFailJsonV02')):
 	$papar
 	"order": [[ 1, 'asc' ]]
     });
+/* ***************************************************************************************** */
+	/* var cariData = $('#cariData').text(); => jika cari elemen dalam paparan teks */
+	var cariData = $('#cariData').data('cari');/* jika cari kod html atribut data-* */
+
+	/* Tetapkan nilai carian dan jana semula jadual */
+	if (cariData){
+		t.search(cariData).draw();
+	}
 /* ***************************************************************************************** */
 	t.on( 'order.dt search.dt', function (){
 		t.column(0, {search:'applied', order:'applied'}).nodes().
@@ -1128,6 +1152,14 @@ if ( ! function_exists('jsPhpJson')):
 	}],
 	"order": [[ 1, 'asc' ]]
     });
+/* ***************************************************************************************** */
+	/* var cariData = $('#cariData').text(); => jika cari elemen dalam paparan teks */
+	var cariData = $('#cariData').data('cari');/* jika cari kod html atribut data-* */
+
+	/* Tetapkan nilai carian dan jana semula jadual */
+	if (cariData){
+		t.search(cariData).draw();
+	}
 /* ***************************************************************************************** */
 	t.on( 'order.dt search.dt', function (){
 		t.column(0, {search:'applied', order:'applied'}).nodes().
@@ -1580,7 +1612,10 @@ if ( ! function_exists('panggilDataTable01')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		echo '<h1>cariData =' . $cariData . ' </h1>';# buat tajuk besar
+		//echo '<h1>Table01 - ' . $pilih . ' </h1>';# buat tajuk besar
+		// PHP paparkan nilai dalam atribut data
+		echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>';
 		/*echo "\n\t" . '<div class="form-group">'
 		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
 		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
