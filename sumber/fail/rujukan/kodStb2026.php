@@ -193,8 +193,9 @@ if (isset($_SERVER[$s])):
 	$cari = explode('/',$fail[1]);//semakPembolehubah($cari,'pilih');
 
 	if(isset($cari[1])):
-		$cariApa = bersih($cari[1]);
-		$cariData = bersih($cari[2]);
+		$cariApa = bersih($cari[1]);//htmlspecialchars()
+		// $cariData = bersih($cari[2] ?? ''); # Null Coalescing Operator ??
+		$cariData = isset($cari[2]) ? bersih($cari[2]) : '';
 		if($cariApa == 'json'):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
