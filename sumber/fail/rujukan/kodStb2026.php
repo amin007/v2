@@ -194,6 +194,7 @@ if (isset($_SERVER[$s])):
 
 	if(isset($cari[1])):
 		$cariApa = bersih($cari[1]);
+		$cariData = bersih($cari[2]);
 		if($cariApa == 'json'):
 			$pilih = isset($cari[2]) ? $cari[2] : null;
 			$cariApa = bersih($pilih);
@@ -201,19 +202,19 @@ if (isset($_SERVER[$s])):
 		elseif($cariApa == 'tahun'):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
-			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+			panggilDataTable01($tajuk,$data,$cariApa,$cariData);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
-			panggilDataTable03($tajuk,$data,$cariApa);
+			panggilDataTable03($tajuk,$data,$cariApa,$cariData);
 		elseif(in_array($cariApa,$dataJson)):
-			panggilDataTable02($tajuk,$data,$cariApa);# panggil fungsi untuk data json
+			panggilDataTable02($tajuk,$data,$cariApa,$cariData);# panggil fungsi untuk data json
 		else:
-			panggilDataTable01($tajuk,$data,$cariApa);# panggil fungsi
+			panggilDataTable01($tajuk,$data,$cariApa,$cariData);# panggil fungsi
 		endif;
 	else:
-		panggilDataTable01($tajuk,$data,null);# panggil fungsi
+		panggilDataTable01($tajuk,$data,null,null);# panggil fungsi
 	endif;
 else:
-	panggilDataTable01($tajuk,$data,null);# panggil fungsi
+	panggilDataTable01($tajuk,$data,null,null);# panggil fungsi
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 //versiphp();
