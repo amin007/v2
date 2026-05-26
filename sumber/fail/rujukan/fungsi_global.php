@@ -1646,6 +1646,9 @@ if ( ! function_exists('panggilDataTable02')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table02 - ' . $pilih . ' </h1>';# buat tajuk besar
+		// PHP paparkan nilai dalam atribut data
+		echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>';
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1661,7 +1664,7 @@ if ( ! function_exists('panggilDataTable02')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable03')):
-	function panggilDataTable03($tajuk,$data,$pilih)
+	function panggilDataTable03($tajuk,$data,$pilih,$cariData)
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
@@ -1671,6 +1674,9 @@ if ( ! function_exists('panggilDataTable03')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table03 - ' . $pilih . ' </h1>';# buat tajuk besar
+		// PHP paparkan nilai dalam atribut data
+		echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>';
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1733,6 +1739,9 @@ if ( ! function_exists('panggilDataTable04')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table04 - ' . $pilih . ' </h1>';# buat tajuk besar
+		// PHP paparkan nilai dalam atribut data
+		/*echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>';*/
 		#------------------------------------------------------------------------------------------
 		//if($pilih != '') binaJadualJson($tajuk,$pilih);
 		if($pilih != '') binaJadual02($tajuk,$data,$pilih);
@@ -1759,6 +1768,9 @@ if ( ! function_exists('panggilDataTable05')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table05 - ' . $pilih . ' </h1>';# buat tajuk besar
+		// PHP paparkan nilai dalam atribut data
+		/*echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>';*/
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1784,6 +1796,9 @@ if ( ! function_exists('panggilDataTable06')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table06 - ' . $pilih . ' </h1>';# buat tajuk besar
+		// PHP paparkan nilai dalam atribut data
+		/*echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>';*/
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
