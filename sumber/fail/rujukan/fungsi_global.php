@@ -1614,8 +1614,11 @@ if ( ! function_exists('panggilDataTable01')):
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table01 - ' . $pilih . ' </h1>';# buat tajuk besar
 		// PHP paparkan nilai dalam atribut data
-		echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
-		. ' class="alert alert-warning">' . $cariData . '</span>';
+		echo "\n\n" . '<!-- Carian Data' . "\n"
+		. '==================================================================================='
+		. '============ -->'
+		. "\n" . 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>' . "\n";
 		/*echo "\n\t" . '<div class="form-group">'
 		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
 		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
@@ -1647,8 +1650,11 @@ if ( ! function_exists('panggilDataTable02')):
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table02 - ' . $pilih . ' </h1>';# buat tajuk besar
 		// PHP paparkan nilai dalam atribut data
-		echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
-		. ' class="alert alert-warning">' . $cariData . '</span>';
+		echo "\n\n" . '<!-- Carian Data' . "\n"
+		. '==================================================================================='
+		. '============ -->'
+		. "\n" . 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>' . "\n";
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
@@ -1675,8 +1681,11 @@ if ( ! function_exists('panggilDataTable03')):
 		#------------------------------------------------------------------------------------------
 		//echo '<h1>Table03 - ' . $pilih . ' </h1>';# buat tajuk besar
 		// PHP paparkan nilai dalam atribut data
-		echo 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
-		. ' class="alert alert-warning">' . $cariData . '</span>';
+		echo "\n\n" . '<!-- Carian Data' . "\n"
+		. '==================================================================================='
+		. '============ -->'
+		. "\n" . 'cariData:<span id="cariData" data-cari="' . $cariData . '"'
+		. ' class="alert alert-warning">' . $cariData . '</span>' . "\n";
 		#------------------------------------------------------------------------------------------
 		if($pilih != '') binaJadualJson($tajuk,$pilih);
 		//binaNotaKaki($tajuk,$data,$pilih);
