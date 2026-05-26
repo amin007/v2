@@ -1571,7 +1571,7 @@ if ( ! function_exists('panggilTableExcel02')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable01')):
-	function panggilDataTable01($tajuk,$data,$pilih)
+	function panggilDataTable01($tajuk,$data,$pilih,$cariData)
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
@@ -1580,7 +1580,7 @@ if ( ! function_exists('panggilDataTable01')):
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
-		//echo '<h1>Table01 - ' . $pilih . ' </h1>';# buat tajuk besar
+		echo '<h1>cariData =' . $cariData . ' </h1>';# buat tajuk besar
 		/*echo "\n\t" . '<div class="form-group">'
 		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
 		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
@@ -1601,7 +1601,7 @@ if ( ! function_exists('panggilDataTable01')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable02')):
-	function panggilDataTable02($tajuk,$data,$pilih)
+	function panggilDataTable02($tajuk,$data,$pilih,$cariData)
 	{
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);
