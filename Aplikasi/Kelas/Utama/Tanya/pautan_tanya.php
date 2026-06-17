@@ -124,6 +124,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Claude]'=>'https://claude.ai',
 			'[Gemini]'=>'https://gemini.google.com',
 			'[Knime]'=>'https://www.knime.com',
+			'[Artificial Analysis]'=>'https://artificialanalysis.ai',
 			//'[]'=>'',
 		);
 
