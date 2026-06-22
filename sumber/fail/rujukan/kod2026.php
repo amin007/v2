@@ -9,6 +9,8 @@ $failPhp = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUnt
 foreach($failPhp as $dataPhp):
 	if($dataPhp === 'aup unit kuantiti'):
 		$tajuk[$dataPhp] = '#,Butiran,Unit Kuantiti,Min,Max,AUP';
+	elseif($dataPhp === 'bezaUntungRugi'):
+		$tajuk[$dataPhp] = '#,Kod,Keterangan Melayu,Keterangan Inggeris';
 	else:
 		$tajuk[$dataPhp] = '#,Kod,Keterangan (' . ucfirst($dataPhp) . ')';
 	endif;
@@ -112,6 +114,8 @@ if (isset($_SERVER[$s])):
 
 	if(isset($cari[1])):
 		$cariApa = bersih($cari[1]);
+		// $cariData = bersih($cari[2] ?? ''); # Null Coalescing Operator ??
+		$cariData = isset($cari[2]) ? bersih($cari[2]) : '';
 		/*semakPembolehubah($cariApa,'cariApa');
 		semakPembolehubah($tajuk[$cariApa],'tajuk');
 		semakPembolehubah($data[$cariApa],'data');//*/
