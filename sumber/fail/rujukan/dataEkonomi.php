@@ -1640,6 +1640,7 @@ $data['bezaUntungRugi'] = array(
 	. ' proprietors and active business partners 2) unpaid family workers'),
 	array('','POM020','produk pelbagai saiz & kualiti bahan','products of various sizes & material'
 	.  'quality'),
+	array('','POM21','saiz & kualiti bahan yang berbeza','different sizes & quality of material'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
