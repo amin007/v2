@@ -1636,11 +1636,13 @@ $data['bezaUntungRugi'] = array(
 	. ' memperlahankan operasi','The purchasing capacity of palm bunches is limited to reduce'
 	. ' or slow down operations.'),
 	array('','POM019','gaji kosong sebab pekerja adalah (1) pemilik dan rakan niaga yang aktif'
-	. ' (2) pekerja keluarga tidak bergaji','Empty salaries because workers are 1) working'
-	. ' proprietors and active business partners 2) unpaid family workers'),
+	. ' (2) pekerja keluarga tidak bergaji','Empty salaries because workers are (1) working'
+	. ' proprietors and active business partners (2) unpaid family workers'),
 	array('','POM020','produk pelbagai saiz & kualiti bahan','products of various sizes & material'
 	.  ' quality'),
 	array('','POM021','saiz & kualiti bahan yang berbeza','different sizes & quality of material'),
+	array('','POM022','harga produk adalah mengikut projek & permintaan pelanggan','Pricing varies'
+	. ' based on project scope and client specifications'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
