@@ -5,10 +5,12 @@ require 'fungsi_global.php';
 # bina tatasusunan dari php array kepada json
 #--------------------------------------------------------------------------------------------------
 # bentuk tatasusunan baru 2025
-$failPhp = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
+$failPhp = ['responBE2026','kp2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
 foreach($failPhp as $dataPhp):
 	if($dataPhp === 'aup unit kuantiti'):
 		$tajuk[$dataPhp] = '#,Butiran,Unit Kuantiti,Min,Max,AUP';
+	elseif($dataPhp === 'bezaUntungRugi'):
+		$tajuk[$dataPhp] = '#,Kod,Keterangan Melayu,Keterangan Inggeris';
 	else:
 		$tajuk[$dataPhp] = '#,Kod,Keterangan (' . ucfirst($dataPhp) . ')';
 	endif;
@@ -42,7 +44,8 @@ $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
-$dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
+$dataPhpJson = ['responBE2026','kp2026','unitKuantitiLampiran16','aup unit kuantiti',
+'bezaUntungRugi'];
 $dataJson = ['msic2008 notakaki'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
