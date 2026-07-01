@@ -34,7 +34,7 @@ $tajuk['kodKp-MsicLamaBaru'] = '#,sektor,sub sektor,kp,msic 2025,description 202
 . 'Keterangan MSIC 2008';
 $data['kodKp-MsicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/kodKp-Msic-En-Ismail-v2.csv');
 $tajuk['kodstrata'] = '#,kod,pecahan,negeri,Strata 2020';
-$data['kodstrata'] = ImportCSV2Array01($filename = './csv/kodStrataDaa.csv');
+$data['kodstrata'] = ImportCSV2Array01($filename = './kod2026/kodStrataDaa.csv');
 #--------------------------------------------------------------------------------------------------
 /* untuk ujikaji
 $tajuk['notakaki-Msic2025'] = '#,s, perkara, keterangan, msic 2008, nota kaki';
