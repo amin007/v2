@@ -37,6 +37,8 @@ $data['kodKp-MsicLamaBaru'] = ImportCSV2Array01($filename = './kod2026/kodKp-Msi
 // untuk ujikaji
 $tajuk['Msic2025-notakaki'] = '#,s, perkara, keterangan, msic 2008, nota kaki';
 $data['Msic2025-notakaki'] = ImportCSV2Array01($filename = './csv/nota-kaki-msic2025.csv');
+$tajuk['kodstrata'] = '#,kod,pecahan,negeri,Strata 2020';
+$data['kodstrata'] = ImportCSV2Array01($filename = './csv/kodStrataDaa.csv');
 $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 #--------------------------------------------------------------------------------------------------
