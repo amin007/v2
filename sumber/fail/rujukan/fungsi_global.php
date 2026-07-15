@@ -598,7 +598,7 @@ if ( ! function_exists('binaJson')):
 	{
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
-			$output = jsonDataTables($row,$jadual);
+			$output = jsonDataTables($row);
 			echo $output;
 		endif;
 		endforeach;
@@ -607,7 +607,7 @@ if ( ! function_exists('binaJson')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('jsonDataTables')):
-	function jsonDataTables($row,$jadual)
+	function jsonDataTables($row)
 	{
 		$kira = count($row);
 		# cara papar output guna json
