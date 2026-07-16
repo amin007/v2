@@ -79,6 +79,8 @@ $tajuk['psm'] = '#,Kod,Keterangan PSM';
 $data['psm'] = 'dataJsonLama.php?/json/psmjr7';
 $tajuk['daerah'] = '#,Versi,Negeri,Kod Daerah Pentadbiran,Status Rekod';
 $data['daerah'] = 'dataJsonLama.php?/json/daerah';
+$tajuk['kodstrata'] = '#,kod,pecahan,negeri,Strata 2020';
+$data['kodstrata'] = 'dataJsonStrata.php';
 #--------------------------------------------------------------------------------------------------
 # kod lama
 /*$tajuk['pendidikan'] = '#,Kod,Pendidikan';
@@ -126,7 +128,7 @@ $dataPhpJson = ['respon','bahasa','pertuturan','AIR','jantina','negeri','etnik',
 'bandar','bandar kecil','KodNegeriJPN','KodNegaraJPN','Pendidikan 2022','sijil 2022','daerah',
 'PendidikanSijil 2022','Pengajian 2022','Bidang','programLatihan','mascoMsicV2','Migrasi M6-PSM'];
 $dataJson = ['negara','institut','coicop','pendidikan','masco_subutama','komuniti','produkmm',
-'msic','mascoTugasan','ayam'];
+'msic','mascoTugasan','kodstrata','ayam'];
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # untuk debug sahaja
