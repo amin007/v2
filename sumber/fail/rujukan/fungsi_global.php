@@ -551,7 +551,140 @@ endif;
 if ( ! function_exists('htmlKiraV01')):
 	function htmlKiraV01()
 	{
-		#
+		print <<<END
+<div class="bg-white rounded-3 shadow w-100" style="max-width:620px; overflow:hidden;">
+
+<!-- Kalkulator -->
+<div class="px-3 py-2" style="background:#eff6ff; border:1px solid #bfdbfe;">
+
+<div class="kalk-tab d-flex mb-3">
+<button id="tabBiasa" class="aktif d-flex align-items-center gap-1" onclick="tukarTab('biasa')">
+<i class="bi bi-calculator"></i> Calc
+</button>
+<button id="tabEmas" class="d-flex align-items-center gap-1" onclick="tukarTab('emas')">
+<i class="bi bi-gem"></i> Gold Calc
+</button>
+</div><!-- / class="kalk-tab" -->
+
+<!-- Panel: Calc biasa -->
+<div class="kalk-panel aktif" id="panelBiasa">
+<div class="fl mb-3">
+<label>Harga semasa (RM)</label>
+<input type="number" id="kiraHarga" min="0" step="0.01" placeholder="cth: 40.00" oninput="kiraBiasa()">
+</div><!-- / class="fl" -->
+<div class="row g-3">
+<div class="col-6">
+<div class="fl">
+<label>Kuantiti asal</label>
+<input type="number" id="kiraQAsal" min="0.01" step="0.01" placeholder="cth: 5" oninput="kiraBiasa()">
+</div><!-- / class="fl" -->
+</div><!-- / class="col-6" -->
+<div class="col-6">
+<div class="fl">
+<label>Kuantiti sasaran</label>
+<input type="number" id="kiraQSasaran" min="0.01" step="0.01" placeholder="cth: 8" oninput="kiraBiasa()">
+</div><!-- / class="fl" -->
+</div><!-- / class="col-6" -->
+</div><!-- / class="row g-3" -->
+
+<div class="kputusan">
+<div class="kotak">
+<small>Harga asal</small>
+<b id="bHargaAsal">RM &mdash;</b>
+<small id="bQAsal">&mdash; unit</small>
+</div><!-- / class="kotak" -->
+<span class="simbol">&#8594;</span>
+<div class="kotak">
+<small>Harga sasaran</small>
+<b class="biru" id="bHargaSasaran">RM &mdash;</b>
+<small id="bQSasaran">&mdash; unit</small>
+</div><!-- / class="kotak" -->
+<div class="ms-auto d-flex flex-column gap-1 align-items-end">
+<button class="btn btn-primary btn-sm d-flex align-items-center gap-1" onclick="gunaBiasa()">
+<i class="bi bi-check2-circle"></i> Guna harga ini
+</button>
+<button class="btn btn-outline-secondary btn-sm" onclick="tetapkan('biasa')">Tetapkan semula</button>
+</div><!-- / ms-auto -->
+</div><!-- / class="kputusan" -->
+
+<div class="notif" id="notifBiasa">
+<i class="bi bi-check-circle-fill me-1"></i><span id="teksNotifBiasa"></span>
+</div><!-- / class="notif" -->
+</div><!-- / class="kalk-panel aktif" -->
+
+<!-- Panel: Gold Calc -->
+<div class="kalk-panel" id="panelEmas">
+<div class="row g-3 mb-3">
+<div class="col-6">
+<div class="fl">
+<label>Harga 1 gram (RM)</label>
+<input type="number" id="eHarga1g" min="0" step="0.01" placeholder="cth: 320.00" oninput="kiraEmas()">
+</div><!-- / class="fl" -->
+</div><!-- / class="col-6" -->
+<div class="col-6">
+<div class="fl">
+<label>Upah tukang (RM)</label>
+<input type="number" id="eUpah" min="0" step="0.01" placeholder="cth: 50.00" oninput="kiraEmas()">
+</div><!-- / class="fl" -->
+</div><!-- / class="col-6" -->
+</div><!-- / class="row g-3 mb-3" -->
+<div class="row g-3">
+<div class="col-6">
+<div class="fl">
+<label>Kuantiti asal (gram)</label>
+<input type="number" id="eGramAsal" min="0.01" step="0.01" placeholder="cth: 1" oninput="kiraEmas()">
+</div><!-- / class="fl" -->
+</div><!-- / class="col-6" -->
+<div class="col-6">
+<div class="fl">
+<label>Kuantiti sasaran (gram)</label>
+<input type="number" id="eGram" min="0.01" step="0.01" placeholder="cth: 5" oninput="kiraEmas()">
+</div><!-- / class="fl" -->
+</div><!-- / class="col-6" -->
+</div><!-- / class="row g-3" -->
+
+<div class="kputusan">
+<div class="kotak">
+<small>Harga asal</small>
+<b id="eHargaAsal">RM &mdash;</b>
+<small id="eGramAsalPapar">&mdash; gram</small>
+</div><!-- / class="kotak" -->
+<span class="simbol">&#8594;</span>
+<div class="kotak">
+<small>Harga sasaran</small>
+<b id="eHargaSasaran">RM &mdash;</b>
+<small id="eGramPapar">&mdash; gram</small>
+</div><!-- / class="kotak" -->
+<span class="simbol">+</span>
+<div class="kotak">
+<small>Upah tukang</small>
+<b id="eUpahPapar">RM &mdash;</b>
+<small>&nbsp;</small>
+</div><!-- / class="kotak" -->
+<span class="simbol">=</span>
+<div class="kotak">
+<small>Jumlah</small>
+<b class="biru" id="eJumlah">RM &mdash;</b>
+<small>&nbsp;</small>
+</div><!-- / class="kotak" -->
+<div class="ms-auto d-flex flex-column gap-1 align-items-end">
+<button class="btn btn-primary btn-sm d-flex align-items-center gap-1" onclick="gunaEmas()">
+<i class="bi bi-check2-circle"></i> Guna jumlah ini
+</button>
+<button class="btn btn-outline-secondary btn-sm" onclick="tetapkan('emas')">Tetapkan semula</button>
+</div><!-- / ms-auto -->
+</div><!-- / class="kputusan" -->
+
+<div class="notif" id="notifEmas">
+<i class="bi bi-check-circle-fill me-1"></i><span id="teksNotifEmas"></span>
+</div><!-- / class="notif" -->
+</div><!-- / class="kalk-panel" -->
+
+</div><!-- / kalkulator -->
+
+</div><!-- / modal-kotak -->
+END;
+		# tamatlah cerita kami. terima kasih dan jumpa lagi
 	}
 endif;//*/
 
@@ -1542,7 +1675,7 @@ if ( ! function_exists('panggilKira')):
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		echo '<h1>Kira Kuantiti dan Harga Emas</h1>';# buat tajuk besar
-		htmlCalcV01();
+		htmlKiraV01();
 		echo '<hr>';
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
