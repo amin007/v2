@@ -723,7 +723,7 @@ if ( ! function_exists('linkLocalCssJs')):
 		$urljs = array($jquery_331,$btJS_413,$datatablesJSS,$searchHighlightJSS);
 		###########################################################################################
 
-		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkLocalCssJs();
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
@@ -765,7 +765,7 @@ if ( ! function_exists('linkBt5CssJs')):
 		$urljs = array($jquery_cdn,$bt538_JS,$datatablesJSS,$searchHighlightJSS);
 		###########################################################################################
 
-		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkBt5CssJs();
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
@@ -797,7 +797,7 @@ if ( ! function_exists('linkLocalBt5CssJs')):
 		$urljs = array($jquery_cdn,$bt538_JS,$datatablesJSS,$searchHighlightJSS);
 		###########################################################################################
 
-		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkCssJs();
+		return array($urlcss,$urljs);//list($urlcss,$urljs) = linkLocalBt5CssJs();
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
