@@ -1420,6 +1420,30 @@ endif;//*/
 # bentuk fail yang ada html/body/style/javascript
 ###################################################################################################
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilHtmlBody')):
+	function panggilHtmlBody($data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		#------------------------------------------------------------------------------------------
+		echo '<h1>Data Html Body</h1>';# buat tajuk besar
+		echo "\n\t" . '<div class="form-group">'
+		. "\n\t\t" . '<h1>Selamat datang ke halaman kami</h1><br>'
+		. "\n\t" . '<label for="b" class="well">Macam mana kehidupan anda pada hari ini</label><br>'
+		. "\n\t" . '<label for="c" class="well">Semoga anda ceria sepanjang masa</label>'
+		. "\n\t" . '</div><!-- / class="form-group" -->'
+		. "\n\t<hr>";//*/
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable')):
 	function panggilDataTable($data,$pilih)
 	{
