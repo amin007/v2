@@ -557,158 +557,125 @@ if ( ! function_exists('htmlKiraV01')):
 .fl { position: relative; border: 1px solid #ced4da; border-radius: 8px; padding: 8px 12px; }
 .fl label { position: absolute; top: -9px; left: 10px; background: #eff6ff; padding: 0 4px; font-size: 11px; color: #6c757d; }
 .fl input { border: none; outline: none; width: 100%; font-size: 14px; color: #212529; background: transparent; padding: 0; }
-
-/* Tab */
-.kalk-tab { border-bottom: 1px solid #bfdbfe; }
-.kalk-tab button { background: none; border: none; border-bottom: 2px solid transparent; padding: 6px 12px; font-size: 12px; font-weight: 500; color: #6c757d; cursor: pointer; margin-bottom: -1px; }
-.kalk-tab button.aktif { color: #1d4ed8; border-bottom-color: #2563eb; }
-
-.kalk-panel { display: none; }
-.kalk-panel.aktif { display: block; }
-
-/* Bar keputusan */
-.kputusan { display: flex; align-items: center; gap: 8px; background: #fff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 10px 12px; margin-top: 12px; flex-wrap: wrap; }
-.kputusan .kotak { text-align: center; min-width: 72px; }
-.kputusan .kotak small { display: block; font-size: 10px; color: #6c757d; margin-bottom: 2px; }
-.kputusan .kotak b { display: block; font-size: 14px; color: #212529; white-space: nowrap; }
-.kputusan .kotak b.biru { color: #1d4ed8; font-size: 15px; }
-.kputusan .simbol { font-size: 15px; font-weight: 600; color: #93c5fd; }
-
-/* Notif */
-.notif { display: none; font-size: 12px; color: #15803d; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 6px; padding: 7px 12px; margin-top: 10px; }
+.notif { display: none; }
 </style>
 
-<div class="bg-white rounded-3 shadow w-100" style="max-width:620px; overflow:hidden;">
+	<div class="bg-white rounded-3 shadow w-100" style="max-width:620px; overflow:hidden;">
 
-<!-- Kalkulator -->
-<div class="px-3 py-2" style="border:1px solid #bfdbfe;">
+		<!-- Kalkulator -->
+		<div class="px-3 py-2" style="border:1px solid #bfdbfe;">
 
-<div class="kalk-tab d-flex mb-3">
-<button id="tabBiasa" class="aktif d-flex align-items-center gap-1" onclick="tukarTab('biasa')">
-<i class="bi bi-calculator"></i> Calc
-</button>
-<button id="tabEmas" class="d-flex align-items-center gap-1" onclick="tukarTab('emas')">
-<i class="bi bi-gem"></i> Gold Calc
-</button>
-</div><!-- / class="kalk-tab" -->
+			<!-- Panel: Calc biasa -->
+				<div class="fl mb-3">
+					<label>Harga semasa (RM)</label>
+					<input type="number" id="kiraHarga" min="0" step="0.01" placeholder="cth: 40.00" oninput="kiraBiasa()">
+				</div><!-- / class="fl" -->
+				<div class="row g-3">
+					<div class="col-6">
+						<div class="fl">
+							<label>Kuantiti asal</label>
+							<input type="number" id="kiraQAsal" min="0.01" step="0.01" placeholder="cth: 5" oninput="kiraBiasa()">
+						</div><!-- / class="fl" -->
+					</div><!-- / class="col-6" -->
+					<div class="col-6">
+						<div class="fl">
+							<label>Kuantiti sasaran</label>
+							<input type="number" id="kiraQSasaran" min="0.01" step="0.01" placeholder="cth: 8" oninput="kiraBiasa()">
+						</div><!-- / class="fl" -->
+					</div><!-- / class="col-6" -->
+				</div><!-- / class="row g-3" -->
 
-<!-- Panel: Calc biasa -->
-<div class="kalk-panel aktif" id="panelBiasa">
-<div class="fl mb-3">
-<label>Harga semasa (RM)</label>
-<input type="number" id="kiraHarga" min="0" step="0.01" placeholder="cth: 40.00" oninput="kiraBiasa()">
-</div><!-- / class="fl" -->
-<div class="row g-3">
-<div class="col-6">
-<div class="fl">
-<label>Kuantiti asal</label>
-<input type="number" id="kiraQAsal" min="0.01" step="0.01" placeholder="cth: 5" oninput="kiraBiasa()">
-</div><!-- / class="fl" -->
-</div><!-- / class="col-6" -->
-<div class="col-6">
-<div class="fl">
-<label>Kuantiti sasaran</label>
-<input type="number" id="kiraQSasaran" min="0.01" step="0.01" placeholder="cth: 8" oninput="kiraBiasa()">
-</div><!-- / class="fl" -->
-</div><!-- / class="col-6" -->
-</div><!-- / class="row g-3" -->
+				<div class="d-flex align-items-center gap-2 flex-wrap bg-white border border-primary-subtle rounded-3 p-2 mt-3">
+					<div class="text-center" style="min-width:72px;">
+						<div class="text-muted" style="font-size:10px;">Harga asal</div>
+						<b class="d-block small text-nowrap" id="bHargaAsal">RM &mdash;</b>
+						<div class="text-muted" style="font-size:10px;" id="bQAsal">&mdash; unit</div>
+					</div><!-- / text-center -->
+					<span class="fw-semibold text-primary-emphasis">&#8594;</span>
+					<div class="text-center" style="min-width:72px;">
+						<div class="text-muted" style="font-size:10px;">Harga sasaran</div>
+						<b class="d-block text-primary text-nowrap" id="bHargaSasaran">RM &mdash;</b>
+						<div class="text-muted" style="font-size:10px;" id="bQSasaran">&mdash; unit</div>
+					</div><!-- / text-center -->
+					<div class="ms-auto d-flex flex-column gap-1 align-items-end">
+						<button class="btn btn-primary btn-sm d-flex align-items-center gap-1" onclick="gunaBiasa()">
+							<i class="bi bi-check2-circle"></i> Guna harga ini
+						</button>
+						<button class="btn btn-outline-secondary btn-sm" onclick="tetapkan('biasa')">Tetapkan semula</button>
+					</div><!-- / ms-auto -->
+				</div><!-- / bar keputusan biasa -->
 
-<div class="kputusan">
-<div class="kotak">
-<small>Harga asal</small>
-<b id="bHargaAsal">RM &mdash;</b>
-<small id="bQAsal">&mdash; unit</small>
-</div><!-- / class="kotak" -->
-<span class="simbol">&#8594;</span>
-<div class="kotak">
-<small>Harga sasaran</small>
-<b class="biru" id="bHargaSasaran">RM &mdash;</b>
-<small id="bQSasaran">&mdash; unit</small>
-</div><!-- / class="kotak" -->
-<div class="ms-auto d-flex flex-column gap-1 align-items-end">
-<button class="btn btn-primary btn-sm d-flex align-items-center gap-1" onclick="gunaBiasa()">
-<i class="bi bi-check2-circle"></i> Guna harga ini
-</button>
-<button class="btn btn-outline-secondary btn-sm" onclick="tetapkan('biasa')">Tetapkan semula</button>
-</div><!-- / ms-auto -->
-</div><!-- / class="kputusan" -->
+				<div class="notif alert alert-success py-2 px-3 mt-2 small" id="notifBiasa">
+					<i class="bi bi-check-circle-fill me-1"></i><span id="teksNotifBiasa"></span>
+				</div><!-- / class="notif" -->
+		<br><hr>
+			<!-- Panel: Gold Calc -->
+				<div class="row g-3 mb-3">
+					<div class="col-6">
+						<div class="fl">
+							<label>Harga 1 gram (RM)</label>
+							<input type="number" id="eHarga1g" min="0" step="0.01" placeholder="cth: 320.00" oninput="kiraEmas()">
+						</div><!-- / class="fl" -->
+					</div><!-- / class="col-6" -->
+					<div class="col-6">
+						<div class="fl">
+							<label>Upah tukang (RM)</label>
+							<input type="number" id="eUpah" min="0" step="0.01" placeholder="cth: 50.00" oninput="kiraEmas()">
+						</div><!-- / class="fl" -->
+					</div><!-- / class="col-6" -->
+				</div><!-- / class="row g-3 mb-3" -->
+				<div class="row g-3">
+					<div class="col-6">
+						<div class="fl">
+							<label>Kuantiti asal (gram)</label>
+							<input type="number" id="eGramAsal" min="0.01" step="0.01" placeholder="cth: 1" oninput="kiraEmas()">
+						</div><!-- / class="fl" -->
+					</div><!-- / class="col-6" -->
+					<div class="col-6">
+						<div class="fl">
+							<label>Kuantiti sasaran (gram)</label>
+							<input type="number" id="eGram" min="0.01" step="0.01" placeholder="cth: 5" oninput="kiraEmas()">
+						</div><!-- / class="fl" -->
+					</div><!-- / class="col-6" -->
+				</div><!-- / class="row g-3" -->
 
-<div class="notif" id="notifBiasa">
-<i class="bi bi-check-circle-fill me-1"></i><span id="teksNotifBiasa"></span>
-</div><!-- / class="notif" -->
-</div><!-- / class="kalk-panel aktif" -->
+				<div class="d-flex align-items-center gap-2 flex-wrap bg-white border border-primary-subtle rounded-3 p-2 mt-3">
+					<div class="text-center" style="min-width:72px;">
+						<div class="text-muted" style="font-size:10px;">Harga asal</div>
+						<b class="d-block small text-nowrap" id="eHargaAsal">RM &mdash;</b>
+						<div class="text-muted" style="font-size:10px;" id="eGramAsalPapar">&mdash; gram</div>
+					</div><!-- / text-center -->
+					<span class="fw-semibold text-primary-emphasis">&#8594;</span>
+					<div class="text-center" style="min-width:72px;">
+						<div class="text-muted" style="font-size:10px;">Harga sasaran</div>
+						<b class="d-block small text-nowrap" id="eHargaSasaran">RM &mdash;</b>
+						<div class="text-muted" style="font-size:10px;" id="eGramPapar">&mdash; gram</div>
+					</div><!-- / text-center -->
+					<span class="fw-semibold text-primary-emphasis">+</span>
+					<div class="text-center" style="min-width:72px;">
+						<div class="text-muted" style="font-size:10px;">Upah tukang</div>
+						<b class="d-block small text-nowrap" id="eUpahPapar">RM &mdash;</b>
+						<div style="font-size:10px;">&nbsp;</div>
+					</div><!-- / text-center -->
+					<span class="fw-semibold text-primary-emphasis">=</span>
+					<div class="text-center" style="min-width:72px;">
+						<div class="text-muted" style="font-size:10px;">Jumlah</div>
+						<b class="d-block text-primary text-nowrap" id="eJumlah">RM &mdash;</b>
+						<div style="font-size:10px;">&nbsp;</div>
+					</div><!-- / text-center -->
+					<div class="ms-auto d-flex flex-column gap-1 align-items-end">
+						<button class="btn btn-primary btn-sm d-flex align-items-center gap-1" onclick="gunaEmas()">
+							<i class="bi bi-check2-circle"></i> Guna jumlah ini
+						</button>
+						<button class="btn btn-outline-secondary btn-sm" onclick="tetapkan('emas')">Tetapkan semula</button>
+					</div><!-- / ms-auto -->
+				</div><!-- / bar keputusan emas -->
 
-<!-- Panel: Gold Calc -->
-<div class="kalk-panel" id="panelEmas">
-<div class="row g-3 mb-3">
-<div class="col-6">
-<div class="fl">
-<label>Harga 1 gram (RM)</label>
-<input type="number" id="eHarga1g" min="0" step="0.01" placeholder="cth: 320.00" oninput="kiraEmas()">
-</div><!-- / class="fl" -->
-</div><!-- / class="col-6" -->
-<div class="col-6">
-<div class="fl">
-<label>Upah tukang (RM)</label>
-<input type="number" id="eUpah" min="0" step="0.01" placeholder="cth: 50.00" oninput="kiraEmas()">
-</div><!-- / class="fl" -->
-</div><!-- / class="col-6" -->
-</div><!-- / class="row g-3 mb-3" -->
-<div class="row g-3">
-<div class="col-6">
-<div class="fl">
-<label>Kuantiti asal (gram)</label>
-<input type="number" id="eGramAsal" min="0.01" step="0.01" placeholder="cth: 1" oninput="kiraEmas()">
-</div><!-- / class="fl" -->
-</div><!-- / class="col-6" -->
-<div class="col-6">
-<div class="fl">
-<label>Kuantiti sasaran (gram)</label>
-<input type="number" id="eGram" min="0.01" step="0.01" placeholder="cth: 5" oninput="kiraEmas()">
-</div><!-- / class="fl" -->
-</div><!-- / class="col-6" -->
-</div><!-- / class="row g-3" -->
-
-<div class="kputusan">
-<div class="kotak">
-<small>Harga asal</small>
-<b id="eHargaAsal">RM &mdash;</b>
-<small id="eGramAsalPapar">&mdash; gram</small>
-</div><!-- / class="kotak" -->
-<span class="simbol">&#8594;</span>
-<div class="kotak">
-<small>Harga sasaran</small>
-<b id="eHargaSasaran">RM &mdash;</b>
-<small id="eGramPapar">&mdash; gram</small>
-</div><!-- / class="kotak" -->
-<span class="simbol">+</span>
-<div class="kotak">
-<small>Upah tukang</small>
-<b id="eUpahPapar">RM &mdash;</b>
-<small>&nbsp;</small>
-</div><!-- / class="kotak" -->
-<span class="simbol">=</span>
-<div class="kotak">
-<small>Jumlah</small>
-<b class="biru" id="eJumlah">RM &mdash;</b>
-<small>&nbsp;</small>
-</div><!-- / class="kotak" -->
-<div class="ms-auto d-flex flex-column gap-1 align-items-end">
-<button class="btn btn-primary btn-sm d-flex align-items-center gap-1" onclick="gunaEmas()">
-<i class="bi bi-check2-circle"></i> Guna jumlah ini
-</button>
-<button class="btn btn-outline-secondary btn-sm" onclick="tetapkan('emas')">Tetapkan semula</button>
-</div><!-- / ms-auto -->
-</div><!-- / class="kputusan" -->
-
-<div class="notif" id="notifEmas">
-<i class="bi bi-check-circle-fill me-1"></i><span id="teksNotifEmas"></span>
-</div><!-- / class="notif" -->
-</div><!-- / class="kalk-panel" -->
-
-</div><!-- / kalkulator -->
-
-</div><!-- / modal-kotak -->
+				<div class="notif alert alert-success py-2 px-3 mt-2 small" id="notifEmas">
+					<i class="bi bi-check-circle-fill me-1"></i><span id="teksNotifEmas"></span>
+				</div><!-- / class="notif" -->
+		</div><!-- / class="tab-content" -->
+	</div><!-- / modal-kotak -->
 END;
 		# tamatlah cerita kami. terima kasih dan jumpa lagi
 	}
@@ -1474,10 +1441,10 @@ var RM = function(n){ return isNaN(n) || n === 0 && arguments[1] ? 'RM \u2014' :
 
 function kiraBiasa() {
 	var h = +D('kiraHarga').value, qa = +D('kiraQAsal').value, qs = +D('kiraQSasaran').value;
-	D('bHargaAsal').textContent= (h && qa) ? RM(h) : 'RM \u2014';
-	D('bQAsal').textContent= qa ? qa + ' unit' : '\u2014 unit';
+	D('bHargaAsal').textContent	= (h && qa) ? RM(h) : 'RM \u2014';
+	D('bQAsal').textContent		= qa ? qa + ' unit' : '\u2014 unit';
 	D('bHargaSasaran').textContent = (h && qa && qs) ? RM(h / qa * qs) : 'RM \u2014';
-	D('bQSasaran').textContent = qs ? qs + ' unit' : '\u2014 unit';
+	D('bQSasaran').textContent	 = qs ? qs + ' unit' : '\u2014 unit';
 	D('notifBiasa').style.display  = 'none';
 }
 
@@ -1493,12 +1460,12 @@ function kiraEmas() {
 	var h = +D('eHarga1g').value, ga = +D('eGramAsal').value, gs = +D('eGram').value, u = +D('eUpah').value || 0;
 	var sah = h && ga && gs;
 	var hs = sah ? h / ga * gs : NaN, jum = sah ? hs + u : NaN;
-	D('eHargaAsal').textContent= sah ? RM(h * ga) : 'RM \u2014';
+	D('eHargaAsal').textContent	= sah ? RM(h * ga) : 'RM \u2014';
 	D('eGramAsalPapar').textContent = ga ? ga + ' gram' : '\u2014 gram';
 	D('eHargaSasaran').textContent  = sah ? RM(hs) : 'RM \u2014';
-	D('eGramPapar').textContent = gs ? gs + ' gram' : '\u2014 gram';
-	D('eUpahPapar').textContent = sah ? RM(u) : 'RM \u2014';
-	D('eJumlah').textContent= sah ? RM(jum) : 'RM \u2014';
+	D('eGramPapar').textContent	 = gs ? gs + ' gram' : '\u2014 gram';
+	D('eUpahPapar').textContent	 = sah ? RM(u) : 'RM \u2014';
+	D('eJumlah').textContent		= sah ? RM(jum) : 'RM \u2014';
 	D('notifEmas').style.display   = 'none';
 }
 
@@ -1512,20 +1479,12 @@ function gunaEmas() {
 
 function tetapkan(panel) {
 	if (panel === 'biasa') {
-	['kiraHarga','kiraQAsal','kiraQSasaran'].forEach(function(id){ D(id).value = ''; });
-	kiraBiasa();
+		['kiraHarga','kiraQAsal','kiraQSasaran'].forEach(function(id){ D(id).value = ''; });
+		kiraBiasa();
 	} else {
-	['eHarga1g','eGramAsal','eGram','eUpah'].forEach(function(id){ D(id).value = ''; });
-	kiraEmas();
+		['eHarga1g','eGramAsal','eGram','eUpah'].forEach(function(id){ D(id).value = ''; });
+		kiraEmas();
 	}
-}
-
-function tukarTab(tab) {
-	['Biasa','Emas'].forEach(function(t) {
-	var k = t.toLowerCase();
-	D('panel' + t).classList.toggle('aktif', k === tab);
-	D('tab' + t).classList.toggle('aktif', k === tab);
-	});
 }
 END;
 		#
@@ -1689,7 +1648,7 @@ if ( ! function_exists('panggilKira')):
 		list($urlcss,$urljs) = linkCssJs();
 		diatas($pilih, $urlcss);
 		#------------------------------------------------------------------------------------------
-		binaButang($data);//versiphp();
+		//binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
 		echo '<h1>Kira Kuantiti dan Harga Emas</h1>';# buat tajuk besar
 		htmlKiraV01();
