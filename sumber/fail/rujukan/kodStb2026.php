@@ -73,12 +73,12 @@ $tajuk['bandar'] = '#,Kod Negeri,Daerah,Bandar Besar 2026';
 $data['bandar'] = 'dataJsonLama.php?/json/bandar2026';
 $tajuk['bandar kecil'] = '#,Kod Negeri,Daerah,Bandar Kecil(800(TL BD)/801(TI BD))';
 $data['bandar kecil'] = 'dataJsonLama.php?/json/bandarkecil2026';
+$tajuk['daerah'] = '#,Versi,Negeri,Kod Daerah Pentadbiran,Status Rekod';
+$data['daerah'] = 'dataJsonLama.php?/json/daerah';
 $tajuk['Migrasi M6-PSM'] = '#,Kod,Migrasi M6-PSM';
 $data['Migrasi M6-PSM'] = 'dataJsonLama.php?/json/Gaji G2';
 $tajuk['psm'] = '#,Kod,Keterangan PSM';
 $data['psm'] = 'dataJsonLama.php?/json/psmjr7';
-$tajuk['daerah'] = '#,Versi,Negeri,Kod Daerah Pentadbiran,Status Rekod';
-$data['daerah'] = 'dataJsonLama.php?/json/daerah';
 $tajuk['kodstrata'] = '#,kod,pecahan,negeri,Strata 2020';
 $data['kodstrata'] = 'dataJsonStrata.php';
 #--------------------------------------------------------------------------------------------------
