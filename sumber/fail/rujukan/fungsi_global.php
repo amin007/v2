@@ -1520,6 +1520,27 @@ if ( ! function_exists('panggilHtmlBody')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('panggilKira')):
+	function panggilKira($data,$pilih)
+	{
+		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
+		define ('URL', $_SERVER['SCRIPT_NAME']);
+		list($urlcss,$urljs) = linkCssJs();
+		diatas($pilih, $urlcss);
+		#------------------------------------------------------------------------------------------
+		binaButang($data);//versiphp();
+		#------------------------------------------------------------------------------------------
+		echo '<h1>Kira Kuantiti dan Harga Emas</h1>';# buat tajuk besar
+		htmlCalcV01();
+		echo '<hr>';
+		#------------------------------------------------------------------------------------------
+		dibawah($pilih,$urljs);
+		echo "<script>\n";
+		jsCalcV01();
+		echo "\n</script>\n</body>\n</html>";
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('panggilDataTable')):
 	function panggilDataTable($data,$pilih)
 	{
