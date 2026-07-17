@@ -203,7 +203,8 @@ if (isset($_SERVER[$s])):
 			$cariApa = bersih($pilih);
 			binaJson($data,$cariApa);
 		elseif($cariApa == 'kira'):
-			panggilHtmlBody($data,$cariApa);
+			//panggilHtmlBody($data,$cariApa);
+			panggilKira($data,$cariApa);
 		elseif($cariApa == 'tahun'):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
