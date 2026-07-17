@@ -1444,24 +1444,23 @@ if ( ! function_exists('jsCalcV01')):
 	{
 		print <<<END
 var D = function(id){ return document.getElementById(id); };
-var RM = function(n){ return isNaN(n) ? 'RM \u2014' : 'RM ' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ','); };
+var RM = function(n){ return isNaN(n) || n === 0 && arguments[1] ? 'RM \u2014' : 'RM ' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ','); };
 
 function kiraBiasa() {
 	var h = +D('kiraHarga').value, qa = +D('kiraQAsal').value, qs = +D('kiraQSasaran').value;
-	D('bHargaAsal').textContent   = (h && qa) ? RM(h) : 'RM \u2014';
-	D('bQAsal').textContent   = qa ? qa + ' unit' : '\u2014 unit';
+	D('bHargaAsal').textContent= (h && qa) ? RM(h) : 'RM \u2014';
+	D('bQAsal').textContent= qa ? qa + ' unit' : '\u2014 unit';
 	D('bHargaSasaran').textContent = (h && qa && qs) ? RM(h / qa * qs) : 'RM \u2014';
-	D('bQSasaran').textContent= qs ? qs + ' unit' : '\u2014 unit';
-	D('notifBiasa').style.display = 'none';
+	D('bQSasaran').textContent = qs ? qs + ' unit' : '\u2014 unit';
+	D('notifBiasa').style.display  = 'none';
 }
 
 function gunaBiasa() {
 	var h = +D('kiraHarga').value, qa = +D('kiraQAsal').value, qs = +D('kiraQSasaran').value;
 	if (!h || !qa || !qs) return;
 	var hasil = h / qa * qs;
-	D('currentPrice').value = hasil.toFixed(2);
-	D('teksNotifBiasa').textContent = 'Harga ' + RM(hasil) + ' telah diisi ke medan Current Price.';
-	D('notifBiasa').style.display = 'block';
+	D('teksNotifBiasa').textContent = 'Harga ' + RM(hasil) + ' telah dikira.';
+	D('notifBiasa').style.display   = 'block';
 }
 
 function kiraEmas() {
@@ -1470,10 +1469,10 @@ function kiraEmas() {
 	var hs = sah ? h / ga * gs : NaN, jum = sah ? hs + u : NaN;
 	D('eHargaAsal').textContent= sah ? RM(h * ga) : 'RM \u2014';
 	D('eGramAsalPapar').textContent = ga ? ga + ' gram' : '\u2014 gram';
-	D('eHargaSasaran').textContent  = RM(hs);
+	D('eHargaSasaran').textContent  = sah ? RM(hs) : 'RM \u2014';
 	D('eGramPapar').textContent = gs ? gs + ' gram' : '\u2014 gram';
 	D('eUpahPapar').textContent = sah ? RM(u) : 'RM \u2014';
-	D('eJumlah').textContent= RM(jum);
+	D('eJumlah').textContent= sah ? RM(jum) : 'RM \u2014';
 	D('notifEmas').style.display   = 'none';
 }
 
@@ -1481,9 +1480,8 @@ function gunaEmas() {
 	var h = +D('eHarga1g').value, ga = +D('eGramAsal').value, gs = +D('eGram').value, u = +D('eUpah').value || 0;
 	if (!h || !ga || !gs) return;
 	var jum = h / ga * gs + u;
-	D('currentPrice').value = jum.toFixed(2);
-	D('teksNotifEmas').textContent = 'Jumlah ' + RM(jum) + ' telah diisi ke medan Current Price.';
-	D('notifEmas').style.display = 'block';
+	D('teksNotifEmas').textContent = 'Jumlah ' + RM(jum) + ' telah dikira.';
+	D('notifEmas').style.display   = 'block';
 }
 
 function tetapkan(panel) {
@@ -1497,19 +1495,12 @@ function tetapkan(panel) {
 }
 
 function tukarTab(tab) {
-	['biasa','emas'].forEach(function(t) {
-	D('panel' + t.charAt(0).toUpperCase() + t.slice(1)).classList.toggle('aktif', t === tab);
-	D('tab' + t.charAt(0).toUpperCase() + t.slice(1)).classList.toggle('aktif', t === tab);
+	['Biasa','Emas'].forEach(function(t) {
+	var k = t.toLowerCase();
+	D('panel' + t).classList.toggle('aktif', k === tab);
+	D('tab' + t).classList.toggle('aktif', k === tab);
 	});
 }
-
-function togolCalc() {
-	var w = D('kalkWrap'), tunjuk = w.style.display !== 'block';
-	w.style.display = tunjuk ? 'block' : 'none';
-	D('btnCalc').classList.toggle('aktif', tunjuk);
-	D('labelCalc').textContent = tunjuk ? 'Hide Calc' : 'Calc';
-}
-
 END;
 		#
 	}
