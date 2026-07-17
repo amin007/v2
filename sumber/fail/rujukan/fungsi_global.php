@@ -552,10 +552,36 @@ if ( ! function_exists('htmlKiraV01')):
 	function htmlKiraV01()
 	{
 		print <<<END
+<style>
+/* Floating label */
+.fl { position: relative; border: 1px solid #ced4da; border-radius: 8px; padding: 8px 12px; }
+.fl label { position: absolute; top: -9px; left: 10px; background: #eff6ff; padding: 0 4px; font-size: 11px; color: #6c757d; }
+.fl input { border: none; outline: none; width: 100%; font-size: 14px; color: #212529; background: transparent; padding: 0; }
+
+/* Tab */
+.kalk-tab { border-bottom: 1px solid #bfdbfe; }
+.kalk-tab button { background: none; border: none; border-bottom: 2px solid transparent; padding: 6px 12px; font-size: 12px; font-weight: 500; color: #6c757d; cursor: pointer; margin-bottom: -1px; }
+.kalk-tab button.aktif { color: #1d4ed8; border-bottom-color: #2563eb; }
+
+.kalk-panel { display: none; }
+.kalk-panel.aktif { display: block; }
+
+/* Bar keputusan */
+.kputusan { display: flex; align-items: center; gap: 8px; background: #fff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 10px 12px; margin-top: 12px; flex-wrap: wrap; }
+.kputusan .kotak { text-align: center; min-width: 72px; }
+.kputusan .kotak small { display: block; font-size: 10px; color: #6c757d; margin-bottom: 2px; }
+.kputusan .kotak b { display: block; font-size: 14px; color: #212529; white-space: nowrap; }
+.kputusan .kotak b.biru { color: #1d4ed8; font-size: 15px; }
+.kputusan .simbol { font-size: 15px; font-weight: 600; color: #93c5fd; }
+
+/* Notif */
+.notif { display: none; font-size: 12px; color: #15803d; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 6px; padding: 7px 12px; margin-top: 10px; }
+</style>
+
 <div class="bg-white rounded-3 shadow w-100" style="max-width:620px; overflow:hidden;">
 
 <!-- Kalkulator -->
-<div class="px-3 py-2" style="background:#eff6ff; border:1px solid #bfdbfe;">
+<div class="px-3 py-2" style="border:1px solid #bfdbfe;">
 
 <div class="kalk-tab d-flex mb-3">
 <button id="tabBiasa" class="aktif d-flex align-items-center gap-1" onclick="tukarTab('biasa')">
