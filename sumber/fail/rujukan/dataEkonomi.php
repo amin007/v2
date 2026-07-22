@@ -1716,6 +1716,9 @@ $data['bezaUntungRugi'] = array(
 	array('','POM021','saiz & kualiti bahan yang berbeza','different sizes & quality of material'),
 	array('','POM022','harga produk adalah mengikut projek & permintaan pelanggan','Pricing varies'
 	. ' based on project scope and client specifications'),
+	array('','POM023','projek belum mula lagi','The project has not started yet'),
+	array('','POM024','permintaan dari sektor automotif terhadap cip komputer',
+	'demand from the automotive sector for computer chips'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
