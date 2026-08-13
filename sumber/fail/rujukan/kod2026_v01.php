@@ -41,6 +41,10 @@ $tajuk['kodstrata'] = '#,kod,pecahan,negeri,Strata 2020';
 $data['kodstrata'] = ImportCSV2Array01($filename = './kod2026/kodStrataDaa.csv');
 $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
+$tajuk['ogcs'] = '#,kod,keterangan ogcs,bahagian';
+$data['ogcs'] = ImportCSV2Array01($filename = './csv/kod ogcs.csv');
+$tajuk['mcpa'] = '#,Version,Mcpa_Class_Code,Mcpa_Code,Mcpa_Nama_Melayu,Mcpa_Name_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
+$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa 2009 v1.1.1.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
