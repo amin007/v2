@@ -43,8 +43,8 @@ $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 $tajuk['ogcs'] = '#,kod,keterangan ogcs,bahagian';
 $data['ogcs'] = ImportCSV2Array01($filename = './csv/kod ogcs.csv');
-$tajuk['mcpa'] = '#,Version,Mcpa_Class_Code,Mcpa_Code,Mcpa_Nama_Melayu,Mcpa_Name_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
-$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa 2009 v1.1.1.csv');
+$tajuk['mcpa'] = '#,Version,Mcpa_Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
+$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa 2009 v1.1.2.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
@@ -133,7 +133,7 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
-		elseif($cariApa === 'masco2020'):
+		elseif($cariApa === 'mcpa'):
 			panggilTableExcel($tajuk,$data,$cariApa);
 			//panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
