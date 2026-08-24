@@ -119,10 +119,16 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[owncloud]'=>'https://owncloud.com',
 			'[Pos.My-track-label]'=>'https://shop.pos.com.my/tracked-label-international.html',
 			'[Pos.My-flexipack]'=>'https://shop.pos.com.my/flexipack-international-zone-2-xs.html',
+			# AI Umum - chatgpt, claude, copilot, deepseek, gemini, grok, mistral, perplexity
 			'[Chatgpt]'=>'https://chatgpt.com',
-			'[Perplexity]'=>'https://perplexity.ai',
 			'[Claude]'=>'https://claude.ai',
+			'[Copilot]'=>'https://copilot.com',
+			'[Deepseek]'=>'https://deepseek.com',
 			'[Gemini]'=>'https://gemini.google.com',
+			'[Grok]'=>'https://grok.com',
+			'[Mistral]'=>'https://mistral.com',
+			'[Perplexity]'=>'https://perplexity.ai',
+			# Ai Stats
 			'[Knime]'=>'https://www.knime.com',
 			'[Artificial Analysis]'=>'https://artificialanalysis.ai',
 			'[Hugging Face]'=>'https://huggingface.co',
