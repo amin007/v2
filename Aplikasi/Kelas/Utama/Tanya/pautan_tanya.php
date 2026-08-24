@@ -126,7 +126,7 @@ class Pautan_Tanya extends \Aplikasi\Kitab\Tanya
 			'[Deepseek]'=>'https://deepseek.com',
 			'[Gemini]'=>'https://gemini.google.com',
 			'[Grok]'=>'https://grok.com',
-			'[Mistral]'=>'https://mistral.com',
+			'[Mistral]'=>'https://mistral.ai',
 			'[Perplexity]'=>'https://perplexity.ai',
 			# Ai Stats
 			'[Knime]'=>'https://www.knime.com',
