@@ -188,6 +188,60 @@ if ( ! function_exists('ImportCsv2Array03')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('ValidasiCSV01')):
+	function ValidasiCsv01($data, $jumlahKey = 11)
+	{
+		$masalah = array();
+		foreach ($data as $rowKey => $row)
+		{
+			$jumlah = count($row);
+			// Semak jumlah key
+			if ($jumlah != $jumlahKey)
+			{
+				$masalah[] = array(
+				'row' => $rowKey,
+				'rujukan' => isset($row[3]) ? $row[3] : '',
+				'jumlahKey' => $jumlah,
+				'jenis' => ($jumlah > $jumlahKey) ? 'LEBIH KEY' : 'KURANG KEY');
+			}
+			// Semak key ke-3 kosong
+			if (!isset($row[3]) || trim($row[3]) == '')
+			{
+				$masalah[] = array(
+					'row' => $rowKey,
+					'rujukan' => '',
+					'jumlahKey' => $jumlah,
+					'jenis'=> 'KEY 3 KOSONG'
+				);
+			}
+		}
+
+		return $masalah;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('ValidasiCSV10Digit01')):
+	function ValidasiCSV10Digit01($data)
+	{
+		$masalah = array();
+
+		foreach ($data as $rowKey => $row)
+		{
+			if (!isset($row[3]) || !preg_match('/^\d{10}$/', trim($row[3])))
+			{
+				$masalah[] = array(
+					'row' => $rowKey,
+					'rujukan' => isset($row[2]) ? $row[2] : '',
+					'nilai' => isset($row[3]) ? $row[3] : '',
+					'jenis' => 'KEY 4 BUKAN 10 DIGIT'
+				);
+			}
+		}
+
+		return $masalah;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # bina tajuk medan
 #--------------------------------------------------------------------------------------------------
