@@ -58,6 +58,16 @@ $dataJson = ['msic2008 notakaki'];
 ###################################################################################################
 # untuk debug sahaja
 #--------------------------------------------------------------------------------------------------
+$masalahStruktur = ValidasiCsv01($data['mcpa'], 12);
+$masalah10Digit = ValidasiCSV10Digit01($data['mcpa']);
+if (count($masalahStruktur) > 0)
+{
+	semakPembolehubah($masalahStruktur,'masalah',0);
+}
+if (count($masalah10Digit) > 0)
+{
+	semakPembolehubah($masalah10Digit,'masalah',0);
+}
 /*
 $_SERVER['PATH_INFO'] => untuk apache
 $_SERVER['PATH_TRANSLATED'] => untuk apache
