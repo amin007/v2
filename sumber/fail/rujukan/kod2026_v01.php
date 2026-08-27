@@ -43,16 +43,18 @@ $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 $tajuk['ogcs'] = '#,kod,keterangan ogcs,bahagian';
 $data['ogcs'] = ImportCSV2Array01($filename = './csv/kod ogcs.csv');
-$tajuk['mcpa'] = '#,V,Mcpa_Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
-$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa 2009 v1.1.4.csv');
+//$tajuk['mcpa'] = '#,V,Mcpa_Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
+//$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa 2009 v1.1.4.csv');
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
+$tajuk['mcpa'] = '#,V,Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
+$data['mcpa'] = './kod2026/kod Mcpa 2009v1.1.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','kp2026','unitKuantitiLampiran16','aup unit kuantiti',
 'bezaUntungRugi'];
-$dataJson = ['msic2008 notakaki'];
+$dataJson = ['msic2008 notakaki','mcpa'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
