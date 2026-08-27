@@ -46,10 +46,12 @@ $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
 $tajuk['msic2025 notakaki'] = '#,s,msic,keterangan,msic2008,notakaki';
 $data['msic2025 notakaki'] = './utama/msic2025_notakaki.json';
+$tajuk['mcpa'] = '#,V,Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
+$data['mcpa'] = './kod2026/kod Mcpa 2009v1.1.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
-$dataJson = ['kodstrata','msic2025 notakaki','msic2008 notakaki'];
+$dataJson = ['kodstrata','msic2025 notakaki','msic2008 notakaki','mcpa'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
