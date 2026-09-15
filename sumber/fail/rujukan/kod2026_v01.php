@@ -43,13 +43,16 @@ $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 $tajuk['ogcs'] = '#,kod,keterangan ogcs,bahagian';
 $data['ogcs'] = ImportCSV2Array01($filename = './csv/kod ogcs.csv');
-//$tajuk['mcpa'] = '#,V,Mcpa_Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
-//$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa 2009 v1.1.4.csv');
+/*$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,Keterangan Inggeris,Status';
+$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa newss.csv');*/
 #--------------------------------------------------------------------------------------------------
 $tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
-$tajuk['mcpa'] = '#,V,Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
-$data['mcpa'] = './kod2026/kod Mcpa 2009v1.1.json';
+//$tajuk['mcpa'] = '#,V,Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
+//$data['mcpa'] = './kod2026/kod Mcpa 2009v1.1.json';
+$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,'
+. 'Keterangan Inggeris,Status';
+$data['mcpa'] = './kod2026/kod mcpa Semua.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','kp2026','unitKuantitiLampiran16','aup unit kuantiti',
@@ -67,6 +70,7 @@ if (count($masalahStruktur) > 0)
 if (count($masalah10Digit) > 0)
 	semakPembolehubah($masalah10Digit,'masalah',0);
 //*/
+#--------------------------------------------------------------------------------------------------
 /*
 $_SERVER['PATH_INFO'] => untuk apache
 $_SERVER['PATH_TRANSLATED'] => untuk apache
