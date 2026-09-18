@@ -469,7 +469,7 @@
 "";2009v2.0;0144302;0144302001;02292;;;;;Raw milk of goats: In liquid form;Raw milk of goats: In liquid form;Aktif
 "";2009v2.0;0144302;0144302002;02292;;;;;Raw milk of goats: Other than In liquid form;Raw milk of goats: Other than In liquid form;Aktif
 "";2009v2.0;0144401;0144401001;02941;;;;;Shorn wool, greasy, including fleece-washed shorn wool;Shorn wool, greasy, including fleece-washed shorn wool;Aktif
-"";2009v2.0;0144402;0144402001;02942;;;;;"Pulled wool, greasy, including fleece-washed pulled wool; coarseanimal hair";"Pulled wool, greasy, including fleece-washed pulled wool; coarseanimal hair";Aktif
+"";2009v2.0;0144402;0144402001;02942;;;;;"Pulled wool, greasy, including fleece-washed pulled wool | coarseanimal hair";"Pulled wool, greasy, including fleece-washed pulled wool | coarseanimal hair";Aktif
 "";2009v2.0;0144403;0144403001;02943;;;;;Fine animal hair, not carded or combed: Of Kashmir (cashmere) goats;Fine animal hair, not carded or combed: Of Kashmir (cashmere) goats;Aktif
 "";2009v2.0;0144403;0144403002;02943;;;;;Fine animal hair, not carded or combed: Other than of Kashmir (cashmere) goats;Fine animal hair, not carded or combed: Other than of Kashmir (cashmere) goats;Aktif
 "";2009v2.0;0145001;0145001001;02140;;;;;Swine/pigs, pure-bred and other pure breeding animals;Swine/pigs, pure-bred and other pure breeding animals;Aktif
@@ -576,19 +576,13 @@
 "";2009v2.0;0162001;0162001003;86121;;;;;Grading of eggs;Grading of eggs;Aktif
 "";2009v2.0;0162001;0162001004;86121;;;;;Cleaning of agricultural premises (hen houses, piggeries, etc.);Cleaning of agricultural premises (hen houses, piggeries, etc.);Aktif
 "";2009v2.0;0162002;0162002001;86122;;;;;Support services to farm animal husbandry;Support services to farm animal husbandry;Aktif
-"";2009v2.0;0163101;0163101001;86111;;;;;"Preparation of crops for primary markets; cotton ginning services";"Preparation of crops for primary markets; cotton ginning services";Aktif
+"";2009v2.0;0163101;0163101001;86111;;;;;"Preparation of crops for primary markets, cotton ginning services";"Preparation of crops for primary markets, cotton ginning services";Aktif
 "";2009v2.0;0163201;0163201001;01970;;;;;Tobacco leaves, prepared;Tobacco leaves, prepared;Aktif
 "";2009v2.0;0163301;0163301001;01640;;;;;Cocoa beans, other than fermented;Cocoa beans, other than fermented;Aktif
 "";2009v2.0;0163301;0163301002;01640;;;;;Cocoa beans, fermented;Cocoa beans, fermented;Aktif
 "";2009v2.0;0163401;0163401001;88130;;;;;Fruit and vegetables processing services;Fruit and vegetables processing services;Aktif
 "";2009v2.0;0163901;0163901001;86111;;;;;Post-harvest crop services;Post-harvest crop services;Aktif
-"";2009v2.0;0164001;0164001001;86112;;;;;"Services to improve the propagation quality of the seed, including treatment of genetically modified seeds:
-""; • removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds
-""; • removal of seed moisture to a safe level for seed storage
-""; • drying, cleaning, grading and treating of seeds to be marketed";"Services to improve the propagation quality of the seed, including treatment of genetically modified seeds:
-""; • removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds
-""; • removal of seed moisture to a safe level for seed storage
-""; • drying, cleaning, grading and treating of seeds to be marketed";Aktif
+"";2009v2.0;0164001;0164001001;86112;;;;;"Services to improve the propagation quality of the seed, including treatment of genetically modified seeds: <br>* removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds <br>* removal of seed moisture to a safe level for seed storage <br>* drying, cleaning, grading and treating of seeds to be marketed";"Services to improve the propagation quality of the seed, including treatment of genetically modified seeds: <br>* removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds <br>* removal of seed moisture to a safe level for seed storage <br>* drying, cleaning, grading and treating of seeds to be marketed";Aktif
 "";2009v2.0;0170101;0170101001;86131;;;;;Hunting services on resources owned by others;Hunting services on resources owned by others;Aktif
 "";2009v2.0;0170102;0170102001;86132;;;;;Culling of wildlife for hunting and trapping on a commercial basis;Culling of wildlife for hunting and trapping on a commercial basis;Aktif
 "";2009v2.0;0170201;0170201001;86132;;;;;Culling of wildlife for taking of wilds animals (dead or alive);Culling of wildlife for taking of wilds animals (dead or alive);Aktif
