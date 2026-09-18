@@ -43,16 +43,16 @@ $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 $tajuk['ogcs'] = '#,kod,keterangan ogcs,bahagian';
 $data['ogcs'] = ImportCSV2Array01($filename = './csv/kod ogcs.csv');
-/*$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,Keterangan Inggeris,Status';
-$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa newss.csv');*/
+$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,Keterangan Inggeris,Status';
+$data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa newss.csv');//*/
 #--------------------------------------------------------------------------------------------------
-$tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
+/*$tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
 //$tajuk['mcpa'] = '#,V,Class_Code,Mcpa Code,Mcpa_Melayu,Mcpa_En,Cpc,Hs,Sitc,Ahtn,Unit,Catatan';
 //$data['mcpa'] = './kod2026/kod Mcpa 2009v1.1.json';
-$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,'
+/*$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,'
 . 'Keterangan Inggeris,Status';
-$data['mcpa'] = './kod2026/kod mcpa Semua.json';
+$data['mcpa'] = './kod2026/kod mcpa Semua.json';//*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','kp2026','unitKuantitiLampiran16','aup unit kuantiti',
@@ -63,11 +63,11 @@ $dataJson = ['msic2008 notakaki','mcpa'];
 ###################################################################################################
 # untuk debug sahaja
 #--------------------------------------------------------------------------------------------------
-/*$masalahStruktur = ValidasiCsv01($data['mcpa'], 12);
-$masalah10Digit = ValidasiCSV10Digit01($data['mcpa']);
+$masalahStruktur = ValidasiCsv01($data['mcpa'], 12);
+//$masalah10Digit = ValidasiCSV10Digit01($data['mcpa']);
 if (count($masalahStruktur) > 0)
 	semakPembolehubah($masalahStruktur,'masalah',0);
-if (count($masalah10Digit) > 0)
+/*if (count($masalah10Digit) > 0)
 	semakPembolehubah($masalah10Digit,'masalah',0);
 //*/
 #--------------------------------------------------------------------------------------------------
