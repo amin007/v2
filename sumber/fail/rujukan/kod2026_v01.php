@@ -63,11 +63,11 @@ $dataJson = ['msic2008 notakaki','mcpa'];
 ###################################################################################################
 # untuk debug sahaja
 #--------------------------------------------------------------------------------------------------
-$masalahStruktur = ValidasiCsv01($data['mcpa'], 12);
+$data['mcpaError'] = ValidasiCsv01($data['mcpa'], 12);
 //$masalah10Digit = ValidasiCSV10Digit01($data['mcpa']);
-if (count($masalahStruktur) > 0)
+/*if (count($masalahStruktur) > 0)
 	semakPembolehubah($masalahStruktur,'masalah',0);
-/*if (count($masalah10Digit) > 0)
+if (count($masalah10Digit) > 0)
 	semakPembolehubah($masalah10Digit,'masalah',0);
 //*/
 #--------------------------------------------------------------------------------------------------
@@ -146,9 +146,10 @@ if (isset($_SERVER[$s])):
 			$tajuk['tahun'] = '#,-,-,-,-';
 			$data['tahun'] = kiraTahunJadual();
 			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
-		elseif($cariApa === 'masco2020')://mcpa
-			//panggilTableExcel($tajuk,$data,$cariApa);
-			panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
+		elseif($cariApa === 'mcpaError')://mcpa/masco2020
+			echo '<h1>ada ' . count($data['mcpaError']) . ' baris dalam mcpaError</h1>';
+			panggilTableExcel($tajuk,$data,$cariApa);
+			//panggilDataTable04($tajuk,$data,$cariApa);# panggil fungsi
 		elseif(in_array($cariApa,$dataPhpJson)):# panggil fungsi untuk tatasusunan php => json
 			panggilDataTable05($tajuk,$data,$cariApa);
 		elseif(in_array($cariApa,$dataJson)):
