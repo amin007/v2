@@ -199,6 +199,7 @@ if ( ! function_exists('ValidasiCSV01')):
 			if ($jumlah != $jumlahKey)
 			{
 				$masalah[] = array(
+				'',
 				'row' => $rowKey,
 				'rujukan' => isset($row[3]) ? $row[3] : '',
 				'keterangan' => isset($row[10]) ? $row[10] : '',
@@ -209,6 +210,7 @@ if ( ! function_exists('ValidasiCSV01')):
 			if (!isset($row[3]) || trim($row[3]) == '')
 			{
 				$masalah[] = array(
+					'',
 					'row' => $rowKey,
 					'rujukan' => '',
 					'jumlahKey' => $jumlah,
