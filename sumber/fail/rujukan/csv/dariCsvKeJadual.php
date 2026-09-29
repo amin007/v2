@@ -58,22 +58,22 @@ endif;//*/
 ###################################################################################################
 require '../fungsi_global.php';
 ###################################################################################################
-$tajuk['mcpaBandingan'] = 'SECTION 2025,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
+$tajuk['mcpaBandingan'] = '#,SECTION 2025,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
 . 'DESC NEW,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,DESC OLD,CPC 2.0,DESC CPC 2.0,'
 . 'HS 2022 (10D),DESC HS 2022 (10D)';
-$fail01 = 'mcpa bandingan2.csv';
-$tajuk['mcoaCoretr'] = 'SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
+$data['mcpaBandingan'] = ImportCSV2Array00($filename = 'mcpa bandingan2.csv');
+$tajuk['mcpaCorete'] = '#,SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
 . 'MCPA 2009 v2.0-09.06.2026,DESCRIPTION,MCPA 2009v1.1,nota';
-$fail02 = 'mcpa corete.csv';
+$data['mcpaCorete'] = ImportCSV2Array00($filename = 'mcpa corete.csv');
 ###################################################################################################
-$pilih = 'mcpaBandingan';
-$data['mcpaBandingan1'] = ImportCSV2Array00($fail02);
+//$data['mcpaBandingan1'] = ImportCSV2Array00($fail02);
 //$data['mcpaBandingan2'] = ImportCSV2Array002($fail02);
 //$data['mcpaBandingan3'] = ImportCSV2Array03($fail01);
 #--------------------------------------------------------------------------------------------------
 //semakPembolehubah($fail01,'fail01');
 //semakPembolehubah($pilih,'pilih');
-semakPembolehubah($data['mcpaBandingan1'],'dataLaa');
+//semakPembolehubah($data['mcpaBandingan'],'mcpaBandingan');
+semakPembolehubah($data['mcpaCorete'],'mcpaCorete');
 #--------------------------------------------------------------------------------------------------
 /*		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8 dan fail json
