@@ -49,10 +49,18 @@ $data['msic2025 notakaki'] = './utama/msic2025_notakaki.json';
 $tajuk['mcpa'] = '#,V,Kelas,Kod MCPA,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,'
 . 'Keterangan Inggeris,Status';
 $data['mcpa'] = './kod2026/kod mcpa Semua.json';
+$tajuk['mcpaBandingan'] = '#,SECTION,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
+. 'Keterangan Baru,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,Keterangan Lama,CPC 2.0,DESC CPC 2.0,'
+. 'HS 2022,DESC HS 2022';
+$data['mcpaBandingan'] = './kod2026/kod mcpa bandingan.json';
+$tajuk['mcpaCorete'] = '#,SECTION,MSIC 2025,CLASS,CLASS Keterangan,MCPA 2009v2.0-29.05.2026,'
+. 'MCPA 2009 v2.0-09.06.2026,Keterangan,MCPA 2009v1.1,nota';
+$data['mcpaCorete'] = './kod2026/kod mcpa Corete.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
-$dataJson = ['kodstrata','msic2025 notakaki','msic2008 notakaki','mcpa'];
+$dataJson = ['kodstrata','msic2025 notakaki','msic2008 notakaki','mcpa','mcpaBandingan',
+'mcpaCorete'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
