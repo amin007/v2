@@ -19,9 +19,8 @@ if ( ! function_exists('ImportCSV2Array00')):
 		foreach ($row as $key => $val)
 		{
 			//semakPembolehubah($key,'key',2);
-			$val02 = bersih($val);//semakPembolehubah($val02,'val02',2);
-			$data[$key] = explode(";",$val02);
-			//semakPembolehubah($data,'data01',0);
+			$val02 = bersih($val);//semakPembolehubah($val02,'val02',3);
+			$data[$key] = explode(";",$val02);//semakPembolehubah($data,'data01',0);
 		}
 		//semakPembolehubah($data,'data');
 
@@ -45,12 +44,12 @@ if ( ! function_exists('ImportCSV2Array002')):
 			$escape : Optional : escape parmeter sets the escape char
 		//*/
 		$data = [];
-		$file = fopen($filename, "r");
+		$file = fopen($filename, "r");//semakPembolehubah($file,'file',1);
 		while(! feof($file))
 		{
 			$data[] = fgetcsv($file,2000,";");
 		}
-		fclose($file);//semakPembolehubah($data,'data');
+		fclose($file);semakPembolehubah($data,'data');
 
 		return $data;//*/
 	}
@@ -59,21 +58,22 @@ endif;//*/
 ###################################################################################################
 require '../fungsi_global.php';
 ###################################################################################################
-$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,Keterangan Inggeris,Status';
-/*
-"SECTION 2025";MSIC 2025;DESC MSIC 2025;MCPA 2009v2.0 as at 29.05.2026;MCPA 2009 v2.0 as at 09.06.2026;DESC MCPA 2009 v2.0;MSIC 2008;MCPA 2009;DESC MCPA 2009 ;;;;;;;;;;;;
-*/
-$fail01 = 'mcpa bandingan.csv';
-$fail02 = 'mcpa tani buat.csv';
+$tajuk['mcpaBandingan'] = 'SECTION 2025,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
+. 'DESC NEW,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,DESC OLD,CPC 2.0,DESC CPC 2.0,'
+. 'HS 2022 (10D),DESC HS 2022 (10D)';
+$fail01 = 'mcpa bandingan2.csv';
+$tajuk['mcoaCoretr'] = 'SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
+. 'MCPA 2009 v2.0-09.06.2026,DESCRIPTION,MCPA 2009v1.1,nota';
+$fail02 = 'mcpa corete.csv';
 ###################################################################################################
 $pilih = 'mcpaBandingan';
-$data['mcpaBandingan1'] = ImportCSV2Array01($fail01);
-//$data['mcpaBandingan2'] = ImportCSV2Array002($fail02);
+//$data['mcpaBandingan1'] = ImportCSV2Array00($fail02);
+$data['mcpaBandingan2'] = ImportCSV2Array002($fail02);
 //$data['mcpaBandingan3'] = ImportCSV2Array03($fail01);
 #--------------------------------------------------------------------------------------------------
 //semakPembolehubah($fail01,'fail01');
 //semakPembolehubah($pilih,'pilih');
-semakPembolehubah($data['mcpaBandingan1'],'dataLaa');
+semakPembolehubah($data['mcpaBandingan2'],'dataLaa');
 #--------------------------------------------------------------------------------------------------
 /*		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8 dan fail json
