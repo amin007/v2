@@ -67,13 +67,13 @@ $tajuk['mcoaCoretr'] = 'SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-
 $fail02 = 'mcpa corete.csv';
 ###################################################################################################
 $pilih = 'mcpaBandingan';
-//$data['mcpaBandingan1'] = ImportCSV2Array00($fail02);
-$data['mcpaBandingan2'] = ImportCSV2Array002($fail02);
+$data['mcpaBandingan1'] = ImportCSV2Array00($fail02);
+//$data['mcpaBandingan2'] = ImportCSV2Array002($fail02);
 //$data['mcpaBandingan3'] = ImportCSV2Array03($fail01);
 #--------------------------------------------------------------------------------------------------
 //semakPembolehubah($fail01,'fail01');
 //semakPembolehubah($pilih,'pilih');
-semakPembolehubah($data['mcpaBandingan2'],'dataLaa');
+semakPembolehubah($data['mcpaBandingan1'],'dataLaa');
 #--------------------------------------------------------------------------------------------------
 /*		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
 		define ('URL', $_SERVER['SCRIPT_NAME']);// bootstrap baru 5.3.8 dan fail json
