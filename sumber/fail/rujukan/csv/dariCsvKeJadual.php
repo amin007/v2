@@ -6,6 +6,53 @@ error_reporting(E_ALL);
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaSatuJadualExcelUmum')):
+	function binaSatuJadualExcelUmum($tajuk,$senarai,$pilih)
+	{
+		# bina css excel
+		$class = 'excel';
+		# bina tajuk jadual
+		$namaMedan = isset($tajuk[$pilih]) ? pecahArrayKeTH($tajuk[$pilih]) : null;
+		# bina tatasusunan kepada jadual
+		foreach($senarai as $jadual => $row):
+		if($jadual == $pilih):
+			$output = $namaMedan;
+			$output .= binaJadualTanpaKepalaKaki($row,$pilih);
+			$output .= binaKakiJadual($row,$pilih);
+			echo '<h2>Kod ' . ucfirst($jadual) . '</h2>'
+			. "\n\n\t" . '<table class="' . $class . '" id="semuaJadual">'
+			//. "\n\n\t" . '<table border="1" id="semuaJadual">'
+			. "\r\t$output\r\n\t</table>\r\r";
+		endif;
+		endforeach;//*/
+		#
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('binaJadualTanpaKepalaKaki')):
+	function binaJadualTanpaKepalaKaki($row,$jadual)
+	{
+		$output = null;
+		$bilBaris = count($row);
+		$cetak_tajuk_utama = false;# mula bina jadual
+		$output = "\n\t" . '<tbody>';
+		#----------------------------------------------------------------------
+		for ($kira=0; $kira < $bilBaris; $kira++)
+		{#---------------------------------------------------------------------
+			# papar baris data dari tatasusunan
+			$output .= "\n\t<tr>";
+			foreach ( $row[$kira] as $key=>$data ) :
+				$output .= ($key === 0 ) ? "\n\t\t" . '<td>' . $kira . '</td>'
+				: "\n\t\t" . '<td>' . $data . '</td>';
+				$output .= "<!-- $key|$kira -->";
+			endforeach;
+			$output .= "\n\t" . '</tr>';
+		}#---------------------------------------------------------------------
+		$output .= "\n\t" . '</tbody>';
+
+		return $output;//*/
+	}
+endif;
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 require '../fungsi_global.php';
