@@ -1286,7 +1286,7 @@
 "";B;07210;0721001;Uranium and thorium ores and concentrates;0721001002;0721001002;Thorium ores and concentrates;0721001001;akhir
 "";B;07291;0729101;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729101001;0729101001;Tin ores and concentrates;0729101001;akhir
 "";B;07292;0729201;Copper, ores and concentrates;0729201001;0729201001;Copper ores and concentrates;0729201001;akhir
-"";B;07293;0729301;Aluminium ores and concentrates;0729301001;0729301001;"Aluminium; ores and concentrates";0729301001;akhir
+"";B;07293;0729301;Aluminium ores and concentrates;0729301001;0729301001;"Aluminium, ores and concentrates";0729301001;akhir
 "";B;07294;0729401;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729401001;0729401001;Amang;0729801001;akhir
 "";B;07294;0729401;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729401002;0729401002;Zirconium ores and concentrates;0729903003;akhir
 "";B;07294;0729401;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729401003;0729401003;Ilminite ores and concentrates;0729401001;akhir
@@ -1300,7 +1300,7 @@
 "";B;07299;0729902;Precious metal ores and concentrates;0729902002;0729902002;Other precious metal ores and concentrate;0729902001;akhir
 "";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903001;0729903001;Zinc ores and concentrates;0729903001;akhir
 "";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903002;0729903002;Manganese ores and concentrates;0729903002;akhir
-"";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903003;0729903003;"Molybdenum ores and concentrates; other than roasted";0729903004;akhir
+"";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903003;0729903003;"Molybdenum ores and concentrates, other than roasted";0729903004;akhir
 "";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903004;0729903004;Titanium ores and concentrates;0729903004;akhir
 "";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903005;0729903005;Antimony ores and concentrates;0729903005;akhir
 "";B;07299;0729903;Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates);0729903006;0729903006;Tungsten ores and concentrates;0729903006;akhir
@@ -1313,24 +1313,24 @@
 "";B;08101;0810102;Marble and other calcareous monumental or building stone;0810102001;0810102001;Marble and travertine, crude or roughly trimmed;0810102001;akhir
 "";B;08101;0810102;Marble and other calcareous monumental or building stone;0810102002;0810102002;Marble and travertine, merely cut, blocks;0810102001;akhir
 "";B;08101;0810102;Marble and other calcareous monumental or building stone;0810102003;0810102003;Marble and travertine, merely cut, slabs;0810102001;akhir
-"";B;08101;0810102;Marble and other calcareous monumental or building stone;0810102004;0810102004;"Ecaussine and other calcareous monumental or building stone; alabaster, crude or roughly trimmed";0810102002;akhir
+"";B;08101;0810102;Marble and other calcareous monumental or building stone;0810102004;0810102004;"Ecaussine and other calcareous monumental or building stone / alabaster, crude or roughly trimmed";0810102002;akhir
 "";B;08101;0810103;Granite, sandstone and other monumental or building stone;0810103001;0810103001;Quartzite;0810103001;akhir
 "";B;08101;0810103;Granite, sandstone and other monumental or building stone;0810103002;0810103002;Sandstone, crude or roughly trimmed;0810103003;akhir
 "";B;08101;0810103;Granite, sandstone and other monumental or building stone;0810103003;0810103003;Sandstone, merely cut, by sawing or otherwise, blocks;0810103003;akhir
 "";B;08101;0810103;Granite, sandstone and other monumental or building stone;0810103004;0810103004;Sandstone, merely cut, by sawing or otherwise, slabs;0810103003;akhir
 "";B;08102;0810201;Granite, sandstone and other monumental or building stone;0810201001;0810201001;Quartz (other than natural sands);0899902001;akhir
-"";B;08102;0810202;"Gypsum; anhydrite; limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202001;0810202001;Gypsum and anhydrite;0810301001;akhir
-"";B;08102;0810202;"Gypsum; anhydrite; limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202002;0810202002;Plasters, of a kind suitable for use in dentistry;0810801001;akhir
-"";B;08102;0810202;"Gypsum; anhydrite; limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202003;0810202003;Plasters, other than of a kind suitable for use in dentistry;0810801001;akhir
-"";B;08102;0810202;"Gypsum; anhydrite; limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202004;0810202004;Limestone flux;0810301002;akhir
+"";B;08102;0810202;"Gypsum / anhydrite / limestone flux / limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202001;0810202001;Gypsum and anhydrite;0810301001;akhir
+"";B;08102;0810202;"Gypsum / anhydrite / limestone flux / limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202002;0810202002;Plasters, of a kind suitable for use in dentistry;0810801001;akhir
+"";B;08102;0810202;"Gypsum / anhydrite / limestone flux / limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202003;0810202003;Plasters, other than of a kind suitable for use in dentistry;0810801001;akhir
+"";B;08102;0810202;"Gypsum / anhydrite / limestone flux / limestone and other calcareous stone, of a kind used for the manufacture of lime or cement";0810202004;0810202004;Limestone flux;0810301002;akhir
 "";B;08103;0810301;Kaolin;0810301001;0810301001;Kaolin and other kaolinic clays;0810801001;akhir
 "";B;08104;0810401;Chalk and dolomite;0810401001;0810401001;Chalk;0810802001;akhir
 "";B;08104;0810401;Chalk and dolomite;0810401002;0810401002;Uncalcined dolomite;0810802002;akhir
-"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam; granules, chippings and powder of stone";0810501001;0810501001;Pebbles, gravel, broken or crushed stone;0810601001;akhir
-"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam; granules, chippings and powder of stone";0810501002;0810501002;Macadam of slag, dross or similar industrial waste;0810601002;akhir
-"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam; granules, chippings and powder of stone";0810501003;0810501003;Tarred macadam;0810601002;akhir
-"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam; granules, chippings and powder of stone";0810501004;0810501004;Granules, chippings and powder of marble, whether or not heat-treated;0810601003;akhir
-"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam; granules, chippings and powder of stone";0810501005;0810501005;Granules, chippings and powder of other than marble, whether or not heat-treated;0810601003;akhir
+"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam / granules, chippings and powder of stone";0810501001;0810501001;Pebbles, gravel, broken or crushed stone;0810601001;akhir
+"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam / granules, chippings and powder of stone";0810501002;0810501002;Macadam of slag, dross or similar industrial waste;0810601002;akhir
+"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam / granules, chippings and powder of stone";0810501003;0810501003;Tarred macadam;0810601002;akhir
+"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam / granules, chippings and powder of stone";0810501004;0810501004;Granules, chippings and powder of marble, whether or not heat-treated;0810601003;akhir
+"";B;08105;0810501;"Pebbles, gravel, broken or crushed stone, macadam / granules, chippings and powder of stone";0810501005;0810501005;Granules, chippings and powder of other than marble, whether or not heat-treated;0810601003;akhir
 "";B;08106;0810601;Natural sands;0810601001;0810601001;Silica sands and quartz sands;0810701001;akhir
 "";B;08107;0810701;Clays;0810701001;0810701001;Clays;0810801006;akhir
 "";B;08107;0810701;Clays;0810701002;0810701002;Chamotte or dinas earths;0810801004;akhir
