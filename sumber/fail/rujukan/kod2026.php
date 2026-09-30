@@ -59,7 +59,7 @@ $data['mcpaCorete'] = './kod2026/kod mcpa Corete.json';//*/
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','unitKuantitiLampiran16','aup unit kuantiti','bezaUntungRugi'];
-$dataJson = ['kodstrata','msic2025 notakaki','msic2008 notakaki','mcpa','mcpaBandingan'];
+$dataJson = ['kodstrata','msic2025 notakaki','msic2008 notakaki','mcpa','mcpaBandingan','mcpaCorete'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
