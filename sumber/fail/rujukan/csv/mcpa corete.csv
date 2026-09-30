@@ -1358,17 +1358,17 @@
 "";B;08918;0891801;Other minerals n.e.c.;0891801001;0891801001;Guano manure;0891801001;akhir
 "";B;08920;0892001;Peat;0892001001;0892001001;Peat;0892101001;akhir
 "";B;08920;0892001;Peat;0892001002;0892001002;Agglomerated peat;0892101001;akhir
-"";B;08931;0893101;"Salt and pure sodium chloride; sea water";0893101001;0893101001;Unprocessed rock salt;0893101001;akhir
-"";B;08932;0893201;"Salt and pure sodium chloride; sea water";0893201001;0893201001;Salt (including table salt and denatured salt) and pure sodium chloride;0893101001;akhir
-"";B;08933;0893301;"Salt and pure sodium chloride; sea water";0893301001;0893301001;Sodium chloride (crushed, purified and refined) calculated on a dry basis, fortified with iodine;0893101001;akhir
-"";B;08991;0899101;"Industrial diamonds, unworked or simply sawn, cleaved or bruted; pumice stone; emery; natural corundum, natural garnet and other natural abrasives";0899101001;0899101001;Abrasive materials (Pumice Stone, Emery, Corundum, Natural garnet and other);0899101001;akhir
+"";B;08931;0893101;"Salt and pure sodium chloride / sea water";0893101001;0893101001;Unprocessed rock salt;0893101001;akhir
+"";B;08932;0893201;"Salt and pure sodium chloride / sea water";0893201001;0893201001;Salt (including table salt and denatured salt) and pure sodium chloride;0893101001;akhir
+"";B;08933;0893301;"Salt and pure sodium chloride / sea water";0893301001;0893301001;Sodium chloride (crushed, purified and refined) calculated on a dry basis, fortified with iodine;0893101001;akhir
+"";B;08991;0899101;"Industrial diamonds, unworked or simply sawn, cleaved or bruted / pumice stone / emery / natural corundum, natural garnet and other natural abrasives";0899101001;0899101001;Abrasive materials (Pumice Stone, Emery, Corundum, Natural garnet and other);0899101001;akhir
 "";B;08992;0899201;Other minerals n.e.c.;0899201001;0899201001;Asbestos;0899201001;akhir
 "";B;08993;0899301;Other minerals n.e.c.;0899301001;0899301001;Siliceous fossil meals and similar siliceous earths, whether or not calcined, of an apparent specific gravity of 1 or less;0899301001;akhir
 "";B;08994;0899401;Other minerals n.e.c.;0899401001;0899401001;Natural graphite;0899401001;akhir
 "";B;08995;0899501;Other minerals n.e.c.;0899501001;0899501001;Natural steatite (talc);0899501001;akhir
 "";B;08996;0899601;Precious stones (including diamonds, but not industrial diamonds) and semi-precious stones, unworked or simply sawn or roughly shaped;0899601001;0899601001;Precious stones (including diamonds, but not industrial diamonds) and semi-precious stones, unworked or simply sawn or roughly shaped;0899601001, 0899601002;akhir
-"";B;08996;0899602;"Industrial diamonds, unworked or simply sawn, cleaved or bruted; pumice stone; emery; natural corundum, natural garnet and other natural abrasives";0899602001;0899602001;Industrial diamonds;0899602001;akhir
-"";B;08999;0899901;"Bitumen and asphalt, natural; asphaltites and asphaltic rock";0899901001;0899901001;"Bitumen and asphalt, natural; asphaltites and asphaltic rock";0899901001;akhir
+"";B;08996;0899602;"Industrial diamonds, unworked or simply sawn, cleaved or bruted / pumice stone / emery / natural corundum, natural garnet and other natural abrasives";0899602001;0899602001;Industrial diamonds;0899602001;akhir
+"";B;08999;0899901;"Bitumen and asphalt, natural / asphaltites and asphaltic rock";0899901001;0899901001;"Bitumen and asphalt, natural / asphaltites and asphaltic rock";0899901001;akhir
 "";B;08999;0899902;Other minerals n.e.c.;0899902001;0899902001;Crude mica and mica rifted into sheets or splittings;0899902003;akhir
 "";B;08999;0899902;Other minerals n.e.c.;0899902002;0899902002;Mica powder;0899902004;akhir
 "";B;08999;0899902;Other minerals n.e.c.;0899902003;0899902003;Mica waste;0899902005;akhir
@@ -1464,8 +1464,8 @@
 "";C;10101;1010127;Bovine meat, salted, dried or smoked;1010127002;1010127002;Salted pork;1010126003;akhir
 "";C;10101;1010127;Bovine meat, salted, dried or smoked;1010127003;1010127003;Beef and veal, of bovine animal, salted, in brine, dried or smoked (including smoked meat - daging salai);1010127001;akhir
 "";C;10101;1010127;Bovine meat, salted, dried or smoked;1010127004;1010127004;Other meat of bovine animals, salted, in brine, dried or smoked;1010127002;akhir
-"";C;10101;1010128;"Other meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal";1010128001;1010128001;"Other meat and edible meat offal, salted, in brine, dried or smoked; of primates";1010128001;akhir
-"";C;10101;1010128;"Other meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal";1010128002;1010128002;"Other meat and edible meat offal, salted, in brine, dried or smoked; of reptiles";1010128001;akhir
+"";C;10101;1010128;"Other meat and edible meat offal, salted, in brine, dried or smoked / edible flours and meals of meat or meat offal";1010128001;1010128001;"Other meat and edible meat offal, salted, in brine, dried or smoked / of primates";1010128001;akhir
+"";C;10101;1010128;"Other meat and edible meat offal, salted, in brine, dried or smoked / edible flours and meals of meat or meat offal";1010128002;1010128002;"Other meat and edible meat offal, salted, in brine, dried or smoked / of reptiles";1010128001;akhir
 "";C;10101;1010129;Sausages and similar products of meat, offal or blood;1010129001;1010129001;Other meat, canned;1010128002;akhir
 "";C;10101;1010129;Sausages and similar products of meat, offal or blood;1010129002;1010129002;Sausages and similar products of bovine animal, in airtight containers;1010129001;akhir
 "";C;10101;1010129;Sausages and similar products of meat, offal or blood;1010129003;1010129003;Sausages and similar products of bovine animal, other than in airtight containers;1010129001;akhir
@@ -1609,8 +1609,8 @@
 "";C;10103;1010306;Raw skins of other animals;1010306004;1010306004;Other raw hides and skins;1010306004;akhir
 "";C;10103;1010306;Raw skins of other animals;1010306005;1010306005;Raw hides and skin of swine, from slaughterhouses;1010306005;akhir
 "";C;10103;1010306;Raw skins of other animals;1010306006;1010306006;Raw skin of other animals, from slaughterhouses;1010306006;akhir
-"";C;10103;1010307;"Flours, meals and pellets of meat or meat offal, inedible; greaves";1010307001;1010307001;Production of feathers or down including feather meal;1010307001;akhir
-"";C;10103;1010307;"Flours, meals and pellets of meat or meat offal, inedible; greaves";1010307002;1010307002;Duck feather, processed (drying);1010307002;akhir
+"";C;10103;1010307;"Flours, meals and pellets of meat or meat offal, inedible / greaves";1010307001;1010307001;Production of feathers or down including feather meal;1010307001;akhir
+"";C;10103;1010307;"Flours, meals and pellets of meat or meat offal, inedible / greaves";1010307002;1010307002;Duck feather, processed (drying);1010307002;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308001;1010308001;Greasy wool, including fleece-washed wool;1010308001;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308002;1010308002;Coarse animal hair;1010308002;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308003;1010308003;Pigs', hogs' or boars' bristles and hair and waste thereof;1010308003;akhir
@@ -1623,8 +1623,8 @@
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308010;1010308010;Ossein and bones treated with acid;1010308008;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308011;1010308011;Powder and waste of bones and horn-cores;1010308009;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308012;1010308012;Ivory, ivory powder and waste;1010308010;akhir
-"";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308013;1010308013;"Tortoise-shell, whale bone, horn, antlers, hooves, claws, beaks, unworked; powder and waste of theirs products";1010308011;akhir
-"";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308014;1010308014;"Ambergris, castoreum, civet and musks, cantharides; bile, glands, etc. for pharmaceutical use";1010308012;akhir
+"";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308013;1010308013;"Tortoise-shell, whale bone, horn, antlers, hooves, claws, beaks, unworked / powder and waste of theirs products";1010308011;akhir
+"";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308014;1010308014;"Ambergris, castoreum, civet and musks, cantharides / bile, glands, etc. for pharmaceutical use";1010308012;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308015;1010308015;Other animal residues;1010308013;akhir
 "";C;10103;1010308;Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory);1010308016;1010308016;Feathers (processed);1010308014;akhir
 "";C;10103;1010309;Waste of wool or of fine or coarse animal hair;1010309001;1010309001;Waste of wool or of fine or coarse animal hair;1010309001;akhir
@@ -1671,7 +1671,7 @@
 "";C;10201;1020102;Freshwater fish, frozen;1020102030;1020102030;Swordfish (Xiphias gladius) fish, frozen;1020101001;akhir
 "";C;10201;1020102;Freshwater fish, frozen;1020102031;1020102031;Island mackerels (Rastrelliger faughni) fish, frozen;1020101001;akhir
 "";C;10201;1020102;Freshwater fish, frozen;1020102032;1020102032;Silver pomfrets (Pampus spp.) fish, frozen;1020101001;akhir
-"";C;10201;1020102;Freshwater fish, frozen;1020102033;1020102033;"Other than Indian mackerels (Rastelliger kanagurta); Island mackerels (Rastrelliger faughni) and Silver pomfrets (Pampus spp.) fish, frozen";1020101001;akhir
+"";C;10201;1020102;Freshwater fish, frozen;1020102033;1020102033;"Other than Indian mackerels (Rastelliger kanagurta) / Island mackerels (Rastrelliger faughni) and Silver pomfrets (Pampus spp.) fish, frozen";1020101001;akhir
 "";C;10201;1020102;Freshwater fish, frozen;1020102034;1020102034;Cod (Gadus morhua, Gadus ogac, Gadus macrocephalus) fish, frozen;1020101001;akhir
 "";C;10201;1020102;Freshwater fish, frozen;1020102035;1020102035;Haddock (Melanogrammus aeglefinus) fish, frozen ;1020101001;akhir
 "";C;10201;1020103;Salmonidae, frozen;1020103001;1020103001;Pacific salmon, excluding livers and roes, frozen;1020101002;akhir
@@ -1751,7 +1751,7 @@
 "";C;10201;1020111;Fish livers and roes, frozen;1020111001;1020111001;Fish livers and roes, frozen;1020105001;akhir
 "";C;10201;1020112;Edible fish meal;1020112001;1020112001;Edible fish meal, other than of freshwater fish, dried, salted or in brine;1020106001;akhir
 "";C;10201;1020112;Edible fish meal;1020112002;1020112002;Edible fish meal, of freshwater fish, dried, salted or in brine;1020106001;akhir
-"";C;10201;1020113;"Edible fish offal ; fish fins, heads, tails, maws and other edible fish offal";1020113001;1020113001;"Edible fish offal ; fish fins, heads, tails, maws and other edible fish offal";1020106001;akhir
+"";C;10201;1020113;"Edible fish offal / fish fins, heads, tails, maws and other edible fish offal";1020113001;1020113001;"Edible fish offal / fish fins, heads, tails, maws and other edible fish offal";1020106001;akhir
 "";C;10201;1020114;Prepared dishes and meals based on fish, molluscs and crustaceans;1020114001;1020114001;Sharks' fins, other than ready for immediate consumption, in airtight containers;1020107001;akhir
 "";C;10201;1020114;Prepared dishes and meals based on fish, molluscs and crustaceans;1020114002;1020114002;Sharks' fins, other than ready for immediate consumption, other than in airtight containers;1020107001;akhir
 "";C;10201;1020114;Prepared dishes and meals based on fish, molluscs and crustaceans;1020114003;1020114003;Sharks' fins, ready for immediate consumption;1020107001;akhir
@@ -1801,42 +1801,42 @@
 "";C;10202;1020205;Fish fillets, dried, salted or in brine, but not smoked;1020205005;1020205005;Other than marine fish fillets, dried, salted or in brine, but not smoked;1020203003;akhir
 "";C;10202;1020206;Fish livers and roes dried, smoked, salted or in brine;1020206001;1020206001;Livers and roes, dried, smoked, salted or in brine, of marine fish;1020204001;akhir
 "";C;10202;1020206;Fish livers and roes dried, smoked, salted or in brine;1020206002;1020206002;Livers and roes, dried, smoked, salted or in brine, of freshwater fish;1020204002;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207001;1020207001;Anchovies, salted but not dried or smoked and in brine;1020205001;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207002;1020207002;Cod, salted but not dried or smoked and in brine;1020205002;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207003;1020207003;Fishmaws, salted but not dried or smoked and in brine, of cod;1020205003;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207004;1020207004;Fishmaws, salted but not dried or smoked and in brine, other than of cod;1020205003;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207005;1020207005;Herrings, salted but not dried or smoked and in brine;1020205004;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207006;1020207006;Other marine fish, salted but not dried or smoked and in brine;1020205005;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207007;1020207007;Other freshwater fish, salted but not dried or smoked and in brine;1020205006;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207008;1020207008;Sharks' fins, salted but not dried or smoked and in brine;1020205007;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207009;1020207009;Cod, dried, whether or not salted but not smoked;1020205008;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207010;1020207010;Fishmaws, dried, whether or not salted but not smoked;1020205009;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207011;1020207011;Ikan bilis, dried, whether or not salted but not smoked;1020205010;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207012;1020207012;Other freshwater fish, dried, whether or not salted but not smoked;1020205011;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207013;1020207013;Other marine fish, dried, whether or not salted but not smoked;1020205012;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207014;1020207014;Salted fish (Ikan masin), marine fish;1020205013;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207015;1020207015;Salted fish (Ikan masin), other than marine fish;1020205013;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207016;1020207016;Shark's fins, dried, whether or not salted but not smoked;1020205014;akhir
-"";C;10202;1020207;"Fish, dried, but not smoked; salted, but not dried or smoked; or in brine";1020207017;1020207017;Fish, in airtight containers;1020205015;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207001;1020207001;Anchovies, salted but not dried or smoked and in brine;1020205001;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207002;1020207002;Cod, salted but not dried or smoked and in brine;1020205002;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207003;1020207003;Fishmaws, salted but not dried or smoked and in brine, of cod;1020205003;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207004;1020207004;Fishmaws, salted but not dried or smoked and in brine, other than of cod;1020205003;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207005;1020207005;Herrings, salted but not dried or smoked and in brine;1020205004;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207006;1020207006;Other marine fish, salted but not dried or smoked and in brine;1020205005;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207007;1020207007;Other freshwater fish, salted but not dried or smoked and in brine;1020205006;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207008;1020207008;Sharks' fins, salted but not dried or smoked and in brine;1020205007;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207009;1020207009;Cod, dried, whether or not salted but not smoked;1020205008;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207010;1020207010;Fishmaws, dried, whether or not salted but not smoked;1020205009;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207011;1020207011;Ikan bilis, dried, whether or not salted but not smoked;1020205010;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207012;1020207012;Other freshwater fish, dried, whether or not salted but not smoked;1020205011;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207013;1020207013;Other marine fish, dried, whether or not salted but not smoked;1020205012;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207014;1020207014;Salted fish (Ikan masin), marine fish;1020205013;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207015;1020207015;Salted fish (Ikan masin), other than marine fish;1020205013;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207016;1020207016;Shark's fins, dried, whether or not salted but not smoked;1020205014;akhir
+"";C;10202;1020207;"Fish, dried, but not smoked / salted, but not dried or smoked / or in brine";1020207017;1020207017;Fish, in airtight containers;1020205015;akhir
 "";C;10202;1020208;Fish including fillets, smoked;1020208001;1020208001;Herrings, smoked fish including fillets;1020206001;akhir
 "";C;10202;1020208;Fish including fillets, smoked;1020208002;1020208002;Tilapia, smoked fish including fillets;1020206002;akhir
 "";C;10202;1020208;Fish including fillets, smoked;1020208003;1020208003;Pacific salmon, smoked fish including fillets;1020206003;akhir
 "";C;10202;1020209;Prepared dishes and meals based on fish, molluscs and crustaceans;1020209001;1020209001;Fish cake;1020207001;akhir
 "";C;10202;1020209;Prepared dishes and meals based on fish, molluscs and crustaceans;1020209002;1020209002;Fish ball;1020207002;akhir
-"";C;10202;1020210;Caviar and caviar substitutes;1020210001;1020210001;"Caviar products; Caviar";1020208001;akhir
-"";C;10202;1020210;Caviar and caviar substitutes;1020210002;1020210002;"Caviar products; Caviar substitutes";1020208001;akhir
-"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211001;1020211001;"Crustacea; crabs, soft shell, frozen, smoked";1020209004;akhir
-"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211002;1020211002;"Crustacea; crabs, other than soft shell, frozen, smoked";1020209004;akhir
-"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211003;1020211003;"Crustacea; swimming crabs, frozen, smoked";1020209004;akhir
-"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211004;1020211004;"Crustacea; king crab, frozen, not smoked";1020209004;akhir
-"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211005;1020211005;"Crustacea; snow crabs, frozen, other smoked";1020209004;akhir
-"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211006;1020211006;"Crustacea; other crabs family, frozen, other smoked";1020209004;akhir
+"";C;10202;1020210;Caviar and caviar substitutes;1020210001;1020210001;"Caviar products, Caviar";1020208001;akhir
+"";C;10202;1020210;Caviar and caviar substitutes;1020210002;1020210002;"Caviar products, Caviar substitutes";1020208001;akhir
+"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211001;1020211001;"Crustacea: crabs, soft shell, frozen, smoked";1020209004;akhir
+"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211002;1020211002;"Crustacea: crabs, other than soft shell, frozen, smoked";1020209004;akhir
+"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211003;1020211003;"Crustacea: swimming crabs, frozen, smoked";1020209004;akhir
+"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211004;1020211004;"Crustacea: king crab, frozen, not smoked";1020209004;akhir
+"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211005;1020211005;"Crustacea: snow crabs, frozen, other smoked";1020209004;akhir
+"";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211006;1020211006;"Crustacea: other crabs family, frozen, other smoked";1020209004;akhir
 "";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211007;1020211007;Crab, meat (seafood product);1020209005;akhir
 "";C;10202;1020211;Crabs, frozen, dried, salted or in brine;1020211008;1020211008;Crab, stick;1020209006;akhir
 "";C;10202;1020212;Rock lobster and other sea crawfish, frozen, dried, salted or in brine;1020212001;1020212001;Rock lobster and other sea crawfish, frozen. (Palinurus spp., Panulirus spp., Jasus spp.), smoked;1020209001;akhir
 "";C;10202;1020212;Rock lobster and other sea crawfish, frozen, dried, salted or in brine;1020212002;1020212002;Rock lobster and other sea crawfish, frozen, dried, salted or in brine. (Palinurus spp., Panulirus spp., Jasus spp.), other than smoked;1020209001;akhir
-"";C;10202;1020213;Lobsters, frozen, dried, salted or in brine;1020213001;1020213001;"Crustacea; lobsters (homarus spp.), frozen, smoked";1020209002;akhir
-"";C;10202;1020213;Lobsters, frozen, dried, salted or in brine;1020213002;1020213002;"Crustacea; lobsters (homarus spp.), frozen, other than smoked";1020209002;akhir
+"";C;10202;1020213;Lobsters, frozen, dried, salted or in brine;1020213001;1020213001;"Crustacea: lobsters (homarus spp.), frozen, smoked";1020209002;akhir
+"";C;10202;1020213;Lobsters, frozen, dried, salted or in brine;1020213002;1020213002;"Crustacea: lobsters (homarus spp.), frozen, other than smoked";1020209002;akhir
 "";C;10202;1020214;Cold-water shrimps and prawns, frozen, dried, salted or in brine;1020214001;1020214001;Cold-water shrimps and prawns, frozen;1020209003;akhir
 "";C;10202;1020215;Other shrimps and prawns, frozen, dried, salted or in brine;1020215001;1020215001;Whiteleg shrimps, headless, without tail;1020210013;akhir
 "";C;10202;1020215;Other shrimps and prawns, frozen, dried, salted or in brine;1020215002;1020215002;Shrimps and prawns, salted, dried (e.g. udang kering);1020210013;akhir
@@ -1908,16 +1908,16 @@
 "";C;10203;1020305;Flours, meals and pellets, inedible, of fish, crustaceans, molluscs or other aquatic invertebrates;1020305008;1020305008;Flours, meals and pellets, inedible, of fish, crustaceans, molluscs or other aquatic invertebrates. Other than of fish of other aquatic invertebrates;1020306001;akhir
 "";C;10203;1020305;Flours, meals and pellets, inedible, of fish, crustaceans, molluscs or other aquatic invertebrates;1020305009;1020305009;Flours, meals and pellets, of fish meal, unfit for human consumption;1020306001;akhir
 "";C;10203;1020305;Flours, meals and pellets, inedible, of fish, crustaceans, molluscs or other aquatic invertebrates;1020305010;1020305010;Other flours, meals and pellets, of other aquatic invertebrates, unfit for human consumption;1020306002;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306001;1020306001;Roes and milt;1020307001;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306002;1020306002;Fish waste, artemia egg (brine shrimp egg);1020307001;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306003;1020306003;Fish waste, fish skin;1020307001;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306004;1020306004;Fish waste, other than roes and milt, artemia egg (brine shrimp egg) and fish skin;1020307001;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306005;1020306005;Domestic animal semen;1020307002;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306006;1020306006;Extracts and juices of meat or fish extracts;1020307003;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306007;1020306007;Fish juices;1020307004;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306008;1020306008;Extracts, juices, jellies of sea cucumber;1020307005;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306009;1020306009;Extracts and juices of crustaceans, molluscs or other aquatic invertebrates n.e.c.;1020307006;akhir
-"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates; dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306010;1020306010;Other molluscs for animal feed, other than in airtight containers;1020307007;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306001;1020306001;Roes and milt;1020307001;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306002;1020306002;Fish waste, artemia egg (brine shrimp egg);1020307001;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306003;1020306003;Fish waste, fish skin;1020307001;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306004;1020306004;Fish waste, other than roes and milt, artemia egg (brine shrimp egg) and fish skin;1020307001;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306005;1020306005;Domestic animal semen;1020307002;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306006;1020306006;Extracts and juices of meat or fish extracts;1020307003;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306007;1020306007;Fish juices;1020307004;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306008;1020306008;Extracts, juices, jellies of sea cucumber;1020307005;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306009;1020306009;Extracts and juices of crustaceans, molluscs or other aquatic invertebrates n.e.c.;1020307006;akhir
+"";C;10203;1020306;"Products n.e.c. of fish, crustaceans, molluscs or other aquatic invertebrates / dead fish, crustaceans, molluscs or other aquatic invertebrates unfit for human consumption";1020306010;1020306010;Other molluscs for animal feed, other than in airtight containers;1020307007;akhir
 "";C;10203;1020307;Preparations used in animal feeding n.e.c.;1020307001;1020307001;Silk worm eggs, dried;1079909006;akhir
 "";C;10203;1020308;Articles n.e.c. (including candles, tapers, skins of birds with their feathers, artificial flowers, entertainment articles, hand sieves, hand riddles, vacuum flasks, tailors dummies, animated displays used for shop window dressing, and parts n.e.c.);1020308001;1020308001;Natural sponges, dried;n.c.;akhir
 "";C;10203;1020380;Fish processing services;1020380001;1020380001;Production of fish meals for human consumption or animal feed services;1020390999;akhir
