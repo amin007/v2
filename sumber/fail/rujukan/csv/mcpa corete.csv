@@ -295,7 +295,7 @@
 "";A;01251;0125102;Kiwi fruit;0125102001;0125102001;Kiwi fruit;0125102001;akhir
 "";A;01251;0125103;Raspberries, blackberries, mulberries and loganberries;0125103001;0125103001;Raspberries, blackberries, mulberries and loganberries;0125103001;akhir
 "";A;01251;0125104;Strawberries;0125104001;0125104001;Strawberries;0125104001;akhir
-"";A;01251;0125105;"Other berries; fruits of the genus Vaccinium";0125105001;0125105001;Cranberries, blueberries and other fruits of the genus vaccinium;0125105001;akhir
+"";A;01251;0125105;"Other berries, fruits of the genus Vaccinium";0125105001;0125105001;Cranberries, blueberries and other fruits of the genus vaccinium;0125105001;akhir
 "";A;01252;0125201;Fruit seeds;0125201001;0125201001;Other seeds, fruit and spores of a kind used for sowing;0125201001;akhir
 "";A;01253;0125301;Almonds, in shell;0125301001;0125301001;Almonds, in shell;0125301001;akhir
 "";A;01253;0125302;Cashew nuts, in shell;0125302001;0125302001;Cashew nuts, in shell;0125302001;akhir
@@ -328,7 +328,7 @@
 "";A;01272;0127201;Tea leaves;0127201001;0127201001;Green tea (not fermented);0127201001;akhir
 "";A;01272;0127202;Tea leaves;0127202001;0127202001;Black tea (fermented) and other partly fermented tea;0127201002;akhir
 "";A;01273;0127301;Cocoa beans;0127301001;0127301001;Cocoa beans;0127301001;akhir
-"";A;01273;0127302;"Cocoa shells, husks, skins and other cocoa waste; coffee husks and skins";0127302001;0127302001;Cocoa shells, husks, skins and other cocoa waste.;0127302001;akhir
+"";A;01273;0127302;"Cocoa shells, husks, skins and other cocoa waste, coffee husks and skins";0127302001;0127302001;Cocoa shells, husks, skins and other cocoa waste;0127302001;akhir
 "";A;01279;0127901;Maté leaves;0127901001;0127901001;Mate;0127901001;akhir
 "";A;01281;0128101;Pepper (Piper spp.), raw;0128101001;0128101001;Green pepper;0128101001;akhir
 "";A;01281;0128101;Pepper (Piper spp.), raw;0128101002;0128101002;Black pepper;0128101002;akhir
@@ -355,7 +355,7 @@
 "";A;01289;0128904;Cloves (whole stems), raw;0128904001;0128904001;Cloves (whole stems), raw;0128904001;akhir
 "";A;01289;0128905;Vanilla, raw;0128905001;0128905001;Vanilla, raw;0128905001;akhir
 "";A;01289;0128906;Hop cones;0128906001;0128906001;Hop cones, neither ground nor powdered nor in the form of pellets;0128906001;akhir
-"";A;01289;0128906;Hop cones;0128906002;0128906002;"Hop cones; ground, powdered or in the form of pellets; lupulin";0128906001;akhir
+"";A;01289;0128906;Hop cones;0128906002;0128906002;"Hop cones, ground, powdered or in the form of pellets, lupulin";0128906001;akhir
 "";A;01289;0128907;Other stimulant, spice and aromatic crops, n.e.c.;0128907001;0128907001;Saffron;0128907001;akhir
 "";A;01289;0128907;Other stimulant, spice and aromatic crops, n.e.c.;0128907002;0128907002;Thyme;0128907002;akhir
 "";A;01289;0128907;Other stimulant, spice and aromatic crops, n.e.c.;0128907003;0128907003;Other than thyme, bay leaves;0128907023;akhir
@@ -393,36 +393,36 @@
 "";A;01293;0129301;Lac, resins, balsams, natural gums and other resins n.e.c.;0129301003;0129301003;Gum Arabic;0129301003;akhir
 "";A;01293;0129301;Lac, resins, balsams, natural gums and other resins n.e.c.;0129301004;0129301004;Other Natural gums;0129301004;akhir
 "";A;01294;0129401;Other raw vegetable materials, n.e.c.;0129401001;0129401001;Nipa palm fruit;0129401001;akhir
-"";A;01294;0129402;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0129402001;0129402001;Nipa leaves;0129402001;akhir
+"";A;01294;0129402;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding, other vegetable products except cotton linters";0129402001;0129402001;Nipa leaves;0129402001;akhir
 "";A;01295;0129501;Other nuts (excluding wild edible nuts and groundnuts), in shell;0129501001;0129501001;Areca nuts;0129501001;akhir
 "";A;01299;0129901;Sorghum, other;0129901001;0129901001;Broom corn (Sorghum vulgare var. technician);0129901001;akhir
 "";A;01299;0129902;Christmas trees;0129902001;0129902001;Christmas trees, designed for use solely with light-emitting diode (led) light sources;0130201009;akhir
 "";A;01299;0129902;Christmas trees;0129902002;0129902002;Christmas trees, other than designed for use solely with light-emitting diode (led) light sources;0130201009;akhir
-"";A;01301;0130101;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130101001;0130101001;Oil Palm nuts/seeds/oil palm seedling;0130101001;akhir
-"";A;01301;0130101;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130101002;0130101002;Rubber seedling;0130101002;akhir
-"";A;01301;0130101;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130101003;0130101003;Cocoa seedling;0130101003;akhir
-"";A;01301;0130101;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130101004;0130101004;Other plants for planting;0130101004;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201001;0130201001;Adianthum;0130201001;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201002;0130201002;Aglonema;0130201002;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201003;0130201003;Bambusa;0130201003;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201004;0130201004;Caladium;0130201004;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201005;0130201005;Codiaeum;0130201005;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201006;0130201006;Duranta;0130201006;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201007;0130201007;Ficus spp;0130201007;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201008;0130201008;Peperomia;0130201008;akhir
-"";A;01302;0130201;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130201009;0130201009;Other plants for ornamental purposes;0130201009;akhir
+"";A;01301;0130101;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130101001;0130101001;Oil Palm nuts/seeds/oil palm seedling;0130101001;akhir
+"";A;01301;0130101;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130101002;0130101002;Rubber seedling;0130101002;akhir
+"";A;01301;0130101;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130101003;0130101003;Cocoa seedling;0130101003;akhir
+"";A;01301;0130101;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130101004;0130101004;Other plants for planting;0130101004;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201001;0130201001;Adianthum;0130201001;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201002;0130201002;Aglonema;0130201002;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201003;0130201003;Bambusa;0130201003;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201004;0130201004;Caladium;0130201004;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201005;0130201005;Codiaeum;0130201005;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201006;0130201006;Duranta;0130201006;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201007;0130201007;Ficus spp;0130201007;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201008;0130201008;Peperomia;0130201008;akhir
+"";A;01302;0130201;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130201009;0130201009;Other plants for ornamental purposes;0130201009;akhir
 "";A;01302;0130202;Wild live aquatic plants and animals for ornamental purpose;0130202001;0130202001;Wild live aquatic plants for ornamental purpose;0130201009;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301001;0130301001;Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant;0130301001;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301002;0130301002;Chicory plants and roots;0130301002;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301003;0130301003;Other bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower;0130301003;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301004;0130301004;Unrooted cuttings and slips;0130301004;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301005;0130301005;Edible fruit or nuts trees, shrubs and bushes, grafted or not;0130301005;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301006;0130301006;Rhododendrons and azaleas, grafted or not;0130301006;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301007;0130301007;Roses, grafted or not;0130301007;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301008;0130301008;Budded rubber stumps;0130301008;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301009;0130301009;Seedling rubber stumps;0130301009;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301010;0130301010;Rubber budwood;0130301010;akhir
-"";A;01303;0130301;"Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn";0130301011;0130301011;"Other live plants (including their roots), cuttings and slips; mushroom spawn";0130301011;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301001;0130301001;Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant;0130301001;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301002;0130301002;Chicory plants and roots;0130301002;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301003;0130301003;Other bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower;0130301003;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301004;0130301004;Unrooted cuttings and slips;0130301004;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301005;0130301005;Edible fruit or nuts trees, shrubs and bushes, grafted or not;0130301005;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301006;0130301006;Rhododendrons and azaleas, grafted or not;0130301006;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301007;0130301007;Roses, grafted or not;0130301007;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301008;0130301008;Budded rubber stumps;0130301008;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301009;0130301009;Seedling rubber stumps;0130301009;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301010;0130301010;Rubber budwood;0130301010;akhir
+"";A;01303;0130301;"Live plants/ bulbs, tubers and roots/ cuttings and slips/ mushroom spawn";0130301011;0130301011;"Other live plants (including their roots), cuttings and slips/ mushroom spawn";0130301011;akhir
 "";A;01304;0130401;Other support services to crop production;0130401001;0130401001;Other support services to crop production;0130401001;akhir
 "";A;01411;0141101;Cattle;0141101001;0141101001;Beef cattle: Pure-bred breeding animals;0141101001;akhir
 "";A;01411;0141101;Cattle;0141101002;0141101002;Beef cattle, Pure-bred breeding animals: Wagyu;0141101001;akhir
@@ -469,7 +469,7 @@
 "";A;01443;0144302;Raw milk of goats;0144302001;0144302001;Raw milk of goats: In liquid form;0144202001;akhir
 "";A;01443;0144302;Raw milk of goats;0144302002;0144302002;Raw milk of goats: Other than In liquid form;0144202001;akhir
 "";A;01444;0144401;Shorn wool, greasy, including fleece-washed shorn wool;0144401001;0144401001;Shorn wool, greasy, including fleece-washed shorn wool;0144301001;akhir
-"";A;01444;0144402;"Pulled wool, greasy, including fleece-washed pulled wool; coarse animal hair";0144402001;0144402001;"Pulled wool, greasy, including fleece-washed pulled wool; coarseanimal hair";0144302001;akhir
+"";A;01444;0144402;"Pulled wool, greasy, including fleece-washed pulled wool/ coarse animal hair";0144402001;0144402001;"Pulled wool, greasy, including fleece-washed pulled wool/ coarseanimal hair";0144302001;akhir
 "";A;01444;0144403;Fine animal hair, not carded or combed;0144403001;0144403001;Fine animal hair, not carded or combed: Of Kashmir (cashmere) goats;0144303001;akhir
 "";A;01444;0144403;Fine animal hair, not carded or combed;0144403002;0144403002;Fine animal hair, not carded or combed: Other than of Kashmir (cashmere) goats;0144303001;akhir
 "";A;01450;0145001;Swine / pigs;0145001001;0145001001;Swine/pigs, pure-bred and other pure breeding animals;0145001001;akhir
@@ -576,16 +576,13 @@
 "";A;01620;0162001;Farm animal husbandry services on inputs owned by others;0162001003;0162001003;Grading of eggs;0162001003;akhir
 "";A;01620;0162001;Farm animal husbandry services on inputs owned by others;0162001004;0162001004;Cleaning of agricultural premises (hen houses, piggeries, etc.);0162001004;akhir
 "";A;01620;0162002;Support services to farm animal husbandry;0162002001;0162002001;Support services to farm animal husbandry;n.c;akhir
-"";A;01631;0163101;Post-harvest crop services;0163101001;0163101001;"Preparation of crops for primary markets; cotton ginning services";0163101001;akhir
+"";A;01631;0163101;Post-harvest crop services;0163101001;0163101001;"Preparation of crops for primary markets, cotton ginning services";0163101001;akhir
 "";A;01632;0163201;Unmanufactured tobacco;0163201001;0163201001;Tobacco leaves, prepared;0115001001;akhir
 "";A;01633;0163301;Cocoa beans;0163301001;0163301001;Cocoa beans, other than fermented;0127301001;akhir
 "";A;01633;0163301;Cocoa beans;0163301002;0163301002;Cocoa beans, fermented;0127301001;akhir
 "";A;01634;0163401;Fruit and vegetables processing services;0163401001;0163401001;Fruit and vegetables processing services;0163101001;akhir
 "";A;01639;0163901;Post-harvest crop services;0163901001;0163901001;Post-harvest crop services;0163101001;akhir
-"";A;01640;0164001;Seed processing services;0164001001;0164001001;Services to improve the propagation quality of the seed, including treatment of genetically modified seeds:;;akhir
-""; • removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds;;;;;;;;akhir
-""; • removal of seed moisture to a safe level for seed storage;;;;;;;;akhir
-"";" • drying, cleaning, grading and treating of seeds to be marketed""";0164001001;;;;;;;akhir
+"";A;01640;0164001;Seed processing services;0164001001;0164001001;Services to improve the propagation quality of the seed, including treatment of genetically modified seeds:<br> * removal of non-seed materials, undersized, mechanically or insect-damaged and immature seeds<br> * removal of seed moisture to a safe level for seed storage<br> * drying, cleaning, grading and treating of seeds to be marketed;0164001001;akhir
 "";A;01701;0170101;Hunting services on resources owned by others;0170101001;0170101001;Hunting services on resources owned by others;n.c;akhir
 "";A;01701;0170102;Support services to hunting;0170102001;0170102001;Culling of wildlife for hunting and trapping on a commercial basis;0170101001;akhir
 "";A;01702;0170201;Support services to hunting;0170201001;0170201001;Culling of wildlife for taking of wilds animals (dead or alive);0170201001;akhir
@@ -801,18 +798,18 @@
 "";A;02201;0220102;Roundwood of non-coniferous wood, other;0220102194;0220102194;Ramin melawis;n.c;akhir
 "";A;02201;0220102;Roundwood of non-coniferous wood, other;0220102195;0220102195;Sena;n.c;akhir
 "";A;02201;0220102;Roundwood of non-coniferous wood, other;0220102196;0220102196;Sesenduk;n.c;akhir
-"";A;02201;0220103;"Hoopwood; split poles; piles, pickets and stakes of wood, pointed but not sawn lengthwise; wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking-sticks, umbrellas, tool handles or the like; chipwood and the like";0220103001;0220103001;Chipwood coniferous;0220102001;akhir
-"";A;02201;0220103;"Hoopwood; split poles; piles, pickets and stakes of wood, pointed but not sawn lengthwise; wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking-sticks, umbrellas, tool handles or the like; chipwood and the like";0220103002;0220103002;Chipwood non-coniferous;0220102002;akhir
+"";A;02201;0220103;"Hoopwood/split poles/piles, pickets and stakes of wood, pointed but not sawn lengthwise/wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking-sticks, umbrellas, tool handles or the like/chipwood and the like";0220103001;0220103001;Chipwood coniferous;0220102001;akhir
+"";A;02201;0220103;"Hoopwood/split poles/piles, pickets and stakes of wood, pointed but not sawn lengthwise/wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking-sticks, umbrellas, tool handles or the like/chipwood and the like";0220103002;0220103002;Chipwood non-coniferous;0220102002;akhir
 "";A;02202;0220201;Fuel wood of coniferous wood;0220201001;0220201001;Fuel wood in logs, in billets, in twigs, in faggots or in similar forms;0220201001;akhir
 "";A;02203;0220301;Wood charcoal;0220301001;0220301001;Wood charcoal, including shell or nut charcoal, whether or not agglomerated;0220301001;akhir
 "";A;02204;0220401;Forestry and logging services on inputs owned by others;0220401001;0220401001;Services related to rubber wood logging such as felling, cutting, debarking, transport of logs within the forest;0240201001;akhir
 "";A;02205;0220501;Roundwood of coniferous wood, sawlogs and veneer logs;0220501001;0220501001;Coniferous round wood;0220101004;akhir
 "";A;02205;0220501;Roundwood of coniferous wood, sawlogs and veneer logs;0220501002;0220501002;Other coniferous ;0220101004;akhir
-"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230101001;0230101001;Bamboos;0230101001;akhir
-"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230101002;0230101002;Bamboo sprout (Rebung);0230101002;akhir
-"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230101003;0230101003;Rattans;0230101003;akhir
-"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230101004;0230101004;Rattans, core, split;0230101004;akhir
-"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230101005;0230101005;Other rattans;0230101006, 0230101005;akhir
+"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding/other vegetable products except cotton linters";0230101001;0230101001;Bamboos;0230101001;akhir
+"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding/other vegetable products except cotton linters";0230101002;0230101002;Bamboo sprout (Rebung);0230101002;akhir
+"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding/other vegetable products except cotton linters";0230101003;0230101003;Rattans;0230101003;akhir
+"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding/other vegetable products except cotton linters";0230101004;0230101004;Rattans, core, split;0230101004;akhir
+"";A;02301;0230101;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding/other vegetable products except cotton linters";0230101005;0230101005;Other rattans;0230101006, 0230101005;akhir
 "";A;02302;0230201;Other edible products of animal origin n.e.c.;0230201001;0230201001;Birds' nests;0230201001;akhir
 "";A;02303;0230301;Other edible roots and tubers with high starch or inulin content, n.e.c.;0230301001;0230301001;Sago pith, fresh or dried;0230301001;akhir
 "";A;02309;0230901;Other fruits, n.e.c.;0230901001;0230901001;Fibres or fruits (eg. Berangan, keranji, kerdas, petai);0230901001;akhir
@@ -835,18 +832,18 @@
 "";A;02309;0230912;Other wild edible products n.e.c.;0230912001;0230912001;Other wild edible non-wood forest products n.e.c.;n.c;akhir
 "";A;02309;0230913;Other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, suitable for ornamental purposes;0230913001;0230913001;Mosses and lichens;0230907001;akhir
 "";A;02309;0230913;Other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, suitable for ornamental purposes;0230913002;0230913002;Other foliage, branches, etc., without flowers or flower buds, fresh;0230907002, 0230907003;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914001;0230914001;Other vegetable materials of a kind used primarily for plaiting;0230101007;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914002;0230914002;Other vegetable materials of a kind used primarily as stuffing or as padding;0230101008;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914003;0230914003;Leaves (eg, bertam, nipah, kajang, kubin, leaflets);0230908001;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914004;0230914004;Oils from jungle wood (eg. Keruing and others);0230908002;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914005;0230914005;Oils from jungle wood (eg. Keruing and others), n.e.c.;0230908002;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914006;0230914006;Roots (eg. akar laka);0230908003;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914007;0230914007;Kapok;0230908004;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914008;0230914008;Other vegetable materials of a kind used primarily in brooms or in brushes;0230908005;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914009;0230914009;Raw vegetable materials of a kind used primarily in dyeing or tanning;0230908006;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914010;0230914010;Acorns and horse-chestnuts;0230908007;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914011;0230914011;Nipa Palm;0230908008;akhir
-"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding; other vegetable products except cotton linters";0230914012;0230914012;Other vegetable products not elsewhere specified or included;0230908009;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914001;0230914001;Other vegetable materials of a kind used primarily for plaiting;0230101007;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914002;0230914002;Other vegetable materials of a kind used primarily as stuffing or as padding;0230101008;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914003;0230914003;Leaves (eg, bertam, nipah, kajang, kubin, leaflets);0230908001;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914004;0230914004;Oils from jungle wood (eg. Keruing and others);0230908002;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914005;0230914005;Oils from jungle wood (eg. Keruing and others), n.e.c.;0230908002;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914006;0230914006;Roots (eg. akar laka);0230908003;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914007;0230914007;Kapok;0230908004;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914008;0230914008;Other vegetable materials of a kind used primarily in brooms or in brushes;0230908005;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914009;0230914009;Raw vegetable materials of a kind used primarily in dyeing or tanning;0230908006;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914010;0230914010;Acorns and horse-chestnuts;0230908007;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914011;0230914011;Nipa Palm;0230908008;akhir
+"";A;02309;0230914;"Vegetable materials of a kind used primarily for plaiting or as stuffing or padding / other vegetable products except cotton linters";0230914012;0230914012;Other vegetable products not elsewhere specified or included;0230908009;akhir
 "";A;02401;0240101;Support services to forestry and logging;0240101001;0240101001;Services related to forestry production such as transplanting, replanting, thinning, forestry inventories, timber evaluation, fire protection;0240101001;akhir
 "";A;02401;0240101;Support services to forestry and logging;0240101002;0240101002;Forest trees nurseries services;0240101002;akhir
 "";A;02402;0240201;Support services to forestry and logging;0240201001;0240201001;Services related to logging such as felling, cutting, debarking, transport of logs within the forest;0240201001;akhir
@@ -984,7 +981,7 @@
 "";A;03113;0311302;Wild sea urchins, live, fresh or chilled;0311302001;0311302001;Wild sea urchins, live, fresh or chilled;0311301003;akhir
 "";A;03113;0311303;Other aquatic invertebrates, live, fresh or chilled, n.e.c.;0311303001;0311303001;Sea squirts;0311301001;akhir
 "";A;03113;0311303;Other aquatic invertebrates, live, fresh or chilled, n.e.c.;0311303002;0311303002;Tunicata;0311301002;akhir
-"";A;03114;0311401;"Fishing vessels; factory ships and other vessels for processing or preserving fishery products";0311401001;0311401001;Activities of vessels engaged in fishing, processing and preserving of fish;3011006003;akhir
+"";A;03114;0311401;"Fishing vessels / factory ships and other vessels for processing or preserving fishery products";0311401001;0311401001;Activities of vessels engaged in fishing, processing and preserving of fish;3011006003;akhir
 "";A;03115;0311501;Coral and similar products, shells of molluscs, crustaceans or echinoderms and cuttle-bone;0311501001;0311501001;Coral and shells, unworked, powder and waste thereof;0311502001;akhir
 "";A;03115;0311502;Wild seaweeds and other algae, fresh, frozen or dried, whether or not ground, fit for human consumption;0311502001;0311502001;Wild seaweeds and other algae;n.c;akhir
 "";A;03115;0311502;Wild seaweeds and other algae, fresh, frozen or dried, whether or not ground, fit for human consumption;0311502002;0311502002;Other marine organisms and materials;n.c;akhir
@@ -8555,7 +8552,6 @@
 "";C;25930;2593004;Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or table ware;2593004002;2593004002;M.S. straines, ladles and burner caps;2593004005;akhir
 "";C;25930;2593004;Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or table ware;2593004003;2593004003;Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or table ware;2593004001;akhir
 "";C;25930;2593004;Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or table ware;2593004004;2593004004;Other sets of assorted articles. Forks;;akhir
-"";";2593004002;;;;;;;;;;";;;;;;;;akhir
 "";C;25930;2593004;Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or table ware;2593004005;2593004005;Cutlery, excluding gold, silver or plated;2593004004;akhir
 "";C;25930;2593005;Hand tools (including hand tools of a kind used in agriculture, horticulture or forestry, hand saws, files, pliers and metal cutting shears, hand-operated spanners, blow-lamps and clamps);2593005001;2593005001;Hand clippers;2593005028;akhir
 "";C;25930;2593005;Hand tools (including hand tools of a kind used in agriculture, horticulture or forestry, hand saws, files, pliers and metal cutting shears, hand-operated spanners, blow-lamps and clamps);2593005002;2593005002;Sawblade;2593005041;akhir
@@ -14209,13 +14205,8 @@
 "";J;59140;5914001;Motion picture projection services;5914001001;5914001001;Motion picture, videotape and similar projection services (analogue or digital) in movie theatres, in open air or in cine-clubs, in private screening rooms or other projection facilities;5914001001;akhir
 "";J;59200;5920001;Music, printed or in manuscript;5920001001;5920001001;Musical compositions in printed form. This includes prints of owned compositions and of those for which the publisher/printer has obtained rights to the composition copyright. Printed compositions are distributed as sheet music, folios or books in printed form or electronic text to wholesalers and retailers for ultimate consumption by consumers.;5920001001;akhir
 "";J;59200;5920002;Musical audio discs, tapes or other physical media;5920002001;5920002001;Physical media (CDs, cassette tapes, vinyl records, etc.) containing recordings of musical sound material;5920002001;akhir
-"";J;59200;5920003;Other non-musical audio discs and tapes;5920003001;5920003001;Physical media (CD-ROM, cassette tapes etc.) containing non-musical audio recordings, such as:;;akhir
-"";• Recordings of speeches;;;;;;;;akhir
-"";• Recordings of sound samples;;;;;;;;akhir
-"";• Recordings of natural sounds or other phenomena, to generate a certain ambience or mood;;;;;;;;akhir
-"";";5920003001;;;;;;;;;;";;;;;;;;akhir
-"";J;59200;5920080;Licensing services for the right to use entertainment, literary or artistic originals;5920080001;5920080001;Licensing services for the right to reproduce, distribute or incorporate entertainment, literary, musical or artistic originals such as:;;akhir
-"";"• broadcasting and showing of original films, sound recordings, radio and television programmes, prerecorded tapes and videos""";5811009001;;;;;;;akhir
+"";J;59200;5920003;Other non-musical audio discs and tapes;5920003001;5920003001;Physical media (CD-ROM, cassette tapes etc.) containing non-musical audio recordings, such as: <br>* Recordings of speeches<br>* Recordings of sound samples<br>* Recordings of natural sounds or other phenomena, to generate a certain ambience or mood;5920003001;akhir
+"";J;59200;5920080;Licensing services for the right to use entertainment, literary or artistic originals;5920080001;5920080001;Licensing services for the right to reproduce, distribute or incorporate entertainment, literary, musical or artistic originals such as:<br>* broadcasting and showing of original films, sound recordings, radio and television programmes, prerecorded tapes and videos;5811009001;akhir
 "";J;59200;5920081;Musical audio downloads;5920081001;5920081001;Electronic files containing musical audio recordings that can be downloaded and stored on a local device;5920004001;akhir
 "";J;59200;5920082;Streamed audio content;5920082001;5920082001;Streamed audio data sent over the Internet.;5920005001;akhir
 "";J;59200;5920083;Publishing, on a fee or contract basis;5920083001;5920083001;Publishing of music and sound recording;5920006001;akhir
