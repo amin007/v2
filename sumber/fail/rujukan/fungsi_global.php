@@ -5,9 +5,9 @@
 if ( ! function_exists('semakPembolehubah')):
 	function semakPembolehubah($senarai,$jadual='entahlah',$p=2)
 	{
-		# semak $senarai adalah array atau tidak
-		$semak = is_array($senarai) ? 'array' : 'bukan';
-		if($semak == 'array'):
+		# semak $senarai adalah tatasusunan atau tidak
+		$semak = is_array($senarai) ? 'tatasusunan' : 'bukan';
+		if($semak === 'tatasusunan'):
 			echo '<pre>$' . $jadual . '=><br>';
 			if($p == '0') print_r($senarai);
 			if($p == '1') var_export($senarai);
