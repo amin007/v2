@@ -1135,9 +1135,7 @@ endif;//*/
 if ( ! function_exists('masukStyle')):
 	function masukStyle($pilih)
 	{
-		$p = '';
-		//semakPembolehubah('function masukStyle','fungsi',2);
-		//semakPembolehubah($pilih,'pilih',2);
+		$p = '';//semakPembolehubah($pilih,'pilih',2);
 		#
 		if ($pilih === 'kodSv-Msic2025vs2008'):
 			$p = "\r\n" . '<style>'
@@ -1162,7 +1160,7 @@ if ( ! function_exists('masukStyle')):
 			//. "\r\n" . 'table.dataTable tbody td:nth-child(5),'
 			//. "\r\n" . 'table.dataTable thead th:nth-child(5),'
 			//. "\r\n" . 'table.dataTable tfoot th:nth-child(5)'
-			//. "\r\n" . '{ background-color: #d8f3dc; hijau muda}*/'
+			//. "\r\n" . '{ background-color: #d8f3dc; /* hijau muda */}*/'
 			//. "\r\n"
 			. "\r\n" . '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(3),'
@@ -1190,7 +1188,7 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . 'table.dataTable tbody td:nth-child(3),'
 			. "\r\n" . 'table.dataTable thead th:nth-child(3),'
 			. "\r\n" . 'table.dataTable tfoot th:nth-child(3)'
-			. "\r\n" . '{ background-color: #d8f3dc; hijau muda}'
+			. "\r\n" . '{ background-color: #d8f3dc; /* hijau muda */}'
 			. "\r\n"
 			. "\r\n" . '/* Medan ke-7 & ke-8 => sirap bandung Muar */'
 			. "\r\n" . 'table.dataTable tbody td:nth-child(6),'
