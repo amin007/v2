@@ -6,6 +6,72 @@ error_reporting(E_ALL);
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('dariCSV2Array01')):
+	function dariCSV2Array01($filename)
+	{
+		# baca fail csv dan convert kepada tatasusunan
+		# https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
+		$data = array();
+		$file = file_get_contents($filename, true);
+		$file = str_replace('"', '', $file);//semakPembolehubah($file,'file',1);
+		$row = explode(PHP_EOL,$file);
+
+		foreach ($row as $key => $val)
+		{
+			$val02 = bersih($val);
+			$data[$key] = explode("|",$val02);
+		}
+		//semakPembolehubah($data,'data');
+
+		return $data;//*/
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('dariCSV2Array02')):
+	function dariCSV2Array02($filename)
+	{
+		# baca fail csv dan convert kepada tatasusunan
+		# https://www.tutorialspoint.com/php/php_function_fgetcsv.htm
+		# https://www.plus2net.com/php_tutorial/string-fgetcsv.php
+		/*	fgetcsv(): Getting data from CSV file
+			fgetcsv(f_pointer,int $length,string $delimiter, string $encloser,string $escape);
+			Parameter : DESCRIPTION
+			f_pointer : Required : a successful file pointer
+			$length : Optional : Must be greater than the maximum line length
+			$delimiter : Optional : One char only
+			$encloser : Optional : Field encloser char
+			$escape : Optional : escape parmeter sets the escape char
+		//*/
+		$file = fopen($filename, "r");
+		while(! feof($file))
+		{
+			$data[] = fgetcsv($file,2000,";");
+		}
+		fclose($file);//semakPembolehubah($data,'data');
+
+		return $data;//*/
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('dariCsv2Array03')):
+	function dariCsv2Array03($filename)
+	{
+		$data = [];
+		$i = 0;
+		if (( $handle = fopen($filename, "r")) !== false)
+		{
+			$columns = fgetcsv($handle, 2000, ",");
+			while ( $row = fgetcsv($handle, 2000, ",") !== false )
+			{
+				$data[$i] = array_combine($columns, $row);
+				$i++;
+			}
+			fclose($handle);
+		}
+		return $data;//*/
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('binaSatuJadualExcelUmum')):
 	function binaSatuJadualExcelUmum($tajuk,$senarai,$pilih)
 	{
@@ -57,23 +123,24 @@ endif;
 ###################################################################################################
 require '../fungsi_global.php';
 ###################################################################################################
-$tajuk['mcpaBandingan'] = '#,SECTION 2025,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
-. 'DESC NEW,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,DESC OLD,CPC 2.0,DESC CPC 2.0,'
-. 'HS 2022 (10D),DESC HS 2022 (10D)';
-$data['mcpaBandingan'] = ImportCSV2Array01($filename = 'mcpa bandingan2.csv');
+$tajuk['mcpaBandinganDua'] = '#,SECTION,MSIC 2025,MCPA 2009v2.0 as at 29.05.2026,'
+. 'MCPA 2009 v2.0 as at 09.06.2026,DESC MCPA 2009 v2.0,MSIC 2008,MCPA 2009,DESC MCPA 2009 v1.1,'
+. 'CPC 2.0,DESC CPC 2.0,CPC 3.0,DESC CPC 3.0,HS 2022 (10D),DESC HS 2022 (10D)';
+$data['mcpaBandinganDua'] = dariCSV2Array01($filename = 'mcpa bandingan2.txt');
 $tajuk['mcpaCorete'] = '#,SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
 . 'MCPA 2009 v2.0-09.06.2026,DESCRIPTION,MCPA 2009v1.1,nota';
-$data['mcpaCorete'] = ImportCSV2Array01($filename = 'mcpa corete.csv');
-$pilih = 'mcpaCorete';
+$data['mcpaCorete'] = dariCSV2Array01($filename = 'mcpa corete.csv');
+$pilih = 'mcpaBandinganDua';
+//$pilih = 'mcpaCorete';
 ###################################################################################################
-//$data['mcpaBandingan1'] = ImportCSV2Array00($fail02);
-//$data['mcpaBandingan2'] = ImportCSV2Array002($fail02);
-//$data['mcpaBandingan3'] = ImportCSV2Array03($fail01);
+//$data['mcpaBandingan1'] = dariCSV2Array00($fail02);
+//$data['mcpaBandingan2'] = dariCSV2Array002($fail02);
+//$data['mcpaBandingan3'] = dariCSV2Array03($fail01);
 #--------------------------------------------------------------------------------------------------
 //semakPembolehubah($fail01,'fail01');
 //semakPembolehubah($pilih,'pilih');
 //semakPembolehubah($tajuk,'tajuk',0);
-//semakPembolehubah($data['mcpaBandingan'],'mcpaBandingan',0);
+//semakPembolehubah($data['mcpaBandinganDua'],'mcpaBandinganDua',0);
 //semakPembolehubah($data['mcpaCorete'],'mcpaCorete',0);
 #--------------------------------------------------------------------------------------------------
 		//define ('URL', dirname('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']));
