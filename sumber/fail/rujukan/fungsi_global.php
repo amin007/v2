@@ -1136,27 +1136,27 @@ if ( ! function_exists('masukStyle')):
 	function masukStyle($pilih)
 	{
 		$p = '';//semakPembolehubah($pilih,'pilih',2);
-		$gayaExcel = "\n\t" . 'table.excel {'
-			. "\n\t" . '	border-style:ridge;'
-			. "\n\t" . '	border-width:1;'
-			. "\n\t" . '	border-collapse:collapse;'
-			. "\n\t" . '	font-family:sans-serif;'
-			. "\n\t" . '	font-size:11px;'
-			. "\n\t" . '}'
-			. "\n\t" . 'table.excel thead th, table.excel tbody th {'
-			. "\n\t" . '	background:#CCCCCC;'
-			. "\n\t" . '	border-style:ridge;'
-			. "\n\t" . '	border-width:1;'
-			. "\n\t" . '	text-align: center;'
-			. "\n\t" . '	vertical-align: top;'
-			. "\n\t" . '}'
-			. "\n\t" . 'table.excel tbody th { text-align:center; vertical-align: top; }'
-			. "\n\t" . 'table.excel tbody td { vertical-align:bottom; }'
-			. "\n\t" . 'table.excel tbody td '
-			. "\n\t" . '{'
-			. "\n\t" . '	padding: 0 3px; border: 2px solid #aaaaaa;'
-			. "\n\t" . '	background:#ffffff;'
-			. "\n\t" . '}';
+		$gayaExcel = "\n" . 'table.excel {'
+			. "\n" . '	border-style:ridge;'
+			. "\n" . '	border-width:1;'
+			. "\n" . '	border-collapse:collapse;'
+			. "\n" . '	font-family:sans-serif;'
+			. "\n" . '	font-size:11px;'
+			. "\n" . '}'
+			. "\n" . 'table.excel thead th, table.excel tbody th {'
+			. "\n" . '	background:#CCCCCC;'
+			. "\n" . '	border-style:ridge;'
+			. "\n" . '	border-width:1;'
+			. "\n" . '	text-align: center;'
+			. "\n" . '	vertical-align: top;'
+			. "\n" . '}'
+			. "\n" . 'table.excel tbody th { text-align:center; vertical-align: top; }'
+			. "\n" . 'table.excel tbody td { vertical-align:bottom; }'
+			. "\n" . 'table.excel tbody td '
+			. "\n" . '{'
+			. "\n" . '	padding: 0 3px; border: 2px solid #aaaaaa;'
+			. "\n" . '	background:#ffffff;'
+			. "\n" . '}';
 		#
 		if ($pilih === 'kodSv-Msic2025vs2008'):
 			$p = "\r\n" . '<style>'
@@ -1246,7 +1246,7 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
 			. "\r\n" . '</style>';
 		elseif ($pilih === 'mcpaBandinganDua') :
-			$p = "\n\t" . '<style type="text/css">' . $gayaExcel
+			$p = "\n" . '<style type="text/css">' . $gayaExcel
 			. "\r\n" . '/* Medan ke-5 => hijau muda */'
 			. "\r\n" . 'table.excel tbody td:nth-child(5),'
 			. "\r\n" . 'table.excel thead th:nth-child(5),'
@@ -1257,9 +1257,9 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . 'table.excel thead th:nth-child(8),'
 			. "\r\n" . 'table.excel tfoot th:nth-child(8)'
 			. "\r\n" . '{ background-color: #f7b2c4; }'
-			. "\n\t" . '</style>';
+			. "\n" . '</style>';
 		elseif ($pilih === 'mcpaCorete') :
-			$p = "\n\t" . '<style type="text/css">' . $gayaExcel
+			$p = "\n" . '<style type="text/css">' . $gayaExcel
 			. "\r\n" . '/* Medan ke-7 => hijau muda */'
 			. "\r\n" . 'table.excel tbody td:nth-child(7),'
 			. "\r\n" . 'table.excel thead th:nth-child(7),'
@@ -1270,7 +1270,7 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . 'table.excel thead th:nth-child(9),'
 			. "\r\n" . 'table.excel tfoot th:nth-child(9)'
 			. "\r\n" . '{ background-color: #f7b2c4; }'
-			. "\n\t" . '</style>';
+			. "\n" . '</style>';
 		else :
 		endif;
 
