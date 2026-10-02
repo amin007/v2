@@ -82,7 +82,7 @@ if ( ! function_exists('binaSatuJadualExcelUmum')):
 		# bina tatasusunan kepada jadual
 		foreach($senarai as $jadual => $row):
 		if($jadual == $pilih):
-			$output = $namaMedan;
+			$output = '<thead>' . $namaMedan . '</thead>';
 			$output .= binaJadualTanpaKepalaKaki($row,$pilih);
 			$output .= binaKakiJadual($row,$pilih);
 			echo '<h2>Kod ' . ucfirst($jadual) . '</h2>'
@@ -123,8 +123,8 @@ endif;
 ###################################################################################################
 require '../fungsi_global.php';
 ###################################################################################################
-$tajuk['mcpaBandinganDua'] = '#,SECTION,MSIC 2025,MCPA 2009v2.0 as at 29.05.2026,'
-. 'MCPA 2009 v2.0 as at 09.06.2026,DESC MCPA 2009 v2.0,MSIC 2008,MCPA 2009,DESC MCPA 2009 v1.1,'
+$tajuk['mcpaBandinganDua'] = '#,S,MSIC 2025,MCPA 2009v2.0 as at 29.05.2026,'
+. 'MCPA 2009v2.0 as at 09.06.2026,DESC MCPA 2009 v2.0,MSIC 2008,MCPA 2009,DESC MCPA 2009 v1.1,'
 . 'CPC 2.0,DESC CPC 2.0,CPC 3.0,DESC CPC 3.0,HS 2022 (10D),DESC HS 2022 (10D)';
 $data['mcpaBandinganDua'] = dariCSV2Array01($filename = 'mcpa bandingan2.txt');
 $tajuk['mcpaCorete'] = '#,SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
@@ -150,12 +150,59 @@ $pilih = 'mcpaBandinganDua';
 		#------------------------------------------------------------------------------------------
 		binaButang($data);//versiphp();
 		#------------------------------------------------------------------------------------------
+		echo '<div class="input-group mb-3 w-50">'
+		. "\n\t" . '<span class="input-group-text"><i class="fa fa-search"></i></span>'
+		. "\n\t" . '<input type="search" id="carian" class="form-control" placeholder="Cari dalam jadual...">'
+		. "\n\t" . '<span class="input-group-text" id="bilanganPadan"></span><!-- / id="bilanganPadan" -->'
+		. "\n\t" . '</div><!-- / class="input-group mb-3 w-50" -->'
+		. "\n\t" . '<style>table.excel span.highlight { background-color: #ffff00; }</style>'
+		. "\n";
+		#------------------------------------------------------------------------------------------
 		echo '<h1>TableExcel - ' . $pilih . ' </h1>';# buat tajuk besar
 		if($pilih != '') binaSatuJadualExcelUmum($tajuk,$data,$pilih);
 		#------------------------------------------------------------------------------------------
 		dibawah($pilih,$urljs);
 		echo "<script>\n";
-		//jqueryExtendA();jqueryExtendB();jqueryExtendC();
+		jqueryExtendA();jqueryExtendB();jqueryExtendC();jqueryCarian();
 		echo "\n</script>\n</body>\n</html>";
 //*/
+#--------------------------------------------------------------------------------------------------
+	function jqueryCarian()
+	{
+		print <<<END
+/* ***************************************************************************************** */
+$(function () {
+	var \$jadual = $('table.excel');
+	var \$baris = \$jadual.find('tbody tr');
+	var pemasa;
+
+	$('#carian').on('input', function () {
+		var kata = $.trim(this.value);
+		clearTimeout(pemasa);
+		pemasa = setTimeout(function () { tapis(kata); }, 200);
+	});
+
+	function tapis(kata) {
+		\$jadual.unhighlight();
+		if (kata === '') {
+			\$baris.show();
+			$('#bilanganPadan').text('');
+			return;
+		}
+		var padan = 0;
+		var kataKecil = kata.toLowerCase();
+		\$baris.each(function () {
+			// td sahaja, supaya nombor baris (th) tidak turut dicari
+			var ada = $(this).find('td').text().toLowerCase().indexOf(kataKecil) > -1;
+			$(this).toggle(ada);
+			if (ada) { padan++; }
+		});
+		\$baris.filter(':visible').highlight(kata);
+		$('#bilanganPadan').text(padan + ' baris');
+	}
+});
+/* ***************************************************************************************** */
+END;
+		#
+	}
 #--------------------------------------------------------------------------------------------------
