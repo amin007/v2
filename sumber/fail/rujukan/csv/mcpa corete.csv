@@ -12630,9 +12630,7 @@
 "";F;42105;4210501;Railways;4210501002;4210501002;Railway electrification structures;4210501002;akhir
 "";F;42105;4210501;Railways;4210501003;4210501003;Control and safety systems for railway tracks;4210501003;akhir
 "";F;42105;4210501;Railways;4210501004;4210501004;Funicular railways and cable car systems;4210501004;akhir
-"";F;42105;4210502;General construction services of railways;4210502001;4210502001;General construction services (construction,repair,alteration and restoration services) for:;;akhir
-"";• railway roadbeds for long-line and commuter rails,street tramways and underground or elevated urban rapid transit systems;;;;;;;;akhir
-"";"• railway electrification structures""";4210502001;;;;;;;akhir
+"";F;42105;4210502;General construction services of railways;4210502001;4210502001;General construction services (construction,repair,alteration and restoration services) for:<br> * railway roadbeds for long-line and commuter rails,street tramways and underground or elevated urban rapid transit systems<br> * railway electrification structures""";4210502001;;;;;;;akhir
 "";F;42105;4210502;General construction services of railways;4210502002;4210502002;General construction services (laying services of ballast and rails);4210502002;akhir
 "";F;42105;4210502;General construction services of railways;4210502003;4210502003;General construction services (installation services of switch gear, points and crossings);4210502003;akhir
 "";F;42105;4210502;General construction services of railways;4210502004;4210502004;General construction services (construction services of control and safety systems for railway tracks);4210502004;akhir
