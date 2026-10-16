@@ -67,8 +67,8 @@ $data['msic2008 notakaki'] = './utama/msic.json';
 . 'Keterangan Inggeris,Status';
 $data['mcpa'] = './kod2026/kod mcpa Semua.json';//*/
 $tajuk['mcpa1dan2'] = '#,SECTION,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
-. 'Keterangan Baru,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,Keterangan Lama,CPC 2.0,DESC CPC 2.0,'
-. 'HS 2022,DESC HS 2022';
+ . 'Keterangan Baru,MSIC 2008,MCPA 2009,Keterangan Lama,CPC 2.0,DESC CPC 2.0,'
+ . 'CPC 3.0,DESC CPC 3.0,HS 2022,DESC HS 2022';
 $data['mcpa1dan2'] = './kod2026/kod mcpa bandingan dua.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
