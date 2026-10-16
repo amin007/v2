@@ -1260,10 +1260,10 @@ if ( ! function_exists('masukStyle')):
 			. "\r\n" . 'table.dataTable tfoot th:nth-child(5)'
 			. "\r\n" . '{ background-color: #d8f3dc; /*hijau muda */}'
 			. "\r\n"
-			. "\r\n" . '/* Medan ke-9 => sirap bandung Muar */'
-			. "\r\n" . 'table.dataTable tbody td:nth-child(10),'
-			. "\r\n" . 'table.dataTable thead th:nth-child(10),'
-			. "\r\n" . 'table.dataTable tfoot th:nth-child(10)'
+			. "\r\n" . '/* Medan ke-8 => sirap bandung Muar */'
+			. "\r\n" . 'table.dataTable tbody td:nth-child(8),'
+			. "\r\n" . 'table.dataTable thead th:nth-child(8),'
+			. "\r\n" . 'table.dataTable tfoot th:nth-child(8)'
 			. "\r\n" . '{ background-color: #f7b2c4; /* pink sirap bandung */ }'
 			. "\r\n" . '</style>';
 		elseif ($pilih === 'mcpaBandinganDua') :
