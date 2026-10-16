@@ -122,6 +122,27 @@ if ( ! function_exists('myUrlEncode')):
 	}
 endif;//*/
 #--------------------------------------------------------------------------------------------------
+if ( ! function_exists('dariCsv2Tatasusunan01')):
+	function dariCsv2Tatasusunan01($pisah,$filename)
+	{
+		# baca fail csv dan convert kepada tatasusunan
+		# https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
+		# $pisah seperti ";" atau "," atau ":" atau "|"
+		$data = array();
+		$file = file_get_contents($filename, true);
+		$file = str_replace('"', '', $file);//semakPembolehubah($file,'file',1);
+		$row = explode(PHP_EOL,$file);
+
+		foreach ($row as $key => $val)
+		{
+			$val02 = bersih($val);
+			$data[$key] = explode($pisah,$val02);
+		}//semakPembolehubah($data,'data');
+
+		return $data;//*/
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
 if ( ! function_exists('ImportCSV2Array01')):
 	function ImportCSV2Array01($filename)
 	{
