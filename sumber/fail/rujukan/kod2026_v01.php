@@ -43,15 +43,21 @@ $tajuk['masco2020'] = '#,kod,keterangan';
 $data['masco2020'] = ImportCSV2Array01($filename = './csv/mascoBM-v06.csv');
 $tajuk['ogcs'] = '#,kod,keterangan ogcs,bahagian';
 $data['ogcs'] = ImportCSV2Array01($filename = './csv/kod ogcs.csv');
+#--------------------------------------------------------------------------------------------------
 $tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,Keterangan Inggeris,Status';
 $data['mcpa'] = ImportCSV2Array01($filename = './csv/kod mcpa newss.csv');
+#--------------------------------------------------------------------------------------------------
 $tajuk['mcpaBandingan'] = '#,SECTION 2025,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
 . 'DESC NEW,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,DESC OLD,CPC 2.0,DESC CPC 2.0,'
 . 'HS 2022 (10D),DESC HS 2022 (10D)';
 $data['mcpaBandingan'] = ImportCSV2Array01($filename = './csv/mcpa bandingan2.csv');
+#--------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 $tajuk['mcpaCorete'] = '#,SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
 . 'MCPA 2009 v2.0-09.06.2026,DESCRIPTION,MCPA 2009v1.1,nota';
 $data['mcpaCorete'] = ImportCSV2Array01($filename = './csv/mcpa corete.csv');
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
 #--------------------------------------------------------------------------------------------------
 /*$tajuk['msic2008 notakaki'] = '#,s,msic,keterangan,msic2000,notakaki';
 $data['msic2008 notakaki'] = './utama/msic.json';
@@ -60,11 +66,15 @@ $data['msic2008 notakaki'] = './utama/msic.json';
 /*$tajuk['mcpa'] = '#,V,Kelas,Item,CPC,HS,SITC,AHTN,Unit,Keterangan Melayu,'
 . 'Keterangan Inggeris,Status';
 $data['mcpa'] = './kod2026/kod mcpa Semua.json';//*/
+$tajuk['mcpa1dan2'] = '#,SECTION,MSIC 2025,MCPA 2009v2.0-29.05.2026,MCPA 2009 v2.0-09.06.2026,'
+. 'Keterangan Baru,CPC 3.0,DESC CPC 3.0,MSIC 2008,MCPA 2009,Keterangan Lama,CPC 2.0,DESC CPC 2.0,'
+. 'HS 2022,DESC HS 2022';
+$data['mcpa1dan2'] = './kod2026/kod mcpa bandingan dua.json';
 #--------------------------------------------------------------------------------------------------
 # setkan tatasusunan yang berkaitan dengan fail json
 $dataPhpJson = ['responBE2026','kp2026','unitKuantitiLampiran16','aup unit kuantiti',
 'bezaUntungRugi'];
-$dataJson = ['msic2008 notakaki','mcpa'];
+$dataJson = ['msic2008 notakaki','mcpa','mcpa1dan2'];
 // buat null sebab tak wujud data json
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
