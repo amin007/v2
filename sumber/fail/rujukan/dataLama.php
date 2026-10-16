@@ -1145,7 +1145,7 @@ $data['daerah'] = [
 ];
 #--------------------------------------------------------------------------------------------------
 // kod bandar
-$data['bandar'] = array(
+$data['bandarLama'] = array(
 	array('','Johor (Kod Negeri: 01)','',''),
 	array('','01 - Johor','01 - Batu Pahat','001 - Bandar Penggaram'),
 	array('','01 - Johor','01 - Batu Pahat','002 - Bandar Penggaram t-bina'),
@@ -1204,12 +1204,12 @@ $data['bandar'] = array(
 	array('','01 - Johor','09 - Kulaijaya','061 - Kangkar Pulai (Sebahagian)'),
 	array('','01 - Johor','09 - Kulaijaya','062 - Ulu Choh (Sebahagian)'),
 	array('','01 - Johor','09 - Kulaijaya','063 - Skudai t-bina'),
-	array('','01 - Johor','10 - Ledang','054 - Bandar Maharani (Sebahagian)'),
-	array('','01 - Johor','10 - Ledang','055 - Bandar Maharani t-bina'),
-	array('','01 - Johor','10 - Ledang','056 - Tangkak'),
-	array('','01 - Johor','10 - Ledang','057 - Tangkak t-bina'),
-	array('','01 - Johor','10 - Ledang','064 - Bukit Gambir'),
-	array('','01 - Johor','10 - Ledang','065 - Bukit Gambir t-bina'),
+	array('','01 - Johor','10 - Tangkak/Ledang','054 - Bandar Maharani (Sebahagian)'),
+	array('','01 - Johor','10 - Tangkak/Ledang','055 - Bandar Maharani t-bina'),
+	array('','01 - Johor','10 - Tangkak/Ledang','056 - Tangkak'),
+	array('','01 - Johor','10 - Tangkak/Ledang','057 - Tangkak t-bina'),
+	array('','01 - Johor','10 - Tangkak/Ledang','064 - Bukit Gambir'),
+	array('','01 - Johor','10 - Tangkak/Ledang','065 - Bukit Gambir t-bina'),
 	array('','Kedah (Kod Negeri: 02)','-','-'),
 	array('','02 - Kedah','01 - Baling','101 - Baling'),
 	array('','02 - Kedah','01 - Baling','102 - Baling t-bina'),
