@@ -6,11 +6,12 @@ error_reporting(E_ALL);
 # 2. isytiharkan zon masa => Asia/Kuala Lumpur
 date_default_timezone_set('Asia/Kuala_Lumpur');
 #--------------------------------------------------------------------------------------------------
-if ( ! function_exists('dariCSV2Array01')):
-	function dariCSV2Array01($filename)
+if ( ! function_exists('dariCsv2Tatasusunan01')):
+	function dariCsv2Tatasusunan01($pisah,$filename)
 	{
 		# baca fail csv dan convert kepada tatasusunan
 		# https://stackoverflow.com/questions/37213674/create-array-from-file-get-contents-value
+		# $pisah seperti ";" atau "," atau ":" atau "|"
 		$data = array();
 		$file = file_get_contents($filename, true);
 		$file = str_replace('"', '', $file);//semakPembolehubah($file,'file',1);
@@ -19,9 +20,8 @@ if ( ! function_exists('dariCSV2Array01')):
 		foreach ($row as $key => $val)
 		{
 			$val02 = bersih($val);
-			$data[$key] = explode("|",$val02);
-		}
-		//semakPembolehubah($data,'data');
+			$data[$key] = explode($pisah,$val02);
+		}//semakPembolehubah($data,'data');
 
 		return $data;//*/
 	}
@@ -126,7 +126,7 @@ require '../fungsi_global.php';
 $tajuk['mcpaBandinganDua'] = '#,S,MSIC 2025,MCPA 2009v2.0 as at 29.05.2026,'
 . 'MCPA 2009v2.0 as at 09.06.2026,DESC MCPA 2009 v2.0,MSIC 2008,MCPA 2009,DESC MCPA 2009 v1.1,'
 . 'CPC 2.0,DESC CPC 2.0,CPC 3.0,DESC CPC 3.0,HS 2022 (10D),DESC HS 2022 (10D)';
-$data['mcpaBandinganDua'] = dariCSV2Array01($filename = 'mcpa bandingan2.txt');
+$data['mcpaBandinganDua'] = dariCsv2Tatasusunan01($filename = 'mcpa bandingan2.txt');
 $tajuk['mcpaCorete'] = '#,SECTION,MSIC 2025,CLASS,CLASS DESCRIPTION,MCPA 2009v2.0-29.05.2026,'
 . 'MCPA 2009 v2.0-09.06.2026,DESCRIPTION,MCPA 2009v1.1,nota';
 $data['mcpaCorete'] = dariCSV2Array01($filename = 'mcpa corete.csv');
