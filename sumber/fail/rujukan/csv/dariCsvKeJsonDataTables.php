@@ -10,8 +10,8 @@ $cariApa = 'mcpaSemua';
 $data[$cariApa] = ImportCSV2Array01($filename = 'kod mcpa newss.csv');//*/
 //$data[$cariApa] = ImportCSV2Array01($filename = '../kod2022/masco2020_tugasan.csv');//*/
 ###################################################################################################
-//$cariApa = 'mcpaBandingan'; $data['mcpaBandingan'] = ImportCSV2Array01($filename = 'mcpa bandingan2.csv');
-$cariApa = 'mcpaCorete'; $data['mcpaCorete'] = ImportCSV2Array01($filename = 'mcpa corete.csv');
+$cariApa = 'mcpaBandingan'; $data['mcpaBandingan'] = dariCsv2Tatasusunan01('|',$filename = 'mcpa bandingan2.txt');
+//$cariApa = 'mcpaCorete'; $data['mcpaCorete'] = ImportCSV2Array01($filename = 'mcpa corete.csv');
 ###################################################################################################
 header('Content-Type: application/json; charset=utf-8');
 binaJson($data,$cariApa);
