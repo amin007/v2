@@ -1721,6 +1721,12 @@ $data['bezaUntungRugi'] = array(
 	array('','POM024','projek belum mula lagi','The project has not started yet'),
 	array('','POM025','permintaan dari sektor automotif terhadap cip komputer',
 	'demand from the automotive sector for computer chips'),
+	array('','POM026','F041708a:Forklif/Motosikal','F041708a:Forklift/Motorcycle'),
+	array('','POM027','F041718a: Barangan kemas, barangan antik dan lukisan',
+	'F041718a:Jewelry, antiques, and paintings'),
+	array('','POM028','F041718a:Semua harta kewangan seperti wang tunai, penghutang dan stok(saham)'
+	. ' dikecualikan','F041718a :All financial assets-such as cash, accounts receivable, and'
+	. ' stocks(shares)—are excluded'),
 	//array('','zzzzzz','zzzzzz','xxxxxx'),
 );# beza untung rugi
 #--------------------------------------------------------------------------------------------------
