@@ -102,6 +102,84 @@ $data['kp2026'] = [
 	['','890','890-Aktiviti Perkhidmatan Lain'],
 ];
 #--------------------------------------------------------------------------------------------------
+//Jenis harta adalah ditakrifkan seperti berikut:-
+$tajuk['hartaAset'] = '#,Kod,Keterangan';
+$data['hartaAset'] = [
+	['','4.0-Takrif Harta','Jenis harta adalah ditakrifkan seperti berikut'],
+	['','4.1-Harta tetap','Harta tetap meliputi semua barang (tanah, bangunan, alat pengangkutan,'
+	. ' teknologi maklumat dan komunikasi, jentera dan kelengkapan dsb.) sama ada baharu atau'
+	. ' terpakai yang mempunyai hayat produktif lebih daripada setahun dan ianya adalah bertujuan'
+	. ' untuk digunakan oleh pertubuhan ini'],
+	['','4.1.1-Tanah','Termasuk nilai tapak tanah dengan tidak mengambil kira pembangunan dan'
+	. ' struktur. (cth. tanah tebus guna dan pesisiran pantai yang ditambak bagi mewujudkan'
+	. ' daratan)'],
+	['','4.1.2-Takrif','Bangunan dan binaan lain'],
+	['','4.1.2(a)-Tempat kediaman','termasuk keseluruhan yang mana pada keseluruhannya atau'
+	. ' sebahagian besarnya terdiri daripada tempat kediaman'],
+	['','4.1.2(b)-Bukan tempat kediaman','adalah bangunan untuk kegunaan perindustrian, awam'
+	. ' dan komersil cth kilang, gudang, bangunan pejabat, stor, restoran, garaj, kedai,'
+	. ' hospital, sekolah dan sebagainya'],
+	['','4.1.2(c)-Binaan lain','termasuk pembinaan atau pengubahsuaian jalan, landasan keretapi,'
+	. ' pembentung, jambatan, pelabuhan, medan letak kereta, saluran paip dan sebagainya'],
+	['','4.1.3-Pembangunan tanah','Termasuk nilai kerja membersih, menyediakan tapak binaan serta'
+	. ' membuat landskap tetapi tidak termasuk nilai tanah sebelum pembangunan dibuat. Ia termasuk'
+	. ' juga perbelanjaan terhadap pembersihan dan tebus guna tanah, tidak kira sama ada ini akan'
+	. ' memberi tambahan kepada keluasan tanah yang ada atau tidak. cth. tali air dan projek'
+	. ' kawalan banjir, empangan dan benteng yang merupakan sebahagian daripada projek ini,'
+	. ' membersihkan dan menanam semula di kawasan kayu balak dan hutan'],
+	['','4.1.4-Alat pengangkutan','Merujuk kepada alat pengangkutan yang digunakan untuk'
+	. ' pemindahan barangan atau orang ke destinasi bagi tujuan perniagaan'],
+	['','4.1.4(a)-Kereta penumpang','Kereta yang digunakan untuk membawa penumpang bagi urusan'
+	. ' perniagaan, termasuk urusan rasmi, perjalanan kerja dan perkhidmatan pengangkutan'
+	. ' penumpang.'],
+	['','4.1.4(b)-Lori, van, pikap dsb','Kenderaan yang digunakan untuk mengangkut barangan,'
+	. ' bahan mentah, peralatan atau produk bagi keperluan perniagaan.'],
+	['','4.1.4(c)-Lain-lain (nyatakan)','Alat pengangkutan lain yang digunakan bagi tujuan'
+	. ' perniagaan tetapi tidak termasuk dalam kategori di atas. Contohnya:'
+	. '<br>1. darat: Motosikal, basikal, beca.'
+	. '<br>2. rel: Kereta api, trem, monorel, MRT, LRT.'
+	. '<br>3. air: Sampan, perahu, bot, feri, kapal laut, kapal kargo, kapal tangki, kapal'
+	. ' selam, hoverkraf.'
+	. '<br>4. udara: Kapal terbang, helikopter, belon udara panas, kapal udara,'
+	. ' pesawat tanpa pemandu.'
+	. '<br>5. kabel: Kereta kabel, gondola udara.'
+	. '<br>6. angkasa: Kapal angkasa'],
+	['','4.1.5-Takrif','Teknologi maklumat dan komunikasi'],
+	['','4.1.5(a)-Perkakasan komputer','Merujuk kepada semua perkakasan prosesan, penyimpanan,'
+	. ' penghantaran data dan maklumat yang berkaitan dengan sistem komputer'],
+	['','4.1.5(b)-Perisian komputer','Merujuk kepada perisian untuk pengoperasian sistem komputer'
+	. ' dan pangkalan data sama ada dibangunkan sendiri, ditempah khas atau dibeli (tidak'
+	. ' ditempah khas)'],
+	['','4.1.5(c)-Peralatan telekomunikasi','Merujuk kepada telefon mudah alih, personal digital'
+	. ' assistants (PDAs), piring satelit, peralatan pandang dengar (cth. radio, televisyen) dan'
+	. ' pemancar dan penerima televisyen / radio lain'],
+	['','4.1.6-Jentera dan kelengkapan','termasuklah jentera penjanaan kuasa, mesin dan kelengkapan'
+	. ' pejabat, jentera pertukangan logam, jentera pembinaan dan jentera industri lain, kren,'
+	. ' forklift dan sebagainya, kontena tahan lama, peralatan dan perkakas yang digunakan oleh'
+	. ' profesional dan jentera serta alat lain termasuk pengubahsuaian besar dan pembaikan'
+	. ' terhadap jentera dan peralatan jenis ini'],
+	['','4.1.7-Perabot dan pemasangan','meliputi semua perkakasan yang diperlukan bagi menghias'
+	. ' dan melengkapkan sesebuah bangunan (cth. kerusi, meja, permaidani dan sebagainya)'],
+	['','4.2-Harta-harta lain','merujuk kepada harta tak ketara yang meliputi paten dan muhibah'],
+	['','4.2.1-Paten','merujuk kepada hak eksklusif kepada pemiliknya untuk membuat ciptaan'
+	. ' mekanikal yang berkuasa untuk beberapa tahun. Paten direkodkan pada kos'],
+	['','4.2.2-Muhibah','wujud daripada nama baik sesebuah syarikat dan kesetiaan pelanggan yang'
+	. ' diperoleh. Apabila sesuatu perniagaan dibeli dengan harga melebihi nilai bersih harta,'
+	. ' maka lebihan ini dianggap sebagai muhibah'],
+	['','4.2.3-Kerja dalam pelaksanaan','Merujuk kepada harta (cth. bangunan, jentera &'
+	. ' kelengkapan dan lain-lain) separuh siap dan masih belum dimodalkan. (cth. jika syarikat'
+	. ' sedang membina aset seperti bangunan yang akan digunakan dalam pengeluaran, dan aset'
+	. ' itu hanya separuh siap, jumlah yang dibelanjakan akan direkodkan sebagai kerja dalam'
+	. ' kemajuan)'],
+	['','4.3-Lain-lain','Meliputi harta lain / perbelanjaan modal, sekiranya ada, yang mungkin'
+	. ' tidak dapat kelaskan di atas (cth. barangan kemas, barangan antik dan lukisan).'
+	. ' Semua harta kewangan seperti wang tunai, penghutang dan stok (saham) dikecualikan'],
+	['','4.4-Jumlah','Sila jumlahkan 4.1.1 hingga 4.3'],
+	['','4.5-Kerja dalam pelaksanaan (terperinci)','Perincian perbelanjaan semasa kerja dalam'
+	. ' pelaksanaan bagi tempoh rujukan mengikut jenis harta iaitu seperti bangunan kediaman,'
+	. ' bangunan bukan kediaman, lain-lain pembinaan, jentera dan kelengkapan dan lain-lain'],
+];
+#--------------------------------------------------------------------------------------------------
 $tajuk['msicAes'] = '#,Seksyen,Subsektor,MSIC 5 Digit,Keterangan MSIC';
 $data['msicAes'] = array(
 	//array('','Seksyen','Subsektor','MSIC 5 Digit','Keterangan MSIC'),
